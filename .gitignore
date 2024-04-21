@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and logs
+*.log
+*.pyc
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# VSCode files #
+###############
+.vscode/
+*.code-workspace
+
+# Virtual environment #
+#######################
+venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+
+# Jupyter Notebook #
+####################
+.ipynb_checkpoints
+
+# PyCharm #
+###########
+.idea/
+
+# Spyder project settings #
+###########################
+.spyderproject
+.spyproject
+
+# Rope project settings #
+#########################
+.ropeproject
+
+# mkdocs documentation #
+########################
+/site
+
+# mypy #
+########
+.mypy_cache/
