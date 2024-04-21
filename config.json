@@ -1,0 +1,22 @@
+{
+	"Groups": {
+		"Group_1": {
+			"Urls": [
+				"http://localhost/testArticle/Test_site_1/Page1.html",
+				"http://localhost/testArticle/Test_site_2/Page2.html"
+			],
+			"Scripts": [
+				"pattern_page1.py",
+				"pattern_page2.py"
+			],
+			"FileName": null
+		}
+	},
+	"Sites": {
+		"Site_3": {
+			"url": "http://localhost/testArticle/Test_site_3/Page3.html",
+			"script": "pattern_page3.py",
+			"FileName": null
+		}
+	}
+}
