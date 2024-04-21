@@ -18,7 +18,7 @@ Before you run the project, you need to have Python installed on your machine. T
 1. Clone the repository:
    ```bash
    git clone https://your-repository-url.git
-   cd your-repository-directory
+   cd Multi-RSS
    ```
 
 2. Install required Python packages:
@@ -75,4 +75,4 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
