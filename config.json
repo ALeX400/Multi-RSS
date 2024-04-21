@@ -2,8 +2,8 @@
 	"Groups": {
 		"Group_1": {
 			"Urls": [
-				"http://localhost/testArticle/Test_site_1/Page1.html",
-				"http://localhost/testArticle/Test_site_2/Page2.html"
+				"http://multi-rss.chickenkiller.com/TestingArticleSite/Page1.html",
+				"http://multi-rss.chickenkiller.com/TestingArticleSite/Page2.html"
 			],
 			"Scripts": [
 				"pattern_page1.py",
@@ -14,7 +14,7 @@
 	},
 	"Sites": {
 		"Site_3": {
-			"url": "http://localhost/testArticle/Test_site_3/Page3.html",
+			"url": "http://multi-rss.chickenkiller.com/TestingArticleSite/Page3.html",
 			"script": "pattern_page3.py",
 			"FileName": null
 		}
