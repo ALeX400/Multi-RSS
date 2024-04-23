@@ -30,11 +30,10 @@ def fetch_article_data(article_url):
 
             content_block = soup.find('div', class_='content-block-regular')
             if content_block:
-                description = content_block.get_text(strip=True)
                 html_string = re.sub(r'\s+', ' ', str(content_block))
                 clean_soup = BeautifulSoup(html_string, 'html.parser')
                 prettified_html = clean_soup.prettify()
-                return prettified_html.strip(), description
+                return prettified_html.strip()
             else:
                 return "Content block not found."
         else:
@@ -63,12 +62,11 @@ def scrape_gamerant_articles(url):
 
                 title = title_element.text.strip()
                 link = 'https://gamerant.com' + title_element['href']
-                content, description = fetch_article_data(link)
+                description = fetch_article_data(link)
 
                 articles_data.append({
                     "title": title,
                     "link": link,
-                    "content": content,
                     "description": description
                 })
 
