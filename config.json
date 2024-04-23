@@ -13,14 +13,9 @@
 		}
 	},
 	"Sites": {
-		"Site_3": {
-			"url": "http://multi-rss.chickenkiller.com/TestingArticleSite/Page3.html",
-			"script": "pattern_page3.py",
-			"FileName": null
-		},
-		"Site_1": {
-			"url": "http://multi-rss.chickenkiller.com/TestingArticleSite/Page1.html",
-			"script": "pattern_page1.py",
+		"GameRant": {
+			"url": "https://gamerant.com/gaming/",
+			"script": "pattern_gamerant.py",
 			"FileName": null
 		}
 	}
