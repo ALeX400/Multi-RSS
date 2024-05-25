@@ -1,3 +1,3 @@
 # Test MD
 
-[Link to another directory](./test).
+[Link to another directory](./rss).
