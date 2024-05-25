@@ -1,16 +1,26 @@
 import requests
 from bs4 import BeautifulSoup
 import re
-from tqdm import tqdm
-import logging
+import json
+import os
+import sys
 
-# Setare pentru logare
-logging.basicConfig(filename='error.log', level=logging.ERROR, format='%(asctime)s:%(levelname)s:%(message)s')
-
-# Header standard pentru requests
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
 }
+
+
+def get_site_name_by_script():
+    with open('config.json', 'r') as file:
+        config = json.load(file)
+    
+    sites = config.get('Sites', {})
+    for site_name, site_info in sites.items():
+        if site_info.get('script') == os.path.basename(__file__):
+            return site_name
+    return None
+
+site_name = get_site_name_by_script()
 
 def fetch_article_data(article_url):
     try:
@@ -18,7 +28,6 @@ def fetch_article_data(article_url):
         if response.status_code == 200:
             soup = BeautifulSoup(response.content, 'html.parser')
 
-            # Cleanup the HTML
             for div in soup.find_all("div", class_=re.compile(r'(ad-zone|w-rich|display-card.*tag|tag.*display-card|ad-odd)')):
                 div.decompose()
             for script_tag in soup.find_all("script"):
@@ -37,10 +46,8 @@ def fetch_article_data(article_url):
             else:
                 return "Content block not found."
         else:
-            logging.error(f"Failed to retrieve content. HTTP status code: {response.status_code}")
             return None
     except Exception as e:
-        logging.error(f"Error retrieving content: {str(e)}")
         return None
 
 def scrape_gamerant_articles(url):
@@ -51,11 +58,20 @@ def scrape_gamerant_articles(url):
 
             articles = soup.select('.sentinel-listing-page-list .display-card.article.small')
             if not articles:
-                logging.error("Article container not found or empty.")
                 return []
-            
+
             articles_data = []
-            for article in tqdm(articles[:5], desc='Processing articles'):
+            progress_bar_length = 30
+            num_articles = len(articles[:5])
+
+            for article_index, article in enumerate(articles[:5]):
+                progress = int(((article_index + 1) / num_articles) * progress_bar_length)
+                loading_bar = '[' + '#' * progress + ' ' * (progress_bar_length - progress) + ']'
+                if article_index + 1 == num_articles:
+                    print(f"Processing articles for '{site_name}': {loading_bar}\n")
+                else:
+                    print(f"Processing articles for '{site_name}': {loading_bar}")
+
                 title_element = article.select_one('.display-card-title a')
                 if not title_element:
                     continue
@@ -69,13 +85,10 @@ def scrape_gamerant_articles(url):
                     "link": link,
                     "description": description
                 })
-
             return articles_data
         else:
-            logging.error(f"Failed to fetch page, status code: {response.status_code}")
             return []
     except Exception as e:
-        logging.error(f"Error during scraping: {str(e)}")
         return []
 
 def fetch_data(url):
