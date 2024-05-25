@@ -1,0 +1,25 @@
+{
+	"Groups": {
+		"Group_1": {
+			"Urls": [
+				"https://example.com/Page1.html",
+				"https://example.com/Page2.html"
+			],
+			"Scripts": [
+				"example_pattern_page1.py",
+				"example_pattern_page2.py"
+			],
+			"FileName": "Group 1"
+			// null for retive filename from Key name, ex: 'Group_1'
+			//"FileName": null
+		}
+	},
+	"Sites": {
+		"GameRant": {
+			"url": "https://example.com/Page1.html",
+			"script": "example_pattern_page1.py",
+			"FileName": null
+		}
+	}
+
+}

@@ -1,17 +1,4 @@
 {
-	"Groups": {
-		"Group_1": {
-			"Urls": [
-				"http://multi-rss.chickenkiller.com/TestingArticleSite/Page1.html",
-				"http://multi-rss.chickenkiller.com/TestingArticleSite/Page2.html"
-			],
-			"Scripts": [
-				"pattern_page1.py",
-				"pattern_page2.py"
-			],
-			"FileName": null
-		}
-	},
 	"Sites": {
 		"GameRant": {
 			"url": "https://gamerant.com/gaming/",
@@ -19,5 +6,4 @@
 			"FileName": null
 		}
 	}
-
 }
