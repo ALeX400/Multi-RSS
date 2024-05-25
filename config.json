@@ -1,7 +1,12 @@
 {
 	"Sites": {
+		"ETS2 World": {
+			"url": "http://www.ets2world.com/",
+			"script": "pattern_ets2world.py",
+			"FileName": "ets2world.xml"
+		},
 		"GameRant": {
-			"url": "https://gamerant.com/gaming/",
+			"url": "https://gamerant.com/games/",
 			"script": "pattern_gamerant.py",
 			"FileName": null
 		}
