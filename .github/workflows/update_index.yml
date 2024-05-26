@@ -25,7 +25,7 @@ jobs:
 
       - name: Delete remote temp-branch if it exists
         run: |
-          git push origin --delete temp-branch || true
+          git branch --delete temp-branch || true
 
       - name: Commit and push changes to temporary branch
         run: |
