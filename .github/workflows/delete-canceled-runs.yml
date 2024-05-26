@@ -17,5 +17,5 @@ jobs:
       - name: Delete canceled workflow runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           retain_days: 0
