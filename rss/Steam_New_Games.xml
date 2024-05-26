@@ -3,7 +3,25 @@
 		<item>
 			<title>Ghost of Tsushima DIRECTOR'S CUT</title>
 			<link>https://store.steampowered.com/app/2215430/Ghost_of_Tsushima_DIRECTORS_CUT/</link>
-			<description><![CDATA[<div class="details_block" id="genresAndManufacturer">
+			<description><![CDATA[<style>
+						.sys_req_container {
+								display: flex;
+								flex-wrap: wrap;
+								margin-bottom: 10px;
+						}
+						.sys_req_left_col, .sys_req_right_col {
+								flex: 1;
+								padding: 10px;
+								box-sizing: border-box;
+						}
+						.sys_req_left_col {
+								border-right: 1px solid #ccc;
+						}
+						.sys_req_right_col {
+								border-left: 1px solid #ccc;
+						}
+						</style>
+						<div class="details_block" id="genresAndManufacturer">
  <b>
 	Title:
  </b>
@@ -126,9 +144,6 @@
 	</i>
  </p>
 </div>
-<style>
- .sys_req_container { display: flex; flex-wrap: wrap; margin-bottom: 10px; } .sys_req_left_col, .sys_req_right_col { flex: 1; padding: 10px; box-sizing: border-box; } .sys_req_left_col { border-right: 1px solid #ccc; } .sys_req_right_col { border-left: 1px solid #ccc; }
-</style>
 <br/>
 <br/>
 <center>
@@ -137,124 +152,124 @@
  </h2>
 </center>
 <div data-ipsSpoiler>
- <h3>
-	Windows:
- </h3>
+ <center>
+	<h3>
+	 Windows:
+	</h3>
+ </center>
  <div data-ipsSpoiler>
-	<center>
-	 <div class="sys_req_container">
-		<div class="sys_req_left_col">
-		 <ul>
-			<strong>
-			 Minimum:
-			</strong>
-			<br/>
-			<ul class="bb_ul">
-			 <li>
-				Requires a 64-bit processor and operating system
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 OS:
-				</strong>
-				Windows 10 64-bit
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Processor:
-				</strong>
-				Intel Core i3-7100 or AMD Ryzen 3 1200
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Memory:
-				</strong>
-				8 GB RAM
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Graphics:
-				</strong>
-				NVIDIA GeForce GTX 960 or AMD Radeon RX 5500 XT
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Storage:
-				</strong>
-				75 GB available space
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Additional Notes:
-				</strong>
-				SSD Recommended
-			 </li>
-			</ul>
+	<div class="sys_req_container">
+	 <div class="sys_req_left_col">
+		<ul>
+		 <strong>
+			Minimum:
+		 </strong>
+		 <br/>
+		 <ul class="bb_ul">
+			<li>
+			 Requires a 64-bit processor and operating system
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				OS:
+			 </strong>
+			 Windows 10 64-bit
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Processor:
+			 </strong>
+			 Intel Core i3-7100 or AMD Ryzen 3 1200
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Memory:
+			 </strong>
+			 8 GB RAM
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Graphics:
+			 </strong>
+			 NVIDIA GeForce GTX 960 or AMD Radeon RX 5500 XT
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Storage:
+			 </strong>
+			 75 GB available space
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Additional Notes:
+			 </strong>
+			 SSD Recommended
+			</li>
 		 </ul>
-		</div>
-		<div class="sys_req_right_col">
-		 <ul>
-			<strong>
-			 Recommended:
-			</strong>
-			<br/>
-			<ul class="bb_ul">
-			 <li>
-				Requires a 64-bit processor and operating system
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 OS:
-				</strong>
-				Windows 10 64-bit
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Processor:
-				</strong>
-				Intel Core i5-8600 or AMD Ryzen 5 3600
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Memory:
-				</strong>
-				16 GB RAM
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Graphics:
-				</strong>
-				NVIDIA GeForce RTX 2060 or AMD Radeon RX 5600 XT
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Storage:
-				</strong>
-				75 GB available space
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Additional Notes:
-				</strong>
-				SSD Required
-			 </li>
-			</ul>
-		 </ul>
-		</div>
+		</ul>
 	 </div>
-	</center>
+	 <div class="sys_req_right_col">
+		<ul>
+		 <strong>
+			Recommended:
+		 </strong>
+		 <br/>
+		 <ul class="bb_ul">
+			<li>
+			 Requires a 64-bit processor and operating system
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				OS:
+			 </strong>
+			 Windows 10 64-bit
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Processor:
+			 </strong>
+			 Intel Core i5-8600 or AMD Ryzen 5 3600
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Memory:
+			 </strong>
+			 16 GB RAM
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Graphics:
+			 </strong>
+			 NVIDIA GeForce RTX 2060 or AMD Radeon RX 5600 XT
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Storage:
+			 </strong>
+			 75 GB available space
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Additional Notes:
+			 </strong>
+			 SSD Required
+			</li>
+		 </ul>
+		</ul>
+	 </div>
+	</div>
  </div>
 </div>
 <br/>
@@ -263,7 +278,25 @@
 		<item>
 			<title>ELDEN RING</title>
 			<link>https://store.steampowered.com/app/1245620/ELDEN_RING/</link>
-			<description><![CDATA[<div class="details_block" id="genresAndManufacturer">
+			<description><![CDATA[<style>
+						.sys_req_container {
+								display: flex;
+								flex-wrap: wrap;
+								margin-bottom: 10px;
+						}
+						.sys_req_left_col, .sys_req_right_col {
+								flex: 1;
+								padding: 10px;
+								box-sizing: border-box;
+						}
+						.sys_req_left_col {
+								border-right: 1px solid #ccc;
+						}
+						.sys_req_right_col {
+								border-left: 1px solid #ccc;
+						}
+						</style>
+						<div class="details_block" id="genresAndManufacturer">
  <b>
 	Title:
  </b>
@@ -356,9 +389,6 @@
 	</i>
  </p>
 </div>
-<style>
- .sys_req_container { display: flex; flex-wrap: wrap; margin-bottom: 10px; } .sys_req_left_col, .sys_req_right_col { flex: 1; padding: 10px; box-sizing: border-box; } .sys_req_left_col { border-right: 1px solid #ccc; } .sys_req_right_col { border-left: 1px solid #ccc; }
-</style>
 <br/>
 <br/>
 <center>
@@ -367,150 +397,150 @@
  </h2>
 </center>
 <div data-ipsSpoiler>
- <h3>
-	Windows:
- </h3>
+ <center>
+	<h3>
+	 Windows:
+	</h3>
+ </center>
  <div data-ipsSpoiler>
-	<center>
-	 <div class="sys_req_container">
-		<div class="sys_req_left_col">
-		 <ul>
-			<strong>
-			 Minimum:
-			</strong>
-			<br/>
-			<ul class="bb_ul">
-			 <li>
-				Requires a 64-bit processor and operating system
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 OS:
-				</strong>
-				Windows 10
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Processor:
-				</strong>
-				INTEL CORE I5-8400 or AMD RYZEN 3 3300X
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Memory:
-				</strong>
-				12 GB RAM
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Graphics:
-				</strong>
-				NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 DirectX:
-				</strong>
-				Version 12
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Storage:
-				</strong>
-				60 GB available space
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Sound Card:
-				</strong>
-				Windows Compatible Audio Device
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Additional Notes:
-				</strong>
-			 </li>
-			</ul>
+	<div class="sys_req_container">
+	 <div class="sys_req_left_col">
+		<ul>
+		 <strong>
+			Minimum:
+		 </strong>
+		 <br/>
+		 <ul class="bb_ul">
+			<li>
+			 Requires a 64-bit processor and operating system
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				OS:
+			 </strong>
+			 Windows 10
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Processor:
+			 </strong>
+			 INTEL CORE I5-8400 or AMD RYZEN 3 3300X
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Memory:
+			 </strong>
+			 12 GB RAM
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Graphics:
+			 </strong>
+			 NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				DirectX:
+			 </strong>
+			 Version 12
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Storage:
+			 </strong>
+			 60 GB available space
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Sound Card:
+			 </strong>
+			 Windows Compatible Audio Device
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Additional Notes:
+			 </strong>
+			</li>
 		 </ul>
-		</div>
-		<div class="sys_req_right_col">
-		 <ul>
-			<strong>
-			 Recommended:
-			</strong>
-			<br/>
-			<ul class="bb_ul">
-			 <li>
-				Requires a 64-bit processor and operating system
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 OS:
-				</strong>
-				Windows 10/11
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Processor:
-				</strong>
-				INTEL CORE I7-8700K or AMD RYZEN 5 3600X
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Memory:
-				</strong>
-				16 GB RAM
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Graphics:
-				</strong>
-				NVIDIA GEFORCE GTX 1070 8 GB or AMD RADEON RX VEGA 56 8 GB
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 DirectX:
-				</strong>
-				Version 12
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Storage:
-				</strong>
-				60 GB available space
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Sound Card:
-				</strong>
-				Windows Compatible Audio Device
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Additional Notes:
-				</strong>
-			 </li>
-			</ul>
-		 </ul>
-		</div>
+		</ul>
 	 </div>
-	</center>
+	 <div class="sys_req_right_col">
+		<ul>
+		 <strong>
+			Recommended:
+		 </strong>
+		 <br/>
+		 <ul class="bb_ul">
+			<li>
+			 Requires a 64-bit processor and operating system
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				OS:
+			 </strong>
+			 Windows 10/11
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Processor:
+			 </strong>
+			 INTEL CORE I7-8700K or AMD RYZEN 5 3600X
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Memory:
+			 </strong>
+			 16 GB RAM
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Graphics:
+			 </strong>
+			 NVIDIA GEFORCE GTX 1070 8 GB or AMD RADEON RX VEGA 56 8 GB
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				DirectX:
+			 </strong>
+			 Version 12
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Storage:
+			 </strong>
+			 60 GB available space
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Sound Card:
+			 </strong>
+			 Windows Compatible Audio Device
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Additional Notes:
+			 </strong>
+			</li>
+		 </ul>
+		</ul>
+	 </div>
+	</div>
  </div>
 </div>
 <br/>
@@ -519,7 +549,25 @@
 		<item>
 			<title>Destiny 2</title>
 			<link>https://store.steampowered.com/app/1085660/Destiny_2/</link>
-			<description><![CDATA[<div class="details_block" id="genresAndManufacturer">
+			<description><![CDATA[<style>
+						.sys_req_container {
+								display: flex;
+								flex-wrap: wrap;
+								margin-bottom: 10px;
+						}
+						.sys_req_left_col, .sys_req_right_col {
+								flex: 1;
+								padding: 10px;
+								box-sizing: border-box;
+						}
+						.sys_req_left_col {
+								border-right: 1px solid #ccc;
+						}
+						.sys_req_right_col {
+								border-left: 1px solid #ccc;
+						}
+						</style>
+						<div class="details_block" id="genresAndManufacturer">
  <b>
 	Title:
  </b>
@@ -647,9 +695,6 @@
  Thousands of weapons, millions of options. Discover new gear combinations and define your own personal style. The hunt for the perfect arsenal begins.
 </div>
 Descrierea conținutului pentru adulți indisponibilă.
-<style>
- .sys_req_container { display: flex; flex-wrap: wrap; margin-bottom: 10px; } .sys_req_left_col, .sys_req_right_col { flex: 1; padding: 10px; box-sizing: border-box; } .sys_req_left_col { border-right: 1px solid #ccc; } .sys_req_right_col { border-left: 1px solid #ccc; }
-</style>
 <br/>
 <br/>
 <center>
@@ -658,138 +703,138 @@ Descrierea conținutului pentru adulți indisponibilă.
  </h2>
 </center>
 <div data-ipsSpoiler>
- <h3>
-	Windows:
- </h3>
+ <center>
+	<h3>
+	 Windows:
+	</h3>
+ </center>
  <div data-ipsSpoiler>
-	<center>
-	 <div class="sys_req_container">
-		<div class="sys_req_left_col">
-		 <ul>
-			<strong>
-			 Minimum:
-			</strong>
-			<br/>
-			<ul class="bb_ul">
-			 <li>
-				Requires a 64-bit processor and operating system
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 OS *:
-				</strong>
-				Windows® 7 / Windows® 8.1 / Windows® 10 64-bit (latest Service Pack)
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Processor:
-				</strong>
-				Intel® Core™ i3 3250 3.5 GHz or Intel Pentium G4560 3.5 GHz / AMD FX-4350 4.2 GHz
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Memory:
-				</strong>
-				6 GB RAM
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Graphics:
-				</strong>
-				NVIDIA® GeForce® GTX 660 2GB or GTX 1050 2GB / AMD Radeon HD 7850 2GB
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Network:
-				</strong>
-				Broadband Internet connection
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Storage:
-				</strong>
-				105 GB available space
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Additional Notes:
-				</strong>
-				Beginning on June 4, 2024, Destiny 2 is ending support for Windows 7, Windows 8, and Windows 8.1 operating systems.
-			 </li>
-			</ul>
+	<div class="sys_req_container">
+	 <div class="sys_req_left_col">
+		<ul>
+		 <strong>
+			Minimum:
+		 </strong>
+		 <br/>
+		 <ul class="bb_ul">
+			<li>
+			 Requires a 64-bit processor and operating system
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				OS *:
+			 </strong>
+			 Windows® 7 / Windows® 8.1 / Windows® 10 64-bit (latest Service Pack)
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Processor:
+			 </strong>
+			 Intel® Core™ i3 3250 3.5 GHz or Intel Pentium G4560 3.5 GHz / AMD FX-4350 4.2 GHz
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Memory:
+			 </strong>
+			 6 GB RAM
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Graphics:
+			 </strong>
+			 NVIDIA® GeForce® GTX 660 2GB or GTX 1050 2GB / AMD Radeon HD 7850 2GB
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Network:
+			 </strong>
+			 Broadband Internet connection
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Storage:
+			 </strong>
+			 105 GB available space
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Additional Notes:
+			 </strong>
+			 Beginning on June 4, 2024, Destiny 2 is ending support for Windows 7, Windows 8, and Windows 8.1 operating systems.
+			</li>
 		 </ul>
-		</div>
-		<div class="sys_req_right_col">
-		 <ul>
-			<strong>
-			 Recommended:
-			</strong>
-			<br/>
-			<ul class="bb_ul">
-			 <li>
-				Requires a 64-bit processor and operating system
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 OS *:
-				</strong>
-				Windows® 7 / Windows® 8.1 / Windows® 10 64-bit (latest Service Pack)
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Processor:
-				</strong>
-				Processor Intel® Core™ i5 2400 3.4 GHz or i5 7400 3.5 GHz / AMD Ryzen R5 1600X 3.6 GHz
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Memory:
-				</strong>
-				8 GB RAM
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Graphics:
-				</strong>
-				NVIDIA® GeForce® GTX 970 4GB or GTX 1060 6GB / AMD R9 390 8GB Memory 8 GB RAM
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Network:
-				</strong>
-				Broadband Internet connection
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Storage:
-				</strong>
-				105 GB available space
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Additional Notes:
-				</strong>
-				Beginning on June 4, 2024, Destiny 2 is ending support for Windows 7, Windows 8, and Windows 8.1 operating systems.
-			 </li>
-			</ul>
-		 </ul>
-		</div>
+		</ul>
 	 </div>
-	</center>
+	 <div class="sys_req_right_col">
+		<ul>
+		 <strong>
+			Recommended:
+		 </strong>
+		 <br/>
+		 <ul class="bb_ul">
+			<li>
+			 Requires a 64-bit processor and operating system
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				OS *:
+			 </strong>
+			 Windows® 7 / Windows® 8.1 / Windows® 10 64-bit (latest Service Pack)
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Processor:
+			 </strong>
+			 Processor Intel® Core™ i5 2400 3.4 GHz or i5 7400 3.5 GHz / AMD Ryzen R5 1600X 3.6 GHz
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Memory:
+			 </strong>
+			 8 GB RAM
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Graphics:
+			 </strong>
+			 NVIDIA® GeForce® GTX 970 4GB or GTX 1060 6GB / AMD R9 390 8GB Memory 8 GB RAM
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Network:
+			 </strong>
+			 Broadband Internet connection
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Storage:
+			 </strong>
+			 105 GB available space
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Additional Notes:
+			 </strong>
+			 Beginning on June 4, 2024, Destiny 2 is ending support for Windows 7, Windows 8, and Windows 8.1 operating systems.
+			</li>
+		 </ul>
+		</ul>
+	 </div>
+	</div>
  </div>
 </div>
 <br/>
@@ -798,7 +843,25 @@ Descrierea conținutului pentru adulți indisponibilă.
 		<item>
 			<title>Cyberpunk 2077</title>
 			<link>https://store.steampowered.com/app/1091500/Cyberpunk_2077/</link>
-			<description><![CDATA[<div class="details_block" id="genresAndManufacturer">
+			<description><![CDATA[<style>
+						.sys_req_container {
+								display: flex;
+								flex-wrap: wrap;
+								margin-bottom: 10px;
+						}
+						.sys_req_left_col, .sys_req_right_col {
+								flex: 1;
+								padding: 10px;
+								box-sizing: border-box;
+						}
+						.sys_req_left_col {
+								border-right: 1px solid #ccc;
+						}
+						.sys_req_right_col {
+								border-left: 1px solid #ccc;
+						}
+						</style>
+						<div class="details_block" id="genresAndManufacturer">
  <b>
 	Title:
  </b>
@@ -916,9 +979,6 @@ Descrierea conținutului pentru adulți indisponibilă.
 	</i>
  </p>
 </div>
-<style>
- .sys_req_container { display: flex; flex-wrap: wrap; margin-bottom: 10px; } .sys_req_left_col, .sys_req_right_col { flex: 1; padding: 10px; box-sizing: border-box; } .sys_req_left_col { border-right: 1px solid #ccc; } .sys_req_right_col { border-left: 1px solid #ccc; }
-</style>
 <br/>
 <br/>
 <center>
@@ -927,138 +987,138 @@ Descrierea conținutului pentru adulți indisponibilă.
  </h2>
 </center>
 <div data-ipsSpoiler>
- <h3>
-	Windows:
- </h3>
+ <center>
+	<h3>
+	 Windows:
+	</h3>
+ </center>
  <div data-ipsSpoiler>
-	<center>
-	 <div class="sys_req_container">
-		<div class="sys_req_left_col">
-		 <ul>
-			<strong>
-			 Minimum:
-			</strong>
-			<br/>
-			<ul class="bb_ul">
-			 <li>
-				Requires a 64-bit processor and operating system
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 OS:
-				</strong>
-				64-bit Windows 10
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Processor:
-				</strong>
-				Core i7-6700 or Ryzen 5 1600
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Memory:
-				</strong>
-				12 GB RAM
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Graphics:
-				</strong>
-				GeForce GTX 1060 6GB or Radeon RX 580 8GB or Arc A380
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 DirectX:
-				</strong>
-				Version 12
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Storage:
-				</strong>
-				70 GB available space
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Additional Notes:
-				</strong>
-				SSD required. Attention: In this game you will encounter a variety of visual effects that may provide seizures or loss of consciousness in a minority of people. If you or someone you know experiences any of the above symptoms while playing, stop and seek medical attention immediately.
-			 </li>
-			</ul>
+	<div class="sys_req_container">
+	 <div class="sys_req_left_col">
+		<ul>
+		 <strong>
+			Minimum:
+		 </strong>
+		 <br/>
+		 <ul class="bb_ul">
+			<li>
+			 Requires a 64-bit processor and operating system
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				OS:
+			 </strong>
+			 64-bit Windows 10
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Processor:
+			 </strong>
+			 Core i7-6700 or Ryzen 5 1600
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Memory:
+			 </strong>
+			 12 GB RAM
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Graphics:
+			 </strong>
+			 GeForce GTX 1060 6GB or Radeon RX 580 8GB or Arc A380
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				DirectX:
+			 </strong>
+			 Version 12
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Storage:
+			 </strong>
+			 70 GB available space
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Additional Notes:
+			 </strong>
+			 SSD required. Attention: In this game you will encounter a variety of visual effects that may provide seizures or loss of consciousness in a minority of people. If you or someone you know experiences any of the above symptoms while playing, stop and seek medical attention immediately.
+			</li>
 		 </ul>
-		</div>
-		<div class="sys_req_right_col">
-		 <ul>
-			<strong>
-			 Recommended:
-			</strong>
-			<br/>
-			<ul class="bb_ul">
-			 <li>
-				Requires a 64-bit processor and operating system
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 OS:
-				</strong>
-				64-bit Windows 10
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Processor:
-				</strong>
-				Core i7-12700 or Ryzen 7 7800X3D
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Memory:
-				</strong>
-				16 GB RAM
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Graphics:
-				</strong>
-				GeForce RTX 2060 SUPER or Radeon RX 5700 XT or Arc A770
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 DirectX:
-				</strong>
-				Version 12
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Storage:
-				</strong>
-				70 GB available space
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Additional Notes:
-				</strong>
-				SSD required.
-			 </li>
-			</ul>
-		 </ul>
-		</div>
+		</ul>
 	 </div>
-	</center>
+	 <div class="sys_req_right_col">
+		<ul>
+		 <strong>
+			Recommended:
+		 </strong>
+		 <br/>
+		 <ul class="bb_ul">
+			<li>
+			 Requires a 64-bit processor and operating system
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				OS:
+			 </strong>
+			 64-bit Windows 10
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Processor:
+			 </strong>
+			 Core i7-12700 or Ryzen 7 7800X3D
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Memory:
+			 </strong>
+			 16 GB RAM
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Graphics:
+			 </strong>
+			 GeForce RTX 2060 SUPER or Radeon RX 5700 XT or Arc A770
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				DirectX:
+			 </strong>
+			 Version 12
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Storage:
+			 </strong>
+			 70 GB available space
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Additional Notes:
+			 </strong>
+			 SSD required.
+			</li>
+		 </ul>
+		</ul>
+	 </div>
+	</div>
  </div>
 </div>
 <br/>
@@ -1067,7 +1127,25 @@ Descrierea conținutului pentru adulți indisponibilă.
 		<item>
 			<title>Baldur's Gate 3</title>
 			<link>https://store.steampowered.com/app/1086940/Baldurs_Gate_3/</link>
-			<description><![CDATA[<div class="details_block" id="genresAndManufacturer">
+			<description><![CDATA[<style>
+						.sys_req_container {
+								display: flex;
+								flex-wrap: wrap;
+								margin-bottom: 10px;
+						}
+						.sys_req_left_col, .sys_req_right_col {
+								flex: 1;
+								padding: 10px;
+								box-sizing: border-box;
+						}
+						.sys_req_left_col {
+								border-right: 1px solid #ccc;
+						}
+						.sys_req_right_col {
+								border-left: 1px solid #ccc;
+						}
+						</style>
+						<div class="details_block" id="genresAndManufacturer">
  <b>
 	Title:
  </b>
@@ -1219,9 +1297,6 @@ Descrierea conținutului pentru adulți indisponibilă.
 	</i>
  </p>
 </div>
-<style>
- .sys_req_container { display: flex; flex-wrap: wrap; margin-bottom: 10px; } .sys_req_left_col, .sys_req_right_col { flex: 1; padding: 10px; box-sizing: border-box; } .sys_req_left_col { border-right: 1px solid #ccc; } .sys_req_right_col { border-left: 1px solid #ccc; }
-</style>
 <br/>
 <br/>
 <center>
@@ -1230,249 +1305,249 @@ Descrierea conținutului pentru adulți indisponibilă.
  </h2>
 </center>
 <div data-ipsSpoiler>
- <h3>
-	Windows:
- </h3>
+ <center>
+	<h3>
+	 Windows:
+	</h3>
+ </center>
  <div data-ipsSpoiler>
-	<center>
-	 <div class="sys_req_container">
-		<div class="sys_req_left_col">
-		 <ul>
-			<strong>
-			 Minimum:
-			</strong>
-			<br/>
-			<ul class="bb_ul">
-			 <li>
-				Requires a 64-bit processor and operating system
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 OS:
-				</strong>
-				Windows 10 64-bit
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Processor:
-				</strong>
-				Intel I5 4690 / AMD FX 8350
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Memory:
-				</strong>
-				8 GB RAM
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Graphics:
-				</strong>
-				Nvidia GTX 970 / RX 480 (4GB+ of VRAM)
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 DirectX:
-				</strong>
-				Version 11
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Storage:
-				</strong>
-				150 GB available space
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Additional Notes:
-				</strong>
-				SSD required
-			 </li>
-			</ul>
+	<div class="sys_req_container">
+	 <div class="sys_req_left_col">
+		<ul>
+		 <strong>
+			Minimum:
+		 </strong>
+		 <br/>
+		 <ul class="bb_ul">
+			<li>
+			 Requires a 64-bit processor and operating system
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				OS:
+			 </strong>
+			 Windows 10 64-bit
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Processor:
+			 </strong>
+			 Intel I5 4690 / AMD FX 8350
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Memory:
+			 </strong>
+			 8 GB RAM
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Graphics:
+			 </strong>
+			 Nvidia GTX 970 / RX 480 (4GB+ of VRAM)
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				DirectX:
+			 </strong>
+			 Version 11
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Storage:
+			 </strong>
+			 150 GB available space
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Additional Notes:
+			 </strong>
+			 SSD required
+			</li>
 		 </ul>
-		</div>
-		<div class="sys_req_right_col">
-		 <ul>
-			<strong>
-			 Recommended:
-			</strong>
-			<br/>
-			<ul class="bb_ul">
-			 <li>
-				Requires a 64-bit processor and operating system
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 OS:
-				</strong>
-				Windows 10 64-bit
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Processor:
-				</strong>
-				Intel i7 8700K / AMD r5 3600
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Memory:
-				</strong>
-				16 GB RAM
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Graphics:
-				</strong>
-				Nvidia 2060 Super / RX 5700 XT (8GB+ of VRAM)
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 DirectX:
-				</strong>
-				Version 11
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Storage:
-				</strong>
-				150 GB available space
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Additional Notes:
-				</strong>
-				SSD required
-			 </li>
-			</ul>
-		 </ul>
-		</div>
+		</ul>
 	 </div>
-	</center>
+	 <div class="sys_req_right_col">
+		<ul>
+		 <strong>
+			Recommended:
+		 </strong>
+		 <br/>
+		 <ul class="bb_ul">
+			<li>
+			 Requires a 64-bit processor and operating system
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				OS:
+			 </strong>
+			 Windows 10 64-bit
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Processor:
+			 </strong>
+			 Intel i7 8700K / AMD r5 3600
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Memory:
+			 </strong>
+			 16 GB RAM
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Graphics:
+			 </strong>
+			 Nvidia 2060 Super / RX 5700 XT (8GB+ of VRAM)
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				DirectX:
+			 </strong>
+			 Version 11
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Storage:
+			 </strong>
+			 150 GB available space
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Additional Notes:
+			 </strong>
+			 SSD required
+			</li>
+		 </ul>
+		</ul>
+	 </div>
+	</div>
  </div>
- <h3>
-	MacOS:
- </h3>
+ <center>
+	<h3>
+	 MacOS:
+	</h3>
+ </center>
  <div data-ipsSpoiler>
-	<center>
-	 <div class="sys_req_container">
-		<div class="sys_req_left_col">
-		 <ul>
-			<strong>
-			 Minimum:
-			</strong>
-			<br/>
-			<ul class="bb_ul">
-			 <li>
-				<strong>
-				 OS:
-				</strong>
-				macOS 12 or newer
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Processor:
-				</strong>
-				Apple M1
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Memory:
-				</strong>
-				8 GB RAM
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Graphics:
-				</strong>
-				Apple M1
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Storage:
-				</strong>
-				150 GB available space
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Additional Notes:
-				</strong>
-				Min specs can run the game on low to medium settings. Splitscreen will not run at an acceptable level of performance. SSD required.
-			 </li>
-			</ul>
+	<div class="sys_req_container">
+	 <div class="sys_req_left_col">
+		<ul>
+		 <strong>
+			Minimum:
+		 </strong>
+		 <br/>
+		 <ul class="bb_ul">
+			<li>
+			 <strong>
+				OS:
+			 </strong>
+			 macOS 12 or newer
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Processor:
+			 </strong>
+			 Apple M1
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Memory:
+			 </strong>
+			 8 GB RAM
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Graphics:
+			 </strong>
+			 Apple M1
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Storage:
+			 </strong>
+			 150 GB available space
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Additional Notes:
+			 </strong>
+			 Min specs can run the game on low to medium settings. Splitscreen will not run at an acceptable level of performance. SSD required.
+			</li>
 		 </ul>
-		</div>
-		<div class="sys_req_right_col">
-		 <ul>
-			<strong>
-			 Recommended:
-			</strong>
-			<br/>
-			<ul class="bb_ul">
-			 <li>
-				<strong>
-				 OS:
-				</strong>
-				Latest macOS
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Processor:
-				</strong>
-				Apple M1 Pro or better
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Memory:
-				</strong>
-				16 GB RAM
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Graphics:
-				</strong>
-				Apple M1 Pro or better
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Storage:
-				</strong>
-				150 GB available space
-				<br/>
-			 </li>
-			 <li>
-				<strong>
-				 Additional Notes:
-				</strong>
-				Recommended specs can run the game on high or ultra settings. SSD required.
-			 </li>
-			</ul>
-		 </ul>
-		</div>
+		</ul>
 	 </div>
-	</center>
+	 <div class="sys_req_right_col">
+		<ul>
+		 <strong>
+			Recommended:
+		 </strong>
+		 <br/>
+		 <ul class="bb_ul">
+			<li>
+			 <strong>
+				OS:
+			 </strong>
+			 Latest macOS
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Processor:
+			 </strong>
+			 Apple M1 Pro or better
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Memory:
+			 </strong>
+			 16 GB RAM
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Graphics:
+			 </strong>
+			 Apple M1 Pro or better
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Storage:
+			 </strong>
+			 150 GB available space
+			 <br/>
+			</li>
+			<li>
+			 <strong>
+				Additional Notes:
+			 </strong>
+			 Recommended specs can run the game on high or ultra settings. SSD required.
+			</li>
+		 </ul>
+		</ul>
+	 </div>
+	</div>
  </div>
 </div>
 <br/>
