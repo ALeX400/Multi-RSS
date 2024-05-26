@@ -30,8 +30,7 @@ def clean_xml(xml_str):
     return etree.tostring(root, pretty_print=True, encoding='UTF-8')
 
 def generate_xml(feed_items, file_name):
-    root = etree.Element('rss', nsmap={'atom': 'http://www.w3.org/2005/Atom'})
-    root.set("version", "2.0")
+    root = etree.Element('rss', version="2.0", nsmap={'atom': "http://www.w3.org/2005/Atom", 'content': "http://purl.org/rss/1.0/modules/content/"})
     channel = etree.SubElement(root, 'channel')
     for item in feed_items:
         item_element = etree.SubElement(channel, 'item')
