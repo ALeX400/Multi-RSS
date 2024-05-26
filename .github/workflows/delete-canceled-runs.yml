@@ -1,0 +1,21 @@
+name: Delete Canceled Workflow Runs
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 */3 * *'
+  workflow_run:
+    workflows: ["update index.md"]
+    types:
+      - completed
+
+jobs:
+  delete-canceled-runs:
+    if: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' || github.event_name != 'workflow_run' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete canceled workflow runs
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          retain_days: 0
