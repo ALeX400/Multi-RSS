@@ -43,6 +43,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Update index.md with list of XML files"
+          base: main
           branch: temp-branch
           title: "Update index.md"
           body: "This PR updates index.md with the latest list of XML files."
