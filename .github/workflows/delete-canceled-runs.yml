@@ -18,4 +18,5 @@ jobs:
         uses: Mattraks/delete-workflow-runs@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          delete_run_by_conclusion_pattern: 'cancelled'
           retain_days: 0
