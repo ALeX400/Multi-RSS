@@ -27,8 +27,8 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add rss/index.md
-          git commit -m "Update index.md with list of XML files"
-          git push
+          cd rss
+          git add *.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update index.md with list of XML files" && git push)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
