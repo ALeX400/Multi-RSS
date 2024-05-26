@@ -1,9 +1,10 @@
 name: Sync working-branch to main
 
 on:
-  push:
-    branches:
-      - working-branch
+  workflow_run:
+    workflows: ["Update index.md"]
+    types:
+      - completed
 
 jobs:
   sync-to-main:
