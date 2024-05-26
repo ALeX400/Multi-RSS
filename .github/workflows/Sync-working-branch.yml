@@ -5,6 +5,7 @@ on:
     workflows: ["Update index.md"]
     types:
       - completed
+  workflow_dispatch:
 
 jobs:
   sync-to-main:
