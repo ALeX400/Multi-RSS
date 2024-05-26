@@ -1,3 +1,7 @@
-# Test MD
 
-[Link to another directory](./rss).
+# 🌟 RSS Directory Overview
+
+
+### 🌐 Quick Access
+
+- [Go to RSS Directory](./rss)
