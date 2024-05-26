@@ -23,6 +23,10 @@ jobs:
         run: |
           python update_index.py
 
+      - name: Delete remote temp-branch if it exists
+        run: |
+          git push origin --delete temp-branch || true
+
       - name: Commit and push changes to temporary branch
         run: |
           git config --global user.name 'github-actions'
@@ -30,8 +34,6 @@ jobs:
           git checkout -b temp-branch
           git add rss/index.md
           git commit -m "Update index.md with list of XML files"
-          git pull --rebase origin temp-branch
-          git rebase --continue
           git push --set-upstream origin temp-branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
