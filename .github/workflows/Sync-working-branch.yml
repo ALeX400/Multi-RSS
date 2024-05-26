@@ -1,0 +1,30 @@
+name: Sync working-branch to main
+
+on:
+  push:
+    branches:
+      - working-branch
+
+jobs:
+  sync-to-main:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          ref: working-branch  # Checkout pe branch-ul de lucru
+
+      - name: Configure Git
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+
+      - name: Sync working-branch to main
+        run: |
+          git checkout main
+          git pull origin main
+          git merge --no-ff working-branch
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
