@@ -10,10 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - name: Checkout working-branch
+        uses: actions/checkout@v3
         with:
           ref: working-branch
+
+      - name: Fetch all branches
+        run: git fetch --all
+
+      - name: Checkout main branch
+        run: git checkout main
 
       - name: Configure Git
         run: |
@@ -22,8 +28,6 @@ jobs:
 
       - name: Sync working-branch to main
         run: |
-          git checkout main
-          git pull origin main
           git merge --no-ff working-branch
           git push origin main
         env:
