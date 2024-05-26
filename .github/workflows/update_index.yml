@@ -30,7 +30,7 @@ jobs:
           git checkout -b temp-branch
           git add rss/index.md
           git commit -m "Update index.md with list of XML files"
-          git pull origin temp-branch
+          git pull --rebase origin temp-branch || True
           git push origin temp-branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
