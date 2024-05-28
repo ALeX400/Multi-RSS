@@ -23,7 +23,7 @@ Before you run the project, you need to have Python installed on your machine. T
 
 2. Install required Python packages:
    ```bash
-   pip install requests beautifulsoup4 lxml tqdm
+   pip install requests beautifulsoup4 lxml json5
    ```
 
 ## Configuration
