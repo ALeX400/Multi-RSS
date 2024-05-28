@@ -30,7 +30,7 @@ def update_index():
         
         # Write each file as a row in the table
         for file in files:
-            index_file.write(f'| {file} | [Link to {file}](./rss/{file}) |\n')
+            index_file.write(f'| {file} | [Link to {file}](./{file}) |\n')
 
     print(f"Index updated with {len(files)} files.")
 
