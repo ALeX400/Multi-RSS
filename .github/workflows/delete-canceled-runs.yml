@@ -23,12 +23,20 @@ jobs:
       - name: Print GitHub context
         run: echo '${{ toJson(github) }}'
 
+      - name: List workflow runs for debugging
+        run: |
+          echo "Listing all workflow runs..."
+          gh api -X GET "repos/${{ github.repository }}/actions/runs" -H "Accept: application/vnd.github.v3+json"
+
       - name: Delete canceled workflow runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           delete_run_by_conclusion_pattern: 'cancelled'
           retain_days: 0
+          baseUrl: "https://api.github.com"
+          repository: ${{ github.repository }}
+          keep_minimum_runs: 0  # Ensuring minimum runs doesn't prevent deletion
 
       - name: Debug Workflow Run
         if: ${{ github.event_name == 'workflow_run' }}
