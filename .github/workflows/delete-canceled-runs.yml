@@ -23,11 +23,6 @@ jobs:
       - name: Print GitHub context
         run: echo '${{ toJson(github) }}'
 
-      - name: List workflow runs for debugging
-        run: |
-          echo "Listing all workflow runs..."
-          gh api -X GET "repos/${{ github.repository }}/actions/runs" -H "Accept: application/vnd.github.v3+json"
-
       - name: Delete canceled workflow runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
