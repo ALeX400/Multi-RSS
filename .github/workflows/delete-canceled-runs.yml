@@ -18,9 +18,9 @@ jobs:
       contents: read
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
-      - name: Debug GitHub Context
+      - name: Print GitHub context
         run: echo '${{ toJson(github) }}'
 
       - name: Delete canceled workflow runs
@@ -29,3 +29,10 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           delete_run_by_conclusion_pattern: 'cancelled'
           retain_days: 0
+
+      - name: Debug Workflow Run
+        if: ${{ github.event_name == 'workflow_run' }}
+        run: |
+          echo "Workflow Name: ${{ github.event.workflow_run.name }}"
+          echo "Conclusion: ${{ github.event.workflow_run.conclusion }}"
+          echo "Event Name: ${{ github.event_name }}"
