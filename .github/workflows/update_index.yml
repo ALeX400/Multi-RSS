@@ -2,8 +2,8 @@ name: Update index.md
 
 on:
   push:
-    paths:
-      - 'rss/*.xml'
+    paths-ignore:
+      - '**/*.md'
   workflow_dispatch:
 
 jobs:
@@ -17,18 +17,17 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: 3.x
+          python-version: '3.x'
 
       - name: Update index.md
-        run: |
-          python update_index.py
+        run: python update_index.py
 
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          cd rss
-          git add *.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update index.md with list of XML files" && git push)
+          git add index.md
+          git commit -m "Update index.md with list of XML files" || echo "No changes to commit"
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
