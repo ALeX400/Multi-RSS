@@ -3,9 +3,8 @@ name: Update index.md
 on:
   push:
     paths:
-      - 'rss/*'
-    paths-ignore:
-      - 'rss/*.md'
+      - 'rss/*'       # Include all files in the rss directory
+      - '!rss/*.md'   # Exclude .md files in the rss directory
   workflow_dispatch:
 
 jobs:
@@ -28,7 +27,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add .
+          git add index.md
           git commit -m "Update index.md with list of XML files" || echo "No changes to commit"
           git push
         env:
