@@ -9,8 +9,14 @@ def update_index():
         print(f"Directory '{rss_dir}' does not exist.")
         return
 
-    files = [f for f in os.listdir(rss_dir) if f.endswith('.xml')]
     index_path = os.path.join(rss_dir, 'index.md')
+
+    # Delete the existing index.md file if it exists
+    if os.path.exists(index_path):
+        os.remove(index_path)
+        print(f"Existing '{index_path}' deleted.")
+
+    files = [f for f in os.listdir(rss_dir) if f.endswith('.xml')]
 
     with open(index_path, 'w') as index_file:
         # Write the header and description
