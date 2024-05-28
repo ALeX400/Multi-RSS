@@ -68,7 +68,7 @@ def fetch_article_data(article_url):
             soup = proxy_image_urls(soup)
 
             # Remove empty elements
-            soup = remove_empty_elements(soup)
+            #soup = remove_empty_elements(soup)
 
             # Remove comments
             comments = soup.find_all(string=lambda text: isinstance(text, Comment))
@@ -90,10 +90,10 @@ def fetch_article_data(article_url):
                 clean_soup = BeautifulSoup(html_string, 'html.parser')
                 prettified_html = clean_soup.prettify()
 
-                prettified_html += '<hr><br><br><br>'
+                prettified_html += '<br><br><br>'
 
                 if download_button_html:
-                    prettified_html += f'<center>{download_button_html}<center>'
+                    prettified_html += f'<center>{download_button_html}'
 
                 prettified_html = prettified_html.replace("&amp;", "&")
                 prettified_html = prettified_html.replace("&lt;", "<").replace("&gt;", ">")
@@ -137,7 +137,6 @@ def scrape_ets2world_articles(url):
             return []
     except Exception as e:
         return []
-
 
 def fetch_data(url):
     return scrape_ets2world_articles(url)

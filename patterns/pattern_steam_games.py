@@ -67,7 +67,7 @@ def format_system_requirements(soup):
                 note_html = note.decode_contents()
                 os_contents[os_name] += f"<div class='sys_req_note'>{note_html}</div>"
     # =============
-    # Format String
+    # Format Div without Tabs
     # =============
     else:
         contents = system_requirements_div.find_all('div', class_='game_area_sys_req')
@@ -76,9 +76,20 @@ def format_system_requirements(soup):
             os_name = os_mapping.get(os_type, os_type.capitalize())
             if os_name not in os_contents:
                 os_contents[os_name] = ""
+            
+            full_req = content.find('div', class_='game_area_sys_req_full')
+            if full_req:
+                full_req_html = full_req.decode_contents()
+                os_contents[os_name] += f"<div class='sys_req_full'>{full_req_html}</div>"
+            
+            note = content.find('div', class_='game_area_sys_req_note')
+            if note:
+                note_html = note.decode_contents()
+                os_contents[os_name] += f"<div class='sys_req_note'>{note_html}</div>"
+            
             left_col = content.find('div', class_='game_area_sys_req_leftCol')
             right_col = content.find('div', class_='game_area_sys_req_rightCol')
-
+            
             if left_col:
                 left_col_html = left_col.decode_contents()
                 os_contents[os_name] += f"<div class='sys_req_left_col'>{left_col_html}</div>"
@@ -106,8 +117,6 @@ def format_system_requirements(soup):
 
     return system_requirements_html
 
-
-
 def extract_app_id(url):
     match = re.search(r'/app/(\d+)', url)
     return match.group(1) if match else None
@@ -116,6 +125,12 @@ def generate_embed(app_id):
     return f"""
     <iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/{app_id}/" width="850"></iframe>
     """
+
+def remove_hrefs_from_html(html_content):
+    soup = BeautifulSoup(html_content, 'html.parser')
+    for a_tag in soup.find_all('a', href=True):
+        a_tag.attrs.pop('href', None)
+    return str(soup)
 
 def fetch_article_data(article_url):
     try:
@@ -146,6 +161,7 @@ def fetch_article_data(article_url):
             # Extract developer information
             genres_and_manufacturer_div = soup.find('div', id='genresAndManufacturer', class_='details_block')
             genres_and_manufacturer_html = str(genres_and_manufacturer_div) if genres_and_manufacturer_div else "Informații despre dezvoltator indisponibile."
+            genres_and_manufacturer_html = remove_hrefs_from_html(genres_and_manufacturer_html)  # Remove hrefs from developer information
             
             # Combine all sections based on embed_position
             full_description_html = (
@@ -163,6 +179,7 @@ def fetch_article_data(article_url):
             full_description_html = clean_urls_in_html(full_description_html)
             clean_soup = BeautifulSoup(full_description_html, 'html.parser')
             prettified_html = clean_soup.prettify()
+            prettified_html += f"<center>"
             prettified_html = prettified_html.replace('<div data-ipsspoiler="">', '<div data-ipsspoiler>')
             prettified_html = prettified_html.replace("&amp;", "&")
             prettified_html = prettified_html.replace("&lt;", "<").replace("&gt;", ">")
@@ -216,7 +233,6 @@ def scrape_steam_popularnew_articles(url):
 
             articles = soup.select('.search_result_row')
             if not articles:
-                #print(f"No articles found for URL: {url}")
                 return []
 
             articles_data = []
@@ -226,7 +242,6 @@ def scrape_steam_popularnew_articles(url):
                 link_element = article['href']
 
                 if not title_element or not link_element:
-                    #print(f"Skipping article due to missing title or link: {article}")
                     continue
 
                 title = title_element.text.strip()
@@ -239,15 +254,12 @@ def scrape_steam_popularnew_articles(url):
                     "description": description
                 })
 
-            #print(f"Articles data fetched: {articles_data}")
             return articles_data
         else:
-            #print(f"Failed to fetch page content for URL: {url}, Status code: {response.status_code}")
             return []
     except Exception as e:
         print(f"An error occurred while scraping articles: {str(e)}")
         return []
 
-def fetch_data(url, embed_position="top"):
+def fetch_data(url):
     return scrape_steam_popularnew_articles(url)
-
