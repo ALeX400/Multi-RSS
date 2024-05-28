@@ -2,8 +2,10 @@ name: Update index.md
 
 on:
   push:
+    paths:
+      - 'rss/*'
     paths-ignore:
-      - '**/*.md'
+      - 'rss/*.md'
   workflow_dispatch:
 
 jobs:
