@@ -13,7 +13,16 @@ jobs:
   delete-canceled-runs:
     if: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' || github.event_name != 'workflow_run' }}
     runs-on: ubuntu-latest
+    permissions:
+      actions: write
+      contents: read
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Debug GitHub Context
+        run: echo '${{ toJson(github) }}'
+
       - name: Delete canceled workflow runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
