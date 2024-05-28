@@ -5,13 +5,13 @@ on:
   schedule:
     - cron: '0 0 */3 * *'
   workflow_run:
-    workflows: ["pages-build-deployment", "update index.md"]
+    workflows: ["update index.md"]
     types:
       - completed
 
 jobs:
   delete-canceled-runs:
-    if: ${{ github.event_name == 'workflow_run' && (github.event.workflow_run.conclusion == 'failure' || github.event.workflow_run.conclusion == 'cancelled' || github.event.workflow_run.conclusion == 'success') || github.event_name != 'workflow_run' }}
+    if: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success' || github.event_name != 'workflow_run' }}
     runs-on: ubuntu-latest
     permissions:
       actions: write
@@ -19,7 +19,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
+        
       - name: Delete canceled workflow runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
@@ -28,4 +28,4 @@ jobs:
           retain_days: 0
           baseUrl: "https://api.github.com"
           repository: ${{ github.repository }}
-          keep_minimum_runs: 0
+          keep_minimum_runs: 0  # Ensuring minimum runs doesn't prevent deletion
