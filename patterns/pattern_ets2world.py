@@ -1,24 +1,10 @@
 import requests
 from bs4 import BeautifulSoup, Comment
 import re
-import json
-import os
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
 }
-
-def get_site_name_by_script():
-    with open('config.json', 'r') as file:
-        config = json.load(file)
-    
-    sites = config.get('Sites', {})
-    for site_name, site_info in sites.items():
-        if site_info.get('script') == os.path.basename(__file__):
-            return site_name
-    return None
-
-site_name = get_site_name_by_script()
 
 def proxy_image_urls(soup):
     for img in soup.find_all('img'):
@@ -131,17 +117,8 @@ def scrape_ets2world_articles(url):
                 return []
 
             articles_data = []
-            progress_bar_length = 30
-            num_articles = len(articles[:5])
 
-            for article_index, article in enumerate(articles[:5]):
-                progress = int(((article_index + 1) / num_articles) * progress_bar_length)
-                loading_bar = '[' + '#' * progress + ' ' * (progress_bar_length - progress) + ']'
-                if article_index + 1 == num_articles:
-                    print(f"Processing articles for '{site_name}': {loading_bar}\n")
-                else:
-                    print(f"Processing articles for '{site_name}': {loading_bar}")
-
+            for article in articles[:5]:
                 title_element = article.select_one('.post-title a')
                 if not title_element:
                     continue
@@ -160,6 +137,7 @@ def scrape_ets2world_articles(url):
             return []
     except Exception as e:
         return []
+
 
 def fetch_data(url):
     return scrape_ets2world_articles(url)

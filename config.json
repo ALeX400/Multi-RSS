@@ -1,5 +1,15 @@
 {
 	"Sites": {
+		"Steam Popular New Games": {
+			"url": "https://store.steampowered.com/search/?filter=popularnew&ndl=1",
+			"script": "pattern_steam_games.py",
+			"FileName": "SteamPGames.xml"
+		},
+		"Steam New Games": {
+			"url": "https://store.steampowered.com/search/?sort_by=Released_DESC&filter=popularnew&ndl=1",
+			"script": "pattern_steam_games.py",
+			"FileName": "SteamNewGames.xml"
+		},
 		"ETS2 World": {
 			"url": "http://www.ets2world.com/",
 			"script": "pattern_ets2world.py",

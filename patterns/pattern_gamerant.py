@@ -61,17 +61,8 @@ def scrape_gamerant_articles(url):
                 return []
 
             articles_data = []
-            progress_bar_length = 30
-            num_articles = len(articles[:5])
 
-            for article_index, article in enumerate(articles[:5]):
-                progress = int(((article_index + 1) / num_articles) * progress_bar_length)
-                loading_bar = '[' + '#' * progress + ' ' * (progress_bar_length - progress) + ']'
-                if article_index + 1 == num_articles:
-                    print(f"Processing articles for '{site_name}': {loading_bar}\n")
-                else:
-                    print(f"Processing articles for '{site_name}': {loading_bar}")
-
+            for article in articles[:5]:
                 title_element = article.select_one('.display-card-title a')
                 if not title_element:
                     continue
@@ -90,6 +81,7 @@ def scrape_gamerant_articles(url):
             return []
     except Exception as e:
         return []
+
 
 def fetch_data(url):
     return scrape_gamerant_articles(url)
