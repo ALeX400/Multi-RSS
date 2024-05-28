@@ -3,6 +3,12 @@ from datetime import datetime
 
 def update_index():
     rss_dir = 'rss'
+    
+    # Ensure the directory exists
+    if not os.path.exists(rss_dir):
+        print(f"Directory '{rss_dir}' does not exist.")
+        return
+
     files = [f for f in os.listdir(rss_dir) if f.endswith('.xml')]
     index_path = os.path.join(rss_dir, 'index.md')
 
@@ -18,7 +24,9 @@ def update_index():
         
         # Write each file as a row in the table
         for file in files:
-            index_file.write(f'| {file} | [Link to {file}](./{file}) |\n')
+            index_file.write(f'| {file} | [Link to {file}](./rss/{file}) |\n')
+
+    print(f"Index updated with {len(files)} files.")
 
 if __name__ == "__main__":
     update_index()
