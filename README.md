@@ -17,7 +17,7 @@ Before you run the project, you need to have Python installed on your machine. T
 
 1. Clone the repository:
    ```bash
-   git clone https://your-repository-url.git
+   git clone https://github.com/ALeX400/Multi-RSS.git
    cd Multi-RSS
    ```
 
