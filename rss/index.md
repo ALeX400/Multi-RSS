@@ -9,3 +9,6 @@
 | SteamPGames.xml | [Link to SteamPGames.xml](./SteamPGames.xml) |
 | SteamNewGames.xml | [Link to SteamNewGames.xml](./SteamNewGames.xml) |
 | ets2world.xml | [Link to ets2world.xml](./ets2world.xml) |
+
+<br>
+[Link to ets2world.xml](./World News/conspiratii/conspiratii.xml)
