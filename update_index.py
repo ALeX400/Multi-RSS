@@ -39,7 +39,8 @@ def update_index():
         # Write each file as a row in the table
         for file in files:
             encoded_file = urllib.parse.quote(file)
-            index_file.write(f'| {file} | [Link to {file}](./{encoded_file}) |\n')
+            display_file = os.path.basename(file)
+            index_file.write(f'| {display_file} | [Link to {display_file}](./{encoded_file}) |\n')
 
     print(f"Index updated with {len(files)} files.")
 
