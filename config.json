@@ -20,6 +20,11 @@
 			"script": "pattern_gamerant.py",
 			"FileName": null
 		},
+		"Prosport Auto Moto": {
+			"url": "https://www.prosport.ro/alte-sporturi/auto-moto/feed",
+			"script": "pattern_prosport.py",
+			"FileName": "prosport_auto_moto.xml"
+		},
 		"World News": {
 			"url": "https://worldnews24.net/",
 			"category": [
