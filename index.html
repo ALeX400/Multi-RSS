@@ -5,25 +5,41 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>XML Files Index</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	<style>
 		body {
-			font-family: Arial, sans-serif;
-			margin: 20px;
-			background-color: #f9f9f9;
-			color: #333;
+			font-family: 'Roboto', sans-serif;
+			margin: 0;
+			background-color: #1e1e1e;
+			color: #cfcfcf;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			min-height: 100vh;
+			padding: 20px;
 		}
 
 		h1 {
 			text-align: center;
-			color: #555;
+			color: #ffffff;
+			font-size: 2.5em;
+			margin-bottom: 20px;
+			letter-spacing: 1px;
 		}
 
 		.container {
-			max-width: 800px;
-			margin: 0 auto;
-			background-color: #fff;
-			padding: 20px;
-			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			max-width: 900px;
+			width: 100%;
+			background-color: #2a2a2a;
+			padding: 30px;
+			border-radius: 8px;
+			box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+			transition: transform 0.3s, box-shadow 0.3s;
+		}
+
+		.container:hover {
+			transform: translateY(-10px);
+			box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
 		}
 
 		table {
@@ -34,39 +50,63 @@
 
 		th,
 		td {
-			padding: 10px;
-			border: 1px solid #ddd;
+			padding: 15px;
+			border: 1px solid #3a3a3a;
 			text-align: left;
 		}
 
 		th {
-			background-color: #f4f4f4;
+			background-color: #3a3a3a;
+			color: #ffffff;
+			font-weight: 700;
+		}
+
+		td {
+			background-color: #2a2a2a;
+			color: #cfcfcf;
 		}
 
 		a {
 			text-decoration: none;
-			color: #3498db;
+			color: #76c7c0;
+			transition: color 0.3s;
 		}
 
 		a:hover {
-			text-decoration: underline;
+			color: #52b5ad;
 		}
 
 		.copy-button {
 			cursor: pointer;
-			background-color: #3498db;
+			background-color: #76c7c0;
 			color: #fff;
 			border: none;
-			padding: 5px 10px;
-			border-radius: 3px;
+			padding: 8px 15px;
+			border-radius: 5px;
+			transition: background-color 0.3s, transform 0.3s;
 		}
 
 		.copy-button:hover {
-			background-color: #2980b9;
+			background-color: #52b5ad;
+			transform: scale(1.05);
 		}
 
 		.copied {
-			background-color: #2ecc71;
+			background-color: #52b5ad;
+		}
+
+		@keyframes fadeIn {
+			from {
+				opacity: 0;
+			}
+
+			to {
+				opacity: 1;
+			}
+		}
+
+		tr {
+			animation: fadeIn 0.5s ease-in-out;
 		}
 	</style>
 </head>
