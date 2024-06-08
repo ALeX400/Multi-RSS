@@ -19,6 +19,19 @@
 			"url": "https://gamerant.com/games/",
 			"script": "pattern_gamerant.py",
 			"FileName": null
+		},
+		"World News": {
+			"url": "https://worldnews24.net/",
+			"category": [
+				"conspiratii",
+				"mistere",
+				"paranormal",
+				"istorie",
+				"univers",
+				"curiozitati"
+			],
+			"script": "pattern_worldnews24.py",
+			"FileName": "worldnews.xml"
 		}
 	}
 }
