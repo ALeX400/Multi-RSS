@@ -45,8 +45,6 @@ def fetch_article_data(item):
         enclosure = item.find('enclosure')
         image_url = enclosure.get('url') if enclosure is not None else None
         
-        print(image_url)
-
         description = clean_content(description, image_url)
 
         return {
