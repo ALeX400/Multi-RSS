@@ -3,7 +3,7 @@ name: Update index.md
 on:
   push:
     paths:
-      - 'rss/*'       # Include all files in the rss directory
+      - 'rss/**/*.xml'  # Include all .xml files in rss directory and subdirectories
       - '!rss/*.md'   # Exclude .md files in the rss directory
   workflow_dispatch:
 
