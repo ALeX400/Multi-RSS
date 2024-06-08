@@ -1,10 +1,9 @@
-name: Update index.md
+name: Update file_cache.json
 
 on:
   push:
     paths:
-      - 'rss/**/*.xml'  # Include all .xml files in rss directory and subdirectories
-      - '!rss/*.md'   # Exclude .md files in the rss directory
+      - '**/*'  # Include all changes in the repository
   workflow_dispatch:
 
 jobs:
@@ -20,7 +19,7 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Update index.md
+      - name: Update file_cache.json
         run: python update_index.py
 
       - name: Commit and push changes
@@ -28,6 +27,6 @@ jobs:
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git add .
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update index.md with list of XML files" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update file_cache.json with list of XML files" && git push)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

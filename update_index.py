@@ -1,6 +1,6 @@
 import os
+import json
 from datetime import datetime
-import urllib.parse
 
 def update_index():
     rss_dir = 'rss'
@@ -10,12 +10,7 @@ def update_index():
         print(f"Directory '{rss_dir}' does not exist.")
         return
 
-    index_path = os.path.join(rss_dir, 'index.md')
-
-    # Delete the existing index.md file if it exists
-    if os.path.exists(index_path):
-        os.remove(index_path)
-        print(f"Existing '{index_path}' deleted.")
+    cache_path = 'file_cache.json'  # This will save file_cache.json in the root directory
 
     # Traverse directory to find all XML files
     files = []
@@ -26,23 +21,17 @@ def update_index():
                 relative_path = os.path.relpath(os.path.join(root, filename), rss_dir)
                 files.append(relative_path)
 
-    with open(index_path, 'w') as index_file:
-        # Write the header and description
-        index_file.write('# XML Files Index\n')
-        index_file.write('**This index was automatically generated to list all XML files in the `rss` directory and its subdirectories.**\n\n')
-        index_file.write(f'**Last updated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}**\n\n')
-        
-        # Write the table header
-        index_file.write('| File Name | Link |\n')
-        index_file.write('|-----------|------|\n')
-        
-        # Write each file as a row in the table
-        for file in files:
-            encoded_file = urllib.parse.quote(file)
-            display_file = os.path.basename(file)
-            index_file.write(f'| {display_file} | [Link to {display_file}](./{encoded_file}) |\n')
+    # Create the JSON object
+    file_cache = {
+        "last_updated": datetime.now().strftime("%d.%m.%Y %I:%M %p"),
+        "files": files
+    }
 
-    print(f"Index updated with {len(files)} files.")
+    # Write the JSON object to file
+    with open(cache_path, 'w') as cache_file:
+        json.dump(file_cache, cache_file, indent=4)
+
+    print(f"File cache updated with {len(files)} files.")
 
 if __name__ == "__main__":
     update_index()

@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: '0 0 */3 * *'
   workflow_run:
-    workflows: ["update index.md"]
+    workflows: ["Update file_cache.json"]
     types:
       - completed
 
