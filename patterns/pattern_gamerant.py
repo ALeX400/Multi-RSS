@@ -9,18 +9,6 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
 }
 
-def get_site_name_by_script():
-    with open('config.json', 'r') as file:
-        config = json.load(file)
-    
-    sites = config.get('Sites', {})
-    for site_name, site_info in sites.items():
-        if site_info.get('script') == os.path.basename(__file__):
-            return site_name
-    return None
-
-site_name = get_site_name_by_script()
-
 def fetch_article_data(article_url):
     try:
         response = requests.get(article_url, headers=headers)

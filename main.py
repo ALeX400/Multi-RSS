@@ -4,7 +4,7 @@ import json5
 from lxml import etree
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
-
+from datetime import datetime
 
 def load_and_run_script(script_name, url):
     script_path = os.path.join(os.path.dirname(__file__), 'patterns', script_name)
@@ -16,23 +16,15 @@ def load_and_run_script(script_name, url):
     data = module.fetch_data(url)
     return data
 
-
 def clean_xml(xml_str):
-    """
-    Clean the XML string by removing <script>, <spoiler> elements and comments.
-    """
     xml_str = re.sub(r'<!--.*?-->', '', xml_str, flags=re.DOTALL)
-
     parser = etree.XMLParser(remove_blank_text=True)
     root = etree.fromstring(xml_str, parser)
-
     for element in root.xpath(".//script"):
         element.getparent().remove(element)
     for element in root.xpath(".//spoiler"):
         element.getparent().remove(element)
-
     return etree.tostring(root, pretty_print=True, encoding='UTF-8')
-
 
 def generate_xml(feed_items, file_name):
     root = etree.Element('rss', version="2.0", nsmap={'atom': "http://www.w3.org/2005/Atom", 'content': "http://purl.org/rss/1.0/modules/content/"})
@@ -45,24 +37,59 @@ def generate_xml(feed_items, file_name):
         link.text = item.get('link', '#')
         description = etree.SubElement(item_element, 'description')
         description.text = etree.CDATA(item.get('description', 'No description'))
-
     xml_bytes = etree.tostring(root, pretty_print=True, encoding='UTF-8')
+    with open(file_name, 'wb') as file:
+        file.write(xml_bytes)
 
-    # Convert bytes to string and replace indentation with tabs
-    xml_str = xml_bytes.decode('UTF-8')
-    xml_str = xml_str.replace('  ', '\t')
-
-    with open(file_name, 'w', encoding='utf-8') as file:
-        file.write(xml_str)
-
+def print_progress_bar(iteration, total, length=50):
+    if iteration == 2:
+        print()
+    percent = ("{0:.1f}").format(100 * (iteration / float(total)))
+    filled_length = int(length * iteration // total)
+    bar = '#' * filled_length + '-' * (length - filled_length)
+    print(f'\rProgress: |{bar}| {percent}% Complete')
+    #if iteration == total:
+        #print()
 
 def process_site(site_name, site_info):
     print(f"Processing site: '{site_name}'")
     try:
-        articles_data = load_and_run_script(site_info['script'], site_info['url'])
-        if articles_data:
-            file_name = os.path.join('rss', site_info.get('FileName') or f'{site_name}.xml')
-            generate_xml(articles_data, file_name)
+        base_url = site_info['url']
+        categories = site_info.get('category', [])
+        script = site_info['script']
+        all_articles_data = []
+        if categories:
+            site_dir = os.path.join('rss', site_name)
+            if not os.path.exists(site_dir):
+                os.makedirs(site_dir)
+            total_categories = len(categories)
+            current_category = 0
+            with ThreadPoolExecutor() as executor:
+                futures = {executor.submit(load_and_run_script, script, os.path.join(base_url, category)): category for category in categories}
+                for future in as_completed(futures):
+                    category = futures[future]
+                    try:
+                        articles_data = future.result()
+                        if articles_data:
+                            category_dir = os.path.join(site_dir, category)
+                            if not os.path.exists(category_dir):
+                                os.makedirs(category_dir)
+                            category_file_name = os.path.join(category_dir, f"{category}.xml")
+                            generate_xml(articles_data, category_file_name)
+                            all_articles_data.extend(articles_data)
+                    except Exception as e:
+                        print(f"Failed to process category {category} for site {site_name}: {e}")
+                    #current_category += 1
+            #if current_category > 0:
+                #print_progress_bar(total_categories, total_categories)
+            #print()  # Finalize category progress bar output
+        else:
+            articles_data = load_and_run_script(script, base_url)
+            if articles_data:
+                file_name = os.path.join('rss', f"{site_name}.xml")
+                generate_xml(articles_data, file_name)
+                all_articles_data.extend(articles_data)
+        if all_articles_data:
             return site_name, True
         else:
             print(f"No data found for site '{site_name}'")
@@ -71,34 +98,25 @@ def process_site(site_name, site_info):
         print(f"Failed to process site {site_name}: {e}")
         return site_name, False
 
-
-def print_progress_bar(iteration, total, length=50):
-    percent = ("{0:.1f}").format(100 * (iteration / float(total)))
-    filled_length = int(length * iteration // total)
-    bar = '#' * filled_length + '-' * (length - filled_length)
-    print(f'\rProgress: |{bar}| {percent}% Complete', end='\r')
-    if iteration == total:
-        print()
-
+def replace_dynamic_parameters(url):
+    current_year = datetime.now().year
+    url = url.replace("{year}", str(current_year))
+    return url
 
 def main():
     with open('config.json', 'r', encoding='utf-8') as file:
         config = json5.load(file)
-
     output_dir = 'rss'
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-
     patterns_dir = os.path.join(os.path.dirname(__file__), 'patterns')
     if not os.path.exists(patterns_dir):
         os.makedirs(patterns_dir)
         raise Exception("Patterns directory created. Please add pattern scripts and retry.")
-
     groups = config.get('Groups', {})
     sites = config.get('Sites', {})
     total_tasks = len(groups) + len(sites)
     current_task = 0
-
     if groups:
         for group_index, (group_name, group_info) in enumerate(groups.items()):
             print(f'Processing group {group_index + 1}/{len(groups)}: {group_name}')
@@ -115,15 +133,14 @@ def main():
                         continue
             file_name = os.path.join(output_dir, group_info.get('FileName') or f'{group_name}.xml')
             generate_xml(group_feed, file_name)
-            print(f"Finished processing group {group_name}")
+            print(f"Finished processing group {group_name}\n")
             current_task += 1
-            print_progress_bar(current_task, total_tasks)
-
+            #print_progress_bar(current_task, total_tasks)
     success_count = 0
     with ThreadPoolExecutor() as executor:
         future_to_site = {executor.submit(process_site, site_name, site_info): (site_name, site_info) for site_name, site_info in sites.items()}
         for future in as_completed(future_to_site):
-            site_name, _ = future_to_site[future]
+            site_name, site_info = future_to_site[future]
             try:
                 site_name, success = future.result()
                 if success:
@@ -132,9 +149,8 @@ def main():
                 print(f"Failed to process site {site_name}: {e}")
             current_task += 1
             print_progress_bar(current_task, total_tasks)
-
-    print(f"Finished {success_count}/{len(sites)} successfully.")
-
+    #print()  # Finalize site progress bar output
+    print(f"\nFinished {success_count}/{len(sites)} successfully.")
 
 if __name__ == "__main__":
     main()
