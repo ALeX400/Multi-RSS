@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML Files Index</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #555;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        a {
+            text-decoration: none;
+            color: #3498db;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .copy-button {
+            cursor: pointer;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+        .copy-button:hover {
+            background-color: #2980b9;
+        }
+        .copied {
+            background-color: #2ecc71;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>XML Files Index</h1>
+        <p><strong>Last updated: <span id="last-updated"></span></strong></p>
+        <table id="file-table">
+            <thead>
+                <tr>
+                    <th>File Name</th>
+                    <th>Link</th>
+                    <th>Copy Link</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script>
+        fetch('file_cache.json')
+            .then(response => response.json())
+            .then(data => {
+                const lastUpdated = document.getElementById('last-updated');
+                lastUpdated.textContent = data.last_updated;
+
+                const fileTableBody = document.querySelector('#file-table tbody');
+                data.files.forEach(file => {
+                    const row = document.createElement('tr');
+
+                    const fileNameCell = document.createElement('td');
+                    fileNameCell.textContent = file;
+                    row.appendChild(fileNameCell);
+
+                    const linkCell = document.createElement('td');
+                    const link = document.createElement('a');
+                    link.href = `./rss/${file}`;
+                    link.textContent = `Link to ${file}`;
+                    linkCell.appendChild(link);
+                    row.appendChild(linkCell);
+
+                    const copyCell = document.createElement('td');
+                    const copyButton = document.createElement('button');
+                    copyButton.className = 'copy-button';
+                    copyButton.textContent = 'Copy Link';
+                    copyButton.onclick = () => {
+                        navigator.clipboard.writeText(link.href).then(() => {
+                            copyButton.textContent = 'Copied!';
+                            copyButton.classList.add('copied');
+                            setTimeout(() => {
+                                copyButton.textContent = 'Copy Link';
+                                copyButton.classList.remove('copied');
+                            }, 2000);
+                        });
+                    };
+                    copyCell.appendChild(copyButton);
+                    row.appendChild(copyCell);
+
+                    fileTableBody.appendChild(row);
+                });
+            })
+            .catch(error => console.error('Error fetching file list:', error));
+    </script>
+</body>
+</html>
