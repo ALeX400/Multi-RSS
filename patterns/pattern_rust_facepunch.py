@@ -19,6 +19,12 @@ def clean_article_content(soup):
             a_tag.attrs.pop('href', None)
             a_tag['style'] = 'text-decoration: none;'
 
+    # Remove href from <a> tags within <div class="changes-sidebar">
+    for changes_sidebar in soup.find_all('div', class_='changes-sidebar'):
+        for a_tag in changes_sidebar.find_all('a', href=True):
+            a_tag.attrs.pop('href', None)
+            a_tag['style'] = 'text-decoration: none;'
+            
     # Add custom CSS
     custom_css = '''
     <style>
@@ -73,6 +79,11 @@ def fetch_article_data(article_url):
         response = requests.get(article_url, headers=headers, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.content, 'html.parser')
+        
+        # Remove href from <a class="tag devblog">
+        for devblog_tag in soup.find_all('a', class_='tag devblog'):
+            devblog_tag.attrs.pop('href', None)
+            devblog_tag['style'] = 'text-decoration: none;'
 
         # Extract <div class="blog-hero">
         blog_hero = soup.find('div', class_='blog-hero')
