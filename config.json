@@ -25,6 +25,11 @@
 			"script": "pattern_prosport.py",
 			"FileName": "prosport_auto_moto.xml"
 		},
+		"Rust News": {
+			"url": "https://rust.facepunch.com/news/",
+			"script": "pattern_rust_facepunch.py",
+			"FileName": "rust_news.xml"
+		},
 		"World News": {
 			"url": "https://worldnews24.net/",
 			"category": [
