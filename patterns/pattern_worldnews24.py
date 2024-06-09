@@ -8,8 +8,9 @@ headers = {
 }
 
 unwanted_phrases = [
-    "În lipsa unui acord scris, puteți prelua maxim 250 de caractere din acest articol dacă precizați sursa și dacă inserați vizibil linkul articolului.",
-    "Pentru mai multe articole interesante rămâi cu noi pe"
+    re.compile(r"În lipsa unui acord scris, puteți prelua maxim \d+ de caractere din acest articol dacă precizați sursa și dacă inserați vizibil linkul articolului."),
+    "Pentru mai multe articole interesante rămâi cu noi pe",
+    "VIDEO"
 ]
 
 unwanted_classes = [
@@ -17,28 +18,45 @@ unwanted_classes = [
     "code-block"
 ]
 
+def remove_unwanted_phrases(soup):
+    for p in soup.find_all('p'):
+        if any(phrase.search(p.text) if isinstance(phrase, re.Pattern) else phrase in p.text for phrase in unwanted_phrases):
+            p.decompose()
+
+def remove_unwanted_scripts(soup):
+    for script in soup.find_all('script'):
+        script.decompose()
+
+def remove_unwanted_divs(soup):
+    for div in soup.find_all('div', class_=re.compile('|'.join(unwanted_classes))):
+        div.decompose()
+
+def remove_video_block(soup):
+    for figure in soup.find_all('figure', class_=re.compile('wp-block-embed is-type-video')):
+        figure.decompose()
+
 def fetch_article_data(article_url):
     try:
         with requests.get(article_url, headers=headers, timeout=10) as response:
             response.raise_for_status()
             soup = BeautifulSoup(response.content, 'html.parser')
 
-            # Remove unwanted phrases in <p> tags
-            for p in soup.find_all('p'):
-                if any(phrase in p.text for phrase in unwanted_phrases):
-                    p.decompose()
-
-            # Remove <script> tags
-            for script in soup.find_all('script'):
-                script.decompose()
-
-            # Remove <div> tags with unwanted classes
-            for div in soup.find_all('div', class_=re.compile('|'.join(unwanted_classes))):
-                div.decompose()
+            remove_unwanted_phrases(soup)
+            remove_unwanted_scripts(soup)
+            remove_unwanted_divs(soup)
+            remove_video_block(soup)
 
             content_block = soup.find('div', class_='entry-content')
+            image_block = soup.find('div', class_='entry-image')
+            image_html = ""
+            if image_block:
+                img_tag = image_block.find('img')
+                if img_tag:
+                    image_html = str(img_tag)
+
             if content_block:
-                return content_block.prettify().strip()
+                final_content = f"{image_html}<br><br>{content_block.prettify().strip()}"
+                return final_content
             else:
                 return "Content block not found."
     except requests.RequestException as e:
