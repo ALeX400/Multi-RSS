@@ -574,6 +574,2664 @@
       <pubDate>Thu, 25 Apr 2024 12:30:00 Z</pubDate>
     </item>
     <item>
+      <title>Meta Madness</title>
+      <link>https://rust.facepunch.com/news/meta-madness/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Meta Madness
+    </h1>
+    <p editname="Summary" type="text">
+     Meta gameplay changes are here! Aimcone reduction, weapon buffs and changes to  weapon attachments, safe zone recyclers, PvP walls, Cargo Ship docking, Launch Site and much, much more.
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      02 May 2024
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="Aimconereduction">
+  <div class="section" like-handler="LikeBlogSection" like-id="84345" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Aimcone reduction
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div class="autodiv">
+      Any movement in rust would modify your baseline Aimcone so that shots taken while in motion were somewhat inaccurate. This was supposed to discourage "running and gunning". The problem with this is that *any* kind of motion while in a firefight puts you at a disadvantage (minor dodging) and increases the amount of RNG experienced by the player.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img src="https://files.facepunch.com/paddy/20220601/pvp_raid_05.jpg"/>
+     </div>
+     <div class="autodiv">
+      What I've done is reduced this penalty to zero to start, and blend it up to the full amount after 4 rapid fire shots. This means is you can now strafe and dodge while tap firing and not experience a huge aiming penalty, however full auto will be penalized.
+      <br/>
+     </div>
+     <br/>
+     <div class="autodiv">
+      I've also adjusted the Aimcone curve modifiers for a few weapons so that more shots have a higher probability of landing closer to the center. This has been applied to the Custom SMG, SAP and LR300.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="WeaponAttachmentUPdates">
+  <div class="section" like-handler="LikeBlogSection" like-id="84346" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Weapon + Attachment UPdates
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div class="autodiv">
+      Weapon mods have received some love this month.
+     </div>
+     <div class="autodiv">
+      <br/>
+     </div>
+     <h2>
+      BURST MOD
+      <br/>
+     </h2>
+     <div>
+      The duration between bursts while using the burst mod has been significantly reduced to 2x firerate instead of 3x firerate.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video controls="" crossorigin="anonymous" poster="https://files.facepunch.com/paddy/20240502/burstmod_posterframe.jpg" src="https://files.facepunch.com/paddy/20240502/rust_burstmod_firerate_may2024.mp4">
+      </video>
+     </div>
+     <div>
+     </div>
+     <h2>
+      HOLOSIGHT
+      <br/>
+     </h2>
+     <div>
+      The holosight mesh has had its edges thinned so that less of your vision is obscured while using it. This is a stopgap until we produce a new model for it. I've also fixed the Holosight reticle being affected by motion blur.
+      <br/>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20240502/holosight_poster.jpg" src="https://files.facepunch.com/paddy/20240502/rust_holosight_resize_compare.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      MUZZLE BRAKE &amp; BOOST
+      <b>
+       <br/>
+      </b>
+     </h2>
+     <div>
+      Both the muzzle brake and muzzle boost have had their negatives reduced,
+ they now have less damage reduction and less damage falloff and should 
+prove to be far more useful.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240502/rust_muzzlebrakeandboost_duo_01.jpg"/>
+     </div>
+     <h2>
+      LR300 TWEAKS
+      <br/>
+     </h2>
+     <div>
+      In addition, I've made some changes 
+to the recoil, damage fall off, bullet velocity, and burst mode of the 
+LR300. This should now be the best in class AR.
+      <br/>
+      <br/>
+      Everything subject to change.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="SafezoneREcyclers">
+  <div class="section" like-handler="LikeBlogSection" like-id="84347" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Safezone REcyclers
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Starting today, Recyclers in safezones have been nerfed. Their cycle time has been increased to 8 seconds and they now yield 80% of what they used to. This is the price you now must pay for safety.
+     </div>
+     <div>
+      <b>
+       <br/>
+      </b>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240502/rust_recyclers_safezone_01.jpg"/>
+     </div>
+     <div>
+      However, the recyclers found at monuments have the same cycle time as before but now yield 120%! This is to reward players taking the risk out in the open.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240502/rust_recyclers_radtown_01.jpg"/>
+     </div>
+     <div>
+      <br/>
+      While I am aware that a great many keyboards may be smashed as the death screen fades in over the droning hum of the active recycler, I still have hope this helps usher in a new era of roaming and monument combat.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="salesalesale">
+  <div class="section" like-handler="LikeBlogSection" like-id="84348" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       sale sale sale!
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Some great items were not used because they were way too expensive. To that end I've made the following changes:
+      <br/>
+      <ul>
+       <li>
+        <b>
+         HV Ammo -
+        </b>
+        Gunpowder cost reduced from 6x to 2x the cost of non HV ammo
+       </li>
+       <li>
+        <b>
+         Torpedos -
+        </b>
+        Craft yield increased from 3 to 5.
+        <br/>
+       </li>
+       <li>
+        <b>
+         Incendiary Rockets -
+        </b>
+        The cost has been drastically reduced and their damage + flame spread increased.
+       </li>
+       <li>
+        <b>
+         Drones -
+        </b>
+        Tech trash is no longer a requirement for drones.
+       </li>
+       <li>
+        <b>
+         HMLMG -
+        </b>
+        Gear cost has been reduced.
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Externalstructurechanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84331" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       External structure changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       Large External Gates and Walls now require the player to stand still for
+ 1.5 seconds when placing, making them less useful for immediate PvP 
+encounters in the wild. We felt that being able to place down such large
+ structures in a short amount of time felt at odds with our style of 
+combat that rewards situational awareness and environmental tactics.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240501/rust_highexternalwall_deploy.jpg"/>
+     </div>
+     <div>
+      <div>
+      </div>
+      <h2>
+       WOODEN BARRICADE RESIZE
+      </h2>
+      <div>
+      </div>
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20240501/rust_woodenbarricade_cover_resize.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      To fill the void left by the external wall changes regarding dynamic cover during PvP, we have doubled the size of the deployable wooden barricade. The wooden barricade remains instantly deployable and provides a moderate amount of cover on-demand without being overpowered or polluting the landscape with large, unsightly deployable.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This is without a doubt a large shift to PvP, we'll be monitoring these changes carefully
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="BRADLEYCHANGES">
+  <div class="section" like-handler="LikeBlogSection" like-id="84334" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       BRADLEY CHANGES
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Some further tweaks to the Bradley this month:
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Scientists now spawn in stages, based on the Bradley's health, and there's some Heavy scientists thrown in the mix now, too.
+     </div>
+     <div>
+      <ul>
+       <li>
+        At 80% health, 2 scientists will spawn
+       </li>
+       <li>
+        At 60% health, 4 more will spawn
+        <br/>
+       </li>
+       <li>
+        At 40% health, 6 final scientists will spawn
+       </li>
+      </ul>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240405/bradleyscientists_01.jpg"/>
+     </div>
+     <div>
+      There's also been some tweaks to make some of the Scientists more aggressive and use varying attack angles.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="DOORCONTROLLER">
+  <div class="section" like-handler="LikeBlogSection" like-id="84336" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       DOOR CONTROLLER
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      You can now use door controllers without worrying about raiders abusing them to open your doors! This is accomplished by unpairing door controllers once your TC is destroyed &amp; requiring code lock authorization for pairing.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      They also are much easier to setup as they can now be placed just like code locks.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240502/rust_doorcontroller_wiring.jpg"/>
+     </div>
+     <div>
+      This should reduce the pain of constantly opening and closing the doors of your base... especially when your teammates tend to leave them open.
+      <br/>
+     </div>
+     <div>
+      <ul>
+       <li>
+        <span id="docs-internal-guid-b061c83b-7fff-e14a-57d8-19d99c17a921">
+         Now deployable on doors like code locks
+        </span>
+       </li>
+       <li>
+        Automatically paired when placed
+       </li>
+       <li>
+        Added 2 new side inputs : 'Open' and 'Close'
+       </li>
+       <li>
+        Unpaired when the associated tool cupboard is destroyed
+       </li>
+      </ul>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video controls="" src="https://files.facepunch.com/paddy/20240502/doorcontroller_io_01.mp4#t=0.1">
+      </video>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      We also carried on improving electricity by adjusting components and fixing various bugs this month. Thanks again to the community for reporting bugs and suggesting ideas.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The full change log of each component can be read in the
+      <a class="selected" href="https://rust.facepunch.com/news/meta-madness#ElectricityChangelog">
+       section at the bottom of the blog
+      </a>
+      .
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="PatrolHelicopterChanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84337" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Patrol Helicopter Changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We know the latest helicopter changes had some mixed feedback, so we've revised them. No go zones should feel a lot more fair, and most major bugs experienced with heli since the last update are now patched.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240402/patrolhelicopter_trainyard_01.jpg"/>
+     </div>
+     <div>
+      <ul>
+       <li>
+        <b>
+         Monument Crashing
+        </b>
+        - the helicopter will now attempt to crash at a nearby monument on death. It won't crash at monuments with safe zones: outpost, fishing village, etc. This can be disabled by server owners via:
+        <b>
+        </b>
+        <b>
+         patrolhelicopterai.monument_crash
+        </b>
+       </li>
+      </ul>
+      <ul>
+       <li>
+        <b>
+         Flee Behavior
+        </b>
+        - heli would previously flee when it sometimes didn't mean to. Damage to start a flee has been tweaked, ensuring a flee every time you quickly remove 30% of its overall HP.
+        <br/>
+       </li>
+      </ul>
+      <ul>
+       <li>
+        <b>
+         Numerous Fixes &amp; Improvements -
+        </b>
+        heli will now properly target you on boats, cargo, trains and other moving entities. Targeting fixes and performance improvements have been made throughout the code. More legacy bugs: such as heli not exploding immediately on impact with certain terrain are also fixed.
+        <br/>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="LaunchSiteLoot">
+  <div class="section" like-handler="LikeBlogSection" like-id="84344" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Launch Site Loot
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The Launch site loot had received an overhaul. Before, the loot inside the main building shared the same respawn group as the rest of the launch site, meaning loot inside the main building was never guaranteed. Loot had a chance to spawn elsewhere at the monument, which felt discouraging when completing the puzzle and running the main building.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240502/rust_launchsite_loot_01.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The main site building now has a dedicated respawn group, which guarantees 23 loot crates when the puzzle resets.
+      <br/>
+      <br/>
+      Additionally, more loot now spawns throughout the monument.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="UNderwaterIMprovements">
+  <div class="section" like-handler="LikeBlogSection" like-id="84349" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       UNderwater IMprovements
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Underwater vision has been improved substantially. You can now see much farther when using goggles and even more so when viewing out a submarine porthole.
+      <br/>
+      <br/>
+      In addition, the surface accuracy of submarine torpedoes has been vastly improved and torpedoes were made cheaper to produce by way of an increased craft yield. Lastly, the duo submarine fires torpedoes slightly faster than the solo.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="BuildingQOL">
+  <div class="section" like-handler="LikeBlogSection" like-id="84326" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Building QOL
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/jakerich/6b0564e4n97JLqHG/kJjuAMBeeQpLqlOq.png"/>
+        <center>
+         <b>
+          Tool Cupboard Auth Friend
+         </b>
+        </center>
+        <center>
+         Can authorize other players on a tool cupbard
+        </center>
+       </div>
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/jakerich/pz9OLCFExH913woe/iN3hvGodpbCcSM54.png"/>
+        <center>
+         <b>
+          Demolish High Walls
+         </b>
+        </center>
+        <center>
+         Can demolish high walls &amp; gates for 10min after placement
+        </center>
+       </div>
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/jakerich/JWiV0wv5zA2uIxjC/ILfJdUoo8igzkNCy.png"/>
+        <center>
+         <b>
+          Fixed High  Wall Snapping
+         </b>
+        </center>
+        <center>
+         Hold SHIFT to disable snapping
+        </center>
+       </div>
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/jakerich/cJdYfyeaLNwliRYQ/D0wBeAYybJ0Q5nsg.png"/>
+        <center>
+         <b>
+          Foundation Placement
+         </b>
+        </center>
+        <center>
+         Fixed foundation placement under roofs &amp; floors
+        </center>
+       </div>
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/jakerich/D6QbFScRWnQme8AL/NIVwfh4NQkRtvzLu.png"/>
+        <center>
+         <b>
+          Foundation Debris
+         </b>
+        </center>
+        <center>
+         Foundations now drop debris
+        </center>
+       </div>
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/jakerich/y4ONzOniraSeQCDm/CUhf3lYOkhoyD6T7.png"/>
+        <center>
+         <b>
+          Floor Debris
+         </b>
+        </center>
+        <center>
+         Floors now drop debris
+        </center>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="TechTreeCHanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84330" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Tech Tree CHanges
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       We’re making some changes to how the Tech Tree works to try and incentivise new styles of play. Starting this month you will notice that the T2 and T3 workbench tech trees now have a tax rate applied to them which will increase the cost of unlocking items. We’re starting this at 10% for T2 and 20% for T3. This cost increase only applies to unlocking via the Tech Tree, researching items via the Research Table is unchanged.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20220201/workbenches.jpg"/>
+     </div>
+     <div>
+      <div>
+       Our thinking behind this is that we feel the Tech Tree progression 
+path has become a little stale and needs to be shaken up, but we don’t 
+want to lose the advantages that the Tech Tree brought to progression - 
+making difficult to find blueprints attainable in a way that felt fair 
+and not as at the mercy of RNG. While there are a number of avenues we 
+can use to try and make both forms of progression feel more balanced,  this feels like a simple and understandable starting point.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       As with all of our changes, we’ll be keeping a close eye on this and will likely make further changes in the future.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="CargoShipChanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84332" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Cargo Ship Changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       It’s been great to see the reception to last month's Cargo Ship/harbor update, and we hope you’ve all enjoyed some very (very) intense firefights. Based on the feedback we have received, we’re making a couple of changes this month:
+      </div>
+      <div>
+       <ul>
+        <li>
+         The Cargo Ship will now dock at both harbors (if they exist) on a map before leaving. Note that any containers that have already been placed on a ship will be deleted when it starts its approach to the next harbor.
+        </li>
+        <li>
+         You can now mouse over the ship on the map to see if it has already docked.
+        </li>
+        <li>
+         The containers that are spawned to be placed on the Cargo Ship will now be spawned when it starts its approach (about 100m away from the harbor) rather than when the ship arrives at its dock, giving you more time to hide in the containers.
+        </li>
+        <li>
+         The container spawn points have been mildly tweaked so that all of the containers should be accessible, although you might need to do some climbing.
+        </li>
+       </ul>
+      </div>
+      <div>
+       We hope these changes make the event a bit more understandable at a glance as well as make the combat encounters more interesting.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Viewmodelrenderers">
+  <div class="section" like-handler="LikeBlogSection" like-id="84333" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Viewmodel renderers
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       Since implementing a dedicated viewmodel renderer system back in
+       <a class="selected" href="https://rust.facepunch.com/news/gestures-update#ViewmodelJitterFix">
+        April 2021
+       </a>
+       , all of our viewmodels have been split between the old and new system. The primary stumbling blocks were viewmodels with lots of particle effects and lights (torches, flamethrowers, etc). While we covered most of the high impact cases of viewmodel jittering by supporting guns (how often do you use the birthday cake on oil rig?) we’ve been wanting to consolidate everything for a while. This month, we’ve updated all of the viewmodels to use the new renderer so they should appear smooth and jitter free, regardless of where you are in the world. The affected viewmodels are:
+      </div>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Both flamethrowers
+        <br/>
+       </li>
+       <li>
+        Water Bucket
+       </li>
+       <li>
+        Beancan Grenade
+       </li>
+       <li>
+        Molotov Cocktail
+       </li>
+       <li>
+        Flashlight
+       </li>
+       <li>
+        Birthday Cake
+       </li>
+       <li>
+        Garry’s Mod Toolgun
+       </li>
+       <li>
+        Poker playing cards
+       </li>
+       <li>
+        Lunar New Year spear
+       </li>
+       <li>
+        Minigun
+       </li>
+       <li>
+        Paddle
+       </li>
+      </ul>
+      You should see no visible changes if it's all working correctly.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="AIPerformancefixes">
+  <div class="section" like-handler="LikeBlogSection" like-id="84335" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       AI Performance fixes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      I've investigated and addressed a couple of AI performance issues that were causing the AI to take longer to process than necessary, especially on servers that have been running for a while.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This should help with AI server performance across the board.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="EFFECTSPERFORMANCE">
+  <div class="section" like-handler="LikeBlogSection" like-id="84341" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       EFFECTS PERFORMANCE
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       After noticing occasional framedrops during gunfights, I've spent some time investigating the issue and found out that our impact effects prefab warmup wasn't working as intended.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       All impact effects are now warmed up correctly during loading times.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       This should drastically reduce the stuttering when spawning a big amount of effects prefab for the first time (e.g when a fight starts and bullets start flying). This has a very little if no impact on loading times.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="MapUploading">
+  <div class="section" like-handler="LikeBlogSection" like-id="84342" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Map Uploading
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Procedural maps are now automatically uploaded from game servers to our backend, so players can just download them instead of generating them when they first join the server.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This should significantly reduce the time it takes to join a server for the first time after it wipes. It may also reduce the number of players seeing "Rust is not responding" pop ups while joining servers for the first time.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Harmony2">
+  <div class="section" like-handler="LikeBlogSection" like-id="84329" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Harmony 2
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Harmony is Rust's built-in modding platform shipped with the server. It powers modding frameworks like Oxide &amp; Carbon, as well as standalone mods.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      We upgraded from Harmony 1.2 -&gt; Harmony 2.3 which brings us up to date with the latest features &amp; additional stability.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This requires mod authors to recompile their Harmony mods. Fortunately the majority of mods only need to change a single line.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       Before
+      </b>
+     </div>
+     <div>
+      using Harmony;
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       After
+      </b>
+     </div>
+     <div>
+      using HarmonyLib;
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Players shouldn't need to worry as the majority of large servers already started updating their mods before the update went live. Server owners please keep an eye out for mod updates as every Harmony Mod will needed to be updated.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ElectricityChangelog">
+  <div class="section" like-handler="LikeBlogSection" like-id="84338" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Electricity Change log
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-043dddd8-7fff-07e6-3bcf-89219be3d099">
+       <div>
+        <span id="docs-internal-guid-39db228d-7fff-cd2b-1408-94a6d531cf07">
+         <img class="lightbox-thumbnail" height="150" src="https://lh7-us.googleusercontent.com/FnxWRS-7yIVDbm1eUQPsrhQS0FhAbMJq8FI5AoJQclwxE-0txHTD9Ky6AaCgo_UVNjVOyvyIoFpEfrEi6gZpoSHYhGbB_KL0X1rcnJinpNTSLl0BAymwuX9r3ZRSmixAek2kFWBBU7h6TQ27_eHYzUM" width="268"/>
+        </span>
+       </div>
+       <div>
+        <ul>
+         <li>
+          <b>
+           Tesla Coil, Igniter
+          </b>
+         </li>
+        </ul>
+        <div>
+         To stop them from self-destructing, they are now disabled upon reaching &lt;10% of their max health.
+        </div>
+        <div>
+         No longer take damage when picked up.
+        </div>
+        <div>
+         <br/>
+        </div>
+        <div>
+        </div>
+       </div>
+      </span>
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" src="https://files.facepunch.com/paddy/20240430/teslacoil_igniter_damage.mp4">
+      </video>
+     </div>
+     <div>
+      <div>
+       <div>
+        <span>
+         <br/>
+        </span>
+       </div>
+       <div>
+        <span id="docs-internal-guid-8483dfe8-7fff-7193-2208-56f6c25aa08a">
+         <img class="lightbox-thumbnail" height="100" src="https://lh7-us.googleusercontent.com/tXjbh-cQCuvi9QzxRSMZNAaDr8yAcOU3Y6MldkDeHVaVjNMFhgoo7dz3lQM1ChiD1gq6KxjOulLKwWPiiyk3MNNX8vSH5jhOKjHwjcB9c-4nWwUsqzkIfRIdAN5_e-nqzkw7cyys5SaXiK_KYeKc78M" width="100"/>
+        </span>
+       </div>
+       <ul>
+        <li>
+         <b>
+          Electrical Branch
+         </b>
+        </li>
+       </ul>
+       <div>
+        Reduced minimum branch out power from 2 to 1.
+        <br/>
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        <div>
+         <span id="docs-internal-guid-24b7f1c6-7fff-5de4-40ac-a572cc78b989">
+          <img class="lightbox-thumbnail" height="124" src="https://lh7-us.googleusercontent.com/_Jh56LGEZ-jImxqmoyF2pIVAJx14kreFpinAn4Rs-RaJxFbJU2DtnqO8yDbzD6-Pa59ieRUBiGbOw9Um17RSsFzDYrl0tLOvqdBNacRZ0MKiPszimM0cDSEBNZvtWTZHC2Ij8iYqFQ4kB4eyIdaKXAQ" width="124"/>
+         </span>
+        </div>
+        <div>
+         <ul>
+          <li>
+           <b>
+            Button
+           </b>
+          </li>
+         </ul>
+         <div>
+          Reduced press time from 5s to 1s.
+         </div>
+        </div>
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        <div>
+         <span id="docs-internal-guid-24b7f1c6-7fff-5de4-40ac-a572cc78b989">
+          <span id="docs-internal-guid-7f6e05f3-7fff-d62c-9604-0d30eaadee48">
+           <span>
+            <img class="lightbox-thumbnail" height="129" src="https://lh7-us.googleusercontent.com/nQ8904MyTLUa9HgopQUC54miMMczN2_BS4xuoyu9RNxuLsCXQyhO6F4_zxb5nptX8Fv4TVi9vEiKWvawIgkfoe9W7ioCrGs6mXtExGhQm0QfcofC4eM4qgFQVXoKJMYKa-jidpO34pRS_PyQdsfo6is" width="129"/>
+           </span>
+          </span>
+         </span>
+        </div>
+        <div>
+         <ul>
+          <li>
+           <b>
+            Storage Monitor
+           </b>
+          </li>
+         </ul>
+        </div>
+       </div>
+       <div>
+        <div>
+         <span id="docs-internal-guid-29e87985-7fff-6ce5-2e8a-5f883f2ce54b">
+          Will now
+         </span>
+         recognize partial stack changes and pass power through when removing or adding items to a stack.
+        </div>
+        <div>
+         <br/>
+        </div>
+        <div>
+         <div>
+          <span id="docs-internal-guid-043dddd8-7fff-07e6-3bcf-89219be3d099">
+           <img class="lightbox-thumbnail" height="129" src="https://lh7-us.googleusercontent.com/yIrocsnrfneMCeGTRHHljiLHgB_LvpOgG_lLKGTtsLK950bCvLZCtj-se-pDrP4FaFYY1_qa_3vttzgS-1PaRhHs7AnfKIF61tjFUTu58vrre-gertvK8-OqCIbedDZ4yejU15jH_Kcknl-lSVUmvkQ" width="129"/>
+          </span>
+         </div>
+         <div>
+          <div>
+           <ul>
+            <li>
+             <b>
+              Splitter
+             </b>
+            </li>
+           </ul>
+          </div>
+          <div>
+           Fixed power distribution issue when not all outputs were used.
+          </div>
+          <div>
+           <br/>
+          </div>
+         </div>
+        </div>
+        <div>
+         <span>
+          <img class="lightbox-thumbnail" height="93" src="https://lh7-us.googleusercontent.com/uPc2ZYd2OJrvRMJ2saI5TlGEf1Rko1cCxY6c8Umfneri_R0V1vQp87JQPAul-qIH4ZGL0PEsvlNWNyl-MUcys8OvfwsaGLnEzUXw8UVI6NnDF4WYszlIZUImnnJZvG39JSxhyEVdnEEdd_atPegWpAE" width="93"/>
+         </span>
+        </div>
+        <div>
+         <ul>
+          <li>
+           <b>
+            Memory Cell
+           </b>
+          </li>
+         </ul>
+         <div>
+          Fixed side inputs triggerable by 0 power circuits.
+         </div>
+        </div>
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        <div>
+         <div>
+          <div>
+           <span id="docs-internal-guid-48512b5a-7fff-9506-c23b-334917ee47f8">
+            <img class="lightbox-thumbnail" height="117" src="https://lh7-us.googleusercontent.com/6RZ1SWk6QHuSrzeRuCDnwJJnz9-nKX8hBoOS8SMbj_9Ik69ZS-k8mGJunbQ1Jq8EUNKb6vbDxAq3KFhbgzOaSBwh7paV5kHZrCd_Mbp9AHWXjQY6SeqIESM4b5iZtA_CWzbO6BUTtI3dUJOpGQ4uL50" width="117"/>
+           </span>
+          </div>
+          <div>
+           <ul>
+            <li>
+             <b>
+              Timer Switch
+             </b>
+            </li>
+           </ul>
+           <div>
+            Fixed an issue where its side input was triggered inconsistently by circuits update (e.g: industrial conveyor updating its state).
+           </div>
+           <div>
+            <br/>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div>
+        <div>
+         <span id="docs-internal-guid-7768414c-7fff-fa41-b8fd-0dc76e045361">
+          <img class="lightbox-thumbnail" height="91" src="https://lh7-us.googleusercontent.com/9IKYsisPmumYwO6pZbN65qhp19O4yy-PkoKLxL9MCLzSK42RFDzRZ7YOcFw0T32IpE0LUckplu_BGqgpT_MUbheKPvPf3Jmen11uutljJIao95Cdx8-oZ9fwddOYucseDgjqjH2_FqcpKhRD_POJugw" width="91"/>
+         </span>
+        </div>
+        <div>
+         <ul>
+          <li>
+           <b>
+            Counter
+           </b>
+          </li>
+         </ul>
+         <div>
+          No longer requires a connection to its output to display its passthrough when set to 'Show Passthrough'
+          <br/>
+         </div>
+        </div>
+        <div>
+         <div>
+          <br/>
+         </div>
+        </div>
+       </div>
+       <div>
+        <div>
+         <div>
+          <span id="docs-internal-guid-e6d115ae-7fff-8e8a-f29e-614eb1289859">
+           <span id="docs-internal-guid-f24daf36-7fff-a04b-2441-5d830d2ceef5">
+            <span>
+             <img class="lightbox-thumbnail" height="142" src="https://lh7-us.googleusercontent.com/vmwI5iRcuPNebNR5w_0xRDAmcClx4sswcRpmaoKHCLVaIbozRWXDJi34Qb-KDEZCK_vjpVuhpFcplaO7e3pOcbwrUJao-LjBZT7RkxYXNrUh5QS-zepyJ353XN_DwGYizrKLIVqa0V1QfhBawNDoIs0" width="142"/>
+            </span>
+           </span>
+          </span>
+         </div>
+         <div>
+          <ul>
+           <li>
+            <b>
+             RF Receiver
+            </b>
+           </li>
+          </ul>
+         </div>
+         <div>
+          Updated recipe:
+         </div>
+        </div>
+        <div>
+         <div>
+          <div>
+           - Metal Fragments 100 → 150
+          </div>
+          <div>
+           - Tech Trash 1 → 0
+          </div>
+         </div>
+        </div>
+       </div>
+       <div>
+        <div>
+         <span>
+          <br/>
+         </span>
+        </div>
+        <div>
+         <div>
+          <div>
+           <span id="docs-internal-guid-e6d115ae-7fff-8e8a-f29e-614eb1289859">
+            <span id="docs-internal-guid-f24daf36-7fff-a04b-2441-5d830d2ceef5">
+             <span>
+              <span id="docs-internal-guid-286352e3-7fff-4afa-e269-841e9b193c91">
+               <span>
+                <img class="lightbox-thumbnail" height="139" src="https://lh7-us.googleusercontent.com/YWiJCY6xMgNwDh28d-jwhYHingRNdio5DFr7CmaXgnrY_oVNCyUiUQ7t__NdySNSrYOoGlRKwSB2KSHwLs595clWUHT1fyuFocTmYQrwtR_iBdtM6EixTg729ggn2AvYtw5o8N35lB9xh5fLZ3OIXWY" width="139"/>
+               </span>
+              </span>
+             </span>
+            </span>
+           </span>
+          </div>
+          <div>
+           <ul>
+            <li>
+             <b>
+              RF Broadcaster
+             </b>
+            </li>
+           </ul>
+          </div>
+          <div>
+           Updated recipe:
+          </div>
+         </div>
+         <div>
+          <div>
+           <div>
+            - Metal Fragments 100 → 150
+           </div>
+           <div>
+            - Tech Trash 1 → 0
+           </div>
+           <div>
+            <br/>
+           </div>
+           <div>
+            <br/>
+           </div>
+           <div>
+            <div>
+             <div>
+              <span id="docs-internal-guid-e6d115ae-7fff-8e8a-f29e-614eb1289859">
+               <span id="docs-internal-guid-f24daf36-7fff-a04b-2441-5d830d2ceef5">
+                <span>
+                 <span id="docs-internal-guid-286352e3-7fff-4afa-e269-841e9b193c91">
+                  <span>
+                   <span id="docs-internal-guid-61f9d811-7fff-eca4-f5e7-87465868df7a">
+                    <span>
+                     <img class="lightbox-thumbnail" height="134" src="https://lh7-us.googleusercontent.com/w59Dr5dCGP4F0ebzSJWo_Al0zLWglD9hRj7AP08vzkGvTULygpArbz9ouIHjT50Srm7WfrC5iO367jCp1pYtQ6KynNcJWU3Yi_2oFMzFp5OVpwBUs_zKPNebvE4jAN2rVzKVuf2eHpHCv5nL5OtZTLQ" width="134"/>
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                </span>
+               </span>
+              </span>
+             </div>
+             <div>
+              <ul>
+               <li>
+                <b>
+                 RF Transmitter
+                </b>
+               </li>
+              </ul>
+             </div>
+             <div>
+              Updated recipe:
+             </div>
+            </div>
+            <div>
+             <div>
+              <div>
+               <div>
+                - HQM 5 → Metal Fragments 100
+               </div>
+               <div>
+                - Tech Trash 1 → 0
+               </div>
+              </div>
+              <div>
+               <br/>
+              </div>
+              <div>
+               <br/>
+              </div>
+              <div>
+               <div>
+                <div>
+                 <span id="docs-internal-guid-e6d115ae-7fff-8e8a-f29e-614eb1289859">
+                  <span id="docs-internal-guid-f24daf36-7fff-a04b-2441-5d830d2ceef5">
+                   <span>
+                    <span id="docs-internal-guid-286352e3-7fff-4afa-e269-841e9b193c91">
+                     <span>
+                      <span id="docs-internal-guid-fe4ccf6c-7fff-5488-f0c2-e8c556eb9914">
+                       <span>
+                        <img class="lightbox-thumbnail" height="134" src="https://lh7-us.googleusercontent.com/a9C5-rTq7_twCQRggACKF8GZXVbPRP9dbzLb-5Jupd5D4KkylyGv5bTJJb0QAyn_WB0bdTdb9VEuUtjTR_h4-t_qGsrE-VpdHiHO794koZ_QL-NuffdvVLE6VFrdNvk5DY07m-PSp_QCHg-IDREn9gY" width="134"/>
+                       </span>
+                      </span>
+                     </span>
+                    </span>
+                   </span>
+                  </span>
+                 </span>
+                </div>
+                <div>
+                 <ul>
+                  <li>
+                   <b>
+                    RF Pager
+                   </b>
+                  </li>
+                 </ul>
+                </div>
+                <div>
+                 Updated recipe:
+                </div>
+               </div>
+               <div>
+                <div>
+                 <div>
+                  <div>
+                   - Metal Fragments 50 → 100
+                  </div>
+                  <div>
+                   - Tech Trash 1 → 0
+                  </div>
+                  <div>
+                   <br/>
+                  </div>
+                 </div>
+                </div>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div>
+         <div>
+          <div>
+           <span id="docs-internal-guid-70744870-7fff-02e8-304f-f709cdd47686">
+            <img class="lightbox-thumbnail" height="152" src="https://lh7-us.googleusercontent.com/v8zgLiAXn1H1nvGhhoO8Gk_gHaW66THwTxFHDYR0a7opuORe62hx2U2ZP9RZ7szVN3AaJceHfADQJYUI0bq6bt6Wm2zMAISpWVWaJTwATJTC40hWmCXQODu0o7zwGNz-aKou8GhfVcVkI9yqGS0wtUM" width="431"/>
+           </span>
+          </div>
+          <div>
+           <ul>
+            <li>
+             <b>
+              AND, OR, XOR Switch
+             </b>
+            </li>
+           </ul>
+          </div>
+         </div>
+         <div>
+          <div>
+          </div>
+         </div>
+         <div>
+          <div>
+           No longer emit light when unpowered.
+          </div>
+         </div>
+        </div>
+        <div>
+         <span>
+          <br/>
+         </span>
+        </div>
+        <div>
+         <div>
+          <span id="docs-internal-guid-39db228d-7fff-cd2b-1408-94a6d531cf07">
+           <img class="lightbox-thumbnail" height="138" src="https://lh7-us.googleusercontent.com/qt2iNF58SznvqqZBhK5nRD5cUL3OaOxmmHmJ-vu_7-JSteUkdORbf-BKRl_iQ2zO3GmMztgnzDEbw9imt0gnhuKskXLStfFHHTuuM-zMrbMhZ8HTZQ1ZqaUu28rK8NebVpP-3CSehmmxkE-l_WenUm4" width="138"/>
+          </span>
+         </div>
+         <div>
+          <ul>
+           <li>
+            <b>
+             Industrial Conveyor
+            </b>
+           </li>
+          </ul>
+          <div>
+           Can be placed upside down again.
+          </div>
+         </div>
+        </div>
+        <div>
+         <br/>
+        </div>
+        <div>
+         <span id="docs-internal-guid-e6d115ae-7fff-8e8a-f29e-614eb1289859">
+          <img class="lightbox-thumbnail" height="122" src="https://lh7-us.googleusercontent.com/6lGwW1Khcd-u8fjs1_FjOrcdMooZLQcZzBsjtkISxuEhHlCpxPhxYGeWwIb0YhWp59sUw2k521E0otxWvpod-GWlGrX3jA6qzr-Wl-fYZfg_MojfZL5cFedB29BjtM00EOWBFoQZnI5CYdOyWfQFd30" width="122"/>
+         </span>
+        </div>
+        <div>
+         <ul>
+          <li>
+           <b>
+            Industrial Light
+           </b>
+          </li>
+         </ul>
+        </div>
+        <div>
+         No longer referred as Simple Light when looking at IO connection handles.
+        </div>
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <div>
+        <span id="docs-internal-guid-e6d115ae-7fff-8e8a-f29e-614eb1289859">
+         <span id="docs-internal-guid-c6d980b4-7fff-fb4b-d72e-2f5434fc61ce">
+          <span>
+           <img class="lightbox-thumbnail" height="121" src="https://lh7-us.googleusercontent.com/CP97Nh3uju2J2c7BwTJuN2wBTVmuubf_nvg2cxNfH6-5mhmkNio7O_GdwY8LBaGGh8fUrc6_1HommoUjjYfVPLINWjaLlmUALcwTBFiQumllVI_FZjum9jSacBpVJqaX_lGvMaagf72eDeSOHXhcDc4" width="121"/>
+          </span>
+         </span>
+        </span>
+       </div>
+       <div>
+        <ul>
+         <li>
+          <b>
+           Smart Switch
+          </b>
+         </li>
+        </ul>
+       </div>
+       <div>
+        No longer referred as Switch when looking at IO connection handles.
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Meta Madness
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Meta Madness Changelist
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Thursday, May 2, 2024
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
+    </div>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Upgraded to Harmony 2
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Tier 2 and Tier 3 Workbenches now cost an additional 10%/20% scrap per purchase
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          External Structures now take 1.5 seconds to deploy
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Moving no longer applies aimcone penalty to the first shot but rather the movement penalty is now blended in over several shots (full auto while moving)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Safezone recyclers yield 20% less resources than before and take 8 seconds per cycle
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Radtown recyclers yield 20% more resources than before and take 5 seconds per cycle
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Large, Small and Fish hunting trophies now have gibs when destroyed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added debris to foundations
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added debris to floors
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Thinner holosight attachment edges
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced SAP aimcone
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduce hv ammo gp cost
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Slightly increased torpedo surface accuracy
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Torpedo craft yield increased to 5 from 3
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Decreased metal plate craft cost from 25 to 18 hqm
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Increased roadsign armor condition
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Removed tech trash from drone crafting cost
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced gear cost in HMLMG
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Submarine duo fires torpedos slightly faster than solo
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Decreased LR300 damage falloff (more damage at longer range)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Increased LR300 bullet velocity
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Decreased LR300 horizontal recoil
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced refire delay for burst module from 3x refire to 2x refire rate
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced cost of incendiary rockets and slightly increased damage
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added ability to drag items directly into backpack without opening it
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can demolish external walls &amp; external gates for 10 minutes after placement
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can rotate vending machine 90 degrees
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can authorize other users on the tool cupboard
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Muzzle brake and muzzle boost have a bit less negatives associated with their usage ( less damage reduction/damage falloff )
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Barricade always deploys horizontal rather than aligning to terrain
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Relaxed Barricade deployment
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Custom smg now has a 30 round magazine
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Custom smg has slightly higher chance for more center-fire hits
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Barricade always deploys horizontal rather than aligning to terrain
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Compress server tags to avoid servers going above 128 tag character limit
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          NPC’s that can give you a mission will now appear on the map (this can be toggled on the right of the screen)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Missions can no longer be completed if the player doesn’t have enough space in their inventory for the rewards
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a dedicated UI panel explaining the steps and rewards of a mission before accepting it
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Active missions will now appear as a list in the map - clicking on a mission will focus the map to its current objective
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can now close conversations with the Escape key
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved server performance of Industrial Conveyors - they should no longer cause as much Item churn
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved server performance of Industrial Conveyors when sending the screen info to clients
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Promoting a team leader is now done via the team section in your inventory, the old promote to leader prompt when looking at another team member has been removed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved the feedback and responsiveness of the Start Tutorial button in the options, including communicating when you are not connected to a valid server
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Minigun now shows the movement speed reduction in it’s information panel
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Containers spawned for Cargo/Harbor event should now all be climbable
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Cargo Ship now will dock at both Harbors
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          The Cargo Ship icon on the map now communicates whether the ship has already docked
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          The Containers for the Cargo/Harbor event will now spawn when the ship begins its approach
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Updated Cargo Ship sounds
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can no longer soft lock the tutorial by attacking the killed bear with your spear
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Getting crushed by a Container in the Harbor will now show an appropriate death icon
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Implemented PR #54 for CUI - Adding Support for Scrollable Containers (thanks to Kulltero)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Updated remaining viewmodels to use new renderer (for list see above)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Further Bradley gameplay changes. Heavy scientists and stage based spawning.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a ramp into the legacy shelter to ensure you can get in on difficult terrain
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wires and hoses can now be attached to doors and will move accordingly
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced Electrical Branch minimum branch out power from 2 to 1
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced electrical button press time from 5s to 1s
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added snapping support to Counter, Fluid Switch &amp; Pump, Connected Speaker, Electrical Heater, Laser Light, CCTV camera and Simple Light
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved Deluxe Christmas Lights inconsistent UI behaviour, it now displays the five options and select the current mode by default when opened
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added 'electricbattery.battery charge' and 'electricbattery.battery deplete' admin commands to respectively charge and deplete a battery easily
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added 'pipette' command: gives you the item you're looking at and places it in your hands
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added 'selectitem' command to allow non-admin clients to use pipette without the item giving part
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          IO entities configuration screen now supports numpad enter key to confirm
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Updated RF items crafting costs, removing tech trash and HQM
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Increased RF frequency range from 4 to 6 digits
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved client performance of bullet impact effects causing stuttering during gunfights
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Increased default MLRS 'broken' time after use from 10 to 20 minutes
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reworked bandit camp's roulette randomness
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed erroneous black line on Hobo barrel icon
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed ping estimation causing large lag spikes on linux servers
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed industrial conveyors moving items into empty slots instead of filling partial stacks
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed photos &amp; headbags not working when inside a backpack
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed several movement issues with ridable horses
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed head trophies not returning headbags to players when destroyed or picked up
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed heavy scientists not dropping minigun &amp; flamethrower as much as intended
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed player health sometimes flickering when spectating
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed stashes sometimes being inconsistantly revealed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed server disk space being endlessly consumed if full server demos is enabled but upload disabled
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed oil rig radiation not working after server restart
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed "Assign Friend" menu having dark names
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed steam nicknames sometimes being very slow to refresh
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed ammo sometimes being dropped to ground when unloading weapon / switching ammo types
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed horses sometimes taking 1.5x by bullets ricocheting
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed sleeping bags being difficult to place against walls in base
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed external wall snapping not being disabled when holding shift
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed storage adapter blocking looting chest
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed backpack being dropped in safezone when dying
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed hover looting clothing out of a full backpack not working
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed using doors &amp; external gates to block up TCs behind walls
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed ability to rotate walls when an explosive is attached to it
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed holosight reticle being affected by motion blur
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed missions on the tutorial island counting towards the “Mission Accomplished” achievement
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a case where dying during the tutorial island would result in duplicate objective markers appearing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed error when starting some the lumberjack mission
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed incorrect translation string on the last objective of the lumberjack animal kill mission
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed lumberjack harvest wood mission step listing the incorrect amount
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the mission objectives sometimes appearing on top of the marker list in the map screen
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to right click scrap into an invisible loot slot at safe zone workbenches
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some text not fitting in the help box in the tutorial
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a case where holes in the terrain would appear in the tutorial island
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a case where some environment props in the tutorial island would appear covered in snow
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          The hidden achievement in the tutorial should now be more reliable
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to unequip the minigun while it is spinning and being able to fire immediately when it was next deployed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an exploit that allowed players to fly by dismounting a chair near a climbable surface
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the reload button for the minigun not getting localised
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a case where a specific configuration of hoses would cause massive server lag
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed several guns inventory panels showing too many attachment slots
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an issue where Hobo barrels from the tunnel dweller decorations would leak to world origin after a server restart
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Minigun having the same description as the HMLMG
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Minigun reload help prompt now mentions Workbench T2/3
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an NRE when rapidly switching between some weapons
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed not being able to open some storage containers with the chicken suit equipped
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed water wake components getting run on the server
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed several AI performance issues
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed animals sometimes floating above the ground until in range
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Weapon rack collision area/bounds fixes
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Military flamethrower scale fixed for weapon racks
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Minigun can no longer be reloaded at weapon racks
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed buildable areas at harbor being inside the docking path of cargoship
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed NRE caused by the rangefinder in the binoculars
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed cargoship not destroying floatsams it passes over
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed cargoship stopping leaving if the server was saved mid-leave
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed NRE caused by our version of LeanTween
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Splitter power distribution issue when not all outputs are used
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Counter and HBHF sensor still rotating based on your view angle while being deployed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Smart Switch and Timers not deployable ~1 meter below ceilings
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Smart Switch referred as Switch when looking at IO connection handles
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Industrial Wall Light referred as Simple Light when looking at IO connection handles
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed AND, OR and XOR switches emitting light when unpowered
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Memory Cell side inputs triggerable by 0 power circuits
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed electrical components consuming 0 power still mentioning 1 power usage in their information panel
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Storage Adaptor not working after reskinning a tool cupboard
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Caboose light switches
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed physics regression bug for physics objects on moving vehicles, where the physics became "sticky"
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed gun audio issues from the previous update
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the new cargo ship side doors being sometimes opened by cargo ship NPCs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Sprinkler incorrect water drain
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed patrol helicopter orbiting random zones far away on the map
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed patrol helicopter targeting players with strafes inside no go zones
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed patrol helicopter not exploding when hitting the ground at weird angles
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an exploit allowing players to get inside the walls on the small oil rig
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a flyhack violation when using one of the crane ladders in one of the harbors
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 02 May 2024 13:48:00 Z</pubDate>
+    </item>
+    <item>
       <title>Waves Of Change</title>
       <link>https://rust.facepunch.com/news/waves-of-change/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -5283,2664 +7941,6 @@ applied to an existing Tool Cupboard using the Spray Can item.
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 06 Jun 2024 05:00:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Meta Madness</title>
-      <link>https://rust.facepunch.com/news/meta-madness/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Meta Madness
-    </h1>
-    <p editname="Summary" type="text">
-     Meta gameplay changes are here! Aimcone reduction, weapon buffs and changes to  weapon attachments, safe zone recyclers, PvP walls, Cargo Ship docking, Launch Site and much, much more.
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      02 May 2024
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="Aimconereduction">
-  <div class="section" like-handler="LikeBlogSection" like-id="84345" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Aimcone reduction
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div class="autodiv">
-      Any movement in rust would modify your baseline Aimcone so that shots taken while in motion were somewhat inaccurate. This was supposed to discourage "running and gunning". The problem with this is that *any* kind of motion while in a firefight puts you at a disadvantage (minor dodging) and increases the amount of RNG experienced by the player.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img src="https://files.facepunch.com/paddy/20220601/pvp_raid_05.jpg"/>
-     </div>
-     <div class="autodiv">
-      What I've done is reduced this penalty to zero to start, and blend it up to the full amount after 4 rapid fire shots. This means is you can now strafe and dodge while tap firing and not experience a huge aiming penalty, however full auto will be penalized.
-      <br/>
-     </div>
-     <br/>
-     <div class="autodiv">
-      I've also adjusted the Aimcone curve modifiers for a few weapons so that more shots have a higher probability of landing closer to the center. This has been applied to the Custom SMG, SAP and LR300.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="WeaponAttachmentUPdates">
-  <div class="section" like-handler="LikeBlogSection" like-id="84346" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Weapon + Attachment UPdates
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div class="autodiv">
-      Weapon mods have received some love this month.
-     </div>
-     <div class="autodiv">
-      <br/>
-     </div>
-     <h2>
-      BURST MOD
-      <br/>
-     </h2>
-     <div>
-      The duration between bursts while using the burst mod has been significantly reduced to 2x firerate instead of 3x firerate.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video controls="" crossorigin="anonymous" poster="https://files.facepunch.com/paddy/20240502/burstmod_posterframe.jpg" src="https://files.facepunch.com/paddy/20240502/rust_burstmod_firerate_may2024.mp4">
-      </video>
-     </div>
-     <div>
-     </div>
-     <h2>
-      HOLOSIGHT
-      <br/>
-     </h2>
-     <div>
-      The holosight mesh has had its edges thinned so that less of your vision is obscured while using it. This is a stopgap until we produce a new model for it. I've also fixed the Holosight reticle being affected by motion blur.
-      <br/>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20240502/holosight_poster.jpg" src="https://files.facepunch.com/paddy/20240502/rust_holosight_resize_compare.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      MUZZLE BRAKE &amp; BOOST
-      <b>
-       <br/>
-      </b>
-     </h2>
-     <div>
-      Both the muzzle brake and muzzle boost have had their negatives reduced,
- they now have less damage reduction and less damage falloff and should 
-prove to be far more useful.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240502/rust_muzzlebrakeandboost_duo_01.jpg"/>
-     </div>
-     <h2>
-      LR300 TWEAKS
-      <br/>
-     </h2>
-     <div>
-      In addition, I've made some changes 
-to the recoil, damage fall off, bullet velocity, and burst mode of the 
-LR300. This should now be the best in class AR.
-      <br/>
-      <br/>
-      Everything subject to change.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="SafezoneREcyclers">
-  <div class="section" like-handler="LikeBlogSection" like-id="84347" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Safezone REcyclers
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Starting today, Recyclers in safezones have been nerfed. Their cycle time has been increased to 8 seconds and they now yield 80% of what they used to. This is the price you now must pay for safety.
-     </div>
-     <div>
-      <b>
-       <br/>
-      </b>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240502/rust_recyclers_safezone_01.jpg"/>
-     </div>
-     <div>
-      However, the recyclers found at monuments have the same cycle time as before but now yield 120%! This is to reward players taking the risk out in the open.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240502/rust_recyclers_radtown_01.jpg"/>
-     </div>
-     <div>
-      <br/>
-      While I am aware that a great many keyboards may be smashed as the death screen fades in over the droning hum of the active recycler, I still have hope this helps usher in a new era of roaming and monument combat.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="salesalesale">
-  <div class="section" like-handler="LikeBlogSection" like-id="84348" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       sale sale sale!
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Some great items were not used because they were way too expensive. To that end I've made the following changes:
-      <br/>
-      <ul>
-       <li>
-        <b>
-         HV Ammo -
-        </b>
-        Gunpowder cost reduced from 6x to 2x the cost of non HV ammo
-       </li>
-       <li>
-        <b>
-         Torpedos -
-        </b>
-        Craft yield increased from 3 to 5.
-        <br/>
-       </li>
-       <li>
-        <b>
-         Incendiary Rockets -
-        </b>
-        The cost has been drastically reduced and their damage + flame spread increased.
-       </li>
-       <li>
-        <b>
-         Drones -
-        </b>
-        Tech trash is no longer a requirement for drones.
-       </li>
-       <li>
-        <b>
-         HMLMG -
-        </b>
-        Gear cost has been reduced.
-       </li>
-      </ul>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Externalstructurechanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84331" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       External structure changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       Large External Gates and Walls now require the player to stand still for
- 1.5 seconds when placing, making them less useful for immediate PvP 
-encounters in the wild. We felt that being able to place down such large
- structures in a short amount of time felt at odds with our style of 
-combat that rewards situational awareness and environmental tactics.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240501/rust_highexternalwall_deploy.jpg"/>
-     </div>
-     <div>
-      <div>
-      </div>
-      <h2>
-       WOODEN BARRICADE RESIZE
-      </h2>
-      <div>
-      </div>
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false">
-      <video autoplay="" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20240501/rust_woodenbarricade_cover_resize.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      To fill the void left by the external wall changes regarding dynamic cover during PvP, we have doubled the size of the deployable wooden barricade. The wooden barricade remains instantly deployable and provides a moderate amount of cover on-demand without being overpowered or polluting the landscape with large, unsightly deployable.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      This is without a doubt a large shift to PvP, we'll be monitoring these changes carefully
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="BRADLEYCHANGES">
-  <div class="section" like-handler="LikeBlogSection" like-id="84334" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       BRADLEY CHANGES
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Some further tweaks to the Bradley this month:
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Scientists now spawn in stages, based on the Bradley's health, and there's some Heavy scientists thrown in the mix now, too.
-     </div>
-     <div>
-      <ul>
-       <li>
-        At 80% health, 2 scientists will spawn
-       </li>
-       <li>
-        At 60% health, 4 more will spawn
-        <br/>
-       </li>
-       <li>
-        At 40% health, 6 final scientists will spawn
-       </li>
-      </ul>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240405/bradleyscientists_01.jpg"/>
-     </div>
-     <div>
-      There's also been some tweaks to make some of the Scientists more aggressive and use varying attack angles.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="DOORCONTROLLER">
-  <div class="section" like-handler="LikeBlogSection" like-id="84336" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       DOOR CONTROLLER
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      You can now use door controllers without worrying about raiders abusing them to open your doors! This is accomplished by unpairing door controllers once your TC is destroyed &amp; requiring code lock authorization for pairing.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      They also are much easier to setup as they can now be placed just like code locks.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240502/rust_doorcontroller_wiring.jpg"/>
-     </div>
-     <div>
-      This should reduce the pain of constantly opening and closing the doors of your base... especially when your teammates tend to leave them open.
-      <br/>
-     </div>
-     <div>
-      <ul>
-       <li>
-        <span id="docs-internal-guid-b061c83b-7fff-e14a-57d8-19d99c17a921">
-         Now deployable on doors like code locks
-        </span>
-       </li>
-       <li>
-        Automatically paired when placed
-       </li>
-       <li>
-        Added 2 new side inputs : 'Open' and 'Close'
-       </li>
-       <li>
-        Unpaired when the associated tool cupboard is destroyed
-       </li>
-      </ul>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video controls="" src="https://files.facepunch.com/paddy/20240502/doorcontroller_io_01.mp4#t=0.1">
-      </video>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      We also carried on improving electricity by adjusting components and fixing various bugs this month. Thanks again to the community for reporting bugs and suggesting ideas.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The full change log of each component can be read in the
-      <a class="selected" href="https://rust.facepunch.com/news/meta-madness#ElectricityChangelog">
-       section at the bottom of the blog
-      </a>
-      .
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="PatrolHelicopterChanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84337" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Patrol Helicopter Changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We know the latest helicopter changes had some mixed feedback, so we've revised them. No go zones should feel a lot more fair, and most major bugs experienced with heli since the last update are now patched.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240402/patrolhelicopter_trainyard_01.jpg"/>
-     </div>
-     <div>
-      <ul>
-       <li>
-        <b>
-         Monument Crashing
-        </b>
-        - the helicopter will now attempt to crash at a nearby monument on death. It won't crash at monuments with safe zones: outpost, fishing village, etc. This can be disabled by server owners via:
-        <b>
-        </b>
-        <b>
-         patrolhelicopterai.monument_crash
-        </b>
-       </li>
-      </ul>
-      <ul>
-       <li>
-        <b>
-         Flee Behavior
-        </b>
-        - heli would previously flee when it sometimes didn't mean to. Damage to start a flee has been tweaked, ensuring a flee every time you quickly remove 30% of its overall HP.
-        <br/>
-       </li>
-      </ul>
-      <ul>
-       <li>
-        <b>
-         Numerous Fixes &amp; Improvements -
-        </b>
-        heli will now properly target you on boats, cargo, trains and other moving entities. Targeting fixes and performance improvements have been made throughout the code. More legacy bugs: such as heli not exploding immediately on impact with certain terrain are also fixed.
-        <br/>
-       </li>
-      </ul>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="LaunchSiteLoot">
-  <div class="section" like-handler="LikeBlogSection" like-id="84344" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Launch Site Loot
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The Launch site loot had received an overhaul. Before, the loot inside the main building shared the same respawn group as the rest of the launch site, meaning loot inside the main building was never guaranteed. Loot had a chance to spawn elsewhere at the monument, which felt discouraging when completing the puzzle and running the main building.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240502/rust_launchsite_loot_01.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The main site building now has a dedicated respawn group, which guarantees 23 loot crates when the puzzle resets.
-      <br/>
-      <br/>
-      Additionally, more loot now spawns throughout the monument.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="UNderwaterIMprovements">
-  <div class="section" like-handler="LikeBlogSection" like-id="84349" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       UNderwater IMprovements
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Underwater vision has been improved substantially. You can now see much farther when using goggles and even more so when viewing out a submarine porthole.
-      <br/>
-      <br/>
-      In addition, the surface accuracy of submarine torpedoes has been vastly improved and torpedoes were made cheaper to produce by way of an increased craft yield. Lastly, the duo submarine fires torpedoes slightly faster than the solo.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="BuildingQOL">
-  <div class="section" like-handler="LikeBlogSection" like-id="84326" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Building QOL
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/jakerich/6b0564e4n97JLqHG/kJjuAMBeeQpLqlOq.png"/>
-        <center>
-         <b>
-          Tool Cupboard Auth Friend
-         </b>
-        </center>
-        <center>
-         Can authorize other players on a tool cupbard
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/jakerich/pz9OLCFExH913woe/iN3hvGodpbCcSM54.png"/>
-        <center>
-         <b>
-          Demolish High Walls
-         </b>
-        </center>
-        <center>
-         Can demolish high walls &amp; gates for 10min after placement
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/jakerich/JWiV0wv5zA2uIxjC/ILfJdUoo8igzkNCy.png"/>
-        <center>
-         <b>
-          Fixed High  Wall Snapping
-         </b>
-        </center>
-        <center>
-         Hold SHIFT to disable snapping
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/jakerich/cJdYfyeaLNwliRYQ/D0wBeAYybJ0Q5nsg.png"/>
-        <center>
-         <b>
-          Foundation Placement
-         </b>
-        </center>
-        <center>
-         Fixed foundation placement under roofs &amp; floors
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/jakerich/D6QbFScRWnQme8AL/NIVwfh4NQkRtvzLu.png"/>
-        <center>
-         <b>
-          Foundation Debris
-         </b>
-        </center>
-        <center>
-         Foundations now drop debris
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/jakerich/y4ONzOniraSeQCDm/CUhf3lYOkhoyD6T7.png"/>
-        <center>
-         <b>
-          Floor Debris
-         </b>
-        </center>
-        <center>
-         Floors now drop debris
-        </center>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="TechTreeCHanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84330" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Tech Tree CHanges
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       We’re making some changes to how the Tech Tree works to try and incentivise new styles of play. Starting this month you will notice that the T2 and T3 workbench tech trees now have a tax rate applied to them which will increase the cost of unlocking items. We’re starting this at 10% for T2 and 20% for T3. This cost increase only applies to unlocking via the Tech Tree, researching items via the Research Table is unchanged.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20220201/workbenches.jpg"/>
-     </div>
-     <div>
-      <div>
-       Our thinking behind this is that we feel the Tech Tree progression 
-path has become a little stale and needs to be shaken up, but we don’t 
-want to lose the advantages that the Tech Tree brought to progression - 
-making difficult to find blueprints attainable in a way that felt fair 
-and not as at the mercy of RNG. While there are a number of avenues we 
-can use to try and make both forms of progression feel more balanced,  this feels like a simple and understandable starting point.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       As with all of our changes, we’ll be keeping a close eye on this and will likely make further changes in the future.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="CargoShipChanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84332" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Cargo Ship Changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       It’s been great to see the reception to last month's Cargo Ship/harbor update, and we hope you’ve all enjoyed some very (very) intense firefights. Based on the feedback we have received, we’re making a couple of changes this month:
-      </div>
-      <div>
-       <ul>
-        <li>
-         The Cargo Ship will now dock at both harbors (if they exist) on a map before leaving. Note that any containers that have already been placed on a ship will be deleted when it starts its approach to the next harbor.
-        </li>
-        <li>
-         You can now mouse over the ship on the map to see if it has already docked.
-        </li>
-        <li>
-         The containers that are spawned to be placed on the Cargo Ship will now be spawned when it starts its approach (about 100m away from the harbor) rather than when the ship arrives at its dock, giving you more time to hide in the containers.
-        </li>
-        <li>
-         The container spawn points have been mildly tweaked so that all of the containers should be accessible, although you might need to do some climbing.
-        </li>
-       </ul>
-      </div>
-      <div>
-       We hope these changes make the event a bit more understandable at a glance as well as make the combat encounters more interesting.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Viewmodelrenderers">
-  <div class="section" like-handler="LikeBlogSection" like-id="84333" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Viewmodel renderers
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       Since implementing a dedicated viewmodel renderer system back in
-       <a class="selected" href="https://rust.facepunch.com/news/gestures-update#ViewmodelJitterFix">
-        April 2021
-       </a>
-       , all of our viewmodels have been split between the old and new system. The primary stumbling blocks were viewmodels with lots of particle effects and lights (torches, flamethrowers, etc). While we covered most of the high impact cases of viewmodel jittering by supporting guns (how often do you use the birthday cake on oil rig?) we’ve been wanting to consolidate everything for a while. This month, we’ve updated all of the viewmodels to use the new renderer so they should appear smooth and jitter free, regardless of where you are in the world. The affected viewmodels are:
-      </div>
-     </div>
-     <div>
-      <ul>
-       <li>
-        Both flamethrowers
-        <br/>
-       </li>
-       <li>
-        Water Bucket
-       </li>
-       <li>
-        Beancan Grenade
-       </li>
-       <li>
-        Molotov Cocktail
-       </li>
-       <li>
-        Flashlight
-       </li>
-       <li>
-        Birthday Cake
-       </li>
-       <li>
-        Garry’s Mod Toolgun
-       </li>
-       <li>
-        Poker playing cards
-       </li>
-       <li>
-        Lunar New Year spear
-       </li>
-       <li>
-        Minigun
-       </li>
-       <li>
-        Paddle
-       </li>
-      </ul>
-      You should see no visible changes if it's all working correctly.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="AIPerformancefixes">
-  <div class="section" like-handler="LikeBlogSection" like-id="84335" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       AI Performance fixes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      I've investigated and addressed a couple of AI performance issues that were causing the AI to take longer to process than necessary, especially on servers that have been running for a while.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      This should help with AI server performance across the board.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="EFFECTSPERFORMANCE">
-  <div class="section" like-handler="LikeBlogSection" like-id="84341" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       EFFECTS PERFORMANCE
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       After noticing occasional framedrops during gunfights, I've spent some time investigating the issue and found out that our impact effects prefab warmup wasn't working as intended.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       All impact effects are now warmed up correctly during loading times.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       This should drastically reduce the stuttering when spawning a big amount of effects prefab for the first time (e.g when a fight starts and bullets start flying). This has a very little if no impact on loading times.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="MapUploading">
-  <div class="section" like-handler="LikeBlogSection" like-id="84342" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Map Uploading
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Procedural maps are now automatically uploaded from game servers to our backend, so players can just download them instead of generating them when they first join the server.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      This should significantly reduce the time it takes to join a server for the first time after it wipes. It may also reduce the number of players seeing "Rust is not responding" pop ups while joining servers for the first time.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Harmony2">
-  <div class="section" like-handler="LikeBlogSection" like-id="84329" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Harmony 2
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Harmony is Rust's built-in modding platform shipped with the server. It powers modding frameworks like Oxide &amp; Carbon, as well as standalone mods.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      We upgraded from Harmony 1.2 -&gt; Harmony 2.3 which brings us up to date with the latest features &amp; additional stability.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      This requires mod authors to recompile their Harmony mods. Fortunately the majority of mods only need to change a single line.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       Before
-      </b>
-     </div>
-     <div>
-      using Harmony;
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       After
-      </b>
-     </div>
-     <div>
-      using HarmonyLib;
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Players shouldn't need to worry as the majority of large servers already started updating their mods before the update went live. Server owners please keep an eye out for mod updates as every Harmony Mod will needed to be updated.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="ElectricityChangelog">
-  <div class="section" like-handler="LikeBlogSection" like-id="84338" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Electricity Change log
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-043dddd8-7fff-07e6-3bcf-89219be3d099">
-       <div>
-        <span id="docs-internal-guid-39db228d-7fff-cd2b-1408-94a6d531cf07">
-         <img class="lightbox-thumbnail" height="150" src="https://lh7-us.googleusercontent.com/FnxWRS-7yIVDbm1eUQPsrhQS0FhAbMJq8FI5AoJQclwxE-0txHTD9Ky6AaCgo_UVNjVOyvyIoFpEfrEi6gZpoSHYhGbB_KL0X1rcnJinpNTSLl0BAymwuX9r3ZRSmixAek2kFWBBU7h6TQ27_eHYzUM" width="268"/>
-        </span>
-       </div>
-       <div>
-        <ul>
-         <li>
-          <b>
-           Tesla Coil, Igniter
-          </b>
-         </li>
-        </ul>
-        <div>
-         To stop them from self-destructing, they are now disabled upon reaching &lt;10% of their max health.
-        </div>
-        <div>
-         No longer take damage when picked up.
-        </div>
-        <div>
-         <br/>
-        </div>
-        <div>
-        </div>
-       </div>
-      </span>
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" src="https://files.facepunch.com/paddy/20240430/teslacoil_igniter_damage.mp4">
-      </video>
-     </div>
-     <div>
-      <div>
-       <div>
-        <span>
-         <br/>
-        </span>
-       </div>
-       <div>
-        <span id="docs-internal-guid-8483dfe8-7fff-7193-2208-56f6c25aa08a">
-         <img class="lightbox-thumbnail" height="100" src="https://lh7-us.googleusercontent.com/tXjbh-cQCuvi9QzxRSMZNAaDr8yAcOU3Y6MldkDeHVaVjNMFhgoo7dz3lQM1ChiD1gq6KxjOulLKwWPiiyk3MNNX8vSH5jhOKjHwjcB9c-4nWwUsqzkIfRIdAN5_e-nqzkw7cyys5SaXiK_KYeKc78M" width="100"/>
-        </span>
-       </div>
-       <ul>
-        <li>
-         <b>
-          Electrical Branch
-         </b>
-        </li>
-       </ul>
-       <div>
-        Reduced minimum branch out power from 2 to 1.
-        <br/>
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        <div>
-         <span id="docs-internal-guid-24b7f1c6-7fff-5de4-40ac-a572cc78b989">
-          <img class="lightbox-thumbnail" height="124" src="https://lh7-us.googleusercontent.com/_Jh56LGEZ-jImxqmoyF2pIVAJx14kreFpinAn4Rs-RaJxFbJU2DtnqO8yDbzD6-Pa59ieRUBiGbOw9Um17RSsFzDYrl0tLOvqdBNacRZ0MKiPszimM0cDSEBNZvtWTZHC2Ij8iYqFQ4kB4eyIdaKXAQ" width="124"/>
-         </span>
-        </div>
-        <div>
-         <ul>
-          <li>
-           <b>
-            Button
-           </b>
-          </li>
-         </ul>
-         <div>
-          Reduced press time from 5s to 1s.
-         </div>
-        </div>
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        <div>
-         <span id="docs-internal-guid-24b7f1c6-7fff-5de4-40ac-a572cc78b989">
-          <span id="docs-internal-guid-7f6e05f3-7fff-d62c-9604-0d30eaadee48">
-           <span>
-            <img class="lightbox-thumbnail" height="129" src="https://lh7-us.googleusercontent.com/nQ8904MyTLUa9HgopQUC54miMMczN2_BS4xuoyu9RNxuLsCXQyhO6F4_zxb5nptX8Fv4TVi9vEiKWvawIgkfoe9W7ioCrGs6mXtExGhQm0QfcofC4eM4qgFQVXoKJMYKa-jidpO34pRS_PyQdsfo6is" width="129"/>
-           </span>
-          </span>
-         </span>
-        </div>
-        <div>
-         <ul>
-          <li>
-           <b>
-            Storage Monitor
-           </b>
-          </li>
-         </ul>
-        </div>
-       </div>
-       <div>
-        <div>
-         <span id="docs-internal-guid-29e87985-7fff-6ce5-2e8a-5f883f2ce54b">
-          Will now
-         </span>
-         recognize partial stack changes and pass power through when removing or adding items to a stack.
-        </div>
-        <div>
-         <br/>
-        </div>
-        <div>
-         <div>
-          <span id="docs-internal-guid-043dddd8-7fff-07e6-3bcf-89219be3d099">
-           <img class="lightbox-thumbnail" height="129" src="https://lh7-us.googleusercontent.com/yIrocsnrfneMCeGTRHHljiLHgB_LvpOgG_lLKGTtsLK950bCvLZCtj-se-pDrP4FaFYY1_qa_3vttzgS-1PaRhHs7AnfKIF61tjFUTu58vrre-gertvK8-OqCIbedDZ4yejU15jH_Kcknl-lSVUmvkQ" width="129"/>
-          </span>
-         </div>
-         <div>
-          <div>
-           <ul>
-            <li>
-             <b>
-              Splitter
-             </b>
-            </li>
-           </ul>
-          </div>
-          <div>
-           Fixed power distribution issue when not all outputs were used.
-          </div>
-          <div>
-           <br/>
-          </div>
-         </div>
-        </div>
-        <div>
-         <span>
-          <img class="lightbox-thumbnail" height="93" src="https://lh7-us.googleusercontent.com/uPc2ZYd2OJrvRMJ2saI5TlGEf1Rko1cCxY6c8Umfneri_R0V1vQp87JQPAul-qIH4ZGL0PEsvlNWNyl-MUcys8OvfwsaGLnEzUXw8UVI6NnDF4WYszlIZUImnnJZvG39JSxhyEVdnEEdd_atPegWpAE" width="93"/>
-         </span>
-        </div>
-        <div>
-         <ul>
-          <li>
-           <b>
-            Memory Cell
-           </b>
-          </li>
-         </ul>
-         <div>
-          Fixed side inputs triggerable by 0 power circuits.
-         </div>
-        </div>
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        <div>
-         <div>
-          <div>
-           <span id="docs-internal-guid-48512b5a-7fff-9506-c23b-334917ee47f8">
-            <img class="lightbox-thumbnail" height="117" src="https://lh7-us.googleusercontent.com/6RZ1SWk6QHuSrzeRuCDnwJJnz9-nKX8hBoOS8SMbj_9Ik69ZS-k8mGJunbQ1Jq8EUNKb6vbDxAq3KFhbgzOaSBwh7paV5kHZrCd_Mbp9AHWXjQY6SeqIESM4b5iZtA_CWzbO6BUTtI3dUJOpGQ4uL50" width="117"/>
-           </span>
-          </div>
-          <div>
-           <ul>
-            <li>
-             <b>
-              Timer Switch
-             </b>
-            </li>
-           </ul>
-           <div>
-            Fixed an issue where its side input was triggered inconsistently by circuits update (e.g: industrial conveyor updating its state).
-           </div>
-           <div>
-            <br/>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-       <div>
-        <div>
-         <span id="docs-internal-guid-7768414c-7fff-fa41-b8fd-0dc76e045361">
-          <img class="lightbox-thumbnail" height="91" src="https://lh7-us.googleusercontent.com/9IKYsisPmumYwO6pZbN65qhp19O4yy-PkoKLxL9MCLzSK42RFDzRZ7YOcFw0T32IpE0LUckplu_BGqgpT_MUbheKPvPf3Jmen11uutljJIao95Cdx8-oZ9fwddOYucseDgjqjH2_FqcpKhRD_POJugw" width="91"/>
-         </span>
-        </div>
-        <div>
-         <ul>
-          <li>
-           <b>
-            Counter
-           </b>
-          </li>
-         </ul>
-         <div>
-          No longer requires a connection to its output to display its passthrough when set to 'Show Passthrough'
-          <br/>
-         </div>
-        </div>
-        <div>
-         <div>
-          <br/>
-         </div>
-        </div>
-       </div>
-       <div>
-        <div>
-         <div>
-          <span id="docs-internal-guid-e6d115ae-7fff-8e8a-f29e-614eb1289859">
-           <span id="docs-internal-guid-f24daf36-7fff-a04b-2441-5d830d2ceef5">
-            <span>
-             <img class="lightbox-thumbnail" height="142" src="https://lh7-us.googleusercontent.com/vmwI5iRcuPNebNR5w_0xRDAmcClx4sswcRpmaoKHCLVaIbozRWXDJi34Qb-KDEZCK_vjpVuhpFcplaO7e3pOcbwrUJao-LjBZT7RkxYXNrUh5QS-zepyJ353XN_DwGYizrKLIVqa0V1QfhBawNDoIs0" width="142"/>
-            </span>
-           </span>
-          </span>
-         </div>
-         <div>
-          <ul>
-           <li>
-            <b>
-             RF Receiver
-            </b>
-           </li>
-          </ul>
-         </div>
-         <div>
-          Updated recipe:
-         </div>
-        </div>
-        <div>
-         <div>
-          <div>
-           - Metal Fragments 100 → 150
-          </div>
-          <div>
-           - Tech Trash 1 → 0
-          </div>
-         </div>
-        </div>
-       </div>
-       <div>
-        <div>
-         <span>
-          <br/>
-         </span>
-        </div>
-        <div>
-         <div>
-          <div>
-           <span id="docs-internal-guid-e6d115ae-7fff-8e8a-f29e-614eb1289859">
-            <span id="docs-internal-guid-f24daf36-7fff-a04b-2441-5d830d2ceef5">
-             <span>
-              <span id="docs-internal-guid-286352e3-7fff-4afa-e269-841e9b193c91">
-               <span>
-                <img class="lightbox-thumbnail" height="139" src="https://lh7-us.googleusercontent.com/YWiJCY6xMgNwDh28d-jwhYHingRNdio5DFr7CmaXgnrY_oVNCyUiUQ7t__NdySNSrYOoGlRKwSB2KSHwLs595clWUHT1fyuFocTmYQrwtR_iBdtM6EixTg729ggn2AvYtw5o8N35lB9xh5fLZ3OIXWY" width="139"/>
-               </span>
-              </span>
-             </span>
-            </span>
-           </span>
-          </div>
-          <div>
-           <ul>
-            <li>
-             <b>
-              RF Broadcaster
-             </b>
-            </li>
-           </ul>
-          </div>
-          <div>
-           Updated recipe:
-          </div>
-         </div>
-         <div>
-          <div>
-           <div>
-            - Metal Fragments 100 → 150
-           </div>
-           <div>
-            - Tech Trash 1 → 0
-           </div>
-           <div>
-            <br/>
-           </div>
-           <div>
-            <br/>
-           </div>
-           <div>
-            <div>
-             <div>
-              <span id="docs-internal-guid-e6d115ae-7fff-8e8a-f29e-614eb1289859">
-               <span id="docs-internal-guid-f24daf36-7fff-a04b-2441-5d830d2ceef5">
-                <span>
-                 <span id="docs-internal-guid-286352e3-7fff-4afa-e269-841e9b193c91">
-                  <span>
-                   <span id="docs-internal-guid-61f9d811-7fff-eca4-f5e7-87465868df7a">
-                    <span>
-                     <img class="lightbox-thumbnail" height="134" src="https://lh7-us.googleusercontent.com/w59Dr5dCGP4F0ebzSJWo_Al0zLWglD9hRj7AP08vzkGvTULygpArbz9ouIHjT50Srm7WfrC5iO367jCp1pYtQ6KynNcJWU3Yi_2oFMzFp5OVpwBUs_zKPNebvE4jAN2rVzKVuf2eHpHCv5nL5OtZTLQ" width="134"/>
-                    </span>
-                   </span>
-                  </span>
-                 </span>
-                </span>
-               </span>
-              </span>
-             </div>
-             <div>
-              <ul>
-               <li>
-                <b>
-                 RF Transmitter
-                </b>
-               </li>
-              </ul>
-             </div>
-             <div>
-              Updated recipe:
-             </div>
-            </div>
-            <div>
-             <div>
-              <div>
-               <div>
-                - HQM 5 → Metal Fragments 100
-               </div>
-               <div>
-                - Tech Trash 1 → 0
-               </div>
-              </div>
-              <div>
-               <br/>
-              </div>
-              <div>
-               <br/>
-              </div>
-              <div>
-               <div>
-                <div>
-                 <span id="docs-internal-guid-e6d115ae-7fff-8e8a-f29e-614eb1289859">
-                  <span id="docs-internal-guid-f24daf36-7fff-a04b-2441-5d830d2ceef5">
-                   <span>
-                    <span id="docs-internal-guid-286352e3-7fff-4afa-e269-841e9b193c91">
-                     <span>
-                      <span id="docs-internal-guid-fe4ccf6c-7fff-5488-f0c2-e8c556eb9914">
-                       <span>
-                        <img class="lightbox-thumbnail" height="134" src="https://lh7-us.googleusercontent.com/a9C5-rTq7_twCQRggACKF8GZXVbPRP9dbzLb-5Jupd5D4KkylyGv5bTJJb0QAyn_WB0bdTdb9VEuUtjTR_h4-t_qGsrE-VpdHiHO794koZ_QL-NuffdvVLE6VFrdNvk5DY07m-PSp_QCHg-IDREn9gY" width="134"/>
-                       </span>
-                      </span>
-                     </span>
-                    </span>
-                   </span>
-                  </span>
-                 </span>
-                </div>
-                <div>
-                 <ul>
-                  <li>
-                   <b>
-                    RF Pager
-                   </b>
-                  </li>
-                 </ul>
-                </div>
-                <div>
-                 Updated recipe:
-                </div>
-               </div>
-               <div>
-                <div>
-                 <div>
-                  <div>
-                   - Metal Fragments 50 → 100
-                  </div>
-                  <div>
-                   - Tech Trash 1 → 0
-                  </div>
-                  <div>
-                   <br/>
-                  </div>
-                 </div>
-                </div>
-               </div>
-              </div>
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
-        </div>
-        <div>
-         <div>
-          <div>
-           <span id="docs-internal-guid-70744870-7fff-02e8-304f-f709cdd47686">
-            <img class="lightbox-thumbnail" height="152" src="https://lh7-us.googleusercontent.com/v8zgLiAXn1H1nvGhhoO8Gk_gHaW66THwTxFHDYR0a7opuORe62hx2U2ZP9RZ7szVN3AaJceHfADQJYUI0bq6bt6Wm2zMAISpWVWaJTwATJTC40hWmCXQODu0o7zwGNz-aKou8GhfVcVkI9yqGS0wtUM" width="431"/>
-           </span>
-          </div>
-          <div>
-           <ul>
-            <li>
-             <b>
-              AND, OR, XOR Switch
-             </b>
-            </li>
-           </ul>
-          </div>
-         </div>
-         <div>
-          <div>
-          </div>
-         </div>
-         <div>
-          <div>
-           No longer emit light when unpowered.
-          </div>
-         </div>
-        </div>
-        <div>
-         <span>
-          <br/>
-         </span>
-        </div>
-        <div>
-         <div>
-          <span id="docs-internal-guid-39db228d-7fff-cd2b-1408-94a6d531cf07">
-           <img class="lightbox-thumbnail" height="138" src="https://lh7-us.googleusercontent.com/qt2iNF58SznvqqZBhK5nRD5cUL3OaOxmmHmJ-vu_7-JSteUkdORbf-BKRl_iQ2zO3GmMztgnzDEbw9imt0gnhuKskXLStfFHHTuuM-zMrbMhZ8HTZQ1ZqaUu28rK8NebVpP-3CSehmmxkE-l_WenUm4" width="138"/>
-          </span>
-         </div>
-         <div>
-          <ul>
-           <li>
-            <b>
-             Industrial Conveyor
-            </b>
-           </li>
-          </ul>
-          <div>
-           Can be placed upside down again.
-          </div>
-         </div>
-        </div>
-        <div>
-         <br/>
-        </div>
-        <div>
-         <span id="docs-internal-guid-e6d115ae-7fff-8e8a-f29e-614eb1289859">
-          <img class="lightbox-thumbnail" height="122" src="https://lh7-us.googleusercontent.com/6lGwW1Khcd-u8fjs1_FjOrcdMooZLQcZzBsjtkISxuEhHlCpxPhxYGeWwIb0YhWp59sUw2k521E0otxWvpod-GWlGrX3jA6qzr-Wl-fYZfg_MojfZL5cFedB29BjtM00EOWBFoQZnI5CYdOyWfQFd30" width="122"/>
-         </span>
-        </div>
-        <div>
-         <ul>
-          <li>
-           <b>
-            Industrial Light
-           </b>
-          </li>
-         </ul>
-        </div>
-        <div>
-         No longer referred as Simple Light when looking at IO connection handles.
-        </div>
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <div>
-        <span id="docs-internal-guid-e6d115ae-7fff-8e8a-f29e-614eb1289859">
-         <span id="docs-internal-guid-c6d980b4-7fff-fb4b-d72e-2f5434fc61ce">
-          <span>
-           <img class="lightbox-thumbnail" height="121" src="https://lh7-us.googleusercontent.com/CP97Nh3uju2J2c7BwTJuN2wBTVmuubf_nvg2cxNfH6-5mhmkNio7O_GdwY8LBaGGh8fUrc6_1HommoUjjYfVPLINWjaLlmUALcwTBFiQumllVI_FZjum9jSacBpVJqaX_lGvMaagf72eDeSOHXhcDc4" width="121"/>
-          </span>
-         </span>
-        </span>
-       </div>
-       <div>
-        <ul>
-         <li>
-          <b>
-           Smart Switch
-          </b>
-         </li>
-        </ul>
-       </div>
-       <div>
-        No longer referred as Switch when looking at IO connection handles.
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="change-blog-container">
-  <div class="container">
-   <div class="changes-container" id="changelist">
-    <div class="changes-sidebar">
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Patch Name
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Meta Madness
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Changelist Title
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Meta Madness Changelist
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <a class="date" style="text-decoration: none;">
-       <span class="icon">
-        <i>
-         date_range
-        </i>
-       </span>
-       Thursday, May 2, 2024
-      </a>
-     </div>
-     <div class="sidebar-section">
-     </div>
-    </div>
-    <div class="changes-body">
-     <div class="changes-row features">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         add_circle
-        </i>
-       </span>
-       <h3>
-        Features
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Upgraded to Harmony 2
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Tier 2 and Tier 3 Workbenches now cost an additional 10%/20% scrap per purchase
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          External Structures now take 1.5 seconds to deploy
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row improvements">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         arrow_circle_up
-        </i>
-       </span>
-       <h3>
-        Improvements
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Moving no longer applies aimcone penalty to the first shot but rather the movement penalty is now blended in over several shots (full auto while moving)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Safezone recyclers yield 20% less resources than before and take 8 seconds per cycle
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Radtown recyclers yield 20% more resources than before and take 5 seconds per cycle
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Large, Small and Fish hunting trophies now have gibs when destroyed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added debris to foundations
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added debris to floors
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Thinner holosight attachment edges
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduced SAP aimcone
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduce hv ammo gp cost
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Slightly increased torpedo surface accuracy
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Torpedo craft yield increased to 5 from 3
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Decreased metal plate craft cost from 25 to 18 hqm
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Increased roadsign armor condition
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Removed tech trash from drone crafting cost
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduced gear cost in HMLMG
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Submarine duo fires torpedos slightly faster than solo
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Decreased LR300 damage falloff (more damage at longer range)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Increased LR300 bullet velocity
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Decreased LR300 horizontal recoil
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduced refire delay for burst module from 3x refire to 2x refire rate
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduced cost of incendiary rockets and slightly increased damage
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added ability to drag items directly into backpack without opening it
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can demolish external walls &amp; external gates for 10 minutes after placement
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can rotate vending machine 90 degrees
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can authorize other users on the tool cupboard
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Muzzle brake and muzzle boost have a bit less negatives associated with their usage ( less damage reduction/damage falloff )
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Barricade always deploys horizontal rather than aligning to terrain
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Relaxed Barricade deployment
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Custom smg now has a 30 round magazine
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Custom smg has slightly higher chance for more center-fire hits
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Barricade always deploys horizontal rather than aligning to terrain
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Compress server tags to avoid servers going above 128 tag character limit
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          NPC’s that can give you a mission will now appear on the map (this can be toggled on the right of the screen)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Missions can no longer be completed if the player doesn’t have enough space in their inventory for the rewards
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added a dedicated UI panel explaining the steps and rewards of a mission before accepting it
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Active missions will now appear as a list in the map - clicking on a mission will focus the map to its current objective
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can now close conversations with the Escape key
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved server performance of Industrial Conveyors - they should no longer cause as much Item churn
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved server performance of Industrial Conveyors when sending the screen info to clients
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Promoting a team leader is now done via the team section in your inventory, the old promote to leader prompt when looking at another team member has been removed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved the feedback and responsiveness of the Start Tutorial button in the options, including communicating when you are not connected to a valid server
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Minigun now shows the movement speed reduction in it’s information panel
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Containers spawned for Cargo/Harbor event should now all be climbable
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Cargo Ship now will dock at both Harbors
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          The Cargo Ship icon on the map now communicates whether the ship has already docked
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          The Containers for the Cargo/Harbor event will now spawn when the ship begins its approach
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Updated Cargo Ship sounds
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can no longer soft lock the tutorial by attacking the killed bear with your spear
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Getting crushed by a Container in the Harbor will now show an appropriate death icon
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Implemented PR #54 for CUI - Adding Support for Scrollable Containers (thanks to Kulltero)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Updated remaining viewmodels to use new renderer (for list see above)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Further Bradley gameplay changes. Heavy scientists and stage based spawning.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added a ramp into the legacy shelter to ensure you can get in on difficult terrain
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Wires and hoses can now be attached to doors and will move accordingly
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduced Electrical Branch minimum branch out power from 2 to 1
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduced electrical button press time from 5s to 1s
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added snapping support to Counter, Fluid Switch &amp; Pump, Connected Speaker, Electrical Heater, Laser Light, CCTV camera and Simple Light
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved Deluxe Christmas Lights inconsistent UI behaviour, it now displays the five options and select the current mode by default when opened
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added 'electricbattery.battery charge' and 'electricbattery.battery deplete' admin commands to respectively charge and deplete a battery easily
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added 'pipette' command: gives you the item you're looking at and places it in your hands
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added 'selectitem' command to allow non-admin clients to use pipette without the item giving part
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          IO entities configuration screen now supports numpad enter key to confirm
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Updated RF items crafting costs, removing tech trash and HQM
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Increased RF frequency range from 4 to 6 digits
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved client performance of bullet impact effects causing stuttering during gunfights
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Increased default MLRS 'broken' time after use from 10 to 20 minutes
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reworked bandit camp's roulette randomness
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row fixed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         handyman
-        </i>
-       </span>
-       <h3>
-        Fixed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed erroneous black line on Hobo barrel icon
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed ping estimation causing large lag spikes on linux servers
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed industrial conveyors moving items into empty slots instead of filling partial stacks
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed photos &amp; headbags not working when inside a backpack
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed several movement issues with ridable horses
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed head trophies not returning headbags to players when destroyed or picked up
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed heavy scientists not dropping minigun &amp; flamethrower as much as intended
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed player health sometimes flickering when spectating
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed stashes sometimes being inconsistantly revealed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed server disk space being endlessly consumed if full server demos is enabled but upload disabled
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed oil rig radiation not working after server restart
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed "Assign Friend" menu having dark names
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed steam nicknames sometimes being very slow to refresh
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed ammo sometimes being dropped to ground when unloading weapon / switching ammo types
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed horses sometimes taking 1.5x by bullets ricocheting
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed sleeping bags being difficult to place against walls in base
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed external wall snapping not being disabled when holding shift
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed storage adapter blocking looting chest
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed backpack being dropped in safezone when dying
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed hover looting clothing out of a full backpack not working
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed using doors &amp; external gates to block up TCs behind walls
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed ability to rotate walls when an explosive is attached to it
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed holosight reticle being affected by motion blur
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed missions on the tutorial island counting towards the “Mission Accomplished” achievement
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a case where dying during the tutorial island would result in duplicate objective markers appearing
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed error when starting some the lumberjack mission
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed incorrect translation string on the last objective of the lumberjack animal kill mission
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed lumberjack harvest wood mission step listing the incorrect amount
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed the mission objectives sometimes appearing on top of the marker list in the map screen
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to right click scrap into an invisible loot slot at safe zone workbenches
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some text not fitting in the help box in the tutorial
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a case where holes in the terrain would appear in the tutorial island
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a case where some environment props in the tutorial island would appear covered in snow
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          The hidden achievement in the tutorial should now be more reliable
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to unequip the minigun while it is spinning and being able to fire immediately when it was next deployed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an exploit that allowed players to fly by dismounting a chair near a climbable surface
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed the reload button for the minigun not getting localised
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a case where a specific configuration of hoses would cause massive server lag
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed several guns inventory panels showing too many attachment slots
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an issue where Hobo barrels from the tunnel dweller decorations would leak to world origin after a server restart
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Minigun having the same description as the HMLMG
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Minigun reload help prompt now mentions Workbench T2/3
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an NRE when rapidly switching between some weapons
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed not being able to open some storage containers with the chicken suit equipped
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed water wake components getting run on the server
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed several AI performance issues
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed animals sometimes floating above the ground until in range
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Weapon rack collision area/bounds fixes
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Military flamethrower scale fixed for weapon racks
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Minigun can no longer be reloaded at weapon racks
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed buildable areas at harbor being inside the docking path of cargoship
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed NRE caused by the rangefinder in the binoculars
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed cargoship not destroying floatsams it passes over
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed cargoship stopping leaving if the server was saved mid-leave
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed NRE caused by our version of LeanTween
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Splitter power distribution issue when not all outputs are used
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Counter and HBHF sensor still rotating based on your view angle while being deployed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Smart Switch and Timers not deployable ~1 meter below ceilings
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Smart Switch referred as Switch when looking at IO connection handles
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Industrial Wall Light referred as Simple Light when looking at IO connection handles
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed AND, OR and XOR switches emitting light when unpowered
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Memory Cell side inputs triggerable by 0 power circuits
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed electrical components consuming 0 power still mentioning 1 power usage in their information panel
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Storage Adaptor not working after reskinning a tool cupboard
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Caboose light switches
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed physics regression bug for physics objects on moving vehicles, where the physics became "sticky"
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed gun audio issues from the previous update
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed the new cargo ship side doors being sometimes opened by cargo ship NPCs
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Sprinkler incorrect water drain
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed patrol helicopter orbiting random zones far away on the map
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed patrol helicopter targeting players with strafes inside no go zones
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed patrol helicopter not exploding when hitting the ground at weird angles
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an exploit allowing players to get inside the walls on the small oil rig
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a flyhack violation when using one of the crane ladders in one of the harbors
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 02 May 2024 13:48:00 Z</pubDate>
     </item>
   </channel>
 </rss>
