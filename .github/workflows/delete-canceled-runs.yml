@@ -36,7 +36,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const runs = await github.actions.listWorkflowRunsForRepo({
+            const runs = await github.rest.actions.listWorkflowRunsForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
               per_page: 100
@@ -52,9 +52,9 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const runsToDelete = JSON.parse(core.getInput('runs_to_delete'));
+            const runsToDelete = JSON.parse(process.env.runs_to_delete);
             for (const runId of runsToDelete) {
-              await github.actions.deleteWorkflowRun({
+              await github.rest.actions.deleteWorkflowRun({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 run_id: runId
