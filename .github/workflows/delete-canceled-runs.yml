@@ -19,7 +19,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        
+
       - name: Delete canceled workflow runs
         uses: Mattraks/delete-workflow-runs@v2
         with:
@@ -29,3 +29,35 @@ jobs:
           baseUrl: "https://api.github.com"
           repository: ${{ github.repository }}
           keep_minimum_runs: 0  # Ensuring minimum runs doesn't prevent deletion
+
+      - name: List all workflow runs
+        id: list-runs
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { data: workflowRuns } = await github.actions.listWorkflowRunsForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              per_page: 100
+            });
+            return workflowRuns.workflow_runs
+              .filter(run => run.name === 'Delete Canceled Workflow Runs' && run.id !== context.runId)
+              .map(run => run.id);
+
+      - name: Delete previous workflow runs
+        if: steps.list-runs.outputs.length > 0
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const runsToDelete = JSON.parse(core.getInput('runs_to_delete'));
+            for (const runId of runsToDelete) {
+              await github.actions.deleteWorkflowRun({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                run_id: runId
+              });
+            }
+        inputs:
+          runs_to_delete: ${{ steps.list-runs.outputs.result }}
