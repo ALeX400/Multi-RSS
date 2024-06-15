@@ -36,12 +36,12 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const { data: workflowRuns } = await github.actions.listWorkflowRunsForRepo({
+            const runs = await github.actions.listWorkflowRunsForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
               per_page: 100
             });
-            const runsToDelete = workflowRuns.workflow_runs
+            const runsToDelete = runs.data.workflow_runs
               .filter(run => run.name === 'Delete Canceled Workflow Runs' && run.id !== context.runId)
               .map(run => run.id);
             core.setOutput('runs_to_delete', JSON.stringify(runsToDelete));
