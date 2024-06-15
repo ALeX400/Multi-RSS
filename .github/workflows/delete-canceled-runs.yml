@@ -41,12 +41,13 @@ jobs:
               repo: context.repo.repo,
               per_page: 100
             });
-            return workflowRuns.workflow_runs
+            const runsToDelete = workflowRuns.workflow_runs
               .filter(run => run.name === 'Delete Canceled Workflow Runs' && run.id !== context.runId)
               .map(run => run.id);
+            core.setOutput('runs_to_delete', JSON.stringify(runsToDelete));
 
       - name: Delete previous workflow runs
-        if: steps.list-runs.outputs.length > 0
+        if: steps.list-runs.outputs.runs_to_delete != '[]'
         uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -59,5 +60,5 @@ jobs:
                 run_id: runId
               });
             }
-        inputs:
-          runs_to_delete: ${{ steps.list-runs.outputs.result }}
+        env:
+          runs_to_delete: ${{ steps.list-runs.outputs.runs_to_delete }}
