@@ -1,5 +1,16 @@
 {
 	"Sites": {
+		"Warhammer 40000": {
+			"Steam": true,
+			"AppIDs": [1142710, 2183900, 594570, 1361210, 2186680, 552500, 364360, 489630, 2532480, 2078450],
+			"script": "pattern_steam_by_appid.py",
+			"FileName": "Warhammer"
+		},
+		"Adevarul-Auto": {
+			"url": "https://adevarul.ro/rss/stil-de-viata/auto",
+			"script": "pattern_adevarul.py",
+			"FileName": null
+		},
 		"Steam Popular New Games": {
 			"url": "https://store.steampowered.com/search/?filter=popularnew&ndl=1",
 			"script": "pattern_steam_games.py",
@@ -29,8 +40,9 @@
 			"url": "https://rust.facepunch.com/news/",
 			"script": "pattern_rust_facepunch.py",
 			"FileName": "rust_news.xml"
-		},
-		"World News": {
+		}
+		// Temporar Dezactivat pana rezolvam problema
+		/*"World News": {
 			"url": "https://worldnews24.net/",
 			"category": [
 				"conspiratii",
@@ -42,6 +54,6 @@
 			],
 			"script": "pattern_worldnews24.py",
 			"FileName": "worldnews.xml"
-		}
+		}*/
 	}
 }
