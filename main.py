@@ -6,14 +6,19 @@ import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
-def load_and_run_script(script_name, url):
+def load_and_run_script(script_name, url=None, app_ids=None):
     script_path = os.path.join(os.path.dirname(__file__), 'patterns', script_name)
     spec = importlib.util.spec_from_file_location("module.name", script_path)
     if spec.loader is None:
         raise FileNotFoundError(f"Script {script_name} could not be loaded. Check if the file exists.")
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
-    data = module.fetch_data(url)
+    
+    if app_ids:
+        data = module.fetch_data_with_id(app_ids)
+    else:
+        data = module.fetch_data(url)
+        
     return data
 
 def clean_xml(xml_str):
@@ -52,22 +57,27 @@ def generate_xml(feed_items, file_name):
         file.write(xml_bytes)
 
 def print_progress_bar(iteration, total, length=50):
-    if iteration == 2:
+    if iteration == 1:
         print()
     percent = ("{0:.1f}").format(100 * (iteration / float(total)))
     filled_length = int(length * iteration // total)
     bar = '#' * filled_length + '-' * (length - filled_length)
     print(f'\rProgress: |{bar}| {percent}% Complete')
-    #if iteration == total:
-        #print()
 
 def process_site(site_name, site_info):
     print(f"Processing site: '{site_name}'")
     try:
-        base_url = site_info['url']
+        steam = site_info.get('Steam', False)
+        app_ids = site_info.get('AppIDs') if steam else None
+        base_url = site_info.get('url') if not steam else None
         categories = site_info.get('category', [])
         script = site_info['script']
+        file_name = site_info.get('FileName') or site_name
+        if not file_name.lower().endswith('.xml'):
+            file_name += '.xml'
+        file_name = os.path.join('rss', file_name)
         all_articles_data = []
+        
         if categories:
             site_dir = os.path.join('rss', site_name)
             if not os.path.exists(site_dir):
@@ -89,16 +99,19 @@ def process_site(site_name, site_info):
                             all_articles_data.extend(articles_data)
                     except Exception as e:
                         print(f"Failed to process category {category} for site {site_name}: {e}")
-                    #current_category += 1
-            #if current_category > 0:
-                #print_progress_bar(total_categories, total_categories)
+                    current_category += 1
+                    #print_progress_bar(current_category, total_categories)
             #print()  # Finalize category progress bar output
         else:
-            articles_data = load_and_run_script(script, base_url)
+            if app_ids:
+                articles_data = load_and_run_script(script, app_ids=app_ids)
+            else:
+                articles_data = load_and_run_script(script, base_url)
+            
             if articles_data:
-                file_name = os.path.join('rss', f"{site_name}.xml")
                 generate_xml(articles_data, file_name)
                 all_articles_data.extend(articles_data)
+        
         if all_articles_data:
             return site_name, True
         else:
@@ -145,7 +158,6 @@ def main():
             generate_xml(group_feed, file_name)
             print(f"Finished processing group {group_name}\n")
             current_task += 1
-            #print_progress_bar(current_task, total_tasks)
     success_count = 0
     with ThreadPoolExecutor() as executor:
         future_to_site = {executor.submit(process_site, site_name, site_info): (site_name, site_info) for site_name, site_info in sites.items()}
@@ -159,7 +171,6 @@ def main():
                 print(f"Failed to process site {site_name}: {e}")
             current_task += 1
             print_progress_bar(current_task, total_tasks)
-    #print()  # Finalize site progress bar output
     print(f"\nFinished {success_count}/{len(sites)} successfully.")
 
 if __name__ == "__main__":
