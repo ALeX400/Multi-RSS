@@ -28,4 +28,4 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Automatically updated RSS feeds" && git push)
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Automatically updated RSS feeds" && git pull --rebase && git push)
