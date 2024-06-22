@@ -40,9 +40,8 @@
 			"url": "https://rust.facepunch.com/news/",
 			"script": "pattern_rust_facepunch.py",
 			"FileName": "rust_news.xml"
-		}
-		// Temporar Dezactivat pana rezolvam problema
-		/*"World News": {
+		},
+		"World News": {
 			"url": "https://worldnews24.net/",
 			"category": [
 				"conspiratii",
@@ -54,6 +53,6 @@
 			],
 			"script": "pattern_worldnews24.py",
 			"FileName": "worldnews.xml"
-		}*/
+		}
 	}
 }
