@@ -3,7 +3,7 @@ name: Update file_cache.json
 on:
   push:
     paths:
-      - '**/*'  # Include all changes in the repository
+      - 'rss/**/*'  # Include all changes in the rss directory and its subdirectories
   workflow_dispatch:
 
 jobs:
@@ -19,6 +19,12 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Remove existing file_cache.json
+        run: |
+          if [ -f file_cache.json ]; then
+            rm file_cache.json
+          fi
+
       - name: Update file_cache.json
         run: python update_index.py
 
@@ -26,7 +32,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add .
+          git add file_cache.json
           git diff --quiet && git diff --staged --quiet || (git commit -m "Update file_cache.json with list of XML files" && git push)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
