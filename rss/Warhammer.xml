@@ -1,6 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Hotfix 1.2.0.28 is live!</title>
+      <link>https://store.steampowered.com/news/app/2186680/view/4248664999222388333</link>
+      <description><![CDATA[
+<style>
+        [data-focus-scheme="dark"] {
+            color-scheme: none;
+        }
+    </style>
+Lord Captains! A hotfix 1.2.0.28 is live! <br/><br/>In this hotfix we're getting rid of multiple mysterious 'hidden' lines and character names across the game and adding missing localization strings to multiple languages. <br/><br/>We really appreciate the bugreports you send us, and already busy investigating the problems you reported. Thank you, and keep it coming!<br/><br/>We also kindly remind you to update your mods, as they are often the reason of the issues you may encounter.]]></description>
+      <pubDate>Wed, 26 Jun 2024 22:59:47 +0000</pubDate>
+    </item>
+    <item>
       <title>Introduction to the Itemization Rework - Dev Blog</title>
       <link>https://store.steampowered.com/news/app/1361210/view/4270057097450538498</link>
       <description><![CDATA[
@@ -53,18 +65,6 @@ Steam Discussions X Facebook Instagram Discord</div>]]></description>
     </style>
 <img src="https://clan.akamai.steamstatic.com/images/38365286/b7392c313fea97398ea2feda9bdf4be9a21a30ee.png"/><br/><br/><div class="bb_h1">Devoted Rejects,</div><br/>Hotfix #41 (1.4.1) is now live on Steam and it will shortly be live on our other platforms.<br/><br/><ul class="bb_ul"><li> Fixed a server crash which could happen when updating player stats if any stat reached a very high value.<br/></li><li> Fixed a server crash which could happen if an Ogryn with the “Feel No Pain” talent equipped was hit by a projectile which was about to be destroyed.<br/></li><li> Fixed an issue where the Branx Pickaxe attack startup animations would be incorrect if starting an attack immediately after interrupting a Special attack by sprinting.<br/></li><li> Fixed an issue where the Antax Mk V Combat Axe was playable but showed incorrect stats.<br/></li><li> Fixed the following in the new mission Clandestium Gloriana:<br/><ul class="bb_ul"><li> Fixed an issue where the backdrop would be incorrect when setting the volumetric quality settings to Low in the new mission.<br/></li><li> Fixed an issue where players could get stuck in the doors of the horizontal elevator as they were closing.<br/></li><li> Fixed an issue where players could walk behind the horizontal elevator gantry and fall through the map.</li></ul></li><li> Fixed an issue related to triggering VO which caused banter to happen less frequently than intended.<br/></li><li> Fixed an issue where subtitles in the Mourningstar could overlap during the Path of Trust cinematics.<br/></li><li> Fixed inconsistencies for spelling for Ogryns Pickaxes.<br/></li><li> Fixed an issue where the description of the “Torment” Pickaxe blessing would appear in undefined text in languages other than English.<br/></li><li> Fixed an issue where the wrong inspect animations played for Ogryn Pickaxe in third person.<br/></li><li> Fixed an issue where the second line of Zola’s intro for The Orthus Offensive special assignment was not playing.<br/></li><li> Fixed an issue where Zola’s VO lines are over the radio in The Orthus Offensive special assignment menu.<br/></li><li> Added a smoother transition screen when loading into a video or cutscene, instead of just showing the operative.</li></ul><img src="https://clan.akamai.steamstatic.com/images/38365286/a65c70af1027202631df9d22270d8a366b72f32d.png"/>]]></description>
       <pubDate>Wed, 26 Jun 2024 12:20:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Abelard, introduce the second gargantuan update: 1.2.0.25!</title>
-      <link>https://store.steampowered.com/news/app/2186680/view/4248664999220472239</link>
-      <description><![CDATA[
-<style>
-        [data-focus-scheme="dark"] {
-            color-scheme: none;
-        }
-    </style>
-Abelard, introduce the second gargantuan update 1.2 to the players!<br/><br/>It is the biggest update of the game so far, containing over 2500 changes, about 30% larger than 1.1. We’ve left out some internal and minor changes and combined some others together to keep the size of these patch notes reasonable. <br/><br/>Here’s a glimpse of what to expect:<br/><br/><ul class="bb_ul"><li> Major balance updates - deep rebalance of out-of-sequence turns, buffs to Sanctioned Psykers and Pyromancy, tuning of scaling in the late game, and much more;<br/></li><li> QoL changes to the UI - improved inventory sorting, quests being marked on star systems, massive improvements to level up screen, better tooltips, improvements to the combat log, and more;<br/></li><li> Various improvements for locations across the game - pathing, visual effects, cover placement, backgrounds, improved NPC appearance and variety;<br/></li><li> New dialogues for secret companions, fixes and updates for existing dialogues, fixes for epilogue slides;<br/></li><li> Improved rumour system with rumour zones now highlighted on the map;<br/></li><li> Updates for some cutscenes - better animations, timing, cameras;<br/></li><li> Improvements to co-op: desync fixes, custom portrait transfer, save file size reduction, up to two additional custom mercenary characters available in Prologue - play together from the start!<br/></li><li> Many new animations;<br/></li><li> New visual effects (for abilities, auras, creature animations, and more);<br/></li><li> New sound effects and corrections to VO;<br/></li><li> New item icons;<br/></li><li> A few new talents;<br/></li><li> Localization improvements and countless typo fixes for all languages;<br/></li><li> Massive amount of bug fixes for all aspects of the game;</li></ul><br/>Due to the massive changes to the mechanics, all members of the current party in existing saves will receive a special ability, allowing them to perform a one-time free respecialization. The ability will be removed as soon as the party gains access to the usual means of respecialization;<br/><br/>Please be aware of the plot spoilers below!<br/><br/>Note that https://steamcommunity.com/app/2186680/discussions/0/4027970580228219058/ always contains up-to-date information on known issues and the roadmap of upcoming patches.<br/><br/>Read the full patch notes at:<br/><br/>https://roguetrader.owlcat.games/news/en/38]]></description>
-      <pubDate>Wed, 26 Jun 2024 10:17:38 +0000</pubDate>
     </item>
   </channel>
 </rss>
