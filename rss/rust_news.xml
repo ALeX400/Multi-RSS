@@ -1,362 +1,6 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
-      <title>Community Update 260</title>
-      <link>https://rust.facepunch.com/news/community-update-260/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Community Update 260
-    </h1>
-    <p editname="Summary" type="text">
-     Amusement Parks, Fight Clubs, Music Parodies, Cosplay, and Twitch drops maybe?
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      25 April 2024
-     </div>
-     <a class="tag community" href="?category=community">
-      Community
-     </a>
-    </div>
-    <div class="author">
-     <div class="card user-card">
-      <div class="image">
-       <img src="https://files.facepunch.com/s/afe3bc0ea811.png"/>
-      </div>
-      <div class="body">
-       <div class="title has-text-white">
-        Errn
-       </div>
-       <div class="position">
-        Community Support
-       </div>
-       <div class="country">
-        United States
-       </div>
-       <div class="links">
-        <a class="button small" href="https://youtu.be/dQw4w9WgXcQ" icon="home">
-         web
-        </a>
-        <a class="button small" href="https://twitter.com/ErrnieGerrn" icon="chat">
-         twitter
-        </a>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block" id="RusticReefAmusementPark">
-  <div class="section" like-handler="LikeBlogSection" like-id="84319" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Rustic Reef Amusement Park
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Last blog I showcased many of the big-hitters in the Rust Creative Arts community.  This month they have literally combined forces to play together for an entire month and managed to make a giant amusement park on the water!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      I present to you:  Rustic Reef
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="medium">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2311b1/20240324121018_1.png"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2311b1/20240324131122_1.png"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2311b1/20240323105433_1.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      From a life size DDR game, to a roller coaster. They even managed to mimic a ferris wheel.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The masterminds behind this project are:
-      <a class="" href="https://www.youtube.com/@rustdavinci">
-       DaVinci
-      </a>
-      ,
-      <a class="" href="https://www.youtube.com/@PhilieveRust">
-       Philieve
-      </a>
-      ,
-      <a class="" href="https://www.youtube.com/@MonsteraRust">
-       Monstera
-      </a>
-      , and
-      <a class="" href="https://www.youtube.com/@Silverfox0093">
-       Silverfox
-      </a>
-      .
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Philieve breaks down who's doing what and how the whole project came about.
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Ng1TyclaCrc?si=oYG0w-1ykb_SNM6s" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-      DaVinci gives us the scenic tour!
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/TmGvLtbPRcU?si=QaO9HvHgBWQ8gsZv" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-      And pyromaniac Silverfox shows off his firework skills.
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/FQSRQbYEE4A?si=HAMXt7PiqDZh5fNv" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-      I'll try and do a better job of giving you all a heads up next time they do a project like this so people can experience it in real time!  Absolute legends.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="RockBoxingChampion">
-  <div class="section" like-handler="LikeBlogSection" like-id="84320" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Rock Boxing Champion
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Who is the greatest rock fighter in Rust? Can a "nobody" defeat the Rock - Boxing World Champion?
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/LHDREMSAUSQ?si=KKofzGaP9-Wr0qae" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="CountingSARs">
-  <div class="section" like-handler="LikeBlogSection" like-id="84321" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Counting SARs
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <a class="" href="https://www.youtube.com/@baldingbus">
-       Balding Bus
-      </a>
-      brings us a real toe-tapper Rust parody music video!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/qooQfjkb7vM?si=qe9CvpBW9o8G5hnk" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="IRLRustElectrical">
-  <div class="section" like-handler="LikeBlogSection" like-id="84322" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       IRL Rust Electrical
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Our friend over at
-      <a class="" href="https://www.youtube.com/@Real-Game">
-       Real &amp; Game
-      </a>
-      has outdone himself once again.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Made an entire Rust electrical setup IRL.
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/PeR3eClqTjE?si=jsCoYrFm7KEGmrUl" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="RustCosplay">
-  <div class="section" like-handler="LikeBlogSection" like-id="84323" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Rust Cosplay
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      I'm just going to leave this here.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <blockquote class="reddit-embed-bq" data-embed-height="566" data-embed-theme="dark" style="height:500px">
-       <a href="https://www.reddit.com/r/playrust/comments/1bwl78i/when_hazzie_meets_bucket_hat_wetsuit_gaming_me/">
-        When hazzie meets bucket hat wetsuit gaming (me and my friends cosplays)
-       </a>
-       <br/>
-       by
-       <a href="https://www.reddit.com/user/Hackerwithalacker/">
-        u/Hackerwithalacker
-       </a>
-       in
-       <a href="https://www.reddit.com/r/playrust/">
-        playrust
-       </a>
-      </blockquote>
-      <script async="" charset="UTF-8" src="https://embed.reddit.com/widgets.js">
-      </script>
-     </div>
-     <div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="TwitchDrops">
-  <div class="section" like-handler="LikeBlogSection" like-id="84324" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Twitch Drops
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Soon™
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="Showmethestuff">
-  <div class="section" like-handler="LikeBlogSection" like-id="84325" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Show me the stuff!
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       If you made something cool or saw something cool, reach out! Tag me on
-       <a class="" href="https://twitter.com/ErrnieGerrn">
-        X
-       </a>
-       or u/ErrnieGerrn
-       <a class="" href="https://www.reddit.com/r/playrust/" target="">
-        Reddit
-       </a>
-       .
-       <br/>
-      </div>
-      <div>
-       <br/>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 25 Apr 2024 12:30:00 Z</pubDate>
-    </item>
-    <item>
       <title>Community Update 261</title>
       <link>https://rust.facepunch.com/news/community-update-261/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -777,26 +421,52 @@
       <pubDate>Mon, 24 Jun 2024 01:42:00 Z</pubDate>
     </item>
     <item>
-      <title>Waves Of Change</title>
-      <link>https://rust.facepunch.com/news/waves-of-change/</link>
+      <title>Community Update 260</title>
+      <link>https://rust.facepunch.com/news/community-update-260/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
 <div class="blog-hero">
  <div class="container" targetobject="blog">
   <div class="blog-hero-body">
    <div class="body-info">
     <h1 editname="Title" type="text">
-     Waves Of Change
+     Community Update 260
     </h1>
     <p editname="Summary" type="text">
-     So many changes! We've updated Harbor/Cargo, Oilrig, Bradley, Electricity, &amp; Patrol Heli. Adding our first Retro TC Skin &amp; a minigun, plus much more!
+     Amusement Parks, Fight Clubs, Music Parodies, Cosplay, and Twitch drops maybe?
     </p>
     <div class="tags">
      <div class="tag secondary">
-      04 April 2024
+      25 April 2024
      </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
+     <a class="tag community" href="?category=community">
+      Community
      </a>
+    </div>
+    <div class="author">
+     <div class="card user-card">
+      <div class="image">
+       <img src="https://files.facepunch.com/s/afe3bc0ea811.png"/>
+      </div>
+      <div class="body">
+       <div class="title has-text-white">
+        Errn
+       </div>
+       <div class="position">
+        Community Support
+       </div>
+       <div class="country">
+        United States
+       </div>
+       <div class="links">
+        <a class="button small" href="https://youtu.be/dQw4w9WgXcQ" icon="home">
+         web
+        </a>
+        <a class="button small" href="https://twitter.com/ErrnieGerrn" icon="chat">
+         twitter
+        </a>
+       </div>
+      </div>
+     </div>
     </div>
    </div>
   </div>
@@ -842,2357 +512,259 @@
         }
 </style>
 <div class="blog">
- <div class="news-section-block" id="">
-  <div class="section" like-handler="LikeBlogSection" like-id="84312" targetobject="section">
+ <div class="news-section-block" id="RusticReefAmusementPark">
+  <div class="section" like-handler="LikeBlogSection" like-id="84319" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       ⠀
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="youtube-container">
-       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/p-AcOf4L0zw?si=KuPy_fenbfcnTfVM" title="YouTube video player" width="560">
-       </iframe>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="CargoSHIPDocking">
-  <div class="section" like-handler="LikeBlogSection" like-id="84277" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Cargo SHIP Docking
+       Rustic Reef Amusement Park
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
      <div>
-      We’ve given both Harbors a fresh coat of paint this month, with a 
-significant amount of visual and gameplay changes. These changes support
- the new Cargo Ship docking process, which allows the ship to adjust 
-it's course and dock with the harbor.
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="grid">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240404/harbor_refresh_01.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240404/harbor_refresh_03.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240404/harbor_refresh_04.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240404/harbor_refresh_05.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240404/harbor_refresh_06.jpg"/>
-      </gallery>
+      Last blog I showcased many of the big-hitters in the Rust Creative Arts community.  This month they have literally combined forces to play together for an entire month and managed to make a giant amusement park on the water!
      </div>
      <div>
-      Each harbor has a new island that can be reached by crossing a rotating 
-bridge, floating containers or a daring set of jumps across cranes. 
-This island becomes a stronghold once the Cargo Ship docks as it becomes
- sheltered from the rest of the harbor.
       <br/>
      </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240404/harbor_refresh_08.jpg"/>
-     </div>
      <div>
-      <div>
-       The ship will pick the first harbor it passes to dock and will only
- dock once. Once docked, the cranes in the Harbor will spring into life 
-and move several containers from the docks onto the deck of the ship. 
-These containers have openable doors and can be hidden in, so they 
-present a new way to smuggle aboard the ship and another threat for 
-players already on the ship to contend with. These containers will be 
-deposited in locations that are generally above the deck, in some cases 
-by several meters. This should present an interesting tactical situation
- when attacking the ship as well as defending it.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       We’ve
- also added two ship doors above the water line that allow access to the
- lower interior level of the ship and provide additional ways to board 
-or traverse the monument while the ship is docked.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240404/harbor_refresh_10.jpg"/>
-     </div>
-     <div>
-      By default, the Cargo Ship replenishes it's loot every 10 minutes - up to 3 times. When the ship docks at the harbor, it will attempt to trigger one of those loot refreshes - although if all three have already happened, it will be unable to spawn any more loot.
-      <div>
-       <br/>
-      </div>
-      <div>
-      </div>
-      <div>
-       The Cargo Ship horn will sound 60 seconds prior to it's departure - once you hear that horn it's time to get moving or you might end up back out at sea.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       We think these changes combined will lead to Cargo Ship being a much more contested PvP environment for groups of all sizes. We're also interested to see how a traditionally lower intensity monument like the Harbors adjust to periodic bouts of high intensity action.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Oilrigs">
-  <div class="section" like-handler="LikeBlogSection" like-id="84278" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Oilrigs
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The Oilrigs receive an upgrade this month, with an underwater access. This new way to get onto the Oilrig will add a path into both structures Level 3 floors.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240403/oilrig_tube_01.jpg"/>
-     </div>
-     <div>
-      This provides a different, and possibly safer way into the monument. It is also a way to counter the players on board by short circuiting the docks at the rig's water line.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240403/oilrig_tube_02.jpg"/>
+      I present to you:  Rustic Reef
      </div>
      <div blocktype="gallery" class="edit-block" contenteditable="false">
       <gallery data-gallery-style="medium">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240403/oilrig_tube_04.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240403/oilrig_tube_05.jpg"/>
-      </gallery>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240403/oilrig_tube_03.jpg"/>
-     </div>
-     <div>
-      The extra rooms inside see the addition of a CCTV desk that allows you to observe camera feeds of the monument.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Minigun">
-  <div class="section" like-handler="LikeBlogSection" like-id="84299" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Minigun
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The iconic minigun has been added to the game which is used by the Heavy Scientists. It takes a moment to spin up, but when it does, it unleashes a massive amount of ammunition, making targets much easier to hit.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240405/minigun_oilrig.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      It's a rare drop useable by players and you must be at a workbench level 2 to add ammunition to it as it cannot be reloaded in the field. It also takes 1.5 seconds to spin up and lowers your movement speed while the spin is engaged.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="RetroToolCupboard">
-  <div class="section" like-handler="LikeBlogSection" like-id="84300" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Retro Tool Cupboard
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We're thrilled to announce Rust's first-ever tool cupboard DLC skin!
-      <br/>
-      The 
-Retro Tool Cupboard can be crafted as usual using the skin picker or 
-applied to an existing Tool Cupboard using the Spray Can item.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240402/toolcupboar_retro_01_alt1.jpg"/>
-     </div>
-     <div>
-      The Retro Tool Cupboard monitors display live information such as upkeep time, resources, and the number of blocks used to calculate upkeep costs. However, the data is only visible on the monitors when authorized.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240402/toolcupboar_retro_08.jpg"/>
-     </div>
-     <div>
-      The Retro Tool Cupboard doesn't require power, the lower half of the Retro Tool Cupboard behind the glass panel displays current inventory upkeep amounts and tools.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="medium">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240402/toolcupboar_retro_02.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240402/toolcupboar_retro_10_alt1.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240402/toolcupboar_retro_05.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2311b1/20240324121018_1.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2311b1/20240324131122_1.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2311b1/20240323105433_1.jpg"/>
       </gallery>
      </div>
      <div>
-      When approaching the Retro Tool Cupboard design, we felt aesthetics were critical. The tool cupboard is the heart of any base and should be instantly recognizable.
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="true" src="https://files.facepunch.com/paddy/20240402/retro_tc_orbit_01.mp4">
-      </video>
+      From a life size DDR game, to a roller coaster. They even managed to mimic a ferris wheel.
      </div>
      <div>
-      You can purchase Retro Tool Cupboard skin in-game or at
-      <a class="" href="https://store.steampowered.com/itemstore/252490/">
-       Steam's item store
+      <br/>
+     </div>
+     <div>
+      The masterminds behind this project are:
+      <a class="" href="https://www.youtube.com/@rustdavinci">
+       DaVinci
+      </a>
+      ,
+      <a class="" href="https://www.youtube.com/@PhilieveRust">
+       Philieve
+      </a>
+      ,
+      <a class="" href="https://www.youtube.com/@MonsteraRust">
+       Monstera
+      </a>
+      , and
+      <a class="" href="https://www.youtube.com/@Silverfox0093">
+       Silverfox
       </a>
       .
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="MilitaryFlamethrower">
-  <div class="section" like-handler="LikeBlogSection" like-id="84310" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Military Flamethrower
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      In addition to the minigun, the Heavy Scientists have had their arsenal upgraded with a new, military tier flamethrower. This weapon deals massive damage to targets up to 12 meters away and creates walls of fire - which can be used for area denial.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/helkus/1b0311b1/Unity_pvGuUT044U.jpg"/>
-     </div>
-     <div>
-      I've also modified how flamethrowers deal damage to players making them an extremely effective PvP weapon.
-      <br/>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="PatrolHelicopterImprovements">
-  <div class="section" like-handler="LikeBlogSection" like-id="84302" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Patrol Helicopter Improvements
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The patrol helicopter was one of the largest banks of 'older' code still in the game. It's stood up well, but there were a bunch of fixes and improvements that needed to happen. Let's start with the improvements.
-      <br/>
      </div>
      <div>
       <br/>
      </div>
      <div>
-      <b>
-       Orbital Strafing/Strafing Changes
-      </b>
+      Philieve breaks down who's doing what and how the whole project came about.
      </div>
-     <div>
-      The regular helicopter attack strafe was getting pretty old. It followed a regular pattern and most of our values were fixed internally. This has been changed. During an attack run the helicopter will randomise a bunch of values, including: rocket amount, drop off distance, turn speed etc. These are relatively minor adjustments, but they should help make each new fight with the helicopter feel a little more fresh.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      We also added a new attack phase in the strafing run. The helicopter will turn, begin orbiting your position and pummel you with rockets from all directions.  This will randomly happen after each strafe.  It's super fun to play, and helps bring back the excitement and danger of taking heli.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240402/patrolhelicopter_trainyard_01.jpg"/>
-     </div>
-     <div>
-      <div>
-       <br/>
-       <b>
-        Aggro Improvements
-       </b>
-      </div>
-      <div>
-       A new 'zones' feature has been introduced. These are invisible to the player. When a player damages heli a zone is updated/created and the zone is assigned a score. This score is based on how much damage heli has taken from that specific zone.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Heli will now seek out targets based on zones and damage scores rather than the perceived randomness of before. When there are minimal players and by extension - minimal zones. Heli will work similarly to before, but when more zones are introduced heli will prioritise attacking the people that are attacking it, in a more controlled and deliberate manner.
-       <br/>
-       <br/>
-       You are still free pickings to the side gunners, but your house shouldn't be blasted anymore in the confusion.
-       <br/>
-      </div>
-      <div>
-       <br/>
-       <b>
-        No-Go Zones
-       </b>
-       <br/>
-       When taking heli, the basic principle is to get, and keep aggro. No-Go zones make this a little more difficult, and now encourage some movement when taking heli.  When a zone performs enough damage to heli too quickly, then that zone is marked as a no-go zone. Heli will flee the area, and attempt to avoid it as best as it can. This is to encourage heli to get out of areas that are going to kill it too quickly. Encouraging bigger groups to chase, build defenses as they go and bring more PVP to the whole map.
-      </div>
-      <div>
-       <br/>
-       <b>
-        Bug Fixes/Changes
-       </b>
-       <br/>
-       A bunch of legacy bugs that existed with heli are now patched. These include being stuck on targets, disappearing mid-fight, not exploding in the ocean, as well as a bunch of proxy issues that were fixed by the aggro adjustments. Other adjustments have also been made to how heli patrols work, and you should see it moving around a bit more now, rather than just sticking to the monuments.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <b>
-       Server Convars
-      </b>
-      <br/>
-      <ul>
-       <li>
-        <b>
-         patrolhelicopterai.use_danger_zones -
-        </b>
-        this will enable/disable the no go and aggro zones. When turned off, the helicopter will largely behave the way it used to (regarding target picking and aggression).
-        <br/>
-        <br/>
-       </li>
-       <li>
-        <b>
-         patrolhelicopterai.flee_damage_percentage -
-        </b>
-        this sets the required percentage of damage done to heli in order for it to flee, and create a no-go zone. A value of 1 or over will effectively disable no go zones and stop the flee mechanic.
-       </li>
-      </ul>
-      <br/>
-      It will no doubt need some further revisions and changes after this release. Keep us updated on how your heli takes go. Have fun!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Electricity">
-  <div class="section" like-handler="LikeBlogSection" like-id="84279" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Electricity
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month, we are taking care of our fellow electricians! Bug fixes, quality of life improvements, and major changes are coming to electricity.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      CHANGES
-      <br/>
-     </h2>
-     <div>
-      First of all, we removed any power requirements from all logic gates.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Being creative and adding logic to your circuits won't be at the expense of acquiring a linear or exponential amount of power anymore. While being a great quality of life for master electricians, we also believe that removing this pain point will encourage wider use of electricity.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none" title="">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Flavien/2024/04/elec_comps.png"/>
-     </div>
-     <div>
-      Therefore, the following components won't require power or drain batteries anymore:
-      <br/>
-     </div>
-     <div>
-      <ul>
-       <li>
-        Splitter
-       </li>
-       <li>
-        Electrical Branch
-       </li>
-       <li>
-        Blocker
-       </li>
-       <li>
-        Root Combiner
-       </li>
-       <li>
-        Memory Cell
-       </li>
-       <li>
-        RAND Switch
-       </li>
-       <li>
-        XOR Switch
-        <br/>
-       </li>
-       <li>
-        AND Switch
-       </li>
-       <li>
-        OR Switch
-       </li>
-       <li>
-        Timer
-       </li>
-       <li>
-        Switch
-       </li>
-       <li>
-        Smart Switch
-       </li>
-       <li>
-        Counter
-       </li>
-       <li>
-        Pressure Pad
-       </li>
-       <li>
-        Button
-       </li>
-      </ul>
-      <div>
-       <br/>
-      </div>
-      Any other active components like turrets, sensors, lights, etc. remain unchanged and will still need power to function.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <h2>
-       BUG FIXES
-      </h2>
-     </div>
-     <div>
-      <div>
-       These power limitations were also overly amplified by a multitude of power drain bugs and unintended behaviors that we worked on fixing.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Here are the most important ones:
-      </div>
-     </div>
-     <div>
-      <ul>
-       <li>
-        Prevent Electrical Branch from draining power when nothing is connected to its 'Branch Out' output
-       </li>
-      </ul>
-      <ul>
-       <li>
-        Fixed OR Switch adding Active Usage to both power sources instead of the one with the highest power
-       </li>
-      </ul>
-      <ul>
-       <li>
-        Fixed unpowered components draining power
-       </li>
-      </ul>
-      <ul>
-       <li>
-        Fixed auxiliary inputs/outputs draining power unnecessarily
-       </li>
-      </ul>
-      <div>
-       <br/>
-      </div>
-      <div>
-      </div>
-     </div>
-     <div>
-      <h2>
-       Quality of life
-      </h2>
-     </div>
-     <div>
-      <div>
-       Along these changes, we worked on improving how you deploy electrical components:
-      </div>
-      <div>
-       <ul>
-        <li>
-         Fixed the differences between the deploy guide and the actual position where your component is placed
-        </li>
-       </ul>
-       <ul>
-        <li>
-         <div>
-          Components are now aligned to walls and won't rotate based on your view angle
-         </div>
-        </li>
-       </ul>
-       <ul>
-        <li>
-         <div>
-          <div>
-           You can now align your components together when deploying them on walls by holding
-           <b>
-            left shift
-           </b>
-          </div>
-         </div>
-        </li>
-       </ul>
-       <b>
-        <br/>
-       </b>
-      </div>
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false" title="Before">
-      <video controls="" crossorigin="anonymous" src="https://files.facepunch.com/Flavien/2024/04/Unity_XubesKfHWF.mp4">
-      </video>
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false" title="After">
-      <video controls="" crossorigin="anonymous" src="https://files.facepunch.com/Flavien/2024/04/Unity_JxgJALOBIF.mp4">
-      </video>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      This applies to all electricity, industrial and fluid items. We're planning on extending it to any type of deployable in the future.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <div>
-       <h2>
-        NEXT STEPS
-       </h2>
-      </div>
-     </div>
-     <div>
-      <div>
-       There are more fixes and improvements that didn't make it into this patch. Expect more in the coming months, including plans to rework some components and extending their functionalities.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Many thanks to our electricians in the community for pointing out bugs and suggesting ideas.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <p>
-       <span>
-        The full change log of each component can be read in the
-        <a class="selected" href="https://rust.facepunch.com/news/waves-of-change#ElectricityChangelog">
-         section at the bottom of the blog
-        </a>
-        .
-       </span>
-      </p>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="AnticheatUpdate">
-  <div class="section" like-handler="LikeBlogSection" like-id="84309" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Anti-cheat Update
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      At the beginning of the year, in the development blog Surviving a Decade, I mentioned, "This year we're dedicating more resources into anti-cheat than ever", this is a commitment we're dedicated to, and I want to share more information about what we've been up too.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Over the past couple of months, we have slowly eliminated or limited information leaks which cheaters abuse to aid them in several ways. For example, players health, Tool Cupboards and turret authorization lists could be read in the network data, allowing cheaters to use and gain a further unfair advantage. These are now fixed.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      In continuing efforts to battle cheaters and clean up many long-standing issues, especially around information leaks, buried stashes are no longer networked, meaning cheaters will no longer know where stashes are buried.
-      <br/>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video controls="" crossorigin="anonymous" src="https://files.facepunch.com/jakerich/KdcwWAt4FIE9LPxl/X9nWrMShWTvhl4T4.mp4">
-      </video>
-     </div>
-     <div>
-      There is much more to be done in this area, and we are working on it.
-      <br/>
-     </div>
-     <div>
-      <br/>
-      Expanding the support team size over the past year has allowed us to get more support staff focusing on anti-cheat, which includes going in-game and dealing with and disrupting cheaters directly based on player reports. Some staff over the coming months will be dedicated solely to anti-cheat measures full-time. This isn't limited to Facepunch servers, but across the board.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      In addition to the above, we've deployed some stricter measures surrounding anti-cheating, eliminated several priority exploits, and will deploy further measures soon.
-      <br/>
-      <br/>
-      In the last month:
-      <br/>
-      <ul>
-       <li>
-        26,954 bans have been applied
-       </li>
-       <li>
-        22,542 of which were permanent
-       </li>
-       <li>
-        4,412 of which were temporary
-       </li>
-       <li>
-        949,422 cheating reports received
-       </li>
-       <li>
-        90.8% of bans were applied automatically
-        <br/>
-       </li>
-      </ul>
-      Since the 1st January 2024:
-      <br/>
-      <ul>
-       <li>
-        84,753 bans have been applied
-       </li>
-       <li>
-        71,371 of which were permanent
-       </li>
-       <li>
-        13,382 of which were temporary
-       </li>
-       <li>
-        3,116,133 cheating reports received
-       </li>
-       <li>
-        92.9% of bans were applied automatically
-       </li>
-      </ul>
-      <div>
-       Based on fiscal quarters:
-       <br/>
-       <ul>
-        <li>
-         72,849 bans applied in 2023 Q1
-        </li>
-        <li>
-         65,608 bans applied in 2023 Q2
-        </li>
-        <li>
-         81,682 bans applied in 2023 Q3
-        </li>
-        <li>
-         55,672 bans applied in 2023 Q4
-        </li>
-        <li>
-         81,084 bans applied in 2024 Q1
-        </li>
-       </ul>
-       <div>
-        Notes
-        <br/>
-       </div>
-       <div>
-        <ul>
-         <li>
-          Bans are placed for multiple reasons, the numbers above do not strictly reflect only cheat-related bans, but cheat-related bans do make up the vast majority of bans.
-         </li>
-         <li>
-          A single player can receive multiple bans, for example, if a user is temporarily banned and then later switched to a permanent ban, this is counted as 2 bans in the above metrics.
-         </li>
-        </ul>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="BRADLEYSCIENTISTS">
-  <div class="section" like-handler="LikeBlogSection" like-id="84301" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       BRADLEY SCIENTISTS
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The Bradley has some new passengers this month!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Scientists can now deploy from the Bradley to help defend it with some extra firepower.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240405/bradleyscientists_01.jpg"/>
-     </div>
-     <div>
-      This applies to both the Launch Site Bradley and the Bradley that spawns along roads at the end of the month.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="ImprovementsFixesHighlights">
-  <div class="section" like-handler="LikeBlogSection" like-id="84304" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Improvements &amp; Fixes Highlights
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
      <div blocktype="html" class="edit-block" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/alfiebirch/1b0311b1/RustClient_wwxfF2Seoj.jpg"/>
-        <center>
-         <b>
-          Seed Sack World Model
-         </b>
-        </center>
-        <center>
-         Added new seed world model
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/alfiebirch/1b0311b1/RustClient_JfQmeTEgHn.jpg"/>
-        <center>
-         <b>
-          Mushroom World Model
-         </b>
-        </center>
-        <center>
-         Added mushroom world model
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/1b0311b1/monument_cctv_desk.jpg"/>
-        <center>
-         <b>
-          Monument CCTV Station
-         </b>
-        </center>
-        <center>
-         New dedicated CCTV station within monuments
-        </center>
-       </div>
-      </div>
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Ng1TyclaCrc?si=oYG0w-1ykb_SNM6s" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+      DaVinci gives us the scenic tour!
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/TmGvLtbPRcU?si=QaO9HvHgBWQ8gsZv" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+      And pyromaniac Silverfox shows off his firework skills.
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/FQSRQbYEE4A?si=HAMXt7PiqDZh5fNv" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+      I'll try and do a better job of giving you all a heads up next time they do a project like this so people can experience it in real time!  Absolute legends.
      </div>
     </div>
    </div>
   </div>
  </div>
- <div class="news-section-block sectionstyle-hero" id="SRVDNSSupport">
-  <div class="section" like-handler="LikeBlogSection" like-id="84307" targetobject="section">
+ <div class="news-section-block" id="RockBoxingChampion">
+  <div class="section" like-handler="LikeBlogSection" like-id="84320" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       SRV DNS Support
+       Rock Boxing Champion
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
      <div>
-      I added support for SRV DNS record to Rust. This means you can now create nice domain names for your servers without needing to specify the port (or be forced into the default port).
+      Who is the greatest rock fighter in Rust? Can a "nobody" defeat the Rock - Boxing World Champion?
      </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      I also used this added information to improve the favorites list. Servers that have a working DNS record set up would save the domain name when favoriting so that favorites should never break as long as the domain name is pointing to the right place.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      More information on how to set this up is
-      <a class="selected" href="https://wiki.facepunch.com/rust/dns-records">
-       on the wiki
-      </a>
-      .
-      <br/>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/LHDREMSAUSQ?si=KKofzGaP9-Wr0qae" title="YouTube video player" width="560">
+      </iframe>
      </div>
     </div>
    </div>
   </div>
  </div>
- <div class="news-section-block sectionstyle-hero" id="PingEstimation">
-  <div class="section" like-handler="LikeBlogSection" like-id="84308" targetobject="section">
+ <div class="news-section-block" id="CountingSARs">
+  <div class="section" like-handler="LikeBlogSection" like-id="84321" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       Ping Estimation
+       Counting SARs
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
      <div>
-      If you have searched for new servers in the browser you probably noticed the large amount of fake ping: it's impossible to have 30ms ping to both a US and EU server. This is a side effect of certain forms of DDOS protection and has forced us to create a custom system to estimate ping rather than use steam's ping value.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" title="US &amp; EU 30ms ping">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/jakerich/Oq1zIOPb3DPBpoQV/KqDt7UAGyQz5R0oT.png"/>
+      <a class="" href="https://www.youtube.com/@baldingbus">
+       Balding Bus
+      </a>
+      brings us a real toe-tapper Rust parody music video!
      </div>
      <div>
-      There is a new checkbox below "Use Cache" called "Estimate Ping". We will enable this by default in the future once we confirm the estimated values are more accurate than the existing ones.
       <br/>
-      <br/>
-      Please note this is still experimental and will be improved upon over the coming months.
-      <br/>
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/qooQfjkb7vM?si=qe9CvpBW9o8G5hnk" title="YouTube video player" width="560">
+      </iframe>
      </div>
     </div>
    </div>
   </div>
  </div>
- <div class="news-section-block sectionstyle-hero" id="ElectricityChangelog">
-  <div class="section" like-handler="LikeBlogSection" like-id="84311" targetobject="section">
+ <div class="news-section-block" id="IRLRustElectrical">
+  <div class="section" like-handler="LikeBlogSection" like-id="84322" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       Electricity Change log
+       IRL Rust Electrical
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
      <div>
-      <p>
-       Following on from the electricity section above, here are the changes in full:
-       <span>
-        <br/>
-       </span>
-      </p>
-      <div>
-       <div>
-        <div>
-         <div>
-          <span id="docs-internal-guid-043dddd8-7fff-07e6-3bcf-89219be3d099">
-           <img class="lightbox-thumbnail" height="129" src="https://lh7-us.googleusercontent.com/yIrocsnrfneMCeGTRHHljiLHgB_LvpOgG_lLKGTtsLK950bCvLZCtj-se-pDrP4FaFYY1_qa_3vttzgS-1PaRhHs7AnfKIF61tjFUTu58vrre-gertvK8-OqCIbedDZ4yejU15jH_Kcknl-lSVUmvkQ" width="129"/>
-          </span>
-         </div>
-         <div>
-          <div>
-           <ul>
-            <li>
-             <b>
-              Splitter
-             </b>
-            </li>
-           </ul>
-          </div>
-          <div>
-           Power Consumption: 1 -&gt; 0
-          </div>
-          <div>
-           Active Usage: 1 -&gt; 0
-          </div>
-         </div>
-        </div>
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        Now distributes power evenly across all outputs and adds any remaining power to the earliest outputs, ensuring no power loss
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <div>
-        <span id="docs-internal-guid-8483dfe8-7fff-7193-2208-56f6c25aa08a">
-         <img class="lightbox-thumbnail" height="100" src="https://lh7-us.googleusercontent.com/tXjbh-cQCuvi9QzxRSMZNAaDr8yAcOU3Y6MldkDeHVaVjNMFhgoo7dz3lQM1ChiD1gq6KxjOulLKwWPiiyk3MNNX8vSH5jhOKjHwjcB9c-4nWwUsqzkIfRIdAN5_e-nqzkw7cyys5SaXiK_KYeKc78M" width="100"/>
-        </span>
-       </div>
-       <ul>
-        <li>
-         <b>
-          Electrical Branch
-         </b>
-        </li>
-       </ul>
-       <div>
-        <div>
-         Power Consumption: 1 -&gt; 0
-        </div>
-        <div>
-         <br/>
-        </div>
-       </div>
-       <div>
-        Active Usage is now properly calculated based on components wired from the 'Branch Out' output
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <div>
-        <span id="docs-internal-guid-2fa78617-7fff-a1d7-8912-152cc3e9272b">
-         <img class="lightbox-thumbnail" height="93" src="https://lh7-us.googleusercontent.com/Nxf7RpMX9dBWENhxJ3TmfJx81Cnf38owZwtwuW7sNnlLHQtyaLQrZDHD55mE2BcxNTFUyyuyOK_uApic3OESDu4fSjr6uLjR_18XDmwaHV2FUEkMKlqjY-XPqnOiu10hG4quLkoTEFewHmNNA1__5wk" width="93"/>
-        </span>
-       </div>
-       <div>
-        <ul>
-         <li>
-          <b>
-           Blocker
-          </b>
-         </li>
-        </ul>
-        Power Consumption: 1 -&gt; 0
-        <br/>
-        <div>
-         Active Usage: 1 -&gt; 0
-        </div>
-       </div>
-       <div>
-        <br/>
-       </div>
-      </div>
-      <div>
-       <div>
-        <span id="docs-internal-guid-2fa78617-7fff-a1d7-8912-152cc3e9272b">
-         <span>
-          <img class="lightbox-thumbnail" height="100" src="https://lh7-us.googleusercontent.com/U7L2sZ-RxJGwoYKO5pyXvx9kp6dtdRp-lQKiu5c7MtOnKEJZGgSzNkQCjL4f281q2YdIRsAzl0tbu0SFufmbXS3mvmys8SdNCUFFDqcMBZAmqQbGdGGRdkGdCcnRP_9abTcoa5Zfv_gn2hoHmOp0puQ" width="100"/>
-         </span>
-        </span>
-       </div>
-       <div>
-        <ul>
-         <li>
-          <b>
-           Root Combiner
-          </b>
-         </li>
-        </ul>
-        <div>
-         Active Usage: 1 -&gt; 0
-         <br/>
-        </div>
-        <div>
-         <br/>
-        </div>
-        <div>
-         <div>
-          <span id="docs-internal-guid-29e87985-7fff-6ce5-2e8a-5f883f2ce54b">
-           <img class="lightbox-thumbnail" height="93" src="https://lh7-us.googleusercontent.com/uPc2ZYd2OJrvRMJ2saI5TlGEf1Rko1cCxY6c8Umfneri_R0V1vQp87JQPAul-qIH4ZGL0PEsvlNWNyl-MUcys8OvfwsaGLnEzUXw8UVI6NnDF4WYszlIZUImnnJZvG39JSxhyEVdnEEdd_atPegWpAE" width="93"/>
-          </span>
-         </div>
-         <div>
-          <ul>
-           <li>
-            <b>
-             Memory Cell
-            </b>
-           </li>
-          </ul>
-          Power Consumption: 1 -&gt; 0
-          <br/>
-          <div>
-           Active Usage: 1 -&gt; 0
-          </div>
-         </div>
-         <div>
-          <br/>
-         </div>
-         <div>
-          Components wired from the current inactive output will no longer add any Active Usage to batteries
-         </div>
-         <div>
-          Fixed power passthrough being shown on both outputs instead of on the active one
-          <br/>
-         </div>
-         <div>
-          Side inputs won’t drain power anymore
-         </div>
-        </div>
-        <div>
-         <br/>
-        </div>
-        <div>
-         <div>
-          <span id="docs-internal-guid-e8a36941-7fff-2c66-8e87-0f95e7b27f76">
-           <img class="lightbox-thumbnail" height="93" src="https://lh7-us.googleusercontent.com/pQHfKyGEOJrmUlp0VObTie-PJCYdF-tj1rurv1bgFxKPqE44hRAwXYErL-f9G7fVTz20Zk6u3sD9URvcX-xwsLJLCg_IPZxfXNDwsgoNAm55KxbGZoglfl0Pj2AeUGOypG7avDQsac0VXdcEDcr2G8k" width="93"/>
-          </span>
-         </div>
-         <div>
-          <ul>
-           <li>
-            <b>
-             RAND Switch
-            </b>
-           </li>
-          </ul>
-          <div>
-           <div>
-            Power Consumption: 1 -&gt; 0
-           </div>
-           <div>
-            Active Usage: 1 -&gt; 0
-           </div>
-          </div>
-         </div>
-         <div>
-          <br/>
-         </div>
-         <div>
-          Now passes power when ON and blocks power when OFF
-         </div>
-         <div>
-          Now resets to OFF when power is applied to the 'Reset' side input
-         </div>
-        </div>
-        <div>
-         <br/>
-        </div>
-        <div>
-         <div>
-          <div>
-           <div>
-            <span id="docs-internal-guid-70744870-7fff-02e8-304f-f709cdd47686">
-             <img class="lightbox-thumbnail" height="106" src="https://lh7-us.googleusercontent.com/pgYAV5bBA2UQ867LBEW5EbzfMG2BfLMl6YzHlyrg4qAKr-MUTHJkvd_FEYx3XUhG66-p7S38jBGkXI0osnk-GZ5C3k0_Wymr2R3acxuaIBvYepSaC0L7LsFA9dDYxeDPfi4AtNkVFSITPd8Nf4PxMjM" width="106"/>
-            </span>
-           </div>
-           <div>
-            <div>
-             <ul>
-              <li>
-               <b>
-                XOR Switch
-               </b>
-              </li>
-             </ul>
-             <div>
-             </div>
-            </div>
-            <div>
-             <div>
-              Power Consumption: 1 -&gt; 0
-             </div>
-             <div>
-              Active Usage: 1 -&gt; 0
-             </div>
-            </div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <div>
-        <span id="docs-internal-guid-b540d28e-7fff-87b0-8bba-6b247f8f3015">
-         <img class="lightbox-thumbnail" height="113" src="https://lh7-us.googleusercontent.com/uSTzUrTvQ3S_2NDzbW3PRNZ2loqTRi9ZLtohdnHeBvk_1kPfO4LJvMrOH0AnUUmXQuZ13YwP1EpE8nxUXsmVgHdO3bKkPgCediqZYxBH7a-5L99wZHFDTI2vRIamTSWUrS2TpMJObhfU6Fr_O7YxhEY" width="113"/>
-        </span>
-       </div>
-       <div>
-        <div>
-         <ul>
-          <li>
-           <b>
-            AND Switch
-           </b>
-          </li>
-         </ul>
-         <div>
-         </div>
-        </div>
-        <div>
-         <div>
-          Power Consumption: 1 -&gt; 0
-         </div>
-         <div>
-          Active Usage: 1 -&gt; 0
-         </div>
-         <div>
-          <br/>
-         </div>
-         <div>
-          <div>
-           If only one side is powered, components connected to the output of an AND Switch will no longer increase batteries Active Usage
-          </div>
-         </div>
-         <div>
-         </div>
-         <div>
-          <span id="docs-internal-guid-4c4bb363-7fff-23c2-bcf2-4bbc6d259438">
-           <br/>
-          </span>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div>
-       <span id="docs-internal-guid-86be9697-7fff-d2b2-7ec4-3f41f8aade10">
-        <span>
-         <img class="lightbox-thumbnail" height="106" src="https://lh7-us.googleusercontent.com/ceXcgtnj7mP_VPF7yltDABRVdkUK5JMH1vGIVDT5BruA1v-0VimbMcAuFn_iWbZrhaBQKrBNoTSwU5UGlslEjQ1CrLKKDY0ofugCXFdYR0JtoMBn5RZFI998EfmhD_5xbDlpM0cm_iftassrKsM1zbA" width="106"/>
-        </span>
-       </span>
-      </div>
-      <div>
-       <ul>
-        <li>
-         <b>
-          OR Switch
-         </b>
-        </li>
-       </ul>
-       <div>
-       </div>
-      </div>
-      <div>
-       <div>
-        Power Consumption: 1 -&gt; 0
-       </div>
-       <div>
-        Active Usage: 1 -&gt; 0
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <div>
-        When both inputs are powered, Active Usage will now be applied to the highest power source. If both sides have the same power, the first input is selected by default
-       </div>
-      </div>
-      <div>
-      </div>
-      <div>
-       <span id="docs-internal-guid-4c4bb363-7fff-23c2-bcf2-4bbc6d259438">
-        <br/>
-       </span>
-      </div>
-      <div>
-       <span id="docs-internal-guid-48512b5a-7fff-9506-c23b-334917ee47f8">
-        <span>
-         <img class="lightbox-thumbnail" height="117" src="https://lh7-us.googleusercontent.com/6RZ1SWk6QHuSrzeRuCDnwJJnz9-nKX8hBoOS8SMbj_9Ik69ZS-k8mGJunbQ1Jq8EUNKb6vbDxAq3KFhbgzOaSBwh7paV5kHZrCd_Mbp9AHWXjQY6SeqIESM4b5iZtA_CWzbO6BUTtI3dUJOpGQ4uL50" width="117"/>
-        </span>
-       </span>
-      </div>
-      <div>
-       <ul>
-        <li>
-         <b>
-          Timer
-         </b>
-        </li>
-       </ul>
-       <div>
-        <div>
-         Power Consumption: 1 -&gt; 0
-        </div>
-        <div>
-         Active Usage: 1 -&gt; 0
-        </div>
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <div>
-        Now configurable when unpowered
-        <br/>
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <div>
-        <span id="docs-internal-guid-0b69d98e-7fff-e81f-ecf7-3f4ffc708397">
-         <img class="lightbox-thumbnail" height="124" src="https://lh7-us.googleusercontent.com/v89m-99kUJsl5Le_AX4U0exf-AhEeljrRaO2Vum_yMfNvQO32ZBV61AoOixB5rPP0WvLZcRXO_gfCaj0Dk3vs9HnnBE0CiDboOi5KbaY0urQORz6Yf50LWXy-Bfdsi1jz06PHUEgq14r3TCThQ-Pqec" width="124"/>
-        </span>
-       </div>
-       <div>
-        <ul>
-         <li>
-          <b>
-           Switch
-          </b>
-         </li>
-        </ul>
-        <div>
-         <div>
-          Power Consumption: 1 -&gt; 0
-         </div>
-         <div>
-          Active Usage: 1 -&gt; 0
-         </div>
-        </div>
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        Fixed side inputs passing power through
-        <br/>
-       </div>
-       <div>
-        Fixed red light not enabled when receiving power but toggled off
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        <span id="docs-internal-guid-9abbda33-7fff-1cec-b7fd-6a465572ff1b">
-         <img class="lightbox-thumbnail" height="121" src="https://lh7-us.googleusercontent.com/kbhZnMNRro0p-av6bRdYf2B7-ciKMg-bM18ktF_yyiGdSP3wXpLxW5t8ijajMmWDPN-ldO0bOO-hjQdCZHIEOJWHVBjWJqLuY7FZZkCHE9BnVxzduVqRNqn9QqwcsAS9En8nulFW-2FO1rYxA6PIeoY" width="121"/>
-        </span>
-       </div>
-       <div>
-        <ul>
-         <li>
-          <b>
-           Smart Switch
-          </b>
-         </li>
-        </ul>
-        <div>
-         <div>
-          <div>
-           Power Consumption: 1 -&gt; 0
-          </div>
-          <div>
-           Active Usage: 1 -&gt; 0
-          </div>
-         </div>
-         <div>
-          <br/>
-         </div>
-         <div>
-          Fixed side inputs passing power through
-          <br/>
-         </div>
-         <div>
-          Fixed red light not enabled when receiving power but toggled off
-         </div>
-         <div>
-          Updated deploy mesh guide
-          <br/>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <span id="docs-internal-guid-7768414c-7fff-fa41-b8fd-0dc76e045361">
-        <span>
-         <img class="lightbox-thumbnail" height="91" src="https://lh7-us.googleusercontent.com/9IKYsisPmumYwO6pZbN65qhp19O4yy-PkoKLxL9MCLzSK42RFDzRZ7YOcFw0T32IpE0LUckplu_BGqgpT_MUbheKPvPf3Jmen11uutljJIao95Cdx8-oZ9fwddOYucseDgjqjH2_FqcpKhRD_POJugw" width="91"/>
-        </span>
-       </span>
-      </div>
-      <div>
-       <ul>
-        <li>
-         <b>
-          Counter
-         </b>
-        </li>
-       </ul>
-       <div>
-        Power Consumption: 1 -&gt; 0
-       </div>
-       <div>
-        Active Usage: 1 -&gt; 0
-        <br/>
-        <div>
-         Max target number: 100 -&gt; 999
-        </div>
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        <div>
-         <div>
-          If below its target value, components connected to a counter's output will no longer increase the Active Usage on batteries
-         </div>
-        </div>
-       </div>
-      </div>
-      <div>
-       <div>
-        <span id="docs-internal-guid-b4faab0e-7fff-c440-aa83-a26e57e98654">
-         <img class="lightbox-thumbnail" height="148" src="https://lh7-us.googleusercontent.com/s9nWd1rlFY937ER55UzuzlQ2eybb5n6gOCnBBvEc_8tbjBaJLpONFRjGa-wSMfpCZwVmITZHqur1Tfpwu_ByV9yETjYG8m9_HPr51VjfMaCX35BobplNXNmlK3uSfotOKXQc3wWpGUQrVin1mKAq4Jg" width="148"/>
-        </span>
-       </div>
-       <div>
-        <ul>
-         <li>
-          <b>
-           Pressure Pad
-          </b>
-         </li>
-        </ul>
-        <div>
-         <div>
-          Power Consumption: 1 -&gt; 0
-         </div>
-         <div>
-          Active Usage: 1 -&gt; 0
-         </div>
-        </div>
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        Fixed blocking power passthrough for a bit when triggered
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <span id="docs-internal-guid-24b7f1c6-7fff-5de4-40ac-a572cc78b989">
-        <span>
-         <img class="lightbox-thumbnail" height="124" src="https://lh7-us.googleusercontent.com/_Jh56LGEZ-jImxqmoyF2pIVAJx14kreFpinAn4Rs-RaJxFbJU2DtnqO8yDbzD6-Pa59ieRUBiGbOw9Um17RSsFzDYrl0tLOvqdBNacRZ0MKiPszimM0cDSEBNZvtWTZHC2Ij8iYqFQ4kB4eyIdaKXAQ" width="124"/>
-        </span>
-       </span>
-      </div>
-      <div>
-       <ul>
-        <li>
-         <b>
-          Button
-         </b>
-        </li>
-       </ul>
-       <div>
-        <div>
-         Power Consumption: 1 -&gt; 0
-        </div>
-        <div>
-         Active Usage: 1 -&gt; 0
-        </div>
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <span id="docs-internal-guid-8c36e650-7fff-0f77-0d4f-16ee77c3249e">
-        <span>
-         <span>
-          <img class="lightbox-thumbnail" height="107" src="https://lh7-us.googleusercontent.com/VFFl3C24vFFfa6RdojX5stAx2_jMjzBsayft1BahKciYTNPVW9imGSmGnX2R71T4r-RIy4hweuJhvHv8rL-CB0qcjgcAHPXMgz1w5Uh-Uf2fjtsU1c6VlKzhvC7V89h3yWo9RCdEDIF7tmeELIDn6JI" width="107"/>
-         </span>
-        </span>
-       </span>
-      </div>
-      <div>
-       <ul>
-        <li>
-         <b>
-          Laser Detector
-         </b>
-        </li>
-       </ul>
-       <div>
-        <div>
-         <div>
-          <div>
-           Now deployable on any surface angle
-          </div>
-          <div>
-           Tweaked handles position to make it easier to wire
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div>
-       <b>
-        <br/>
-       </b>
-      </div>
-      <div>
-       <span id="docs-internal-guid-2b7eb216-7fff-8f76-275e-5d8aa76db17a">
-        <span>
-         <img class="lightbox-thumbnail" height="117" src="https://lh7-us.googleusercontent.com/c2hacUlKQgt_LR5I-r-f3LigFTMG5AZmej0m6GkKqKnTLsmTapl_yrcHHYyMb6dkje1WNqgikhBykfvCaDEiigJRZ7JEB6CeDYmjERTY-9qVAdUkGOp0hrjUCf4OhPw-Jw9ThrDv-UHz_OMqirD0v9Y" width="117"/>
-        </span>
-       </span>
-      </div>
-      <div>
-       <ul>
-        <li>
-         <b>
-          Ceiling Light
-         </b>
-        </li>
-       </ul>
-       <div>
-        <div>
-         Fixed an issue where it was possible to power them using only 1 unit of power instead of the required 2.
-        </div>
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <span id="docs-internal-guid-9175a568-7fff-9d1f-b5f1-9701bdd6e988">
-        <span id="docs-internal-guid-bb89f70e-7fff-c0ba-108f-99357ed90207">
-         <span>
-          <span>
-           <br/>
-          </span>
-         </span>
-        </span>
-       </span>
-      </div>
-      <div>
-       <span id="docs-internal-guid-e6d115ae-7fff-8e8a-f29e-614eb1289859">
-        <span style="border:none;display:inline-block;overflow:hidden;width:122px;height:122px;">
-         <img height="122" src="https://lh7-us.googleusercontent.com/6lGwW1Khcd-u8fjs1_FjOrcdMooZLQcZzBsjtkISxuEhHlCpxPhxYGeWwIb0YhWp59sUw2k521E0otxWvpod-GWlGrX3jA6qzr-Wl-fYZfg_MojfZL5cFedB29BjtM00EOWBFoQZnI5CYdOyWfQFd30" style="margin-left:0px;margin-top:0px;" width="122"/>
-        </span>
-       </span>
-      </div>
-      <div>
-       <ul>
-        <li>
-         <b>
-          Industrial Light
-         </b>
-        </li>
-       </ul>
-      </div>
-      <div>
-       <span id="docs-internal-guid-c2310874-7fff-909c-a4f1-958ad3ca4c8e">
-        <span>
-         Can now be rotated using R while being deployed
-        </span>
-       </span>
-      </div>
-      <div>
-       <span>
-        <span>
-         <br/>
-        </span>
-       </span>
-      </div>
-      <div>
-       <span>
-        <span>
-         <img class="lightbox-thumbnail" height="106" src="https://lh7-us.googleusercontent.com/w1gaOhWa21nYNmr85ToJcCKhkyPdiXKnlmtW6dfol3F6R2krzeK04lNomnlBFHE0mYOYwWa7ywGSTTnNjjoOPSbK9OvIHn6iBVKswYmZwBPUmfwaLN7ZoHA_0W8w2A6k7D5czQ1reHwVaz28pSB2ohc" width="106"/>
-        </span>
-       </span>
-      </div>
-      <div>
-       <ul>
-        <li>
-         <b>
-          Flasher Light
-         </b>
-        </li>
-       </ul>
-       <div>
-        <div>
-         Restored blue material emission when turned on
-        </div>
-        <div>
-         <div>
-          <div>
-           <div>
-            Tweaked handles position to make it easier to wire
-           </div>
-           <div>
-            <br/>
-           </div>
-          </div>
-         </div>
-        </div>
-        <div>
-         <span id="docs-internal-guid-39467e91-7fff-9518-c8fe-33629fceb208">
-          <span>
-           <img class="lightbox-thumbnail" height="122" src="https://lh7-us.googleusercontent.com/CLqyS-RqLLagNnu4fEvuIuTrXs6TBzX1ecUwQi7JLFX4NqD-c2ODIrCMh0uSLaHLkE_0uXlGwz-G82qEOTafjC0KITct1AC_pIDSENK5tooE384f2DGZRAiw-0QtC1p_1lM1Lxr-HGveGg4o9JNSGVI" width="122"/>
-          </span>
-         </span>
-        </div>
-        <div>
-         <ul>
-          <li>
-           <b>
-            Siren Light
-           </b>
-          </li>
-         </ul>
-         <div>
-         </div>
-        </div>
-        <div>
-         <div>
-          <div>
-           Added red material emission when turned ON
-          </div>
-          <div>
-           <div>
-            <div>
-             <div>
-              Tweaked handles position to make it easier to wire
-             </div>
-            </div>
-           </div>
-          </div>
-          <div>
-           <br/>
-          </div>
-         </div>
-         <div>
-          <span id="docs-internal-guid-93828e79-7fff-ab00-4439-4f423926693a">
-           <span>
-            <img class="lightbox-thumbnail" height="143" src="https://lh7-us.googleusercontent.com/ZoLdtiDGhLrcpowza4HJsZyBNZT4CAjUwLPjaU847ihWNnjJOTIJ3YabnzuBncbzVgJ6NyWh22PaIR4e9vVlU09AMpcaiPmBAbPszxbjCWLv6VAIj_mem6EjIUozBUVcVZwdGuYITkjNhtUAwue3jjU" width="143"/>
-           </span>
-          </span>
-         </div>
-         <div>
-          <ul>
-           <li>
-            <b>
-             Reactive Target
-            </b>
-           </li>
-          </ul>
-          <div>
-           Now resets itself automatically only after being knocked down
-          </div>
-         </div>
-        </div>
-        <div>
-         Won't generate and pulse 1 power when lowered manually
-         <br/>
-        </div>
-        <div>
-         When both lower and reset inputs are powered, the one with the highest power takes over
-        </div>
-        <div>
-         <br/>
-        </div>
-       </div>
-      </div>
-      <div>
-       <span id="docs-internal-guid-39db228d-7fff-cd2b-1408-94a6d531cf07">
-        <span>
-         <img class="lightbox-thumbnail" height="138" src="https://lh7-us.googleusercontent.com/qt2iNF58SznvqqZBhK5nRD5cUL3OaOxmmHmJ-vu_7-JSteUkdORbf-BKRl_iQ2zO3GmMztgnzDEbw9imt0gnhuKskXLStfFHHTuuM-zMrbMhZ8HTZQ1ZqaUu28rK8NebVpP-3CSehmmxkE-l_WenUm4" width="138"/>
-        </span>
-       </span>
-      </div>
-      <div>
-       <div>
-        <ul>
-         <li>
-          <b>
-           Industrial Conveyor
-          </b>
-         </li>
-        </ul>
-        <div>
-         <div>
-          <div>
-           Fixed 'Filter Pass' and 'Filter Fail' outputs passing through 1 power regardless of the current power
-          </div>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div>
-       <span id="docs-internal-guid-60159308-7fff-59dd-6537-45593d0d8484">
-        <span>
-         <span>
-          <img class="lightbox-thumbnail" height="138" src="https://lh7-us.googleusercontent.com/YGj_oNQRdzRuNzNp0u3iT1zmhahIS3sIPwJTdU_E9SGcqRpDHYCgCTWv_r5w-v4vtffhIiHrwpJIjtjd3MitbGLz5Nws7IWenTL1AtqFjbGBav0dl6S8kVIlzrAMKNUZYrIDTUdxpkC3XfTBDGusNPY" width="138"/>
-         </span>
-        </span>
-       </span>
-      </div>
-      <div>
-       <span id="docs-internal-guid-bf2de2cb-7fff-105a-4682-c6c5ae624074">
-        <span>
-        </span>
-       </span>
-       <ul>
-        <li>
-         <b>
-          Industrial Crafter
-         </b>
-        </li>
-       </ul>
-      </div>
-      <div>
-       <div>
-        Now drains 1 power correctly when turned on
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <span id="docs-internal-guid-91931b6a-7fff-82cf-cff1-a9ebfe17fb71">
-        <span>
-         <span>
-          <img class="lightbox-thumbnail" height="137" src="https://lh7-us.googleusercontent.com/ddFlip3yFlthY8pH-CBOXevpCZeg_7KuxEC4sYHDZgt7OOYxADZvuyz3b3xIeWCUZjGGoPjjlttYIBIog3qDSHsZ0cgCxm-Lsy3MfODNQEPaFcEugoqqH-7pEbTN8GpUI0ecsojuSXYq-Dowmap9t84" width="602"/>
-         </span>
-        </span>
-       </span>
-      </div>
-      <div>
-       <ul>
-        <li>
-         <b>
-          Small Generator
-         </b>
-        </li>
-        <li>
-         <b>
-          Strobe Light
-         </b>
-        </li>
-        <li>
-         <b>
-          Spooky Speaker
-         </b>
-        </li>
-        <li>
-         <b>
-          Snow Machine
-         </b>
-         <br/>
-        </li>
-        <li>
-         <b>
-          Fogger-3000
-          <br/>
-         </b>
-        </li>
-       </ul>
-       Auxiliary inputs won’t add any Active Usage to batteries anymore
-      </div>
+      Our friend over at
+      <a class="" href="https://www.youtube.com/@Real-Game">
+       Real &amp; Game
+      </a>
+      has outdone himself once again.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Made an entire Rust electrical setup IRL.
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/PeR3eClqTjE?si=jsCoYrFm7KEGmrUl" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+      <br/>
      </div>
     </div>
    </div>
   </div>
  </div>
- <div class="change-blog-container">
-  <div class="container">
-   <div class="changes-container" id="changelist">
-    <div class="changes-sidebar">
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Patch Name
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Waves Of Change
-      </a>
+ <div class="news-section-block" id="RustCosplay">
+  <div class="section" like-handler="LikeBlogSection" like-id="84323" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rust Cosplay
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      I'm just going to leave this here.
      </div>
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Changelist Title
-      </span>
-      <a class="title" style="text-decoration: none;">
-       April
-      </a>
+     <div>
+      <br/>
      </div>
-     <div class="sidebar-section">
-      <a class="date" style="text-decoration: none;">
-       <span class="icon">
-        <i>
-         date_range
-        </i>
-       </span>
-       Thursday, April 4, 2024
-      </a>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <blockquote class="reddit-embed-bq" data-embed-height="566" data-embed-theme="dark" style="height:500px">
+       <a href="https://www.reddit.com/r/playrust/comments/1bwl78i/when_hazzie_meets_bucket_hat_wetsuit_gaming_me/">
+        When hazzie meets bucket hat wetsuit gaming (me and my friends cosplays)
+       </a>
+       <br/>
+       by
+       <a href="https://www.reddit.com/user/Hackerwithalacker/">
+        u/Hackerwithalacker
+       </a>
+       in
+       <a href="https://www.reddit.com/r/playrust/">
+        playrust
+       </a>
+      </blockquote>
+      <script async="" charset="UTF-8" src="https://embed.reddit.com/widgets.js">
+      </script>
      </div>
-     <div class="sidebar-section">
+     <div>
      </div>
     </div>
-    <div class="changes-body">
-     <div class="changes-row features">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         add_circle
-        </i>
-       </span>
-       <h3>
-        Features
-       </h3>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="TwitchDrops">
+  <div class="section" like-handler="LikeBlogSection" like-id="84324" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Twitch Drops
       </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Harbor monument reworks
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Cargo Ship docking
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Bradley Scientists will now help defend it
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Patrol Helicopter reworks and improvements
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          IO entities snapping
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Saturation Tube for Large and Small oilrigs, including new CCTV station.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          New Seed and Mushroom World Models
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Ping estimation in server browser
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added minigun
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added military flame thrower
-         </div>
-        </li>
-       </ul>
-      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Soon™
      </div>
-     <div class="changes-row improvements">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         arrow_circle_up
-        </i>
-       </span>
-       <h3>
-        Improvements
-       </h3>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="Showmethestuff">
+  <div class="section" like-handler="LikeBlogSection" like-id="84325" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Show me the stuff!
       </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Tool cupboard upkeep timer now in realtime
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Increased counter max target number from 100 to 999
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reversed RAND switch behavior, passes power when on and resets to off
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reactive target will now only reset itself after being knocked down. Powering the lower aux input will keep it lowered
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Updated smart switch guide mesh
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Vendor UI now closes automatically when map is closed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Vendor name is now shown again on hover of single vendors
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Updated patrol helicopter map tooltip name
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved overgowth foliage at monuments
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          More props and structures react to the snow biome in monuments and will display a snow variant
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Updated Head Bag World Model to use a Bloody Texture
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Prevent stashes from networking while underground
-         </div>
-        </li>
-       </ul>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       If you made something cool or saw something cool, reach out! Tag me on
+       <a class="" href="https://twitter.com/ErrnieGerrn">
+        X
+       </a>
+       or u/ErrnieGerrn
+       <a class="" href="https://www.reddit.com/r/playrust/" target="">
+        Reddit
+       </a>
+       .
+       <br/>
       </div>
-     </div>
-     <div class="changes-row fixed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         handyman
-        </i>
-       </span>
-       <h3>
-        Fixed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to build close to Oil Rig/out in deep ocean
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed cooking objectives not appearing in a specific sequence when playing the tutorial
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed missing colliders on tutorial island
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed incorrect information on Tutorial tag tooltip in server browser
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed tutorial tag appearing incorrectly aligned in loading screen
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some tutorial Island text not localizing correctly
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed tutorial achievements not unlocking correctly
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some tutorial popup videos not appearing after the player dies during the tutorial
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Tutorial island server performance improvements
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed opening inventory causing large lag spikes after opening large amount of vending machines
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed attachments being right clicked onto weapon instead of into backpack
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed clothing being worn instead of right clicked into backpack
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed items not being right clicked from backpack -&gt; vending machine
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed full server demo error when running with `-nonetworkthread`
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed backpack UI being stuck on screen after opening &amp; closing backpack
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a particular water pump IO configuration that could degrade server performance
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed electrical deployables being offset when placed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed AND, &amp; OR gates draining batteries on both sides instead of only the side with the highest power input
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed memory cell draining battery on both sides instead of from the active output
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed electrical branch draining power when nothing is connected to its branch out side
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed unpowered components draining batteries, much more common now that branches do not waste power anymore
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed auxiliary inputs/outputs draining power unnecessarily
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed memory cell draining battery on both sides instead of from the active output
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed memory cell power passthrough being shown on both outputs instead of on the active one
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed counter power passing power through when under their target value
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a bunch of naming inconsistencies across IO entity handles (e.g 'Power' instead of 'Power In')
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed wire tool not clearing active wire when right clicking
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduced the slight delay in showing UI passthrough value when looking at an IO entity
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed timer time not editable until powered
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed pressure pads blocking power passthrough for a bit when triggered
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed industrial combiner deployable on self
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed button deployable on the side of other components
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed electrical flasher light and siren light having no emission when on
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed industrial conveyors aux outputs passing power even when they have 0 energy left
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed industrial crafter not draining any power (now drains 1 when ON and 0 when OFF)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed switch and smart switch green/red lights feedbacks
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed ceiling lights being powerable using only 1 power instead of 2
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed storage monitor missing deploy guide
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed workbench tier 2 oversized spraycan prop collider preventing shooting through open gap
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed stacking small sign exploit
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed microphone stand typo
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed weapon racks being able to be deployed underwater
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed patrol helicopter not exploding when hitting the water
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed patrol helicopter getting locked in an orbit around a non existent target
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed patrol helicopter staying on the map when it's being told to retire
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed elevator doors in Launch Site getting duplicated every time a server rebooted
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row removed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         remove_circle
-        </i>
-       </span>
-       <h3>
-        Removed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Disabled Easter Event
-         </div>
-        </li>
-       </ul>
+      <div>
+       <br/>
       </div>
      </div>
     </div>
@@ -3202,7 +774,7 @@ applied to an existing Tool Cupboard using the Spray Can item.
 </div>
 <center>
 </center><center>]]></description>
-      <pubDate>Thu, 04 Apr 2024 12:16:00 Z</pubDate>
+      <pubDate>Thu, 25 Apr 2024 12:30:00 Z</pubDate>
     </item>
     <item>
       <title>Seismic Shift</title>
@@ -8144,6 +5716,2434 @@ can use to try and make both forms of progression feel more balanced,  this fee
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 02 May 2024 13:48:00 Z</pubDate>
+    </item>
+    <item>
+      <title>Waves Of Change</title>
+      <link>https://rust.facepunch.com/news/waves-of-change/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Waves Of Change
+    </h1>
+    <p editname="Summary" type="text">
+     So many changes! We've updated Harbor/Cargo, Oilrig, Bradley, Electricity, &amp; Patrol Heli. Adding our first Retro TC Skin &amp; a minigun, plus much more!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      04 April 2024
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block" id="">
+  <div class="section" like-handler="LikeBlogSection" like-id="84312" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       ⠀
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="youtube-container">
+       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/p-AcOf4L0zw?si=KuPy_fenbfcnTfVM" title="YouTube video player" width="560">
+       </iframe>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="CargoSHIPDocking">
+  <div class="section" like-handler="LikeBlogSection" like-id="84277" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Cargo SHIP Docking
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We’ve given both Harbors a fresh coat of paint this month, with a 
+significant amount of visual and gameplay changes. These changes support
+ the new Cargo Ship docking process, which allows the ship to adjust 
+it's course and dock with the harbor.
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240404/harbor_refresh_01.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240404/harbor_refresh_03.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240404/harbor_refresh_04.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240404/harbor_refresh_05.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240404/harbor_refresh_06.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      Each harbor has a new island that can be reached by crossing a rotating 
+bridge, floating containers or a daring set of jumps across cranes. 
+This island becomes a stronghold once the Cargo Ship docks as it becomes
+ sheltered from the rest of the harbor.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240404/harbor_refresh_08.jpg"/>
+     </div>
+     <div>
+      <div>
+       The ship will pick the first harbor it passes to dock and will only
+ dock once. Once docked, the cranes in the Harbor will spring into life 
+and move several containers from the docks onto the deck of the ship. 
+These containers have openable doors and can be hidden in, so they 
+present a new way to smuggle aboard the ship and another threat for 
+players already on the ship to contend with. These containers will be 
+deposited in locations that are generally above the deck, in some cases 
+by several meters. This should present an interesting tactical situation
+ when attacking the ship as well as defending it.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       We’ve
+ also added two ship doors above the water line that allow access to the
+ lower interior level of the ship and provide additional ways to board 
+or traverse the monument while the ship is docked.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240404/harbor_refresh_10.jpg"/>
+     </div>
+     <div>
+      By default, the Cargo Ship replenishes it's loot every 10 minutes - up to 3 times. When the ship docks at the harbor, it will attempt to trigger one of those loot refreshes - although if all three have already happened, it will be unable to spawn any more loot.
+      <div>
+       <br/>
+      </div>
+      <div>
+      </div>
+      <div>
+       The Cargo Ship horn will sound 60 seconds prior to it's departure - once you hear that horn it's time to get moving or you might end up back out at sea.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       We think these changes combined will lead to Cargo Ship being a much more contested PvP environment for groups of all sizes. We're also interested to see how a traditionally lower intensity monument like the Harbors adjust to periodic bouts of high intensity action.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Oilrigs">
+  <div class="section" like-handler="LikeBlogSection" like-id="84278" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Oilrigs
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The Oilrigs receive an upgrade this month, with an underwater access. This new way to get onto the Oilrig will add a path into both structures Level 3 floors.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240403/oilrig_tube_01.jpg"/>
+     </div>
+     <div>
+      This provides a different, and possibly safer way into the monument. It is also a way to counter the players on board by short circuiting the docks at the rig's water line.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240403/oilrig_tube_02.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240403/oilrig_tube_04.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240403/oilrig_tube_05.jpg"/>
+      </gallery>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240403/oilrig_tube_03.jpg"/>
+     </div>
+     <div>
+      The extra rooms inside see the addition of a CCTV desk that allows you to observe camera feeds of the monument.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Minigun">
+  <div class="section" like-handler="LikeBlogSection" like-id="84299" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Minigun
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The iconic minigun has been added to the game which is used by the Heavy Scientists. It takes a moment to spin up, but when it does, it unleashes a massive amount of ammunition, making targets much easier to hit.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240405/minigun_oilrig.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      It's a rare drop useable by players and you must be at a workbench level 2 to add ammunition to it as it cannot be reloaded in the field. It also takes 1.5 seconds to spin up and lowers your movement speed while the spin is engaged.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="RetroToolCupboard">
+  <div class="section" like-handler="LikeBlogSection" like-id="84300" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Retro Tool Cupboard
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We're thrilled to announce Rust's first-ever tool cupboard DLC skin!
+      <br/>
+      The 
+Retro Tool Cupboard can be crafted as usual using the skin picker or 
+applied to an existing Tool Cupboard using the Spray Can item.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240402/toolcupboar_retro_01_alt1.jpg"/>
+     </div>
+     <div>
+      The Retro Tool Cupboard monitors display live information such as upkeep time, resources, and the number of blocks used to calculate upkeep costs. However, the data is only visible on the monitors when authorized.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240402/toolcupboar_retro_08.jpg"/>
+     </div>
+     <div>
+      The Retro Tool Cupboard doesn't require power, the lower half of the Retro Tool Cupboard behind the glass panel displays current inventory upkeep amounts and tools.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240402/toolcupboar_retro_02.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240402/toolcupboar_retro_10_alt1.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240402/toolcupboar_retro_05.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      When approaching the Retro Tool Cupboard design, we felt aesthetics were critical. The tool cupboard is the heart of any base and should be instantly recognizable.
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="true" src="https://files.facepunch.com/paddy/20240402/retro_tc_orbit_01.mp4">
+      </video>
+     </div>
+     <div>
+      You can purchase Retro Tool Cupboard skin in-game or at
+      <a class="" href="https://store.steampowered.com/itemstore/252490/">
+       Steam's item store
+      </a>
+      .
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="MilitaryFlamethrower">
+  <div class="section" like-handler="LikeBlogSection" like-id="84310" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Military Flamethrower
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      In addition to the minigun, the Heavy Scientists have had their arsenal upgraded with a new, military tier flamethrower. This weapon deals massive damage to targets up to 12 meters away and creates walls of fire - which can be used for area denial.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/helkus/1b0311b1/Unity_pvGuUT044U.jpg"/>
+     </div>
+     <div>
+      I've also modified how flamethrowers deal damage to players making them an extremely effective PvP weapon.
+      <br/>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="PatrolHelicopterImprovements">
+  <div class="section" like-handler="LikeBlogSection" like-id="84302" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Patrol Helicopter Improvements
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The patrol helicopter was one of the largest banks of 'older' code still in the game. It's stood up well, but there were a bunch of fixes and improvements that needed to happen. Let's start with the improvements.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       Orbital Strafing/Strafing Changes
+      </b>
+     </div>
+     <div>
+      The regular helicopter attack strafe was getting pretty old. It followed a regular pattern and most of our values were fixed internally. This has been changed. During an attack run the helicopter will randomise a bunch of values, including: rocket amount, drop off distance, turn speed etc. These are relatively minor adjustments, but they should help make each new fight with the helicopter feel a little more fresh.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      We also added a new attack phase in the strafing run. The helicopter will turn, begin orbiting your position and pummel you with rockets from all directions.  This will randomly happen after each strafe.  It's super fun to play, and helps bring back the excitement and danger of taking heli.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240402/patrolhelicopter_trainyard_01.jpg"/>
+     </div>
+     <div>
+      <div>
+       <br/>
+       <b>
+        Aggro Improvements
+       </b>
+      </div>
+      <div>
+       A new 'zones' feature has been introduced. These are invisible to the player. When a player damages heli a zone is updated/created and the zone is assigned a score. This score is based on how much damage heli has taken from that specific zone.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Heli will now seek out targets based on zones and damage scores rather than the perceived randomness of before. When there are minimal players and by extension - minimal zones. Heli will work similarly to before, but when more zones are introduced heli will prioritise attacking the people that are attacking it, in a more controlled and deliberate manner.
+       <br/>
+       <br/>
+       You are still free pickings to the side gunners, but your house shouldn't be blasted anymore in the confusion.
+       <br/>
+      </div>
+      <div>
+       <br/>
+       <b>
+        No-Go Zones
+       </b>
+       <br/>
+       When taking heli, the basic principle is to get, and keep aggro. No-Go zones make this a little more difficult, and now encourage some movement when taking heli.  When a zone performs enough damage to heli too quickly, then that zone is marked as a no-go zone. Heli will flee the area, and attempt to avoid it as best as it can. This is to encourage heli to get out of areas that are going to kill it too quickly. Encouraging bigger groups to chase, build defenses as they go and bring more PVP to the whole map.
+      </div>
+      <div>
+       <br/>
+       <b>
+        Bug Fixes/Changes
+       </b>
+       <br/>
+       A bunch of legacy bugs that existed with heli are now patched. These include being stuck on targets, disappearing mid-fight, not exploding in the ocean, as well as a bunch of proxy issues that were fixed by the aggro adjustments. Other adjustments have also been made to how heli patrols work, and you should see it moving around a bit more now, rather than just sticking to the monuments.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <b>
+       Server Convars
+      </b>
+      <br/>
+      <ul>
+       <li>
+        <b>
+         patrolhelicopterai.use_danger_zones -
+        </b>
+        this will enable/disable the no go and aggro zones. When turned off, the helicopter will largely behave the way it used to (regarding target picking and aggression).
+        <br/>
+        <br/>
+       </li>
+       <li>
+        <b>
+         patrolhelicopterai.flee_damage_percentage -
+        </b>
+        this sets the required percentage of damage done to heli in order for it to flee, and create a no-go zone. A value of 1 or over will effectively disable no go zones and stop the flee mechanic.
+       </li>
+      </ul>
+      <br/>
+      It will no doubt need some further revisions and changes after this release. Keep us updated on how your heli takes go. Have fun!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Electricity">
+  <div class="section" like-handler="LikeBlogSection" like-id="84279" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Electricity
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      This month, we are taking care of our fellow electricians! Bug fixes, quality of life improvements, and major changes are coming to electricity.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      CHANGES
+      <br/>
+     </h2>
+     <div>
+      First of all, we removed any power requirements from all logic gates.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Being creative and adding logic to your circuits won't be at the expense of acquiring a linear or exponential amount of power anymore. While being a great quality of life for master electricians, we also believe that removing this pain point will encourage wider use of electricity.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none" title="">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Flavien/2024/04/elec_comps.png"/>
+     </div>
+     <div>
+      Therefore, the following components won't require power or drain batteries anymore:
+      <br/>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Splitter
+       </li>
+       <li>
+        Electrical Branch
+       </li>
+       <li>
+        Blocker
+       </li>
+       <li>
+        Root Combiner
+       </li>
+       <li>
+        Memory Cell
+       </li>
+       <li>
+        RAND Switch
+       </li>
+       <li>
+        XOR Switch
+        <br/>
+       </li>
+       <li>
+        AND Switch
+       </li>
+       <li>
+        OR Switch
+       </li>
+       <li>
+        Timer
+       </li>
+       <li>
+        Switch
+       </li>
+       <li>
+        Smart Switch
+       </li>
+       <li>
+        Counter
+       </li>
+       <li>
+        Pressure Pad
+       </li>
+       <li>
+        Button
+       </li>
+      </ul>
+      <div>
+       <br/>
+      </div>
+      Any other active components like turrets, sensors, lights, etc. remain unchanged and will still need power to function.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <h2>
+       BUG FIXES
+      </h2>
+     </div>
+     <div>
+      <div>
+       These power limitations were also overly amplified by a multitude of power drain bugs and unintended behaviors that we worked on fixing.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Here are the most important ones:
+      </div>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Prevent Electrical Branch from draining power when nothing is connected to its 'Branch Out' output
+       </li>
+      </ul>
+      <ul>
+       <li>
+        Fixed OR Switch adding Active Usage to both power sources instead of the one with the highest power
+       </li>
+      </ul>
+      <ul>
+       <li>
+        Fixed unpowered components draining power
+       </li>
+      </ul>
+      <ul>
+       <li>
+        Fixed auxiliary inputs/outputs draining power unnecessarily
+       </li>
+      </ul>
+      <div>
+       <br/>
+      </div>
+      <div>
+      </div>
+     </div>
+     <div>
+      <h2>
+       Quality of life
+      </h2>
+     </div>
+     <div>
+      <div>
+       Along these changes, we worked on improving how you deploy electrical components:
+      </div>
+      <div>
+       <ul>
+        <li>
+         Fixed the differences between the deploy guide and the actual position where your component is placed
+        </li>
+       </ul>
+       <ul>
+        <li>
+         <div>
+          Components are now aligned to walls and won't rotate based on your view angle
+         </div>
+        </li>
+       </ul>
+       <ul>
+        <li>
+         <div>
+          <div>
+           You can now align your components together when deploying them on walls by holding
+           <b>
+            left shift
+           </b>
+          </div>
+         </div>
+        </li>
+       </ul>
+       <b>
+        <br/>
+       </b>
+      </div>
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false" title="Before">
+      <video controls="" crossorigin="anonymous" src="https://files.facepunch.com/Flavien/2024/04/Unity_XubesKfHWF.mp4">
+      </video>
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false" title="After">
+      <video controls="" crossorigin="anonymous" src="https://files.facepunch.com/Flavien/2024/04/Unity_JxgJALOBIF.mp4">
+      </video>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This applies to all electricity, industrial and fluid items. We're planning on extending it to any type of deployable in the future.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <div>
+       <h2>
+        NEXT STEPS
+       </h2>
+      </div>
+     </div>
+     <div>
+      <div>
+       There are more fixes and improvements that didn't make it into this patch. Expect more in the coming months, including plans to rework some components and extending their functionalities.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Many thanks to our electricians in the community for pointing out bugs and suggesting ideas.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <p>
+       <span>
+        The full change log of each component can be read in the
+        <a class="selected" href="https://rust.facepunch.com/news/waves-of-change#ElectricityChangelog">
+         section at the bottom of the blog
+        </a>
+        .
+       </span>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="AnticheatUpdate">
+  <div class="section" like-handler="LikeBlogSection" like-id="84309" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Anti-cheat Update
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      At the beginning of the year, in the development blog Surviving a Decade, I mentioned, "This year we're dedicating more resources into anti-cheat than ever", this is a commitment we're dedicated to, and I want to share more information about what we've been up too.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Over the past couple of months, we have slowly eliminated or limited information leaks which cheaters abuse to aid them in several ways. For example, players health, Tool Cupboards and turret authorization lists could be read in the network data, allowing cheaters to use and gain a further unfair advantage. These are now fixed.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      In continuing efforts to battle cheaters and clean up many long-standing issues, especially around information leaks, buried stashes are no longer networked, meaning cheaters will no longer know where stashes are buried.
+      <br/>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video controls="" crossorigin="anonymous" src="https://files.facepunch.com/jakerich/KdcwWAt4FIE9LPxl/X9nWrMShWTvhl4T4.mp4">
+      </video>
+     </div>
+     <div>
+      There is much more to be done in this area, and we are working on it.
+      <br/>
+     </div>
+     <div>
+      <br/>
+      Expanding the support team size over the past year has allowed us to get more support staff focusing on anti-cheat, which includes going in-game and dealing with and disrupting cheaters directly based on player reports. Some staff over the coming months will be dedicated solely to anti-cheat measures full-time. This isn't limited to Facepunch servers, but across the board.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      In addition to the above, we've deployed some stricter measures surrounding anti-cheating, eliminated several priority exploits, and will deploy further measures soon.
+      <br/>
+      <br/>
+      In the last month:
+      <br/>
+      <ul>
+       <li>
+        26,954 bans have been applied
+       </li>
+       <li>
+        22,542 of which were permanent
+       </li>
+       <li>
+        4,412 of which were temporary
+       </li>
+       <li>
+        949,422 cheating reports received
+       </li>
+       <li>
+        90.8% of bans were applied automatically
+        <br/>
+       </li>
+      </ul>
+      Since the 1st January 2024:
+      <br/>
+      <ul>
+       <li>
+        84,753 bans have been applied
+       </li>
+       <li>
+        71,371 of which were permanent
+       </li>
+       <li>
+        13,382 of which were temporary
+       </li>
+       <li>
+        3,116,133 cheating reports received
+       </li>
+       <li>
+        92.9% of bans were applied automatically
+       </li>
+      </ul>
+      <div>
+       Based on fiscal quarters:
+       <br/>
+       <ul>
+        <li>
+         72,849 bans applied in 2023 Q1
+        </li>
+        <li>
+         65,608 bans applied in 2023 Q2
+        </li>
+        <li>
+         81,682 bans applied in 2023 Q3
+        </li>
+        <li>
+         55,672 bans applied in 2023 Q4
+        </li>
+        <li>
+         81,084 bans applied in 2024 Q1
+        </li>
+       </ul>
+       <div>
+        Notes
+        <br/>
+       </div>
+       <div>
+        <ul>
+         <li>
+          Bans are placed for multiple reasons, the numbers above do not strictly reflect only cheat-related bans, but cheat-related bans do make up the vast majority of bans.
+         </li>
+         <li>
+          A single player can receive multiple bans, for example, if a user is temporarily banned and then later switched to a permanent ban, this is counted as 2 bans in the above metrics.
+         </li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="BRADLEYSCIENTISTS">
+  <div class="section" like-handler="LikeBlogSection" like-id="84301" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       BRADLEY SCIENTISTS
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The Bradley has some new passengers this month!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Scientists can now deploy from the Bradley to help defend it with some extra firepower.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240405/bradleyscientists_01.jpg"/>
+     </div>
+     <div>
+      This applies to both the Launch Site Bradley and the Bradley that spawns along roads at the end of the month.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ImprovementsFixesHighlights">
+  <div class="section" like-handler="LikeBlogSection" like-id="84304" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Improvements &amp; Fixes Highlights
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/alfiebirch/1b0311b1/RustClient_wwxfF2Seoj.jpg"/>
+        <center>
+         <b>
+          Seed Sack World Model
+         </b>
+        </center>
+        <center>
+         Added new seed world model
+        </center>
+       </div>
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/alfiebirch/1b0311b1/RustClient_JfQmeTEgHn.jpg"/>
+        <center>
+         <b>
+          Mushroom World Model
+         </b>
+        </center>
+        <center>
+         Added mushroom world model
+        </center>
+       </div>
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/1b0311b1/monument_cctv_desk.jpg"/>
+        <center>
+         <b>
+          Monument CCTV Station
+         </b>
+        </center>
+        <center>
+         New dedicated CCTV station within monuments
+        </center>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="SRVDNSSupport">
+  <div class="section" like-handler="LikeBlogSection" like-id="84307" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       SRV DNS Support
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      I added support for SRV DNS record to Rust. This means you can now create nice domain names for your servers without needing to specify the port (or be forced into the default port).
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      I also used this added information to improve the favorites list. Servers that have a working DNS record set up would save the domain name when favoriting so that favorites should never break as long as the domain name is pointing to the right place.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      More information on how to set this up is
+      <a class="selected" href="https://wiki.facepunch.com/rust/dns-records">
+       on the wiki
+      </a>
+      .
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="PingEstimation">
+  <div class="section" like-handler="LikeBlogSection" like-id="84308" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Ping Estimation
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      If you have searched for new servers in the browser you probably noticed the large amount of fake ping: it's impossible to have 30ms ping to both a US and EU server. This is a side effect of certain forms of DDOS protection and has forced us to create a custom system to estimate ping rather than use steam's ping value.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" title="US &amp; EU 30ms ping">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/jakerich/Oq1zIOPb3DPBpoQV/KqDt7UAGyQz5R0oT.png"/>
+     </div>
+     <div>
+      There is a new checkbox below "Use Cache" called "Estimate Ping". We will enable this by default in the future once we confirm the estimated values are more accurate than the existing ones.
+      <br/>
+      <br/>
+      Please note this is still experimental and will be improved upon over the coming months.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ElectricityChangelog">
+  <div class="section" like-handler="LikeBlogSection" like-id="84311" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Electricity Change log
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <p>
+       Following on from the electricity section above, here are the changes in full:
+       <span>
+        <br/>
+       </span>
+      </p>
+      <div>
+       <div>
+        <div>
+         <div>
+          <span id="docs-internal-guid-043dddd8-7fff-07e6-3bcf-89219be3d099">
+           <img class="lightbox-thumbnail" height="129" src="https://lh7-us.googleusercontent.com/yIrocsnrfneMCeGTRHHljiLHgB_LvpOgG_lLKGTtsLK950bCvLZCtj-se-pDrP4FaFYY1_qa_3vttzgS-1PaRhHs7AnfKIF61tjFUTu58vrre-gertvK8-OqCIbedDZ4yejU15jH_Kcknl-lSVUmvkQ" width="129"/>
+          </span>
+         </div>
+         <div>
+          <div>
+           <ul>
+            <li>
+             <b>
+              Splitter
+             </b>
+            </li>
+           </ul>
+          </div>
+          <div>
+           Power Consumption: 1 -&gt; 0
+          </div>
+          <div>
+           Active Usage: 1 -&gt; 0
+          </div>
+         </div>
+        </div>
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        Now distributes power evenly across all outputs and adds any remaining power to the earliest outputs, ensuring no power loss
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <div>
+        <span id="docs-internal-guid-8483dfe8-7fff-7193-2208-56f6c25aa08a">
+         <img class="lightbox-thumbnail" height="100" src="https://lh7-us.googleusercontent.com/tXjbh-cQCuvi9QzxRSMZNAaDr8yAcOU3Y6MldkDeHVaVjNMFhgoo7dz3lQM1ChiD1gq6KxjOulLKwWPiiyk3MNNX8vSH5jhOKjHwjcB9c-4nWwUsqzkIfRIdAN5_e-nqzkw7cyys5SaXiK_KYeKc78M" width="100"/>
+        </span>
+       </div>
+       <ul>
+        <li>
+         <b>
+          Electrical Branch
+         </b>
+        </li>
+       </ul>
+       <div>
+        <div>
+         Power Consumption: 1 -&gt; 0
+        </div>
+        <div>
+         <br/>
+        </div>
+       </div>
+       <div>
+        Active Usage is now properly calculated based on components wired from the 'Branch Out' output
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <div>
+        <span id="docs-internal-guid-2fa78617-7fff-a1d7-8912-152cc3e9272b">
+         <img class="lightbox-thumbnail" height="93" src="https://lh7-us.googleusercontent.com/Nxf7RpMX9dBWENhxJ3TmfJx81Cnf38owZwtwuW7sNnlLHQtyaLQrZDHD55mE2BcxNTFUyyuyOK_uApic3OESDu4fSjr6uLjR_18XDmwaHV2FUEkMKlqjY-XPqnOiu10hG4quLkoTEFewHmNNA1__5wk" width="93"/>
+        </span>
+       </div>
+       <div>
+        <ul>
+         <li>
+          <b>
+           Blocker
+          </b>
+         </li>
+        </ul>
+        Power Consumption: 1 -&gt; 0
+        <br/>
+        <div>
+         Active Usage: 1 -&gt; 0
+        </div>
+       </div>
+       <div>
+        <br/>
+       </div>
+      </div>
+      <div>
+       <div>
+        <span id="docs-internal-guid-2fa78617-7fff-a1d7-8912-152cc3e9272b">
+         <span>
+          <img class="lightbox-thumbnail" height="100" src="https://lh7-us.googleusercontent.com/U7L2sZ-RxJGwoYKO5pyXvx9kp6dtdRp-lQKiu5c7MtOnKEJZGgSzNkQCjL4f281q2YdIRsAzl0tbu0SFufmbXS3mvmys8SdNCUFFDqcMBZAmqQbGdGGRdkGdCcnRP_9abTcoa5Zfv_gn2hoHmOp0puQ" width="100"/>
+         </span>
+        </span>
+       </div>
+       <div>
+        <ul>
+         <li>
+          <b>
+           Root Combiner
+          </b>
+         </li>
+        </ul>
+        <div>
+         Active Usage: 1 -&gt; 0
+         <br/>
+        </div>
+        <div>
+         <br/>
+        </div>
+        <div>
+         <div>
+          <span id="docs-internal-guid-29e87985-7fff-6ce5-2e8a-5f883f2ce54b">
+           <img class="lightbox-thumbnail" height="93" src="https://lh7-us.googleusercontent.com/uPc2ZYd2OJrvRMJ2saI5TlGEf1Rko1cCxY6c8Umfneri_R0V1vQp87JQPAul-qIH4ZGL0PEsvlNWNyl-MUcys8OvfwsaGLnEzUXw8UVI6NnDF4WYszlIZUImnnJZvG39JSxhyEVdnEEdd_atPegWpAE" width="93"/>
+          </span>
+         </div>
+         <div>
+          <ul>
+           <li>
+            <b>
+             Memory Cell
+            </b>
+           </li>
+          </ul>
+          Power Consumption: 1 -&gt; 0
+          <br/>
+          <div>
+           Active Usage: 1 -&gt; 0
+          </div>
+         </div>
+         <div>
+          <br/>
+         </div>
+         <div>
+          Components wired from the current inactive output will no longer add any Active Usage to batteries
+         </div>
+         <div>
+          Fixed power passthrough being shown on both outputs instead of on the active one
+          <br/>
+         </div>
+         <div>
+          Side inputs won’t drain power anymore
+         </div>
+        </div>
+        <div>
+         <br/>
+        </div>
+        <div>
+         <div>
+          <span id="docs-internal-guid-e8a36941-7fff-2c66-8e87-0f95e7b27f76">
+           <img class="lightbox-thumbnail" height="93" src="https://lh7-us.googleusercontent.com/pQHfKyGEOJrmUlp0VObTie-PJCYdF-tj1rurv1bgFxKPqE44hRAwXYErL-f9G7fVTz20Zk6u3sD9URvcX-xwsLJLCg_IPZxfXNDwsgoNAm55KxbGZoglfl0Pj2AeUGOypG7avDQsac0VXdcEDcr2G8k" width="93"/>
+          </span>
+         </div>
+         <div>
+          <ul>
+           <li>
+            <b>
+             RAND Switch
+            </b>
+           </li>
+          </ul>
+          <div>
+           <div>
+            Power Consumption: 1 -&gt; 0
+           </div>
+           <div>
+            Active Usage: 1 -&gt; 0
+           </div>
+          </div>
+         </div>
+         <div>
+          <br/>
+         </div>
+         <div>
+          Now passes power when ON and blocks power when OFF
+         </div>
+         <div>
+          Now resets to OFF when power is applied to the 'Reset' side input
+         </div>
+        </div>
+        <div>
+         <br/>
+        </div>
+        <div>
+         <div>
+          <div>
+           <div>
+            <span id="docs-internal-guid-70744870-7fff-02e8-304f-f709cdd47686">
+             <img class="lightbox-thumbnail" height="106" src="https://lh7-us.googleusercontent.com/pgYAV5bBA2UQ867LBEW5EbzfMG2BfLMl6YzHlyrg4qAKr-MUTHJkvd_FEYx3XUhG66-p7S38jBGkXI0osnk-GZ5C3k0_Wymr2R3acxuaIBvYepSaC0L7LsFA9dDYxeDPfi4AtNkVFSITPd8Nf4PxMjM" width="106"/>
+            </span>
+           </div>
+           <div>
+            <div>
+             <ul>
+              <li>
+               <b>
+                XOR Switch
+               </b>
+              </li>
+             </ul>
+             <div>
+             </div>
+            </div>
+            <div>
+             <div>
+              Power Consumption: 1 -&gt; 0
+             </div>
+             <div>
+              Active Usage: 1 -&gt; 0
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <div>
+        <span id="docs-internal-guid-b540d28e-7fff-87b0-8bba-6b247f8f3015">
+         <img class="lightbox-thumbnail" height="113" src="https://lh7-us.googleusercontent.com/uSTzUrTvQ3S_2NDzbW3PRNZ2loqTRi9ZLtohdnHeBvk_1kPfO4LJvMrOH0AnUUmXQuZ13YwP1EpE8nxUXsmVgHdO3bKkPgCediqZYxBH7a-5L99wZHFDTI2vRIamTSWUrS2TpMJObhfU6Fr_O7YxhEY" width="113"/>
+        </span>
+       </div>
+       <div>
+        <div>
+         <ul>
+          <li>
+           <b>
+            AND Switch
+           </b>
+          </li>
+         </ul>
+         <div>
+         </div>
+        </div>
+        <div>
+         <div>
+          Power Consumption: 1 -&gt; 0
+         </div>
+         <div>
+          Active Usage: 1 -&gt; 0
+         </div>
+         <div>
+          <br/>
+         </div>
+         <div>
+          <div>
+           If only one side is powered, components connected to the output of an AND Switch will no longer increase batteries Active Usage
+          </div>
+         </div>
+         <div>
+         </div>
+         <div>
+          <span id="docs-internal-guid-4c4bb363-7fff-23c2-bcf2-4bbc6d259438">
+           <br/>
+          </span>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div>
+       <span id="docs-internal-guid-86be9697-7fff-d2b2-7ec4-3f41f8aade10">
+        <span>
+         <img class="lightbox-thumbnail" height="106" src="https://lh7-us.googleusercontent.com/ceXcgtnj7mP_VPF7yltDABRVdkUK5JMH1vGIVDT5BruA1v-0VimbMcAuFn_iWbZrhaBQKrBNoTSwU5UGlslEjQ1CrLKKDY0ofugCXFdYR0JtoMBn5RZFI998EfmhD_5xbDlpM0cm_iftassrKsM1zbA" width="106"/>
+        </span>
+       </span>
+      </div>
+      <div>
+       <ul>
+        <li>
+         <b>
+          OR Switch
+         </b>
+        </li>
+       </ul>
+       <div>
+       </div>
+      </div>
+      <div>
+       <div>
+        Power Consumption: 1 -&gt; 0
+       </div>
+       <div>
+        Active Usage: 1 -&gt; 0
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <div>
+        When both inputs are powered, Active Usage will now be applied to the highest power source. If both sides have the same power, the first input is selected by default
+       </div>
+      </div>
+      <div>
+      </div>
+      <div>
+       <span id="docs-internal-guid-4c4bb363-7fff-23c2-bcf2-4bbc6d259438">
+        <br/>
+       </span>
+      </div>
+      <div>
+       <span id="docs-internal-guid-48512b5a-7fff-9506-c23b-334917ee47f8">
+        <span>
+         <img class="lightbox-thumbnail" height="117" src="https://lh7-us.googleusercontent.com/6RZ1SWk6QHuSrzeRuCDnwJJnz9-nKX8hBoOS8SMbj_9Ik69ZS-k8mGJunbQ1Jq8EUNKb6vbDxAq3KFhbgzOaSBwh7paV5kHZrCd_Mbp9AHWXjQY6SeqIESM4b5iZtA_CWzbO6BUTtI3dUJOpGQ4uL50" width="117"/>
+        </span>
+       </span>
+      </div>
+      <div>
+       <ul>
+        <li>
+         <b>
+          Timer
+         </b>
+        </li>
+       </ul>
+       <div>
+        <div>
+         Power Consumption: 1 -&gt; 0
+        </div>
+        <div>
+         Active Usage: 1 -&gt; 0
+        </div>
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <div>
+        Now configurable when unpowered
+        <br/>
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <div>
+        <span id="docs-internal-guid-0b69d98e-7fff-e81f-ecf7-3f4ffc708397">
+         <img class="lightbox-thumbnail" height="124" src="https://lh7-us.googleusercontent.com/v89m-99kUJsl5Le_AX4U0exf-AhEeljrRaO2Vum_yMfNvQO32ZBV61AoOixB5rPP0WvLZcRXO_gfCaj0Dk3vs9HnnBE0CiDboOi5KbaY0urQORz6Yf50LWXy-Bfdsi1jz06PHUEgq14r3TCThQ-Pqec" width="124"/>
+        </span>
+       </div>
+       <div>
+        <ul>
+         <li>
+          <b>
+           Switch
+          </b>
+         </li>
+        </ul>
+        <div>
+         <div>
+          Power Consumption: 1 -&gt; 0
+         </div>
+         <div>
+          Active Usage: 1 -&gt; 0
+         </div>
+        </div>
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        Fixed side inputs passing power through
+        <br/>
+       </div>
+       <div>
+        Fixed red light not enabled when receiving power but toggled off
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        <span id="docs-internal-guid-9abbda33-7fff-1cec-b7fd-6a465572ff1b">
+         <img class="lightbox-thumbnail" height="121" src="https://lh7-us.googleusercontent.com/kbhZnMNRro0p-av6bRdYf2B7-ciKMg-bM18ktF_yyiGdSP3wXpLxW5t8ijajMmWDPN-ldO0bOO-hjQdCZHIEOJWHVBjWJqLuY7FZZkCHE9BnVxzduVqRNqn9QqwcsAS9En8nulFW-2FO1rYxA6PIeoY" width="121"/>
+        </span>
+       </div>
+       <div>
+        <ul>
+         <li>
+          <b>
+           Smart Switch
+          </b>
+         </li>
+        </ul>
+        <div>
+         <div>
+          <div>
+           Power Consumption: 1 -&gt; 0
+          </div>
+          <div>
+           Active Usage: 1 -&gt; 0
+          </div>
+         </div>
+         <div>
+          <br/>
+         </div>
+         <div>
+          Fixed side inputs passing power through
+          <br/>
+         </div>
+         <div>
+          Fixed red light not enabled when receiving power but toggled off
+         </div>
+         <div>
+          Updated deploy mesh guide
+          <br/>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <span id="docs-internal-guid-7768414c-7fff-fa41-b8fd-0dc76e045361">
+        <span>
+         <img class="lightbox-thumbnail" height="91" src="https://lh7-us.googleusercontent.com/9IKYsisPmumYwO6pZbN65qhp19O4yy-PkoKLxL9MCLzSK42RFDzRZ7YOcFw0T32IpE0LUckplu_BGqgpT_MUbheKPvPf3Jmen11uutljJIao95Cdx8-oZ9fwddOYucseDgjqjH2_FqcpKhRD_POJugw" width="91"/>
+        </span>
+       </span>
+      </div>
+      <div>
+       <ul>
+        <li>
+         <b>
+          Counter
+         </b>
+        </li>
+       </ul>
+       <div>
+        Power Consumption: 1 -&gt; 0
+       </div>
+       <div>
+        Active Usage: 1 -&gt; 0
+        <br/>
+        <div>
+         Max target number: 100 -&gt; 999
+        </div>
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        <div>
+         <div>
+          If below its target value, components connected to a counter's output will no longer increase the Active Usage on batteries
+         </div>
+        </div>
+       </div>
+      </div>
+      <div>
+       <div>
+        <span id="docs-internal-guid-b4faab0e-7fff-c440-aa83-a26e57e98654">
+         <img class="lightbox-thumbnail" height="148" src="https://lh7-us.googleusercontent.com/s9nWd1rlFY937ER55UzuzlQ2eybb5n6gOCnBBvEc_8tbjBaJLpONFRjGa-wSMfpCZwVmITZHqur1Tfpwu_ByV9yETjYG8m9_HPr51VjfMaCX35BobplNXNmlK3uSfotOKXQc3wWpGUQrVin1mKAq4Jg" width="148"/>
+        </span>
+       </div>
+       <div>
+        <ul>
+         <li>
+          <b>
+           Pressure Pad
+          </b>
+         </li>
+        </ul>
+        <div>
+         <div>
+          Power Consumption: 1 -&gt; 0
+         </div>
+         <div>
+          Active Usage: 1 -&gt; 0
+         </div>
+        </div>
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        Fixed blocking power passthrough for a bit when triggered
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <span id="docs-internal-guid-24b7f1c6-7fff-5de4-40ac-a572cc78b989">
+        <span>
+         <img class="lightbox-thumbnail" height="124" src="https://lh7-us.googleusercontent.com/_Jh56LGEZ-jImxqmoyF2pIVAJx14kreFpinAn4Rs-RaJxFbJU2DtnqO8yDbzD6-Pa59ieRUBiGbOw9Um17RSsFzDYrl0tLOvqdBNacRZ0MKiPszimM0cDSEBNZvtWTZHC2Ij8iYqFQ4kB4eyIdaKXAQ" width="124"/>
+        </span>
+       </span>
+      </div>
+      <div>
+       <ul>
+        <li>
+         <b>
+          Button
+         </b>
+        </li>
+       </ul>
+       <div>
+        <div>
+         Power Consumption: 1 -&gt; 0
+        </div>
+        <div>
+         Active Usage: 1 -&gt; 0
+        </div>
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <span id="docs-internal-guid-8c36e650-7fff-0f77-0d4f-16ee77c3249e">
+        <span>
+         <span>
+          <img class="lightbox-thumbnail" height="107" src="https://lh7-us.googleusercontent.com/VFFl3C24vFFfa6RdojX5stAx2_jMjzBsayft1BahKciYTNPVW9imGSmGnX2R71T4r-RIy4hweuJhvHv8rL-CB0qcjgcAHPXMgz1w5Uh-Uf2fjtsU1c6VlKzhvC7V89h3yWo9RCdEDIF7tmeELIDn6JI" width="107"/>
+         </span>
+        </span>
+       </span>
+      </div>
+      <div>
+       <ul>
+        <li>
+         <b>
+          Laser Detector
+         </b>
+        </li>
+       </ul>
+       <div>
+        <div>
+         <div>
+          <div>
+           Now deployable on any surface angle
+          </div>
+          <div>
+           Tweaked handles position to make it easier to wire
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div>
+       <b>
+        <br/>
+       </b>
+      </div>
+      <div>
+       <span id="docs-internal-guid-2b7eb216-7fff-8f76-275e-5d8aa76db17a">
+        <span>
+         <img class="lightbox-thumbnail" height="117" src="https://lh7-us.googleusercontent.com/c2hacUlKQgt_LR5I-r-f3LigFTMG5AZmej0m6GkKqKnTLsmTapl_yrcHHYyMb6dkje1WNqgikhBykfvCaDEiigJRZ7JEB6CeDYmjERTY-9qVAdUkGOp0hrjUCf4OhPw-Jw9ThrDv-UHz_OMqirD0v9Y" width="117"/>
+        </span>
+       </span>
+      </div>
+      <div>
+       <ul>
+        <li>
+         <b>
+          Ceiling Light
+         </b>
+        </li>
+       </ul>
+       <div>
+        <div>
+         Fixed an issue where it was possible to power them using only 1 unit of power instead of the required 2.
+        </div>
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <span id="docs-internal-guid-9175a568-7fff-9d1f-b5f1-9701bdd6e988">
+        <span id="docs-internal-guid-bb89f70e-7fff-c0ba-108f-99357ed90207">
+         <span>
+          <span>
+           <br/>
+          </span>
+         </span>
+        </span>
+       </span>
+      </div>
+      <div>
+       <span id="docs-internal-guid-e6d115ae-7fff-8e8a-f29e-614eb1289859">
+        <span style="border:none;display:inline-block;overflow:hidden;width:122px;height:122px;">
+         <img height="122" src="https://lh7-us.googleusercontent.com/6lGwW1Khcd-u8fjs1_FjOrcdMooZLQcZzBsjtkISxuEhHlCpxPhxYGeWwIb0YhWp59sUw2k521E0otxWvpod-GWlGrX3jA6qzr-Wl-fYZfg_MojfZL5cFedB29BjtM00EOWBFoQZnI5CYdOyWfQFd30" style="margin-left:0px;margin-top:0px;" width="122"/>
+        </span>
+       </span>
+      </div>
+      <div>
+       <ul>
+        <li>
+         <b>
+          Industrial Light
+         </b>
+        </li>
+       </ul>
+      </div>
+      <div>
+       <span id="docs-internal-guid-c2310874-7fff-909c-a4f1-958ad3ca4c8e">
+        <span>
+         Can now be rotated using R while being deployed
+        </span>
+       </span>
+      </div>
+      <div>
+       <span>
+        <span>
+         <br/>
+        </span>
+       </span>
+      </div>
+      <div>
+       <span>
+        <span>
+         <img class="lightbox-thumbnail" height="106" src="https://lh7-us.googleusercontent.com/w1gaOhWa21nYNmr85ToJcCKhkyPdiXKnlmtW6dfol3F6R2krzeK04lNomnlBFHE0mYOYwWa7ywGSTTnNjjoOPSbK9OvIHn6iBVKswYmZwBPUmfwaLN7ZoHA_0W8w2A6k7D5czQ1reHwVaz28pSB2ohc" width="106"/>
+        </span>
+       </span>
+      </div>
+      <div>
+       <ul>
+        <li>
+         <b>
+          Flasher Light
+         </b>
+        </li>
+       </ul>
+       <div>
+        <div>
+         Restored blue material emission when turned on
+        </div>
+        <div>
+         <div>
+          <div>
+           <div>
+            Tweaked handles position to make it easier to wire
+           </div>
+           <div>
+            <br/>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div>
+         <span id="docs-internal-guid-39467e91-7fff-9518-c8fe-33629fceb208">
+          <span>
+           <img class="lightbox-thumbnail" height="122" src="https://lh7-us.googleusercontent.com/CLqyS-RqLLagNnu4fEvuIuTrXs6TBzX1ecUwQi7JLFX4NqD-c2ODIrCMh0uSLaHLkE_0uXlGwz-G82qEOTafjC0KITct1AC_pIDSENK5tooE384f2DGZRAiw-0QtC1p_1lM1Lxr-HGveGg4o9JNSGVI" width="122"/>
+          </span>
+         </span>
+        </div>
+        <div>
+         <ul>
+          <li>
+           <b>
+            Siren Light
+           </b>
+          </li>
+         </ul>
+         <div>
+         </div>
+        </div>
+        <div>
+         <div>
+          <div>
+           Added red material emission when turned ON
+          </div>
+          <div>
+           <div>
+            <div>
+             <div>
+              Tweaked handles position to make it easier to wire
+             </div>
+            </div>
+           </div>
+          </div>
+          <div>
+           <br/>
+          </div>
+         </div>
+         <div>
+          <span id="docs-internal-guid-93828e79-7fff-ab00-4439-4f423926693a">
+           <span>
+            <img class="lightbox-thumbnail" height="143" src="https://lh7-us.googleusercontent.com/ZoLdtiDGhLrcpowza4HJsZyBNZT4CAjUwLPjaU847ihWNnjJOTIJ3YabnzuBncbzVgJ6NyWh22PaIR4e9vVlU09AMpcaiPmBAbPszxbjCWLv6VAIj_mem6EjIUozBUVcVZwdGuYITkjNhtUAwue3jjU" width="143"/>
+           </span>
+          </span>
+         </div>
+         <div>
+          <ul>
+           <li>
+            <b>
+             Reactive Target
+            </b>
+           </li>
+          </ul>
+          <div>
+           Now resets itself automatically only after being knocked down
+          </div>
+         </div>
+        </div>
+        <div>
+         Won't generate and pulse 1 power when lowered manually
+         <br/>
+        </div>
+        <div>
+         When both lower and reset inputs are powered, the one with the highest power takes over
+        </div>
+        <div>
+         <br/>
+        </div>
+       </div>
+      </div>
+      <div>
+       <span id="docs-internal-guid-39db228d-7fff-cd2b-1408-94a6d531cf07">
+        <span>
+         <img class="lightbox-thumbnail" height="138" src="https://lh7-us.googleusercontent.com/qt2iNF58SznvqqZBhK5nRD5cUL3OaOxmmHmJ-vu_7-JSteUkdORbf-BKRl_iQ2zO3GmMztgnzDEbw9imt0gnhuKskXLStfFHHTuuM-zMrbMhZ8HTZQ1ZqaUu28rK8NebVpP-3CSehmmxkE-l_WenUm4" width="138"/>
+        </span>
+       </span>
+      </div>
+      <div>
+       <div>
+        <ul>
+         <li>
+          <b>
+           Industrial Conveyor
+          </b>
+         </li>
+        </ul>
+        <div>
+         <div>
+          <div>
+           Fixed 'Filter Pass' and 'Filter Fail' outputs passing through 1 power regardless of the current power
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div>
+       <span id="docs-internal-guid-60159308-7fff-59dd-6537-45593d0d8484">
+        <span>
+         <span>
+          <img class="lightbox-thumbnail" height="138" src="https://lh7-us.googleusercontent.com/YGj_oNQRdzRuNzNp0u3iT1zmhahIS3sIPwJTdU_E9SGcqRpDHYCgCTWv_r5w-v4vtffhIiHrwpJIjtjd3MitbGLz5Nws7IWenTL1AtqFjbGBav0dl6S8kVIlzrAMKNUZYrIDTUdxpkC3XfTBDGusNPY" width="138"/>
+         </span>
+        </span>
+       </span>
+      </div>
+      <div>
+       <span id="docs-internal-guid-bf2de2cb-7fff-105a-4682-c6c5ae624074">
+        <span>
+        </span>
+       </span>
+       <ul>
+        <li>
+         <b>
+          Industrial Crafter
+         </b>
+        </li>
+       </ul>
+      </div>
+      <div>
+       <div>
+        Now drains 1 power correctly when turned on
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <span id="docs-internal-guid-91931b6a-7fff-82cf-cff1-a9ebfe17fb71">
+        <span>
+         <span>
+          <img class="lightbox-thumbnail" height="137" src="https://lh7-us.googleusercontent.com/ddFlip3yFlthY8pH-CBOXevpCZeg_7KuxEC4sYHDZgt7OOYxADZvuyz3b3xIeWCUZjGGoPjjlttYIBIog3qDSHsZ0cgCxm-Lsy3MfODNQEPaFcEugoqqH-7pEbTN8GpUI0ecsojuSXYq-Dowmap9t84" width="602"/>
+         </span>
+        </span>
+       </span>
+      </div>
+      <div>
+       <ul>
+        <li>
+         <b>
+          Small Generator
+         </b>
+        </li>
+        <li>
+         <b>
+          Strobe Light
+         </b>
+        </li>
+        <li>
+         <b>
+          Spooky Speaker
+         </b>
+        </li>
+        <li>
+         <b>
+          Snow Machine
+         </b>
+         <br/>
+        </li>
+        <li>
+         <b>
+          Fogger-3000
+          <br/>
+         </b>
+        </li>
+       </ul>
+       Auxiliary inputs won’t add any Active Usage to batteries anymore
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Waves Of Change
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       April
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Thursday, April 4, 2024
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
+    </div>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Harbor monument reworks
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Cargo Ship docking
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Bradley Scientists will now help defend it
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Patrol Helicopter reworks and improvements
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          IO entities snapping
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Saturation Tube for Large and Small oilrigs, including new CCTV station.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New Seed and Mushroom World Models
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Ping estimation in server browser
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added minigun
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added military flame thrower
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Tool cupboard upkeep timer now in realtime
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Increased counter max target number from 100 to 999
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reversed RAND switch behavior, passes power when on and resets to off
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reactive target will now only reset itself after being knocked down. Powering the lower aux input will keep it lowered
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Updated smart switch guide mesh
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Vendor UI now closes automatically when map is closed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Vendor name is now shown again on hover of single vendors
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Updated patrol helicopter map tooltip name
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved overgowth foliage at monuments
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          More props and structures react to the snow biome in monuments and will display a snow variant
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Updated Head Bag World Model to use a Bloody Texture
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Prevent stashes from networking while underground
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to build close to Oil Rig/out in deep ocean
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed cooking objectives not appearing in a specific sequence when playing the tutorial
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed missing colliders on tutorial island
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed incorrect information on Tutorial tag tooltip in server browser
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed tutorial tag appearing incorrectly aligned in loading screen
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some tutorial Island text not localizing correctly
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed tutorial achievements not unlocking correctly
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some tutorial popup videos not appearing after the player dies during the tutorial
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Tutorial island server performance improvements
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed opening inventory causing large lag spikes after opening large amount of vending machines
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed attachments being right clicked onto weapon instead of into backpack
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed clothing being worn instead of right clicked into backpack
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed items not being right clicked from backpack -&gt; vending machine
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed full server demo error when running with `-nonetworkthread`
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed backpack UI being stuck on screen after opening &amp; closing backpack
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a particular water pump IO configuration that could degrade server performance
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed electrical deployables being offset when placed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed AND, &amp; OR gates draining batteries on both sides instead of only the side with the highest power input
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed memory cell draining battery on both sides instead of from the active output
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed electrical branch draining power when nothing is connected to its branch out side
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed unpowered components draining batteries, much more common now that branches do not waste power anymore
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed auxiliary inputs/outputs draining power unnecessarily
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed memory cell draining battery on both sides instead of from the active output
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed memory cell power passthrough being shown on both outputs instead of on the active one
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed counter power passing power through when under their target value
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a bunch of naming inconsistencies across IO entity handles (e.g 'Power' instead of 'Power In')
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed wire tool not clearing active wire when right clicking
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced the slight delay in showing UI passthrough value when looking at an IO entity
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed timer time not editable until powered
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed pressure pads blocking power passthrough for a bit when triggered
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed industrial combiner deployable on self
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed button deployable on the side of other components
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed electrical flasher light and siren light having no emission when on
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed industrial conveyors aux outputs passing power even when they have 0 energy left
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed industrial crafter not draining any power (now drains 1 when ON and 0 when OFF)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed switch and smart switch green/red lights feedbacks
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed ceiling lights being powerable using only 1 power instead of 2
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed storage monitor missing deploy guide
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed workbench tier 2 oversized spraycan prop collider preventing shooting through open gap
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed stacking small sign exploit
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed microphone stand typo
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed weapon racks being able to be deployed underwater
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed patrol helicopter not exploding when hitting the water
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed patrol helicopter getting locked in an orbit around a non existent target
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed patrol helicopter staying on the map when it's being told to retire
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed elevator doors in Launch Site getting duplicated every time a server rebooted
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row removed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         remove_circle
+        </i>
+       </span>
+       <h3>
+        Removed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Disabled Easter Event
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 04 Apr 2024 12:16:00 Z</pubDate>
     </item>
   </channel>
 </rss>
