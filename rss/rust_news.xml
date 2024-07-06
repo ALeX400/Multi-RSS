@@ -777,6 +777,2289 @@
       <pubDate>Thu, 25 Apr 2024 12:30:00 Z</pubDate>
     </item>
     <item>
+      <title>Seismic Shift</title>
+      <link>https://rust.facepunch.com/news/seismicshift/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Seismic Shift
+    </h1>
+    <p editname="Summary" type="text">
+     This month, we bring you more meta &amp; QOL gameplay changes, the Seismic Sensor item, barricades deployable in monuments, instant server rejoin, Tech Tree combining, and much more.
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      06 June 2024
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="Seismicsensor">
+  <div class="section" like-handler="LikeBlogSection" like-id="84351" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Seismic sensor
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      This month, we're adding the Seismic Sensor, a new electricity-powered deployable.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240604/seismic_sensor_01.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      When powered, it will listen for nearby explosions and send a power signal when detecting any.
+     </div>
+     <div>
+      <ul>
+       <li>
+        You can configure its range from 1 to 30 meters (one foundation = 3 meters)
+       </li>
+       <li>
+        It will output a different power value depending on the type of explosion detected
+       </li>
+      </ul>
+      <div>
+       <br/>
+      </div>
+      <div>
+       A non-exhaustive list of power values from explosives:
+      </div>
+     </div>
+     <div>
+      <ul>
+       <li>
+        1 power = F1 Grenade, Beancan
+       </li>
+       <li>
+        2 power = Explosive ammo, Satchel
+       </li>
+       <li>
+        3 power = C4, Rocket
+       </li>
+      </ul>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The idea is to let you detect and trigger circuits when you're being raided. Alarms, traps... the possibilities are infinite, we're excited to see what you will come up with!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="barricadeplacement">
+  <div class="section" like-handler="LikeBlogSection" like-id="84359" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       barricade placement
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Traditionally, we blocked all forms of building inside Monuments. This made sense back in the day when Monuments were small in size and number, but over the years, the amount of land they take up has increased significantly.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      We want to reward players who pick a strategic location during a fight, but it's hard to pick a good location when you're in an empty field!
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This is why barricades can now be placed on the terrain around Monuments. This allows you to take cover as you enter and exit monuments, as well as take cover inside the open fields inside Monuments.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Applies to:
+     </div>
+     <div>
+      <ul>
+       <li>
+        Wood barricade
+       </li>
+       <li>
+        Stone barricade
+       </li>
+       <li>
+        Concrete barricade
+       </li>
+       <li>
+        Sandbags
+       </li>
+      </ul>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20240606/barricade_airfield_01_noaudio.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       Remember:
+      </b>
+      Monument Structures, Concrete, and Roads still block barricades at this time.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Decay and melee protection has been adjusted to account for more relaxed placement
+     </div>
+     <div>
+      <ul>
+       <li>
+        15 minute decay
+       </li>
+       <li>
+        8-10 hits with melee
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Seedeployguideofteammates">
+  <div class="section" like-handler="LikeBlogSection" like-id="84360" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       See deploy guide of teammates
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Behold the ability to see
+      <b>
+       what
+      </b>
+      your teammate is placing and
+      <b>
+       where
+      </b>
+      it will be placed! This should clear up the exact location your teammate(s) are shouting while trying to build.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20240606/buildguide_jake.mp4">
+       <source src="https://files.facepunch.com/jakerich/f77WcnEIfPZNY4jc/CCkjb1wxqpp35O2O.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <br/>
+      By default, it only will show your teammate's deploy guides when you are building. This can be changed via the options menu to 'Always Show' or to be disabled.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none" title="">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/jakerich/9akOLgQAp9isH5ko/bJ7gtouGI889dipM.png"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Visualfeedbackforbuildingblocked">
+  <div class="section" like-handler="LikeBlogSection" like-id="84361" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Visual feedback for building blocked
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      When allowing barricades to be placed into Monuments we realized... it's not that clear where the building blocked of Monuments actually starts!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      You will now see a red outline around the edge of monuments.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="true" playsinline="" src="https://files.facepunch.com/paddy/20240604/buildblock_area_02.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This can be toggled in the options menu.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none" title="">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/jakerich/AHIyhlsKkT9KhqsT/pcoYPbH7ToM4lNAO.png"/>
+     </div>
+     <h2>
+     </h2>
+     <div>
+      <span>
+       Server owners can disable it via a convar if conflicts with custom Monuments.
+      </span>
+     </div>
+     <h2>
+      Monument building radius
+     </h2>
+     <div>
+      We also took the opportunity to adjust the building blocked size of some Monuments.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       Larger
+      </b>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Gas Station
+       </li>
+       <li>
+        Lighthouse
+       </li>
+       <li>
+        Mining Outpost
+       </li>
+       <li>
+        Super Market
+       </li>
+       <li>
+        Quarry
+       </li>
+      </ul>
+      <div>
+       <b>
+        Slightly Larger
+       </b>
+      </div>
+      <div>
+       <ul>
+        <li>
+         Dome
+        </li>
+        <li>
+         Launch Site
+        </li>
+       </ul>
+      </div>
+      <div>
+       <b>
+        Smaller
+       </b>
+      </div>
+      <ul>
+       <li>
+        Abandoned Military Base
+       </li>
+       <li>
+        Arctic Research Base
+       </li>
+      </ul>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" title="Supermarket">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240604/monument_buildblock_supermarket.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" title="Lighthouse">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240604/monument_buildblock_lighthouse.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" title="Arctic Research Base">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240604/monument_buildblock_arcticlabs.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="QualityofLifeChanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84358" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Quality of Life Changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20221201/modularvehicle_codelock_02.jpg"/>
+        <center>
+         <b>
+          Faster Code Locks
+         </b>
+        </center>
+        <center>
+         Once a code is set, the "last used" button is much faster at entering the code
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240606/bonefragments_fertiliser.jpg"/>
+        <center>
+         <b>
+          Bone Fertiliser
+         </b>
+        </center>
+        <center>
+         Bone fragments can now be used in a composter to create fertiliser
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240606/windowshutters.jpg"/>
+        <center>
+         <b>
+          Faster Window Crafting
+         </b>
+        </center>
+        <center>
+         Window glass, shutters and bars now craft in 15s instead of 30s
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240606/repairbench_skinnames.jpg"/>
+        <center>
+         <b>
+          Skin Names
+         </b>
+        </center>
+        <center>
+         See the name of skins at the Repair Bench, and a link to get them
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20211005/cargo_heli.jpg"/>
+        <center>
+         <b>
+          Helicopter Handbrake
+         </b>
+        </center>
+        <center>
+         Idle helicopters no longer drift down slopes
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240606/horseriding_armored.jpg"/>
+        <center>
+         <b>
+          Reduced Speed Penalty
+         </b>
+        </center>
+        <center>
+         Horse armour doesn't slow your horse as much
+        </center>
+       </div>
+      </div>
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240606/salvagedhammer_firstperson.jpg"/>
+        <center>
+         <b>
+          Salvaged Hammer Buff
+         </b>
+        </center>
+        <center>
+         +100% damage against deployables
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240605/mixingtable_01.jpg"/>
+        <center>
+         <b>
+          Mixing Table Ammo Recipes
+         </b>
+        </center>
+        <center>
+         Added HV Ammo &amp; Incendiary Ammo to mixing table
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230202/indst_conveyor_01.jpg"/>
+        <center>
+         <b>
+          Industrial Conveyor UI
+         </b>
+        </center>
+        <center>
+         Easier to search and setup industrial conveyors
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20221201/toolcupboard_upkeep.jpg"/>
+        <center>
+         <b>
+          Block Explosives In TCs
+         </b>
+        </center>
+        <center>
+         Prevent players from stashing their explosives in TCs
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20221201/shotguntrap_repair.jpg"/>
+        <center>
+         <b>
+          Hammer UI Consistency
+         </b>
+        </center>
+        <center>
+         Hammer always shows all options to reduce misclicks
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240606/f15e_flyby.jpg"/>
+        <center>
+         <b>
+          Reduce F15 Volume
+         </b>
+        </center>
+        <center>
+         Reduce volume of F15 by 50% to reduce strain on ears
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230630/ferryterminal_01.jpg"/>
+        <center>
+         <b>
+          LOD Improvements
+         </b>
+        </center>
+        <center>
+         Fixed monument prefabs appearing invisible from far
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20231101/decordlc_planters_01.jpg"/>
+        <center>
+         <b>
+          Planter Autofill
+         </b>
+        </center>
+        <center>
+         Hold Sprint to auto plant all held seeds in a single planter
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240606/vendingmachine_weaponattachments.jpg"/>
+        <center>
+         <b>
+          Vendor Attachments
+         </b>
+        </center>
+        <center>
+         Able to see the attachments on weapons for sale in vending machines
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240606/chainsaw_firstperson.jpg"/>
+        <center>
+         <b>
+          Chainsaw hit radius
+         </b>
+        </center>
+        <center>
+         Adjusted the chainsaw hit radius to make it easier to hit the trees' X mark
+        </center>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Instantrejoin">
+  <div class="section" like-handler="LikeBlogSection" like-id="84362" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Instant rejoin
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      While a queue is better than nothing (who remembers the days of spamming reconnect?), we want to avoid players getting stuck in a queue at all:
+      <b>
+       especially
+      </b>
+      when it's due to a crash.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      We have made a few changes to allow players recently kicked from any server to skip the queue.
+     </div>
+     <div>
+      <ul>
+       <li>
+        Holds your spot
+       </li>
+       <li>
+        5 minutes max
+       </li>
+       <li>
+        Any type of disconnect (kick, internet outage, crash, alt + f4)
+       </li>
+      </ul>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none" title="Want to avoid this">
+      <img src="https://files.facepunch.com/jakerich/JACKvhgkPd032as6/FtnXqjohP1OLNlHr.png"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Techtreecombining">
+  <div class="section" like-handler="LikeBlogSection" like-id="84363" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Tech tree combining
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      In order to save some space in bases, I’ve modified the Tech Tree menu to now allow you to browse and unlock techs from lower Tech Trees (eg. Access T1 techs from a T2 bench, access T1 and T2 trees from a T3 bench). Use the tabs in the top left of the screen to switch between available tech trees.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" src="https://files.facepunch.com/jarryd/1b0511b1/RustClient_3c1aq0mO8T.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The workbench tax from last month's update is applied based on the Tech Tree level, so there will be no scrap cost changes as a result of this change. The tech tree also now opens immediately when accessing the workbench, saving you a click.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Wireslack">
+  <div class="section" like-handler="LikeBlogSection" like-id="84352" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Wire slack
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      When using the wire tool, you can now adjust the amount of slack in your wire using your mouse wheel while holding LEFT SHIFT.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20240606/wire_slack_ceiling.jpg" src="https://files.facepunch.com/paddy/20240606/Wire_slack_ceiling_720p.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      It's purely visual, it doesn't change anything gameplay-wise, and it also works with hoses and Christmas lights!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="PaintingImprovements">
+  <div class="section" like-handler="LikeBlogSection" like-id="84354" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Painting Improvements
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      I worked on a bunch of improvements for sign painting this month based on community feedback. There's a mix of QoL and bug fixes, but they should all improve your painting experience!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      Changes
+     </h2>
+     <div>
+      <ul>
+       <li>
+        Made the painting UI follow your UI scale option
+       </li>
+       <li>
+        Added a convar to switch which side the painting UI is on (paint.leftsided)
+       </li>
+      </ul>
+      <div>
+      </div>
+      <div>
+      </div>
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20240606/paintingui_leftside.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Increased the maximum brush size to 100 (was 32)
+       </li>
+       <li>
+        Fixed brush sizes below 2 drawing nothing sometimes
+       </li>
+       <li>
+        Fixed drawn brushes overlapping within the same stroke
+       </li>
+       <ul>
+        <li>
+         This makes painting behave more like other apps
+        </li>
+        <li>
+         Fixes low opacity values not actually actually being low because the brushes overlap
+        </li>
+       </ul>
+      </ul>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20240606/paintingui_opacitystrokes.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Fixed weird color blending behavior for the softest brush
+       </li>
+       <li>
+        Fixed portrait and landscape frames using an incorrect aspect ratio paint texture (no more squishing and export inconsistency)
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ELECTRICITYQOL">
+  <div class="section" like-handler="LikeBlogSection" like-id="84356" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       ELECTRICITY QOL
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240605/electricity_qol_medium_battery_1080.jpg"/>
+        <center>
+         <b>
+          Medium battery size
+         </b>
+        </center>
+        <center>
+         Reduced medium battery size by ~15%, now fits under half walls
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240605/electricity_qol_tesla_igniter_1080.jpg"/>
+        <center>
+         <b>
+          Tesla Coil &amp; Igniter healing
+         </b>
+        </center>
+        <center>
+         Tesla Coils and Igniters are now healed by your tool cupboard overtime
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230201/indst_electricfurnace_01.jpg"/>
+        <center>
+         <b>
+          Electrical Furnace
+         </b>
+        </center>
+        <center>
+         Now automatically turned ON or OFF depending on whether they have power
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240605/samsite_01.jpg"/>
+        <center>
+         <b>
+          SAM Site
+         </b>
+        </center>
+        <center>
+         Added a new input to switch your SAM Site targeting mode using electricity
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20210601/solarpanel.jpg"/>
+        <center>
+         <b>
+          Solar Panel
+         </b>
+        </center>
+        <center>
+         Solar panels no longer take damage when picked up
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240605/electricity_qol_vehicle_wire_1080.jpg"/>
+        <center>
+         <b>
+          Wiring near vehicles
+         </b>
+        </center>
+        <center>
+         Vehicles no longer prevent you from wiring components
+        </center>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="FishingChanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84357" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Fishing Changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       We’re making several fishing changes this month to try and shake up the broader fishing meta. Our current issue is that it’s quite trivial to endlessly produce fish from a safe zone, then converting that fish to scrap. It’s not the fastest way to earn scrap but it is pretty reliable.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Our intention with the range of fish available to catch was always that you would work your way up the chain - catch a sardine, use that to catch a trout, use that to catch a shark. By allowing raw fish meat to be used as a bait you could easily gut one fish and catch dozens more fish with that meat, which could then be converted into even more fish.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       To break this loop, this month raw fish meat is now only worth 0.5 bait (and can be used in stacks of 3) - whole fish can (and should) be used as bait but you now run the risk of losing that fish when casting out. The idea is to introduce a risk/reward mechanic. Do you cash out with your current trout catch or do you put them on line and go for the sharks?
+      </div>
+      <div>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/jarryd/1b3111b1/fish1.jpg"/>
+      </div>
+      <div>
+       To balance out this reduction in bait, we’ve made several other forms of bait more useful. Several bait types can now be “stacked” - if a fish requires 5 bait to be caught and you stack two Worms worth 2.5 each, you can now catch that fish. This behaviour is applied across worms, grubs, berries and small fish, making these baits more viable. We’ve also increased the bait value of human meat (1 -&gt; 3), bear meat (5 -&gt; 10) and wolf meat (5-&gt; 10). The stack amount can be seen next to the bait value when selecting the item in your inventory.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       The Survival Fish Trap became a bit neglected after we introduced the Fishing Rod, so this month we’ve adjusted it to make it more relevant. The trap now uses the same underlying fish/bait system as the rod, meaning you can catch different fish in different water sources as well as catch better fish based on the bait provided. The only mechanical difference between these two fish sources is that the trap cannot catch the same fish as it has used as bait and the trap has a 50% chance to lose the bait without catching the fish.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Renderermemorysavings">
+  <div class="section" like-handler="LikeBlogSection" like-id="84364" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Renderer memory savings
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       In hack week this month, I explored ways to reduce our memory usage, an area that is a real priority for us this year. While a lot of my experiments weren’t workable, one did actually end up saving several hundred megabytes of memory for very little cost, so it’s shipping as disabled by default this month.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       A renderer in this case is simply a thing that is visible to the player - a crate, a rock, part of a structure, etc. Importantly for performance each renderer has LODs (Level of Detail) - lower quality versions of each renderer that we switch to based on the distance to the players perspective. In Unity each of these LODs typically lives on a child object of a master parent object, so Barrel01 will have a child Barrel01_LOD0, Barrel01_LOD1, etc that we switch to. What I discovered during hack week is that in a proc gen map of 4.5k size, we can have upwards of 1.3 million objects in the world, each of these objects has some overhead (we need to store its position, rotation, what the object does, etc). In a renderers case, for every single renderer we had 3-5 child objects, one for each LOD level.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       I realised that in most cases each LOD object was just sharing a duplicate of all the information except for a different model, so I modified the system to detect when this happens and consolidate all needed information into a single object, then delete the child objects. By applying this to every renderer in the world, I was able to delete 385 thousand objects from the world, which had a combined memory saving of 484mb - pretty significant!
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       This combination process is run every time the game is launched, we’re currently working on a change to make most of these modifications before we build the game, which should yield further savings next month.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Due to how risky this change is (deleting 385 thousand objects has had some unintended side effects that we’ve now fixed), we’re shipping this new feature off by default, but we’ll monitor it’s usage through the month and likely turn it on by default sometime next month. The convar is
+       <b>
+        graphics.collapseRendererLOD
+       </b>
+       and you’ll need to restart your game after turning it on or off. Let us know how it goes for you!
+      </div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       tldr
+      </b>
+      : 400k less objects
+     </div>
+     <div>
+      500mb less RAM
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="horseimprovements">
+  <div class="section" like-handler="LikeBlogSection" like-id="84365" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       horse improvements
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      It would be amiss to say horses have not had their share of issues over the last few months. So following community feedback, I looked into a solution that would resolve the difficulties players have had with horse navigation.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Alongside some minor adjustments to prevent horses from getting stuck and preventing unnecessary stamina depletion, I introduced the ability for horses to walk backwards. This seemed like the most logical approach to alleviate horses getting stuck, and should be an overall improvement to navigation.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20240606/horse_walkback_001.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="CinematicEntities">
+  <div class="section" like-handler="LikeBlogSection" like-id="84366" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Cinematic Entities
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div class="autodiv">
+      I've added a few more cinematic entities this month for Rust creators to use in their video and image projects. These can be spawned by server owners/admins and can be hidden via console with pre-assigned group numbers.
+     </div>
+     <div class="autodiv">
+      <br/>
+     </div>
+     <div class="autodiv">
+      The new additions include:
+     </div>
+     <div class="autodiv">
+      <ul>
+       <li>
+        More spot and point light (red/blue/green variants)
+        <br/>
+       </li>
+       <li>
+        Unlit backdrops and cyc walls (green/blue/black/white/grey variants)
+        <br/>
+       </li>
+       <li>
+        Flags/cutters (small/medium/large variants)
+        <br/>
+       </li>
+      </ul>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240606/cinematicentities.jpg"/>
+     </div>
+     <div>
+      <div>
+      </div>
+      <div>
+      </div>
+      <div>
+       <h2>
+        visibility commands
+        <br/>
+       </h2>
+       <div>
+        Cinematic entities are now assigned to specific group numbers which allows them to be hidden if desired. Use the command
+        <b>
+         cinematicentity.hideobjects
+        </b>
+        followed by one or more group numbers to set their visibility to hidden.
+        <br/>
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        The groups are setup like so:
+        <br/>
+       </div>
+       <div>
+        <ul>
+         <li>
+          0 = nothing (makes all entities visible)
+          <br/>
+         </li>
+         <li>
+          1 = lighting
+         </li>
+         <li>
+          2 = backdrops
+         </li>
+         <li>
+          3 = props
+          <br/>
+         </li>
+         <li>
+          4 = misc (flags/cutters)
+          <br/>
+         </li>
+        </ul>
+        You can hide single or multiple groups within the same command - for example:
+        <br/>
+        <b>
+         cinematicentity.hideobjects 1
+        </b>
+        - Hides lighting only (keeps light effect but hides the mesh)
+        <br/>
+        <b>
+         cinematicentity.hideobjects 1 2
+        </b>
+        - Hides lighting AND backdrops
+        <br/>
+       </div>
+       <div>
+        <b>
+         cinematicentity.hideobjects 0
+        </b>
+        - Shows all cinematic entities (un-hides everything)
+       </div>
+       <div>
+        <br/>
+       </div>
+      </div>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video controls="" playsinline="" src="https://files.facepunch.com/paddy/20240606/cinematicentities_hideobjects.mp4#t=0.1">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      You can also hide cinematic entity groups in demos with
+      <b>
+       cinematicentity.demohideobjects
+      </b>
+      followed by the same group numbers above. To revert to the visiblity of the entities back to their original states from the demo recording, use
+      <b>
+       cinematicentity.removedemooverride
+      </b>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="TwitchDrops">
+  <div class="section" like-handler="LikeBlogSection" like-id="84368" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Twitch Drops
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <h2>
+      Join us for the Bellum Redemption event June 10th-17th!
+     </h2>
+     <div>
+      There will be Twitch drops so be sure you
+      <a class="" href="https://twitch.facepunch.com/" target="https://twitch.facepunch.com/">
+       get synced
+      </a>
+      !
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <a href="https://twitch.facepunch.com/">
+       <img src="https://files.facepunch.com/Errn/1b0511b1/td_30-blog-image-compressed.jpg"/>
+      </a>
+     </div>
+     <div>
+      Please be aware of scams.
+      <b>
+       Facepunch will never contact you
+      </b>
+      .  Only ever use our official website.
+      <br/>
+     </div>
+     <div>
+      <a class="" href="https://twitch.facepunch.com/">
+       https://twitch.facepunch.com/
+      </a>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="TurretInterferenceVisualfeedback">
+  <div class="section" like-handler="LikeBlogSection" like-id="84370" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Turret Interference Visual feedback
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Turret interference has been effective at preventing players from surrounding their base in 100s of turrets, however it lacked feedback on how exactly to stay under the limit.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <div>
+       Turret interference will now be shown while holding a wire tool and looking at a turret.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img src="https://files.facepunch.com/jakerich/OHVgmTUjvRYIUL9j/mN2KF4USXcBeSoYQ.png"/>
+     </div>
+     <div>
+      It will also be shown in the hotbar while building.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img src="https://files.facepunch.com/jakerich/PK0KSOsp0ATe00ck/OjJYB1ItRs5NKLRr.png"/>
+     </div>
+     <div>
+     </div>
+     <div>
+     </div>
+     <div>
+      While this is accurate most of the time keep in mind this only counts turrets you are authed on (it ignores enemy turrets). This mismatch is required to prevent players from holding a turret and seeing how many turrets are inside an enemy's base.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Seismic Shift
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       June Blog
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Thursday, June 6, 2024
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
+    </div>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Seismic sensor
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wire slack
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          If a codelock is locked, the "last used" button enters the code 250% faster than before
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Bone fragments are now compostable into fertiliser at a ratio of 4:1
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Horse armour horse speed reduction reduced by 25% (i.e. the penalty is 75% as much as it was, the horse is faster now)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wood shutters, all types of window bars, and window glass crafting time reduced from 30s to 15s
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          SAM sites no longer target idle vehicles
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Helicopters now use a sort of 'handbrake' on slopes, being less inclined to roll away
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Any Skin or DLC item on the Repair Bench now shows the skins's name
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Any Skin or DLC item on the Repair Bench now provides a button that takes you to the relevant URL, if it's purchasable anywhere
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Made the painting UI follow your UI scale option
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a convar to switch which side the painting UI is on (paint.leftsided)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Increased the maximum brush size to 100 (was 32)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a new input to SAM site to toggle the defender mode
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Tesla coils and igniters now automatically heal themselves when under building privilege
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Solar panels no longer take damage when picked up
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Removed electric furnace 'Turn On' and 'Turn Off' side inputs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced medium battery size by ~15%
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced the minimum water required to throw from a water jug from 1000ml to 100ml
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          IO entities are now wirable near vehicles
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Door controllers now pulseable like before by buttons or pressure pads to quickly open/close a door
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wiring the passthrough directly into the 'Close' side input will now closes the door instead of opening it when a door controller is first powered
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Adjusted shelves top collider to allow vertical barrel placement on the upper shelf
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added roman candles to the server fireworks limit
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Optimised fireworks firing effects
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can now hold Sprint to auto fill all empty slots in a planter with the selected seed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Adjusted the attack ray of the chainsaw so that it hits closer to where it visually looks like it should based on the model (easier to hit the red x)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Raw Fish Meat is now worth 0.5 bait (was 5) and can be stacked 3 times
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can now stack the bait value of Worms, Grubs, Berries, Anchovies, Herrings, Sardine, Small Trout and Yellow Perch when fishing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Raw Bear and Wolf meat is now worth 10 bait (was 5)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Raw Human meat is now worth 3 bait (was 1)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Berries are now worth 1 bait (was 0.5)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Anchovies, Herrings and Sardines are now worth 2 bait (was 3)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Survival Fish Trap now uses the same fishing system as the fishing rod
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can now access lower tiers of a workbench tech tree from a T2 and T3 workbench
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Cargo ship path and harbor entrance/exits are now displayed on the map while the cargo ship is active
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved map performance when opening the map on a server with lots of vending machines
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Map is now populated 1s after dying instead of immediately when a player dies, should dramatically reduce the lag spike on dying
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Clamped excessive screen shake when lots of explosions are happening around the player (can be disabled by setting client.clampscreenshake to false)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can now pickup the Water Purifier (both parts must be empty)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Rebalanced Anti Radiation Tea to exclusively reduce damage taken from Radiation (5/15/25 -&gt; 15/30/45)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a text readout on the death screen if a player dies while logged out in a safe zone to explain why they died
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced text overlapping on the health bar notices when picking up items with long names and high amounts
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Tweaked water pumps deploy volume so they can be deployed in a triangle
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added an UI information panel showing flamethrowers damage and range values
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Updated large medkit description to include the 100% chance of recovery from wounded state
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Default vending machines now have translations
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Cargoship will now stick around long enough to loot the fourth crate if it exists
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Weapons sold in vending machines now show attachments in tooltips
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Patrol Helicopter now tilts in its move direction
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Patrol Helicopter lifetime extended from 15 minutes to 30 minutes, due to all of the new flee mechanics and chase behaviour
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Renamed "Suicide" to "Respawn" in the main menu
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Horses can now walk backwards at half the speed of normal walking
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved memory usage in large environments, toggleable by (graphics.collapseRendererLOD convar, off by default)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can place barricades inside monuments on terrain
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Add ability to see building guide of teammates
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Add ability to rejoin server for 5 minutes after disconnecting
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added detailed performance analytics to server
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added HV ammo &amp; Incendiary ammo to mixing table
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Increase industrial conveyor filters from 12 -&gt; 30
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Increase industrial conveyor search options from 4 -&gt; 24
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Buffed salvaged hammer to do +100% damage against deployables
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Increases amount of recipes shown in mixing table from 4 -&gt; 8
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved consistancy of hammer radial menu
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added analytics on how long a server took to save
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added ability to see turret interference with wire tool &amp; when building
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced volume of F15 during wipe event
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Optimized SQLite databases on server
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Optimized SAM Site server performance
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed stacks of engine components being lost when dragging over existing items in the modular car engine bay editor UI
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed poker offering no options to the remaining player when only one player can make moves (since others have already folded or gone all in). Sometimes there are still multiple relevant options, e.g. fold or call
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed stuttering Item Store and Main Menu videos
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed scrap heli not being driveable along the ground while holding Ctrl key anymore
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed brush sizes below 2 drawing nothing sometimes
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed drawn brushes overlapping within the same stroke
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed weird color blending behavior for the softest brush
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed portrait and landscape frames using an incorrect aspect ratio paint texture (no more squishing and export inconsistency)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed signs showing power usage 0 in the UI
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed ignited fireworks delayed by the server limit never firing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed melee weapons (other than pickaxes) playing their impact animation despite not hitting anything
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed wire tool color selection menu showing your current wire color as grey instead of the actual color
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed holding right click to disconnect a wire also clearing your pending wire
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed hoses using wires materials when highlighted
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed IO UI showing wrong power values when wiring entities from output to input
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed door controller not deployable on Legacy Shelter door
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed door controller IO UI overlapping doors interaction UI
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed occasional errors showing up when wiring door controllers
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Water Purifier missing deploy guide
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed long chat messages disappearing while being typed (disabled rect mask culling)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed ice throne colliders
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed turrets not targeting players mounted on chairs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed wires not being parented correctly to armored door hatches
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed unharvestable 'ghost' trees
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed grenade skins not showing when dropped or thrown
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Spooky speaker sfx are now part of the Voice Props volume slider
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an error when in ADS on a crossbow with a 8x scope and flaming arrows
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can now chat while toggle crouch and auto run is active
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the team UI sometimes displaying incorrect information when spectating
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the player being partially dismounted when flying through the harbor swing bridge on a Minicopter and then flying more than a square away
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed clone genetics getting lost when moved to existing stacks in the Industrial Conveyor
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some incorrect stacking behaviour in the Industrial Conveyor allowing damaged items to get stacked on repaired items
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the Hide Interact while in ADS option not hiding health bars of entities
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a flyhack on one of the moving cranes in Harbor
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an unpopulated missions UI appearing on servers with missions disabled
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Patrol Helicopter picking points in the water to go and patrol
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed old bug allowing the Patrol Helicopter to retire when its already dead. Should prevent it from not crashing when its rotors are disabled
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed coffin storage adaptor socket position
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Patrol Helicopter targeting NPC's
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Polar Bears not counting towards the wildlife cull Lumberjack mission
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to repeatedly loot the treasure loot in a Lumberjack mission
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed horse stamina unnecessarily depleting if holding the sprint key and movement keys while stationary
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some boom boxes circuits able to flood and eventually stall servers IO queues
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed monument prefabs culling too early
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed glass panels becoming opaque from far away
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed mixing table reseting scroll position every time it was looted
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed ping estimation causing lag spikes on linux servers
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed building plan resetting to foundation when moving building plan inside inventory
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed F8 menu not updating server version when switching servers with it open
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed wood barricade not taking melee damage on sides
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed item slider amount getting reset every time you drag an item into inventory
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row removed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         remove_circle
+        </i>
+       </span>
+       <h3>
+        Removed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Removed ability to store explosives in tool cupboards
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 06 Jun 2024 05:00:00 Z</pubDate>
+    </item>
+    <item>
       <title>Road Renegades</title>
       <link>https://rust.facepunch.com/news/road-renegades/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -1408,7 +3691,7 @@ content to be taken down.
          <br/>
         </div>
         <div>
-         The next anticheat update will be in November.
+         The next anticheat blog update will be in November.
          <br/>
         </div>
        </div>
@@ -4715,2289 +6998,6 @@ can use to try and make both forms of progression feel more balanced,  this fee
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 02 May 2024 13:48:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Seismic Shift</title>
-      <link>https://rust.facepunch.com/news/seismicshift/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Seismic Shift
-    </h1>
-    <p editname="Summary" type="text">
-     This month, we bring you more meta &amp; QOL gameplay changes, the Seismic Sensor item, barricades deployable in monuments, instant server rejoin, Tech Tree combining, and much more.
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      06 June 2024
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="Seismicsensor">
-  <div class="section" like-handler="LikeBlogSection" like-id="84351" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Seismic sensor
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month, we're adding the Seismic Sensor, a new electricity-powered deployable.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240604/seismic_sensor_01.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      When powered, it will listen for nearby explosions and send a power signal when detecting any.
-     </div>
-     <div>
-      <ul>
-       <li>
-        You can configure its range from 1 to 30 meters (one foundation = 3 meters)
-       </li>
-       <li>
-        It will output a different power value depending on the type of explosion detected
-       </li>
-      </ul>
-      <div>
-       <br/>
-      </div>
-      <div>
-       A non-exhaustive list of power values from explosives:
-      </div>
-     </div>
-     <div>
-      <ul>
-       <li>
-        1 power = F1 Grenade, Beancan
-       </li>
-       <li>
-        2 power = Explosive ammo, Satchel
-       </li>
-       <li>
-        3 power = C4, Rocket
-       </li>
-      </ul>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The idea is to let you detect and trigger circuits when you're being raided. Alarms, traps... the possibilities are infinite, we're excited to see what you will come up with!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="barricadeplacement">
-  <div class="section" like-handler="LikeBlogSection" like-id="84359" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       barricade placement
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Traditionally, we blocked all forms of building inside Monuments. This made sense back in the day when Monuments were small in size and number, but over the years, the amount of land they take up has increased significantly.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      We want to reward players who pick a strategic location during a fight, but it's hard to pick a good location when you're in an empty field!
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      This is why barricades can now be placed on the terrain around Monuments. This allows you to take cover as you enter and exit monuments, as well as take cover inside the open fields inside Monuments.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Applies to:
-     </div>
-     <div>
-      <ul>
-       <li>
-        Wood barricade
-       </li>
-       <li>
-        Stone barricade
-       </li>
-       <li>
-        Concrete barricade
-       </li>
-       <li>
-        Sandbags
-       </li>
-      </ul>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20240606/barricade_airfield_01_noaudio.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       Remember:
-      </b>
-      Monument Structures, Concrete, and Roads still block barricades at this time.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Decay and melee protection has been adjusted to account for more relaxed placement
-     </div>
-     <div>
-      <ul>
-       <li>
-        15 minute decay
-       </li>
-       <li>
-        8-10 hits with melee
-       </li>
-      </ul>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Seedeployguideofteammates">
-  <div class="section" like-handler="LikeBlogSection" like-id="84360" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       See deploy guide of teammates
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Behold the ability to see
-      <b>
-       what
-      </b>
-      your teammate is placing and
-      <b>
-       where
-      </b>
-      it will be placed! This should clear up the exact location your teammate(s) are shouting while trying to build.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20240606/buildguide_jake.mp4">
-       <source src="https://files.facepunch.com/jakerich/f77WcnEIfPZNY4jc/CCkjb1wxqpp35O2O.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <br/>
-      By default, it only will show your teammate's deploy guides when you are building. This can be changed via the options menu to 'Always Show' or to be disabled.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none" title="">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/jakerich/9akOLgQAp9isH5ko/bJ7gtouGI889dipM.png"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Visualfeedbackforbuildingblocked">
-  <div class="section" like-handler="LikeBlogSection" like-id="84361" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Visual feedback for building blocked
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      When allowing barricades to be placed into Monuments we realized... it's not that clear where the building blocked of Monuments actually starts!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      You will now see a red outline around the edge of monuments.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="true" playsinline="" src="https://files.facepunch.com/paddy/20240604/buildblock_area_02.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      This can be toggled in the options menu.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none" title="">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/jakerich/AHIyhlsKkT9KhqsT/pcoYPbH7ToM4lNAO.png"/>
-     </div>
-     <h2>
-     </h2>
-     <div>
-      <span>
-       Server owners can disable it via a convar if conflicts with custom Monuments.
-      </span>
-     </div>
-     <h2>
-      Monument building radius
-     </h2>
-     <div>
-      We also took the opportunity to adjust the building blocked size of some Monuments.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       Larger
-      </b>
-     </div>
-     <div>
-      <ul>
-       <li>
-        Gas Station
-       </li>
-       <li>
-        Lighthouse
-       </li>
-       <li>
-        Mining Outpost
-       </li>
-       <li>
-        Super Market
-       </li>
-       <li>
-        Quarry
-       </li>
-      </ul>
-      <div>
-       <b>
-        Slightly Larger
-       </b>
-      </div>
-      <div>
-       <ul>
-        <li>
-         Dome
-        </li>
-        <li>
-         Launch Site
-        </li>
-       </ul>
-      </div>
-      <div>
-       <b>
-        Smaller
-       </b>
-      </div>
-      <ul>
-       <li>
-        Abandoned Military Base
-       </li>
-       <li>
-        Arctic Research Base
-       </li>
-      </ul>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" title="Supermarket">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240604/monument_buildblock_supermarket.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" title="Lighthouse">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240604/monument_buildblock_lighthouse.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" title="Arctic Research Base">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240604/monument_buildblock_arcticlabs.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="QualityofLifeChanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84358" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Quality of Life Changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20221201/modularvehicle_codelock_02.jpg"/>
-        <center>
-         <b>
-          Faster Code Locks
-         </b>
-        </center>
-        <center>
-         Once a code is set, the "last used" button is much faster at entering the code
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240606/bonefragments_fertiliser.jpg"/>
-        <center>
-         <b>
-          Bone Fertiliser
-         </b>
-        </center>
-        <center>
-         Bone fragments can now be used in a composter to create fertiliser
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240606/windowshutters.jpg"/>
-        <center>
-         <b>
-          Faster Window Crafting
-         </b>
-        </center>
-        <center>
-         Window glass, shutters and bars now craft in 15s instead of 30s
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240606/repairbench_skinnames.jpg"/>
-        <center>
-         <b>
-          Skin Names
-         </b>
-        </center>
-        <center>
-         See the name of skins at the Repair Bench, and a link to get them
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20211005/cargo_heli.jpg"/>
-        <center>
-         <b>
-          Helicopter Handbrake
-         </b>
-        </center>
-        <center>
-         Idle helicopters no longer drift down slopes
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240606/horseriding_armored.jpg"/>
-        <center>
-         <b>
-          Reduced Speed Penalty
-         </b>
-        </center>
-        <center>
-         Horse armour doesn't slow your horse as much
-        </center>
-       </div>
-      </div>
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240606/salvagedhammer_firstperson.jpg"/>
-        <center>
-         <b>
-          Salvaged Hammer Buff
-         </b>
-        </center>
-        <center>
-         +100% damage against deployables
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240605/mixingtable_01.jpg"/>
-        <center>
-         <b>
-          Mixing Table Ammo Recipes
-         </b>
-        </center>
-        <center>
-         Added HV Ammo &amp; Incendiary Ammo to mixing table
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230202/indst_conveyor_01.jpg"/>
-        <center>
-         <b>
-          Industrial Conveyor UI
-         </b>
-        </center>
-        <center>
-         Easier to search and setup industrial conveyors
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20221201/toolcupboard_upkeep.jpg"/>
-        <center>
-         <b>
-          Block Explosives In TCs
-         </b>
-        </center>
-        <center>
-         Prevent players from stashing their explosives in TCs
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20221201/shotguntrap_repair.jpg"/>
-        <center>
-         <b>
-          Hammer UI Consistency
-         </b>
-        </center>
-        <center>
-         Hammer always shows all options to reduce misclicks
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240606/f15e_flyby.jpg"/>
-        <center>
-         <b>
-          Reduce F15 Volume
-         </b>
-        </center>
-        <center>
-         Reduce volume of F15 by 50% to reduce strain on ears
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230630/ferryterminal_01.jpg"/>
-        <center>
-         <b>
-          LOD Improvements
-         </b>
-        </center>
-        <center>
-         Fixed monument prefabs appearing invisible from far
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20231101/decordlc_planters_01.jpg"/>
-        <center>
-         <b>
-          Planter Autofill
-         </b>
-        </center>
-        <center>
-         Hold Sprint to auto plant all held seeds in a single planter
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240606/vendingmachine_weaponattachments.jpg"/>
-        <center>
-         <b>
-          Vendor Attachments
-         </b>
-        </center>
-        <center>
-         Able to see the attachments on weapons for sale in vending machines
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240606/chainsaw_firstperson.jpg"/>
-        <center>
-         <b>
-          Chainsaw hit radius
-         </b>
-        </center>
-        <center>
-         Adjusted the chainsaw hit radius to make it easier to hit the trees' X mark
-        </center>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Instantrejoin">
-  <div class="section" like-handler="LikeBlogSection" like-id="84362" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Instant rejoin
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      While a queue is better than nothing (who remembers the days of spamming reconnect?), we want to avoid players getting stuck in a queue at all:
-      <b>
-       especially
-      </b>
-      when it's due to a crash.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      We have made a few changes to allow players recently kicked from any server to skip the queue.
-     </div>
-     <div>
-      <ul>
-       <li>
-        Holds your spot
-       </li>
-       <li>
-        5 minutes max
-       </li>
-       <li>
-        Any type of disconnect (kick, internet outage, crash, alt + f4)
-       </li>
-      </ul>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none" title="Want to avoid this">
-      <img src="https://files.facepunch.com/jakerich/JACKvhgkPd032as6/FtnXqjohP1OLNlHr.png"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Techtreecombining">
-  <div class="section" like-handler="LikeBlogSection" like-id="84363" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Tech tree combining
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      In order to save some space in bases, I’ve modified the Tech Tree menu to now allow you to browse and unlock techs from lower Tech Trees (eg. Access T1 techs from a T2 bench, access T1 and T2 trees from a T3 bench). Use the tabs in the top left of the screen to switch between available tech trees.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" src="https://files.facepunch.com/jarryd/1b0511b1/RustClient_3c1aq0mO8T.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The workbench tax from last month's update is applied based on the Tech Tree level, so there will be no scrap cost changes as a result of this change. The tech tree also now opens immediately when accessing the workbench, saving you a click.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Wireslack">
-  <div class="section" like-handler="LikeBlogSection" like-id="84352" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Wire slack
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      When using the wire tool, you can now adjust the amount of slack in your wire using your mouse wheel while holding LEFT SHIFT.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false">
-      <video autoplay="" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20240606/wire_slack_ceiling.jpg" src="https://files.facepunch.com/paddy/20240606/Wire_slack_ceiling_720p.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      It's purely visual, it doesn't change anything gameplay-wise, and it also works with hoses and Christmas lights!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="PaintingImprovements">
-  <div class="section" like-handler="LikeBlogSection" like-id="84354" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Painting Improvements
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      I worked on a bunch of improvements for sign painting this month based on community feedback. There's a mix of QoL and bug fixes, but they should all improve your painting experience!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      Changes
-     </h2>
-     <div>
-      <ul>
-       <li>
-        Made the painting UI follow your UI scale option
-       </li>
-       <li>
-        Added a convar to switch which side the painting UI is on (paint.leftsided)
-       </li>
-      </ul>
-      <div>
-      </div>
-      <div>
-      </div>
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20240606/paintingui_leftside.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <ul>
-       <li>
-        Increased the maximum brush size to 100 (was 32)
-       </li>
-       <li>
-        Fixed brush sizes below 2 drawing nothing sometimes
-       </li>
-       <li>
-        Fixed drawn brushes overlapping within the same stroke
-       </li>
-       <ul>
-        <li>
-         This makes painting behave more like other apps
-        </li>
-        <li>
-         Fixes low opacity values not actually actually being low because the brushes overlap
-        </li>
-       </ul>
-      </ul>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20240606/paintingui_opacitystrokes.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <ul>
-       <li>
-        Fixed weird color blending behavior for the softest brush
-       </li>
-       <li>
-        Fixed portrait and landscape frames using an incorrect aspect ratio paint texture (no more squishing and export inconsistency)
-       </li>
-      </ul>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="ELECTRICITYQOL">
-  <div class="section" like-handler="LikeBlogSection" like-id="84356" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       ELECTRICITY QOL
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240605/electricity_qol_medium_battery_1080.jpg"/>
-        <center>
-         <b>
-          Medium battery size
-         </b>
-        </center>
-        <center>
-         Reduced medium battery size by ~15%, now fits under half walls
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240605/electricity_qol_tesla_igniter_1080.jpg"/>
-        <center>
-         <b>
-          Tesla Coil &amp; Igniter healing
-         </b>
-        </center>
-        <center>
-         Tesla Coils and Igniters are now healed by your tool cupboard overtime
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230201/indst_electricfurnace_01.jpg"/>
-        <center>
-         <b>
-          Electrical Furnace
-         </b>
-        </center>
-        <center>
-         Now automatically turned ON or OFF depending on whether they have power
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240605/samsite_01.jpg"/>
-        <center>
-         <b>
-          SAM Site
-         </b>
-        </center>
-        <center>
-         Added a new input to switch your SAM Site targeting mode using electricity
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20210601/solarpanel.jpg"/>
-        <center>
-         <b>
-          Solar Panel
-         </b>
-        </center>
-        <center>
-         Solar panels no longer take damage when picked up
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240605/electricity_qol_vehicle_wire_1080.jpg"/>
-        <center>
-         <b>
-          Wiring near vehicles
-         </b>
-        </center>
-        <center>
-         Vehicles no longer prevent you from wiring components
-        </center>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="FishingChanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84357" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Fishing Changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       We’re making several fishing changes this month to try and shake up the broader fishing meta. Our current issue is that it’s quite trivial to endlessly produce fish from a safe zone, then converting that fish to scrap. It’s not the fastest way to earn scrap but it is pretty reliable.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Our intention with the range of fish available to catch was always that you would work your way up the chain - catch a sardine, use that to catch a trout, use that to catch a shark. By allowing raw fish meat to be used as a bait you could easily gut one fish and catch dozens more fish with that meat, which could then be converted into even more fish.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       To break this loop, this month raw fish meat is now only worth 0.5 bait (and can be used in stacks of 3) - whole fish can (and should) be used as bait but you now run the risk of losing that fish when casting out. The idea is to introduce a risk/reward mechanic. Do you cash out with your current trout catch or do you put them on line and go for the sharks?
-      </div>
-      <div>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/jarryd/1b3111b1/fish1.jpg"/>
-      </div>
-      <div>
-       To balance out this reduction in bait, we’ve made several other forms of bait more useful. Several bait types can now be “stacked” - if a fish requires 5 bait to be caught and you stack two Worms worth 2.5 each, you can now catch that fish. This behaviour is applied across worms, grubs, berries and small fish, making these baits more viable. We’ve also increased the bait value of human meat (1 -&gt; 3), bear meat (5 -&gt; 10) and wolf meat (5-&gt; 10). The stack amount can be seen next to the bait value when selecting the item in your inventory.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       The Survival Fish Trap became a bit neglected after we introduced the Fishing Rod, so this month we’ve adjusted it to make it more relevant. The trap now uses the same underlying fish/bait system as the rod, meaning you can catch different fish in different water sources as well as catch better fish based on the bait provided. The only mechanical difference between these two fish sources is that the trap cannot catch the same fish as it has used as bait and the trap has a 50% chance to lose the bait without catching the fish.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Renderermemorysavings">
-  <div class="section" like-handler="LikeBlogSection" like-id="84364" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Renderer memory savings
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       In hack week this month, I explored ways to reduce our memory usage, an area that is a real priority for us this year. While a lot of my experiments weren’t workable, one did actually end up saving several hundred megabytes of memory for very little cost, so it’s shipping as disabled by default this month.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       A renderer in this case is simply a thing that is visible to the player - a crate, a rock, part of a structure, etc. Importantly for performance each renderer has LODs (Level of Detail) - lower quality versions of each renderer that we switch to based on the distance to the players perspective. In Unity each of these LODs typically lives on a child object of a master parent object, so Barrel01 will have a child Barrel01_LOD0, Barrel01_LOD1, etc that we switch to. What I discovered during hack week is that in a proc gen map of 4.5k size, we can have upwards of 1.3 million objects in the world, each of these objects has some overhead (we need to store its position, rotation, what the object does, etc). In a renderers case, for every single renderer we had 3-5 child objects, one for each LOD level.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       I realised that in most cases each LOD object was just sharing a duplicate of all the information except for a different model, so I modified the system to detect when this happens and consolidate all needed information into a single object, then delete the child objects. By applying this to every renderer in the world, I was able to delete 385 thousand objects from the world, which had a combined memory saving of 484mb - pretty significant!
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       This combination process is run every time the game is launched, we’re currently working on a change to make most of these modifications before we build the game, which should yield further savings next month.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Due to how risky this change is (deleting 385 thousand objects has had some unintended side effects that we’ve now fixed), we’re shipping this new feature off by default, but we’ll monitor it’s usage through the month and likely turn it on by default sometime next month. The convar is
-       <b>
-        graphics.collapseRendererLOD
-       </b>
-       and you’ll need to restart your game after turning it on or off. Let us know how it goes for you!
-      </div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       tldr
-      </b>
-      : 400k less objects
-     </div>
-     <div>
-      500mb less RAM
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="horseimprovements">
-  <div class="section" like-handler="LikeBlogSection" like-id="84365" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       horse improvements
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      It would be amiss to say horses have not had their share of issues over the last few months. So following community feedback, I looked into a solution that would resolve the difficulties players have had with horse navigation.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Alongside some minor adjustments to prevent horses from getting stuck and preventing unnecessary stamina depletion, I introduced the ability for horses to walk backwards. This seemed like the most logical approach to alleviate horses getting stuck, and should be an overall improvement to navigation.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20240606/horse_walkback_001.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="CinematicEntities">
-  <div class="section" like-handler="LikeBlogSection" like-id="84366" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Cinematic Entities
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div class="autodiv">
-      I've added a few more cinematic entities this month for Rust creators to use in their video and image projects. These can be spawned by server owners/admins and can be hidden via console with pre-assigned group numbers.
-     </div>
-     <div class="autodiv">
-      <br/>
-     </div>
-     <div class="autodiv">
-      The new additions include:
-     </div>
-     <div class="autodiv">
-      <ul>
-       <li>
-        More spot and point light (red/blue/green variants)
-        <br/>
-       </li>
-       <li>
-        Unlit backdrops and cyc walls (green/blue/black/white/grey variants)
-        <br/>
-       </li>
-       <li>
-        Flags/cutters (small/medium/large variants)
-        <br/>
-       </li>
-      </ul>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240606/cinematicentities.jpg"/>
-     </div>
-     <div>
-      <div>
-      </div>
-      <div>
-      </div>
-      <div>
-       <h2>
-        visibility commands
-        <br/>
-       </h2>
-       <div>
-        Cinematic entities are now assigned to specific group numbers which allows them to be hidden if desired. Use the command
-        <b>
-         cinematicentity.hideobjects
-        </b>
-        followed by one or more group numbers to set their visibility to hidden.
-        <br/>
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        The groups are setup like so:
-        <br/>
-       </div>
-       <div>
-        <ul>
-         <li>
-          0 = nothing (makes all entities visible)
-          <br/>
-         </li>
-         <li>
-          1 = lighting
-         </li>
-         <li>
-          2 = backdrops
-         </li>
-         <li>
-          3 = props
-          <br/>
-         </li>
-         <li>
-          4 = misc (flags/cutters)
-          <br/>
-         </li>
-        </ul>
-        You can hide single or multiple groups within the same command - for example:
-        <br/>
-        <b>
-         cinematicentity.hideobjects 1
-        </b>
-        - Hides lighting only (keeps light effect but hides the mesh)
-        <br/>
-        <b>
-         cinematicentity.hideobjects 1 2
-        </b>
-        - Hides lighting AND backdrops
-        <br/>
-       </div>
-       <div>
-        <b>
-         cinematicentity.hideobjects 0
-        </b>
-        - Shows all cinematic entities (un-hides everything)
-       </div>
-       <div>
-        <br/>
-       </div>
-      </div>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video controls="" playsinline="" src="https://files.facepunch.com/paddy/20240606/cinematicentities_hideobjects.mp4#t=0.1">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      You can also hide cinematic entity groups in demos with
-      <b>
-       cinematicentity.demohideobjects
-      </b>
-      followed by the same group numbers above. To revert to the visiblity of the entities back to their original states from the demo recording, use
-      <b>
-       cinematicentity.removedemooverride
-      </b>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="TwitchDrops">
-  <div class="section" like-handler="LikeBlogSection" like-id="84368" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Twitch Drops
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <h2>
-      Join us for the Bellum Redemption event June 10th-17th!
-     </h2>
-     <div>
-      There will be Twitch drops so be sure you
-      <a class="" href="https://twitch.facepunch.com/" target="https://twitch.facepunch.com/">
-       get synced
-      </a>
-      !
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <a href="https://twitch.facepunch.com/">
-       <img src="https://files.facepunch.com/Errn/1b0511b1/td_30-blog-image-compressed.jpg"/>
-      </a>
-     </div>
-     <div>
-      Please be aware of scams.
-      <b>
-       Facepunch will never contact you
-      </b>
-      .  Only ever use our official website.
-      <br/>
-     </div>
-     <div>
-      <a class="" href="https://twitch.facepunch.com/">
-       https://twitch.facepunch.com/
-      </a>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="TurretInterferenceVisualfeedback">
-  <div class="section" like-handler="LikeBlogSection" like-id="84370" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Turret Interference Visual feedback
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Turret interference has been effective at preventing players from surrounding their base in 100s of turrets, however it lacked feedback on how exactly to stay under the limit.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <div>
-       Turret interference will now be shown while holding a wire tool and looking at a turret.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img src="https://files.facepunch.com/jakerich/OHVgmTUjvRYIUL9j/mN2KF4USXcBeSoYQ.png"/>
-     </div>
-     <div>
-      It will also be shown in the hotbar while building.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img src="https://files.facepunch.com/jakerich/PK0KSOsp0ATe00ck/OjJYB1ItRs5NKLRr.png"/>
-     </div>
-     <div>
-     </div>
-     <div>
-     </div>
-     <div>
-      While this is accurate most of the time keep in mind this only counts turrets you are authed on (it ignores enemy turrets). This mismatch is required to prevent players from holding a turret and seeing how many turrets are inside an enemy's base.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="change-blog-container">
-  <div class="container">
-   <div class="changes-container" id="changelist">
-    <div class="changes-sidebar">
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Patch Name
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Seismic Shift
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Changelist Title
-      </span>
-      <a class="title" style="text-decoration: none;">
-       June Blog
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <a class="date" style="text-decoration: none;">
-       <span class="icon">
-        <i>
-         date_range
-        </i>
-       </span>
-       Thursday, June 6, 2024
-      </a>
-     </div>
-     <div class="sidebar-section">
-     </div>
-    </div>
-    <div class="changes-body">
-     <div class="changes-row features">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         add_circle
-        </i>
-       </span>
-       <h3>
-        Features
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Seismic sensor
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Wire slack
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row improvements">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         arrow_circle_up
-        </i>
-       </span>
-       <h3>
-        Improvements
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          If a codelock is locked, the "last used" button enters the code 250% faster than before
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Bone fragments are now compostable into fertiliser at a ratio of 4:1
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Horse armour horse speed reduction reduced by 25% (i.e. the penalty is 75% as much as it was, the horse is faster now)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Wood shutters, all types of window bars, and window glass crafting time reduced from 30s to 15s
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          SAM sites no longer target idle vehicles
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Helicopters now use a sort of 'handbrake' on slopes, being less inclined to roll away
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Any Skin or DLC item on the Repair Bench now shows the skins's name
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Any Skin or DLC item on the Repair Bench now provides a button that takes you to the relevant URL, if it's purchasable anywhere
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Made the painting UI follow your UI scale option
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added a convar to switch which side the painting UI is on (paint.leftsided)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Increased the maximum brush size to 100 (was 32)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added a new input to SAM site to toggle the defender mode
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Tesla coils and igniters now automatically heal themselves when under building privilege
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Solar panels no longer take damage when picked up
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Removed electric furnace 'Turn On' and 'Turn Off' side inputs
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduced medium battery size by ~15%
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduced the minimum water required to throw from a water jug from 1000ml to 100ml
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          IO entities are now wirable near vehicles
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Door controllers now pulseable like before by buttons or pressure pads to quickly open/close a door
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Wiring the passthrough directly into the 'Close' side input will now closes the door instead of opening it when a door controller is first powered
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Adjusted shelves top collider to allow vertical barrel placement on the upper shelf
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added roman candles to the server fireworks limit
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Optimised fireworks firing effects
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can now hold Sprint to auto fill all empty slots in a planter with the selected seed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Adjusted the attack ray of the chainsaw so that it hits closer to where it visually looks like it should based on the model (easier to hit the red x)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Raw Fish Meat is now worth 0.5 bait (was 5) and can be stacked 3 times
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can now stack the bait value of Worms, Grubs, Berries, Anchovies, Herrings, Sardine, Small Trout and Yellow Perch when fishing
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Raw Bear and Wolf meat is now worth 10 bait (was 5)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Raw Human meat is now worth 3 bait (was 1)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Berries are now worth 1 bait (was 0.5)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Anchovies, Herrings and Sardines are now worth 2 bait (was 3)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Survival Fish Trap now uses the same fishing system as the fishing rod
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can now access lower tiers of a workbench tech tree from a T2 and T3 workbench
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Cargo ship path and harbor entrance/exits are now displayed on the map while the cargo ship is active
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved map performance when opening the map on a server with lots of vending machines
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Map is now populated 1s after dying instead of immediately when a player dies, should dramatically reduce the lag spike on dying
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Clamped excessive screen shake when lots of explosions are happening around the player (can be disabled by setting client.clampscreenshake to false)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can now pickup the Water Purifier (both parts must be empty)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Rebalanced Anti Radiation Tea to exclusively reduce damage taken from Radiation (5/15/25 -&gt; 15/30/45)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added a text readout on the death screen if a player dies while logged out in a safe zone to explain why they died
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduced text overlapping on the health bar notices when picking up items with long names and high amounts
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Tweaked water pumps deploy volume so they can be deployed in a triangle
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added an UI information panel showing flamethrowers damage and range values
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Updated large medkit description to include the 100% chance of recovery from wounded state
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Default vending machines now have translations
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Cargoship will now stick around long enough to loot the fourth crate if it exists
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Weapons sold in vending machines now show attachments in tooltips
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Patrol Helicopter now tilts in its move direction
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Patrol Helicopter lifetime extended from 15 minutes to 30 minutes, due to all of the new flee mechanics and chase behaviour
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Renamed "Suicide" to "Respawn" in the main menu
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Horses can now walk backwards at half the speed of normal walking
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved memory usage in large environments, toggleable by (graphics.collapseRendererLOD convar, off by default)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can place barricades inside monuments on terrain
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Add ability to see building guide of teammates
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Add ability to rejoin server for 5 minutes after disconnecting
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added detailed performance analytics to server
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added HV ammo &amp; Incendiary ammo to mixing table
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Increase industrial conveyor filters from 12 -&gt; 30
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Increase industrial conveyor search options from 4 -&gt; 24
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Buffed salvaged hammer to do +100% damage against deployables
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Increases amount of recipes shown in mixing table from 4 -&gt; 8
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved consistancy of hammer radial menu
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added analytics on how long a server took to save
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added ability to see turret interference with wire tool &amp; when building
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduced volume of F15 during wipe event
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Optimized SQLite databases on server
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Optimized SAM Site server performance
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row fixed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         handyman
-        </i>
-       </span>
-       <h3>
-        Fixed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed stacks of engine components being lost when dragging over existing items in the modular car engine bay editor UI
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed poker offering no options to the remaining player when only one player can make moves (since others have already folded or gone all in). Sometimes there are still multiple relevant options, e.g. fold or call
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed stuttering Item Store and Main Menu videos
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed scrap heli not being driveable along the ground while holding Ctrl key anymore
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed brush sizes below 2 drawing nothing sometimes
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed drawn brushes overlapping within the same stroke
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed weird color blending behavior for the softest brush
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed portrait and landscape frames using an incorrect aspect ratio paint texture (no more squishing and export inconsistency)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed signs showing power usage 0 in the UI
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed ignited fireworks delayed by the server limit never firing
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed melee weapons (other than pickaxes) playing their impact animation despite not hitting anything
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed wire tool color selection menu showing your current wire color as grey instead of the actual color
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed holding right click to disconnect a wire also clearing your pending wire
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed hoses using wires materials when highlighted
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed IO UI showing wrong power values when wiring entities from output to input
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed door controller not deployable on Legacy Shelter door
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed door controller IO UI overlapping doors interaction UI
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed occasional errors showing up when wiring door controllers
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Water Purifier missing deploy guide
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed long chat messages disappearing while being typed (disabled rect mask culling)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed ice throne colliders
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed turrets not targeting players mounted on chairs
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed wires not being parented correctly to armored door hatches
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed unharvestable 'ghost' trees
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed grenade skins not showing when dropped or thrown
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Spooky speaker sfx are now part of the Voice Props volume slider
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an error when in ADS on a crossbow with a 8x scope and flaming arrows
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can now chat while toggle crouch and auto run is active
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed the team UI sometimes displaying incorrect information when spectating
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed the player being partially dismounted when flying through the harbor swing bridge on a Minicopter and then flying more than a square away
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed clone genetics getting lost when moved to existing stacks in the Industrial Conveyor
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some incorrect stacking behaviour in the Industrial Conveyor allowing damaged items to get stacked on repaired items
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed the Hide Interact while in ADS option not hiding health bars of entities
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a flyhack on one of the moving cranes in Harbor
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an unpopulated missions UI appearing on servers with missions disabled
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Patrol Helicopter picking points in the water to go and patrol
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed old bug allowing the Patrol Helicopter to retire when its already dead. Should prevent it from not crashing when its rotors are disabled
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed coffin storage adaptor socket position
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Patrol Helicopter targeting NPC's
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Polar Bears not counting towards the wildlife cull Lumberjack mission
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to repeatedly loot the treasure loot in a Lumberjack mission
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed horse stamina unnecessarily depleting if holding the sprint key and movement keys while stationary
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some boom boxes circuits able to flood and eventually stall servers IO queues
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed monument prefabs culling too early
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed glass panels becoming opaque from far away
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed mixing table reseting scroll position every time it was looted
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed ping estimation causing lag spikes on linux servers
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed building plan resetting to foundation when moving building plan inside inventory
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed F8 menu not updating server version when switching servers with it open
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed wood barricade not taking melee damage on sides
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed item slider amount getting reset every time you drag an item into inventory
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row removed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         remove_circle
-        </i>
-       </span>
-       <h3>
-        Removed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Removed ability to store explosives in tool cupboards
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 06 Jun 2024 05:00:00 Z</pubDate>
     </item>
   </channel>
 </rss>
