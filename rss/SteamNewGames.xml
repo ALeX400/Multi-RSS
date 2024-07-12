@@ -409,12 +409,6 @@ Descrierea conținutului pentru adulți indisponibilă.
     </h3>
    </center>
    <div class="sys_req_container">
-    <div class="sys_req_note">
-     <strong>
-      *
-     </strong>
-     Starting January 1st, 2024, the Steam Client will only support Windows 10 and later versions.
-    </div>
     <div class="sys_req_left_col">
      <ul>
       <strong>
@@ -428,37 +422,51 @@ Descrierea conținutului pentru adulți indisponibilă.
        </li>
        <li>
         <strong>
-         OS *:
+         OS:
         </strong>
-        Windows 7
+        Windows 10 x64 Bit
         <br/>
        </li>
        <li>
         <strong>
          Processor:
         </strong>
-        Intel Core i3-4160 / AMD Phenom II X4 965 or equivalent
+        Intel Core i5-4670K / AMD FX-4350
         <br/>
        </li>
        <li>
         <strong>
          Memory:
         </strong>
-        4 GB RAM
+        8 GB RAM
         <br/>
        </li>
        <li>
         <strong>
          Graphics:
         </strong>
-        Radeon HD 7750 (1024 VRAM) / GeForce GTX 650 (1024 VRAM) or equivalent
+        GeForce GTX 660 / Radeon HD 7850 / HD Graphics 630
+        <br/>
+       </li>
+       <li>
+        <strong>
+         DirectX:
+        </strong>
+        Version 11
         <br/>
        </li>
        <li>
         <strong>
          Storage:
         </strong>
-        3 GB available space
+        15 GB available space
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Additional Notes:
+        </strong>
+        Low Quality setting, in 720p, producing 40 FPS
        </li>
       </ul>
      </ul>
@@ -478,14 +486,14 @@ Descrierea conținutului pentru adulți indisponibilă.
         <strong>
          OS:
         </strong>
-        Windows 10
+        Windows 11 x64 Bit
         <br/>
        </li>
        <li>
         <strong>
          Processor:
         </strong>
-        Intel Core i7-6700 / AMD Ryzen 3 3200G or equivalent
+        Intel Core i7-6950X / AMD Ryzen 7 2700X
         <br/>
        </li>
        <li>
@@ -499,14 +507,28 @@ Descrierea conținutului pentru adulți indisponibilă.
         <strong>
          Graphics:
         </strong>
-        GeForce GTX 1050 Ti (4096 VRAM) / Radeon RX 480 (8192 VRAM) or equivalent
+        GeForce GTX 1080 / Radeon RX 5700
+        <br/>
+       </li>
+       <li>
+        <strong>
+         DirectX:
+        </strong>
+        Version 12
         <br/>
        </li>
        <li>
         <strong>
          Storage:
         </strong>
-        3 GB available space
+        15 GB available space
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Additional Notes:
+        </strong>
+        High Quality setting, in 1080p, producing 60 FPS
        </li>
       </ul>
      </ul>
