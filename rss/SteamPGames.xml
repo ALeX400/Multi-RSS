@@ -1,287 +1,6 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
-      <title>Counter-Strike 2</title>
-      <link>https://store.steampowered.com/app/730/CounterStrike_2/</link>
-      <description><![CDATA[<style>
-            .sys_req_container {
-                display: flex;
-                flex-wrap: wrap;
-                margin-bottom: 10px;
-            }
-            .sys_req_left_col, .sys_req_right_col {
-                flex: 1;
-                padding: 10px;
-                box-sizing: border-box;
-            }
-            .sys_req_left_col {
-                border-right: 1px solid #ccc;
-            }
-            .sys_req_right_col {
-                border-left: 1px solid #ccc;
-            }
-            .ipsQuote_citation, .ipsSpoiler_header {
-                display: flex;
-                justify-content: center;
-            }
-            .ipsSpoiler_header [data-action='toggleSpoiler'] {
-                margin-top: 1px;
-            }
-            [dir='ltr'] .ipsQuote, [dir='ltr'] .ipsSpoiler, [dir='ltr'] .ipsStyle_spoiler {
-                border-width: 0 4px 0 4px;
-            }
-            </style>
-    <div class="details_block" id="genresAndManufacturer">
- <b>
-  Title:
- </b>
- Counter-Strike 2
- <br/>
- <b>
-  Genre:
- </b>
- <span data-panel='{"flow-children":"row"}'>
-  <a>
-   Action
-  </a>
-  ,
-  <a>
-   Free to Play
-  </a>
- </span>
- <br/>
- <div class="dev_row">
-  <b>
-   Developer:
-  </b>
-  <a>
-   Valve
-  </a>
- </div>
- <div class="dev_row">
-  <b>
-   Publisher:
-  </b>
-  <a>
-   Valve
-  </a>
- </div>
- <b>
-  Release Date:
- </b>
- Aug 21, 2012
- <br/>
-</div>
-<br/>
-<br/>
-<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/730/" width="850">
-</iframe>
-<br/>
-<br/>
-<div class="game_area_description" id="game_area_description">
- <h2>
-  About This Game
- </h2>
- For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.
- <br/>
- <br/>
- A free upgrade to CS:GO, Counter-Strike 2 marks the largest technical leap in Counter-Strike’s history. Built on the Source 2 engine, Counter-Strike 2 is modernized with realistic physically-based rendering, state of the art networking, and upgraded Community Workshop tools.
- <br/>
- <br/>
- In addition to the classic objective-focused gameplay that Counter-Strike pioneered in 1999, Counter-Strike 2 features:
- <br>
-  <br>
-   <ul class="bb_ul">
-    <li>
-     All-new CS Ratings with the updated Premier mode
-     <br/>
-    </li>
-    <li>
-     Global and Regional leaderboards
-     <br/>
-    </li>
-    <li>
-     Upgraded and overhauled maps
-     <br/>
-    </li>
-    <li>
-     Game-changing dynamic smoke grenades
-     <br/>
-    </li>
-    <li>
-     Tick-rate-independent gameplay
-     <br/>
-    </li>
-    <li>
-     Redesigned visual effects and audio
-     <br/>
-    </li>
-    <li>
-     All items from CS:GO moving forward to CS2
-    </li>
-   </ul>
-  </br>
- </br>
-</div>
-<div class="game_area_description" id="game_area_content_descriptors">
- <h2>
-  Mature Content Description
- </h2>
- <p>
-  The developers describe the content like this:
- </p>
- <p>
-  <i>
-   Includes intense violence and blood.
-  </i>
- </p>
-</div>
-<br/>
-<br/>
-<center>
- <h2>
-  System Requirements
- </h2>
-</center>
-<div class="ipsSpoiler_contents ipsClearfix">
- <div class="ipsSpoiler" data-ipsspoiler="">
-  <div class="ipsSpoiler_contents ipsClearfix">
-   <center>
-    <h3>
-     Windows
-    </h3>
-   </center>
-   <div class="ipsSpoiler_contents ipsClearfix">
-    <div class="ipsSpoiler" data-ipsspoiler="">
-     <div class="ipsSpoiler_contents ipsClearfix">
-      <div class="sys_req_container">
-       <div class="sys_req_full">
-        <ul>
-         <strong>
-          Minimum:
-         </strong>
-         <br/>
-         <ul class="bb_ul">
-          <li>
-           <strong>
-            OS:
-           </strong>
-           Windows® 10
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Processor:
-           </strong>
-           4 hardware CPU threads - Intel® Core™ i5 750 or higher
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Memory:
-           </strong>
-           8 GB RAM
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Graphics:
-           </strong>
-           Video card must be 1 GB or more and should be a DirectX 11-compatible with support for Shader Model 5.0
-           <br/>
-          </li>
-          <li>
-           <strong>
-            DirectX:
-           </strong>
-           Version 11
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Storage:
-           </strong>
-           85 GB available space
-          </li>
-         </ul>
-        </ul>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-   <center>
-    <h3>
-     Linux
-    </h3>
-   </center>
-   <div class="ipsSpoiler_contents ipsClearfix">
-    <div class="ipsSpoiler" data-ipsspoiler="">
-     <div class="ipsSpoiler_contents ipsClearfix">
-      <div class="sys_req_container">
-       <div class="sys_req_full">
-        <ul>
-         <strong>
-          Minimum:
-         </strong>
-         <br/>
-         <ul class="bb_ul">
-          <li>
-           <strong>
-            OS:
-           </strong>
-           Ubuntu 20.04
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Processor:
-           </strong>
-           4 hardware CPU threads - Intel® Core™ i5 750 or higher
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Memory:
-           </strong>
-           8 GB RAM
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Graphics:
-           </strong>
-           AMD GCN+ or NVIDIA Kepler+ with up-to-date Vulkan drivers. Support for VK_EXT_graphics_pipeline_library highly recommended.
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Storage:
-           </strong>
-           85 GB available space
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Sound Card:
-           </strong>
-           Highly recommended
-          </li>
-         </ul>
-        </ul>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<br/>
-<br/>
-<center>]]></description>
-    </item>
-    <item>
       <title>ELDEN RING</title>
       <link>https://store.steampowered.com/app/1245620/ELDEN_RING/</link>
       <description><![CDATA[<style>
@@ -562,6 +281,287 @@
        </li>
       </ul>
      </ul>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<br/>
+<br/>
+<center>]]></description>
+    </item>
+    <item>
+      <title>Counter-Strike 2</title>
+      <link>https://store.steampowered.com/app/730/CounterStrike_2/</link>
+      <description><![CDATA[<style>
+            .sys_req_container {
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 10px;
+            }
+            .sys_req_left_col, .sys_req_right_col {
+                flex: 1;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+            .sys_req_left_col {
+                border-right: 1px solid #ccc;
+            }
+            .sys_req_right_col {
+                border-left: 1px solid #ccc;
+            }
+            .ipsQuote_citation, .ipsSpoiler_header {
+                display: flex;
+                justify-content: center;
+            }
+            .ipsSpoiler_header [data-action='toggleSpoiler'] {
+                margin-top: 1px;
+            }
+            [dir='ltr'] .ipsQuote, [dir='ltr'] .ipsSpoiler, [dir='ltr'] .ipsStyle_spoiler {
+                border-width: 0 4px 0 4px;
+            }
+            </style>
+    <div class="details_block" id="genresAndManufacturer">
+ <b>
+  Title:
+ </b>
+ Counter-Strike 2
+ <br/>
+ <b>
+  Genre:
+ </b>
+ <span data-panel='{"flow-children":"row"}'>
+  <a>
+   Action
+  </a>
+  ,
+  <a>
+   Free to Play
+  </a>
+ </span>
+ <br/>
+ <div class="dev_row">
+  <b>
+   Developer:
+  </b>
+  <a>
+   Valve
+  </a>
+ </div>
+ <div class="dev_row">
+  <b>
+   Publisher:
+  </b>
+  <a>
+   Valve
+  </a>
+ </div>
+ <b>
+  Release Date:
+ </b>
+ Aug 21, 2012
+ <br/>
+</div>
+<br/>
+<br/>
+<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/730/" width="850">
+</iframe>
+<br/>
+<br/>
+<div class="game_area_description" id="game_area_description">
+ <h2>
+  About This Game
+ </h2>
+ For over two decades, Counter-Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter-Strike 2.
+ <br/>
+ <br/>
+ A free upgrade to CS:GO, Counter-Strike 2 marks the largest technical leap in Counter-Strike’s history. Built on the Source 2 engine, Counter-Strike 2 is modernized with realistic physically-based rendering, state of the art networking, and upgraded Community Workshop tools.
+ <br/>
+ <br/>
+ In addition to the classic objective-focused gameplay that Counter-Strike pioneered in 1999, Counter-Strike 2 features:
+ <br>
+  <br>
+   <ul class="bb_ul">
+    <li>
+     All-new CS Ratings with the updated Premier mode
+     <br/>
+    </li>
+    <li>
+     Global and Regional leaderboards
+     <br/>
+    </li>
+    <li>
+     Upgraded and overhauled maps
+     <br/>
+    </li>
+    <li>
+     Game-changing dynamic smoke grenades
+     <br/>
+    </li>
+    <li>
+     Tick-rate-independent gameplay
+     <br/>
+    </li>
+    <li>
+     Redesigned visual effects and audio
+     <br/>
+    </li>
+    <li>
+     All items from CS:GO moving forward to CS2
+    </li>
+   </ul>
+  </br>
+ </br>
+</div>
+<div class="game_area_description" id="game_area_content_descriptors">
+ <h2>
+  Mature Content Description
+ </h2>
+ <p>
+  The developers describe the content like this:
+ </p>
+ <p>
+  <i>
+   Includes intense violence and blood.
+  </i>
+ </p>
+</div>
+<br/>
+<br/>
+<center>
+ <h2>
+  System Requirements
+ </h2>
+</center>
+<div class="ipsSpoiler_contents ipsClearfix">
+ <div class="ipsSpoiler" data-ipsspoiler="">
+  <div class="ipsSpoiler_contents ipsClearfix">
+   <center>
+    <h3>
+     Windows
+    </h3>
+   </center>
+   <div class="ipsSpoiler_contents ipsClearfix">
+    <div class="ipsSpoiler" data-ipsspoiler="">
+     <div class="ipsSpoiler_contents ipsClearfix">
+      <div class="sys_req_container">
+       <div class="sys_req_full">
+        <ul>
+         <strong>
+          Minimum:
+         </strong>
+         <br/>
+         <ul class="bb_ul">
+          <li>
+           <strong>
+            OS:
+           </strong>
+           Windows® 10
+           <br/>
+          </li>
+          <li>
+           <strong>
+            Processor:
+           </strong>
+           4 hardware CPU threads - Intel® Core™ i5 750 or higher
+           <br/>
+          </li>
+          <li>
+           <strong>
+            Memory:
+           </strong>
+           8 GB RAM
+           <br/>
+          </li>
+          <li>
+           <strong>
+            Graphics:
+           </strong>
+           Video card must be 1 GB or more and should be a DirectX 11-compatible with support for Shader Model 5.0
+           <br/>
+          </li>
+          <li>
+           <strong>
+            DirectX:
+           </strong>
+           Version 11
+           <br/>
+          </li>
+          <li>
+           <strong>
+            Storage:
+           </strong>
+           85 GB available space
+          </li>
+         </ul>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <center>
+    <h3>
+     Linux
+    </h3>
+   </center>
+   <div class="ipsSpoiler_contents ipsClearfix">
+    <div class="ipsSpoiler" data-ipsspoiler="">
+     <div class="ipsSpoiler_contents ipsClearfix">
+      <div class="sys_req_container">
+       <div class="sys_req_full">
+        <ul>
+         <strong>
+          Minimum:
+         </strong>
+         <br/>
+         <ul class="bb_ul">
+          <li>
+           <strong>
+            OS:
+           </strong>
+           Ubuntu 20.04
+           <br/>
+          </li>
+          <li>
+           <strong>
+            Processor:
+           </strong>
+           4 hardware CPU threads - Intel® Core™ i5 750 or higher
+           <br/>
+          </li>
+          <li>
+           <strong>
+            Memory:
+           </strong>
+           8 GB RAM
+           <br/>
+          </li>
+          <li>
+           <strong>
+            Graphics:
+           </strong>
+           AMD GCN+ or NVIDIA Kepler+ with up-to-date Vulkan drivers. Support for VK_EXT_graphics_pipeline_library highly recommended.
+           <br/>
+          </li>
+          <li>
+           <strong>
+            Storage:
+           </strong>
+           85 GB available space
+           <br/>
+          </li>
+          <li>
+           <strong>
+            Sound Card:
+           </strong>
+           Highly recommended
+          </li>
+         </ul>
+        </ul>
+       </div>
+      </div>
+     </div>
     </div>
    </div>
   </div>
@@ -1231,8 +1231,8 @@ Descrierea conținutului pentru adulți indisponibilă.
 <center>]]></description>
     </item>
     <item>
-      <title>FINAL FANTASY XIV Online</title>
-      <link>https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online/</link>
+      <title>Baldur's Gate 3</title>
+      <link>https://store.steampowered.com/app/1086940/Baldurs_Gate_3/</link>
       <description><![CDATA[<style>
             .sys_req_container {
                 display: flex;
@@ -1265,18 +1265,22 @@ Descrierea conținutului pentru adulți indisponibilă.
  <b>
   Title:
  </b>
- FINAL FANTASY XIV Online
+ Baldur's Gate 3
  <br/>
  <b>
   Genre:
  </b>
  <span data-panel='{"flow-children":"row"}'>
   <a>
-   Massively Multiplayer
+   Adventure
   </a>
   ,
   <a>
    RPG
+  </a>
+  ,
+  <a>
+   Strategy
   </a>
  </span>
  <br/>
@@ -1285,7 +1289,7 @@ Descrierea conținutului pentru adulți indisponibilă.
    Developer:
   </b>
   <a>
-   Square Enix
+   Larian Studios
   </a>
  </div>
  <div class="dev_row">
@@ -1293,7 +1297,7 @@ Descrierea conținutului pentru adulți indisponibilă.
    Publisher:
   </b>
   <a>
-   Square Enix
+   Larian Studios
   </a>
  </div>
  <div class="dev_row">
@@ -1301,18 +1305,23 @@ Descrierea conținutului pentru adulți indisponibilă.
    Franchise:
   </b>
   <a>
-   FINAL FANTASY
+   Baldur's Gate
   </a>
  </div>
  <b>
   Release Date:
  </b>
- Feb 18, 2014
+ Aug 3, 2023
+ <br/>
+ <b>
+  Early Access Release Date:
+ </b>
+ Oct 6, 2020
  <br/>
 </div>
 <br/>
 <br/>
-<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/39210/" width="850">
+<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/1086940/" width="850">
 </iframe>
 <br/>
 <br/>
@@ -1320,72 +1329,100 @@ Descrierea conținutului pentru adulți indisponibilă.
  <h2>
   About This Game
  </h2>
- For newcomers to FINAL FANTASY XIV Online, this edition includes three award-winning titles - FINAL FANTASY XIV: A Realm Reborn the base game, and the first and second expansions: FINAL FANTASY XIV: Heavensward and FINAL FANTASY XIV: Stormblood. This edition also includes a 30-day free play period*
+ <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/extras/Final_Keyart_BG3.gif"/>
  <br/>
  <br/>
- Join over 30 million adventurers worldwide and take part in an epic and ever-changing FINAL FANTASY. Experience all the hallmarks of the best-selling franchise - an unforgettable story, exhilarating battles, and a myriad of diverse and captivating environments to explore.
+ Gather your party and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power.
  <br/>
  <br/>
- Party up with friends or play solo! Experience all the main story dungeons on your own by calling upon NPC allies to fight by your side.
+ Mysterious abilities are awakening inside you, drawn from a mind flayer parasite planted in your brain. Resist, and turn darkness against itself. Or embrace corruption, and become ultimate evil.
  <br>
   <br>
-   <strong>
-    Your journey takes you ever higher in FINAL FANTASY XIV: Heavensward:
-   </strong>
+   From the creators of Divinity: Original Sin 2 comes a next-generation RPG, set in the world of Dungeons & Dragons.
    <br>
-    • Take your first steps in the reclusive nation of Ishgard, locked in a seemingly never-ending struggle with dragons.
     <br>
-     • Three additional jobs: channel celestial magicks to heal your allies as the mystical Astrologian. Attack from afar using firearms and mechanical weaponry as the daring Machinist. Wield a mighty greatsword and the power of darkness as the valiant Dark Knight.
      <br/>
      <br/>
-     <strong>
-      Rekindle the fires of hope in FINAL FANTASY XIV: Stormblood:
-     </strong>
-     <br/>
-     • Journey to the East and rise up against the might of the Garlean Empire.
-     <br/>
-     • Two additional jobs: master the balance of martial and arcane arts as the rapier-wielding Red Mage. Draw your katana and let steel sing as the noble Samurai.
+     <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/extras/Gather_new.gif"/>
      <br/>
      <br/>
-     <strong>
-      IMPORTANT:
-     </strong>
+     Choose from 12 classes and 11 races from the D&D Player's Handbook and create your own identity, or play as an Origin hero with a hand-crafted background. Or tangle with your inner corruption as the Dark Urge, a fully customisable Origin hero with its own unique mechanics and story. Whoever you choose to be, adventure, loot, battle and romance your way across the Forgotten Realms and beyond. Gather your party. Take the adventure online as a party of up to four.
      <br/>
-     • *The 30-day free play period included with purchase can only be applied once to each platform on a single service account.
      <br/>
-     • Square Enix Accounts registered to the FINAL FANTASY XIV Online Starter Edition will not be eligible for the FINAL FANTASY XIV Free Trial. Certain features currently contained in the FINAL FANTASY XIV Online Starter Edition, and additional content, may become available in the FINAL FANTASY XIV Free Trial in the future.
+     <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/extras/An_expansive_original_story.png"/>
      <br/>
-     • All editions of the game require user registration. All editions of the game other than the Free Trial require an active paid subscription to play.
      <br/>
-     FINAL FANTASY XIV Online game packages available on Steam may only be registered and added on a Square Enix account that has the base game “FINAL FANTASY XIV Online Starter Edition" (or formerly known as "FINAL FANTASY XIV: A Realm Reborn”) purchased on Steam.
+     Abducted, infected, lost. You are turning into a monster, but as the corruption inside you grows, so does your power. That power may help you to survive, but there will be a price to pay, and more than any ability, the bonds of trust that you build within your party could be your greatest strength. Caught in a conflict between devils, deities, and sinister otherworldly forces, you will determine the fate of the Forgotten Realms together.
      <br/>
-     • To view your 20 digit registration codes after purchase, simply right-click on “FINAL FANTASY XIV” in your Steam “Library” and select “View CD key” on the Steam client. The codes will always be accessible from this location should you ever need to reference them again.
      <br/>
-     • The registration codes can be redeemed immediately on the Mog Station
-     <a href="https://steamcommunity.com/linkfilter/" rel="noopener" target="_blank">
-      https://sqex.to/Msp
-     </a>
-     . If this is your first time installing and registering "FINAL FANTASY XIV Online", you may redeem your registration codes during the initial installation process.
      <br/>
-     • Age restrictions and other terms and conditions apply. Please refer to the User Agreement (
-     <a href="https://steamcommunity.com/linkfilter/" rel="noopener" target="_blank">
-      https://sqex.to/ffxiv_agreement
-     </a>
-     ) and Square Enix Account Terms of Use (
-     <a href="https://steamcommunity.com/linkfilter/" rel="noopener" target="_blank">
-      https://sqex.to/ffxiv_terms
-     </a>
-     ) for the terms and conditions of registration and service. Please visit the FINAL FANTASY XIV website at
-     <a href="https://steamcommunity.com/linkfilter/" rel="noopener" target="_blank">
-      https://www.finalfantasyxiv.com/
-     </a>
-     for additional information.
+     <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/extras/Next_Gen_new.gif"/>
+     <br/>
+     <br/>
+     Forged with the new Divinity 4.0 engine, Baldur’s Gate 3 gives you unprecedented freedom to explore, experiment, and interact with a thriving world filled with characters, dangers, and deceit. A grand, cinematic narrative brings you closer to your characters than ever before. From shadow-cursed forests, to the magical caverns of the Underdark, to the sprawling city of Baldur’s Gate itself, your actions define the adventure, but your choices define your legacy. You will be remembered.
+     <br/>
+     <br/>
+     <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/extras/Experience_Depth.png"/>
+     <br/>
+     <br/>
+     The Forgotten Realms are a vast, detailed, and diverse world, and there are secrets to be discovered all around you – verticality is a vital part of exploration. Sneak, dip, shove, climb, and jump as you journey from the depths of the Underdark to the glittering rooftops of Baldur’s Gate. Every choice you make drives your story forward, each decision leaving your mark on the world. Define your legacy, nurture relationships and create enemies, and solve problems your way. No two playthroughs will ever be the same.
+     <br/>
+     <br/>
+     <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/extras/01_Bullets_points.png"/>
+     <br/>
+     <ul class="bb_ul">
+      allows you to combine your forces in combat and simultaneously attack enemies, or split your party to each follow your own quests and agendas. Concoct the perfect plan together… or introduce an element of chaos when your friends least expect it. Relationships are complicated. Especially when you’ve got a parasite in your brain.
+     </ul>
+     <br/>
+     <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/extras/02_Bullets_points.png"/>
+     <br/>
+     <ul class="bb_ul">
+      7 unique Origin heroes offer a hand-crafted experience, each with their own unique traits, agenda, and outlook on the world. Their stories intersect with the overarching narrative, and your choices will determine whether those stories end in redemption, salvation, domination, or one of many other outcomes. Play as an Origin and enjoy their stories, or recruit them to fight alongside you.
+     </ul>
+     <br/>
+     <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/extras/03_Bullets_points.png"/>
+     <br/>
+     <ul class="bb_ul">
+      based on the D&D 5e ruleset. Team-based initiative, advantage and disadvantage, and roll modifiers join an advanced AI, expanded environmental interactions, and a new fluidity in combat that rewards strategy and foresight. Three difficulty settings allow you to customise the challenge of combat. Enable weighted dice to help sway the battle, or play on Tactician mode for a hardcore experience.
+     </ul>
+     <br/>
+     <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/extras/04_Bullets_points_Unprecedented.png"/>
+     <br/>
+     <ul class="bb_ul">
+      featuring 31 subraces on top of the 11 races (Human, Githyanki, Half-Orc, Dwarf, Elf, Drow, Tiefling, Halfling, Half Elf, Gnome, Dragonborn), with 46 subclasses branching out of the 12 classes. Over 600 spells and actions offer near-limitless freedom of interactivity in a hand-crafted world where exploration is rewarded, and player agency defines the journey. Our unique Character Creator features unprecedented depth of character, with reactivity that ensures whomever you are, you will leave a unique legacy behind you, all the way up to Level 12. Over 174 hours of cinematics ensure that no matter the choices you make, the cinematic experience follows your journey – every playthrough, a new cinematic journey.
+     </ul>
+     <br/>
+     <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/extras/05_Bullets_points_Romances.png"/>
+     <br/>
+     <ul class="bb_ul">
+      With the looming threat of war heading to Baldur’s Gate, and a mind flayer invasion on the horizon, friendships – though not necessary – are bound to be forged on your journey. What becomes of them is up to you, as you enter real, vibrant relationships with those you meet along the way. Each companion has their own moral compass and will react to the choices you make throughout your journey. At what cost will you stick to your ideals? Will you allow love to shape your actions? The relationships made on the road to Baldur’s Gate act as moments of respite at camp as much as they add weight to the many decisions you make on your adventure.
+     </ul>
+     <br/>
+     <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/extras/06_Bullets_points_Customise.png"/>
+     <br/>
+     <ul class="bb_ul">
+      so that when you hit ‘go live’, your stream isn’t interrupted by a bear, swear, or lack of underwear. Baldur’s Gate 3 has 3 different levels of streamer-friendly customisation. You can disable nudity and explicit content separately (or together), and you can enable Twitch integration to interact directly with your audience, just as we do at our Panel From Hell showcases! You’ll be able to stream Baldur’s Gate 3 without any problems, regardless of how you play, thanks to these options.
+     </ul>
+     <br/>
+     <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1086940/extras/Final_Image_new.gif"/>
     </br>
    </br>
   </br>
  </br>
 </div>
-Descrierea conținutului pentru adulți indisponibilă.
+<div class="game_area_description" id="game_area_content_descriptors">
+ <h2>
+  Mature Content Description
+ </h2>
+ <p>
+  The developers describe the content like this:
+ </p>
+ <p>
+  <i>
+   This Game may contain content not appropriate for all ages. It contains General Mature Content, and may include Nudity or Sexual Content.
+  </i>
+ </p>
+</div>
 <br/>
 <br/>
 <center>
@@ -1401,158 +1438,25 @@ Descrierea conținutului pentru adulți indisponibilă.
      Windows
     </h3>
    </center>
-   <div class="sys_req_container">
-    <div class="sys_req_left_col">
-     <ul>
-      <strong>
-       Minimum:
-      </strong>
-      <br/>
-      <ul class="bb_ul">
-       <li>
-        Requires a 64-bit processor and operating system
-        <br/>
-       </li>
-       <li>
-        <strong>
-         OS:
-        </strong>
-        Windows® 10 64 bit, Windows® 11 64 bit
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Processor:
-        </strong>
-        Intel® Core™i7-7700 or higher
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Memory:
-        </strong>
-        8 GB RAM
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Graphics:
-        </strong>
-        NVIDIA GeForce GTX 970 or higher, AMD Radeon RX 480 or higher
-        <br/>
-       </li>
-       <li>
-        <strong>
-         DirectX:
-        </strong>
-        Version 11
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Network:
-        </strong>
-        Broadband Internet connection
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Storage:
-        </strong>
-        140 GB available space
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Sound Card:
-        </strong>
-        DirectSound® supported sound card
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Additional Notes:
-        </strong>
-        System Requirements may be subject to change. If you are using a router, please set up your ports so that the below packets can pass through. [Ports that may be used] TCP：80, 443, 54992～54994, 55006～55007, 55021～55040
-       </li>
-      </ul>
-     </ul>
+   <div class="ipsSpoiler_contents ipsClearfix">
+    <div class="ipsSpoiler" data-ipsspoiler="">
+     <div class="ipsSpoiler_contents ipsClearfix">
+      <div class="sys_req_container">
+      </div>
+     </div>
     </div>
-    <div class="sys_req_right_col">
-     <ul>
-      <strong>
-       Recommended:
-      </strong>
-      <br/>
-      <ul class="bb_ul">
-       <li>
-        Requires a 64-bit processor and operating system
-        <br/>
-       </li>
-       <li>
-        <strong>
-         OS:
-        </strong>
-        Windows® 10 64 bit, Windows® 11 64 bit
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Processor:
-        </strong>
-        Intel® Core™i7-9700 or higher
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Memory:
-        </strong>
-        16 GB RAM
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Graphics:
-        </strong>
-        NVIDIA GeForce RTX 2060 or higher, AMD Radeon RX 5600 XT or higher
-        <br/>
-       </li>
-       <li>
-        <strong>
-         DirectX:
-        </strong>
-        Version 11
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Network:
-        </strong>
-        Broadband Internet connection
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Storage:
-        </strong>
-        140 GB available space
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Sound Card:
-        </strong>
-        DirectSound® supported sound card
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Additional Notes:
-        </strong>
-        System Requirements may be subject to change. If you are using a router, please set up your ports so that the below packets can pass through. [Ports that may be used] TCP：80, 443, 54992～54994, 55006～55007, 55021～55040
-       </li>
-      </ul>
-     </ul>
+   </div>
+   <center>
+    <h3>
+     MacOS
+    </h3>
+   </center>
+   <div class="ipsSpoiler_contents ipsClearfix">
+    <div class="ipsSpoiler" data-ipsspoiler="">
+     <div class="ipsSpoiler_contents ipsClearfix">
+      <div class="sys_req_container">
+      </div>
+     </div>
     </div>
    </div>
   </div>
