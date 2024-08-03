@@ -1,6 +1,173 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Reefer trailer sound addon v2024JUL31 ETS2</title>
+      <link>http://www.ets2world.com/reefer-trailer-sound-addon-v2024jul31-ets2/</link>
+      <description><![CDATA[<article class="post-336147 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-sounds tag-external-contracts-confirmed tag-freight-market-confirmed tag-mod-manager tag-sound-fixes-pack">
+ <div class="post-inner group">
+  <center>
+   <div class="thumbnail">
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="576" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/08/reefer-trailer-sound-addon-v2024jul31-ets2-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/08/reefer-trailer-sound-addon-v2024jul31-ets2-1.jpg 1024w, http://www.ets2world.com/wp-content/uploads/2024/08/reefer-trailer-sound-addon-v2024jul31-ets2-1-300x169.jpg 300w, http://www.ets2world.com/wp-content/uploads/2024/08/reefer-trailer-sound-addon-v2024jul31-ets2-1-768x432.jpg 768w" width="1024"/>
+    <img alt="ETS2 Sounds" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+   </div>
+  </center>
+  <div class="clear">
+  </div>
+  <div class="entry">
+   <div class="entry-inner">
+    <p>
+     <center>
+     </center>
+    </p>
+    <center>
+    </center>
+    <hr/>
+    <p>
+     <strong>
+      Reefer trailer sound addon v2024JUL31 ETS2
+     </strong>
+    </p>
+    <p>
+     <strong>
+      New in this version:
+     </strong>
+     Added support for S.KO Cool trailers from the Schmitz Cargobull Trailer Pack DLC! There are also newly added startup sound variations for the S.KO Cool Trailers.
+    </p>
+    <p>
+     <strong>
+      Description:
+     </strong>
+     <br/>
+     Hear the seamless white noise of a reefer trailer!
+     <br/>
+     This mod adds the definition files to activate the Sound Fixes Pack reefer sounds for reefer trailers by SCS Software.
+    </p>
+    <p>
+     There are some trade-offs due to reefer sounds not being a standard feature in the game yet.
+     <br/>
+     Nevertheless, a lot of limitations have been overcome to allow more freedom and less hassles. Read below for details:
+    </p>
+    <p>
+     <strong>
+      Setup:
+     </strong>
+     <br/>
+     1. Enable this addon and the Sound Fixes Pack. Make sure the Sound Fixes Pack has high priority in the Mod Manager.
+     <br/>
+     2. Other road / trailer tire sound mods must be disabled.
+    </p>
+    <p>
+     <strong>
+      Please note:
+     </strong>
+     <br/>
+     The refrigerated trailer will beep and its engine will startup after coupling the trailer.
+     <br/>
+     The reefer will continue to run as you drive and you can hear the hum of it from the truck interior.
+     <br/>
+     The mod relies on the trailer tire sound to carry the reefer sound.
+     <br/>
+     The sound event will stop after decoupling the trailer.
+    </p>
+    <p>
+     See compatibility section for what modes the functionality will work.
+    </p>
+    <p>
+     For any owned reefer trailer, there is a workaround built in to the Sound Fixes Pack to enable the reefer sound.
+     <br/>
+     The reefer startup sound effect is not supported with the workaround option.
+     <br/>
+     Some roads may not be supporting trailer tire sounds, hence why the reefer sound might not work there.
+     <br/>
+     If this happens, driving offroad into the grass or gravel usually gets the reefer sound loop working again successfully.
+    </p>
+    <p>
+     <strong>
+      Workaround for any trailer including owned reefer trailers:
+     </strong>
+     <br/>
+     1. Go into the Audio settings.
+     <br/>
+     2. In the voice navigation menu, select “~ Function – Force enable reefer sound”.
+     <br/>
+     3. Click the Preview button.
+     <br/>
+     4. Select a different voice navigation option OR uncheck the voice navigation.
+     <br/>
+     5. If you want to turn off the reefer sound, detaching the trailer will work in most cases. Otherwise restart the game.
+    </p>
+    <p>
+     <strong>
+      Fully supported trailers:
+     </strong>
+     <br/>
+     1. Base game reefer trailers
+     <br/>
+     2. Schwarzmüller Trailer Pack DLC reefer trailers
+     <br/>
+     3. Krone Trailer Pack DLC Cool Liner trailers
+     <br/>
+     4. TIRSAN Trailer Pack DLC SRI trailers
+     <br/>
+     5. Schmitz Cargobull Trailer Pack DLC S.KO Cool trailers
+    </p>
+    <p>
+     <strong>
+      Compatibility:
+     </strong>
+    </p>
+    <p>
+     <strong>
+      ✅
+     </strong>
+     Freight Market: Confirmed to work
+     <br/>
+     <strong>
+      ✅
+     </strong>
+     External Contracts: Confirmed to work.
+     <br/>
+     ✅ Quick Jobs: Can work, but you need to disconnect and reconnect the trailer to start the cycle.
+     <br/>
+     – Ownable Trailers: Confirmed to work with: Supported DLC trailers only.
+     <br/>
+     You can use the voice navigation workaround for unsupported reefer trailers but it won’t include the startup sound effect.
+    </p>
+    <p>
+     Game versions: 1.50
+     <br/>
+     Sound Fixes Pack required for the functionality.
+    </p>
+    <p>
+     <strong>
+      Sound volume configuration:
+     </strong>
+     <br/>
+     1. The Trailer Noise slider controls the sound volume of the reefer startup noise and the reefer sound loop.
+     <br/>
+     2. It is recommended to have the slider at 50%.
+    </p>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+ </div>
+ <center>
+ </center>
+ <br/>
+ <br/>
+ <hr>
+ <strong>
+  How to install ETS2 mods or ATS Mods
+ </strong>
+ <p>
+  In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
+ </p>
+ <hr/>
+</article>
+<br><br><br><center><a class="dmod" href="https://modsfile.com/6hlnlu7wfe76/ets2_reefer_sound_addon.scs.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
+    </item>
+    <item>
       <title>Leoben Add-on v1.0 ETS2</title>
       <link>http://www.ets2world.com/leoben-add-on-v1-0-ets2/</link>
       <description><![CDATA[<article class="post-336140 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps tag-austria">
@@ -250,92 +417,6 @@
  <hr/>
 </article>
 <br><br><br><center><a class="dmod" href="https://modsfile.com/3m1xqfr8jl9x/renault_tck_reworked_v0_8beta.scs.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
-    </item>
-    <item>
-      <title>Volvo FH IV Generation with trailers VIP v1.50 ETS2</title>
-      <link>http://www.ets2world.com/volvo-fh-iv-generation-with-trailers-vip-v1-50-ets2/</link>
-      <description><![CDATA[<article class="post-336118 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trucks tag-lamberet-futura tag-vip">
- <div class="post-inner group">
-  <center>
-   <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="720" loading="lazy" sizes="(max-width: 1280px) 100vw, 1280px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/08/volvo-fh-iv-generation-with-trailers-vip-v1.50-ets2-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/08/volvo-fh-iv-generation-with-trailers-vip-v1.50-ets2-1.jpg 1280w, http://www.ets2world.com/wp-content/uploads/2024/08/volvo-fh-iv-generation-with-trailers-vip-v1.50-ets2-1-300x169.jpg 300w, http://www.ets2world.com/wp-content/uploads/2024/08/volvo-fh-iv-generation-with-trailers-vip-v1.50-ets2-1-1024x576.jpg 1024w, http://www.ets2world.com/wp-content/uploads/2024/08/volvo-fh-iv-generation-with-trailers-vip-v1.50-ets2-1-768x432.jpg 768w" width="1280"/>
-    <img alt="ETS2 Trucks" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
-   </div>
-  </center>
-  <div class="clear">
-  </div>
-  <div class="entry">
-   <div class="entry-inner">
-    <p>
-     <center>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/08/volvo-fh-iv-generation-with-trailers-vip-v1.50-ets2-1.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/08/volvo-fh-iv-generation-with-trailers-vip-v1.50-ets2-1-160x160.jpg" width="160"/>
-      </a>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/08/volvo-fh-iv-generation-with-trailers-vip-v1.50-ets2-2.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/08/volvo-fh-iv-generation-with-trailers-vip-v1.50-ets2-2-160x160.jpg" width="160"/>
-      </a>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/08/volvo-fh-iv-generation-with-trailers-vip-v1.50-ets2-3.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/08/volvo-fh-iv-generation-with-trailers-vip-v1.50-ets2-3-160x160.jpg" width="160"/>
-      </a>
-     </center>
-    </p>
-    <center>
-    </center>
-    <hr/>
-    <p>
-     <strong>
-      Volvo FH IV Generation with trailers VIP v1.50 ETS2
-     </strong>
-    </p>
-    <p>
-     Changelog for v1.50
-     <br/>
-     – Updated and fix the display of 2 dlc’s gps
-     <br/>
-     – Updated the steering wheel backlights is now sync with dashboard, button lights
-     <br/>
-     – Removed old materials
-     <br/>
-     – Compatibility for 1.50.x
-    </p>
-    <p>
-     Features:
-     <br/>
-     – 4 Cabins
-     <br/>
-     – 3 Chassis
-     <br/>
-     – Custom interiors
-     <br/>
-     – Trailers Included: Dtec doem, Dtec container, Parcisa tank, Lamberet Futura, Tautliner (Pacton)
-     <br/>
-     – Engine: 420-750 HP Euro 5/6
-     <br/>
-     – Transmissions: 12 speeds w/retarder
-     <br/>
-     – Custom skins
-     <br/>
-     – Custom tuning parts and more.
-    </p>
-   </div>
-   <div class="clear">
-   </div>
-  </div>
- </div>
- <center>
- </center>
- <br/>
- <br/>
- <hr>
- <strong>
-  How to install ETS2 mods or ATS Mods
- </strong>
- <p>
-  In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
- </p>
- <hr/>
-</article>
-<br><br><br><center><a class="dmod" href="https://modsfile.com/ok96pt8xndn2/nikola_trucks_volvo_fh_iv_generation_1_50.scs.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
     </item>
   </channel>
 </rss>
