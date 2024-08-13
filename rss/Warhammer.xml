@@ -1,6 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Hotfix #44 (1.4.10) Patch Notes</title>
+      <link>https://store.steampowered.com/news/app/1361210/view/4353377496618128723</link>
+      <description><![CDATA[
+<style>
+        [data-focus-scheme="dark"] {
+            color-scheme: none;
+        }
+    </style>
+<img src="https://clan.akamai.steamstatic.com/images/38365286/87b20a41134ebed69cbc9a1b6c0973ec475f75e7.png"/><br/><div class="bb_h1">Heyo Everyone,</div><i>Note: As a heads up, this hotfix includes routine updates to our audio software, which resulted in a chunkier sized update compared to normal.</i><br/><br/><div class="bb_h2">New In-Game Event: Herald of Admonition</div>Rolling blackouts are plaguing sectors of the hive. Worse, we’ve heard reports of someone, or something lurking in the darkness. We need devoted rejects to get down there and sort this mess out.<br/><br/>Play and complete missions with a new Special Condition, “Terror in the Dark” to earn rewards. This condition will only be available during the event!<br/><br/>This event will start on Thursday, August 15. The rewards will be Ordo Dockets, Plasteel and Diamantine.<br/><br/><img src="https://clan.akamai.steamstatic.com/images/38365286/1a1fe4c4b6fe80a9ec0e09ba85ee249b162c25e6.jpg"/><br/><br/><div class="bb_h2">Bug Fixes and Changes</div><div class="bb_h3">Weapons</div><b>Branx Pickaxe</b><ul class="bb_ul"><li> Tweaked the animation for the Heavy 1 attack windup when chained from the Heavy 2 attack to be more aligned to the actual attack being released.<br/></li><li> Fixed an issue where the Light 4 attack was receiving an incorrect scaling from the Cleave Damage stat.</li></ul><div class="bb_h3">Performance</div><ul class="bb_ul"><li> Improved performance in the Clandestium Gloriana mission.</li></ul><div class="bb_h3">Mission</div><ul class="bb_ul"><li> Minor fix for subtitles in a VO at the start of Enclavum Baross.</li></ul><div class="bb_h3">Cosmetics</div><ul class="bb_ul"><li> Fixed issues with the mouthpiece deforming improperly when using certain faces when the Veteran “Metalfab 97 Worker’s Mask” headgear was equipped.<br/></li><li> Fixed an issue with the Lasgun “Accatran Pattern Mk IV Lasgun (Betalis Night)” weapon skin where the 3D ammo display would not update appropriately.</li></ul><img src="https://clan.akamai.steamstatic.com/images/38365286/a65c70af1027202631df9d22270d8a366b72f32d.png"/>]]></description>
+      <pubDate>Tue, 13 Aug 2024 12:10:37 +0000</pubDate>
+    </item>
+    <item>
       <title>🔧 Dev Blog 12 - Kustomize ‘Ya ride 🔧</title>
       <link>https://store.steampowered.com/news/app/2078450/view/4338739528793079279</link>
       <description><![CDATA[
@@ -49,18 +61,6 @@ https://store.steampowered.com/app/2078450<br/><img src="https://clan.akamai.ste
     </style>
 We've been seeing many reports about hit registration issues and rest assured, this is our top priority to fix.<br/><br/>We've also seen reports of "cheating" associated with the hit registration issue, but those people are not cheating, it's just something going on with the net code.<br/><br/>We have however seen a few reports of confirmed cheaters and we're already taking steps against them.<br/><br/>Apologies for the issues so far! We're just two days into launch now and with the game live and being consistently played by thousands of players, new issues are popping up that we hadn't seen before, we're doing our best to address them. <br/><br/>Thanks for your patience and support.]]></description>
       <pubDate>Thu, 08 Aug 2024 13:51:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>💥 Server Disconnect Compensation 💥</title>
-      <link>https://store.steampowered.com/news/app/2078450/view/4338740797809444568</link>
-      <description><![CDATA[
-<style>
-        [data-focus-scheme="dark"] {
-            color-scheme: none;
-        }
-    </style>
-Thanks for jumping in Speed Freeks Day 1 of Early Access. We had some server issues at release which caused some of you to be disconnected from matches. This has been fixed by the team with a new server roll out earlier today. <br/><br/>As a thank you for your support and to honor the playtime you lost due to server instability we will be sending out a 1 Day Scrap Boost through our email system, the same one we send our newsletter out with.<br/><br/><img src="https://clan.akamai.steamstatic.com/images/44159197/67287117c1d91613deb37fd7faf437bacc5b7c13.png"/><img src="https://clan.akamai.steamstatic.com/images/44159197/a9fbb1b9ad50530626b697dac1fcc681be427c2a.png"/><br/> <br/>If you’ve already signed up for the newsletter you will be sent the Scrap Boost automatically. If you haven’t signed up yet fear not, it’s easy to opt in and you will also get the cute little Squig Gubbinz cosmetic topper when you follow. <br/><br/><img src="https://clan.akamai.steamstatic.com/images/44159197/67287117c1d91613deb37fd7faf437bacc5b7c13.png"/><img src="https://clan.akamai.steamstatic.com/images/44159197/2623f614a356cf931a23e04980689799fc1db4e8.png"/><br/><br/>To sign up for the newsletter simply log into your Speed Freeks account and click the follow button.<br/>https://prismray.io/games/speedfreeks <br/><br/>To redeem the Scrap Boost click the Redeem Code button in your profile and enter the code that was provided in the email. <br/>https://support.prismray.io/hc/en-us/articles/22351440941073-How-to-Redeem-a-Code<br/><br/> <br/>Sincere thanks for your feedback and support, and welcome to the WAAAGH!]]></description>
-      <pubDate>Wed, 07 Aug 2024 18:11:20 +0000</pubDate>
     </item>
   </channel>
 </rss>
