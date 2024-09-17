@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
-      <title>Shell PLC Skin v1.0 ETS2</title>
-      <link>http://www.ets2world.com/shell-plc-skin-v1-0-ets2/</link>
-      <description><![CDATA[<article class="post-341248 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-skins">
+      <title>Sound Fixes Pack v24.42 ETS2</title>
+      <link>http://www.ets2world.com/sound-fixes-pack-v24-42-ets2/</link>
+      <description><![CDATA[<article class="post-341300 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-sounds tag-ai tag-cb tag-mod-manager tag-sound-fixes-pack">
  <div class="post-inner group">
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="736" loading="lazy" sizes="(max-width: 736px) 100vw, 736px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/shell-plc-skin-v1.0-ets2-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/09/shell-plc-skin-v1.0-ets2-1.jpg 736w, http://www.ets2world.com/wp-content/uploads/2024/09/shell-plc-skin-v1.0-ets2-1-300x300.jpg 300w, http://www.ets2world.com/wp-content/uploads/2024/09/shell-plc-skin-v1.0-ets2-1-160x160.jpg 160w" width="736"/>
-    <img alt="ETS2 Skins" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="847" loading="lazy" sizes="(max-width: 777px) 100vw, 777px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/ets2-sound-fixes-pack-v24.42-ets2-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/09/ets2-sound-fixes-pack-v24.42-ets2-1.jpg 777w, http://www.ets2world.com/wp-content/uploads/2024/09/ets2-sound-fixes-pack-v24.42-ets2-1-275x300.jpg 275w, http://www.ets2world.com/wp-content/uploads/2024/09/ets2-sound-fixes-pack-v24.42-ets2-1-768x837.jpg 768w" width="777"/>
+    <img alt="ETS2 Sounds" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
   <div class="clear">
@@ -24,16 +24,108 @@
     <hr/>
     <p>
      <strong>
-      Shell PLC Skin v1.0 ETS2
+      Sound Fixes Pack v24.42 ETS2
      </strong>
     </p>
     <p>
-     Shell PLC Skin
-    </p>
-    <p>
-     Trucks supported:
+     CHANGELOG v24.42
      <br/>
-     – MAN TGX Euro 6
+     Compatibility update for ATS game version 1.51.2. [ATS edition] Mack truck aftermarket air horn added to the Service Shop.
+     <br/>
+     Lowered sound volume of a few air brake sound effects for the reworked default air brake sounds.
+     <br/>
+     Lowered price of some aftermarket air horns added by the Sound Fixes Pack in the Service Shop.
+     <br/>
+     Engine and horn sounds added to the 2019 Mack Pinnacle in AI traffic. [ATS edition] Applied engine sounds to the tourist variants of the 2017 Volkswagen Crafter (2nd generation) in AI traffic. [ETS2 edition]
+     <p>
+      DESCRIPTION
+      <br/>
+      This mod has been bringing more immersion to common sounds in the game for over 8 years!
+     </p>
+     <p>
+      It packs a variety of sound content within one mod, making it great value within the 100 mod limit in Convoy multiplayer.
+     </p>
+     <p>
+      COMPATIBILITY
+      <br/>
+      * ETS2 1.51.1 + ATS 1.51.2. No errors in game log. Must have high priority in Mod Manager.
+      <br/>
+      * Does not replace individual player truck sounds, so this mod can be used with an unlimited amount of truck sound mods of your choice.
+      <br/>
+      * Compatible with all maps and all trucks, including truck mods.
+      <br/>
+      * Supported in single-player and multiplayer Convoy mode, and is marked as an optional mod in Convoy.
+     </p>
+     <p>
+      MINIMUM REQUIREMENTS
+      <br/>
+      Requires higher priority in Mod Manager than:
+      <br/>
+      – any map mods (e.g. ProMods)
+      <br/>
+      – any AI traffic mods (e.g. traffic packs and traffic pack add-ons)
+      <br/>
+      – any rain sound mods
+     </p>
+     <p>
+      FEATURE LIST
+      <br/>
+      The mod features meticulously crafted sounds, covering the following:
+     </p>
+     <p>
+      – Suspension and tire bump sounds for your truck and trailer.
+      <br/>
+      – Fuel / filling station sounds.
+      <br/>
+      – Door close and seatbelt sounds after refueling.
+      <br/>
+      – Train sound enhancements for several locomotives and railroad cars.
+      <br/>
+      – Country/state specific railroad crossing bell sounds.
+      <br/>
+      – The most complete tire sound package for all terrains: asphalt, gravel, grass, snow, and sleeper lines.
+      <br/>
+      – Wet tire sound for the player’s truck tires when the asphalt roads are wet.
+      <br/>
+      – Reworked tire screech/skid sound effects.
+      <br/>
+      – Nokia phone ringtone sound replacing the hurry up / late music, leading to less stress for the player.
+      <br/>
+      – Default common sound reworks, such as improved default air brake sounds.
+      <br/>
+      – AI traffic vehicle sound improvements, with engine and horn sounds uniquely set for specific vehicles.
+      <br/>
+      – English AU/UK/US voice navigation variants with speaker effect added and uncustomary phrases removed.
+      <br/>
+      – Wind buffeting and rush of air sounds at high speeds only when the window is open.
+      <br/>
+      – More environmental and ambient sounds, and tasteful changes to existing ambient sounds in the game world.
+      <br/>
+      – Trailer coupling and trailer brace rotation sounds.
+      <br/>
+      – 4 standalone air horns.
+      <br/>
+      – Dynamic rain sounds, and an assortment of different thunder sounds with delay.
+      <br/>
+      – The default wiper sound may now squeak only when the windshield is dry.
+      <br/>
+      – Default gear grinding sound effect additions and improvements.
+      <br/>
+      – Stronger reverb effects when under bridges and overpasses.
+      <br/>
+      – (ATS only) Drawbridge lift warning sound for the Columbia River Interstate Bridge.
+      <br/>
+      – (ATS only) Working sounds for the Musical Road on the Historic Route 66.
+      <br/>
+      – (Optional) Reefer / refrigerated trailer sound functionality.
+      <br/>
+      – (Optional – ATS only) Cop scouting reports via CB radio (enable in voice navigation options).
+      <br/>
+      – Fixes for World Ambient sound glitches from the vanilla game and/or mods.
+     </p>
+     <p>
+      For further immersion, the mod may also include official paint colors and more authentic specifications for each AI traffic vehicle it modifies for sound. Rarer paint colors are less likely to be seen.
+     </p>
     </p>
    </div>
    <div class="clear">
@@ -53,88 +145,16 @@
  </p>
  <hr/>
 </article>
-<br><br><br><center><a class="dmod" href="https://modsfile.com/mcyvl74fsu5g/Shell_PLC.scs.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
+<br><br><br><center><a class="dmod" href="https://modsfile.com/ni1d9vztyz1u/Sound_Fixes_Pack_v24.42_-_Extract_this.7z.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
     </item>
     <item>
-      <title>Erkes Nutzfahrzeuge Skin Pack v1.0 ETS2</title>
-      <link>http://www.ets2world.com/erkes-nutzfahrzeuge-skin-pack-v1-0-ets2/</link>
-      <description><![CDATA[<article class="post-341244 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-skins tag-scs">
+      <title>Roextended 4.3 Free 1.51 ETS2</title>
+      <link>http://www.ets2world.com/roextended-4-3-free-1-51-ets2/</link>
+      <description><![CDATA[<article class="post-341295 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps tag-dlc">
  <div class="post-inner group">
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="1080" loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/erkes-nutzfahrzeuge-skin-pack-v1.0-ets2-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/09/erkes-nutzfahrzeuge-skin-pack-v1.0-ets2-1.jpg 1920w, http://www.ets2world.com/wp-content/uploads/2024/09/erkes-nutzfahrzeuge-skin-pack-v1.0-ets2-1-300x169.jpg 300w, http://www.ets2world.com/wp-content/uploads/2024/09/erkes-nutzfahrzeuge-skin-pack-v1.0-ets2-1-1024x576.jpg 1024w, http://www.ets2world.com/wp-content/uploads/2024/09/erkes-nutzfahrzeuge-skin-pack-v1.0-ets2-1-768x432.jpg 768w, http://www.ets2world.com/wp-content/uploads/2024/09/erkes-nutzfahrzeuge-skin-pack-v1.0-ets2-1-1536x864.jpg 1536w" width="1920"/>
-    <img alt="ETS2 Skins" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
-   </div>
-  </center>
-  <div class="clear">
-  </div>
-  <div class="entry">
-   <div class="entry-inner">
-    <p>
-     <center>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/erkes-nutzfahrzeuge-skin-pack-v1.0-ets2-1.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/erkes-nutzfahrzeuge-skin-pack-v1.0-ets2-1-160x160.jpg" width="160"/>
-      </a>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/erkes-nutzfahrzeuge-skin-pack-v1.0-ets2-2.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/erkes-nutzfahrzeuge-skin-pack-v1.0-ets2-2-160x160.jpg" width="160"/>
-      </a>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/erkes-nutzfahrzeuge-skin-pack-v1.0-ets2-3.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/erkes-nutzfahrzeuge-skin-pack-v1.0-ets2-3-160x160.jpg" width="160"/>
-      </a>
-     </center>
-    </p>
-    <center>
-    </center>
-    <hr/>
-    <p>
-     <strong>
-      Erkes Nutzfahrzeuge Skin Pack v1.0 ETS2
-     </strong>
-    </p>
-    <p>
-     Erkes Nutzfahrzeuge (Germany)
-    </p>
-    <p>
-     <strong>
-      Skins for:
-     </strong>
-     <br/>
-     – Renault Premium (SCS, Schumi) White/Blue
-     <br/>
-     – Renault T (SCS, Schumi)
-     <br/>
-     – Volvo FH 2009 (SCS, Pendragon/Ohaha)
-     <br/>
-     – Volvo FH 2012 (SCS, Pendragon/Ohaha)
-    </p>
-   </div>
-   <div class="clear">
-   </div>
-  </div>
- </div>
- <center>
- </center>
- <br/>
- <br/>
- <hr>
- <strong>
-  How to install ETS2 mods or ATS Mods
- </strong>
- <p>
-  In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
- </p>
- <hr/>
-</article>
-<br><br><br><center><a class="dmod" href="https://modsfile.com/pepp39ngz0zo/Erkes_Nutzfahrzeuge_Skin_Pack_by_Rocker_Trucker.scs.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
-    </item>
-    <item>
-      <title>Southeast Asia Map v0.2.5.2 1.51 ETS2</title>
-      <link>http://www.ets2world.com/southeast-asia-map-v0-2-5-2-1-51-ets2/</link>
-      <description><![CDATA[<article class="post-341240 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps tag-asia tag-philippines tag-thailand tag-vietnam">
- <div class="post-inner group">
-  <center>
-   <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="626" loading="lazy" sizes="(max-width: 1280px) 100vw, 1280px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/southeast-asia-map-v0.2.5.2-1.51-ets2-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/09/southeast-asia-map-v0.2.5.2-1.51-ets2-1.jpg 1280w, http://www.ets2world.com/wp-content/uploads/2024/09/southeast-asia-map-v0.2.5.2-1.51-ets2-1-300x147.jpg 300w, http://www.ets2world.com/wp-content/uploads/2024/09/southeast-asia-map-v0.2.5.2-1.51-ets2-1-1024x501.jpg 1024w, http://www.ets2world.com/wp-content/uploads/2024/09/southeast-asia-map-v0.2.5.2-1.51-ets2-1-768x376.jpg 768w" width="1280"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="536" loading="lazy" sizes="(max-width: 1280px) 100vw, 1280px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/roextended-4.3-free-ets2-1.51-ets2-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/09/roextended-4.3-free-ets2-1.51-ets2-1.jpg 1280w, http://www.ets2world.com/wp-content/uploads/2024/09/roextended-4.3-free-ets2-1.51-ets2-1-300x126.jpg 300w, http://www.ets2world.com/wp-content/uploads/2024/09/roextended-4.3-free-ets2-1.51-ets2-1-1024x429.jpg 1024w, http://www.ets2world.com/wp-content/uploads/2024/09/roextended-4.3-free-ets2-1.51-ets2-1-768x322.jpg 768w" width="1280"/>
     <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
@@ -144,14 +164,17 @@
    <div class="entry-inner">
     <p>
      <center>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/southeast-asia-map-v0.2.5.2-1.51-ets2-1.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/southeast-asia-map-v0.2.5.2-1.51-ets2-1-160x160.jpg" width="160"/>
+      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/roextended-4.3-free-ets2-1.51-ets2-1.jpg">
+       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/roextended-4.3-free-ets2-1.51-ets2-1-160x160.jpg" width="160"/>
       </a>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/southeast-asia-map-v0.2.5.2-1.51-ets2-2.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/southeast-asia-map-v0.2.5.2-1.51-ets2-2-160x160.jpg" width="160"/>
+      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/roextended-4.3-free-ets2-1.51-ets2-2.jpg">
+       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/roextended-4.3-free-ets2-1.51-ets2-2-160x160.jpg" width="160"/>
       </a>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/southeast-asia-map-v0.2.5.2-1.51-ets2-3.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/southeast-asia-map-v0.2.5.2-1.51-ets2-3-160x160.jpg" width="160"/>
+      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/roextended-4.3-free-ets2-1.51-ets2-3.jpg">
+       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/roextended-4.3-free-ets2-1.51-ets2-3-160x160.jpg" width="160"/>
+      </a>
+      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/roextended-4.3-free-ets2-1.51-ets2-4.jpg">
+       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/roextended-4.3-free-ets2-1.51-ets2-4-160x160.jpg" width="160"/>
       </a>
      </center>
     </p>
@@ -160,37 +183,21 @@
     <hr/>
     <p>
      <strong>
-      Southeast Asia Map v0.2.5.2 1.51 ETS2
+      Roextended 4.3 Free 1.51 ETS2
      </strong>
     </p>
     <p>
-     UPDATE: Changed
-     <br/>
-     some border checkpoints
-     <br/>
-     Added 2 new cities and 1 new city in Laos
-     <br/>
-     Fixed navigation
-     <br/>
-     loading issues Removed motorcycles (issues found)
+     Roextended
     </p>
     <p>
-     <strong>
-      DESCRIPTION:
-     </strong>
+     changes:
      <br/>
-     8 countries (Myanmar, Thailand, Malaysia, Singapore, Philippines, Vietnam, Papua New Guinea, Laos)
+     – fixed all reported bugs
      <br/>
-     Can be used in conjunction with Promods, JRR, Rusmap, MAPA EAA, Southern Region, Kazakhstan, Siberia, Road to Asia, and other maps
+     – updated material
     </p>
     <p>
-     <strong>
-      Requires all DLC
-     </strong>
-     <br/>
-     maps to work Highly desirable to have a background map that includes Asia (otherwise you won’t see this map)
-     <br/>
-     In the future, there will be the remaining areas of southern Thailand, central and northern Thailand, Laos, Cambodia, Brunei, the east coast of Peninsular Malaysia, East Malaysia (Sabah and Sarawak), Myanmar, Vietnam, the Philippines, Timor-Leste, Bangladesh and other regions
+     Requires all DLC
     </p>
    </div>
    <div class="clear">
@@ -210,17 +217,17 @@
  </p>
  <hr/>
 </article>
-<br><br><br><center><a class="dmod" href="https://modsfile.com/ucy5p9q9va8q/southeast_asia_map_ver0_2_5_2_1_51.rar.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
+<br><br><br><center><a class="dmod" href="https://modsfile.com/icxj44yx2ut7/roextended_4_3_free_ets2_1_51_part1.rar.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
     </item>
     <item>
-      <title>Pinnacle Tuning Pack v1.0 ATS</title>
-      <link>http://www.ets2world.com/pinnacle-tuning-pack-v1-0-ats/</link>
-      <description><![CDATA[<article class="post-341237 post type-post status-publish format-standard has-post-thumbnail hentry category-ats-parts-tuning tag-mack-pinnacle">
+      <title>Bright Headlights 1.51 ATS</title>
+      <link>http://www.ets2world.com/bright-headlights-1-51-ats/</link>
+      <description><![CDATA[<article class="post-341288 post type-post status-publish format-standard has-post-thumbnail hentry category-ats-other tag-ats tag-scs">
  <div class="post-inner group">
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="360" loading="lazy" sizes="(max-width: 640px) 100vw, 640px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/pinnacle-tuning-pack-v1.0-ats-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/09/pinnacle-tuning-pack-v1.0-ats-1.jpg 640w, http://www.ets2world.com/wp-content/uploads/2024/09/pinnacle-tuning-pack-v1.0-ats-1-300x169.jpg 300w" width="640"/>
-    <img alt="ATS Parts / Tuning" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ats3.png"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="435" loading="lazy" sizes="(max-width: 740px) 100vw, 740px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/ats-bright-headlights-1.51-ats-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/09/ats-bright-headlights-1.51-ats-1.jpg 740w, http://www.ets2world.com/wp-content/uploads/2024/09/ats-bright-headlights-1.51-ats-1-300x176.jpg 300w" width="740"/>
+    <img alt="ATS Other" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ats3.png"/>
    </div>
   </center>
   <div class="clear">
@@ -236,24 +243,66 @@
     <hr/>
     <p>
      <strong>
-      Pinnacle Tuning Pack v1.0 ATS
+      Bright Headlights 1.51 ATS
      </strong>
     </p>
     <p>
-     This mod adds some parts to the Mack Pinnacle
-     <br/>
-     This is an alpha version
-     <br/>
-     Currently only compatible with the 48″ cab
+     ATTENTION! I made mod for myself and maybe you do not need it.
     </p>
     <p>
      <strong>
-      Adds:
+      American Truck Simulator
      </strong>
      <br/>
-     – 5 exhaust options
+     mod: ATS_Bright Headlights_v.4.3_.scs
      <br/>
-     – 2 sideflare options
+     This mod changes light the headlights in trucks ATS and light the headlights reverse
+    </p>
+    <p>
+     <strong>
+      List default trucks SCS in ATS:
+     </strong>
+     <br/>
+     – Freightliner Cascadia 2019
+     <br/>
+     – Intnational 9900i
+     <br/>
+     – Intnational Lonestar
+     <br/>
+     – Intnational LT
+     <br/>
+     – Kenworth W900
+     <br/>
+     – Kenworth T680
+     <br/>
+     – Kenworth.t680_2022
+     <br/>
+     – Mack Anthem
+     <br/>
+     – Mack Pinnacle
+     <br/>
+     – Peterbilt 389
+     <br/>
+     – Peterbilt 579
+     <br/>
+     – Volvo VNL
+     <br/>
+     – Volvo VNL 2018
+     <br/>
+     – Western Star 49X
+     <br/>
+     – Western Star 57X
+     <br/>
+     – Western Star 5700xe
+    </p>
+    <p>
+     ATTENTION! This mod do not change the game process.
+     <br/>
+     You can use mod at any time, it’s enough to leave the game and on/off then continue the game.
+     <br/>
+     – – To work correctly, use any, but only one mod from this series.
+     <br/>
+     ALLOWED DISTRIBUTE THIS MOD WITHOUT USING THE ORIGINAL LINK.
     </p>
    </div>
    <div class="clear">
@@ -273,17 +322,17 @@
  </p>
  <hr/>
 </article>
-<br><br><br><center><a class="dmod" href="https://modsfile.com/6zu7u1lldq9c/pinnacle_tuning.scs.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
+<br><br><br><center><a class="dmod" href="https://modsfile.com/wkpudaqtfktu/ATS_Bright_Headlights_v.4.3_.scs.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
     </item>
     <item>
-      <title>Mercedes Actros 2014 Tuning Headlights v1.51 ETS2</title>
-      <link>http://www.ets2world.com/mercedes-actros-2014-tuning-headlights-v1-51-ets2/</link>
-      <description><![CDATA[<article class="post-341233 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-partstuning tag-drl tag-mercedes-actros tag-scs">
+      <title>Mack Pinnacle Bulldog skin v1.0 ATS</title>
+      <link>http://www.ets2world.com/mack-pinnacle-bulldog-skin-v1-0-ats/</link>
+      <description><![CDATA[<article class="post-341285 post type-post status-publish format-standard has-post-thumbnail hentry category-ats-skins tag-game-american tag-mack-pinnacle">
  <div class="post-inner group">
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="360" loading="lazy" sizes="(max-width: 640px) 100vw, 640px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/mercedes-actros-2014-tuning-headlights-v1.51-ets2-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/09/mercedes-actros-2014-tuning-headlights-v1.51-ets2-1.jpg 640w, http://www.ets2world.com/wp-content/uploads/2024/09/mercedes-actros-2014-tuning-headlights-v1.51-ets2-1-300x169.jpg 300w" width="640"/>
-    <img alt="ETS2 Parts/Tuning" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="720" loading="lazy" sizes="(max-width: 1280px) 100vw, 1280px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/mack-pinnacle-bulldog-skin-v1.0-ats-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/09/mack-pinnacle-bulldog-skin-v1.0-ats-1.jpg 1280w, http://www.ets2world.com/wp-content/uploads/2024/09/mack-pinnacle-bulldog-skin-v1.0-ats-1-300x169.jpg 300w, http://www.ets2world.com/wp-content/uploads/2024/09/mack-pinnacle-bulldog-skin-v1.0-ats-1-1024x576.jpg 1024w, http://www.ets2world.com/wp-content/uploads/2024/09/mack-pinnacle-bulldog-skin-v1.0-ats-1-768x432.jpg 768w" width="1280"/>
+    <img alt="ATS Skins" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ats3.png"/>
    </div>
   </center>
   <div class="clear">
@@ -299,20 +348,15 @@
     <hr/>
     <p>
      <strong>
-      Mercedes Actros 2014 Tuning Headlights v1.51 ETS2
+      Mack Pinnacle Bulldog skin v1.0 ATS
      </strong>
     </p>
     <p>
-     Standalone;
+     Skin for Mack Pinnacle
      <br/>
-     The package includes 2 versions of headlights with white and amber DRL and turn signals;
+     Game: American truck simulator
      <br/>
-     There is a slot in the headlights for installing additional parts;
-     <br/>
-     Compatible with Mercedes-Benz Actros 2014 from SCS.
-    </p>
-    <p>
-     Update for patch 1.51
+     Tested on 1.51 version
     </p>
    </div>
    <div class="clear">
@@ -332,7 +376,159 @@
  </p>
  <hr/>
 </article>
-<br><br><br><center><a class="dmod" href="https://modsfile.com/q5yw9kwolfao/mercedes_actros_2014_tuning_headlights.scs.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
+<br><br><br><center><a class="dmod" href="https://modsfile.com/dody9wekmps4/mack_pinnacle_bulldog.scs.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
+    </item>
+    <item>
+      <title>Sound Fixes Pack v24.42 ATS</title>
+      <link>http://www.ets2world.com/sound-fixes-pack-v24-42-ats/</link>
+      <description><![CDATA[<article class="post-341281 post type-post status-publish format-standard has-post-thumbnail hentry category-ats-sounds tag-ai tag-cb tag-mod-manager tag-sound-fixes-pack">
+ <div class="post-inner group">
+  <center>
+   <div class="thumbnail">
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="847" loading="lazy" sizes="(max-width: 777px) 100vw, 777px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/sound-fixes-pack-v24.42-ats-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/09/sound-fixes-pack-v24.42-ats-1.jpg 777w, http://www.ets2world.com/wp-content/uploads/2024/09/sound-fixes-pack-v24.42-ats-1-275x300.jpg 275w, http://www.ets2world.com/wp-content/uploads/2024/09/sound-fixes-pack-v24.42-ats-1-768x837.jpg 768w" width="777"/>
+    <img alt="ATS Sounds" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ats3.png"/>
+   </div>
+  </center>
+  <div class="clear">
+  </div>
+  <div class="entry">
+   <div class="entry-inner">
+    <p>
+     <center>
+     </center>
+    </p>
+    <center>
+    </center>
+    <hr/>
+    <p>
+     <strong>
+      Sound Fixes Pack v24.42 ATS
+     </strong>
+    </p>
+    <p>
+     <strong>
+      CHANGELOG v24.42
+     </strong>
+     <br/>
+     Compatibility update for ATS game version 1.51.2. [ATS edition] Mack truck after market air horn added to the Service Shop.
+     <br/>
+     Lowered sound volume of a few air brake sound effects for the reworked default air brake sounds.
+     <br/>
+     Lowered price of some after market air horns added by the Sound Fixes Pack in the Service Shop.
+     <br/>
+     Engine and horn sounds added to the 2019 Mack Pinnacle in AI traffic. [ATS edition] Applied engine sounds to the tourist variants of the 2017 Volkswagen Crafter (2nd generation) in AI traffic. [ETS2 edition]
+     <p>
+      This mod has been bringing more immersion to common sounds in the game for over 8 years!
+     </p>
+     <p>
+      It packs a variety of sound content within one mod, making it great value within the 100-mod limit in Convoy multiplayer.
+     </p>
+     <p>
+      <strong>
+       COMPATIBILITY
+      </strong>
+      <br/>
+      ETS2 1.51.1 + ATS 1.51.2. No errors in game log. Must have high priority in Mod Manager.
+      <br/>
+      Does not replace individual player truck sounds, so this mod can be used with an unlimited amount of truck sound mods of your choice.
+      <br/>
+      Compatible with all maps and all trucks, including truck mods.
+      <br/>
+      Supported in single-player and multiplayer Convoy mode, and is marked as an optional mod in Convoy.
+     </p>
+     <p>
+      <strong>
+       MINIMUM REQUIREMENTS
+      </strong>
+      <br/>
+      Requires higher priority in Mod Manager than:
+      <br/>
+      – any map mods (e.g. ProMods)
+      <br/>
+      – any AI traffic mods (e.g. traffic packs and traffic pack add-ons)
+      <br/>
+      – any rain sound mods
+     </p>
+     <p>
+      <strong>
+       FEATURE LIST
+      </strong>
+      <br/>
+      The mod features meticulously crafted sounds, covering the following:
+      <br/>
+      – Suspension and tire bump sounds for your truck and trailer.
+      <br/>
+      – Fuel/filling station sounds.
+      <br/>
+      – Door closes and seatbelt sounds after refueling.
+      <br/>
+      – Train sound enhancements for several locomotives and railroad cars.
+      <br/>
+      – Country/state-specific railroad crossing bell sounds.
+      <br/>
+      – The most complete tire sound package for all terrains: asphalt, gravel, grass, snow, and sleeper lines.
+      <br/>
+      – Wet tire sound for the player’s truck tires when the asphalt roads are wet.
+      <br/>
+      – Reworked tire screech/skid sound effects.
+      <br/>
+      – Nokia phone ringtone sound replacing the hurry-up / late music, leading to less stress for the player.
+      <br/>
+      – Default common sound reworks, such as improved default air brake sounds.
+      <br/>
+      – AI traffic vehicle sound improvements, with engine and horn sounds uniquely set for specific vehicles.
+      <br/>
+      – English AU/UK/US voice navigation variants with speaker effect added and uncustomary phrases removed.
+      <br/>
+      – Wind buffeting and rush of air sounds at high speeds only when the window is open.
+      <br/>
+      – More environmental and ambient sounds, and tasteful changes to existing ambient sounds in the game world.
+      <br/>
+      – Trailer coupling and trailer brace rotation sound.
+      <br/>
+      – 4 standalone air horns.
+      <br/>
+      – Dynamic rain sounds, and an assortment of different thunder sounds with delay.
+      <br/>
+      – The default wiper sound may now squeak only when the windshield is dry.
+      <br/>
+      – Default gear grinding sound effect additions and improvements.
+      <br/>
+      – Stronger reverb effects when under bridges and overpasses.
+      <br/>
+      – (ATS only) Drawbridge lift warning sound for the Columbia River Interstate Bridge.
+      <br/>
+      – (ATS only) Working sounds for the Musical Road on the Historic Route 66.
+      <br/>
+      – (Optional) Reefer / refrigerated trailer sound functionality.
+      <br/>
+      – (Optional – ATS only) Cop scouting reports via CB radio (enable in voice navigation options).
+      <br/>
+      – Fixes for World Ambient sound glitches from the vanilla game and/or mods.
+     </p>
+     <p>
+      For further immersion, the mod may also include official paint colors and more authentic specifications for each AI traffic vehicle it modifies for sound. Rarer paint colors are less likely to be seen.
+     </p>
+    </p>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+ </div>
+ <center>
+ </center>
+ <br/>
+ <br/>
+ <hr>
+ <strong>
+  How to install ETS2 mods or ATS Mods
+ </strong>
+ <p>
+  In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
+ </p>
+ <hr/>
+</article>
+<br><br><br><center><a class="dmod" href="https://modsfile.com/ni1d9vztyz1u/Sound_Fixes_Pack_v24.42_-_Extract_this.7z.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
     </item>
   </channel>
 </rss>
