@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
-      <title>MAPA EBR 1.51 ETS2</title>
-      <link>http://www.ets2world.com/mapa-ebr-1-51-ets2/</link>
-      <description><![CDATA[<article class="post-341446 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps tag-brazil tag-euro-truck-simulator">
+      <title>Revamped Dynamic Suspension V6.4.5 DAF NG Update 1.51.x ETS2</title>
+      <link>http://www.ets2world.com/revamped-dynamic-suspension-v6-4-5-daf-ng-update-1-51-x-ets2/</link>
+      <description><![CDATA[<article class="post-341495 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-other tag-modded-trucks tag-readme">
  <div class="post-inner group">
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="626" loading="lazy" sizes="(max-width: 1219px) 100vw, 1219px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/mapa-ebr-1.51-ets2-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/09/mapa-ebr-1.51-ets2-1.jpg 1219w, http://www.ets2world.com/wp-content/uploads/2024/09/mapa-ebr-1.51-ets2-1-300x154.jpg 300w, http://www.ets2world.com/wp-content/uploads/2024/09/mapa-ebr-1.51-ets2-1-1024x526.jpg 1024w, http://www.ets2world.com/wp-content/uploads/2024/09/mapa-ebr-1.51-ets2-1-768x394.jpg 768w" width="1219"/>
-    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="162" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/revamped-dynamic-suspension-v6.4.5-daf-ng-update-1.51.x-ets2-1.jpg" width="276"/>
+    <img alt="ETS2 Other" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
   <div class="clear">
@@ -17,6 +17,12 @@
    <div class="entry-inner">
     <p>
      <center>
+      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/revamped-dynamic-suspension-v6.4.5-daf-ng-update-1.51.x-ets2-1.jpg">
+       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/revamped-dynamic-suspension-v6.4.5-daf-ng-update-1.51.x-ets2-1-160x160.jpg" width="160"/>
+      </a>
+      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/revamped-dynamic-suspension-v6.4.5-daf-ng-update-1.51.x-ets2-2.jpg">
+       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/revamped-dynamic-suspension-v6.4.5-daf-ng-update-1.51.x-ets2-2-160x160.jpg" width="160"/>
+      </a>
      </center>
     </p>
     <center>
@@ -24,70 +30,52 @@
     <hr/>
     <p>
      <strong>
-      MAPA EBR 1.51 ETS2
+      Revamped Dynamic Suspension V6.4.5 DAF NG Update 1.51.x ETS2
      </strong>
     </p>
     <p>
-     The Estradas do Brasil map is a Brazilian map for Euro Truck Simulator 2, released free of charge.
-     <br/>
-     Standalone map of Brazil.
-     <br/>
-     Realistic, beautiful and detailed map.
-     <br/>
-     You need to create a profile and select the brasil.mbd module.
+     This modification brings improvements in the suspension, seat, brake, clutch, and trailer. Includes numerous changes that are extremely crucial in improving the driving experience in-game.
     </p>
     <p>
      <strong>
-      List of cities:
+      Changelog 6.4.5.2:
      </strong>
      <br/>
-     Salvador
+     – Added support for 8×4 / 6×2 / 6×4 newly added chassis for DAF NG
+    </p>
+    <p>
+     Connection order: This mod should be set at high priority / above other physics mods!
      <br/>
-     Feira de santana
+     Mod compatibility: This mod should work with all default trucks and the modded ones!
      <br/>
-     Simoes filho
+     Modded Trucks compatibility: On your choice! Read the README.txt file included in the archive!
+    </p>
+    <p>
+     <strong>
+      Recommended settings:
+     </strong>
      <br/>
-     Milagres
+     Steering sensitivity 0.75
      <br/>
-     Entrocamento
+     Braking intensity 100%
      <br/>
-     Jaguar
+     Truck stability 50%
      <br/>
-     Jequie
+     Trailer stability 50%
      <br/>
-     Ubaira
+     Driveshaft torque 0% – 100% #Optional (use percentage as you like)
      <br/>
-     Santaines
+     Suspension stiffness 0%
      <br/>
-     Valenca
+     Cabin suspension stiffness 0%
      <br/>
-     Itatim
+     Uneven surface simulation 70% #Optional (use percentage as you like)
      <br/>
-     Santoestevao
+     Anti-Lock Braking System (ABS) – ON
      <br/>
-     Maracas
+     Traction Control – ON
      <br/>
-     Camacari
-     <br/>
-     Gandu
-     <br/>
-     Itamari
-     <br/>
-     Argoim
-     <br/>
-     Pocoes
-     <br/>
-     Planalto
-     <br/>
-     Vitória da Conquista
-     <br/>
-     Mucuge
-     <br/>
-     Itaite
-     <br/>
-     Itaberaba
-     <br/>
-     Arogoim
+     Note: If the recommended settings aren’t proper for you, feel free to adjust them.
     </p>
    </div>
    <div class="clear">
@@ -107,16 +95,243 @@
  </p>
  <hr/>
 </article>
-<br><br><br><center><a class="dmod" href="https://modsfile.com/1vyvhtz1sneb/mapa_ebr_1_51.scs.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
+<br><br><br><center><a class="dmod" href="https://modsfile.com/2jb8nk6a7zv5/1_51_ETS2_Revamped_Dynamic_Suspension_6_4_5_3.zip.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
     </item>
     <item>
-      <title>East Genesis Frameless Dump v1.51 ATS</title>
-      <link>http://www.ets2world.com/east-genesis-frameless-dump-v1-51-ats/</link>
-      <description><![CDATA[<article class="post-341441 post type-post status-publish format-standard has-post-thumbnail hentry category-ats-trailers tag-ats">
+      <title>High Quality Dashboard – DAF 2021 XG &amp; XG+ Blind Spot update v2.6.3 ETS2</title>
+      <link>http://www.ets2world.com/high-quality-dashboard-daf-2021-xg-xg-blind-spot-update-v2-6-3-ets2/</link>
+      <description><![CDATA[<article class="post-341492 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-other tag-changelog-v2 tag-cruise-control tag-daf tag-eu">
  <div class="post-inner group">
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="720" loading="lazy" sizes="(max-width: 1280px) 100vw, 1280px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/east-genesis-frameless-dump-v1.51-ats-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/09/east-genesis-frameless-dump-v1.51-ats-1.jpg 1280w, http://www.ets2world.com/wp-content/uploads/2024/09/east-genesis-frameless-dump-v1.51-ats-1-300x169.jpg 300w, http://www.ets2world.com/wp-content/uploads/2024/09/east-genesis-frameless-dump-v1.51-ats-1-1024x576.jpg 1024w, http://www.ets2world.com/wp-content/uploads/2024/09/east-genesis-frameless-dump-v1.51-ats-1-768x432.jpg 768w" width="1280"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="162" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/high-quality-dashboard-n-daf-2021-xg-a-xg-2B-blind-spot-update-v2.6.3-ets2-1.jpg" width="276"/>
+    <img alt="ETS2 Other" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+   </div>
+  </center>
+  <div class="clear">
+  </div>
+  <div class="entry">
+   <div class="entry-inner">
+    <p>
+     <center>
+      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/high-quality-dashboard-n-daf-2021-xg-a-xg-2B-blind-spot-update-v2.6.3-ets2-1.jpg">
+       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/high-quality-dashboard-n-daf-2021-xg-a-xg-2B-blind-spot-update-v2.6.3-ets2-1-160x160.jpg" width="160"/>
+      </a>
+      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/high-quality-dashboard-n-daf-2021-xg-a-xg-2B-blind-spot-update-v2.6.3-ets2-2.jpg">
+       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/high-quality-dashboard-n-daf-2021-xg-a-xg-2B-blind-spot-update-v2.6.3-ets2-2-160x160.jpg" width="160"/>
+      </a>
+     </center>
+    </p>
+    <center>
+    </center>
+    <hr/>
+    <p>
+     <strong>
+      High Quality Dashboard – DAF 2021 XG & XG+ Blind Spot update v2.6.3 ETS2
+     </strong>
+    </p>
+    <p>
+     This modification adds quality and makes the dashboard of the New Generation DAF 2021 XG & XG+ more realistic.
+    </p>
+    <p>
+     <strong>
+      Visual changes:
+     </strong>
+     <br/>
+     – Improved dashboard text size
+     <br/>
+     – Added some visual elements (speed limit indicator, refill in about, etc)
+     <br/>
+     – Added missing indicator for speed (EU version)
+     <br/>
+     – Added missing indicator for RPM (EU & UK version)
+     <br/>
+     – New Cruise Control Indicator
+     <br/>
+     – Added Android Auto “CoolWalk” feature on navigation
+    </p>
+    <p>
+     <strong>
+      Add-on:
+     </strong>
+     <br/>
+     – Google Maps Navigation – Dark Version
+     <br/>
+     – DAF 2021 Reworked by Jasper (included by default)
+    </p>
+    <p>
+     Connection order: Any order! Doesn’t create incompatibilities!
+     <br/>
+     Mod compatibility: New Generation DAF 2021 XG & XG+
+    </p>
+    <p>
+     <strong>
+      Changelog V2.5:
+     </strong>
+     <br/>
+     – Added fully working “AdBlue Gauge” on the fuel panel
+     <br/>
+     – Fixed some overlay issues when Cruise Control was activated
+     <br/>
+     – Added full compatibility for DAF 2021 Reworked by Jasper (including tachograph)
+    </p>
+    <p>
+     <strong>
+      Changelog V2.6.3.:
+     </strong>
+     <br/>
+     – Added blind spot support
+    </p>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+ </div>
+ <center>
+ </center>
+ <br/>
+ <br/>
+ <hr>
+ <strong>
+  How to install ETS2 mods or ATS Mods
+ </strong>
+ <p>
+  In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
+ </p>
+ <hr/>
+</article>
+<br><br><br><center><a class="dmod" href="https://modsfile.com/1oslxdhaso8w/1.51_120KM_HQ_Dashboard_DAF_2021_V2_6_3.zip.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
+    </item>
+    <item>
+      <title>Romania Map 1:1 v0.1b ETS2</title>
+      <link>http://www.ets2world.com/romania-map-11-v0-1b-ets2/</link>
+      <description><![CDATA[<article class="post-341486 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps tag-romania-map">
+ <div class="post-inner group">
+  <center>
+   <div class="thumbnail">
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="920" loading="lazy" sizes="(max-width: 1919px) 100vw, 1919px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/romania-map-1-1-v0.1b-ets2-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/09/romania-map-1-1-v0.1b-ets2-1.jpg 1919w, http://www.ets2world.com/wp-content/uploads/2024/09/romania-map-1-1-v0.1b-ets2-1-300x144.jpg 300w, http://www.ets2world.com/wp-content/uploads/2024/09/romania-map-1-1-v0.1b-ets2-1-1024x491.jpg 1024w, http://www.ets2world.com/wp-content/uploads/2024/09/romania-map-1-1-v0.1b-ets2-1-768x368.jpg 768w, http://www.ets2world.com/wp-content/uploads/2024/09/romania-map-1-1-v0.1b-ets2-1-1536x736.jpg 1536w" width="1919"/>
+    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+   </div>
+  </center>
+  <div class="clear">
+  </div>
+  <div class="entry">
+   <div class="entry-inner">
+    <p>
+     <center>
+      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/romania-map-1-1-v0.1b-ets2-1.jpg">
+       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/romania-map-1-1-v0.1b-ets2-1-160x160.jpg" width="160"/>
+      </a>
+      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/romania-map-1-1-v0.1b-ets2-2.jpg">
+       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/romania-map-1-1-v0.1b-ets2-2-160x160.jpg" width="160"/>
+      </a>
+      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/romania-map-1-1-v0.1b-ets2-3.jpg">
+       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/romania-map-1-1-v0.1b-ets2-3-160x160.jpg" width="160"/>
+      </a>
+      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/romania-map-1-1-v0.1b-ets2-4.jpg">
+       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/romania-map-1-1-v0.1b-ets2-4-160x160.jpg" width="160"/>
+      </a>
+      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/romania-map-1-1-v0.1b-ets2-5.jpg">
+       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/romania-map-1-1-v0.1b-ets2-5-160x160.jpg" width="160"/>
+      </a>
+     </center>
+    </p>
+    <center>
+    </center>
+    <hr/>
+    <p>
+     <strong>
+      Romania Map 1:1 v0.1b ETS2
+     </strong>
+    </p>
+    <p>
+     Version 0.1b update for 1.51
+    </p>
+    <p>
+     The map is based around Galați and Brăila cities, which are close to each other (15-20km).
+     <br/>
+     Building a realistic map with realistic assets.
+    </p>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+ </div>
+ <center>
+ </center>
+ <br/>
+ <br/>
+ <hr>
+ <strong>
+  How to install ETS2 mods or ATS Mods
+ </strong>
+ <p>
+  In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
+ </p>
+ <hr/>
+</article>
+<br><br><br><center><a class="dmod" href="https://modsfile.com/n8fxgnm6y450/romania_map_1_1_v0_1b_1_51.zip.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
+    </item>
+    <item>
+      <title>Kriechbaum MP8 sounds for Mack Pinnacle v1.0 ATS</title>
+      <link>http://www.ets2world.com/kriechbaum-mp8-sounds-for-mack-pinnacle-v1-0-ats/</link>
+      <description><![CDATA[<article class="post-341484 post type-post status-publish format-standard has-post-thumbnail hentry category-ats-sounds tag-mack-pinnacle">
+ <div class="post-inner group">
+  <center>
+   <div class="thumbnail">
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="421" loading="lazy" sizes="(max-width: 755px) 100vw, 755px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/kriechbaum-mp8-sounds-for-mack-pinnacle-v1.0-ats-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/09/kriechbaum-mp8-sounds-for-mack-pinnacle-v1.0-ats-1.jpg 755w, http://www.ets2world.com/wp-content/uploads/2024/09/kriechbaum-mp8-sounds-for-mack-pinnacle-v1.0-ats-1-300x167.jpg 300w" width="755"/>
+    <img alt="ATS Sounds" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ats3.png"/>
+   </div>
+  </center>
+  <div class="clear">
+  </div>
+  <div class="entry">
+   <div class="entry-inner">
+    <p>
+     <center>
+     </center>
+    </p>
+    <center>
+    </center>
+    <hr/>
+    <p>
+     <strong>
+      Kriechbaum MP8 sounds for Mack Pinnacle v1.0 ATS
+     </strong>
+    </p>
+    <p>
+     Adds Mack MP8 sounds by Kriechbaum to the SCS Mack Pinnacle
+     <br/>
+     Tested on 1.51 version
+    </p>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+ </div>
+ <center>
+ </center>
+ <br/>
+ <br/>
+ <hr>
+ <strong>
+  How to install ETS2 mods or ATS Mods
+ </strong>
+ <p>
+  In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
+ </p>
+ <hr/>
+</article>
+<br><br><br><center><a class="dmod" href="https://modsfile.com/fwaq17dnnj4o/scsmackpinnaclekriech.scs.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
+    </item>
+    <item>
+      <title>ARCTIC LOGGING TRAILERS v6.3 ATS 1.50-1.51.x</title>
+      <link>http://www.ets2world.com/arctic-logging-trailers-v6-3-ats-1-50-1-51-x/</link>
+      <description><![CDATA[<article class="post-341480 post type-post status-publish format-standard has-post-thumbnail hentry category-ats-trailers tag-ats tag-fps tag-full">
+ <div class="post-inner group">
+  <center>
+   <div class="thumbnail">
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="1080" loading="lazy" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/arctic-logging-trailers-v6.3-ats-1.50-1.51.x-ats-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/09/arctic-logging-trailers-v6.3-ats-1.50-1.51.x-ats-1.jpg 1920w, http://www.ets2world.com/wp-content/uploads/2024/09/arctic-logging-trailers-v6.3-ats-1.50-1.51.x-ats-1-300x169.jpg 300w, http://www.ets2world.com/wp-content/uploads/2024/09/arctic-logging-trailers-v6.3-ats-1.50-1.51.x-ats-1-1024x576.jpg 1024w, http://www.ets2world.com/wp-content/uploads/2024/09/arctic-logging-trailers-v6.3-ats-1.50-1.51.x-ats-1-768x432.jpg 768w, http://www.ets2world.com/wp-content/uploads/2024/09/arctic-logging-trailers-v6.3-ats-1.50-1.51.x-ats-1-1536x864.jpg 1536w" width="1920"/>
     <img alt="ATS Trailers" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ats3.png"/>
    </div>
   </center>
@@ -126,11 +341,14 @@
    <div class="entry-inner">
     <p>
      <center>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/east-genesis-frameless-dump-v1.51-ats-1.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/east-genesis-frameless-dump-v1.51-ats-1-160x160.jpg" width="160"/>
+      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/arctic-logging-trailers-v6.3-ats-1.50-1.51.x-ats-1.jpg">
+       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/arctic-logging-trailers-v6.3-ats-1.50-1.51.x-ats-1-160x160.jpg" width="160"/>
       </a>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/east-genesis-frameless-dump-v1.51-ats-2.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/east-genesis-frameless-dump-v1.51-ats-2-160x160.jpg" width="160"/>
+      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/arctic-logging-trailers-v6.3-ats-1.50-1.51.x-ats-2.jpg">
+       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/arctic-logging-trailers-v6.3-ats-1.50-1.51.x-ats-2-160x160.jpg" width="160"/>
+      </a>
+      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/arctic-logging-trailers-v6.3-ats-1.50-1.51.x-ats-3.jpg">
+       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/arctic-logging-trailers-v6.3-ats-1.50-1.51.x-ats-3-160x160.jpg" width="160"/>
       </a>
      </center>
     </p>
@@ -139,37 +357,87 @@
     <hr/>
     <p>
      <strong>
-      East Genesis Frameless Dump v1.51 ATS
+      ARCTIC LOGGING TRAILERS v6.3 ATS 1.50-1.51.x
      </strong>
     </p>
     <p>
-     Dump Trailer East Genesis – this modification adds a high quality owned trailer adapted to the latest ATS game. The more aerodynamic design is easier to clean, and will not show any pings and dings on the outside like external post-style walls. The outboard Genesis design provides more capacity than traditional external post trailers. The aerodynamic design has unique 2-inch-thick, double-wall extruded aluminum panels, robotically-welded vertically inside and out for superior strength and resistance to bowing. It protects the outer wall from dents, improving resale value – keeping your trailer looking good.
+     THIS IS A LITE VERSION.
     </p>
     <p>
      <strong>
-      Features Dump Trailer East Genesis:
+      FULL version includes:
      </strong>
      <br/>
-     – Standalone trailer;
+     Triple trailers.
      <br/>
-     – Ownable;
+     Two axles trailers.
      <br/>
-     – Cable Support
+     Trailers in traffic (all variants).
      <br/>
-     – Advanced coupling
+     Custom metallic paint.
      <br/>
-     – the choice of color;
+     Grill guards as accessory (7 variants).
      <br/>
-     – the model has own wheels;
-     <br/>
-     – working brake and reverse lights;
-     <br/>
-     – detailed 3D model.
+     More flatbed cargos.
     </p>
     <p>
-     Compatible with 1.51.x
+     <strong>
+      v6.3 Changes:
+     </strong>
      <br/>
-     Fixed obsolete files
+     Fixed crash on ATS 1.51 with flatbed cargos.
+     <br/>
+     Fixed reflex parts.
+     <br/>
+     Added missing cargo icons.
+     <br/>
+     Added license plate lights.
+     <br/>
+     Fixed flatbed trailer in traffic.
+     <br/>
+     Fixed some models that do not show in traffic.
+     <br/>
+     Lightened models (FPS increase).
+     <br/>
+     Include Arkansas DLC companies.
+     <br/>
+     Other minor corrections.
+    </p>
+    <p>
+     <strong>
+      FEATURES:
+     </strong>
+     <br/>
+     Ownables, freight market & traffic (all variants).
+     <br/>
+     Single, double & triple configurations.
+     <br/>
+     Two, three, and five axles.
+     <br/>
+     Custom metallic paint.
+     <br/>
+     Protection grilles.
+     <br/>
+     Logger and flatbed chassis.
+     <br/>
+     6 colors variants.
+     <br/>
+     Trailer cables.
+     <br/>
+     Advanced coupling.
+     <br/>
+     Reflective stripes.
+     <br/>
+     Clean gamelog.
+    </p>
+    <p>
+     MOD PROTECTED BY CREATIVE COMMONS LICENSE V4.0.
+     <br/>
+     YOU CAN SHARE FREELY BUT ONLY USING THE ORIGINAL LINKS.
+     <br/>
+     UPLOAD THE FILES TO OTHER SERVERS IS NOT PERMITTED.
+     <br/>
+     ARCTIC LOGS TRANSPORT TRAILERS.
     </p>
    </div>
    <div class="clear">
@@ -189,235 +457,7 @@
  </p>
  <hr/>
 </article>
-<br><br><br><center><a class="dmod" href="https://modsfile.com/rd20ucn5vnl7/east_genesis_frameless_dump_ats_1_51.scs.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
-    </item>
-    <item>
-      <title>Roextended 4.3 – Rusmap 2.51 Road Connection v1.51 ETS2</title>
-      <link>http://www.ets2world.com/roextended-4-3-rusmap-2-51-road-connection-v1-51-ets2/</link>
-      <description><![CDATA[<article class="post-341438 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps tag-roextended-map">
- <div class="post-inner group">
-  <center>
-   <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="508" loading="lazy" sizes="(max-width: 1104px) 100vw, 1104px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/roextended-4.3-rusmap-2.51-road-connection-v1.51-ets2-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/09/roextended-4.3-rusmap-2.51-road-connection-v1.51-ets2-1.jpg 1104w, http://www.ets2world.com/wp-content/uploads/2024/09/roextended-4.3-rusmap-2.51-road-connection-v1.51-ets2-1-300x138.jpg 300w, http://www.ets2world.com/wp-content/uploads/2024/09/roextended-4.3-rusmap-2.51-road-connection-v1.51-ets2-1-1024x471.jpg 1024w, http://www.ets2world.com/wp-content/uploads/2024/09/roextended-4.3-rusmap-2.51-road-connection-v1.51-ets2-1-768x353.jpg 768w" width="1104"/>
-    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
-   </div>
-  </center>
-  <div class="clear">
-  </div>
-  <div class="entry">
-   <div class="entry-inner">
-    <p>
-     <center>
-     </center>
-    </p>
-    <center>
-    </center>
-    <hr/>
-    <p>
-     <strong>
-      Roextended 4.3 – Rusmap 2.51 Road Connection v1.51 ETS2
-     </strong>
-    </p>
-    <p>
-     This mod adds road connection for Roextended Map 4.3 and Rusmap 2.51
-     <br/>
-     Place this above both maps
-    </p>
-    <p>
-     Game version: 1.51
-    </p>
-   </div>
-   <div class="clear">
-   </div>
-  </div>
- </div>
- <center>
- </center>
- <br/>
- <br/>
- <hr>
- <strong>
-  How to install ETS2 mods or ATS Mods
- </strong>
- <p>
-  In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
- </p>
- <hr/>
-</article>
-<br><br><br><center><a class="dmod" href="https://modsfile.com/isz2spb4spde/roex43rm251.scs.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
-    </item>
-    <item>
-      <title>RusMap 2.51 1.51 ETS2</title>
-      <link>http://www.ets2world.com/rusmap-2-51-1-51-ets2/</link>
-      <description><![CDATA[<article class="post-341431 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps tag-lodeynoye-pole tag-russia-bryansk tag-veliky-novgorod tag-vyshny-volochek">
- <div class="post-inner group">
-  <center>
-   <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="476" loading="lazy" sizes="(max-width: 1284px) 100vw, 1284px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/rusmap-2.51-for-ets2-1.51-ets2-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/09/rusmap-2.51-for-ets2-1.51-ets2-1.jpg 1284w, http://www.ets2world.com/wp-content/uploads/2024/09/rusmap-2.51-for-ets2-1.51-ets2-1-300x111.jpg 300w, http://www.ets2world.com/wp-content/uploads/2024/09/rusmap-2.51-for-ets2-1.51-ets2-1-1024x380.jpg 1024w, http://www.ets2world.com/wp-content/uploads/2024/09/rusmap-2.51-for-ets2-1.51-ets2-1-768x285.jpg 768w" width="1284"/>
-    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
-   </div>
-  </center>
-  <div class="clear">
-  </div>
-  <div class="entry">
-   <div class="entry-inner">
-    <p>
-     <center>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/rusmap-2.51-for-ets2-1.51-ets2-1.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/rusmap-2.51-for-ets2-1.51-ets2-1-160x160.jpg" width="160"/>
-      </a>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/rusmap-2.51-for-ets2-1.51-ets2-2.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/rusmap-2.51-for-ets2-1.51-ets2-2-160x160.jpg" width="160"/>
-      </a>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/rusmap-2.51-for-ets2-1.51-ets2-3.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/rusmap-2.51-for-ets2-1.51-ets2-3-160x160.jpg" width="160"/>
-      </a>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/rusmap-2.51-for-ets2-1.51-ets2-4.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/rusmap-2.51-for-ets2-1.51-ets2-4-160x160.jpg" width="160"/>
-      </a>
-     </center>
-    </p>
-    <center>
-    </center>
-    <hr/>
-    <p>
-     <strong>
-      RusMap 2.51 1.51 ETS2
-     </strong>
-    </p>
-    <p>
-     <strong>
-      New cities in Russia:
-     </strong>
-     <br/>
-     Bryansk, Valdai, Velikiye Luki, Veliky Novgorod, Velizh, Volokolamsk, Vyshny Volochek, Vyazma, Kaluga, Klin, Moscow, Nevel, Obninsk, Ostashkov, Porkhov, Rzhev, Roslavl, Smolensk, Tver, Kholm, Yukhnov, Tula, Kursk, Orel, Voronezh, Kolomna, Tambov, Borisoglebsk, Volgograd, Volzhsky, Krasnoslobodsk, Saratov, Engels, Lodeynoye Pole, Peterozavodsk, Medvezhyegorsk, Kem, Zelenoborsky, Sortavala, Priozersk, Suoyarvi, Tosno, Razmetelevo, Murmansk, Monchegorsk, Kandalaksha, Segezha, Alakurtti, Kolpino, Kola.
-    </p>
-    <p>
-     <strong>
-      New cities in the Republic of Belarus:
-     </strong>
-     <br/>
-     Cities of the Republic of Belarus: Baranovichi, Bobruisk, Brest, Vitebsk, Gomel, Minsk, Mogilev, Mozyr, Mstislavl, Orsha, Pinsk, Slutsk, Lida, Grodno, Slonim, Volkovysk, Polatsk, Glubokoe.
-    </p>
-    <p>
-     <strong>
-      New roads in Russia:
-     </strong>
-     <br/>
-     86K-3, A101, A108, A111, A116, A119, A120, A123, A141, A144, A240, E20, M3, M5, M9, M10, M20, P21, P39, P47, P48, P50, P51, P57, P87, P89, P108, R115, P132, P228, R-236, R-298.
-    </p>
-    <p>
-     <strong>
-      New roads in the Republic of Belarus:
-     </strong>
-     <br/>
-     M2, M4, M5, M8, M10, P4, P15, P17, P21, P23, P26, P43, P96, P112.
-    </p>
-    <p>
-     Required All DLC’s
-     <br/>
-     Compatibility: 1.51
-    </p>
-   </div>
-   <div class="clear">
-   </div>
-  </div>
- </div>
- <center>
- </center>
- <br/>
- <br/>
- <hr>
- <strong>
-  How to install ETS2 mods or ATS Mods
- </strong>
- <p>
-  In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
- </p>
- <hr/>
-</article>
-<br><br><br><center><a class="dmod" href="https://modsfile.com/d24jo89vt8g2/rusmap_v_2_51_for_ets2_1_51.rar.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
-    </item>
-    <item>
-      <title>Windscreen Sticker v1.0 ETS2</title>
-      <link>http://www.ets2world.com/windscreen-sticker-v1-0-ets2/</link>
-      <description><![CDATA[<article class="post-341420 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-partstuning tag-supported-versions">
- <div class="post-inner group">
-  <center>
-   <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="1024" loading="lazy" sizes="(max-width: 1280px) 100vw, 1280px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/windscreen-sticker-v1.0-ets2-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/09/windscreen-sticker-v1.0-ets2-1.jpg 1280w, http://www.ets2world.com/wp-content/uploads/2024/09/windscreen-sticker-v1.0-ets2-1-300x240.jpg 300w, http://www.ets2world.com/wp-content/uploads/2024/09/windscreen-sticker-v1.0-ets2-1-1024x819.jpg 1024w, http://www.ets2world.com/wp-content/uploads/2024/09/windscreen-sticker-v1.0-ets2-1-768x614.jpg 768w" width="1280"/>
-    <img alt="ETS2 Parts/Tuning" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
-   </div>
-  </center>
-  <div class="clear">
-  </div>
-  <div class="entry">
-   <div class="entry-inner">
-    <p>
-     <center>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/windscreen-sticker-v1.0-ets2-1.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/windscreen-sticker-v1.0-ets2-1-160x160.jpg" width="160"/>
-      </a>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/windscreen-sticker-v1.0-ets2-2.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/windscreen-sticker-v1.0-ets2-2-160x160.jpg" width="160"/>
-      </a>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/09/windscreen-sticker-v1.0-ets2-3.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/09/windscreen-sticker-v1.0-ets2-3-160x160.jpg" width="160"/>
-      </a>
-     </center>
-    </p>
-    <center>
-    </center>
-    <hr/>
-    <p>
-     <strong>
-      Windscreen Sticker v1.0 ETS2
-     </strong>
-    </p>
-    <p>
-     <strong>
-      Windscreen Sticker for:
-     </strong>
-     <br/>
-     – DAF XF 105
-     <br/>
-     – DAF XF E6
-    </p>
-    <p>
-     Supported Versions 1.35 – 1.51
-    </p>
-    <p>
-     <strong>
-      HOW TO USE SKIN MOD:
-     </strong>
-     <br/>
-     01 ) COPY SCS FILE
-     <br/>
-     02 ) PASTE YOUR ETS2 MOD FOLDER
-     <br/>
-     03 ) OPEN THE ETS2 GAME AND ACTIVITY MOD
-     <br/>
-     04 ) ENJOI
-    </p>
-   </div>
-   <div class="clear">
-   </div>
-  </div>
- </div>
- <center>
- </center>
- <br/>
- <br/>
- <hr>
- <strong>
-  How to install ETS2 mods or ATS Mods
- </strong>
- <p>
-  In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
- </p>
- <hr/>
-</article>
-<br><br><br><center><a class="dmod" href="https://modsfile.com/yfr3lndsurpd/Windscreen_Sticker.scs.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
+<br><br><br><center><a class="dmod" href="https://modsfile.com/warrwwkn2ynt/ats_1_51_trailer_arctic_logging_v6_3_lite_scs.scs.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
     </item>
   </channel>
 </rss>
