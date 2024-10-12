@@ -1,1612 +1,6 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
-      <title>COMMUNITY UPDATE 262</title>
-      <link>https://rust.facepunch.com/news/community-update-262/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     COMMUNITY UPDATE 262
-    </h1>
-    <p editname="Summary" type="text">
-     50% off Rust, Lootroom 3D Printed Merch, fan-made Rust lego sets, Twitch drops, and more!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      16 July 2024
-     </div>
-     <a class="tag community" href="?category=community">
-      Community
-     </a>
-    </div>
-    <div class="author">
-     <div class="card user-card">
-      <div class="image">
-       <img src="https://files.facepunch.com/s/afe3bc0ea811.png"/>
-      </div>
-      <div class="body">
-       <div class="title has-text-white">
-        Errn
-       </div>
-       <div class="position">
-        Community Support
-       </div>
-       <div class="country">
-        United States
-       </div>
-       <div class="links">
-        <a class="button small" href="https://youtu.be/dQw4w9WgXcQ" icon="home">
-         web
-        </a>
-        <a class="button small" href="https://twitter.com/ErrnieGerrn" icon="chat">
-         twitter
-        </a>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="Facepunchs15thbirthday">
-  <div class="section" like-handler="LikeBlogSection" like-id="84391" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Facepunch's 15th birthday!
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <a href="https://store.steampowered.com/developer/facepunch">
-       <img src="https://files.facepunch.com/ashcook/1b1211b1/fp_15%20-%2050OFF%20-16x9.png"/>
-      </a>
-     </div>
-     <div>
-      <h2>
-       Happy Birthday to us!
-      </h2>
-      Facepunch officially turned 15 not too long ago and we wanted to celebrate the occasion by making all of our games 50% off - including Rust and all Rust DLCs!
-      <br/>
-      <br/>
-      You can get your discounts on all Facepunch games through the
-      <a class="" href="https://store.steampowered.com/developer/facepunch" target="https://store.steampowered.com/developer/facepunch">
-       Steam
-      </a>
-      store.
-      <p>
-       Rewind to 2009, when Garry, released Garry's Mod: a sandbox game with no rules, from a mod, to officially listing it on Steam. No objectives, just pure, unadulterated freedom. Want to create a giant robot out of bathtubs? Go for it. Fancy launching a thousand explosive barrels into the sky? Why not! Garry's Mod was, and still is, the ultimate playground for gamers with a wild imagination.
-       <br/>
-       <br/>
-       Fast forward to 2013, and we began work on Rust. This isn’t just any survival game; it’s a brutal, post-apocalyptic showdown where you start with nothing but a rock and a dream. Gathering resources, building shelters, forging alliances—or betraying them—Rust has taken survival gaming to a whole new level. It's a place where the only rule is: trust no one, but have fun trying.
-       <br/>
-       <br/>
-       And now, in 2024, we're working on our biggest update for Rust yet, with more Twitch events planned, and even more cool things to come to the game for all types of players. There has never been a better time to play Rust.
-      </p>
-      <br/>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="Lootroom3DPrints">
-  <div class="section" like-handler="LikeBlogSection" like-id="84392" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Lootroom 3D Prints
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://lootroom.com/collections/rust-general">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcook/1b1511b1/rust_x_lootroom_announcement-compressed.jpg"/>
-      </a>
-     </div>
-     <h2>
-      <br/>
-      It's Official - You Can Now Get Licensed 3D Printed Rust Items!
-     </h2>
-     <div>
-      After years of watching from the side lines, we're proud to officially announce that we've partnered with
-      <a class="" href="https://lootroom.com/collections/all">
-       Lootroom
-      </a>
-      !
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Lootroom are now our partner for fully licensed 3D printed guns and more. So we're now working closer with them, providing this lovely and dedicated team with in-game assets to ensure that they continue to deliver high quality products to Rust fans.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       Here's Lootroom's story:
-      </b>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <i>
-       "It's mid-2018 and during an exciting Rust weekend with good friends, we kept joking about the fact that furnaces in Rust always have to be running. This gave rise to the desire to have a small real Rust furnace on the desk - as a reminder of this great wipe. It didn't take long and it became clear: a 3D printer was needed!
-      </i>
-     </div>
-     <div>
-      <i>
-       <br/>
-      </i>
-     </div>
-     <div>
-      <i>
-       The test phase went well and we were so impressed with the result that we published the furnace on various platforms and received a lot of positive feedback. When the first purchase requests came in, we knew that the whole thing had potential and that there were many Rust enthusiasts around the world who shared our interest in IRL loot.
-      </i>
-     </div>
-     <div>
-      <i>
-       <br/>
-      </i>
-     </div>
-     <div>
-      <i>
-       After some preparation, a first small online store was created and the perfect name with the necessary domains was also found - Lootroom. Initially, our store only consisted of the furnace in various sizes, followed by the Eoka and the P2. But a
-      </i>
-      <i>
-       fter countless requests, the Rust AK default was added in May 2020 after a slight delay due to Covid-19 - a real monster compared to the smaller products we had previously offered. For us, this also involved a learning and conversion process, as our previous way of working was geared towards the smaller items. For example, we needed new shipping boxes.
-      </i>
-     </div>
-     <div>
-      <i>
-       <br/>
-      </i>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcook/1b1511b1/2.jpg"/>
-     </div>
-     <div>
-      <i>
-       Lone Design, the online store for Rust server plugins, became aware of us quite early on and we were also able to offer our products there - and thus reach even more Rust players. At the same time, we also set up a successful Etsy store and have since broken the magic mark of 1k sales and 100k turnover.
-       <br/>
-       <br/>
-      </i>
-     </div>
-     <div>
-      <i>
-       As we became better known, we received more and more requests for different skins and other irl loot. We created internal ranking lists with the most requested items, which we then gradually worked through. Over the years, we have continuously expanded our store and now stock more than 70 different Rust items.
-      </i>
-     </div>
-     <div>
-      <i>
-       <br/>
-      </i>
-     </div>
-     <div>
-      <i>
-       A special milestone was achieved in September 2021: together with one of the most successful Rust content creators ever - Blooprint - we had his Blooprint SAR on offer for a limited time. The demand was overwhelming and it gave us great pleasure to see how much gamers around the world celebrated our products.
-      </i>
-     </div>
-     <div>
-      <i>
-       <br/>
-      </i>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery>
-       <img src="https://files.facepunch.com/Errn/1b1511b1/PXL_20230106_191127996.PORTRAIT.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b1511b1/PXL_20230106_191221920.PORTRAIT.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b1511b1/PXL_20230106_191200591.PORTRAIT.jpg"/>
-      </gallery>
-     </div>
-     <div>
-     </div>
-     <div>
-      <i>
-       We invested in more and more modern 3D printers, a new online presence and founded the official Lootroom GmbH in September 2022, based in Nuremberg, Germany.
-      </i>
-      <i>
-       We now operate more than 20 3D printers that print IRL loot almost continuously. Our factory is streamed live on Twitch, Kick and YouTube to give anyone interested an insight into the creation process.
-      </i>
-      <br/>
-     </div>
-     <div>
-      <i>
-       <br/>
-      </i>
-     </div>
-     <div>
-      <i>
-       Naturally, we prioritize the quality of our handmade products while also maintaining a consistent stock to ensure prompt shipping. Customer service and engagement with the Rust community are equally important to us. We have already shipped to over 45 countries around the world and look forward to every new customer that we can make happy with our IRL Loot. We put a lot of passion into our unique products.
-      </i>
-     </div>
-     <div>
-      <i>
-       All of this now leads to the possibility to offer our products as officially licensed Rust IRL loot. We are very hyped and incredibly excited to be working with our friends at Facepunch."
-      </i>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcook/1b1511b1/28.jpg"/>
-     </div>
-     <div>
-      Please go and show them some love, and place an order for your favourite weapon or prop.
-      <br/>
-      <br/>
-      They look fantastic as decorative items and we have many around the office and a few of us even have them up in our homes!
-      <i>
-       <br/>
-      </i>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="TwitchDrops">
-  <div class="section" like-handler="LikeBlogSection" like-id="84396" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Twitch Drops
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <h2>
-      FancyOrb's Global Warfare 2!
-     </h2>
-     <div>
-      <a class="selected" href="https://x.com/FancyOrb_/status/1805286214238384618" style="background-color: rgba(20, 19, 18, 0.9);">
-       FancyOrb's
-      </a>
-      <span style="background-color: rgba(20, 19, 18, 0.9);">
-       Global Warfare is soon here, with all your favorite creators will be involved
-      </span>
-      <a class="" href="https://twitch.facepunch.com/" style="background-color: rgba(20, 19, 18, 0.9);">
-       with Twitch drops
-      </a>
-      <span style="background-color: rgba(20, 19, 18, 0.9);">
-       !
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <a href="https://twitch.facepunch.com/#drops">
-       <img src="https://files.facepunch.com/Errn/1b0411b1/td_33-blog-image%20-rvsd.jpg"/>
-      </a>
-     </div>
-     <div>
-      <div style="min-height: 16px; outline: rgba(139, 195, 74, 0.3) dashed 1px;">
-       Drops will be available across the entire
-       <a class="selected" href="https://www.twitch.tv/directory/category/rust">
-        Rust category on Twitch
-       </a>
-       .
-      </div>
-      <div style="min-height: 16px;">
-       <br/>
-      </div>
-      <div style="min-height: 16px;">
-       Be sure to get synced at
-       <a class="" href="https://twitch.facepunch.com/connect">
-        https://twitch.facepunch.com/connect
-       </a>
-       to claim your skins!
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="LegoRust">
-  <div class="section" like-handler="LikeBlogSection" like-id="84394" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Lego Rust
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       <a class="" href="https://www.reddit.com/r/playrust/comments/1dnejt6/i_made_3_rust_lego_sets_as_presents_for_my/">
-        Reddit user ABRISSBIRNE27
-       </a>
-       showing off some epic Rust themed lego sets they made with rebrickable.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Wonder if we could convince Lego to do something official?
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/Errn/1b1511b1/b6jd16oo2j8d1.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="grid">
-       <img src="https://files.facepunch.com/Errn/1b1511b1/24thuw2q2j8d1.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b1511b1/0w436epq2j8d1.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b1511b1/p0341ilp2j8d1.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b1511b1/gzzxp6bm2j8d1.jpg"/>
-      </gallery>
-     </div>
-     <div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="Youtooz">
-  <div class="section" like-handler="LikeBlogSection" like-id="84395" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Youtooz
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We're starting to see everyone's
-      <a class="" href="https://youtooz.com/search?q=Rust">
-       Youtooz
-      </a>
-      figures reach their new homes and we're curious, do you keep yours in the box or do you let them out in the open?
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcook/1b1511b1/IMG_8282.jpg"/>
-     </div>
-     <div>
-      And where in your base are you placing your in-game items?
-      <br/>
-      <br/>
-      We loved working on these with Youtooz and we can't wait to show you what else we've got cooking up with them...
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcook/1b1511b1/20240715_101744.jpg"/>
-     </div>
-     <div>
-      <br/>
-      The limited edition run of the Heavy Scientist and the Hazmat figures ends soon -
-      <a class="" href="https://youtooz.com/collections/rust" target="https://youtooz.com/collections/rust">
-       get yours here!
-      </a>
-      <br/>
-      <br/>
-      And don't forget to tag
-      <a class="" href="https://x.com/playrust" target="https://x.com/playrust">
-       @playrust
-      </a>
-      and
-      <a class="" href="https://x.com/youtooz" target="https://x.com/youtooz">
-       @youtooz
-      </a>
-      in your pics!
-      <br/>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="NotAMedPen">
-  <div class="section" like-handler="LikeBlogSection" like-id="84393" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Not A Med Pen
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Just going to leave this here.
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allowfullscreen="true" frameborder="0" height="378" scrolling="no" src="https://clips.twitch.tv/embed?clip=YummyDistinctPonyFreakinStinkin-beHRM1fQG01MH2id&amp;parent=rust.facepunch.com" width="620">
-      </iframe>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="Showmethestuff">
-  <div class="section" like-handler="LikeBlogSection" like-id="84397" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Show me the stuff!
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       If you made something cool or saw something cool, reach out! Tag me on
-       <a class="selected" href="https://twitter.com/ErrnieGerrn">
-        X
-       </a>
-       or u/ErrnieGerrn
-       <a class="" href="https://www.reddit.com/r/playrust/" target="">
-        Reddit
-       </a>
-       .
-       <br/>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Cover image by
-       <a class="" href="https://www.instagram.com/magoos_rust_art/">
-        Magoo
-       </a>
-       !
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Tue, 16 Jul 2024 09:00:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Stay Alert</title>
-      <link>https://rust.facepunch.com/news/stay-alert/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Stay Alert
-    </h1>
-    <p editname="Summary" type="text">
-     New tin can alarm, zipline improvements, item buoyancy, vendor price adjustments, &amp; more QoL!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      01 August 2024
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="TinCanalarm">
-  <div class="section" like-handler="LikeBlogSection" like-id="84399" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Tin Can alarm
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month, we're adding the Tin Can Alarm, a new primitive trap made from hanging tin cans.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240729/tincan_alarm_02_1080p.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240729/tincan_alarm_06_1080p.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Crossing its wire will trigger the trap and cause a loud clatter, alerting anyone nearby to your presence.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      You can deploy it anywhere from your base to inside monuments. Use it strategically to cover access points and defend your positions.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Replicatedbushsounds">
-  <div class="section" like-handler="LikeBlogSection" like-id="84404" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Replicated bush sounds
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month, we are changing how the classic bush rustle sounds work. Bush sounds will now be audible to players around you. Just like with footsteps, you now need to pay attention to  making noise in bushes. As you'd expect: going slower through a bush makes a quieter sound than running through it.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240731/bush_sounds_01.jpg"/>
-     </div>
-     <div>
-      <br/>
-      This change will also cause the rustles made in hot air balloon tarps to be audible to players nearby, and operates in the same way as the bushes.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="UnderwaterItems">
-  <div class="section" like-handler="LikeBlogSection" like-id="84405" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Underwater Items
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20240730/item_underwater_fall.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-     </div>
-     <div>
-      Dropped items that end up in bodies of water will now sink more realistically instead of just dropping like they are still falling through air. As well as slowing down and getting shifted around by currents they will also emit some bubbles as they move and when they hit the ocean floor. This should make finding these items a little bit easier.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="ziplineimprovements">
-  <div class="section" like-handler="LikeBlogSection" like-id="84406" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       zipline improvements
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       We’ve made several changes to the powerline zipline system this month to make it a bit more pleasant to use.
-      </div>
-      <div>
-       <ul>
-        <li>
-         Ziplines will now pick the furthest possible destination instead of the closest
-        </li>
-        <li>
-         We’ve increased the maximum length a zipline can run from 150m to 185m
-        </li>
-        <li>
-         Ziplines can now terminate at a higher point on the powerline structure and will pick these higher destinations when possible, reducing the amount of climbing required to continue the zipline.
-        </li>
-        <li>
-         You can no longer get dismounted by trees when on a zipline. We already had several systems in place to prevent trees spawning in zipline paths, but it still happened very rarely.
-        </li>
-       </ul>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       These changes should result in longer, higher ziplines that are safer to use.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="NPCvendorPriceCHanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84407" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       NPC vendor Price CHanges
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       After looking over the data from last months wipe, it was clear that the dynamic vendor pricing system wasn’t operating as well as it could have. It tended to drop to 50% off all items relatively quickly in the wipe. We’ve made a couple of changes this month:
-      </div>
-      <div>
-       <ul>
-        <li>
-         Price changes now operate in real time rather than based on in-game time. This should be more understandable and will work correctly on servers that manipulate in-game time.
-        </li>
-        <li>
-         Price changes now take place every 5 real time hours. Last month the prices changed every 15 minutes in real time by default, so this will make the prices change much more slowly.
-        </li>
-       </ul>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       As usual we’ll keep an eye on this and make changes going forwards.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="qUALITYOFlIFECHANGES">
-  <div class="section" like-handler="LikeBlogSection" like-id="84403" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       qUALITY OF lIFE CHANGES
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <video autoplay="" class="lightbox-thumbnail" loop="">
-         <source src="https://files.facepunch.com/paddy/20240731/rust_train_barricade_blog.mp4"/>
-        </video>
-        <center>
-         <b>
-          Trains break barricades
-         </b>
-        </center>
-        <center>
-         Trains can break through barricades that are deployed too close to the tracks.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/motorbike_riding_01.jpg"/>
-        <center>
-         <b>
-          Bike fast turns
-         </b>
-        </center>
-        <center>
-         Hold the Crouch key while driving to perform a faster turn.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/sidecar_01.jpg"/>
-        <center>
-         <b>
-          Sidecar bike physics
-         </b>
-        </center>
-        <center>
-         Sidecar bikes now drive more like regular motorbikes.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240801/rust_horse_launchsite_01.jpg"/>
-        <center>
-         <b>
-          Horse terrain holes
-         </b>
-        </center>
-        <center>
-         Horses can now enter terrain holes - Train tunnels, the launch site ramp etc.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20221102/rust_prototype17_firstperson.jpg"/>
-        <center>
-         <b>
-          Fire mode switch
-         </b>
-        </center>
-        <center>
-         Switching your gun firemode will now play a sound.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230201/indst_storageadapter_01.jpg"/>
-        <center>
-         <b>
-          Storage Adaptors collision
-         </b>
-        </center>
-        <center>
-         Can now walk through Storage Adaptors attached to boxes.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b0111b1/hurtUI.jpg"/>
-        <center>
-         <b>
-          Hurt screen overlay toggle
-         </b>
-        </center>
-        <center>
-         Can now turn off the blood on screen when getting hurt.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240801/rust_codelock_01.jpg"/>
-        <center>
-         <b>
-          Saved code lock input
-         </b>
-        </center>
-        <center>
-         The last entered code is now saved between sessions.
-        </center>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="ShockbytexRustPartneredserverhosting">
-  <div class="section" like-handler="LikeBlogSection" like-id="84402" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Shockbyte x Rust - Partnered server hosting
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We're extremely excited to be partnering with
-      <a class="" href="https://shockbyte.com/partner/SBRUST">
-       Shockbyte
-      </a>
-      for managed server hosting rental!
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <a href="https://shockbyte.com/partner/SBRUST">
-       <img src="https://files.facepunch.com/ashcook/1b1811b1/Artboard%201.png"/>
-      </a>
-     </div>
-     <div>
-      After seeing their work with the Minecraft community, and hearing great things from existing Rust users, we've decided to partner with them in an official capacity - endorsing their stability and reliability. You can enjoy full file access, full customization, and oxide support.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://shockbyte.com/partner/SBRUST">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_01.jpg"/>
-      </a>
-     </div>
-     <h2>
-      Promotional Offer
-     </h2>
-     <div>
-      As part of the promo,
-      <b>
-       new customers
-      </b>
-      can receive an in-game Tool Cupboard skin by
-      <a class="" href="https://shockbyte.com/partner/SBRUST" target="https://shockbyte.com/partner/SBRUST">
-       renting a server
-      </a>
-      of any tier!  Once your new server is delivered Shockbyte will send you information about how to get your sweet freebie!
-      <br/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="medium">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_05.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_06.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_11.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_04.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_08.jpg"/>
-      </gallery>
-     </div>
-     <div>
-     </div>
-     <div>
-      Here's Shockbyte's story so far:
-      <br/>
-     </div>
-     <div>
-      <span id="docs-internal-guid-f2cfcf05-7fff-3784-f3d4-480de5c183e1">
-       <p dir="ltr">
-        <i>
-         <span>
-          "
-         </span>
-         Born from a passion for multiplayer gaming in March 2013, Shockbyte has become a leading provider of game server hosting. Over the past decade, our team of dedicated gamers has delivered reliable multiplayer servers worldwide to over 700 thousand customers. Since October 2019, we have supported the Rust community, continuously improving our services based on feedback. Our mission is to simplify game server hosting, allowing absolutely anyone to create their own multiplayer community with ease.
-        </i>
-       </p>
-      </span>
-      <span id="docs-internal-guid-413d4398-7fff-4bc2-6132-a66067700c5d">
-       <p dir="ltr">
-        <span>
-         <i>
-          With a growing network of global locations, comprehensive DDOS protection, and a commitment to 100% uptime, Shockbyte has become a trusted provider for Rust communities. We understand the complexities of server hosting and are beyond thrilled to now offer our expertise in a partnered capacity with Facepunch. We believe this is the most exciting era for gaming and are proud to provide community-driven hosting opportunities.
-         </i>
-        </span>
-       </p>
-      </span>
-      <span>
-       <p dir="ltr">
-        <span>
-         <i>
-          By harnessing player feedback we’ve recently completely revamped the hosting experience and we’re extremely excited to be soon rolling out this new modern experience alongside our partnership with Rust. Our top-tier global hardware and robust DDOS protection ensure the Rust community receives only the best multiplayer support. At Shockbyte, our focus is on delivering an enjoyable online experience, committed to innovation and excellence.
-         </i>
-        </span>
-        <i>
-         "
-        </i>
-       </p>
-      </span>
-      <div>
-       <br/>
-      </div>
-      We look forward to hearing about your experiences with their servers and you can get the skin by signing up to any level of hosting through
-      <a class="" href="https://shockbyte.com/partner/SBRUST" target="https://shockbyte.com/partner/SBRUST">
-       this link
-      </a>
-      or use code
-      <b>
-       SBRUST
-      </b>
-      at checkout!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="TwitchDrops">
-  <div class="section" like-handler="LikeBlogSection" like-id="84409" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Twitch Drops!
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Here we go again!  We have worked in a group of your favorite Twitch Streamers and Youtubers that you might recognize!
-     </div>
-     <h2>
-      August 8th - August 18th, 2024
-     </h2>
-     <div blocktype="image" class="edit-block" contenteditable="false" title="Get Synced!">
-      <a href="https://twitch.facepunch.com/">
-       <img src="https://files.facepunch.com/lewis/1b0111b1/td_33-blog-image-updated.jpg"/>
-      </a>
-     </div>
-     <div>
-      Be sure you get synced up at
-      <a class="" href="https://twitch.facepunch.com/" target="https://twitch.facepunch.com/">
-       https://twitch.facepunch.com/
-      </a>
-      so you don't miss out!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="change-blog-container">
-  <div class="container">
-   <div class="changes-container" id="changelist">
-    <div class="changes-sidebar">
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Patch Name
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Stay Alert
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Changelist Title
-      </span>
-      <a class="title" style="text-decoration: none;">
-       August Changelist
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <a class="date" style="text-decoration: none;">
-       <span class="icon">
-        <i>
-         date_range
-        </i>
-       </span>
-       Thursday, August 1, 2024
-      </a>
-     </div>
-     <div class="sidebar-section">
-     </div>
-    </div>
-    <div class="changes-body">
-     <div class="changes-row features">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         add_circle
-        </i>
-       </span>
-       <h3>
-        Features
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Tin Can Alarm
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Shockbyte Tool Cupboard skin
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row improvements">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         arrow_circle_up
-        </i>
-       </span>
-       <h3>
-        Improvements
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Bikes/Snowmobiles can now be driven onto the cargo containers and moved onto the cargo ship
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Bikes/Snowmobiles will now be able to go down elevators. This includes monument and player created elevators
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Travelling vendor speed increase. Adjustable by travellingvendor.max_speed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          'refillvitals' now removes and prevents bleed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Ammo stored on weapons is now viewable in the tooltip similar to how attachments are displayed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Items will now sink slowly in water and emit bubbles
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Dynamic vendor pricing is now calculated in real time, defaults to every 5 hours
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Ziplines show now travel further and will terminate at higher destinations when possible
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can no longer be killed by colliding with a tree while ziplining
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          The number text on item pickups should be larger when when picking up items with short names
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Implemented PR #56 on community UI - Improved countdown features (thanks to Kulltero)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Last code entered into code locks is now saved across restarts
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Player movement is no longer blocked by Storage Adaptors
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Trains can break through barricades that are deployed too close to the tracks
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Motorbike sidecars now control essentially the same as standard bikes, instead of feeling more sluggish
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Motorbikes can now perform a faster turn while holding the Crouch key
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Motorbike sidecar feels less jittery
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved the feel of reversing on a bike
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved wire slack controls, reducing accidental unwanted wire slack changes
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Optimized deployable flasher lights
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added the option to turn off the blood on screen effect (Settings &gt; Image Effects &gt; Hurt)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added effects.hurtoverleyapplylighting convar, prevents the blood on screen effect from getting affected by lighting
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row fixed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         handyman
-        </i>
-       </span>
-       <h3>
-        Fixed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Travelling vendors lights now come on at night, and stay off during the day
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Pagers in horses saddlebags no longer activate when you get on a horse
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Getting on top of a junkpile doesn't kick you for flyhack anymore
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Shelter/bag limit popup only shows after the building checks are done should they pass
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Patrol helicopter now does appropriate checks during orbital strafing, ensuring napalm rockets are used when they should be
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Travelling vendor now detects people on the bonnet correctly. Preventing an endless AFK zone
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Travelling vendor now plays the correct sound when you buy from it
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Patched memory leak from occurring when vending machines tried to be refilled
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Prevent console log spam when cargo ship is docking
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a walkway with incorrect collision resulting in blocked bullets (affected Dome and Junkyard mostly)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a pillar at power substations and trainyard using an incorrect shadow caster
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed not being able to use sprays from the Spray Can on Shipping Container walls
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to clip into the Cargo Ship by sleeping or swimming in the Harbor canal
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed “Tackle the Day” quest soft locking if player inventory was full
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to destroy vehicles by pushing them into a double doorway and placing down a door
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being kicked for packet flooding when standing in range of specific deployables (couches/beds mostly) and looking at an IO entity while holding the wire tool at high framerates
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to mount Attack Helicopters through a solid surface via the rotors
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Boogie Boards will no longer accelerate forwards automatically when placed in the ocean
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some search lights in monuments rotated around the wrong way
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed incorrect static barrel colours at Small Oil Rig
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed F1 UGC admin panel not working
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being kicked when unloading exactly 128 or 256 bullets from a Minigun
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed bikes slowly falling over when sleeping on a moving cargo ship
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed motorbike headlight icon z-fighting
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed train wagons occasionally spawning close enough to the main line that a train couldn't fit past
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed player being left holding cards if they get kicked from a card table in a certain situation
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed all helicopters playing the new rocks particle effect constantly
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed horses not being able to pass through terrain holes. Horses can now enter train tunnels etc
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed seismic sensor vibration level not reset when unpowered
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed IO counter showing 1 by default instead of 0
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed NPC conversation staying open when leaving the area
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an exploit allowing your dead body's head to clip through constructions
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          The death screen can now only fade in once, fixing the escape spam to see what is going on around your dead body
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a case where a players inventory could be incorrectly locked when rapidly switching between gestures
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed barricades not deployable around caves
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row removed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         remove_circle
-        </i>
-       </span>
-       <h3>
-        Removed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Travelling vendor no longer has infinite stock. Stock now refills every 1/3rd of the vendors lifetime (10 minutes)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Light vehicles like bikes can no longer push trains
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 01 Aug 2024 02:00:00 Z</pubDate>
-    </item>
-    <item>
       <title>Time To Kill</title>
       <link>https://rust.facepunch.com/news/time-to-kill/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -4328,6 +2722,527 @@ content to be taken down.
       <pubDate>Thu, 04 Jul 2024 14:00:00 Z</pubDate>
     </item>
     <item>
+      <title>COMMUNITY UPDATE 262</title>
+      <link>https://rust.facepunch.com/news/community-update-262/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     COMMUNITY UPDATE 262
+    </h1>
+    <p editname="Summary" type="text">
+     50% off Rust, Lootroom 3D Printed Merch, fan-made Rust lego sets, Twitch drops, and more!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      16 July 2024
+     </div>
+     <a class="tag community" href="?category=community">
+      Community
+     </a>
+    </div>
+    <div class="author">
+     <div class="card user-card">
+      <div class="image">
+       <img src="https://files.facepunch.com/s/afe3bc0ea811.png"/>
+      </div>
+      <div class="body">
+       <div class="title has-text-white">
+        Errn
+       </div>
+       <div class="position">
+        Community Support
+       </div>
+       <div class="country">
+        United States
+       </div>
+       <div class="links">
+        <a class="button small" href="https://youtu.be/dQw4w9WgXcQ" icon="home">
+         web
+        </a>
+        <a class="button small" href="https://twitter.com/ErrnieGerrn" icon="chat">
+         twitter
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="Facepunchs15thbirthday">
+  <div class="section" like-handler="LikeBlogSection" like-id="84391" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Facepunch's 15th birthday!
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <a href="https://store.steampowered.com/developer/facepunch">
+       <img src="https://files.facepunch.com/ashcook/1b1211b1/fp_15%20-%2050OFF%20-16x9.png"/>
+      </a>
+     </div>
+     <div>
+      <h2>
+       Happy Birthday to us!
+      </h2>
+      Facepunch officially turned 15 not too long ago and we wanted to celebrate the occasion by making all of our games 50% off - including Rust and all Rust DLCs!
+      <br/>
+      <br/>
+      You can get your discounts on all Facepunch games through the
+      <a class="" href="https://store.steampowered.com/developer/facepunch" target="https://store.steampowered.com/developer/facepunch">
+       Steam
+      </a>
+      store.
+      <p>
+       Rewind to 2009, when Garry, released Garry's Mod: a sandbox game with no rules, from a mod, to officially listing it on Steam. No objectives, just pure, unadulterated freedom. Want to create a giant robot out of bathtubs? Go for it. Fancy launching a thousand explosive barrels into the sky? Why not! Garry's Mod was, and still is, the ultimate playground for gamers with a wild imagination.
+       <br/>
+       <br/>
+       Fast forward to 2013, and we began work on Rust. This isn’t just any survival game; it’s a brutal, post-apocalyptic showdown where you start with nothing but a rock and a dream. Gathering resources, building shelters, forging alliances—or betraying them—Rust has taken survival gaming to a whole new level. It's a place where the only rule is: trust no one, but have fun trying.
+       <br/>
+       <br/>
+       And now, in 2024, we're working on our biggest update for Rust yet, with more Twitch events planned, and even more cool things to come to the game for all types of players. There has never been a better time to play Rust.
+      </p>
+      <br/>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="Lootroom3DPrints">
+  <div class="section" like-handler="LikeBlogSection" like-id="84392" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Lootroom 3D Prints
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://lootroom.com/collections/rust-general">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcook/1b1511b1/rust_x_lootroom_announcement-compressed.jpg"/>
+      </a>
+     </div>
+     <h2>
+      <br/>
+      It's Official - You Can Now Get Licensed 3D Printed Rust Items!
+     </h2>
+     <div>
+      After years of watching from the side lines, we're proud to officially announce that we've partnered with
+      <a class="" href="https://lootroom.com/collections/all">
+       Lootroom
+      </a>
+      !
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Lootroom are now our partner for fully licensed 3D printed guns and more. So we're now working closer with them, providing this lovely and dedicated team with in-game assets to ensure that they continue to deliver high quality products to Rust fans.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       Here's Lootroom's story:
+      </b>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <i>
+       "It's mid-2018 and during an exciting Rust weekend with good friends, we kept joking about the fact that furnaces in Rust always have to be running. This gave rise to the desire to have a small real Rust furnace on the desk - as a reminder of this great wipe. It didn't take long and it became clear: a 3D printer was needed!
+      </i>
+     </div>
+     <div>
+      <i>
+       <br/>
+      </i>
+     </div>
+     <div>
+      <i>
+       The test phase went well and we were so impressed with the result that we published the furnace on various platforms and received a lot of positive feedback. When the first purchase requests came in, we knew that the whole thing had potential and that there were many Rust enthusiasts around the world who shared our interest in IRL loot.
+      </i>
+     </div>
+     <div>
+      <i>
+       <br/>
+      </i>
+     </div>
+     <div>
+      <i>
+       After some preparation, a first small online store was created and the perfect name with the necessary domains was also found - Lootroom. Initially, our store only consisted of the furnace in various sizes, followed by the Eoka and the P2. But a
+      </i>
+      <i>
+       fter countless requests, the Rust AK default was added in May 2020 after a slight delay due to Covid-19 - a real monster compared to the smaller products we had previously offered. For us, this also involved a learning and conversion process, as our previous way of working was geared towards the smaller items. For example, we needed new shipping boxes.
+      </i>
+     </div>
+     <div>
+      <i>
+       <br/>
+      </i>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcook/1b1511b1/2.jpg"/>
+     </div>
+     <div>
+      <i>
+       Lone Design, the online store for Rust server plugins, became aware of us quite early on and we were also able to offer our products there - and thus reach even more Rust players. At the same time, we also set up a successful Etsy store and have since broken the magic mark of 1k sales and 100k turnover.
+       <br/>
+       <br/>
+      </i>
+     </div>
+     <div>
+      <i>
+       As we became better known, we received more and more requests for different skins and other irl loot. We created internal ranking lists with the most requested items, which we then gradually worked through. Over the years, we have continuously expanded our store and now stock more than 70 different Rust items.
+      </i>
+     </div>
+     <div>
+      <i>
+       <br/>
+      </i>
+     </div>
+     <div>
+      <i>
+       A special milestone was achieved in September 2021: together with one of the most successful Rust content creators ever - Blooprint - we had his Blooprint SAR on offer for a limited time. The demand was overwhelming and it gave us great pleasure to see how much gamers around the world celebrated our products.
+      </i>
+     </div>
+     <div>
+      <i>
+       <br/>
+      </i>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery>
+       <img src="https://files.facepunch.com/Errn/1b1511b1/PXL_20230106_191127996.PORTRAIT.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b1511b1/PXL_20230106_191221920.PORTRAIT.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b1511b1/PXL_20230106_191200591.PORTRAIT.jpg"/>
+      </gallery>
+     </div>
+     <div>
+     </div>
+     <div>
+      <i>
+       We invested in more and more modern 3D printers, a new online presence and founded the official Lootroom GmbH in September 2022, based in Nuremberg, Germany.
+      </i>
+      <i>
+       We now operate more than 20 3D printers that print IRL loot almost continuously. Our factory is streamed live on Twitch, Kick and YouTube to give anyone interested an insight into the creation process.
+      </i>
+      <br/>
+     </div>
+     <div>
+      <i>
+       <br/>
+      </i>
+     </div>
+     <div>
+      <i>
+       Naturally, we prioritize the quality of our handmade products while also maintaining a consistent stock to ensure prompt shipping. Customer service and engagement with the Rust community are equally important to us. We have already shipped to over 45 countries around the world and look forward to every new customer that we can make happy with our IRL Loot. We put a lot of passion into our unique products.
+      </i>
+     </div>
+     <div>
+      <i>
+       All of this now leads to the possibility to offer our products as officially licensed Rust IRL loot. We are very hyped and incredibly excited to be working with our friends at Facepunch."
+      </i>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcook/1b1511b1/28.jpg"/>
+     </div>
+     <div>
+      Please go and show them some love, and place an order for your favourite weapon or prop.
+      <br/>
+      <br/>
+      They look fantastic as decorative items and we have many around the office and a few of us even have them up in our homes!
+      <i>
+       <br/>
+      </i>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="TwitchDrops">
+  <div class="section" like-handler="LikeBlogSection" like-id="84396" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Twitch Drops
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <h2>
+      FancyOrb's Global Warfare 2!
+     </h2>
+     <div>
+      <a class="selected" href="https://x.com/FancyOrb_/status/1805286214238384618" style="background-color: rgba(20, 19, 18, 0.9);">
+       FancyOrb's
+      </a>
+      <span style="background-color: rgba(20, 19, 18, 0.9);">
+       Global Warfare is soon here, with all your favorite creators will be involved
+      </span>
+      <a class="" href="https://twitch.facepunch.com/" style="background-color: rgba(20, 19, 18, 0.9);">
+       with Twitch drops
+      </a>
+      <span style="background-color: rgba(20, 19, 18, 0.9);">
+       !
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <a href="https://twitch.facepunch.com/#drops">
+       <img src="https://files.facepunch.com/Errn/1b0411b1/td_33-blog-image%20-rvsd.jpg"/>
+      </a>
+     </div>
+     <div>
+      <div style="min-height: 16px; outline: rgba(139, 195, 74, 0.3) dashed 1px;">
+       Drops will be available across the entire
+       <a class="selected" href="https://www.twitch.tv/directory/category/rust">
+        Rust category on Twitch
+       </a>
+       .
+      </div>
+      <div style="min-height: 16px;">
+       <br/>
+      </div>
+      <div style="min-height: 16px;">
+       Be sure to get synced at
+       <a class="" href="https://twitch.facepunch.com/connect">
+        https://twitch.facepunch.com/connect
+       </a>
+       to claim your skins!
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="LegoRust">
+  <div class="section" like-handler="LikeBlogSection" like-id="84394" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Lego Rust
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       <a class="" href="https://www.reddit.com/r/playrust/comments/1dnejt6/i_made_3_rust_lego_sets_as_presents_for_my/">
+        Reddit user ABRISSBIRNE27
+       </a>
+       showing off some epic Rust themed lego sets they made with rebrickable.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Wonder if we could convince Lego to do something official?
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/Errn/1b1511b1/b6jd16oo2j8d1.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img src="https://files.facepunch.com/Errn/1b1511b1/24thuw2q2j8d1.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b1511b1/0w436epq2j8d1.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b1511b1/p0341ilp2j8d1.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b1511b1/gzzxp6bm2j8d1.jpg"/>
+      </gallery>
+     </div>
+     <div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="Youtooz">
+  <div class="section" like-handler="LikeBlogSection" like-id="84395" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Youtooz
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We're starting to see everyone's
+      <a class="" href="https://youtooz.com/search?q=Rust">
+       Youtooz
+      </a>
+      figures reach their new homes and we're curious, do you keep yours in the box or do you let them out in the open?
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcook/1b1511b1/IMG_8282.jpg"/>
+     </div>
+     <div>
+      And where in your base are you placing your in-game items?
+      <br/>
+      <br/>
+      We loved working on these with Youtooz and we can't wait to show you what else we've got cooking up with them...
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcook/1b1511b1/20240715_101744.jpg"/>
+     </div>
+     <div>
+      <br/>
+      The limited edition run of the Heavy Scientist and the Hazmat figures ends soon -
+      <a class="" href="https://youtooz.com/collections/rust" target="https://youtooz.com/collections/rust">
+       get yours here!
+      </a>
+      <br/>
+      <br/>
+      And don't forget to tag
+      <a class="" href="https://x.com/playrust" target="https://x.com/playrust">
+       @playrust
+      </a>
+      and
+      <a class="" href="https://x.com/youtooz" target="https://x.com/youtooz">
+       @youtooz
+      </a>
+      in your pics!
+      <br/>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="NotAMedPen">
+  <div class="section" like-handler="LikeBlogSection" like-id="84393" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Not A Med Pen
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Just going to leave this here.
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allowfullscreen="true" frameborder="0" height="378" scrolling="no" src="https://clips.twitch.tv/embed?clip=YummyDistinctPonyFreakinStinkin-beHRM1fQG01MH2id&amp;parent=rust.facepunch.com" width="620">
+      </iframe>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="Showmethestuff">
+  <div class="section" like-handler="LikeBlogSection" like-id="84397" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Show me the stuff!
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       If you made something cool or saw something cool, reach out! Tag me on
+       <a class="selected" href="https://twitter.com/ErrnieGerrn">
+        X
+       </a>
+       or u/ErrnieGerrn
+       <a class="" href="https://www.reddit.com/r/playrust/" target="">
+        Reddit
+       </a>
+       .
+       <br/>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Cover image by
+       <a class="" href="https://www.instagram.com/magoos_rust_art/">
+        Magoo
+       </a>
+       !
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Tue, 16 Jul 2024 09:00:00 Z</pubDate>
+    </item>
+    <item>
       <title>World Update 2.0</title>
       <link>https://rust.facepunch.com/news/world_update_2/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -5781,6 +4696,1091 @@ future as any item (in code) can now be marked as Radioactive.
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 03 Oct 2024 11:24:00 Z</pubDate>
+    </item>
+    <item>
+      <title>Stay Alert</title>
+      <link>https://rust.facepunch.com/news/stay-alert/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Stay Alert
+    </h1>
+    <p editname="Summary" type="text">
+     New tin can alarm, zipline improvements, item buoyancy, vendor price adjustments, &amp; more QoL!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      01 August 2024
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="TinCanalarm">
+  <div class="section" like-handler="LikeBlogSection" like-id="84399" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Tin Can alarm
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      This month, we're adding the Tin Can Alarm, a new primitive trap made from hanging tin cans.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240729/tincan_alarm_02_1080p.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240729/tincan_alarm_06_1080p.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Crossing its wire will trigger the trap and cause a loud clatter, alerting anyone nearby to your presence.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      You can deploy it anywhere from your base to inside monuments. Use it strategically to cover access points and defend your positions.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Replicatedbushsounds">
+  <div class="section" like-handler="LikeBlogSection" like-id="84404" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Replicated bush sounds
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      This month, we are changing how the classic bush rustle sounds work. Bush sounds will now be audible to players around you. Just like with footsteps, you now need to pay attention to  making noise in bushes. As you'd expect: going slower through a bush makes a quieter sound than running through it.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240731/bush_sounds_01.jpg"/>
+     </div>
+     <div>
+      <br/>
+      This change will also cause the rustles made in hot air balloon tarps to be audible to players nearby, and operates in the same way as the bushes.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="UnderwaterItems">
+  <div class="section" like-handler="LikeBlogSection" like-id="84405" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Underwater Items
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20240730/item_underwater_fall.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+     </div>
+     <div>
+      Dropped items that end up in bodies of water will now sink more realistically instead of just dropping like they are still falling through air. As well as slowing down and getting shifted around by currents they will also emit some bubbles as they move and when they hit the ocean floor. This should make finding these items a little bit easier.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ziplineimprovements">
+  <div class="section" like-handler="LikeBlogSection" like-id="84406" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       zipline improvements
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       We’ve made several changes to the powerline zipline system this month to make it a bit more pleasant to use.
+      </div>
+      <div>
+       <ul>
+        <li>
+         Ziplines will now pick the furthest possible destination instead of the closest
+        </li>
+        <li>
+         We’ve increased the maximum length a zipline can run from 150m to 185m
+        </li>
+        <li>
+         Ziplines can now terminate at a higher point on the powerline structure and will pick these higher destinations when possible, reducing the amount of climbing required to continue the zipline.
+        </li>
+        <li>
+         You can no longer get dismounted by trees when on a zipline. We already had several systems in place to prevent trees spawning in zipline paths, but it still happened very rarely.
+        </li>
+       </ul>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       These changes should result in longer, higher ziplines that are safer to use.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="NPCvendorPriceCHanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84407" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       NPC vendor Price CHanges
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       After looking over the data from last months wipe, it was clear that the dynamic vendor pricing system wasn’t operating as well as it could have. It tended to drop to 50% off all items relatively quickly in the wipe. We’ve made a couple of changes this month:
+      </div>
+      <div>
+       <ul>
+        <li>
+         Price changes now operate in real time rather than based on in-game time. This should be more understandable and will work correctly on servers that manipulate in-game time.
+        </li>
+        <li>
+         Price changes now take place every 5 real time hours. Last month the prices changed every 15 minutes in real time by default, so this will make the prices change much more slowly.
+        </li>
+       </ul>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       As usual we’ll keep an eye on this and make changes going forwards.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="qUALITYOFlIFECHANGES">
+  <div class="section" like-handler="LikeBlogSection" like-id="84403" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       qUALITY OF lIFE CHANGES
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <video autoplay="" class="lightbox-thumbnail" loop="">
+         <source src="https://files.facepunch.com/paddy/20240731/rust_train_barricade_blog.mp4"/>
+        </video>
+        <center>
+         <b>
+          Trains break barricades
+         </b>
+        </center>
+        <center>
+         Trains can break through barricades that are deployed too close to the tracks.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/motorbike_riding_01.jpg"/>
+        <center>
+         <b>
+          Bike fast turns
+         </b>
+        </center>
+        <center>
+         Hold the Crouch key while driving to perform a faster turn.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/sidecar_01.jpg"/>
+        <center>
+         <b>
+          Sidecar bike physics
+         </b>
+        </center>
+        <center>
+         Sidecar bikes now drive more like regular motorbikes.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240801/rust_horse_launchsite_01.jpg"/>
+        <center>
+         <b>
+          Horse terrain holes
+         </b>
+        </center>
+        <center>
+         Horses can now enter terrain holes - Train tunnels, the launch site ramp etc.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20221102/rust_prototype17_firstperson.jpg"/>
+        <center>
+         <b>
+          Fire mode switch
+         </b>
+        </center>
+        <center>
+         Switching your gun firemode will now play a sound.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230201/indst_storageadapter_01.jpg"/>
+        <center>
+         <b>
+          Storage Adaptors collision
+         </b>
+        </center>
+        <center>
+         Can now walk through Storage Adaptors attached to boxes.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b0111b1/hurtUI.jpg"/>
+        <center>
+         <b>
+          Hurt screen overlay toggle
+         </b>
+        </center>
+        <center>
+         Can now turn off the blood on screen when getting hurt.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240801/rust_codelock_01.jpg"/>
+        <center>
+         <b>
+          Saved code lock input
+         </b>
+        </center>
+        <center>
+         The last entered code is now saved between sessions.
+        </center>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ShockbytexRustPartneredserverhosting">
+  <div class="section" like-handler="LikeBlogSection" like-id="84402" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Shockbyte x Rust - Partnered server hosting
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We're extremely excited to be partnering with
+      <a class="" href="https://shockbyte.com/partner/SBRUST">
+       Shockbyte
+      </a>
+      for managed server hosting rental!
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <a href="https://shockbyte.com/partner/SBRUST">
+       <img src="https://files.facepunch.com/ashcook/1b1811b1/Artboard%201.png"/>
+      </a>
+     </div>
+     <div>
+      After seeing their work with the Minecraft community, and hearing great things from existing Rust users, we've decided to partner with them in an official capacity - endorsing their stability and reliability. You can enjoy full file access, full customization, and oxide support.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://shockbyte.com/partner/SBRUST">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_01.jpg"/>
+      </a>
+     </div>
+     <h2>
+      Promotional Offer
+     </h2>
+     <div>
+      As part of the promo,
+      <b>
+       new customers
+      </b>
+      can receive an in-game Tool Cupboard skin by
+      <a class="" href="https://shockbyte.com/partner/SBRUST" target="https://shockbyte.com/partner/SBRUST">
+       renting a server
+      </a>
+      of any tier!  Once your new server is delivered Shockbyte will send you information about how to get your sweet freebie!
+      <br/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_05.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_06.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_11.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_04.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_08.jpg"/>
+      </gallery>
+     </div>
+     <div>
+     </div>
+     <div>
+      Here's Shockbyte's story so far:
+      <br/>
+     </div>
+     <div>
+      <span id="docs-internal-guid-f2cfcf05-7fff-3784-f3d4-480de5c183e1">
+       <p dir="ltr">
+        <i>
+         <span>
+          "
+         </span>
+         Born from a passion for multiplayer gaming in March 2013, Shockbyte has become a leading provider of game server hosting. Over the past decade, our team of dedicated gamers has delivered reliable multiplayer servers worldwide to over 700 thousand customers. Since October 2019, we have supported the Rust community, continuously improving our services based on feedback. Our mission is to simplify game server hosting, allowing absolutely anyone to create their own multiplayer community with ease.
+        </i>
+       </p>
+      </span>
+      <span id="docs-internal-guid-413d4398-7fff-4bc2-6132-a66067700c5d">
+       <p dir="ltr">
+        <span>
+         <i>
+          With a growing network of global locations, comprehensive DDOS protection, and a commitment to 100% uptime, Shockbyte has become a trusted provider for Rust communities. We understand the complexities of server hosting and are beyond thrilled to now offer our expertise in a partnered capacity with Facepunch. We believe this is the most exciting era for gaming and are proud to provide community-driven hosting opportunities.
+         </i>
+        </span>
+       </p>
+      </span>
+      <span>
+       <p dir="ltr">
+        <span>
+         <i>
+          By harnessing player feedback we’ve recently completely revamped the hosting experience and we’re extremely excited to be soon rolling out this new modern experience alongside our partnership with Rust. Our top-tier global hardware and robust DDOS protection ensure the Rust community receives only the best multiplayer support. At Shockbyte, our focus is on delivering an enjoyable online experience, committed to innovation and excellence.
+         </i>
+        </span>
+        <i>
+         "
+        </i>
+       </p>
+      </span>
+      <div>
+       <br/>
+      </div>
+      We look forward to hearing about your experiences with their servers and you can get the skin by signing up to any level of hosting through
+      <a class="" href="https://shockbyte.com/partner/SBRUST" target="https://shockbyte.com/partner/SBRUST">
+       this link
+      </a>
+      or use code
+      <b>
+       SBRUST
+      </b>
+      at checkout!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="TwitchDrops">
+  <div class="section" like-handler="LikeBlogSection" like-id="84409" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Twitch Drops!
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Here we go again!  We have worked in a group of your favorite Twitch Streamers and Youtubers that you might recognize!
+     </div>
+     <h2>
+      August 8th - August 18th, 2024
+     </h2>
+     <div blocktype="image" class="edit-block" contenteditable="false" title="Get Synced!">
+      <a href="https://twitch.facepunch.com/">
+       <img src="https://files.facepunch.com/lewis/1b0111b1/td_33-blog-image-updated.jpg"/>
+      </a>
+     </div>
+     <div>
+      Be sure you get synced up at
+      <a class="" href="https://twitch.facepunch.com/" target="https://twitch.facepunch.com/">
+       https://twitch.facepunch.com/
+      </a>
+      so you don't miss out!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Stay Alert
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       August Changelist
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Thursday, August 1, 2024
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
+    </div>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Tin Can Alarm
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Shockbyte Tool Cupboard skin
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Bikes/Snowmobiles can now be driven onto the cargo containers and moved onto the cargo ship
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Bikes/Snowmobiles will now be able to go down elevators. This includes monument and player created elevators
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Travelling vendor speed increase. Adjustable by travellingvendor.max_speed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          'refillvitals' now removes and prevents bleed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Ammo stored on weapons is now viewable in the tooltip similar to how attachments are displayed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Items will now sink slowly in water and emit bubbles
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Dynamic vendor pricing is now calculated in real time, defaults to every 5 hours
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Ziplines show now travel further and will terminate at higher destinations when possible
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can no longer be killed by colliding with a tree while ziplining
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          The number text on item pickups should be larger when when picking up items with short names
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Implemented PR #56 on community UI - Improved countdown features (thanks to Kulltero)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Last code entered into code locks is now saved across restarts
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Player movement is no longer blocked by Storage Adaptors
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Trains can break through barricades that are deployed too close to the tracks
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Motorbike sidecars now control essentially the same as standard bikes, instead of feeling more sluggish
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Motorbikes can now perform a faster turn while holding the Crouch key
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Motorbike sidecar feels less jittery
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved the feel of reversing on a bike
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved wire slack controls, reducing accidental unwanted wire slack changes
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Optimized deployable flasher lights
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added the option to turn off the blood on screen effect (Settings &gt; Image Effects &gt; Hurt)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added effects.hurtoverleyapplylighting convar, prevents the blood on screen effect from getting affected by lighting
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Travelling vendors lights now come on at night, and stay off during the day
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Pagers in horses saddlebags no longer activate when you get on a horse
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Getting on top of a junkpile doesn't kick you for flyhack anymore
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Shelter/bag limit popup only shows after the building checks are done should they pass
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Patrol helicopter now does appropriate checks during orbital strafing, ensuring napalm rockets are used when they should be
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Travelling vendor now detects people on the bonnet correctly. Preventing an endless AFK zone
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Travelling vendor now plays the correct sound when you buy from it
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Patched memory leak from occurring when vending machines tried to be refilled
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Prevent console log spam when cargo ship is docking
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a walkway with incorrect collision resulting in blocked bullets (affected Dome and Junkyard mostly)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a pillar at power substations and trainyard using an incorrect shadow caster
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed not being able to use sprays from the Spray Can on Shipping Container walls
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to clip into the Cargo Ship by sleeping or swimming in the Harbor canal
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed “Tackle the Day” quest soft locking if player inventory was full
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to destroy vehicles by pushing them into a double doorway and placing down a door
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being kicked for packet flooding when standing in range of specific deployables (couches/beds mostly) and looking at an IO entity while holding the wire tool at high framerates
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to mount Attack Helicopters through a solid surface via the rotors
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Boogie Boards will no longer accelerate forwards automatically when placed in the ocean
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some search lights in monuments rotated around the wrong way
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed incorrect static barrel colours at Small Oil Rig
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed F1 UGC admin panel not working
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being kicked when unloading exactly 128 or 256 bullets from a Minigun
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed bikes slowly falling over when sleeping on a moving cargo ship
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed motorbike headlight icon z-fighting
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed train wagons occasionally spawning close enough to the main line that a train couldn't fit past
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed player being left holding cards if they get kicked from a card table in a certain situation
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed all helicopters playing the new rocks particle effect constantly
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed horses not being able to pass through terrain holes. Horses can now enter train tunnels etc
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed seismic sensor vibration level not reset when unpowered
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed IO counter showing 1 by default instead of 0
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed NPC conversation staying open when leaving the area
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an exploit allowing your dead body's head to clip through constructions
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          The death screen can now only fade in once, fixing the escape spam to see what is going on around your dead body
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a case where a players inventory could be incorrectly locked when rapidly switching between gestures
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed barricades not deployable around caves
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row removed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         remove_circle
+        </i>
+       </span>
+       <h3>
+        Removed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Travelling vendor no longer has infinite stock. Stock now refills every 1/3rd of the vendors lifetime (10 minutes)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Light vehicles like bikes can no longer push trains
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 01 Aug 2024 02:00:00 Z</pubDate>
     </item>
   </channel>
 </rss>
