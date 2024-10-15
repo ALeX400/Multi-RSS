@@ -1,6 +1,264 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Reefer trailer sound addon v2024OCT13 [1.51] ETS2</title>
+      <link>http://www.ets2world.com/reefer-trailer-sound-addon-v2024oct13-1-51-ets2/</link>
+      <description><![CDATA[<article class="post-345627 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-sounds tag-external-contracts-confirmed tag-freight-market-confirmed tag-mod-manager tag-sound-fixes-pack">
+ <div class="post-inner group">
+  <center>
+   <div class="thumbnail">
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="575" loading="lazy" sizes="(max-width: 1024px) 100vw, 1024px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/10/reefer-trailer-sound-addon-v2024oct13-5B1.51-5D-ets2-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/10/reefer-trailer-sound-addon-v2024oct13-5B1.51-5D-ets2-1.jpg 1024w, http://www.ets2world.com/wp-content/uploads/2024/10/reefer-trailer-sound-addon-v2024oct13-5B1.51-5D-ets2-1-300x168.jpg 300w, http://www.ets2world.com/wp-content/uploads/2024/10/reefer-trailer-sound-addon-v2024oct13-5B1.51-5D-ets2-1-768x431.jpg 768w" width="1024"/>
+    <img alt="ETS2 Sounds" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+   </div>
+  </center>
+  <div class="clear">
+  </div>
+  <div class="entry">
+   <div class="entry-inner">
+    <p>
+     <center>
+     </center>
+    </p>
+    <center>
+    </center>
+    <hr/>
+    <p>
+     <strong>
+      Reefer trailer sound addon v2024OCT13 [1.51] ETS2
+     </strong>
+    </p>
+    <p>
+     <strong>
+      New in this version:
+     </strong>
+     <br/>
+     Added support for the Kögel Trailer Pack DLC Cool trailers. A new startup sound suitable for this trailer is used, based on a Carrier Vector Refrigeration Unit.
+     <br/>
+     Support for game version 1.50 has ended with this change. The mod icon in the Mod Manager has also been improved.
+    </p>
+    <p>
+     For modders, you can use the following line for reefer trailer mods with Carrier Vector Refrigeration Units to have this new Carrier Vector Refrigeration Unit startup sound variation:
+     <br/>
+     trailer_brace_up_sound: “/sound_fixes_pack/trailer/carrier/reefer_up.soundref”
+    </p>
+    <p>
+     <strong>
+      Summary:
+     </strong>
+     <br/>
+     Hear the seamless white noise of a reefer trailer!
+     <br/>
+     This mod adds the definition files to activate the Sound Fixes Pack reefer sounds for reefer trailers by SCS Software.
+    </p>
+    <p>
+     There are some trade-offs due to reefer sounds not being a standard feature in the game yet.
+     <br/>
+     Nevertheless, a lot of limitations have been overcome to allow more freedom and less hassles. Read below for details:
+    </p>
+    <p>
+     <strong>
+      Setup:
+     </strong>
+     <br/>
+     1. Enable this addon and the Sound Fixes Pack. Make sure the Sound Fixes Pack has high priority in the Mod Manager.
+     <br/>
+     2. Other road / trailer tire sound mods must be disabled.
+    </p>
+    <p>
+     <strong>
+      Please note:
+     </strong>
+     <br/>
+     The refrigerated trailer will beep and its engine will startup after coupling the trailer.
+     <br/>
+     The reefer will continue to run as you drive and you can hear the hum of it from the truck interior.
+     <br/>
+     The mod relies on the trailer tire sound to carry the reefer sound.
+     <br/>
+     The sound event will stop after decoupling the trailer.
+    </p>
+    <p>
+     See compatibility section for what modes the functionality will work.
+     <br/>
+     For any owned reefer trailer, there is a workaround built in to the Sound Fixes Pack to enable the reefer sound.
+     <br/>
+     The reefer startup sound effect is not supported with the workaround option.
+     <br/>
+     Some roads may not be supporting trailer tire sounds, hence why the reefer sound might not work there.
+     <br/>
+     If this happens, driving offroad into the grass or gravel usually gets the reefer sound loop working again successfully.
+    </p>
+    <p>
+     <strong>
+      Workaround for any trailer including owned reefer trailers:
+     </strong>
+    </p>
+    <p>
+     1. Go into the Audio settings.
+     <br/>
+     2. In the voice navigation menu, select “~ Function – Force enable reefer sound”.
+     <br/>
+     3. Click the Preview button.
+     <br/>
+     4. Select a different voice navigation option OR uncheck the voice navigation.
+     <br/>
+     5. If you want to turn off the reefer sound, detaching the trailer will work in most cases. Otherwise restart the game.
+    </p>
+    <p>
+     <strong>
+      Fully supported trailers:
+     </strong>
+     <br/>
+     1. Base game reefer trailers
+     <br/>
+     2. Schwarzmüller Trailer Pack DLC reefer trailers
+     <br/>
+     3. Krone Trailer Pack DLC Cool Liner trailers
+     <br/>
+     4. TIRSAN Trailer Pack DLC SRI trailers
+     <br/>
+     5. Schmitz Cargobull Trailer Pack DLC S.KO Cool trailers
+     <br/>
+     6. Kögel Trailer Pack DLC Cool trailers
+    </p>
+    <p>
+     <strong>
+      Compatibility:
+     </strong>
+     <br/>
+     Freight Market: Confirmed to work
+     <br/>
+     External Contracts: Confirmed to work.
+     <br/>
+     Quick Jobs: Can work, but you need to disconnect and reconnect the trailer to start the cycle.
+     <br/>
+     Ownable Trailers: Confirmed to work with: Supported DLC trailers only.
+     <br/>
+     You can use the voice navigation workaround for unsupported reefer trailers but it won’t include the startup sound effect.
+    </p>
+    <p>
+     Game versions: 1.51
+     <br/>
+     Sound Fixes Pack required for the functionality.
+    </p>
+    <p>
+     <strong>
+      Sound volume configuration:
+     </strong>
+     <br/>
+     1. The Trailer Noise slider controls the sound volume of the reefer startup noise and the reefer sound loop.
+     <br/>
+     2. It is recommended to have the slider at 50%
+    </p>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+ </div>
+ <center>
+ </center>
+ <br/>
+ <br/>
+ <hr>
+ <strong>
+  How to install ETS2 mods or ATS Mods
+ </strong>
+ <p>
+  In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
+ </p>
+ <hr/>
+</article>
+<br><br><br><center><a class="dmod" href="https://modsfile.com/75bpfr87o1tg/ets2_reefer_sound_addon.scs.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
+    </item>
+    <item>
+      <title>Porsche Cayenne Turbo 2022 E3 V1.3 1.51 ETS2</title>
+      <link>http://www.ets2world.com/porsche-cayenne-turbo-2022-e3-v1-3-1-51-ets2/</link>
+      <description><![CDATA[<article class="post-345624 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-cars tag-changelog tag-slav-jerry">
+ <div class="post-inner group">
+  <center>
+   <div class="thumbnail">
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="1080" loading="lazy" sizes="(max-width: 1728px) 100vw, 1728px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/10/porsche-cayenne-turbo-2022-e3-v1.3-1.51-ets2-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/10/porsche-cayenne-turbo-2022-e3-v1.3-1.51-ets2-1.jpg 1728w, http://www.ets2world.com/wp-content/uploads/2024/10/porsche-cayenne-turbo-2022-e3-v1.3-1.51-ets2-1-300x188.jpg 300w, http://www.ets2world.com/wp-content/uploads/2024/10/porsche-cayenne-turbo-2022-e3-v1.3-1.51-ets2-1-1024x640.jpg 1024w, http://www.ets2world.com/wp-content/uploads/2024/10/porsche-cayenne-turbo-2022-e3-v1.3-1.51-ets2-1-768x480.jpg 768w, http://www.ets2world.com/wp-content/uploads/2024/10/porsche-cayenne-turbo-2022-e3-v1.3-1.51-ets2-1-1536x960.jpg 1536w" width="1728"/>
+    <img alt="ETS2 Cars" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+   </div>
+  </center>
+  <div class="clear">
+  </div>
+  <div class="entry">
+   <div class="entry-inner">
+    <p>
+     <center>
+      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/10/porsche-cayenne-turbo-2022-e3-v1.3-1.51-ets2-1.jpg">
+       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/10/porsche-cayenne-turbo-2022-e3-v1.3-1.51-ets2-1-160x160.jpg" width="160"/>
+      </a>
+      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/10/porsche-cayenne-turbo-2022-e3-v1.3-1.51-ets2-2.jpg">
+       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/10/porsche-cayenne-turbo-2022-e3-v1.3-1.51-ets2-2-160x160.jpg" width="160"/>
+      </a>
+     </center>
+    </p>
+    <center>
+    </center>
+    <hr/>
+    <p>
+     <strong>
+      Porsche Cayenne Turbo 2022 E3 V1.3 1.51 ETS2
+     </strong>
+    </p>
+    <p>
+     <strong>
+      CHANGELOG:
+     </strong>
+     <br/>
+     – Updated to game version 1.51
+    </p>
+    <p>
+     <strong>
+      Specifications:
+     </strong>
+     <br/>
+     – Very high-quality exterior & interior
+     <br/>
+     – Custom UI with digital speedo & partially functional misc information
+     <br/>
+     – Excellent driveability
+     <br/>
+     – Openable Front Windows
+     <br/>
+     – Wipers work accurately
+     <br/>
+     – Indicator, Wiper stalk and handbrake button animations
+     <br/>
+     – Realistic engine & transmission configuration (even the 0-100, 0-200 & 0-250 kmph timings are very close compared to the real-life counterpart)
+     <br/>
+     – Two interior colour options (Black & Red)
+    </p>
+    <p>
+     FAQ:
+     <br/>
+     Q: Where to purchase it?:
+     <br/>
+     A: Truck Dealers > Access Mod Dealer > Porsche
+    </p>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+ </div>
+ <center>
+ </center>
+ <br/>
+ <br/>
+ <hr>
+ <strong>
+  How to install ETS2 mods or ATS Mods
+ </strong>
+ <p>
+  In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
+ </p>
+ <hr/>
+</article>
+<br><br><br><center><a class="dmod" href="https://modsfile.com/ag99kr3rivoz/porsche_cayenne_turbo_2022_e3_v1_3_1_51.zip.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
+    </item>
+    <item>
       <title>Mercedes-Benz X167 GLS-Class V2.1 1.51 ETS2</title>
       <link>http://www.ets2world.com/mercedes-benz-x167-gls-class-v2-1-1-51-ets2/</link>
       <description><![CDATA[<article class="post-345620 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-cars tag-changelog tag-slav-jerry">
@@ -232,154 +490,6 @@
  <hr/>
 </article>
 <br><br><br><center><a class="dmod" href="https://modsfile.com/2n036rvh3bvq/mapa_ceibo_v2_6.rar.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
-    </item>
-    <item>
-      <title>Mercedes-Benz 710 destravado 1.51 ETS2</title>
-      <link>http://www.ets2world.com/mercedes-benz-710-destravado-1-51-ets2/</link>
-      <description><![CDATA[<article class="post-345611 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trucks">
- <div class="post-inner group">
-  <center>
-   <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="386" loading="lazy" sizes="(max-width: 637px) 100vw, 637px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/10/mercedes-benz-710-destravado-1.51-ets2-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/10/mercedes-benz-710-destravado-1.51-ets2-1.jpg 637w, http://www.ets2world.com/wp-content/uploads/2024/10/mercedes-benz-710-destravado-1.51-ets2-1-300x182.jpg 300w" width="637"/>
-    <img alt="ETS2 Trucks" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
-   </div>
-  </center>
-  <div class="clear">
-  </div>
-  <div class="entry">
-   <div class="entry-inner">
-    <p>
-     <center>
-     </center>
-    </p>
-    <center>
-    </center>
-    <hr/>
-    <p>
-     <strong>
-      Mercedes-Benz 710 destravado 1.51 ETS2
-     </strong>
-    </p>
-    <p>
-     MB 710 top plus
-     <br/>
-     Lightweight and optimized mod
-     <br/>
-     Hope this helps
-    </p>
-   </div>
-   <div class="clear">
-   </div>
-  </div>
- </div>
- <center>
- </center>
- <br/>
- <br/>
- <hr>
- <strong>
-  How to install ETS2 mods or ATS Mods
- </strong>
- <p>
-  In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
- </p>
- <hr/>
-</article>
-<br><br><br><center><a class="dmod" href="https://modsfile.com/8cv5g9a1hdkp/mb_710_1_51_desbloqueado.zip.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
-    </item>
-    <item>
-      <title>Mercedes-Benz W140 S-Class S600 V1.5 1.51 ETS2</title>
-      <link>http://www.ets2world.com/mercedes-benz-w140-s-class-s600-v1-5-1-51-ets2/</link>
-      <description><![CDATA[<article class="post-345605 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-cars tag-changelog tag-openable-front-windows">
- <div class="post-inner group">
-  <center>
-   <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" height="1080" loading="lazy" sizes="(max-width: 1728px) 100vw, 1728px" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/10/mercedes-benz-w140-s-class-s600-v1.5-1.51-ets2-1.jpg" srcset="http://www.ets2world.com/wp-content/uploads/2024/10/mercedes-benz-w140-s-class-s600-v1.5-1.51-ets2-1.jpg 1728w, http://www.ets2world.com/wp-content/uploads/2024/10/mercedes-benz-w140-s-class-s600-v1.5-1.51-ets2-1-300x188.jpg 300w, http://www.ets2world.com/wp-content/uploads/2024/10/mercedes-benz-w140-s-class-s600-v1.5-1.51-ets2-1-1024x640.jpg 1024w, http://www.ets2world.com/wp-content/uploads/2024/10/mercedes-benz-w140-s-class-s600-v1.5-1.51-ets2-1-768x480.jpg 768w, http://www.ets2world.com/wp-content/uploads/2024/10/mercedes-benz-w140-s-class-s600-v1.5-1.51-ets2-1-1536x960.jpg 1536w" width="1728"/>
-    <img alt="ETS2 Cars" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
-   </div>
-  </center>
-  <div class="clear">
-  </div>
-  <div class="entry">
-   <div class="entry-inner">
-    <p>
-     <center>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/10/mercedes-benz-w140-s-class-s600-v1.5-1.51-ets2-1.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/10/mercedes-benz-w140-s-class-s600-v1.5-1.51-ets2-1-160x160.jpg" width="160"/>
-      </a>
-      <a class="gallery_colorbox cboxElement" href="http://www.ets2world.com/wp-content/uploads/2024/10/mercedes-benz-w140-s-class-s600-v1.5-1.51-ets2-2.jpg">
-       <img alt="" class="attachment-thumbnail size-thumbnail" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=http://www.ets2world.com/wp-content/uploads/2024/10/mercedes-benz-w140-s-class-s600-v1.5-1.51-ets2-2-160x160.jpg" width="160"/>
-      </a>
-     </center>
-    </p>
-    <center>
-    </center>
-    <hr/>
-    <p>
-     <strong>
-      Mercedes-Benz W140 S-Class S600 V1.5 1.51 ETS2
-     </strong>
-    </p>
-    <p>
-     <strong>
-      CHANGELOG:
-     </strong>
-     <br/>
-     – Updated to game version 1.51
-    </p>
-    <p>
-     <strong>
-      Specifications:
-     </strong>
-     <br/>
-     – High-quality exterior & interior
-     <br/>
-     – Realistic interior lighting
-     <br/>
-     – Openable Front Windows
-     <br/>
-     – Wipers work accurately
-     <br/>
-     – Indicator and wiper stalk animations
-     <br/>
-     – Power window buttons, handbrake and gear shift animations
-     <br/>
-     – Realistic engine configuration (6.0 L)
-     <br/>
-     – Realistic transmission configuration (6-speed AT)
-     <br/>
-     – 2 rims (Stock and Chrome)
-     <br/>
-     – 2 exterior trims (Stock & Black)
-     <br/>
-     – Flag pole w/ select country’s flags
-    </p>
-    <p>
-     FAQ:
-     <br/>
-     Q: Where to purchase it?:
-     <br/>
-     A: Truck Dealers > Access Mod Dealer > Mercedes-Benz
-    </p>
-   </div>
-   <div class="clear">
-   </div>
-  </div>
- </div>
- <center>
- </center>
- <br/>
- <br/>
- <hr>
- <strong>
-  How to install ETS2 mods or ATS Mods
- </strong>
- <p>
-  In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
- </p>
- <hr/>
-</article>
-<br><br><br><center><a class="dmod" href="https://modsfile.com/7yjwzl7mu8dv/mercedes_benz_w140_s_class_s600_v1_5_1_51.zip.html" rel="nofollow" style="background-color: green; color: white; padding: 10px; text-align: center; display: inline-block; text-decoration: none;" target="_blank"><strong>DOWNLOAD MOD</strong></a>]]></description>
     </item>
   </channel>
 </rss>
