@@ -1,6 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Render Settings Reset Ahead of Hotfix 1.5.4</title>
+      <link>https://store.steampowered.com/news/app/1361210/view/4539157321628469454</link>
+      <description><![CDATA[
+<style>
+        [data-focus-scheme="dark"] {
+            color-scheme: none;
+        }
+    </style>
+<img src="https://clan.fastly.steamstatic.com/images/38365286/0863570d8496f418ed7318b81d3e816e471b8c51.png"/><br/><br/><div class="bb_h1">Heya Everyone, </div><br/>We are putting out a hotfix this week which might require players to tweak their render settings again when first launching the game on PC. <br/><br/>When Unlocked &amp; Unloaded came out last month, we added FSR 3.1 Frame Generation. As many noticed, this was defaulted to “on” and it caused issues for some players.<br/><br/>Honestly, this was unintentional, as it was not meant to be defaulted to on. <br/><br/>For this next Hotfix #51, we will update the settings version which will force the launcher to re-detect players’ render settings, this will reset the FSR3.1 frame generation to off. This is partially to revert the defaulted frame generation setting and partially to clean up resolutions and render settings to prepare for another change coming with the hotfix. 	<br/><br/>When launching the game for the first time, the launcher will show a pop up to notify the user that settings have been reset based on hardware detection. Some players might want to go and tweak settings based on their own preferences. <br/><br/>This note will be included in the patch notes this week for Hotfix #51, but we wanted to make sure this isn’t missed by players and it is clearly communicated ahead of time!<br/><br/>Thank you,<br/><br/>The Darktide Team<br/><br/><img src="https://clan.fastly.steamstatic.com/images/38365286/a65c70af1027202631df9d22270d8a366b72f32d.png"/>]]></description>
+      <pubDate>Tue, 22 Oct 2024 10:26:07 +0000</pubDate>
+    </item>
+    <item>
       <title>Twitch Drops - Exclusive items</title>
       <link>https://store.steampowered.com/news/app/2186680/view/4557171720136550730</link>
       <description><![CDATA[
@@ -51,22 +63,6 @@ Lord Captains! <br/><br/>We're deploying a new routine update where we've fixed 
 <iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/2183900/" width="850"></iframe>
 ]]></description>
       <pubDate>Thu, 17 Oct 2024 09:07:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>New content is coming! Watch the Post-Launch Trailer now!</title>
-      <link>https://store.steampowered.com/news/app/2183900/view/4538031058670624542</link>
-      <description><![CDATA[
-<style>
-        [data-focus-scheme="dark"] {
-            color-scheme: none;
-        }
-    </style>
-<div class="bb_h2">Space Marines, attention! 🫡📣</div><br/>A whole year of new content awaits you in <i>Space Marine 2</i>. New Operations, new Dark Angel themed cosmetics, new foes to annihilate, and more.<br/><br/>Get ready for the upcoming new Lethal Difficulty and new PvE operation: Termination, where you will face off against the largest threat the Tyranid swarm has to offer, the <b>Hierophant Bio-Titan</b>.<br/><br/><div class="bb_h3">See What’s Next in the New Post-Launch Overview</div><br/>
-<iframe allowfullscreen="1" frameborder="0" height="500" src="https://www.youtube.com/embed/-aTR-9RYPu0?fs=1&amp;modestbranding=1&amp;rel=0" width="850"></iframe>
-<br/><div class="bb_h2">Free and Premium Content Coming Soon</div><br/>The first major update, featuring Termination and the new Lethal Difficulty mode, is coming for free and for all players very, very soon. <br/><br/>This year and throughout 2025, new content will keep coming to <i>Space Marine 2</i>. Free updates include the upcoming Neo-Volkite pistol, and later new PvE operations, PvP maps and modes and a blood-pumping Horde Mode with just one challenge: <b>survive</b>. <br/><br/>Further awesome cosmetics for all your favorite Space Marine chapters are also on the way soon.<br/><br/><img src="https://clan.fastly.steamstatic.com/images/43315296/48cbeba86ee7252b6da6a6c181eb6b66f4bd42e5.png"/><br/><br/><div class="bb_h2">Dark Angels join the battle</div><br/>The Season Pass will soon come to life with a Dark Angels theme pack. New weapon styles, armor pieces, and color schemes featuring the Unforgiven, that will expand customisation options to unlock in the Battle Barge, are coming soon as part of the first Season Pass.<br/><br/><img src="https://clan.fastly.steamstatic.com/images/43315296/39308af705c0b0ffd996813ea1e63517d7240aba.jpg"/><br/><br/><i>Warhammer 40,000: Space Marine 2</i> is available on PC. Join millions of players today!<br/><br/>Season Pass is included in the Gold and Ultra Edition.<br/><br/><div class="bb_h2">For the Emperor! ⚔️</div><br/>
-<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/2183900/" width="850"></iframe>
-<br/>]]></description>
-      <pubDate>Tue, 15 Oct 2024 16:00:33 +0000</pubDate>
     </item>
   </channel>
 </rss>
