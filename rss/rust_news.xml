@@ -1977,2373 +1977,6 @@ future as any item (in code) can now be marked as Radioactive.
       <pubDate>Thu, 03 Oct 2024 11:24:00 Z</pubDate>
     </item>
     <item>
-      <title>Stay Alert</title>
-      <link>https://rust.facepunch.com/news/stay-alert/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Stay Alert
-    </h1>
-    <p editname="Summary" type="text">
-     New tin can alarm, zipline improvements, item buoyancy, vendor price adjustments, &amp; more QoL!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      01 August 2024
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="TinCanalarm">
-  <div class="section" like-handler="LikeBlogSection" like-id="84399" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Tin Can alarm
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month, we're adding the Tin Can Alarm, a new primitive trap made from hanging tin cans.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240729/tincan_alarm_02_1080p.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240729/tincan_alarm_06_1080p.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Crossing its wire will trigger the trap and cause a loud clatter, alerting anyone nearby to your presence.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      You can deploy it anywhere from your base to inside monuments. Use it strategically to cover access points and defend your positions.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Replicatedbushsounds">
-  <div class="section" like-handler="LikeBlogSection" like-id="84404" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Replicated bush sounds
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month, we are changing how the classic bush rustle sounds work. Bush sounds will now be audible to players around you. Just like with footsteps, you now need to pay attention to  making noise in bushes. As you'd expect: going slower through a bush makes a quieter sound than running through it.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240731/bush_sounds_01.jpg"/>
-     </div>
-     <div>
-      <br/>
-      This change will also cause the rustles made in hot air balloon tarps to be audible to players nearby, and operates in the same way as the bushes.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="UnderwaterItems">
-  <div class="section" like-handler="LikeBlogSection" like-id="84405" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Underwater Items
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20240730/item_underwater_fall.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-     </div>
-     <div>
-      Dropped items that end up in bodies of water will now sink more realistically instead of just dropping like they are still falling through air. As well as slowing down and getting shifted around by currents they will also emit some bubbles as they move and when they hit the ocean floor. This should make finding these items a little bit easier.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="ziplineimprovements">
-  <div class="section" like-handler="LikeBlogSection" like-id="84406" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       zipline improvements
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       We’ve made several changes to the powerline zipline system this month to make it a bit more pleasant to use.
-      </div>
-      <div>
-       <ul>
-        <li>
-         Ziplines will now pick the furthest possible destination instead of the closest
-        </li>
-        <li>
-         We’ve increased the maximum length a zipline can run from 150m to 185m
-        </li>
-        <li>
-         Ziplines can now terminate at a higher point on the powerline structure and will pick these higher destinations when possible, reducing the amount of climbing required to continue the zipline.
-        </li>
-        <li>
-         You can no longer get dismounted by trees when on a zipline. We already had several systems in place to prevent trees spawning in zipline paths, but it still happened very rarely.
-        </li>
-       </ul>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       These changes should result in longer, higher ziplines that are safer to use.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="NPCvendorPriceCHanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84407" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       NPC vendor Price CHanges
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       After looking over the data from last months wipe, it was clear that the dynamic vendor pricing system wasn’t operating as well as it could have. It tended to drop to 50% off all items relatively quickly in the wipe. We’ve made a couple of changes this month:
-      </div>
-      <div>
-       <ul>
-        <li>
-         Price changes now operate in real time rather than based on in-game time. This should be more understandable and will work correctly on servers that manipulate in-game time.
-        </li>
-        <li>
-         Price changes now take place every 5 real time hours. Last month the prices changed every 15 minutes in real time by default, so this will make the prices change much more slowly.
-        </li>
-       </ul>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       As usual we’ll keep an eye on this and make changes going forwards.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="qUALITYOFlIFECHANGES">
-  <div class="section" like-handler="LikeBlogSection" like-id="84403" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       qUALITY OF lIFE CHANGES
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <video autoplay="" class="lightbox-thumbnail" loop="">
-         <source src="https://files.facepunch.com/paddy/20240731/rust_train_barricade_blog.mp4"/>
-        </video>
-        <center>
-         <b>
-          Trains break barricades
-         </b>
-        </center>
-        <center>
-         Trains can break through barricades that are deployed too close to the tracks.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/motorbike_riding_01.jpg"/>
-        <center>
-         <b>
-          Bike fast turns
-         </b>
-        </center>
-        <center>
-         Hold the Crouch key while driving to perform a faster turn.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/sidecar_01.jpg"/>
-        <center>
-         <b>
-          Sidecar bike physics
-         </b>
-        </center>
-        <center>
-         Sidecar bikes now drive more like regular motorbikes.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240801/rust_horse_launchsite_01.jpg"/>
-        <center>
-         <b>
-          Horse terrain holes
-         </b>
-        </center>
-        <center>
-         Horses can now enter terrain holes - Train tunnels, the launch site ramp etc.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20221102/rust_prototype17_firstperson.jpg"/>
-        <center>
-         <b>
-          Fire mode switch
-         </b>
-        </center>
-        <center>
-         Switching your gun firemode will now play a sound.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230201/indst_storageadapter_01.jpg"/>
-        <center>
-         <b>
-          Storage Adaptors collision
-         </b>
-        </center>
-        <center>
-         Can now walk through Storage Adaptors attached to boxes.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b0111b1/hurtUI.jpg"/>
-        <center>
-         <b>
-          Hurt screen overlay toggle
-         </b>
-        </center>
-        <center>
-         Can now turn off the blood on screen when getting hurt.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240801/rust_codelock_01.jpg"/>
-        <center>
-         <b>
-          Saved code lock input
-         </b>
-        </center>
-        <center>
-         The last entered code is now saved between sessions.
-        </center>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="ShockbytexRustPartneredserverhosting">
-  <div class="section" like-handler="LikeBlogSection" like-id="84402" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Shockbyte x Rust - Partnered server hosting
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We're extremely excited to be partnering with
-      <a class="" href="https://shockbyte.com/partner/SBRUST">
-       Shockbyte
-      </a>
-      for managed server hosting rental!
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <a href="https://shockbyte.com/partner/SBRUST">
-       <img src="https://files.facepunch.com/ashcook/1b1811b1/Artboard%201.png"/>
-      </a>
-     </div>
-     <div>
-      After seeing their work with the Minecraft community, and hearing great things from existing Rust users, we've decided to partner with them in an official capacity - endorsing their stability and reliability. You can enjoy full file access, full customization, and oxide support.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://shockbyte.com/partner/SBRUST">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_01.jpg"/>
-      </a>
-     </div>
-     <h2>
-      Promotional Offer
-     </h2>
-     <div>
-      As part of the promo,
-      <b>
-       new customers
-      </b>
-      can receive an in-game Tool Cupboard skin by
-      <a class="" href="https://shockbyte.com/partner/SBRUST" target="https://shockbyte.com/partner/SBRUST">
-       renting a server
-      </a>
-      of any tier!  Once your new server is delivered Shockbyte will send you information about how to get your sweet freebie!
-      <br/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="medium">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_05.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_06.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_11.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_04.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_08.jpg"/>
-      </gallery>
-     </div>
-     <div>
-     </div>
-     <div>
-      Here's Shockbyte's story so far:
-      <br/>
-     </div>
-     <div>
-      <span id="docs-internal-guid-f2cfcf05-7fff-3784-f3d4-480de5c183e1">
-       <p dir="ltr">
-        <i>
-         <span>
-          "
-         </span>
-         Born from a passion for multiplayer gaming in March 2013, Shockbyte has become a leading provider of game server hosting. Over the past decade, our team of dedicated gamers has delivered reliable multiplayer servers worldwide to over 700 thousand customers. Since October 2019, we have supported the Rust community, continuously improving our services based on feedback. Our mission is to simplify game server hosting, allowing absolutely anyone to create their own multiplayer community with ease.
-        </i>
-       </p>
-      </span>
-      <span id="docs-internal-guid-413d4398-7fff-4bc2-6132-a66067700c5d">
-       <p dir="ltr">
-        <span>
-         <i>
-          With a growing network of global locations, comprehensive DDOS protection, and a commitment to 100% uptime, Shockbyte has become a trusted provider for Rust communities. We understand the complexities of server hosting and are beyond thrilled to now offer our expertise in a partnered capacity with Facepunch. We believe this is the most exciting era for gaming and are proud to provide community-driven hosting opportunities.
-         </i>
-        </span>
-       </p>
-      </span>
-      <span>
-       <p dir="ltr">
-        <span>
-         <i>
-          By harnessing player feedback we’ve recently completely revamped the hosting experience and we’re extremely excited to be soon rolling out this new modern experience alongside our partnership with Rust. Our top-tier global hardware and robust DDOS protection ensure the Rust community receives only the best multiplayer support. At Shockbyte, our focus is on delivering an enjoyable online experience, committed to innovation and excellence.
-         </i>
-        </span>
-        <i>
-         "
-        </i>
-       </p>
-      </span>
-      <div>
-       <br/>
-      </div>
-      We look forward to hearing about your experiences with their servers and you can get the skin by signing up to any level of hosting through
-      <a class="" href="https://shockbyte.com/partner/SBRUST" target="https://shockbyte.com/partner/SBRUST">
-       this link
-      </a>
-      or use code
-      <b>
-       SBRUST
-      </b>
-      at checkout!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="TwitchDrops">
-  <div class="section" like-handler="LikeBlogSection" like-id="84409" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Twitch Drops!
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Here we go again!  We have worked in a group of your favorite Twitch Streamers and Youtubers that you might recognize!
-     </div>
-     <h2>
-      August 8th - August 18th, 2024
-     </h2>
-     <div blocktype="image" class="edit-block" contenteditable="false" title="Get Synced!">
-      <a href="https://twitch.facepunch.com/">
-       <img src="https://files.facepunch.com/lewis/1b0111b1/td_33-blog-image-updated.jpg"/>
-      </a>
-     </div>
-     <div>
-      Be sure you get synced up at
-      <a class="" href="https://twitch.facepunch.com/" target="https://twitch.facepunch.com/">
-       https://twitch.facepunch.com/
-      </a>
-      so you don't miss out!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="change-blog-container">
-  <div class="container">
-   <div class="changes-container" id="changelist">
-    <div class="changes-sidebar">
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Patch Name
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Stay Alert
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Changelist Title
-      </span>
-      <a class="title" style="text-decoration: none;">
-       August Changelist
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <a class="date" style="text-decoration: none;">
-       <span class="icon">
-        <i>
-         date_range
-        </i>
-       </span>
-       Thursday, August 1, 2024
-      </a>
-     </div>
-     <div class="sidebar-section">
-     </div>
-    </div>
-    <div class="changes-body">
-     <div class="changes-row features">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         add_circle
-        </i>
-       </span>
-       <h3>
-        Features
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Tin Can Alarm
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Shockbyte Tool Cupboard skin
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row improvements">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         arrow_circle_up
-        </i>
-       </span>
-       <h3>
-        Improvements
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Bikes/Snowmobiles can now be driven onto the cargo containers and moved onto the cargo ship
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Bikes/Snowmobiles will now be able to go down elevators. This includes monument and player created elevators
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Travelling vendor speed increase. Adjustable by travellingvendor.max_speed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          'refillvitals' now removes and prevents bleed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Ammo stored on weapons is now viewable in the tooltip similar to how attachments are displayed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Items will now sink slowly in water and emit bubbles
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Dynamic vendor pricing is now calculated in real time, defaults to every 5 hours
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Ziplines show now travel further and will terminate at higher destinations when possible
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can no longer be killed by colliding with a tree while ziplining
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          The number text on item pickups should be larger when when picking up items with short names
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Implemented PR #56 on community UI - Improved countdown features (thanks to Kulltero)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Last code entered into code locks is now saved across restarts
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Player movement is no longer blocked by Storage Adaptors
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Trains can break through barricades that are deployed too close to the tracks
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Motorbike sidecars now control essentially the same as standard bikes, instead of feeling more sluggish
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Motorbikes can now perform a faster turn while holding the Crouch key
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Motorbike sidecar feels less jittery
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved the feel of reversing on a bike
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved wire slack controls, reducing accidental unwanted wire slack changes
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Optimized deployable flasher lights
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added the option to turn off the blood on screen effect (Settings &gt; Image Effects &gt; Hurt)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added effects.hurtoverleyapplylighting convar, prevents the blood on screen effect from getting affected by lighting
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row fixed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         handyman
-        </i>
-       </span>
-       <h3>
-        Fixed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Travelling vendors lights now come on at night, and stay off during the day
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Pagers in horses saddlebags no longer activate when you get on a horse
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Getting on top of a junkpile doesn't kick you for flyhack anymore
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Shelter/bag limit popup only shows after the building checks are done should they pass
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Patrol helicopter now does appropriate checks during orbital strafing, ensuring napalm rockets are used when they should be
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Travelling vendor now detects people on the bonnet correctly. Preventing an endless AFK zone
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Travelling vendor now plays the correct sound when you buy from it
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Patched memory leak from occurring when vending machines tried to be refilled
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Prevent console log spam when cargo ship is docking
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a walkway with incorrect collision resulting in blocked bullets (affected Dome and Junkyard mostly)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a pillar at power substations and trainyard using an incorrect shadow caster
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed not being able to use sprays from the Spray Can on Shipping Container walls
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to clip into the Cargo Ship by sleeping or swimming in the Harbor canal
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed “Tackle the Day” quest soft locking if player inventory was full
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to destroy vehicles by pushing them into a double doorway and placing down a door
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being kicked for packet flooding when standing in range of specific deployables (couches/beds mostly) and looking at an IO entity while holding the wire tool at high framerates
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to mount Attack Helicopters through a solid surface via the rotors
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Boogie Boards will no longer accelerate forwards automatically when placed in the ocean
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some search lights in monuments rotated around the wrong way
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed incorrect static barrel colours at Small Oil Rig
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed F1 UGC admin panel not working
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being kicked when unloading exactly 128 or 256 bullets from a Minigun
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed bikes slowly falling over when sleeping on a moving cargo ship
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed motorbike headlight icon z-fighting
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed train wagons occasionally spawning close enough to the main line that a train couldn't fit past
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed player being left holding cards if they get kicked from a card table in a certain situation
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed all helicopters playing the new rocks particle effect constantly
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed horses not being able to pass through terrain holes. Horses can now enter train tunnels etc
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed seismic sensor vibration level not reset when unpowered
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed IO counter showing 1 by default instead of 0
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed NPC conversation staying open when leaving the area
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an exploit allowing your dead body's head to clip through constructions
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          The death screen can now only fade in once, fixing the escape spam to see what is going on around your dead body
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a case where a players inventory could be incorrectly locked when rapidly switching between gestures
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed barricades not deployable around caves
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row removed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         remove_circle
-        </i>
-       </span>
-       <h3>
-        Removed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Travelling vendor no longer has infinite stock. Stock now refills every 1/3rd of the vendors lifetime (10 minutes)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Light vehicles like bikes can no longer push trains
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 01 Aug 2024 02:00:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Road Renegades</title>
-      <link>https://rust.facepunch.com/news/road-renegades/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Road Renegades
-    </h1>
-    <p editname="Summary" type="text">
-     Motorbikes have arrived! Bicycles are available too. Plus, check out handcuffs and prisoner hoods, the traveling vendor event, and much more.
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      04 July 2024
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block" id="">
-  <div class="section" like-handler="LikeBlogSection" like-id="84390" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       ⠀
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="youtube-container">
-       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/pDb_ukRu2Us?si=9eFvYHXemBb_IoMK" title="YouTube video player" width="560">
-       </iframe>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Motorbikes">
-  <div class="section" like-handler="LikeBlogSection" like-id="84380" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Motorbikes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We're thrilled to introduce our latest addition: motorbikes! Blaze across the landscape with speed, leaving the clunky old horse-drawn days behind.
-      <br/>
-      <br/>
-      <div>
-      </div>
-      Motorbikes can now be found at several monument 
-locations. One is a single-person bike and one has a sidecar as well, 
-where a second player can sit and use weapons
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/motorbike_riding_01.jpg"/>
-     </div>
-     <div>
-      These are relatively fast and nimble vehicles, useful for quickly traversing the map using low grade fuel. If damaged, they can be repaired with a small amount of Metal Fragments. Be careful, drive too fast into a solid object and you'll need a bandage or two!
-     </div>
-     <div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240701/motorbike_01.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-style="columns">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/motorbike_05.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/sidecar_01.jpg"/>
-      </gallery>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Bicycles">
-  <div class="section" like-handler="LikeBlogSection" like-id="84381" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Bicycles
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      These eco-friendly rides are perfect for those times when you need a silent, reliable way to traverse the terrain without attracting unwanted attention.
-      <br/>
-      <br/>
-      Bicycles can now be found across the map on roadsides, and also at 
-several monuments. The standard bike takes one player, but a 
-three-wheeled variant allows a second player to sit and shoot from the 
-rear.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240701/bicyles_riding_01.jpg"/>
-     </div>
-     <div class="autodiv">
-      The bicycles aren't as fast or strong as the new motorbikes, but they're easier to acquire, and they don't use any fuel. Instead, they slowly consume your own food and water levels.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240701/trike_01.jpg"/>
-     </div>
-     <br/>
-     <div>
-      Holding Sprint while biking will have the driver stand up and give you a bit more temporary power and speed. Sprint mode will also automatically engage if you're struggling up a hill. This feature wears out after a few seconds and needs time to recharge.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="HandcuffsandPrisonerHood">
-  <div class="section" like-handler="LikeBlogSection" like-id="84378" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Handcuffs and Prisoner Hood
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Take your enemies captive with the new Handcuff and Prisoner Hood items!
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240625/handcuffs_prisonerhood_01.jpg"/>
-     </div>
-     <div>
-      Use the Handcuffs on a surrendering (friendly gesture) or downed player to take them prisoner - restricting their inventory, belt, use and interact options.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Handcuffed players can be pushed around and forced into vehicles and other mountables.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240702/handcuffs_firstperson_01.jpg"/>
-     </div>
-     <div>
-      <div>
-      </div>
-      <div>
-       Place the new Prisoner Hood on your victim to block 
-their vision and disable their map access, preventing them from seeing 
-where you are taking them.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none" title="">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/prisoner_cuffed_01.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      Handcuffed players can hold their attack button to progress the unlock minigame. Fill the progress bar and the Handcuffs break, releasing  you! Unlock progress is tied to the Handcuff item condition so that you can always eventually get free - but being damaged or pushed will temporarily interrupt your breakout attempt!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Additionally, performing the friendly gesture - at any time - lets other players inspect your full inventory and modify your belt - a great way to show you're not a threat or hiding something valuable!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="TravellingVendor">
-  <div class="section" like-handler="LikeBlogSection" like-id="84379" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Travelling Vendor
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've added a brand new event! The Travelling Vendor. The vendor will 
-spawn naturally on maps with ring roads (4000+) and traverse the roads.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240702/vendor_roadside_01.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The vendor sells a selection of wares: from basic building materials, to weapons. Each time the vendor spawns, a random selection of items are chosen to sell along with a different price each time. If you're lucky the vendor will decide to sell something at a discount, so keep an eye out!
-      <br/>
-      <br/>
-      To get the vendor to stop. just run up to it, but don't stand blocking its way for too long or you will be ignored. It can't wait on you forever! It doesn't take too kindly to gunfire or selling to hostiles (in an 8 meter radius) so make sure you're on your best behaviour.
-      <br/>
-      <br/>
-      Naturally, the vendor spawns at the same rate as Cargoship and will roam the roads for around 30 minutes. To force a spawn of the vendor write: "
-      <b>
-       travellingvendor.startevent"
-      </b>
-      in your console. You can change its alive time by adjusting: "
-      <b>
-       travellingvendor.alive_time_seconds"
-      </b>
-      <br/>
-      <br/>
-      I want to say a huge thanks to the Rust Discord Community for their incredible work in helping debug and improve the vendor.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="QualityofLifeChanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84387" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Quality of Life Changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/104/07/2024/2D71/parsecd_N2m56l3bT1.jpg"/>
-        <center>
-         <b>
-          Ceiling Light Wiring
-         </b>
-        </center>
-        <center>
-         Ceiling lights IO points are now easier to target
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240501/rust_woodenbarricade_cover_double.jpg"/>
-        <center>
-         <b>
-          Improved Barricade Placement
-         </b>
-        </center>
-        <center>
-         Can now place barricades on rocks and dirt roads
-        </center>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="dynamicvendorpricing">
-  <div class="section" like-handler="LikeBlogSection" like-id="84383" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       dynamic vendor pricing
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      To introduce a little more variety into the NPC vending system, this 
-month we have introduced a change that increases or decreases the sale 
-price of items purchased with scrap based on that item’s popularity.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The
- way it works is we now keep a running total of the average number of 
-items sold every 6 in-game hours. Every 6 hours if the number sold is 
-less than the average then the price of the item will drop by 5% for the
- next 6 hours (down to a minimum of 50%). If the number of items sold 
-has increased above the average then its price will be increased by 10% 
-(to a maximum of 100% extra, or twice the price). We will be starting 
-prices at 200% so they will likely drop for a while before settling to 
-the “market” price.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/jarryd/1b0311b1/dynamic_pricing_1.jpg"/>
-     </div>
-     <div>
-      <div>
-       An example of the logic:
-      </div>
-      <div>
-       <ul>
-        <li>
-         The average amount of SAM sites purchased in a 6 hour window is 150, and the current price has no increases or decreases.
-        </li>
-        <li>
-         At the end of a 6 hour window we check and see that 155 SAM sites have been purchased.
-        </li>
-        <li>
-         Since the average has gone up, we raise the price by 10%.
-        </li>
-        <li>
-         Since the price is now more expensive, sales drop to 120 over the next 6 hours.
-        </li>
-        <li>
-         Since this is below the average we then drop the price by 5%, which results in a 5% price increase in total.
-        </li>
-       </ul>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       You can see the current discount and price when looking at an item on the map or in-person, the price displayed is the final price and there’s a small indicator that communicates what the current price change is and what that item’s initial price was. You can easily tell at a glance what items are cheap and what items are expensive, as well as how much they’ve changed price to make informed purchasing decisions.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       We’ve only applied this to sales where the currency paid is scrap - vending machines that offer scrap in exchange for items (fish market, resource exchange, etc) are unaffected. This will also not apply to player created vending machines.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Why are we making this change? We believe the NPC vending meta can be shaken up a bit and this seems like a fairer change than us just arbitrarily changing a bunch of prices across the board. This way the prices will increase and decrease based on player behaviour and will vary from server to server. As usual we’ll monitor how this goes over the next month and make changes as necessary.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="FurtherMemoryimprovements">
-  <div class="section" like-handler="LikeBlogSection" like-id="84382" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Further Memory improvements
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       Building on last month's work to reduce the overall number of objects in Rust to save memory, this month we are rolling out even more improvements. We applied the same principle (reducing the number of objects by combining them when possible) but at the project level, so that most assets are already combined and streamlined in the build and don’t need to be processed when starting the game up. The streamlining process we use here is even more aggressive and results in even greater memory savings while also reducing time spent loading into the server.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       As well as these optimisations, we’re going to be making last month's renderer improvements now enabled by default.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       We believe this approach combined with last month's improvements has resulted in about a gigabyte of reduced memory usage on a fresh server.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       This was a huge effort as it involved manually modifying hundreds of assets across the entire game. Thanks to the valiant efforts of our QA team we’ve identified many cases where slight unintentional material and colour changes occurred but it’s possible some more snuck through into the release so please let us know if you see anything that looks incorrect!
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Just like last month, we have more improvements in the pipeline for next month including memory improvements to monument foliage and a new process for loading monuments that will hopefully reduce loading times and further reduce memory usage.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="UnderwaterVisibility">
-  <div class="section" like-handler="LikeBlogSection" like-id="84385" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Underwater Visibility
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Underwater visibility has been messed up for a while now. It was an unintended consequence of us rewriting the way we shade things underwater, to make it more flexible.
-      <br/>
-      <br/>
-      That low visibility has now been fixed, but we might continue to tweak it some more in subsequent patches.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="AnticheatUpdate">
-  <div class="section" like-handler="LikeBlogSection" like-id="84371" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Anti-cheat Update
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Since our last
-      <a class="" href="https://rust.facepunch.com/news/waves-of-change#AnticheatUpdate">
-       anti-cheat update back in April,
-      </a>
-      we have banned an additional 63,393 accounts, 8,018 of these were temporary, and the remaining 55,375 were permanent bans. Here's the breakdown per patch:
-     </div>
-     <div>
-      <b>
-       <br/>
-      </b>
-     </div>
-     <div>
-      <b>
-       June - Seismic Shift:
-      </b>
-     </div>
-     <div>
-      <ul>
-       <li>
-        15,440 permanent bans
-       </li>
-       <li>
-        3,619 temporary bans (86.39% of which were automated)
-       </li>
-       <li>
-        120,621 reports
-       </li>
-      </ul>
-      <b>
-       May - Meta Madness:
-      </b>
-      <ul>
-       <li>
-        19,876 permanent bans
-       </li>
-       <li>
-        2,755 temporary bans (91.80% of which were automated),
-       </li>
-       <li>
-        111,094 reports
-       </li>
-      </ul>
-      <b>
-       April - Waves of Change:
-      </b>
-     </div>
-     <div>
-      <ul>
-       <li>
-        20,059 permanent bans
-       </li>
-       <li>
-        1,644 temporary bans (94.67% of which were automated)
-       </li>
-       <li>
-        96,473 reports
-       </li>
-      </ul>
-      <h2>
-       <b>
-        Notes
-       </b>
-      </h2>
-      <div>
-       <ul>
-        <li>
-         Patch-specific report data is only from Facepunch Official servers due to data reliability originating from non-official servers, the total number of reports across all server since April is
-         <b>
-          3,645,165
-         </b>
-         .
-         <br/>
-        </li>
-        <li>
-         Bans that were later reverted are excluded from these metrics.
-        </li>
-        <li>
-         Bans are placed for multiple reasons. The numbers above do not strictly reflect only cheat-related bans, but cheat-related bans make up the vast majority of bans.
-        </li>
-        <li>
-         A single player can receive 
-multiple bans, for example, if a user is temporarily banned and then 
-later switched to a permanent ban, this is counted as 2 bans in the 
-above metrics.
-        </li>
-        <li>
-         Over the last 31-days, we've had 1,751,457 unique players, and close to half a million daily active players. Using the metrics above, it could be interpreted that 1.2% of the player base are cheaters, it's very common for cheaters to use many accounts over the course of the month. Cheaters often receive an account suspension, get another account, receive another ban, rinse and repeat inflating the true number.
-         <br/>
-        </li>
-       </ul>
-       <div>
-        The above is to provide context and transparency, not to state we're 
-doing a good job, there is much more to be done in this area, and we are continuing to
- work on it.
-       </div>
-       <div>
-        <br/>
-       </div>
-       <h2>
-        <b>
-         Next
-        </b>
-       </h2>
-       <div>
-        In the
-        <a class="" href="https://rust.facepunch.com/news/waves-of-change#AnticheatUpdate">
-         last anti-cheat blog update
-        </a>
-        , I discussed how we've limited the information cheaters can read and abuse from network data, such as knowing players health and buried stash locations, authorization lists from turrets and tool cupboards. The holy grail would be not networking nearby players and items you can't see.
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        If a player is behind a hill and you can't see them, don't network the player. If a tool cupboard is inside a base, don't network the tool cupboard. This is server occlusion, and it's difficult to get perfect. We're currently experimenting with this and hope to do a slow rollout over the coming months, pending further internal testing.
-       </div>
-      </div>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false" title="Cheaters POV with Server Occlusion enabled">
-      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" src="https://files.facepunch.com/ryanw/1b0311b1/cheater_example.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <div>
-       <div>
-        Additionally, we're currently working on many experimental features
- to disrupt cheats, some of these changes are nearly completion and will be 
-deployed Soon™.
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        Last month, we teamed up with a third party to
-        <span class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3">
-         handle takedowns on our behalf. One of the core objectives is aimed at cheat-related material.
-        </span>
-        <span class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3">
-         The
- takedowns will be made at the request of Facepunch staff after manual 
-review. There is no automation, and there is no room for innocent 
-content to be taken down.
-        </span>
-        <span class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3">
-         <br/>
-        </span>
-       </div>
-       <div>
-        <ul>
-         <li>
-          In the past 30 days, we've taken down over 300 cheats-related media on social platforms
-          <br/>
-         </li>
-         <li>
-          We're working on several other legal fronts, which are too early to discuss
-         </li>
-        </ul>
-        <div>
-         <br/>
-        </div>
-        <div>
-         The next anticheat blog update will be in November.
-         <br/>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Creativemode">
-  <div class="section" like-handler="LikeBlogSection" like-id="84384" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Creative mode
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       Creative mode is a new set of native tools Paddy and I have added which allows players to freely build, place and experiment without needing additional plugins. You can enable creative mode for everyone on your server using the server convar
-       <b>
-        "creative.allUsers
-       </b>
-       " or enable it just for a specific player using
-       <b>
-        “creative.toggleCreativeModeUser PLAYERNAME”
-       </b>
-       .
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Once enabled, there are several convars you can enable which overrides standard build and placement restrictions:
-      </div>
-      <div>
-       <ul>
-        <li>
-         <b>
-          creative.freeRepair
-         </b>
-         - allows resource free repairs and bypass the repair cooldown
-        </li>
-        <li>
-         <b>
-          creative.freeBuild
-         </b>
-         - makes all building blocks free and adds the option to spawn blocks in a specific grade. Also allows the Hammer to upgrade and downgrade blocks for free.
-        </li>
-        <li>
-         <b>
-          creative.freePlacement
-         </b>
-         - removes most placement restrictions when deploying objects. Will allow building in building blocked zones, in other TC zones and when intersecting other objects.
-        </li>
-        <li>
-         <b>
-          creative.unlimitedIO
-         </b>
-         - allows an unlimited amount of line points and raises the distance limit when wiring IO entities to 200m. Also adds an invisible colour option in the colour wheel.
-        </li>
-       </ul>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       This was originally made to help our Media team more efficiently build and film content, but we also see this being helpful for QA purposes as well. Hopefully you find it helpful too!
-       <br/>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="TwitchDropsJuly26Aug2nd">
-  <div class="section" like-handler="LikeBlogSection" like-id="84388" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Twitch Drops - July 26-Aug 2nd
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <a class="selected" href="https://x.com/FancyOrb_/status/1805286214238384618">
-       FancyOrb's
-      </a>
-      Global Warfare is soon here, with all your favorite creators will be involved
-      <a class="" href="https://twitch.facepunch.com/">
-       with Twitch drops
-      </a>
-      !
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <a href="https://twitch.facepunch.com/#drops">
-       <img src="https://files.facepunch.com/Errn/1b0411b1/td_33-blog-image%20-rvsd.jpg"/>
-      </a>
-     </div>
-     <div>
-      Drops will be available across the entire
-      <a class="" href="https://www.twitch.tv/directory/category/rust">
-       Rust category on Twitch
-      </a>
-      .
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Be sure to get synced at
-      <a class="" href="https://twitch.facepunch.com/connect">
-       https://twitch.facepunch.com/connect
-      </a>
-      to claim your skins!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="change-blog-container">
-  <div class="container">
-   <div class="changes-container" id="changelist">
-    <div class="changes-sidebar">
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Patch Name
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Road Renegades
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Changelist Title
-      </span>
-      <a class="title" style="text-decoration: none;">
-       July Blog
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <a class="date" style="text-decoration: none;">
-       <span class="icon">
-        <i>
-         date_range
-        </i>
-       </span>
-       Monday, July 1, 2024
-      </a>
-     </div>
-     <div class="sidebar-section">
-     </div>
-    </div>
-    <div class="changes-body">
-     <div class="changes-row features">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         add_circle
-        </i>
-       </span>
-       <h3>
-        Features
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Dynamic NPC Vendor pricing
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Creative Mode
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Handcuffs
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Prisoner Hood
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added motorbikes
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added pedal bikes
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Travelling Vendor
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row improvements">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         arrow_circle_up
-        </i>
-       </span>
-       <h3>
-        Improvements
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduced memory usage by optimising the number of objects in the world
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Increased the maximum number of water containers that can receive water from another container (3 -&gt; 12)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Don’t render the underlying player hands when wearing a hazmat suit, fixes some clipping
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Play the old workbench open/close sounds when switching between tech tree tabs
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved performance when switching between tech tree tabs
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Don’t allow the fill placement on Planters to work until the player is in range of all slots on the planter
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Buttons in monument elevators can now open the current door even if they are blocked by a vehicle
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Optimised wire slack calculation
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Allow demo recorder UI to be visible in debug camera view
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added a popup warning the user if they're about to overwrite a demo with the same name
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added a checkbox option to the recorder UI to auto fill demo name
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Show the demo UI whilst recording when in debug camera
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Wire slack bound to the mouse wheel directly instead of next slot/previous slot
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Relaxed the seismic sensor distance checks to mitigate wall thickness
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          'pipette' command can now copy items skin
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Optimized electric heaters light
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Updated fluid combiner and fluid splitter destruction sound
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added 'spawnview' command to spawn entity at the position and orientation of the camera
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Pressing R to reset debug cam now reset roll immediately regardless of any camlerp value
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Debug camera can now save any depth of field aper, blur, squeeze and barrel values
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added 'triggerevent' server command to trigger any event by name (airdrop, cargo, patrol heli etc)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Also added 'killallevents' to instantly kill any ongoing event
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Set the device ID config UI input field to alphanumeric, so it behaves like computer station and ignore any special characters
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row fixed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         handyman
-        </i>
-       </span>
-       <h3>
-        Fixed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed barricades not being buildable on rocks &amp; dirt paths around monuments
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed not being able to mount the CCTV station at Large Oil Rig
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to scroll the Min/Max/Buffer fields on an Industrial Conveyor filter
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed parachutes not properly playing the pull cord animation if the player pulls the cord too quickly after dismounting
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed incorrect projectile invalidations on certain parts of the Cargo Ship
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed incorrect projectile invalidations on certain parts of Giant Excavator
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed incorrect projectile invalidations when shooting players on ziplines
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed electricity side inputs still adding active usage when directly wired to batteries with no components in between
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a potential error when clearing wires
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed electric heaters not heating planters right in front of them
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an issue with electric heaters shadow causing performance drops
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed fluid combiner and fluid splitter snapping issues
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed fluid combiner gibs using fluid splitter material
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed console command descriptions truncated to 100 characters
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed small and medium non-animated neon signs culling issue
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed wire isolation resetting itself when looking away in some cases
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed pulsed door controllers ending up in the wrong state in some cases
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed autoturrets being more "baitable" than before
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed ceiling light IO points being difficult to use
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed search light beam sometimes not showing
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed occlusion culling setting always turning itself back on when opening the game
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed monuments and caves intersecting with the water level causing projectile problems
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed one of the reasons causing players and animals to turn invisible
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed bug causing the Patrol Helicopter to fly under the ground and spam errors in console
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 04 Jul 2024 14:00:00 Z</pubDate>
-    </item>
-    <item>
       <title>Time To Kill</title>
       <link>https://rust.facepunch.com/news/time-to-kill/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -5781,6 +3414,2373 @@ beginnings, to becoming what it is today.
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 05 Sep 2024 14:00:00 Z</pubDate>
+    </item>
+    <item>
+      <title>Road Renegades</title>
+      <link>https://rust.facepunch.com/news/road-renegades/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Road Renegades
+    </h1>
+    <p editname="Summary" type="text">
+     Motorbikes have arrived! Bicycles are available too. Plus, check out handcuffs and prisoner hoods, the traveling vendor event, and much more.
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      04 July 2024
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block" id="">
+  <div class="section" like-handler="LikeBlogSection" like-id="84390" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       ⠀
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="youtube-container">
+       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/pDb_ukRu2Us?si=9eFvYHXemBb_IoMK" title="YouTube video player" width="560">
+       </iframe>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Motorbikes">
+  <div class="section" like-handler="LikeBlogSection" like-id="84380" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Motorbikes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We're thrilled to introduce our latest addition: motorbikes! Blaze across the landscape with speed, leaving the clunky old horse-drawn days behind.
+      <br/>
+      <br/>
+      <div>
+      </div>
+      Motorbikes can now be found at several monument 
+locations. One is a single-person bike and one has a sidecar as well, 
+where a second player can sit and use weapons
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/motorbike_riding_01.jpg"/>
+     </div>
+     <div>
+      These are relatively fast and nimble vehicles, useful for quickly traversing the map using low grade fuel. If damaged, they can be repaired with a small amount of Metal Fragments. Be careful, drive too fast into a solid object and you'll need a bandage or two!
+     </div>
+     <div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240701/motorbike_01.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-style="columns">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/motorbike_05.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/sidecar_01.jpg"/>
+      </gallery>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Bicycles">
+  <div class="section" like-handler="LikeBlogSection" like-id="84381" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Bicycles
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      These eco-friendly rides are perfect for those times when you need a silent, reliable way to traverse the terrain without attracting unwanted attention.
+      <br/>
+      <br/>
+      Bicycles can now be found across the map on roadsides, and also at 
+several monuments. The standard bike takes one player, but a 
+three-wheeled variant allows a second player to sit and shoot from the 
+rear.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240701/bicyles_riding_01.jpg"/>
+     </div>
+     <div class="autodiv">
+      The bicycles aren't as fast or strong as the new motorbikes, but they're easier to acquire, and they don't use any fuel. Instead, they slowly consume your own food and water levels.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240701/trike_01.jpg"/>
+     </div>
+     <br/>
+     <div>
+      Holding Sprint while biking will have the driver stand up and give you a bit more temporary power and speed. Sprint mode will also automatically engage if you're struggling up a hill. This feature wears out after a few seconds and needs time to recharge.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="HandcuffsandPrisonerHood">
+  <div class="section" like-handler="LikeBlogSection" like-id="84378" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Handcuffs and Prisoner Hood
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Take your enemies captive with the new Handcuff and Prisoner Hood items!
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240625/handcuffs_prisonerhood_01.jpg"/>
+     </div>
+     <div>
+      Use the Handcuffs on a surrendering (friendly gesture) or downed player to take them prisoner - restricting their inventory, belt, use and interact options.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Handcuffed players can be pushed around and forced into vehicles and other mountables.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240702/handcuffs_firstperson_01.jpg"/>
+     </div>
+     <div>
+      <div>
+      </div>
+      <div>
+       Place the new Prisoner Hood on your victim to block 
+their vision and disable their map access, preventing them from seeing 
+where you are taking them.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none" title="">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/prisoner_cuffed_01.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      Handcuffed players can hold their attack button to progress the unlock minigame. Fill the progress bar and the Handcuffs break, releasing  you! Unlock progress is tied to the Handcuff item condition so that you can always eventually get free - but being damaged or pushed will temporarily interrupt your breakout attempt!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Additionally, performing the friendly gesture - at any time - lets other players inspect your full inventory and modify your belt - a great way to show you're not a threat or hiding something valuable!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="TravellingVendor">
+  <div class="section" like-handler="LikeBlogSection" like-id="84379" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Travelling Vendor
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've added a brand new event! The Travelling Vendor. The vendor will 
+spawn naturally on maps with ring roads (4000+) and traverse the roads.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240702/vendor_roadside_01.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The vendor sells a selection of wares: from basic building materials, to weapons. Each time the vendor spawns, a random selection of items are chosen to sell along with a different price each time. If you're lucky the vendor will decide to sell something at a discount, so keep an eye out!
+      <br/>
+      <br/>
+      To get the vendor to stop. just run up to it, but don't stand blocking its way for too long or you will be ignored. It can't wait on you forever! It doesn't take too kindly to gunfire or selling to hostiles (in an 8 meter radius) so make sure you're on your best behaviour.
+      <br/>
+      <br/>
+      Naturally, the vendor spawns at the same rate as Cargoship and will roam the roads for around 30 minutes. To force a spawn of the vendor write: "
+      <b>
+       travellingvendor.startevent"
+      </b>
+      in your console. You can change its alive time by adjusting: "
+      <b>
+       travellingvendor.alive_time_seconds"
+      </b>
+      <br/>
+      <br/>
+      I want to say a huge thanks to the Rust Discord Community for their incredible work in helping debug and improve the vendor.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="QualityofLifeChanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84387" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Quality of Life Changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/104/07/2024/2D71/parsecd_N2m56l3bT1.jpg"/>
+        <center>
+         <b>
+          Ceiling Light Wiring
+         </b>
+        </center>
+        <center>
+         Ceiling lights IO points are now easier to target
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240501/rust_woodenbarricade_cover_double.jpg"/>
+        <center>
+         <b>
+          Improved Barricade Placement
+         </b>
+        </center>
+        <center>
+         Can now place barricades on rocks and dirt roads
+        </center>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="dynamicvendorpricing">
+  <div class="section" like-handler="LikeBlogSection" like-id="84383" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       dynamic vendor pricing
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      To introduce a little more variety into the NPC vending system, this 
+month we have introduced a change that increases or decreases the sale 
+price of items purchased with scrap based on that item’s popularity.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The
+ way it works is we now keep a running total of the average number of 
+items sold every 6 in-game hours. Every 6 hours if the number sold is 
+less than the average then the price of the item will drop by 5% for the
+ next 6 hours (down to a minimum of 50%). If the number of items sold 
+has increased above the average then its price will be increased by 10% 
+(to a maximum of 100% extra, or twice the price). We will be starting 
+prices at 200% so they will likely drop for a while before settling to 
+the “market” price.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/jarryd/1b0311b1/dynamic_pricing_1.jpg"/>
+     </div>
+     <div>
+      <div>
+       An example of the logic:
+      </div>
+      <div>
+       <ul>
+        <li>
+         The average amount of SAM sites purchased in a 6 hour window is 150, and the current price has no increases or decreases.
+        </li>
+        <li>
+         At the end of a 6 hour window we check and see that 155 SAM sites have been purchased.
+        </li>
+        <li>
+         Since the average has gone up, we raise the price by 10%.
+        </li>
+        <li>
+         Since the price is now more expensive, sales drop to 120 over the next 6 hours.
+        </li>
+        <li>
+         Since this is below the average we then drop the price by 5%, which results in a 5% price increase in total.
+        </li>
+       </ul>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       You can see the current discount and price when looking at an item on the map or in-person, the price displayed is the final price and there’s a small indicator that communicates what the current price change is and what that item’s initial price was. You can easily tell at a glance what items are cheap and what items are expensive, as well as how much they’ve changed price to make informed purchasing decisions.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       We’ve only applied this to sales where the currency paid is scrap - vending machines that offer scrap in exchange for items (fish market, resource exchange, etc) are unaffected. This will also not apply to player created vending machines.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Why are we making this change? We believe the NPC vending meta can be shaken up a bit and this seems like a fairer change than us just arbitrarily changing a bunch of prices across the board. This way the prices will increase and decrease based on player behaviour and will vary from server to server. As usual we’ll monitor how this goes over the next month and make changes as necessary.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="FurtherMemoryimprovements">
+  <div class="section" like-handler="LikeBlogSection" like-id="84382" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Further Memory improvements
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       Building on last month's work to reduce the overall number of objects in Rust to save memory, this month we are rolling out even more improvements. We applied the same principle (reducing the number of objects by combining them when possible) but at the project level, so that most assets are already combined and streamlined in the build and don’t need to be processed when starting the game up. The streamlining process we use here is even more aggressive and results in even greater memory savings while also reducing time spent loading into the server.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       As well as these optimisations, we’re going to be making last month's renderer improvements now enabled by default.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       We believe this approach combined with last month's improvements has resulted in about a gigabyte of reduced memory usage on a fresh server.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       This was a huge effort as it involved manually modifying hundreds of assets across the entire game. Thanks to the valiant efforts of our QA team we’ve identified many cases where slight unintentional material and colour changes occurred but it’s possible some more snuck through into the release so please let us know if you see anything that looks incorrect!
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Just like last month, we have more improvements in the pipeline for next month including memory improvements to monument foliage and a new process for loading monuments that will hopefully reduce loading times and further reduce memory usage.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="UnderwaterVisibility">
+  <div class="section" like-handler="LikeBlogSection" like-id="84385" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Underwater Visibility
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Underwater visibility has been messed up for a while now. It was an unintended consequence of us rewriting the way we shade things underwater, to make it more flexible.
+      <br/>
+      <br/>
+      That low visibility has now been fixed, but we might continue to tweak it some more in subsequent patches.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="AnticheatUpdate">
+  <div class="section" like-handler="LikeBlogSection" like-id="84371" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Anti-cheat Update
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Since our last
+      <a class="" href="https://rust.facepunch.com/news/waves-of-change#AnticheatUpdate">
+       anti-cheat update back in April,
+      </a>
+      we have banned an additional 63,393 accounts, 8,018 of these were temporary, and the remaining 55,375 were permanent bans. Here's the breakdown per patch:
+     </div>
+     <div>
+      <b>
+       <br/>
+      </b>
+     </div>
+     <div>
+      <b>
+       June - Seismic Shift:
+      </b>
+     </div>
+     <div>
+      <ul>
+       <li>
+        15,440 permanent bans
+       </li>
+       <li>
+        3,619 temporary bans (86.39% of which were automated)
+       </li>
+       <li>
+        120,621 reports
+       </li>
+      </ul>
+      <b>
+       May - Meta Madness:
+      </b>
+      <ul>
+       <li>
+        19,876 permanent bans
+       </li>
+       <li>
+        2,755 temporary bans (91.80% of which were automated),
+       </li>
+       <li>
+        111,094 reports
+       </li>
+      </ul>
+      <b>
+       April - Waves of Change:
+      </b>
+     </div>
+     <div>
+      <ul>
+       <li>
+        20,059 permanent bans
+       </li>
+       <li>
+        1,644 temporary bans (94.67% of which were automated)
+       </li>
+       <li>
+        96,473 reports
+       </li>
+      </ul>
+      <h2>
+       <b>
+        Notes
+       </b>
+      </h2>
+      <div>
+       <ul>
+        <li>
+         Patch-specific report data is only from Facepunch Official servers due to data reliability originating from non-official servers, the total number of reports across all server since April is
+         <b>
+          3,645,165
+         </b>
+         .
+         <br/>
+        </li>
+        <li>
+         Bans that were later reverted are excluded from these metrics.
+        </li>
+        <li>
+         Bans are placed for multiple reasons. The numbers above do not strictly reflect only cheat-related bans, but cheat-related bans make up the vast majority of bans.
+        </li>
+        <li>
+         A single player can receive 
+multiple bans, for example, if a user is temporarily banned and then 
+later switched to a permanent ban, this is counted as 2 bans in the 
+above metrics.
+        </li>
+        <li>
+         Over the last 31-days, we've had 1,751,457 unique players, and close to half a million daily active players. Using the metrics above, it could be interpreted that 1.2% of the player base are cheaters, it's very common for cheaters to use many accounts over the course of the month. Cheaters often receive an account suspension, get another account, receive another ban, rinse and repeat inflating the true number.
+         <br/>
+        </li>
+       </ul>
+       <div>
+        The above is to provide context and transparency, not to state we're 
+doing a good job, there is much more to be done in this area, and we are continuing to
+ work on it.
+       </div>
+       <div>
+        <br/>
+       </div>
+       <h2>
+        <b>
+         Next
+        </b>
+       </h2>
+       <div>
+        In the
+        <a class="" href="https://rust.facepunch.com/news/waves-of-change#AnticheatUpdate">
+         last anti-cheat blog update
+        </a>
+        , I discussed how we've limited the information cheaters can read and abuse from network data, such as knowing players health and buried stash locations, authorization lists from turrets and tool cupboards. The holy grail would be not networking nearby players and items you can't see.
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        If a player is behind a hill and you can't see them, don't network the player. If a tool cupboard is inside a base, don't network the tool cupboard. This is server occlusion, and it's difficult to get perfect. We're currently experimenting with this and hope to do a slow rollout over the coming months, pending further internal testing.
+       </div>
+      </div>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false" title="Cheaters POV with Server Occlusion enabled">
+      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" src="https://files.facepunch.com/ryanw/1b0311b1/cheater_example.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <div>
+       <div>
+        Additionally, we're currently working on many experimental features
+ to disrupt cheats, some of these changes are nearly completion and will be 
+deployed Soon™.
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        Last month, we teamed up with a third party to
+        <span class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3">
+         handle takedowns on our behalf. One of the core objectives is aimed at cheat-related material.
+        </span>
+        <span class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3">
+         The
+ takedowns will be made at the request of Facepunch staff after manual 
+review. There is no automation, and there is no room for innocent 
+content to be taken down.
+        </span>
+        <span class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3">
+         <br/>
+        </span>
+       </div>
+       <div>
+        <ul>
+         <li>
+          In the past 30 days, we've taken down over 300 cheats-related media on social platforms
+          <br/>
+         </li>
+         <li>
+          We're working on several other legal fronts, which are too early to discuss
+         </li>
+        </ul>
+        <div>
+         <br/>
+        </div>
+        <div>
+         The next anticheat blog update will be in November.
+         <br/>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Creativemode">
+  <div class="section" like-handler="LikeBlogSection" like-id="84384" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Creative mode
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       Creative mode is a new set of native tools Paddy and I have added which allows players to freely build, place and experiment without needing additional plugins. You can enable creative mode for everyone on your server using the server convar
+       <b>
+        "creative.allUsers
+       </b>
+       " or enable it just for a specific player using
+       <b>
+        “creative.toggleCreativeModeUser PLAYERNAME”
+       </b>
+       .
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Once enabled, there are several convars you can enable which overrides standard build and placement restrictions:
+      </div>
+      <div>
+       <ul>
+        <li>
+         <b>
+          creative.freeRepair
+         </b>
+         - allows resource free repairs and bypass the repair cooldown
+        </li>
+        <li>
+         <b>
+          creative.freeBuild
+         </b>
+         - makes all building blocks free and adds the option to spawn blocks in a specific grade. Also allows the Hammer to upgrade and downgrade blocks for free.
+        </li>
+        <li>
+         <b>
+          creative.freePlacement
+         </b>
+         - removes most placement restrictions when deploying objects. Will allow building in building blocked zones, in other TC zones and when intersecting other objects.
+        </li>
+        <li>
+         <b>
+          creative.unlimitedIO
+         </b>
+         - allows an unlimited amount of line points and raises the distance limit when wiring IO entities to 200m. Also adds an invisible colour option in the colour wheel.
+        </li>
+       </ul>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       This was originally made to help our Media team more efficiently build and film content, but we also see this being helpful for QA purposes as well. Hopefully you find it helpful too!
+       <br/>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="TwitchDropsJuly26Aug2nd">
+  <div class="section" like-handler="LikeBlogSection" like-id="84388" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Twitch Drops - July 26-Aug 2nd
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <a class="selected" href="https://x.com/FancyOrb_/status/1805286214238384618">
+       FancyOrb's
+      </a>
+      Global Warfare is soon here, with all your favorite creators will be involved
+      <a class="" href="https://twitch.facepunch.com/">
+       with Twitch drops
+      </a>
+      !
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <a href="https://twitch.facepunch.com/#drops">
+       <img src="https://files.facepunch.com/Errn/1b0411b1/td_33-blog-image%20-rvsd.jpg"/>
+      </a>
+     </div>
+     <div>
+      Drops will be available across the entire
+      <a class="" href="https://www.twitch.tv/directory/category/rust">
+       Rust category on Twitch
+      </a>
+      .
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Be sure to get synced at
+      <a class="" href="https://twitch.facepunch.com/connect">
+       https://twitch.facepunch.com/connect
+      </a>
+      to claim your skins!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Road Renegades
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       July Blog
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Monday, July 1, 2024
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
+    </div>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Dynamic NPC Vendor pricing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Creative Mode
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Handcuffs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Prisoner Hood
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added motorbikes
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added pedal bikes
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Travelling Vendor
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced memory usage by optimising the number of objects in the world
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Increased the maximum number of water containers that can receive water from another container (3 -&gt; 12)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Don’t render the underlying player hands when wearing a hazmat suit, fixes some clipping
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Play the old workbench open/close sounds when switching between tech tree tabs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved performance when switching between tech tree tabs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Don’t allow the fill placement on Planters to work until the player is in range of all slots on the planter
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Buttons in monument elevators can now open the current door even if they are blocked by a vehicle
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Optimised wire slack calculation
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Allow demo recorder UI to be visible in debug camera view
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a popup warning the user if they're about to overwrite a demo with the same name
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a checkbox option to the recorder UI to auto fill demo name
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Show the demo UI whilst recording when in debug camera
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wire slack bound to the mouse wheel directly instead of next slot/previous slot
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Relaxed the seismic sensor distance checks to mitigate wall thickness
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          'pipette' command can now copy items skin
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Optimized electric heaters light
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Updated fluid combiner and fluid splitter destruction sound
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added 'spawnview' command to spawn entity at the position and orientation of the camera
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Pressing R to reset debug cam now reset roll immediately regardless of any camlerp value
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Debug camera can now save any depth of field aper, blur, squeeze and barrel values
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added 'triggerevent' server command to trigger any event by name (airdrop, cargo, patrol heli etc)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Also added 'killallevents' to instantly kill any ongoing event
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Set the device ID config UI input field to alphanumeric, so it behaves like computer station and ignore any special characters
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed barricades not being buildable on rocks &amp; dirt paths around monuments
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed not being able to mount the CCTV station at Large Oil Rig
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to scroll the Min/Max/Buffer fields on an Industrial Conveyor filter
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed parachutes not properly playing the pull cord animation if the player pulls the cord too quickly after dismounting
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed incorrect projectile invalidations on certain parts of the Cargo Ship
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed incorrect projectile invalidations on certain parts of Giant Excavator
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed incorrect projectile invalidations when shooting players on ziplines
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed electricity side inputs still adding active usage when directly wired to batteries with no components in between
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a potential error when clearing wires
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed electric heaters not heating planters right in front of them
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an issue with electric heaters shadow causing performance drops
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed fluid combiner and fluid splitter snapping issues
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed fluid combiner gibs using fluid splitter material
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed console command descriptions truncated to 100 characters
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed small and medium non-animated neon signs culling issue
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed wire isolation resetting itself when looking away in some cases
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed pulsed door controllers ending up in the wrong state in some cases
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed autoturrets being more "baitable" than before
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed ceiling light IO points being difficult to use
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed search light beam sometimes not showing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed occlusion culling setting always turning itself back on when opening the game
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed monuments and caves intersecting with the water level causing projectile problems
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed one of the reasons causing players and animals to turn invisible
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed bug causing the Patrol Helicopter to fly under the ground and spam errors in console
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 04 Jul 2024 14:00:00 Z</pubDate>
+    </item>
+    <item>
+      <title>Stay Alert</title>
+      <link>https://rust.facepunch.com/news/stay-alert/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Stay Alert
+    </h1>
+    <p editname="Summary" type="text">
+     New tin can alarm, zipline improvements, item buoyancy, vendor price adjustments, &amp; more QoL!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      01 August 2024
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="TinCanalarm">
+  <div class="section" like-handler="LikeBlogSection" like-id="84399" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Tin Can alarm
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      This month, we're adding the Tin Can Alarm, a new primitive trap made from hanging tin cans.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240729/tincan_alarm_02_1080p.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240729/tincan_alarm_06_1080p.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Crossing its wire will trigger the trap and cause a loud clatter, alerting anyone nearby to your presence.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      You can deploy it anywhere from your base to inside monuments. Use it strategically to cover access points and defend your positions.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Replicatedbushsounds">
+  <div class="section" like-handler="LikeBlogSection" like-id="84404" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Replicated bush sounds
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      This month, we are changing how the classic bush rustle sounds work. Bush sounds will now be audible to players around you. Just like with footsteps, you now need to pay attention to  making noise in bushes. As you'd expect: going slower through a bush makes a quieter sound than running through it.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240731/bush_sounds_01.jpg"/>
+     </div>
+     <div>
+      <br/>
+      This change will also cause the rustles made in hot air balloon tarps to be audible to players nearby, and operates in the same way as the bushes.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="UnderwaterItems">
+  <div class="section" like-handler="LikeBlogSection" like-id="84405" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Underwater Items
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20240730/item_underwater_fall.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+     </div>
+     <div>
+      Dropped items that end up in bodies of water will now sink more realistically instead of just dropping like they are still falling through air. As well as slowing down and getting shifted around by currents they will also emit some bubbles as they move and when they hit the ocean floor. This should make finding these items a little bit easier.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ziplineimprovements">
+  <div class="section" like-handler="LikeBlogSection" like-id="84406" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       zipline improvements
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       We’ve made several changes to the powerline zipline system this month to make it a bit more pleasant to use.
+      </div>
+      <div>
+       <ul>
+        <li>
+         Ziplines will now pick the furthest possible destination instead of the closest
+        </li>
+        <li>
+         We’ve increased the maximum length a zipline can run from 150m to 185m
+        </li>
+        <li>
+         Ziplines can now terminate at a higher point on the powerline structure and will pick these higher destinations when possible, reducing the amount of climbing required to continue the zipline.
+        </li>
+        <li>
+         You can no longer get dismounted by trees when on a zipline. We already had several systems in place to prevent trees spawning in zipline paths, but it still happened very rarely.
+        </li>
+       </ul>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       These changes should result in longer, higher ziplines that are safer to use.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="NPCvendorPriceCHanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84407" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       NPC vendor Price CHanges
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       After looking over the data from last months wipe, it was clear that the dynamic vendor pricing system wasn’t operating as well as it could have. It tended to drop to 50% off all items relatively quickly in the wipe. We’ve made a couple of changes this month:
+      </div>
+      <div>
+       <ul>
+        <li>
+         Price changes now operate in real time rather than based on in-game time. This should be more understandable and will work correctly on servers that manipulate in-game time.
+        </li>
+        <li>
+         Price changes now take place every 5 real time hours. Last month the prices changed every 15 minutes in real time by default, so this will make the prices change much more slowly.
+        </li>
+       </ul>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       As usual we’ll keep an eye on this and make changes going forwards.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="qUALITYOFlIFECHANGES">
+  <div class="section" like-handler="LikeBlogSection" like-id="84403" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       qUALITY OF lIFE CHANGES
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <video autoplay="" class="lightbox-thumbnail" loop="">
+         <source src="https://files.facepunch.com/paddy/20240731/rust_train_barricade_blog.mp4"/>
+        </video>
+        <center>
+         <b>
+          Trains break barricades
+         </b>
+        </center>
+        <center>
+         Trains can break through barricades that are deployed too close to the tracks.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/motorbike_riding_01.jpg"/>
+        <center>
+         <b>
+          Bike fast turns
+         </b>
+        </center>
+        <center>
+         Hold the Crouch key while driving to perform a faster turn.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/sidecar_01.jpg"/>
+        <center>
+         <b>
+          Sidecar bike physics
+         </b>
+        </center>
+        <center>
+         Sidecar bikes now drive more like regular motorbikes.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240801/rust_horse_launchsite_01.jpg"/>
+        <center>
+         <b>
+          Horse terrain holes
+         </b>
+        </center>
+        <center>
+         Horses can now enter terrain holes - Train tunnels, the launch site ramp etc.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20221102/rust_prototype17_firstperson.jpg"/>
+        <center>
+         <b>
+          Fire mode switch
+         </b>
+        </center>
+        <center>
+         Switching your gun firemode will now play a sound.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230201/indst_storageadapter_01.jpg"/>
+        <center>
+         <b>
+          Storage Adaptors collision
+         </b>
+        </center>
+        <center>
+         Can now walk through Storage Adaptors attached to boxes.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b0111b1/hurtUI.jpg"/>
+        <center>
+         <b>
+          Hurt screen overlay toggle
+         </b>
+        </center>
+        <center>
+         Can now turn off the blood on screen when getting hurt.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240801/rust_codelock_01.jpg"/>
+        <center>
+         <b>
+          Saved code lock input
+         </b>
+        </center>
+        <center>
+         The last entered code is now saved between sessions.
+        </center>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ShockbytexRustPartneredserverhosting">
+  <div class="section" like-handler="LikeBlogSection" like-id="84402" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Shockbyte x Rust - Partnered server hosting
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We're extremely excited to be partnering with
+      <a class="" href="https://shockbyte.com/partner/SBRUST">
+       Shockbyte
+      </a>
+      for managed server hosting rental!
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <a href="https://shockbyte.com/partner/SBRUST">
+       <img src="https://files.facepunch.com/ashcook/1b1811b1/Artboard%201.png"/>
+      </a>
+     </div>
+     <div>
+      After seeing their work with the Minecraft community, and hearing great things from existing Rust users, we've decided to partner with them in an official capacity - endorsing their stability and reliability. You can enjoy full file access, full customization, and oxide support.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://shockbyte.com/partner/SBRUST">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_01.jpg"/>
+      </a>
+     </div>
+     <h2>
+      Promotional Offer
+     </h2>
+     <div>
+      As part of the promo,
+      <b>
+       new customers
+      </b>
+      can receive an in-game Tool Cupboard skin by
+      <a class="" href="https://shockbyte.com/partner/SBRUST" target="https://shockbyte.com/partner/SBRUST">
+       renting a server
+      </a>
+      of any tier!  Once your new server is delivered Shockbyte will send you information about how to get your sweet freebie!
+      <br/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_05.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_06.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_11.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_04.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_08.jpg"/>
+      </gallery>
+     </div>
+     <div>
+     </div>
+     <div>
+      Here's Shockbyte's story so far:
+      <br/>
+     </div>
+     <div>
+      <span id="docs-internal-guid-f2cfcf05-7fff-3784-f3d4-480de5c183e1">
+       <p dir="ltr">
+        <i>
+         <span>
+          "
+         </span>
+         Born from a passion for multiplayer gaming in March 2013, Shockbyte has become a leading provider of game server hosting. Over the past decade, our team of dedicated gamers has delivered reliable multiplayer servers worldwide to over 700 thousand customers. Since October 2019, we have supported the Rust community, continuously improving our services based on feedback. Our mission is to simplify game server hosting, allowing absolutely anyone to create their own multiplayer community with ease.
+        </i>
+       </p>
+      </span>
+      <span id="docs-internal-guid-413d4398-7fff-4bc2-6132-a66067700c5d">
+       <p dir="ltr">
+        <span>
+         <i>
+          With a growing network of global locations, comprehensive DDOS protection, and a commitment to 100% uptime, Shockbyte has become a trusted provider for Rust communities. We understand the complexities of server hosting and are beyond thrilled to now offer our expertise in a partnered capacity with Facepunch. We believe this is the most exciting era for gaming and are proud to provide community-driven hosting opportunities.
+         </i>
+        </span>
+       </p>
+      </span>
+      <span>
+       <p dir="ltr">
+        <span>
+         <i>
+          By harnessing player feedback we’ve recently completely revamped the hosting experience and we’re extremely excited to be soon rolling out this new modern experience alongside our partnership with Rust. Our top-tier global hardware and robust DDOS protection ensure the Rust community receives only the best multiplayer support. At Shockbyte, our focus is on delivering an enjoyable online experience, committed to innovation and excellence.
+         </i>
+        </span>
+        <i>
+         "
+        </i>
+       </p>
+      </span>
+      <div>
+       <br/>
+      </div>
+      We look forward to hearing about your experiences with their servers and you can get the skin by signing up to any level of hosting through
+      <a class="" href="https://shockbyte.com/partner/SBRUST" target="https://shockbyte.com/partner/SBRUST">
+       this link
+      </a>
+      or use code
+      <b>
+       SBRUST
+      </b>
+      at checkout!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="TwitchDrops">
+  <div class="section" like-handler="LikeBlogSection" like-id="84409" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Twitch Drops!
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Here we go again!  We have worked in a group of your favorite Twitch Streamers and Youtubers that you might recognize!
+     </div>
+     <h2>
+      August 8th - August 18th, 2024
+     </h2>
+     <div blocktype="image" class="edit-block" contenteditable="false" title="Get Synced!">
+      <a href="https://twitch.facepunch.com/">
+       <img src="https://files.facepunch.com/lewis/1b0111b1/td_33-blog-image-updated.jpg"/>
+      </a>
+     </div>
+     <div>
+      Be sure you get synced up at
+      <a class="" href="https://twitch.facepunch.com/" target="https://twitch.facepunch.com/">
+       https://twitch.facepunch.com/
+      </a>
+      so you don't miss out!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Stay Alert
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       August Changelist
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Thursday, August 1, 2024
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
+    </div>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Tin Can Alarm
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Shockbyte Tool Cupboard skin
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Bikes/Snowmobiles can now be driven onto the cargo containers and moved onto the cargo ship
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Bikes/Snowmobiles will now be able to go down elevators. This includes monument and player created elevators
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Travelling vendor speed increase. Adjustable by travellingvendor.max_speed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          'refillvitals' now removes and prevents bleed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Ammo stored on weapons is now viewable in the tooltip similar to how attachments are displayed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Items will now sink slowly in water and emit bubbles
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Dynamic vendor pricing is now calculated in real time, defaults to every 5 hours
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Ziplines show now travel further and will terminate at higher destinations when possible
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can no longer be killed by colliding with a tree while ziplining
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          The number text on item pickups should be larger when when picking up items with short names
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Implemented PR #56 on community UI - Improved countdown features (thanks to Kulltero)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Last code entered into code locks is now saved across restarts
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Player movement is no longer blocked by Storage Adaptors
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Trains can break through barricades that are deployed too close to the tracks
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Motorbike sidecars now control essentially the same as standard bikes, instead of feeling more sluggish
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Motorbikes can now perform a faster turn while holding the Crouch key
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Motorbike sidecar feels less jittery
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved the feel of reversing on a bike
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved wire slack controls, reducing accidental unwanted wire slack changes
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Optimized deployable flasher lights
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added the option to turn off the blood on screen effect (Settings &gt; Image Effects &gt; Hurt)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added effects.hurtoverleyapplylighting convar, prevents the blood on screen effect from getting affected by lighting
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Travelling vendors lights now come on at night, and stay off during the day
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Pagers in horses saddlebags no longer activate when you get on a horse
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Getting on top of a junkpile doesn't kick you for flyhack anymore
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Shelter/bag limit popup only shows after the building checks are done should they pass
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Patrol helicopter now does appropriate checks during orbital strafing, ensuring napalm rockets are used when they should be
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Travelling vendor now detects people on the bonnet correctly. Preventing an endless AFK zone
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Travelling vendor now plays the correct sound when you buy from it
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Patched memory leak from occurring when vending machines tried to be refilled
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Prevent console log spam when cargo ship is docking
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a walkway with incorrect collision resulting in blocked bullets (affected Dome and Junkyard mostly)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a pillar at power substations and trainyard using an incorrect shadow caster
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed not being able to use sprays from the Spray Can on Shipping Container walls
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to clip into the Cargo Ship by sleeping or swimming in the Harbor canal
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed “Tackle the Day” quest soft locking if player inventory was full
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to destroy vehicles by pushing them into a double doorway and placing down a door
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being kicked for packet flooding when standing in range of specific deployables (couches/beds mostly) and looking at an IO entity while holding the wire tool at high framerates
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to mount Attack Helicopters through a solid surface via the rotors
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Boogie Boards will no longer accelerate forwards automatically when placed in the ocean
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some search lights in monuments rotated around the wrong way
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed incorrect static barrel colours at Small Oil Rig
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed F1 UGC admin panel not working
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being kicked when unloading exactly 128 or 256 bullets from a Minigun
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed bikes slowly falling over when sleeping on a moving cargo ship
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed motorbike headlight icon z-fighting
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed train wagons occasionally spawning close enough to the main line that a train couldn't fit past
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed player being left holding cards if they get kicked from a card table in a certain situation
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed all helicopters playing the new rocks particle effect constantly
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed horses not being able to pass through terrain holes. Horses can now enter train tunnels etc
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed seismic sensor vibration level not reset when unpowered
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed IO counter showing 1 by default instead of 0
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed NPC conversation staying open when leaving the area
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an exploit allowing your dead body's head to clip through constructions
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          The death screen can now only fade in once, fixing the escape spam to see what is going on around your dead body
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a case where a players inventory could be incorrectly locked when rapidly switching between gestures
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed barricades not deployable around caves
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row removed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         remove_circle
+        </i>
+       </span>
+       <h3>
+        Removed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Travelling vendor no longer has infinite stock. Stock now refills every 1/3rd of the vendors lifetime (10 minutes)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Light vehicles like bikes can no longer push trains
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 01 Aug 2024 02:00:00 Z</pubDate>
     </item>
   </channel>
 </rss>
