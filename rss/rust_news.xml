@@ -1,6 +1,1461 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>World Update 2.0</title>
+      <link>https://rust.facepunch.com/news/world_update_2/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     World Update 2.0
+    </h1>
+    <p editname="Summary" type="text">
+     Explore a whole new world with new stunning cliffs, rock formations, unique environments, enhanced rivers, and more! Introducing the High Caliber Revolver, Radtown, Frontiersman pack, plus the usual bug fixes &amp; QoL changes!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      03 October 2024
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block" id="">
+  <div class="section" like-handler="LikeBlogSection" like-id="84442" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       ⠀
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="youtube-container">
+       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="15032385558" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/l9smd22_sC4?si=Mgg_Kud-9kCc2Vvp" title="YouTube video player" width="560">
+       </iframe>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Radtown">
+  <div class="section" like-handler="LikeBlogSection" like-id="84415" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Radtown
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      One of the emblematic locations from legacy Rust makes a comeback: Radtown.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_35.jpg"/>
+     </div>
+     <div>
+      We turned this 
+monument from a bunch of blocky garage buildings, into a refreshed new 
+gameplay space. We tried to preserve the proportions and purpose of each
+ location while opening up new paths and adding way to improve the flow 
+of movement and cover throughout.
+     </div>
+     <h2>
+      <span>
+       Exteriors
+      </span>
+      <br/>
+     </h2>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_22.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_28.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_31.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_18.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_36.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_15.jpg"/>
+      </gallery>
+     </div>
+     <div>
+     </div>
+     <h2>
+      <span>
+       Interiors
+      </span>
+     </h2>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_05.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_11.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_09.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_46.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_50.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_40.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_43.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_48.jpg"/>
+      </gallery>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="CLIFFS">
+  <div class="section" like-handler="LikeBlogSection" like-id="84417" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       CLIFFS
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We have completely reworked all cliffs in the game. The new cliffs come in two types, tall coastal cliffs placed close to the ocean and sloped inland cliffs covering hills and mountains.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      A lot of effort was made into making them not only look realistic, but also easy to traverse. You can run up the inland cliffs with ease, while the coastal cliffs can be scaled by jumping on the rocky ledges and protrusions.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/paddy/20241002/rust_worldUpdate_cliffs02_03.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241002/rust_worldUpdate_cliffs02_02.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      In addition we have added many new coastal rocks close to the shore to further spice up the world.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241002/rust_worldUpdate_cliffs02_11_alt1.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240905/rust_worldupdate_preview_18.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="RevampedROckformations">
+  <div class="section" like-handler="LikeBlogSection" like-id="84439" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Revamped ROck formations
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We have completely revamped all large rock formations in the game and decided to bring back some of the old fan favorites.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241002/rust_worldUpdate_rocks02_10.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Formations such as the god rock, anvil rock and arch rock all return to the game. Completely new rock formations have been added and some of them even spawn off shore allowing for more base building possibilities than ever before.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/paddy/20241002/rust_worldUpdate_rocks_02.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/paddy/20241002/rust_worldUpdate_rocks_08.jpg"/>
+     </div>
+     <div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="UniqueEnvironments">
+  <div class="section" like-handler="LikeBlogSection" like-id="84418" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Unique Environments
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      In Rust, you will now find several different canyons, lakes, and oasis of various sizes in each procedurally generated map.
+      <br/>
+      <br/>
+      Canyons, Lakes, and Oases – each offering a fresh way to play with their own pros and cons. Canyons provide narrow pathways for ambushes but can be risky to navigate. Lakes create opportunities for resource gathering and farming but leave you vulnerable in open water. Oases are lush safe havens with valuable resources but will become hotspots for fierce competition.
+      <br/>
+     </div>
+     <h2>
+      Canyons
+      <br/>
+     </h2>
+     <div>
+      These towering landscapes offer fresh opportunities for ambushes and base building. While the narrow pathways and steep drops make for thrilling combat and strategic locations.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240905/rust_worldupdate_preview_24.jpg"/>
+     </div>
+     <div>
+      Canyons can be rich in resources, but don't get too greedy and get caught out.
+      <br/>
+     </div>
+     <h2>
+      <br/>
+      lakes
+      <br/>
+     </h2>
+     <div>
+      These scenic water bodies add a new twist to the gameplay, offering great spots for fishing, resource gathering, farming and base-building by the shore. However, the open water leaves you exposed to attacks, and swimming can slow you down when trying to make a quick escape.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_lakes_07.jpg"/>
+     </div>
+     <h2>
+      Oasis
+      <br/>
+     </h2>
+     <div>
+      These are rare paradises amidst the harsh desert. These lush areas are perfect for setting up base, gathering, farming, and finding vital resources like water. But be warned: Oases will attract other players looking to take advantage of these havens.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_oasis_10.jpg"/>
+     </div>
+     <br/>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Rivers">
+  <div class="section" like-handler="LikeBlogSection" like-id="84435" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rivers
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Rivers are now longer, flow more naturally, and widen the longer they get. This as well as the new unique environments required a larger water system overhaul to support different water types at any altitude.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241002/rust_worldUpdate_rivers02_09.jpg"/>
+     </div>
+     <div>
+      The ocean is now fully culled underneath the terrain, and lakes no longer stretch beyond their boundaries. Overall, it's a much more robust and future proof system.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/paddy/20241002/rust_worldUpdate_rivers02_11.jpg"/>
+     </div>
+     <div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="HighCalibrERevolver">
+  <div class="section" like-handler="LikeBlogSection" like-id="84438" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       High CalibrE Revolver
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <p>
+       The High Calibre Revolver is a hand-crafted, single-action revolver that uses 5.56 ammo. Built for precise, long-range shots rather than rapid fire, it demands a steady hand for maximum accuracy. Its slower fire rate reflects the single-action design, but the power and precision make each shot count.
+      </p>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241003/rust_highcaliberrevolver_tabletop_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241003/rust_highcaliberrevolver_tabletop_06.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20241003/hcr_showcase_001.jpg" src="https://files.facepunch.com/paddy/20241003/hcr_showcase_001.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Unlockable at a Tier 2 workbench, the High Calibre is for survivors who prioritize accuracy and impact over speed.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Legacywoodpile">
+  <div class="section" like-handler="LikeBlogSection" like-id="84430" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Legacy woodpile
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+      </div>
+      Welcome back wood piles! These will spawn in the snow, and temperate biomes.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240917/legacy_woodpile_01.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      They function just like our traditional ore piles, but for wood! Harvestable with a rock, hatchet or chainsaw. A great source of wood early in the game to start off your Rust journey.
+      <br/>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="DiveSITES">
+  <div class="section" like-handler="LikeBlogSection" like-id="84416" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Dive SITES
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <h2>
+      Ocean Wreck Buoys
+     </h2>
+     <div>
+      We’ve remodelled the old floating bottle indicators on the surface of dive sites into more solid buoys. They are much more visible which will help with finding dive sites.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240919/rust_worldUpdate_buoy_01.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      Dive Sites
+      <br/>
+     </h2>
+     <div>
+      The Dive Sites themselves have been refreshed this month, with an entirely new set of three possible options replacing the old sites. All sites now spawn the same amount of loot (6 crates). Each site has new unique environment art and topology.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241003/rust_worldUpdate_diveSite_01.jpg"/>
+     </div>
+     <div>
+      <div>
+       <br/>
+      </div>
+      <h2>
+       Flora and Fauna
+      </h2>
+      <div>
+       Alongside the new Buoys and Dive Sites, we've overhauled the underwater foliage with a graphical update, and tweaked the visuals on fish so they behave more naturally. You might even find a couple of other critters down there.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241003/rust_worldUpdate_diveSite_07.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/paddy/20241003/rust_worldUpdate_diveSite_04.jpg"/>
+     </div>
+     <div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="DiverPropulsionVehicleDPV">
+  <div class="section" like-handler="LikeBlogSection" like-id="84432" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Diver Propulsion Vehicle (DPV)
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div class="autodiv">
+      We've added small new handheld dive vehicle this month. The DPV can be crafted and kept in your inventory until you need it.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241003/rust_dpv_01.jpg"/>
+     </div>
+     <div class="autodiv">
+      It's then used like so:
+      <br/>
+     </div>
+     <div class="autodiv">
+      - Select it and deploy it into any water that's at least 1 metre deep
+     </div>
+     <div class="autodiv">
+      - Interact with the fuel tank and add some low grade fuel
+     </div>
+     <div class="autodiv">
+      - "Mount" it to hold onto the handles and drive it around
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241003/rust_dpv_03.jpg"/>
+     </div>
+     <div class="autodiv">
+      <br/>
+     </div>
+     <div class="autodiv">
+      Using the DPV, you can travel underwater significantly faster than you could by swimming. Once you're done with it, simply dismount and pick it up. Fuel will automatically be removed and added to your inventory, or dropped if you don't have any space.
+      <br/>
+      <br/>
+      <b>
+       Note:
+      </b>
+      Currently players will need to manually remove fuel before picking up the DPV. This will be corrected in a hotfix asap
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241003/rust_dpv_04.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Waterwellupdate">
+  <div class="section" like-handler="LikeBlogSection" like-id="84424" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Water well update
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       Waterwells aren’t exactly the most popular monument in Rust, so this month we decided to make them a little more interesting. You
+ will now find a new vendor at some Water Wells that can offer a random 
+selection of teas and farming equipment that shuffles every 30 minutes.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240924/rust_waterwell_NPC_02.jpg"/>
+     </div>
+     <div>
+      <div>
+       What’s special about this NPC is that this is the first vendor that is 
+available in non safe zones. This means they can be killed! If that 
+happens they will respawn after a while, but that won’t trigger the 
+vendor to refresh or have any loot so there’s no real purpose. Try and 
+be nice!
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240924/waterWell_foodcache_01.jpg"/>
+     </div>
+     <div>
+      <div>
+       You will also find a new food cache with basic teas and high quality food items, and some planters that are automatically filled with random plants periodically. These plants have a high priority of having good genes, so they’re a great way to give your farm base a quick boost.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240924/waterWell_planter_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240924/waterWell_planter_02.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Radioactivewater">
+  <div class="section" like-handler="LikeBlogSection" like-id="84429" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Radioactive water
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've added a new gameplay feature to the world: Radioactive Water!
+      <br/>
+      This is available at two locations in the new Radtown monument. Players will be able to harvest it with any regular water container, be it: a bota bag, water jug or the tanker module for vehicles.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_38.jpg"/>
+     </div>
+     <div>
+      Radioactive Water has a few properties: splashing it on plants will instantly kill them, splashing it on players (via throwing your water from a container, or via a sprinkler) will irradiate them. Carrying a large amount of it in your inventory will damage you, and finally looting a players body will irradiate you if there's enough radioactive water in their inventory.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      These properties make Radioactive Water a great choice for a number of 
+things: from instantly resetting your farm, to being a great counter to 
+those players raiding you in full gear.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_radwater_splash_01.jpg"/>
+     </div>
+     <div>
+      The backend work done on 
+Radioactive Water opens up a number of gameplay possibilities in the 
+future as any item (in code) can now be marked as Radioactive.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_radwater_sprinkler_01.jpg"/>
+     </div>
+     <div>
+      We can't wait to see what creations you come up with!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="FrontiersmanPACK">
+  <div class="section" like-handler="LikeBlogSection" like-id="84433" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Frontiersman PACK
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      This month we're introducing a new addition to Rust's permanent store, the Frontiersman Pack.
+      <br/>
+      <br/>
+      The pack includes three items: Frontier Hazmat Suit, Frontier Hatchet,  Blunderbuss
+      <br/>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240924/rust_frontiersman_hero_01.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240924/rust_frontiersman_pack_collection_01.jpg"/>
+     </div>
+     <h2>
+      Frontiersman hazmat suit
+     </h2>
+     <div>
+      The Frontiersman Hazmat is a handcrafted survival suit, built for those who brave the wilderness. Forged from durable felt and leather, it’s designed to shield its wearer from the harsh weather, unseen enemies, and the dangers of the wild. The Frontiersman suit is a hazmat replacement skin that can be applied while crafting the hazmat or skinned using the repair table. The Frontiersman suit offers no in-game bonuses.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_hero_07.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_hero_21.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_hero_13.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_hero_11.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_hero_18.jpg"/>
+      </gallery>
+     </div>
+     <div>
+     </div>
+     <h2>
+     </h2>
+     <h2>
+      Blunderbuss
+     </h2>
+     <div>
+      The Blunderbuss is a handcrafted, frontier-inspired shotgun that brings a classic, rugged aesthetic to the Double Barrel. This skin reimagines the weapon, turning it into a more traditional tool of survival from a bygone era.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_pack_blunderbuss_03.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_hero_19.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_hero_17.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+     </h2>
+     <h2>
+      Frontier hatchet
+     </h2>
+     <div>
+      Inspired by the traditional tomahawk, featuring a rugged design with several charms attached. This unique skin transforms the hatchet into a symbol of frontier survival.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_pack_hatchet_01.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_hero_04.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_hero_22.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Available now on the item store.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="WallpaperCHANGES">
+  <div class="section" like-handler="LikeBlogSection" like-id="84434" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Wallpaper CHANGES
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Based on your feedback following last month’s wallpaper release, you can now place wallpapers on building block hardsides, but only inside your base!
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Any exposed hardside wallpaper will be removed by the next decay tick.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="qUALITYOFlIFECHANGES">
+  <div class="section" like-handler="LikeBlogSection" like-id="84436" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       qUALITY OF lIFE CHANGES
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/lewis/1b2511b1/sheetmetal-5.jpg"/>
+        <center>
+         <b>
+          Spray Can Improvements
+         </b>
+        </center>
+        <center>
+         Spray Can will now remember the shipping container colour through deaths and restarts
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_notes_worldmodel_01.jpg"/>
+        <center>
+         <b>
+          Note World Model
+         </b>
+        </center>
+        <center>
+         Note World Model Added
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241003/rust_worldUpdate_diveSite_02.jpg"/>
+        <center>
+         <b>
+          Underwater Visibility
+         </b>
+        </center>
+        <center>
+         Underwater visibility improved, allowing for enhanced long-distance sight
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/10/2024/8h07/repair_bench_icons_1080_jpg.jpg"/>
+        <center>
+         <b>
+          Repair Bench
+         </b>
+        </center>
+        <center>
+         The repair bench now displays icons alongside text for repair costs.
+        </center>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="CharitableRust2024TwitchDrops">
+  <div class="section" like-handler="LikeBlogSection" like-id="84437" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Charitable Rust 2024 - Twitch Drops
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <h2>
+      October 12th - October 19th!
+     </h2>
+     <div>
+      Join us and
+      <a class="" href="https://www.rustafied.com/">
+       Rustafied
+      </a>
+      for the annual
+      <a class="" href="https://www.charitablerust.com/">
+       Charitable Rust
+      </a>
+      !
+      <br/>
+      <br/>
+      The main event takes place on October 12th from 11:00AM EDT until 11:00PM EDT On
+      <a class="" href="https://www.twitch.tv/rustafied">
+       Rustafied's Twitch channel
+      </a>
+      .  Tune in for tons of mini games, talent shows, and some of your favorite creators battling it out in
+      <a class="" href="https://rustreborn.gg/">
+       Rust Reborn's
+      </a>
+      Bedwars!  Check out the full schedule
+      <a class="" href="https://www.charitablerust.com/schedule">
+       here
+      </a>
+      .
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      There will be 4 store items this year.  Proceeds go toward the
+      <a class="" href="https://www.directrelief.org/">
+       Direct Relief
+      </a>
+      Charity.
+      <i>
+       These store items will be account bound. Meaning, you will not be able to sell or trade them once purchased.
+      </i>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" title="Get Synced!">
+      <a href="https://twitch.facepunch.com/">
+       <img src="https://files.facepunch.com/Errn/1b2711b1/charitablerust_34-blog-image.jpg"/>
+      </a>
+     </div>
+     <div>
+      You will be able to collect all the Twitch drops for the remainder of the week on
+      <a class="" href="https://www.twitch.tv/directory/category/rust">
+       any Rust stream
+      </a>
+      with drops enabled!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="worldupdate20sale40OffRust">
+  <div class="section" like-handler="LikeBlogSection" like-id="84431" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       world update 2.0 sale - 40% Off Rust
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <p dir="ltr">
+       To celebrate the release of The World Update 2.0, Rust is now 40% off until October 8th!
+      </p>
+      <p dir="ltr">
+       Whether you want to role play, survive as a solo, find a new duo partner, or finally join your friend's clan, The World Update 2.0 is here to bring a fresh new feel to Rust for you to explore!
+      </p>
+      <p dir="ltr">
+       Or why not use The World Update 2.0 sale to gift Rust to that friend that would make a good survival partner?
+      </p>
+      <p dir="ltr">
+       There’s no better time to jump in to build, explore, raid, and survive with legacy items returning, new weapons and a hazmat, a new monument, AND the newly tuned terrain!
+      </p>
+      <p dir="ltr">
+       <a class="" href="https://bit.ly/4dvRiCi">
+        Head over to Steam to save 40%
+       </a>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="SteamPointsstore">
+  <div class="section" like-handler="LikeBlogSection" like-id="84441" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Steam Points store
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've been working on a bunch of new Steam points store graphics.
+      <br/>
+      <br/>
+      From animated backgrounds, animated stickers, emoticons, and animated avatar frames, you've now finally got something to spend all of those points on, while showing off your love for Rust on your Steam profile.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/lewis/1b0311b1/points-store.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      Head over to the
+      <a class="" href="https://store.steampowered.com/points/shop/app/252490">
+       Steam Points
+      </a>
+      store to check them out now.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="MapMakerWarning">
+  <div class="section" like-handler="LikeBlogSection" like-id="84440" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Map Maker Warning
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div class="autodiv">
+      If you're a map maker, please note that next month, we'll be removing the old rock and cliff assets from the game. Map makers should update their maps with the new rock assets to maintain compatibility.
+     </div>
+     <br/>
+     <div class="autodiv">
+      The reason we're removing the old assets is to ensure we're keeping the game running as optimal as possible, and not needlessly loading unused assets into memory.
+     </div>
+     <br/>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
+      </span>
+      <a class="title" style="text-decoration: none;">
+       World Update 2.0
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       World Update 2.0
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Thursday, October 3, 2024
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
+    </div>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added hand-held Diver Propulsion Vehicle (DPV)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New NPC’s, Planters and Food Caches at Water Wells
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Refreshed Divesites with new art and buoys
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Legacy Woodpiles
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Radioactive Water
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New Radtown monument
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New rivers
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a new Note world model
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New cliffs added to procedural map
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New coastal rocks added to the shore
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Revamped rock formations
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Spray Can will now remember the shipping container colour through deaths and restarts (stored in client.cfg)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Spray Can will now default to the last used Shipping Container colour when opening the radial menu
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved server performance of Fog Machine
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Minor memory usage improvement for most server side loot containers
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Nametags are now reenabled when leaving a demo
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wallpapers can now be deployed on the hardside of building blocks, if inside your base
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Repair bench UI now shows required ingredients as icons instead of texts
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          The 'clearinventory' command can now take container names as arguments: --main, --belt, --wear, --backpack
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Increased the wallpaper spray can use distance from 3 to 5 meters
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Moved the language menu to the options menu
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          The game will now select your system's language when booted for the first time
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved water system
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Hackable Locked Crates now have the same no build radius as Patrol Helicopter Crates
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved visuals where the river exit meets the ocean, they now blend seamlessly
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed concrete barricade not showing correct skin at a distance
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed small holes in the two armoured vehicle modules that could let bullets pass through
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed NPCs at the Arctic Research Base being able to respawn when players were nearby
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the locomotive pushing other train wagons too hard, causing them to zoom away. They now get pushed more realistically
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the F1 console allowing rich text to affect the printed response
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed modular car code locks changing to show a green light instead of the intended red if the player left and re-entered network range
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed not being able to spray decals on Half Walls, Low Walls, Doorways and Windows when using the  Shipping Container skin
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed edge case that would occasionally result in a player becoming invisible in train tunnel elevators
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed submarine able to kill players though a surface
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Spray Can not appearing in craft menu when searching for “can”
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some meshes in Outpost not lowering detail properly
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a variety of locations in cave structures that would render incorrectly
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Helicopters now play damaged FX alongside destroyed FX when crashing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed snow effects not working on a bunch of entities
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed backpacks remaining locked when killed during surrendering
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed clearinventory command NREs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the recently added modded prevent building prefabs not working as intended
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed wallpaper store page wainscoting preview not cycling through variations
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed paddling and above ground pools showing power usage 0
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed truncated text in various UI screens for certain languages
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a few English typos across the game
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed instant camera world model LODs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed not being able to move after closing canvas drawing UI with chat open
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed placement of deployables on water from underwater
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed blueprints not being able to be learned from the player's backpack
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed admins in god mode taking 1 bleed damage on fall
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed lockers having no condition when picked up
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 03 Oct 2024 11:24:00 Z</pubDate>
+    </item>
+    <item>
       <title>Halloween 2024</title>
       <link>https://rust.facepunch.com/news/halloween24/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -1885,22 +3340,22 @@ beginnings, to becoming what it is today.
       <pubDate>Thu, 05 Sep 2024 14:00:00 Z</pubDate>
     </item>
     <item>
-      <title>World Update 2.0</title>
-      <link>https://rust.facepunch.com/news/world_update_2/</link>
+      <title>Stay Alert</title>
+      <link>https://rust.facepunch.com/news/stay-alert/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
 <div class="blog-hero">
  <div class="container" targetobject="blog">
   <div class="blog-hero-body">
    <div class="body-info">
     <h1 editname="Title" type="text">
-     World Update 2.0
+     Stay Alert
     </h1>
     <p editname="Summary" type="text">
-     Explore a whole new world with new stunning cliffs, rock formations, unique environments, enhanced rivers, and more! Introducing the High Caliber Revolver, Radtown, Frontiersman pack, plus the usual bug fixes &amp; QoL changes!
+     New tin can alarm, zipline improvements, item buoyancy, vendor price adjustments, &amp; more QoL!
     </p>
     <div class="tags">
      <div class="tag secondary">
-      03 October 2024
+      01 August 2024
      </div>
      <a class="tag devblog" style="text-decoration: none;">
       DEVBLOG
@@ -1950,666 +3405,176 @@ beginnings, to becoming what it is today.
         }
 </style>
 <div class="blog">
- <div class="news-section-block" id="">
-  <div class="section" like-handler="LikeBlogSection" like-id="84442" targetobject="section">
+ <div class="news-section-block sectionstyle-hero" id="TinCanalarm">
+  <div class="section" like-handler="LikeBlogSection" like-id="84399" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       ⠀
+       Tin Can alarm
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="youtube-container">
-       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="15032385558" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/l9smd22_sC4?si=Mgg_Kud-9kCc2Vvp" title="YouTube video player" width="560">
-       </iframe>
-      </div>
+     <div>
+      This month, we're adding the Tin Can Alarm, a new primitive trap made from hanging tin cans.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240729/tincan_alarm_02_1080p.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240729/tincan_alarm_06_1080p.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Crossing its wire will trigger the trap and cause a loud clatter, alerting anyone nearby to your presence.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      You can deploy it anywhere from your base to inside monuments. Use it strategically to cover access points and defend your positions.
      </div>
     </div>
    </div>
   </div>
  </div>
- <div class="news-section-block sectionstyle-hero" id="Radtown">
-  <div class="section" like-handler="LikeBlogSection" like-id="84415" targetobject="section">
+ <div class="news-section-block sectionstyle-hero" id="Replicatedbushsounds">
+  <div class="section" like-handler="LikeBlogSection" like-id="84404" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       Radtown
+       Replicated bush sounds
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
      <div>
-      One of the emblematic locations from legacy Rust makes a comeback: Radtown.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_35.jpg"/>
-     </div>
-     <div>
-      We turned this 
-monument from a bunch of blocky garage buildings, into a refreshed new 
-gameplay space. We tried to preserve the proportions and purpose of each
- location while opening up new paths and adding way to improve the flow 
-of movement and cover throughout.
-     </div>
-     <h2>
-      <span>
-       Exteriors
-      </span>
+      This month, we are changing how the classic bush rustle sounds work. Bush sounds will now be audible to players around you. Just like with footsteps, you now need to pay attention to  making noise in bushes. As you'd expect: going slower through a bush makes a quieter sound than running through it.
       <br/>
-     </h2>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-style="medium">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_22.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_28.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_31.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_18.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_36.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_15.jpg"/>
-      </gallery>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240731/bush_sounds_01.jpg"/>
      </div>
      <div>
-     </div>
-     <h2>
-      <span>
-       Interiors
-      </span>
-     </h2>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-style="medium">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_05.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_11.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_09.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_46.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_50.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_40.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_43.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_48.jpg"/>
-      </gallery>
+      <br/>
+      This change will also cause the rustles made in hot air balloon tarps to be audible to players nearby, and operates in the same way as the bushes.
+      <br/>
      </div>
     </div>
    </div>
   </div>
  </div>
- <div class="news-section-block sectionstyle-hero" id="CLIFFS">
-  <div class="section" like-handler="LikeBlogSection" like-id="84417" targetobject="section">
+ <div class="news-section-block sectionstyle-hero" id="UnderwaterItems">
+  <div class="section" like-handler="LikeBlogSection" like-id="84405" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       CLIFFS
+       Underwater Items
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We have completely reworked all cliffs in the game. The new cliffs come in two types, tall coastal cliffs placed close to the ocean and sloped inland cliffs covering hills and mountains.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      A lot of effort was made into making them not only look realistic, but also easy to traverse. You can run up the inland cliffs with ease, while the coastal cliffs can be scaled by jumping on the rocky ledges and protrusions.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/paddy/20241002/rust_worldUpdate_cliffs02_03.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241002/rust_worldUpdate_cliffs02_02.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      In addition we have added many new coastal rocks close to the shore to further spice up the world.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241002/rust_worldUpdate_cliffs02_11_alt1.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240905/rust_worldupdate_preview_18.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="RevampedROckformations">
-  <div class="section" like-handler="LikeBlogSection" like-id="84439" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Revamped ROck formations
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We have completely revamped all large rock formations in the game and decided to bring back some of the old fan favorites.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241002/rust_worldUpdate_rocks02_10.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Formations such as the god rock, anvil rock and arch rock all return to the game. Completely new rock formations have been added and some of them even spawn off shore allowing for more base building possibilities than ever before.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/paddy/20241002/rust_worldUpdate_rocks_02.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/paddy/20241002/rust_worldUpdate_rocks_08.jpg"/>
-     </div>
-     <div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="UniqueEnvironments">
-  <div class="section" like-handler="LikeBlogSection" like-id="84418" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Unique Environments
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      In Rust, you will now find several different canyons, lakes, and oasis of various sizes in each procedurally generated map.
-      <br/>
-      <br/>
-      Canyons, Lakes, and Oases – each offering a fresh way to play with their own pros and cons. Canyons provide narrow pathways for ambushes but can be risky to navigate. Lakes create opportunities for resource gathering and farming but leave you vulnerable in open water. Oases are lush safe havens with valuable resources but will become hotspots for fierce competition.
-      <br/>
-     </div>
-     <h2>
-      Canyons
-      <br/>
-     </h2>
-     <div>
-      These towering landscapes offer fresh opportunities for ambushes and base building. While the narrow pathways and steep drops make for thrilling combat and strategic locations.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240905/rust_worldupdate_preview_24.jpg"/>
-     </div>
-     <div>
-      Canyons can be rich in resources, but don't get too greedy and get caught out.
-      <br/>
-     </div>
-     <h2>
-      <br/>
-      lakes
-      <br/>
-     </h2>
-     <div>
-      These scenic water bodies add a new twist to the gameplay, offering great spots for fishing, resource gathering, farming and base-building by the shore. However, the open water leaves you exposed to attacks, and swimming can slow you down when trying to make a quick escape.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_lakes_07.jpg"/>
-     </div>
-     <h2>
-      Oasis
-      <br/>
-     </h2>
-     <div>
-      These are rare paradises amidst the harsh desert. These lush areas are perfect for setting up base, gathering, farming, and finding vital resources like water. But be warned: Oases will attract other players looking to take advantage of these havens.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_oasis_10.jpg"/>
-     </div>
-     <br/>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Rivers">
-  <div class="section" like-handler="LikeBlogSection" like-id="84435" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Rivers
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Rivers are now longer, flow more naturally, and widen the longer they get. This as well as the new unique environments required a larger water system overhaul to support different water types at any altitude.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241002/rust_worldUpdate_rivers02_09.jpg"/>
-     </div>
-     <div>
-      The ocean is now fully culled underneath the terrain, and lakes no longer stretch beyond their boundaries. Overall, it's a much more robust and future proof system.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/paddy/20241002/rust_worldUpdate_rivers02_11.jpg"/>
-     </div>
-     <div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="HighCalibrERevolver">
-  <div class="section" like-handler="LikeBlogSection" like-id="84438" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       High CalibrE Revolver
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <p>
-       The High Calibre Revolver is a hand-crafted, single-action revolver that uses 5.56 ammo. Built for precise, long-range shots rather than rapid fire, it demands a steady hand for maximum accuracy. Its slower fire rate reflects the single-action design, but the power and precision make each shot count.
-      </p>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241003/rust_highcaliberrevolver_tabletop_01.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241003/rust_highcaliberrevolver_tabletop_06.jpg"/>
-     </div>
-     <div>
-     </div>
      <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20241003/hcr_showcase_001.jpg" src="https://files.facepunch.com/paddy/20241003/hcr_showcase_001.mp4">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20240730/item_underwater_fall.mp4">
        <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
       </video>
      </div>
      <div>
-      <br/>
      </div>
      <div>
-      Unlockable at a Tier 2 workbench, the High Calibre is for survivors who prioritize accuracy and impact over speed.
+      Dropped items that end up in bodies of water will now sink more realistically instead of just dropping like they are still falling through air. As well as slowing down and getting shifted around by currents they will also emit some bubbles as they move and when they hit the ocean floor. This should make finding these items a little bit easier.
+      <br/>
      </div>
     </div>
    </div>
   </div>
  </div>
- <div class="news-section-block sectionstyle-hero" id="Legacywoodpile">
-  <div class="section" like-handler="LikeBlogSection" like-id="84430" targetobject="section">
+ <div class="news-section-block sectionstyle-hero" id="ziplineimprovements">
+  <div class="section" like-handler="LikeBlogSection" like-id="84406" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       Legacy woodpile
+       zipline improvements
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
      <div>
       <div>
+       We’ve made several changes to the powerline zipline system this month to make it a bit more pleasant to use.
       </div>
-      Welcome back wood piles! These will spawn in the snow, and temperate biomes.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240917/legacy_woodpile_01.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      They function just like our traditional ore piles, but for wood! Harvestable with a rock, hatchet or chainsaw. A great source of wood early in the game to start off your Rust journey.
-      <br/>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="DiveSITES">
-  <div class="section" like-handler="LikeBlogSection" like-id="84416" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Dive SITES
+      <div>
+       <ul>
+        <li>
+         Ziplines will now pick the furthest possible destination instead of the closest
+        </li>
+        <li>
+         We’ve increased the maximum length a zipline can run from 150m to 185m
+        </li>
+        <li>
+         Ziplines can now terminate at a higher point on the powerline structure and will pick these higher destinations when possible, reducing the amount of climbing required to continue the zipline.
+        </li>
+        <li>
+         You can no longer get dismounted by trees when on a zipline. We already had several systems in place to prevent trees spawning in zipline paths, but it still happened very rarely.
+        </li>
+       </ul>
       </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <h2>
-      Ocean Wreck Buoys
-     </h2>
-     <div>
-      We’ve remodelled the old floating bottle indicators on the surface of dive sites into more solid buoys. They are much more visible which will help with finding dive sites.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240919/rust_worldUpdate_buoy_01.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      Dive Sites
-      <br/>
-     </h2>
-     <div>
-      The Dive Sites themselves have been refreshed this month, with an entirely new set of three possible options replacing the old sites. All sites now spawn the same amount of loot (6 crates). Each site has new unique environment art and topology.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241003/rust_worldUpdate_diveSite_01.jpg"/>
-     </div>
-     <div>
       <div>
        <br/>
       </div>
-      <h2>
-       Flora and Fauna
-      </h2>
       <div>
-       Alongside the new Buoys and Dive Sites, we've overhauled the underwater foliage with a graphical update, and tweaked the visuals on fish so they behave more naturally. You might even find a couple of other critters down there.
+       These changes should result in longer, higher ziplines that are safer to use.
       </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241003/rust_worldUpdate_diveSite_07.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/paddy/20241003/rust_worldUpdate_diveSite_04.jpg"/>
-     </div>
-     <div>
      </div>
     </div>
    </div>
   </div>
  </div>
- <div class="news-section-block sectionstyle-hero" id="DiverPropulsionVehicleDPV">
-  <div class="section" like-handler="LikeBlogSection" like-id="84432" targetobject="section">
+ <div class="news-section-block sectionstyle-hero" id="NPCvendorPriceCHanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84407" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       Diver Propulsion Vehicle (DPV)
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div class="autodiv">
-      We've added small new handheld dive vehicle this month. The DPV can be crafted and kept in your inventory until you need it.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241003/rust_dpv_01.jpg"/>
-     </div>
-     <div class="autodiv">
-      It's then used like so:
-      <br/>
-     </div>
-     <div class="autodiv">
-      - Select it and deploy it into any water that's at least 1 metre deep
-     </div>
-     <div class="autodiv">
-      - Interact with the fuel tank and add some low grade fuel
-     </div>
-     <div class="autodiv">
-      - "Mount" it to hold onto the handles and drive it around
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241003/rust_dpv_03.jpg"/>
-     </div>
-     <div class="autodiv">
-      <br/>
-     </div>
-     <div class="autodiv">
-      Using the DPV, you can travel underwater significantly faster than you could by swimming. Once you're done with it, simply dismount and pick it up. Fuel will automatically be removed and added to your inventory, or dropped if you don't have any space.
-      <br/>
-      <br/>
-      <b>
-       Note:
-      </b>
-      Currently players will need to manually remove fuel before picking up the DPV. This will be corrected in a hotfix asap
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241003/rust_dpv_04.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Waterwellupdate">
-  <div class="section" like-handler="LikeBlogSection" like-id="84424" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Water well update
+       NPC vendor Price CHanges
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
      <div>
       <div>
-       Waterwells aren’t exactly the most popular monument in Rust, so this month we decided to make them a little more interesting. You
- will now find a new vendor at some Water Wells that can offer a random 
-selection of teas and farming equipment that shuffles every 30 minutes.
+       After looking over the data from last months wipe, it was clear that the dynamic vendor pricing system wasn’t operating as well as it could have. It tended to drop to 50% off all items relatively quickly in the wipe. We’ve made a couple of changes this month:
       </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240924/rust_waterwell_NPC_02.jpg"/>
-     </div>
-     <div>
       <div>
-       What’s special about this NPC is that this is the first vendor that is 
-available in non safe zones. This means they can be killed! If that 
-happens they will respawn after a while, but that won’t trigger the 
-vendor to refresh or have any loot so there’s no real purpose. Try and 
-be nice!
+       <ul>
+        <li>
+         Price changes now operate in real time rather than based on in-game time. This should be more understandable and will work correctly on servers that manipulate in-game time.
+        </li>
+        <li>
+         Price changes now take place every 5 real time hours. Last month the prices changed every 15 minutes in real time by default, so this will make the prices change much more slowly.
+        </li>
+       </ul>
       </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240924/waterWell_foodcache_01.jpg"/>
-     </div>
-     <div>
       <div>
-       You will also find a new food cache with basic teas and high quality food items, and some planters that are automatically filled with random plants periodically. These plants have a high priority of having good genes, so they’re a great way to give your farm base a quick boost.
+       <br/>
       </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240924/waterWell_planter_01.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240924/waterWell_planter_02.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Radioactivewater">
-  <div class="section" like-handler="LikeBlogSection" like-id="84429" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Radioactive water
+      <div>
+       As usual we’ll keep an eye on this and make changes going forwards.
       </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've added a new gameplay feature to the world: Radioactive Water!
-      <br/>
-      This is available at two locations in the new Radtown monument. Players will be able to harvest it with any regular water container, be it: a bota bag, water jug or the tanker module for vehicles.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_worldUpdate_radtown_38.jpg"/>
-     </div>
-     <div>
-      Radioactive Water has a few properties: splashing it on plants will instantly kill them, splashing it on players (via throwing your water from a container, or via a sprinkler) will irradiate them. Carrying a large amount of it in your inventory will damage you, and finally looting a players body will irradiate you if there's enough radioactive water in their inventory.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      These properties make Radioactive Water a great choice for a number of 
-things: from instantly resetting your farm, to being a great counter to 
-those players raiding you in full gear.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_radwater_splash_01.jpg"/>
-     </div>
-     <div>
-      The backend work done on 
-Radioactive Water opens up a number of gameplay possibilities in the 
-future as any item (in code) can now be marked as Radioactive.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_radwater_sprinkler_01.jpg"/>
-     </div>
-     <div>
-      We can't wait to see what creations you come up with!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="FrontiersmanPACK">
-  <div class="section" like-handler="LikeBlogSection" like-id="84433" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Frontiersman PACK
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month we're introducing a new addition to Rust's permanent store, the Frontiersman Pack.
-      <br/>
-      <br/>
-      The pack includes three items: Frontier Hazmat Suit, Frontier Hatchet,  Blunderbuss
-      <br/>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240924/rust_frontiersman_hero_01.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240924/rust_frontiersman_pack_collection_01.jpg"/>
-     </div>
-     <h2>
-      Frontiersman hazmat suit
-     </h2>
-     <div>
-      The Frontiersman Hazmat is a handcrafted survival suit, built for those who brave the wilderness. Forged from durable felt and leather, it’s designed to shield its wearer from the harsh weather, unseen enemies, and the dangers of the wild. The Frontiersman suit is a hazmat replacement skin that can be applied while crafting the hazmat or skinned using the repair table. The Frontiersman suit offers no in-game bonuses.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_hero_07.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_hero_21.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-style="grid">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_hero_13.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_hero_11.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_hero_18.jpg"/>
-      </gallery>
-     </div>
-     <div>
-     </div>
-     <h2>
-     </h2>
-     <h2>
-      Blunderbuss
-     </h2>
-     <div>
-      The Blunderbuss is a handcrafted, frontier-inspired shotgun that brings a classic, rugged aesthetic to the Double Barrel. This skin reimagines the weapon, turning it into a more traditional tool of survival from a bygone era.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_pack_blunderbuss_03.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="grid">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_hero_19.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_hero_17.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-     </h2>
-     <h2>
-      Frontier hatchet
-     </h2>
-     <div>
-      Inspired by the traditional tomahawk, featuring a rugged design with several charms attached. This unique skin transforms the hatchet into a symbol of frontier survival.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_pack_hatchet_01.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="grid">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_hero_04.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_frontiersman_hero_22.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Available now on the item store.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="WallpaperCHANGES">
-  <div class="section" like-handler="LikeBlogSection" like-id="84434" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Wallpaper CHANGES
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Based on your feedback following last month’s wallpaper release, you can now place wallpapers on building block hardsides, but only inside your base!
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Any exposed hardside wallpaper will be removed by the next decay tick.
      </div>
     </div>
    </div>
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="qUALITYOFlIFECHANGES">
-  <div class="section" like-handler="LikeBlogSection" like-id="84436" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84403" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -2619,50 +3584,96 @@ future as any item (in code) can now be marked as Radioactive.
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
+     <div blocktype="html" class="edit-block" contenteditable="false">
       <div class="columns is-multiline">
        <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/lewis/1b2511b1/sheetmetal-5.jpg"/>
+        <video autoplay="" class="lightbox-thumbnail" loop="">
+         <source src="https://files.facepunch.com/paddy/20240731/rust_train_barricade_blog.mp4"/>
+        </video>
         <center>
          <b>
-          Spray Can Improvements
+          Trains break barricades
          </b>
         </center>
         <center>
-         Spray Can will now remember the shipping container colour through deaths and restarts
+         Trains can break through barricades that are deployed too close to the tracks.
         </center>
        </div>
        <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_notes_worldmodel_01.jpg"/>
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/motorbike_riding_01.jpg"/>
         <center>
          <b>
-          Note World Model
+          Bike fast turns
          </b>
         </center>
         <center>
-         Note World Model Added
+         Hold the Crouch key while driving to perform a faster turn.
         </center>
        </div>
        <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241003/rust_worldUpdate_diveSite_02.jpg"/>
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/sidecar_01.jpg"/>
         <center>
          <b>
-          Underwater Visibility
+          Sidecar bike physics
          </b>
         </center>
         <center>
-         Underwater visibility improved, allowing for enhanced long-distance sight
+         Sidecar bikes now drive more like regular motorbikes.
         </center>
        </div>
        <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/10/2024/8h07/repair_bench_icons_1080_jpg.jpg"/>
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240801/rust_horse_launchsite_01.jpg"/>
         <center>
          <b>
-          Repair Bench
+          Horse terrain holes
          </b>
         </center>
         <center>
-         The repair bench now displays icons alongside text for repair costs.
+         Horses can now enter terrain holes - Train tunnels, the launch site ramp etc.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20221102/rust_prototype17_firstperson.jpg"/>
+        <center>
+         <b>
+          Fire mode switch
+         </b>
+        </center>
+        <center>
+         Switching your gun firemode will now play a sound.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230201/indst_storageadapter_01.jpg"/>
+        <center>
+         <b>
+          Storage Adaptors collision
+         </b>
+        </center>
+        <center>
+         Can now walk through Storage Adaptors attached to boxes.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b0111b1/hurtUI.jpg"/>
+        <center>
+         <b>
+          Hurt screen overlay toggle
+         </b>
+        </center>
+        <center>
+         Can now turn off the blood on screen when getting hurt.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240801/rust_codelock_01.jpg"/>
+        <center>
+         <b>
+          Saved code lock input
+         </b>
+        </center>
+        <center>
+         The last entered code is now saved between sessions.
         </center>
        </div>
       </div>
@@ -2671,163 +3682,149 @@ future as any item (in code) can now be marked as Radioactive.
    </div>
   </div>
  </div>
- <div class="news-section-block" id="CharitableRust2024TwitchDrops">
-  <div class="section" like-handler="LikeBlogSection" like-id="84437" targetobject="section">
+ <div class="news-section-block sectionstyle-hero" id="ShockbytexRustPartneredserverhosting">
+  <div class="section" like-handler="LikeBlogSection" like-id="84402" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       Charitable Rust 2024 - Twitch Drops
+       Shockbyte x Rust - Partnered server hosting
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We're extremely excited to be partnering with
+      <a class="" href="https://shockbyte.com/partner/SBRUST">
+       Shockbyte
+      </a>
+      for managed server hosting rental!
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <a href="https://shockbyte.com/partner/SBRUST">
+       <img src="https://files.facepunch.com/ashcook/1b1811b1/Artboard%201.png"/>
+      </a>
+     </div>
+     <div>
+      After seeing their work with the Minecraft community, and hearing great things from existing Rust users, we've decided to partner with them in an official capacity - endorsing their stability and reliability. You can enjoy full file access, full customization, and oxide support.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://shockbyte.com/partner/SBRUST">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_01.jpg"/>
+      </a>
+     </div>
      <h2>
-      October 12th - October 19th!
+      Promotional Offer
      </h2>
      <div>
-      Join us and
-      <a class="" href="https://www.rustafied.com/">
-       Rustafied
+      As part of the promo,
+      <b>
+       new customers
+      </b>
+      can receive an in-game Tool Cupboard skin by
+      <a class="" href="https://shockbyte.com/partner/SBRUST" target="https://shockbyte.com/partner/SBRUST">
+       renting a server
       </a>
-      for the annual
-      <a class="" href="https://www.charitablerust.com/">
-       Charitable Rust
-      </a>
-      !
+      of any tier!  Once your new server is delivered Shockbyte will send you information about how to get your sweet freebie!
       <br/>
-      <br/>
-      The main event takes place on October 12th from 11:00AM EDT until 11:00PM EDT On
-      <a class="" href="https://www.twitch.tv/rustafied">
-       Rustafied's Twitch channel
-      </a>
-      .  Tune in for tons of mini games, talent shows, and some of your favorite creators battling it out in
-      <a class="" href="https://rustreborn.gg/">
-       Rust Reborn's
-      </a>
-      Bedwars!  Check out the full schedule
-      <a class="" href="https://www.charitablerust.com/schedule">
-       here
-      </a>
-      .
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_05.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_06.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_11.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_04.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_08.jpg"/>
+      </gallery>
+     </div>
+     <div>
+     </div>
+     <div>
+      Here's Shockbyte's story so far:
       <br/>
      </div>
      <div>
-      <br/>
-     </div>
-     <div>
-      There will be 4 store items this year.  Proceeds go toward the
-      <a class="" href="https://www.directrelief.org/">
-       Direct Relief
+      <span id="docs-internal-guid-f2cfcf05-7fff-3784-f3d4-480de5c183e1">
+       <p dir="ltr">
+        <i>
+         <span>
+          "
+         </span>
+         Born from a passion for multiplayer gaming in March 2013, Shockbyte has become a leading provider of game server hosting. Over the past decade, our team of dedicated gamers has delivered reliable multiplayer servers worldwide to over 700 thousand customers. Since October 2019, we have supported the Rust community, continuously improving our services based on feedback. Our mission is to simplify game server hosting, allowing absolutely anyone to create their own multiplayer community with ease.
+        </i>
+       </p>
+      </span>
+      <span id="docs-internal-guid-413d4398-7fff-4bc2-6132-a66067700c5d">
+       <p dir="ltr">
+        <span>
+         <i>
+          With a growing network of global locations, comprehensive DDOS protection, and a commitment to 100% uptime, Shockbyte has become a trusted provider for Rust communities. We understand the complexities of server hosting and are beyond thrilled to now offer our expertise in a partnered capacity with Facepunch. We believe this is the most exciting era for gaming and are proud to provide community-driven hosting opportunities.
+         </i>
+        </span>
+       </p>
+      </span>
+      <span>
+       <p dir="ltr">
+        <span>
+         <i>
+          By harnessing player feedback we’ve recently completely revamped the hosting experience and we’re extremely excited to be soon rolling out this new modern experience alongside our partnership with Rust. Our top-tier global hardware and robust DDOS protection ensure the Rust community receives only the best multiplayer support. At Shockbyte, our focus is on delivering an enjoyable online experience, committed to innovation and excellence.
+         </i>
+        </span>
+        <i>
+         "
+        </i>
+       </p>
+      </span>
+      <div>
+       <br/>
+      </div>
+      We look forward to hearing about your experiences with their servers and you can get the skin by signing up to any level of hosting through
+      <a class="" href="https://shockbyte.com/partner/SBRUST" target="https://shockbyte.com/partner/SBRUST">
+       this link
       </a>
-      Charity.
-      <i>
-       These store items will be account bound. Meaning, you will not be able to sell or trade them once purchased.
-      </i>
+      or use code
+      <b>
+       SBRUST
+      </b>
+      at checkout!
      </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="TwitchDrops">
+  <div class="section" like-handler="LikeBlogSection" like-id="84409" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Twitch Drops!
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Here we go again!  We have worked in a group of your favorite Twitch Streamers and Youtubers that you might recognize!
+     </div>
+     <h2>
+      August 8th - August 18th, 2024
+     </h2>
      <div blocktype="image" class="edit-block" contenteditable="false" title="Get Synced!">
       <a href="https://twitch.facepunch.com/">
-       <img src="https://files.facepunch.com/Errn/1b2711b1/charitablerust_34-blog-image.jpg"/>
+       <img src="https://files.facepunch.com/lewis/1b0111b1/td_33-blog-image-updated.jpg"/>
       </a>
      </div>
      <div>
-      You will be able to collect all the Twitch drops for the remainder of the week on
-      <a class="" href="https://www.twitch.tv/directory/category/rust">
-       any Rust stream
+      Be sure you get synced up at
+      <a class="" href="https://twitch.facepunch.com/" target="https://twitch.facepunch.com/">
+       https://twitch.facepunch.com/
       </a>
-      with drops enabled!
+      so you don't miss out!
      </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="worldupdate20sale40OffRust">
-  <div class="section" like-handler="LikeBlogSection" like-id="84431" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       world update 2.0 sale - 40% Off Rust
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <p dir="ltr">
-       To celebrate the release of The World Update 2.0, Rust is now 40% off until October 8th!
-      </p>
-      <p dir="ltr">
-       Whether you want to role play, survive as a solo, find a new duo partner, or finally join your friend's clan, The World Update 2.0 is here to bring a fresh new feel to Rust for you to explore!
-      </p>
-      <p dir="ltr">
-       Or why not use The World Update 2.0 sale to gift Rust to that friend that would make a good survival partner?
-      </p>
-      <p dir="ltr">
-       There’s no better time to jump in to build, explore, raid, and survive with legacy items returning, new weapons and a hazmat, a new monument, AND the newly tuned terrain!
-      </p>
-      <p dir="ltr">
-       <a class="" href="https://bit.ly/4dvRiCi">
-        Head over to Steam to save 40%
-       </a>
-      </p>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="SteamPointsstore">
-  <div class="section" like-handler="LikeBlogSection" like-id="84441" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Steam Points store
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've been working on a bunch of new Steam points store graphics.
-      <br/>
-      <br/>
-      From animated backgrounds, animated stickers, emoticons, and animated avatar frames, you've now finally got something to spend all of those points on, while showing off your love for Rust on your Steam profile.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/lewis/1b0311b1/points-store.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      Head over to the
-      <a class="" href="https://store.steampowered.com/points/shop/app/252490">
-       Steam Points
-      </a>
-      store to check them out now.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="MapMakerWarning">
-  <div class="section" like-handler="LikeBlogSection" like-id="84440" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Map Maker Warning
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div class="autodiv">
-      If you're a map maker, please note that next month, we'll be removing the old rock and cliff assets from the game. Map makers should update their maps with the new rock assets to maintain compatibility.
-     </div>
-     <br/>
-     <div class="autodiv">
-      The reason we're removing the old assets is to ensure we're keeping the game running as optimal as possible, and not needlessly loading unused assets into memory.
-     </div>
-     <br/>
     </div>
    </div>
   </div>
@@ -2841,7 +3838,7 @@ future as any item (in code) can now be marked as Radioactive.
        Patch Name
       </span>
       <a class="title" style="text-decoration: none;">
-       World Update 2.0
+       Stay Alert
       </a>
      </div>
      <div class="sidebar-section">
@@ -2849,7 +3846,7 @@ future as any item (in code) can now be marked as Radioactive.
        Changelist Title
       </span>
       <a class="title" style="text-decoration: none;">
-       World Update 2.0
+       August Changelist
       </a>
      </div>
      <div class="sidebar-section">
@@ -2859,7 +3856,7 @@ future as any item (in code) can now be marked as Radioactive.
          date_range
         </i>
        </span>
-       Thursday, October 3, 2024
+       Thursday, August 1, 2024
       </a>
      </div>
      <div class="sidebar-section">
@@ -2884,7 +3881,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Added hand-held Diver Propulsion Vehicle (DPV)
+          Tin Can Alarm
          </div>
         </li>
         <li>
@@ -2892,79 +3889,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          New NPC’s, Planters and Food Caches at Water Wells
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Refreshed Divesites with new art and buoys
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Legacy Woodpiles
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Radioactive Water
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          New Radtown monument
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          New rivers
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added a new Note world model
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          New cliffs added to procedural map
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          New coastal rocks added to the shore
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Revamped rock formations
+          Shockbyte Tool Cupboard skin
          </div>
         </li>
        </ul>
@@ -2988,7 +3913,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Spray Can will now remember the shipping container colour through deaths and restarts (stored in client.cfg)
+          Bikes/Snowmobiles can now be driven onto the cargo containers and moved onto the cargo ship
          </div>
         </li>
         <li>
@@ -2996,7 +3921,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Spray Can will now default to the last used Shipping Container colour when opening the radial menu
+          Bikes/Snowmobiles will now be able to go down elevators. This includes monument and player created elevators
          </div>
         </li>
         <li>
@@ -3004,7 +3929,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Improved server performance of Fog Machine
+          Travelling vendor speed increase. Adjustable by travellingvendor.max_speed
          </div>
         </li>
         <li>
@@ -3012,7 +3937,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Minor memory usage improvement for most server side loot containers
+          'refillvitals' now removes and prevents bleed
          </div>
         </li>
         <li>
@@ -3020,7 +3945,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Nametags are now reenabled when leaving a demo
+          Ammo stored on weapons is now viewable in the tooltip similar to how attachments are displayed
          </div>
         </li>
         <li>
@@ -3028,7 +3953,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Wallpapers can now be deployed on the hardside of building blocks, if inside your base
+          Items will now sink slowly in water and emit bubbles
          </div>
         </li>
         <li>
@@ -3036,7 +3961,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Repair bench UI now shows required ingredients as icons instead of texts
+          Dynamic vendor pricing is now calculated in real time, defaults to every 5 hours
          </div>
         </li>
         <li>
@@ -3044,7 +3969,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          The 'clearinventory' command can now take container names as arguments: --main, --belt, --wear, --backpack
+          Ziplines show now travel further and will terminate at higher destinations when possible
          </div>
         </li>
         <li>
@@ -3052,7 +3977,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Increased the wallpaper spray can use distance from 3 to 5 meters
+          Can no longer be killed by colliding with a tree while ziplining
          </div>
         </li>
         <li>
@@ -3060,7 +3985,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Moved the language menu to the options menu
+          The number text on item pickups should be larger when when picking up items with short names
          </div>
         </li>
         <li>
@@ -3068,7 +3993,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          The game will now select your system's language when booted for the first time
+          Implemented PR #56 on community UI - Improved countdown features (thanks to Kulltero)
          </div>
         </li>
         <li>
@@ -3076,7 +4001,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Improved water system
+          Last code entered into code locks is now saved across restarts
          </div>
         </li>
         <li>
@@ -3084,7 +4009,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Hackable Locked Crates now have the same no build radius as Patrol Helicopter Crates
+          Player movement is no longer blocked by Storage Adaptors
          </div>
         </li>
         <li>
@@ -3092,7 +4017,71 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Improved visuals where the river exit meets the ocean, they now blend seamlessly
+          Trains can break through barricades that are deployed too close to the tracks
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Motorbike sidecars now control essentially the same as standard bikes, instead of feeling more sluggish
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Motorbikes can now perform a faster turn while holding the Crouch key
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Motorbike sidecar feels less jittery
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved the feel of reversing on a bike
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved wire slack controls, reducing accidental unwanted wire slack changes
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Optimized deployable flasher lights
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added the option to turn off the blood on screen effect (Settings &gt; Image Effects &gt; Hurt)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added effects.hurtoverleyapplylighting convar, prevents the blood on screen effect from getting affected by lighting
          </div>
         </li>
        </ul>
@@ -3116,7 +4105,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed concrete barricade not showing correct skin at a distance
+          Travelling vendors lights now come on at night, and stay off during the day
          </div>
         </li>
         <li>
@@ -3124,7 +4113,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed small holes in the two armoured vehicle modules that could let bullets pass through
+          Pagers in horses saddlebags no longer activate when you get on a horse
          </div>
         </li>
         <li>
@@ -3132,7 +4121,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed NPCs at the Arctic Research Base being able to respawn when players were nearby
+          Getting on top of a junkpile doesn't kick you for flyhack anymore
          </div>
         </li>
         <li>
@@ -3140,7 +4129,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed the locomotive pushing other train wagons too hard, causing them to zoom away. They now get pushed more realistically
+          Shelter/bag limit popup only shows after the building checks are done should they pass
          </div>
         </li>
         <li>
@@ -3148,7 +4137,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed the F1 console allowing rich text to affect the printed response
+          Patrol helicopter now does appropriate checks during orbital strafing, ensuring napalm rockets are used when they should be
          </div>
         </li>
         <li>
@@ -3156,7 +4145,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed modular car code locks changing to show a green light instead of the intended red if the player left and re-entered network range
+          Travelling vendor now detects people on the bonnet correctly. Preventing an endless AFK zone
          </div>
         </li>
         <li>
@@ -3164,7 +4153,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed not being able to spray decals on Half Walls, Low Walls, Doorways and Windows when using the  Shipping Container skin
+          Travelling vendor now plays the correct sound when you buy from it
          </div>
         </li>
         <li>
@@ -3172,7 +4161,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed edge case that would occasionally result in a player becoming invisible in train tunnel elevators
+          Patched memory leak from occurring when vending machines tried to be refilled
          </div>
         </li>
         <li>
@@ -3180,7 +4169,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed submarine able to kill players though a surface
+          Prevent console log spam when cargo ship is docking
          </div>
         </li>
         <li>
@@ -3188,7 +4177,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed Spray Can not appearing in craft menu when searching for “can”
+          Fixed a walkway with incorrect collision resulting in blocked bullets (affected Dome and Junkyard mostly)
          </div>
         </li>
         <li>
@@ -3196,7 +4185,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed some meshes in Outpost not lowering detail properly
+          Fixed a pillar at power substations and trainyard using an incorrect shadow caster
          </div>
         </li>
         <li>
@@ -3204,7 +4193,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed a variety of locations in cave structures that would render incorrectly
+          Fixed not being able to use sprays from the Spray Can on Shipping Container walls
          </div>
         </li>
         <li>
@@ -3212,7 +4201,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Helicopters now play damaged FX alongside destroyed FX when crashing
+          Fixed being able to clip into the Cargo Ship by sleeping or swimming in the Harbor canal
          </div>
         </li>
         <li>
@@ -3220,7 +4209,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed snow effects not working on a bunch of entities
+          Fixed “Tackle the Day” quest soft locking if player inventory was full
          </div>
         </li>
         <li>
@@ -3228,7 +4217,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed backpacks remaining locked when killed during surrendering
+          Fixed being able to destroy vehicles by pushing them into a double doorway and placing down a door
          </div>
         </li>
         <li>
@@ -3236,7 +4225,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed clearinventory command NREs
+          Fixed being kicked for packet flooding when standing in range of specific deployables (couches/beds mostly) and looking at an IO entity while holding the wire tool at high framerates
          </div>
         </li>
         <li>
@@ -3244,7 +4233,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed the recently added modded prevent building prefabs not working as intended
+          Fixed being able to mount Attack Helicopters through a solid surface via the rotors
          </div>
         </li>
         <li>
@@ -3252,7 +4241,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed wallpaper store page wainscoting preview not cycling through variations
+          Boogie Boards will no longer accelerate forwards automatically when placed in the ocean
          </div>
         </li>
         <li>
@@ -3260,7 +4249,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed paddling and above ground pools showing power usage 0
+          Fixed some search lights in monuments rotated around the wrong way
          </div>
         </li>
         <li>
@@ -3268,7 +4257,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed truncated text in various UI screens for certain languages
+          Fixed incorrect static barrel colours at Small Oil Rig
          </div>
         </li>
         <li>
@@ -3276,7 +4265,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed a few English typos across the game
+          Fixed F1 UGC admin panel not working
          </div>
         </li>
         <li>
@@ -3284,7 +4273,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed instant camera world model LODs
+          Fixed being kicked when unloading exactly 128 or 256 bullets from a Minigun
          </div>
         </li>
         <li>
@@ -3292,7 +4281,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed not being able to move after closing canvas drawing UI with chat open
+          Fixed bikes slowly falling over when sleeping on a moving cargo ship
          </div>
         </li>
         <li>
@@ -3300,7 +4289,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed placement of deployables on water from underwater
+          Fixed motorbike headlight icon z-fighting
          </div>
         </li>
         <li>
@@ -3308,7 +4297,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed blueprints not being able to be learned from the player's backpack
+          Fixed train wagons occasionally spawning close enough to the main line that a train couldn't fit past
          </div>
         </li>
         <li>
@@ -3316,7 +4305,7 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed admins in god mode taking 1 bleed damage on fall
+          Fixed player being left holding cards if they get kicked from a card table in a certain situation
          </div>
         </li>
         <li>
@@ -3324,7 +4313,103 @@ future as any item (in code) can now be marked as Radioactive.
           •
          </span>
          <div class="entry">
-          Fixed lockers having no condition when picked up
+          Fixed all helicopters playing the new rocks particle effect constantly
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed horses not being able to pass through terrain holes. Horses can now enter train tunnels etc
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed seismic sensor vibration level not reset when unpowered
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed IO counter showing 1 by default instead of 0
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed NPC conversation staying open when leaving the area
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an exploit allowing your dead body's head to clip through constructions
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          The death screen can now only fade in once, fixing the escape spam to see what is going on around your dead body
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a case where a players inventory could be incorrectly locked when rapidly switching between gestures
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed barricades not deployable around caves
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row removed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         remove_circle
+        </i>
+       </span>
+       <h3>
+        Removed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Travelling vendor no longer has infinite stock. Stock now refills every 1/3rd of the vendors lifetime (10 minutes)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Light vehicles like bikes can no longer push trains
          </div>
         </li>
        </ul>
@@ -3337,7 +4422,7 @@ future as any item (in code) can now be marked as Radioactive.
 </div>
 <center>
 </center><center>]]></description>
-      <pubDate>Thu, 03 Oct 2024 11:24:00 Z</pubDate>
+      <pubDate>Thu, 01 Aug 2024 02:00:00 Z</pubDate>
     </item>
     <item>
       <title>Armed and Animated</title>
@@ -4749,1091 +5834,6 @@ doing a good job, there is much more to be done in this area, and we are continu
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 07 Nov 2024 04:49:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Stay Alert</title>
-      <link>https://rust.facepunch.com/news/stay-alert/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Stay Alert
-    </h1>
-    <p editname="Summary" type="text">
-     New tin can alarm, zipline improvements, item buoyancy, vendor price adjustments, &amp; more QoL!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      01 August 2024
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="TinCanalarm">
-  <div class="section" like-handler="LikeBlogSection" like-id="84399" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Tin Can alarm
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month, we're adding the Tin Can Alarm, a new primitive trap made from hanging tin cans.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240729/tincan_alarm_02_1080p.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240729/tincan_alarm_06_1080p.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Crossing its wire will trigger the trap and cause a loud clatter, alerting anyone nearby to your presence.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      You can deploy it anywhere from your base to inside monuments. Use it strategically to cover access points and defend your positions.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Replicatedbushsounds">
-  <div class="section" like-handler="LikeBlogSection" like-id="84404" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Replicated bush sounds
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month, we are changing how the classic bush rustle sounds work. Bush sounds will now be audible to players around you. Just like with footsteps, you now need to pay attention to  making noise in bushes. As you'd expect: going slower through a bush makes a quieter sound than running through it.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240731/bush_sounds_01.jpg"/>
-     </div>
-     <div>
-      <br/>
-      This change will also cause the rustles made in hot air balloon tarps to be audible to players nearby, and operates in the same way as the bushes.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="UnderwaterItems">
-  <div class="section" like-handler="LikeBlogSection" like-id="84405" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Underwater Items
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20240730/item_underwater_fall.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-     </div>
-     <div>
-      Dropped items that end up in bodies of water will now sink more realistically instead of just dropping like they are still falling through air. As well as slowing down and getting shifted around by currents they will also emit some bubbles as they move and when they hit the ocean floor. This should make finding these items a little bit easier.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="ziplineimprovements">
-  <div class="section" like-handler="LikeBlogSection" like-id="84406" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       zipline improvements
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       We’ve made several changes to the powerline zipline system this month to make it a bit more pleasant to use.
-      </div>
-      <div>
-       <ul>
-        <li>
-         Ziplines will now pick the furthest possible destination instead of the closest
-        </li>
-        <li>
-         We’ve increased the maximum length a zipline can run from 150m to 185m
-        </li>
-        <li>
-         Ziplines can now terminate at a higher point on the powerline structure and will pick these higher destinations when possible, reducing the amount of climbing required to continue the zipline.
-        </li>
-        <li>
-         You can no longer get dismounted by trees when on a zipline. We already had several systems in place to prevent trees spawning in zipline paths, but it still happened very rarely.
-        </li>
-       </ul>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       These changes should result in longer, higher ziplines that are safer to use.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="NPCvendorPriceCHanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84407" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       NPC vendor Price CHanges
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       After looking over the data from last months wipe, it was clear that the dynamic vendor pricing system wasn’t operating as well as it could have. It tended to drop to 50% off all items relatively quickly in the wipe. We’ve made a couple of changes this month:
-      </div>
-      <div>
-       <ul>
-        <li>
-         Price changes now operate in real time rather than based on in-game time. This should be more understandable and will work correctly on servers that manipulate in-game time.
-        </li>
-        <li>
-         Price changes now take place every 5 real time hours. Last month the prices changed every 15 minutes in real time by default, so this will make the prices change much more slowly.
-        </li>
-       </ul>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       As usual we’ll keep an eye on this and make changes going forwards.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="qUALITYOFlIFECHANGES">
-  <div class="section" like-handler="LikeBlogSection" like-id="84403" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       qUALITY OF lIFE CHANGES
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <video autoplay="" class="lightbox-thumbnail" loop="">
-         <source src="https://files.facepunch.com/paddy/20240731/rust_train_barricade_blog.mp4"/>
-        </video>
-        <center>
-         <b>
-          Trains break barricades
-         </b>
-        </center>
-        <center>
-         Trains can break through barricades that are deployed too close to the tracks.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/motorbike_riding_01.jpg"/>
-        <center>
-         <b>
-          Bike fast turns
-         </b>
-        </center>
-        <center>
-         Hold the Crouch key while driving to perform a faster turn.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/sidecar_01.jpg"/>
-        <center>
-         <b>
-          Sidecar bike physics
-         </b>
-        </center>
-        <center>
-         Sidecar bikes now drive more like regular motorbikes.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240801/rust_horse_launchsite_01.jpg"/>
-        <center>
-         <b>
-          Horse terrain holes
-         </b>
-        </center>
-        <center>
-         Horses can now enter terrain holes - Train tunnels, the launch site ramp etc.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20221102/rust_prototype17_firstperson.jpg"/>
-        <center>
-         <b>
-          Fire mode switch
-         </b>
-        </center>
-        <center>
-         Switching your gun firemode will now play a sound.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230201/indst_storageadapter_01.jpg"/>
-        <center>
-         <b>
-          Storage Adaptors collision
-         </b>
-        </center>
-        <center>
-         Can now walk through Storage Adaptors attached to boxes.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b0111b1/hurtUI.jpg"/>
-        <center>
-         <b>
-          Hurt screen overlay toggle
-         </b>
-        </center>
-        <center>
-         Can now turn off the blood on screen when getting hurt.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240801/rust_codelock_01.jpg"/>
-        <center>
-         <b>
-          Saved code lock input
-         </b>
-        </center>
-        <center>
-         The last entered code is now saved between sessions.
-        </center>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="ShockbytexRustPartneredserverhosting">
-  <div class="section" like-handler="LikeBlogSection" like-id="84402" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Shockbyte x Rust - Partnered server hosting
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We're extremely excited to be partnering with
-      <a class="" href="https://shockbyte.com/partner/SBRUST">
-       Shockbyte
-      </a>
-      for managed server hosting rental!
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <a href="https://shockbyte.com/partner/SBRUST">
-       <img src="https://files.facepunch.com/ashcook/1b1811b1/Artboard%201.png"/>
-      </a>
-     </div>
-     <div>
-      After seeing their work with the Minecraft community, and hearing great things from existing Rust users, we've decided to partner with them in an official capacity - endorsing their stability and reliability. You can enjoy full file access, full customization, and oxide support.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://shockbyte.com/partner/SBRUST">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_01.jpg"/>
-      </a>
-     </div>
-     <h2>
-      Promotional Offer
-     </h2>
-     <div>
-      As part of the promo,
-      <b>
-       new customers
-      </b>
-      can receive an in-game Tool Cupboard skin by
-      <a class="" href="https://shockbyte.com/partner/SBRUST" target="https://shockbyte.com/partner/SBRUST">
-       renting a server
-      </a>
-      of any tier!  Once your new server is delivered Shockbyte will send you information about how to get your sweet freebie!
-      <br/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="medium">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_05.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_06.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_11.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_04.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240726/shockbyte_toolcupboard_08.jpg"/>
-      </gallery>
-     </div>
-     <div>
-     </div>
-     <div>
-      Here's Shockbyte's story so far:
-      <br/>
-     </div>
-     <div>
-      <span id="docs-internal-guid-f2cfcf05-7fff-3784-f3d4-480de5c183e1">
-       <p dir="ltr">
-        <i>
-         <span>
-          "
-         </span>
-         Born from a passion for multiplayer gaming in March 2013, Shockbyte has become a leading provider of game server hosting. Over the past decade, our team of dedicated gamers has delivered reliable multiplayer servers worldwide to over 700 thousand customers. Since October 2019, we have supported the Rust community, continuously improving our services based on feedback. Our mission is to simplify game server hosting, allowing absolutely anyone to create their own multiplayer community with ease.
-        </i>
-       </p>
-      </span>
-      <span id="docs-internal-guid-413d4398-7fff-4bc2-6132-a66067700c5d">
-       <p dir="ltr">
-        <span>
-         <i>
-          With a growing network of global locations, comprehensive DDOS protection, and a commitment to 100% uptime, Shockbyte has become a trusted provider for Rust communities. We understand the complexities of server hosting and are beyond thrilled to now offer our expertise in a partnered capacity with Facepunch. We believe this is the most exciting era for gaming and are proud to provide community-driven hosting opportunities.
-         </i>
-        </span>
-       </p>
-      </span>
-      <span>
-       <p dir="ltr">
-        <span>
-         <i>
-          By harnessing player feedback we’ve recently completely revamped the hosting experience and we’re extremely excited to be soon rolling out this new modern experience alongside our partnership with Rust. Our top-tier global hardware and robust DDOS protection ensure the Rust community receives only the best multiplayer support. At Shockbyte, our focus is on delivering an enjoyable online experience, committed to innovation and excellence.
-         </i>
-        </span>
-        <i>
-         "
-        </i>
-       </p>
-      </span>
-      <div>
-       <br/>
-      </div>
-      We look forward to hearing about your experiences with their servers and you can get the skin by signing up to any level of hosting through
-      <a class="" href="https://shockbyte.com/partner/SBRUST" target="https://shockbyte.com/partner/SBRUST">
-       this link
-      </a>
-      or use code
-      <b>
-       SBRUST
-      </b>
-      at checkout!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="TwitchDrops">
-  <div class="section" like-handler="LikeBlogSection" like-id="84409" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Twitch Drops!
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Here we go again!  We have worked in a group of your favorite Twitch Streamers and Youtubers that you might recognize!
-     </div>
-     <h2>
-      August 8th - August 18th, 2024
-     </h2>
-     <div blocktype="image" class="edit-block" contenteditable="false" title="Get Synced!">
-      <a href="https://twitch.facepunch.com/">
-       <img src="https://files.facepunch.com/lewis/1b0111b1/td_33-blog-image-updated.jpg"/>
-      </a>
-     </div>
-     <div>
-      Be sure you get synced up at
-      <a class="" href="https://twitch.facepunch.com/" target="https://twitch.facepunch.com/">
-       https://twitch.facepunch.com/
-      </a>
-      so you don't miss out!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="change-blog-container">
-  <div class="container">
-   <div class="changes-container" id="changelist">
-    <div class="changes-sidebar">
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Patch Name
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Stay Alert
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Changelist Title
-      </span>
-      <a class="title" style="text-decoration: none;">
-       August Changelist
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <a class="date" style="text-decoration: none;">
-       <span class="icon">
-        <i>
-         date_range
-        </i>
-       </span>
-       Thursday, August 1, 2024
-      </a>
-     </div>
-     <div class="sidebar-section">
-     </div>
-    </div>
-    <div class="changes-body">
-     <div class="changes-row features">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         add_circle
-        </i>
-       </span>
-       <h3>
-        Features
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Tin Can Alarm
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Shockbyte Tool Cupboard skin
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row improvements">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         arrow_circle_up
-        </i>
-       </span>
-       <h3>
-        Improvements
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Bikes/Snowmobiles can now be driven onto the cargo containers and moved onto the cargo ship
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Bikes/Snowmobiles will now be able to go down elevators. This includes monument and player created elevators
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Travelling vendor speed increase. Adjustable by travellingvendor.max_speed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          'refillvitals' now removes and prevents bleed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Ammo stored on weapons is now viewable in the tooltip similar to how attachments are displayed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Items will now sink slowly in water and emit bubbles
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Dynamic vendor pricing is now calculated in real time, defaults to every 5 hours
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Ziplines show now travel further and will terminate at higher destinations when possible
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can no longer be killed by colliding with a tree while ziplining
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          The number text on item pickups should be larger when when picking up items with short names
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Implemented PR #56 on community UI - Improved countdown features (thanks to Kulltero)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Last code entered into code locks is now saved across restarts
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Player movement is no longer blocked by Storage Adaptors
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Trains can break through barricades that are deployed too close to the tracks
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Motorbike sidecars now control essentially the same as standard bikes, instead of feeling more sluggish
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Motorbikes can now perform a faster turn while holding the Crouch key
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Motorbike sidecar feels less jittery
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved the feel of reversing on a bike
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved wire slack controls, reducing accidental unwanted wire slack changes
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Optimized deployable flasher lights
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added the option to turn off the blood on screen effect (Settings &gt; Image Effects &gt; Hurt)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added effects.hurtoverleyapplylighting convar, prevents the blood on screen effect from getting affected by lighting
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row fixed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         handyman
-        </i>
-       </span>
-       <h3>
-        Fixed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Travelling vendors lights now come on at night, and stay off during the day
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Pagers in horses saddlebags no longer activate when you get on a horse
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Getting on top of a junkpile doesn't kick you for flyhack anymore
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Shelter/bag limit popup only shows after the building checks are done should they pass
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Patrol helicopter now does appropriate checks during orbital strafing, ensuring napalm rockets are used when they should be
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Travelling vendor now detects people on the bonnet correctly. Preventing an endless AFK zone
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Travelling vendor now plays the correct sound when you buy from it
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Patched memory leak from occurring when vending machines tried to be refilled
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Prevent console log spam when cargo ship is docking
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a walkway with incorrect collision resulting in blocked bullets (affected Dome and Junkyard mostly)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a pillar at power substations and trainyard using an incorrect shadow caster
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed not being able to use sprays from the Spray Can on Shipping Container walls
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to clip into the Cargo Ship by sleeping or swimming in the Harbor canal
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed “Tackle the Day” quest soft locking if player inventory was full
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to destroy vehicles by pushing them into a double doorway and placing down a door
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being kicked for packet flooding when standing in range of specific deployables (couches/beds mostly) and looking at an IO entity while holding the wire tool at high framerates
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to mount Attack Helicopters through a solid surface via the rotors
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Boogie Boards will no longer accelerate forwards automatically when placed in the ocean
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some search lights in monuments rotated around the wrong way
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed incorrect static barrel colours at Small Oil Rig
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed F1 UGC admin panel not working
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being kicked when unloading exactly 128 or 256 bullets from a Minigun
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed bikes slowly falling over when sleeping on a moving cargo ship
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed motorbike headlight icon z-fighting
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed train wagons occasionally spawning close enough to the main line that a train couldn't fit past
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed player being left holding cards if they get kicked from a card table in a certain situation
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed all helicopters playing the new rocks particle effect constantly
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed horses not being able to pass through terrain holes. Horses can now enter train tunnels etc
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed seismic sensor vibration level not reset when unpowered
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed IO counter showing 1 by default instead of 0
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed NPC conversation staying open when leaving the area
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an exploit allowing your dead body's head to clip through constructions
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          The death screen can now only fade in once, fixing the escape spam to see what is going on around your dead body
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a case where a players inventory could be incorrectly locked when rapidly switching between gestures
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed barricades not deployable around caves
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row removed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         remove_circle
-        </i>
-       </span>
-       <h3>
-        Removed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Travelling vendor no longer has infinite stock. Stock now refills every 1/3rd of the vendors lifetime (10 minutes)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Light vehicles like bikes can no longer push trains
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 01 Aug 2024 02:00:00 Z</pubDate>
     </item>
   </channel>
 </rss>
