@@ -1044,2132 +1044,6 @@ This includes five unique enamel pins which measure in at 2 inches, with a shiny
       <pubDate>Mon, 28 Oct 2024 01:55:00 Z</pubDate>
     </item>
     <item>
-      <title>Polish and Progress</title>
-      <link>https://rust.facepunch.com/news/polish-and-progress/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Polish and Progress
-    </h1>
-    <p editname="Summary" type="text">
-     The big quality of life update with over 60 improvements and fixes. Rust is turning 11 years old, and Christmas is coming!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      05 December 2024
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="Rusts11thbirthdaycelebrations">
-  <div class="section" like-handler="LikeBlogSection" like-id="84467" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Rust's 11th birthday celebrations
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We can't believe it either.
-      <br/>
-      <br/>
-      It feels like just yesterday that we were celebrating 10 years of Rust, getting emotional over our
-      <a class="" href="https://youtu.be/y95DhDZgjhs">
-       recap video
-      </a>
-      , but it is true - Rust turns 11 years old on Wednesday the 11th of December!
-      <br/>
-      <br/>
-      It's been another incredible year for Rust, with record player numbers, Twitch events, and monthly content updates bringing some of the most significant changes to the world of Rust in the past 11 years.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241202/rust_bday11_cake_01.jpg"/>
-     </div>
-     <div>
-      Here are just some of the key gameplay additions we've delivered as we look back on 2024:
-      <br/>
-      <ul>
-       <li>
-        World Update
-        <br/>
-       </li>
-       <li>
-        Backpacks
-       </li>
-       <li>
-        Tutorial Island
-       </li>
-       <li>
-        Digital Clock
-       </li>
-       <li>
-        Night Light
-       </li>
-       <li>
-        Harbour Monument Rework
-       </li>
-       <li>
-        Cargo Ship Docking
-       </li>
-       <li>
-        Minigun + Flamethrower
-       </li>
-       <li>
-        Seismic Sensor
-       </li>
-       <li>
-        Handcuffs + Prisoner Hood
-       </li>
-       <li>
-        Motorbikes + Pedal Bikes
-       </li>
-       <li>
-        Travelling Vendor
-       </li>
-       <li>
-        Tin Can Alarm
-       </li>
-       <li>
-        Metal Detector
-       </li>
-       <li>
-        Wallpaper
-       </li>
-       <li>
-        GCO Attachement
-       </li>
-       <li>
-        <span>
-         Hand-held Diver Propulsion Vehicle
-        </span>
-       </li>
-       <li>
-        <span>
-         Refreshed Divesites
-        </span>
-       </li>
-       <li>
-        Radtown
-       </li>
-       <li>
-        Radioactive Water
-       </li>
-       <li>
-        T1 SMG + T3 SKS
-        <br/>
-       </li>
-       <li>
-        ...and much more!
-       </li>
-      </ul>
-      To celebrate Rust turning 11, next week, you'll find a cake and balloons in-game. And your friends can
-      <a class="selected" href="https://store.steampowered.com/app/252490?utm_source=blog_campaign=r11_medium=blog" target="https://store.steampowered.com/app/252490?utm_source=blog_campaign=r11_medium=blog">
-       enjoy 50% off Rust
-      </a>
-      for 10 days, starting on Monday!
-      <br/>
-      <br/>
-      On behalf of everyone at Facepunch, we'd like to thank you for a great 2024. In January, we'll release a full end-of-year blog in which we'll discuss how 2024 has gone, with highlights, learnings, and our plans for 2025.
-      <br/>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Qualityoflifechanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84488" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Quality of life changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241203/rust_peacekeeper_hostile_1080.jpg"/>
-        <center>
-         <b>
-          Peacekeeper Turret Hostile Indicator
-         </b>
-        </center>
-        <center>
-         A turret icon now appears next to the usual hostile indicator when you are hostile and near a peace keeper auto turret.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241202/rust_workcartstoragebox_05.jpg"/>
-        <center>
-         <b>
-          Workcart Storage
-         </b>
-        </center>
-        <center>
-         A small box has been added to all Workcarts so you can store that extra loot.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241202/waterpump_river_01.jpg"/>
-        <center>
-         <b>
-          Waterpump Depth Change
-         </b>
-        </center>
-        <center>
-         Waterpumps now work with a smaller depth of water, perfect for the new rivers.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241202/propanetank_stacksize_01.jpg"/>
-        <center>
-         <b>
-          Propane Tank Stack Size
-         </b>
-        </center>
-        <center>
-         Propane tanks can now stack up to 20.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241203/rust_dropbox_slots_1080.jpg"/>
-        <center>
-         <b>
-          Dropbox Input Increase
-         </b>
-        </center>
-        <center>
-         Increased to 4 input slots.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241202/rust_junkpiles_03.jpg"/>
-        <center>
-         <b>
-          Junkpile Despawn
-         </b>
-        </center>
-        <center>
-         Junkpiles will now be eligible to despawn after they are partially looted.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240924/waterWell_planter_02.jpg"/>
-        <center>
-         <b>
-          Fridge Storage
-         </b>
-        </center>
-        <center>
-         Fridge storage increased to 48 slots
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240402/patrolhelicopter_trainyard_01.jpg"/>
-        <center>
-         <b>
-          Homing Missiles
-         </b>
-        </center>
-        <center>
-         Homing missiles have been added to Bradley and attack helicopter loot crates
-        </center>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="WOLFPACKSbalancing">
-  <div class="section" like-handler="LikeBlogSection" like-id="84474" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       WOLF PACKS balancing
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We spent this month bug fixing and improving the counter-plays to the wolves, as we want them to feel challenging but not unfair.
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20241205/wolf_ai_jumptorch_thumb1.jpg" src="https://files.facepunch.com/paddy/20241205/wolf_ai_jumptorch_preview.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <div>
-      </div>
-      <h2>
-       <b>
-        The problems
-       </b>
-      </h2>
-      <div>
-       Using fire against wolf sometimes felt less impactful than expected, especially when wanting to avoid the fight. Even though wolves wouldn't attack as long as you kept distance and a lit torch, they would
-       <b>
-        follow for a very long time
-       </b>
-       .
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       This was especially aggravating when driving wolves away from your corpse to get back your loot, but then having them still follow you and potentially cause a death spiral.
-      </div>
-      <div>
-       Furthermore, when jumping on an elevated position to escape the wolf, it would ignore the lit torch and rush to jump up.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <div>
-        The wolf could do very fast
-        <b>
-         huge jumps
-        </b>
-        sometimes up to your base's roof. The jump motion also looked weightless and not really believable.
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Another problem was
-       <b>
-        packs of 4+ wolves
-       </b>
-       . They didn't appear all the time, but players that had to face them had a really hard time. Even though packs never spawn with more than 4 wolves, they could sometimes merge. That's because wolves always come to investigate when their hear a howl, even if it comes from a wolf that does not belong to their pack.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Once the player shot a wolf or they got close enough, wolves would give up stalking and
-       <b>
-        weave at high speed
-       </b>
-       towards their prey. For players that only had a bow, this made it hard to land more than one or two shot as the pack of wolves closed the gap. And once enough wolves were in melee range, while it was possible to prevent a single one of them from attacking thanks to hit stun, you easily got overwhelmed.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Lastly it felt harder than it should have been to crouch and sneak around wolf packs, forcing players to take
-       <b>
-        very long detours
-       </b>
-       if they didn't want to fight.
-      </div>
-      <h2>
-       <b>
-        Closing words
-       </b>
-      </h2>
-      <div>
-       You can find more details about how we addressed those issues in the patch notes at the bottom of the page.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Congrats to the players who found some of the hidden features that could be used to get the upper hand on wolves!
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="ELECTRICITYQOL">
-  <div class="section" like-handler="LikeBlogSection" like-id="84489" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       ELECTRICITY QOL
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240605/electricity_qol_tesla_igniter_1080.jpg"/>
-        <center>
-         <b>
-          Tesla Coil
-         </b>
-        </center>
-        <center>
-         Reduced tesla coil maximum power usage from 35 to 25 (no difference in time to kill)
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20200831/storagemonitor.jpg"/>
-        <center>
-         <b>
-          Storage Monitor
-         </b>
-        </center>
-        <center>
-         Added a passthrough slot to the Storage Monitor
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20200928/elevator_roller.jpg"/>
-        <center>
-         <b>
-          Elevators speed
-         </b>
-        </center>
-        <center>
-         Increased speed of player placed elevators by 50%
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241202/electricity_io_fullycharged_noui.jpg"/>
-        <center>
-         <b>
-          Battery full charge indicator
-         </b>
-        </center>
-        <center>
-         Added an output slot for when your battery is fully charged
-        </center>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Modularcarradios">
-  <div class="section" like-handler="LikeBlogSection" like-id="84477" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Modular car radios
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Modular car radios are now in Rust!
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241129/rust_car_radio_01.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      This means that you can now craft a radio to place in your modular car for 120 metal fragments if you own the
-      <a class="" href="https://store.steampowered.com/app/1670430/Rust__Voice_Props_Pack/">
-       Voice Props Pack
-      </a>
-      . If you don't, it's on sale at 40% off from the 9th - 19th!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Simply craft the radio and then deploy it onto the cockpit of your modular vehicle. The radio will only be operational whilst the car engine is switched on. Once the radio is deployed, anyone will be able to interact with it.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Anyone with authorisation to the vehicle will be able to pick up the radio with a building hammer.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The radio comes with all the same built-in and internet streamed radio stations you find in the Boom Box
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20241204/car_radio_preview_thumb.jpg" src="https://files.facepunch.com/paddy/20241204/car_radio_preview.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Helicoptershredding">
-  <div class="section" like-handler="LikeBlogSection" like-id="84485" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Helicopter shredding
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Purchased Helicopters can now be picked up by the magnet crane and shredded at Junkyard. You will receive Scrap based on the helicopter type and it's current health (50% health = 50% of the Scrap).
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241202/helicopter_shredding_01.jpg"/>
-     </div>
-     <div>
-      <ul>
-       <li>
-        Minicopter - 200 Scrap
-       </li>
-       <li>
-        Scrap Transport Helicopter - 300 Scrap
-       </li>
-       <li>
-        Attack Helicopter - 500 Scrap
-       </li>
-      </ul>
-      <div>
-       Stolen a helicopter from your neighbours? Why not destroy the evidence and get paid at the same time!
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Upgradablehighexternalwallsgates">
-  <div class="section" like-handler="LikeBlogSection" like-id="84490" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Upgradable high external walls &amp; gates
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Wooden high external walls and gates can now be upgraded to their stone versions via the hammer context manner, similar to regular building blocks. Each piece you upgrade requires a Stone high external wall or gate in your inventory.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241204/highwallupgrade_01.jpg"/>
-     </div>
-     <div>
-      Additionally, high external walls now craft in batches of three. The stone high external walls requiring 1 sheet metal per craft.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The stone high external gate has also been adjusted to require 1 sheet metal and only 3 gears, with its crafting cost reduced to 4000 wood/stone (down from 4500) for improved inventory management.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="VendingMachineStatistics">
-  <div class="section" like-handler="LikeBlogSection" like-id="84491" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Vending Machine Statistics
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      You are now able to see a bunch of statistics about your vending machine. This includes:
-      <br/>
-      <ul>
-       <li>
-        <b>
-         Transaction History
-         <br/>
-        </b>
-       </li>
-       <li>
-        <b>
-         Highest Revenue Items
-        </b>
-       </li>
-       <li>
-        <b>
-         Best Sold Items
-        </b>
-       </li>
-      </ul>
-      You can browse these stats in a wide variety of timescales: from the last 30 minutes to all-time.
-      <br/>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20241204/vendingmachine_stats.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <br/>
-      Some 'long term stats' are also available (all anonymous), these are:
-      <br/>
-      <ul>
-       <li>
-        <b>
-         Total Sales
-        </b>
-        : The total number of items purchased from the vending machine
-       </li>
-       <li>
-        <strong>
-         Total Unique Customers
-        </strong>
-        : The total number of individual customers who have made a purchase
-       </li>
-       <li>
-        <strong>
-         Total Repeat Customers
-        </strong>
-        : The total number of instances where existing customers have returned to make additional purchases.
-        <br/>
-       </li>
-       <li>
-        <b>
-         Best Customer
-        </b>
-        : The customer who has made the most purchases (total count of their transactions)
-       </li>
-      </ul>
-      These stats are processed on the Serverside then communicated to clients.
-      <br/>
-      <br/>
-      <br/>
-      Here are a few Server Convars to help server owners:
-     </div>
-     <div>
-      <br/>
-      <b>
-       vendingmachine.max_returned -
-      </b>
-      Specifies the maximum number of entries to return when fetching purchase history or aggregated stats (e.g., best-sold items, most revenue-generating items, etc)
-      <br/>
-      <br/>
-      <b>
-       vendingmachine.max_processed -
-      </b>
-      Limits the maximum number of sales records to process when performing operations like filtering or aggregating data, even if more records are available
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       vendingmachine.max_history -
-      </b>
-      Defines the maximum number of purchase records that the vending machine will store in memory (on Serverside) before removing older entries to make space for new ones
-     </div>
-     <div>
-      <br/>
-      Server owners can also run:
-      <b>
-       vendingmachine.clearallvendinghistory and
-      </b>
-      <b>
-       vendingmachine.clearallvendingcustomerhistory
-      </b>
-      <span>
-       to clear all Vending Machine stats and long term stats respectively.
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="LegacyShelterRevoke">
-  <div class="section" like-handler="LikeBlogSection" like-id="84492" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Legacy Shelter Revoke
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Once you placed your Legacy Shelter, it was possible to die and then be unable to place another. When placing down another shelter, your first one is now destroyed.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false">
-      <img src="https://files.facepunch.com/paddy/20231204/legacyshelter_01.jpg"/>
-     </div>
-     <div>
-      There's one trade off: Shelters now take a few seconds to place (just like high external walls). This gives enough time to warn you that your old Shelter is going to be destroyed, as well as preventing them from being used in PVP.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="VariableZoomScope">
-  <div class="section" like-handler="LikeBlogSection" like-id="84493" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Variable Zoom Scope
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The 16x scope was significantly under-used considering it's intended to be military loot. This seemed to come down to it being too high of a zoom.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      This scope has now been renamed to the "variable zoom scope" and supports 3 zoom levels: 4x, 8x &amp; 16x. This makes it better than both of the old scopes combined &amp; adds in a new zoom for quick target acquisition.
-     </div>
-     <div>
-      <b>
-       <br/>
-      </b>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20241205/variablescope_preview_thumb.jpg" src="https://files.facepunch.com/paddy/20241205/variablescope_preview.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-     </div>
-     <div>
-      The default keybinds are 'Page Up' to increase zoom and 'Page Down' to decrease zoom, however I fully expect more experienced players to rebind these.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Try scroll wheel (if you aren't using it to switch weapons) or mouse 3 &amp; mouse 4 (if those aren't already bound).
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241205/optionsmenu_zoomcontrols.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="ScrapExchangeVendorchanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84494" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Scrap Exchange Vendor changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Now that we've reached a point where we are happy with the
-      <a class="" href="https://rust.facepunch.com/news/road-renegades#dynamicvendorpricing">
-       dynamic pricing behaviour
-      </a>
-      when purchasing items with Scrap, we've decided to apply the same logic to items being sold for Scrap. Starting this month, you will notice that items that you sell to NPC vending machines for Scrap have a dynamic price applied to them. It will start the wipe with 50% less value per item sold, and can increase to an extra 100% value per item sold if no items are sold.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false">
-      <img src="https://files.facepunch.com/paddy/20220331/peacekeepers_01.jpg"/>
-     </div>
-     <div>
-      This will hopefully make it more valuable to sell items as a wipe goes on. As with the previous changes, we'll be monitoring these and making changes as needed.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="UnderwaterVisibility">
-  <div class="section" like-handler="LikeBlogSection" like-id="84505" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Underwater Visibility
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We recently tweaked this, but your feedback made it clear there was further room for improvement. So we did just that. Underwater visibility is now nearly doubled, allowing players to see further and more clearly underwater.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241003/rust_worldUpdate_diveSite_01.jpg"/>
-     </div>
-     <div>
-      Additionally, we've slightly increased the depth of water players can sink to before the oxygen level starts to tick down. During swimming, you are now less likely to drown to high waves.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="riskylandminedisarming">
-  <div class="section" like-handler="LikeBlogSection" like-id="84471" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       risky landmine disarming
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div class="autodiv">
-      Landmines now have a 15% chance to explode when being disarmed by another player, so be careful when clearing out minefields!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      This was always meant to be the intended gameplay behaviour for landmines, but I discovered an old bug that prevented this from working as intended.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241126/rust_landmine_disarm_01.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Nodesparklechanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84487" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Node sparkle changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've slightly modified the behaviour when hitting nodes this month. Nodes will no longer show a sparkle before they are hit for the first time, once they are hit the sparkle will appear underneath the first hit. This first hit is considered a sparkle hit and will reward the appropriate amount of resources, so it's a very slight buff to ore collecting.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      We did this for a few reasons:
-     </div>
-     <div>
-      <ul>
-       <li>
-        This brings their behaviour in line with the tree X marker minigame
-       </li>
-       <li>
-        Finding the sparkle at first was slightly awkward, this feels smoother
-       </li>
-       <li>
-        Each sparkle was a networked entity that had to be streamed in and out as the player moves around
-       </li>
-       <li>
-        We had a sparkle per node in the world, so an average server will now have around 4.5k less entities in the world
-       </li>
-      </ul>
-      <div>
-       While I was at it I made some slight memory improvements so each node will take up less client and server memory.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="QUEUEIMPROVEMENTS">
-  <div class="section" like-handler="LikeBlogSection" like-id="84496" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       QUEUE IMPROVEMENTS
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      While looking at collecting some data around queues, we decided to do a few minor improvements to the queue system.   Up until now, the client was unaware of being in a queue, it was simply using server messaging to show the queue.  Now the client knows when it has entered and exited a server queue, and can act accordingly. We now display Steam rich presence for waiting in a queue and connecting to a server.   This also opens us up to do more client side related queue features in the future.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/paddy/20241203/WaitingInQueue.png"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      The other change to queues we made impacts modded server owners specifically.  The queue messaging system was being leverage by modded servers to implement loading screen messages via a plugin.  These loading screen messages would often fight with the client messaging, and generally didn't look great.   As a nice compromise, we've implemented the ability to change the "menu tip" message displayed in the loading screen.  This can allow modded server owners to implement their own tips that may be more relevant for the particular game mode and changes specific to the server.  To keep things backwards compatible, the same network message sent before will continue to work with one caveat.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="code" class="edit-block" contenteditable="false" data-code='// Old
-
-var net = Net.sv.StartWrite();
-net.PacketID(Message.Type.Message);
-net.String("Top Text");
-net.String("Bottom Text");
-net.Send(new SendInfo(conn));
-
-// New
-
-var net = Net.sv.StartWrite();
-net.PacketID(Message.Type.Message);
-net.String("Bolt");
-net.String("This server has instant craft!");
-net.Send(new SendInfo(conn));
-' data-language="csharp">
-      // Old
-      <br/>
-      <br/>
-      var net = Net.sv.StartWrite();
-      <br/>
-      net.PacketID(Message.Type.Message);
-      <br/>
-      net.String("Top Text");
-      <br/>
-      net.String("Bottom Text");
-      <br/>
-      net.Send(new SendInfo(conn));
-      <br/>
-      <br/>
-      // New
-      <br/>
-      <br/>
-      var net = Net.sv.StartWrite();
-      <br/>
-      net.PacketID(Message.Type.Message);
-      <br/>
-      net.String("Bolt");
-      <br/>
-      net.String("This server has instant craft!");
-      <br/>
-      net.Send(new SendInfo(conn));
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241203/loadingscreen_custommessage.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Instead of having top and bottom text, you can change the menu tip icon displayed.  Existing loading screen plugins will continue to function, but won't display a top message as that field is now used for an icon.  A list of available icons names has been published on our
-      <a class="" href="https://github.com/Facepunch/Rust.Community/blob/master/Icons.cs">
-       Community GitHub repository.
-      </a>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       Only servers clearly listed in the modded section may utilize this feature.
-      </b>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="RCONsecurityenhancements">
-  <div class="section" like-handler="LikeBlogSection" like-id="84497" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       RCON security enhancements
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Another one for all the server owners out there. We've started updating the security around RCON.   The server will output very prominent warning messages if you're using an insecure RCON password.  In some cases, the RCON server will fail to start if the password is bad enough (i.e. "password" or "changeme")
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      We've also added some safeguards against brute force attacks.  Now when a RCON client attempts to connect with a bad password, after 5 attempts the IP address will be banned for 5 minutes.  These values are all configurable through a number of new convars.   There are also a few convar commands that allow you to permanently ban both IP addresses and networks.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <ul>
-       <li>
-        <strong>
-         rcon.banduration (default: 300)
-        </strong>
-        <br/>
-        Number of seconds to apply to any automated ban.
-        <strong>
-         <br/>
-        </strong>
-       </li>
-       <li>
-        <strong>
-         rcon.maxpasswordfailures (default: 5)
-        </strong>
-        <br/>
-        Number of failed password attempts before applying a temp ban
-        <strong>
-         <br/>
-        </strong>
-       </li>
-       <li>
-        <strong>
-         rcon.logfailedattempts  (default: true)
-        </strong>
-        <br/>
-        Debug.Log all the various failed password / ban connects. Defaults to true, but large servers may want to   disable due to spam
-        <strong>
-         <br/>
-        </strong>
-       </li>
-       <li>
-        <strong>
-         rcon.permanentbanfailedips (default: false)
-        </strong>
-        <br/>
-        Permanently ban IPs that exceed the failed password threshold
-        <strong>
-         <br/>
-        </strong>
-       </li>
-       <li>
-        <strong>
-         rcon.ban_ip &lt;ip / network&gt;
-         <br/>
-        </strong>
-        Permanently bans an IP or network
-        <strong>
-         <br/>
-        </strong>
-       </li>
-       <li>
-        <strong>
-         rcon.unban_ip &lt;ip / network&gt;
-         <br/>
-        </strong>
-        Removes an  IP or network ban from both the permanent bans, and any temporary bans/attempts
-        <strong>
-         <br/>
-        </strong>
-       </li>
-       <li>
-        <strong>
-         rcon.print_rcon_failed_logins
-         <br/>
-        </strong>
-        Prints out the table of attempted logins that failed and if they resulted in a ban or not
-        <strong>
-         <br/>
-        </strong>
-       </li>
-       <li>
-        <strong>
-         rcon.clear_rcon_failed_logins
-         <br/>
-        </strong>
-        Removes all of the temporary failed login history/bans (does not remove permanent bans of any kind)
-        <strong>
-         <br/>
-        </strong>
-       </li>
-       <li>
-        <strong>
-         rcon.print_rcon_bans
-        </strong>
-        <br/>
-        List the permanent IP/network bans
-       </li>
-      </ul>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="NativeARM64HardwareSupport">
-  <div class="section" like-handler="LikeBlogSection" like-id="84472" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Native ARM64 Hardware Support
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've been waiting for a while for all of our third party software to natively support ARM64 hardware. This has now finally come to fruition and as the first platform to test this on, we've switched the Mac version of the game to use our native ARM64 build on Apple Silicon hardware. At the moment, Intel hardware is still supported on Mac as well and remains unaffected by this change.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      If this works out well, we will investigate native ARM64 support for other platforms in the future. The next most important one would likely be to natively run on ARM64 hardware in Windows laptops, but we are still waiting for some third party software to fully support this, so this will stretch a good amount into the next year at least.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Twitchrivalsisback">
-  <div class="section" like-handler="LikeBlogSection" like-id="84466" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Twitch rivals is back!
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/lewis/1b0311b121/tr5_image2.jpg"/>
-     </div>
-     <div>
-      That's right, Twitch Rivals - Team Battle V is almost here!
-      <br/>
-      <br/>
-     </div>
-     <div>
-      Starting Monday 9th of December and finishing Friday 13th, up to 150 Twitch creators from around the world will compete in our yearly global Rust PvP competitive event, with a prize pool of
-      <b>
-       $100,000
-      </b>
-      !
-      <br/>
-      <br/>
-      Last year's event saw some incredible plays from some rather understated competitors so be sure to tune in every day at 1900 GMT / 1400 EST to watch as tensions rise and the teams find their feet while they gather their resources, build to protect themselves, then raid, loot, and fight it out to be crowned victorious!
-      <br/>
-      <br/>
-      This year's Captains include Team Battle IV's winning team captain, Blooprint, as well as Oilrats, NoraExplorer, Willjum, and more! Full schedule and teams list from Twitch
-      <a class="selected" href="https://schedule.twitchrivals.com/events/rust-team-battle-v-on-twitch-rivals-lkKoK" target="https://schedule.twitchrivals.com/events/rust-team-battle-v-on-twitch-rivals-lkKoK">
-       here
-      </a>
-      .
-      <br/>
-      <br/>
-      As usual, there are some incredible looking Twitch Drops available to collect by watching the competitors, and by tuning in to the official competition
-      <a class="" href="https://www.twitch.tv/twitchrivals" target="https://www.twitch.tv/twitchrivals">
-       broadcast from Twitch Rivals
-      </a>
-      .
-      <br/>
-      Sync your accounts and find links to all channels at
-      <a class="" href="https://twitch.facepunch.com/" target="https://twitch.facepunch.com/">
-       twitch.facepunch.com
-      </a>
-      .
-      <br/>
-      <br/>
-      And don't forget, there are generic Twitch themed Drops that you can grab by
-      <a class="" href="https://www.twitch.tv/directory/category/rust" target="https://www.twitch.tv/directory/category/rust">
-       watching your favourite
-      </a>
-      creator on Twitch not participating in the event too!
-      <br/>
-      <br/>
-      As always, we'd like to thank
-      <a class="" href="https://rustoria.co/" target="https://rustoria.co/">
-       Rustoria
-      </a>
-      for working with us and Twitch to make this event possible.
-      <br/>
-      <br/>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" src="https://files.facepunch.com/Errn/1b0311b1/td32_socials-16x9v2.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="BuiltinServerProfiler">
-  <div class="section" like-handler="LikeBlogSection" like-id="84499" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Built-in Server Profiler
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Up to recently we've been focusing on server performance health via tracking aggregating performance telemetry. It allowed us to have a general overview of a server's performance from birds eye view. There are point where high-level overview is not sufficient to identify where exactly slow-downs are coming from.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      This past month I've been working on a built-in profiler for the server. If used, it allows us to see all the code that is executed for a particular frame - allowing us to see more detail about what &amp; how things are going wrong.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" title="Capture of a 76 pop staging server">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b0211b1/VLSYR7Arpk.png"/>
-     </div>
-     <div>
-      With this, we can now combine our high-level telemetry as an "hotspot-warning" system, while using the built-in profiler will allow us to investigate what those hotspot consist of and which parts are the most worthwhile to optimize. This will help guide our efforts in optimizing the server performance while also validating that we have successfully optimized a particular block of logic.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The profiler comes with an extra benefit: this feature is going to be available for public use. Any server owner will be able to trigger it and take a look at the data. You'll be able to see both what vanilla server does, as well as if there's anything that Mods are actively doing.
-     </div>
-     <div>
-      <h2>
-       How to Generate a snapshot
-      </h2>
-     </div>
-     <div>
-      <i>
-       <b>
-        Note 1
-       </b>
-       : This is currently only available for servers hosted on Windows machines. Linux support is next to come.
-      </i>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" title="Incoming snapshot warning">
-      <img src="https://files.facepunch.com/danielprihodko/1b0411b1/jCm3Ix8EAJ.png"/>
-     </div>
-     <div>
-      <ul>
-       <li>
-        First, the feature needs to be activated when starting the server. You must launch the server executable with `
-        <b>
-         -enableProfiler
-        </b>
-        `
-       </li>
-       <li>
-        Once the server boots up, you can run the following console command: `
-        <b>
-         profile.perfsnapshot [delay] [name] [frames]
-        </b>
-        ` (all parameters are optional)
-       </li>
-       <li>
-        <b>
-         delay
-        </b>
-        is in seconds, by default set to 15
-       </li>
-       <li>
-        <b>
-         name
-        </b>
-        is the name of the snapshot file, by default is "Profile"
-       </li>
-       <li>
-        <b>
-         frames
-        </b>
-        is the number of frames to includes in the snapshot - default is 10, has a max of 10
-       </li>
-       <li>
-        Once the delay expires (you'll see messages in global chat), it will record the requested number of frames, generate and compress a snapshot - you will find it in &lt;server-dir&gt;/server/&lt;identity&gt;/profiler/&lt;name&gt;.json.gz
-       </li>
-      </ul>
-      <div>
-       <i>
-        <b>
-         Note 2
-        </b>
-        : if something goes wrong during generation the file won't be created(youl'l can it in server log file). I'll be continuing iterating on the profiler, so I'll iron out any left-overs.
-       </i>
-      </div>
-     </div>
-     <div>
-      <i>
-       <br/>
-      </i>
-     </div>
-     <div>
-      <i>
-       <b>
-        Note 3:
-       </b>
-       Taking a snapshot causes server to take a performance hit for a couple seconds. Make sure to give enough delay to avoid disturbing the server population too much. When not taking a snapshot, the impact is none/unnoticeable.
-      </i>
-     </div>
-     <h2>
-      Exploring The Snapshot
-     </h2>
-     <div>
-      You can extract the compressed snapshot using any utility that understands GZip (Windows11 explorer, 7zip). The snapshot uses
-      <a class="" href="https://docs.google.com/document/d/1CvAClvFfyA5R-PhYUmn5OOQtYMH4h6I0nSsKchNAySU/preview?tab=t.0#heading=h.yr4qxyxotyw" target="">
-       Google Event Format
-      </a>
-      , so you can use any tool to view it. For example, I've been using
-      <a class="" href="https://ui.perfetto.dev/">
-       Perfetto UI
-      </a>
-      to visualize the data - just drag and drop the json into the view and you can start exploring.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="MaPMAKINGMODDINGPrefabs">
-  <div class="section" like-handler="LikeBlogSection" like-id="84498" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       MaP MAKING &amp; MODDING Prefabs
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've added more prefabs for the mapping and modding community this month.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241112/woodpanel_tiledcubes_preview.jpg"/>
-     </div>
-     <div>
-      Below is a list of the additions and changes:
-      <br/>
-      <ul>
-       <li>
-        Additional concrete, charcoal, gravel, ceiling, roof and plaster tiled cube prefabs
-        <br/>
-       </li>
-       <li>
-        Coloured wood panel tiled cube prefabs (pictured above)
-        <br/>
-       </li>
-       <li>
-        Road and tarmac tiled cube prefabs
-       </li>
-       <li>
-        Cold and heat volume variants (low, med, high)
-       </li>
-       <li>
-        Radiation cube volumes - minimal, low, medium and high rad levels
-        <br/>
-       </li>
-       <li>
-        Toxic/radiation water cube + cylinder prefabs
-       </li>
-       <li>
-        Admin spawnable invisible 3x3 cube + wall
-       </li>
-       <li>
-        Static xmas light string prefab
-       </li>
-       <li>
-        Static fire prefabs
-        <br/>
-       </li>
-       <li>
-        Static spraycan decals
-       </li>
-       <li>
-        Birthday cake prefabs (from previous years)
-        <br/>
-       </li>
-       <li>
-        Invisible static PressButton
-       </li>
-       <li>
-        Fixes for material changes to glowing cubes and glass cubes
-       </li>
-      </ul>
-      <div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Christmas">
-  <div class="section" like-handler="LikeBlogSection" like-id="84506" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Christmas
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We'll release a mandatory update at 19:00 UTC on December 16th to enable this year's festivities.
-     </div>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-style="medium">
-       <img src="https://files.facepunch.com/paddy/20221206/gingerbreadmen_header_01.jpg"/>
-       <img src="https://files.facepunch.com/paddy/20211215/snowman_helmet.jpg"/>
-       <img src="https://files.facepunch.com/paddy/20211215/xmas_town.jpg"/>
-       <img src="https://files.facepunch.com/paddy/20221208/xmasmines_entrance_01.jpg"/>
-      </gallery>
-     </div>
-     <div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="change-blog-container">
-  <div class="container">
-   <div class="changes-container" id="changelist">
-    <div class="changes-sidebar">
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Patch Name
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Polish and Progress
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Changelist Title
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Changelist
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <a class="date" style="text-decoration: none;">
-       <span class="icon">
-        <i>
-         date_range
-        </i>
-       </span>
-       Thursday, December 5, 2024
-      </a>
-     </div>
-     <div class="sidebar-section">
-     </div>
-    </div>
-    <div class="changes-body">
-     <div class="changes-row features">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         add_circle
-        </i>
-       </span>
-       <h3>
-        Features
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added native ARM64 support on Mac for Apple Silicon
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Modular Car Radios
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added 24x7 Bandit Town and Fishing Village radio stations
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added server.homingMissileTargetsHab convar to enable Homing Missiles to target Hot Air Balloons (off by default)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added new IoEntity.infiniteIoPower convar to power everything on a server
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can now pick up and shred player purchasable helicopters in the Junkyard
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added Built-In Server Profiler
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added "invis" admin command that makes the admin invisible to players and NPCs
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added Vending Machine statistics
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added RCON IP ban system
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row improvements">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         arrow_circle_up
-        </i>
-       </span>
-       <h3>
-        Improvements
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Wolves have a better animation to jump up or down elevation
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Wolves will give up on jumping at elevated players if a torch is swung at them
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Wolves give up after following the player for a while, this happens a lot faster if the player is mounted or holding fire
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Wolves speed is reduced and fluctuates more organically
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Wolves are more likely to stop charging if one of their pack members gets hit near them
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Wolves only respond to howls from their own pack, making it less common for packs of more that 4 wolves to form
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Wolves won't see crouched players unless they are very close, allowing for melee attacks from the back
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Wolves sight is reduced at night
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Increased speed of player placed elevators by 50%
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added new express buttons to player placed elevators that go all the way up or down
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Surgeon scrubs can now be crafted without a workbench
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added a passthrough slot to the Storage Monitor
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Changed Tin Can Alarm recipe: 2 empty tuna cans -&gt; 30 metal fragments
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Ore nodes will no longer show the sparkle until they are hit for the first time
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Slightly increased the depth in water players can sink to before the oxygen level starts to tick down
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Wooden high external walls &amp; gates can now be upgraded using the Hammer
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          A turret warning icon now appears next to the hostile warning indicator when you are hostile and near a peace keeper turret.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Scrap received when selling items to NPC vending machines is now dynamic
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Updated Tutorial island with new cliffs
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Dying to the junkyard shredder now shows an icon and proper name in the death screen
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added a "Fully Charged" output to all batteries which outputs 1 power when the battery is 100% charged.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Enabled rotation before deployment for the following items: Electrical Branch, Splitter, Button, Blocker, Root Combiner, Memory Cell, HBHF Sensor, Audio Alarm, RAND Switch, Simple Light, Siren Light, Flasher Light, Laser Detector, Pressure Pad, Tesla Coils, Sound light, Sprinklers, Igniter, Water pump, Debug power generator
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Vendor listing now uses standard item icons
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          TriggerRadiation now supports BoxColliders
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added small box to Workcart
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Legacy Shelter can now be revoked
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Waterpumps can now be used in shallower water
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Propane tanks now stack up to 20
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Modded servers can no longer change the status messages in the loading screen, instead the tip line and icon can be changed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Better Azure analytics error messaging
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Vending Machines now display if they are drone accessible or not
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improvement to Underwater Visibility
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Disco floors can now be rotated and deployed while snapped to another disco floor piece
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Homing missiles have been added to Bradley and Heli loot crate
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Automatically set CPU affinity for AMD X3D CPUs
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Anti-Radiation Pills buffed: Decreased hydration reduction from 10 → 5, Increased scrap per trade from 1 → 10 and Increased radiation reduction from 25 → 75
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fridge storage increased to 48 slots
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row fixed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         handyman
-        </i>
-       </span>
-       <h3>
-        Fixed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Wolves being able to jump on 2 storey bases or very tall cliffs
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Wolves hovering above ground
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Landmines now have a 15% chance to explode on being disarmed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed tesla coils being deployable under the terrain
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some deployables saying 'Not enough space' instead of 'Cannot build this close to X' when building in a monument no build zone
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed repair bench UI not displaying the required ingredient amount when the quantity is 1
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed research table UI showing the incorrect phrase when attempting to research broken items
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a crash when adding and removing a lot of slacked points to a wire
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Cutting the power of a broadcasting RF broadcaster will now stop its signal
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed oxygen remaining readout starting at 3s (there is actually 4s of oxygen when going underwater)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed oxygen readout showing incorrect amounts if multiple diving tanks are in the inventory
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed case where a second reload could be triggered if a player hit the reload key near the end of the reload animation (affected many guns)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed case where the crossbow reload would sometimes play an extra 0.25s animation when the reload finished if latency was high
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some floating grass and foliage on Tutorial Island
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed fingers not rendering on some leather glove skins
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed weapon reloads not reliably working at very (&lt;15fps) low frame rates
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed campfire water purifier not accepting freshwater in the propane tank section
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Travelling Vendor sharp LOD changes
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed ocean water Z-fighting with terrain at the shore
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row known-issues">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         error
-        </i>
-       </span>
-       <h3>
-        Known Issues
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Wolves can sometimes suddenly die even though they didn't take damage
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Server Profiler can sometimes fail to generate a performance snapshot
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Investigating an on-going Server memory leak, which can result in server crashes
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Rich text end tags (e.g. &lt;/color&gt;) used in the menu tip message are erroneously escaped
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Custom modded server icons used in the menu tip don't correctly reset back to the default info icon
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 05 Dec 2024 02:40:00 Z</pubDate>
-    </item>
-    <item>
       <title>World Update 2.0</title>
       <link>https://rust.facepunch.com/news/world_update_2/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -6034,6 +3908,2132 @@ doing a good job, there is much more to be done in this area, and we are continu
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 07 Nov 2024 04:49:00 Z</pubDate>
+    </item>
+    <item>
+      <title>Polish and Progress</title>
+      <link>https://rust.facepunch.com/news/polish-and-progress/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Polish and Progress
+    </h1>
+    <p editname="Summary" type="text">
+     The big quality of life update with over 60 improvements and fixes. Rust is turning 11 years old, and Christmas is coming!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      05 December 2024
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="Rusts11thbirthdaycelebrations">
+  <div class="section" like-handler="LikeBlogSection" like-id="84467" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rust's 11th birthday celebrations
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We can't believe it either.
+      <br/>
+      <br/>
+      It feels like just yesterday that we were celebrating 10 years of Rust, getting emotional over our
+      <a class="" href="https://youtu.be/y95DhDZgjhs">
+       recap video
+      </a>
+      , but it is true - Rust turns 11 years old on Wednesday the 11th of December!
+      <br/>
+      <br/>
+      It's been another incredible year for Rust, with record player numbers, Twitch events, and monthly content updates bringing some of the most significant changes to the world of Rust in the past 11 years.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241202/rust_bday11_cake_01.jpg"/>
+     </div>
+     <div>
+      Here are just some of the key gameplay additions we've delivered as we look back on 2024:
+      <br/>
+      <ul>
+       <li>
+        World Update
+        <br/>
+       </li>
+       <li>
+        Backpacks
+       </li>
+       <li>
+        Tutorial Island
+       </li>
+       <li>
+        Digital Clock
+       </li>
+       <li>
+        Night Light
+       </li>
+       <li>
+        Harbour Monument Rework
+       </li>
+       <li>
+        Cargo Ship Docking
+       </li>
+       <li>
+        Minigun + Flamethrower
+       </li>
+       <li>
+        Seismic Sensor
+       </li>
+       <li>
+        Handcuffs + Prisoner Hood
+       </li>
+       <li>
+        Motorbikes + Pedal Bikes
+       </li>
+       <li>
+        Travelling Vendor
+       </li>
+       <li>
+        Tin Can Alarm
+       </li>
+       <li>
+        Metal Detector
+       </li>
+       <li>
+        Wallpaper
+       </li>
+       <li>
+        GCO Attachement
+       </li>
+       <li>
+        <span>
+         Hand-held Diver Propulsion Vehicle
+        </span>
+       </li>
+       <li>
+        <span>
+         Refreshed Divesites
+        </span>
+       </li>
+       <li>
+        Radtown
+       </li>
+       <li>
+        Radioactive Water
+       </li>
+       <li>
+        T1 SMG + T3 SKS
+        <br/>
+       </li>
+       <li>
+        ...and much more!
+       </li>
+      </ul>
+      To celebrate Rust turning 11, next week, you'll find a cake and balloons in-game. And your friends can
+      <a class="selected" href="https://store.steampowered.com/app/252490?utm_source=blog_campaign=r11_medium=blog" target="https://store.steampowered.com/app/252490?utm_source=blog_campaign=r11_medium=blog">
+       enjoy 50% off Rust
+      </a>
+      for 10 days, starting on Monday!
+      <br/>
+      <br/>
+      On behalf of everyone at Facepunch, we'd like to thank you for a great 2024. In January, we'll release a full end-of-year blog in which we'll discuss how 2024 has gone, with highlights, learnings, and our plans for 2025.
+      <br/>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Qualityoflifechanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84488" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Quality of life changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241203/rust_peacekeeper_hostile_1080.jpg"/>
+        <center>
+         <b>
+          Peacekeeper Turret Hostile Indicator
+         </b>
+        </center>
+        <center>
+         A turret icon now appears next to the usual hostile indicator when you are hostile and near a peace keeper auto turret.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241202/rust_workcartstoragebox_05.jpg"/>
+        <center>
+         <b>
+          Workcart Storage
+         </b>
+        </center>
+        <center>
+         A small box has been added to all Workcarts so you can store that extra loot.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241202/waterpump_river_01.jpg"/>
+        <center>
+         <b>
+          Waterpump Depth Change
+         </b>
+        </center>
+        <center>
+         Waterpumps now work with a smaller depth of water, perfect for the new rivers.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241202/propanetank_stacksize_01.jpg"/>
+        <center>
+         <b>
+          Propane Tank Stack Size
+         </b>
+        </center>
+        <center>
+         Propane tanks can now stack up to 20.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241203/rust_dropbox_slots_1080.jpg"/>
+        <center>
+         <b>
+          Dropbox Input Increase
+         </b>
+        </center>
+        <center>
+         Increased to 4 input slots.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241202/rust_junkpiles_03.jpg"/>
+        <center>
+         <b>
+          Junkpile Despawn
+         </b>
+        </center>
+        <center>
+         Junkpiles will now be eligible to despawn after they are partially looted.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240924/waterWell_planter_02.jpg"/>
+        <center>
+         <b>
+          Fridge Storage
+         </b>
+        </center>
+        <center>
+         Fridge storage increased to 48 slots
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240402/patrolhelicopter_trainyard_01.jpg"/>
+        <center>
+         <b>
+          Homing Missiles
+         </b>
+        </center>
+        <center>
+         Homing missiles have been added to Bradley and attack helicopter loot crates
+        </center>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="WOLFPACKSbalancing">
+  <div class="section" like-handler="LikeBlogSection" like-id="84474" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       WOLF PACKS balancing
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We spent this month bug fixing and improving the counter-plays to the wolves, as we want them to feel challenging but not unfair.
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20241205/wolf_ai_jumptorch_thumb1.jpg" src="https://files.facepunch.com/paddy/20241205/wolf_ai_jumptorch_preview.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <div>
+      </div>
+      <h2>
+       <b>
+        The problems
+       </b>
+      </h2>
+      <div>
+       Using fire against wolf sometimes felt less impactful than expected, especially when wanting to avoid the fight. Even though wolves wouldn't attack as long as you kept distance and a lit torch, they would
+       <b>
+        follow for a very long time
+       </b>
+       .
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       This was especially aggravating when driving wolves away from your corpse to get back your loot, but then having them still follow you and potentially cause a death spiral.
+      </div>
+      <div>
+       Furthermore, when jumping on an elevated position to escape the wolf, it would ignore the lit torch and rush to jump up.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <div>
+        The wolf could do very fast
+        <b>
+         huge jumps
+        </b>
+        sometimes up to your base's roof. The jump motion also looked weightless and not really believable.
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Another problem was
+       <b>
+        packs of 4+ wolves
+       </b>
+       . They didn't appear all the time, but players that had to face them had a really hard time. Even though packs never spawn with more than 4 wolves, they could sometimes merge. That's because wolves always come to investigate when their hear a howl, even if it comes from a wolf that does not belong to their pack.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Once the player shot a wolf or they got close enough, wolves would give up stalking and
+       <b>
+        weave at high speed
+       </b>
+       towards their prey. For players that only had a bow, this made it hard to land more than one or two shot as the pack of wolves closed the gap. And once enough wolves were in melee range, while it was possible to prevent a single one of them from attacking thanks to hit stun, you easily got overwhelmed.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Lastly it felt harder than it should have been to crouch and sneak around wolf packs, forcing players to take
+       <b>
+        very long detours
+       </b>
+       if they didn't want to fight.
+      </div>
+      <h2>
+       <b>
+        Closing words
+       </b>
+      </h2>
+      <div>
+       You can find more details about how we addressed those issues in the patch notes at the bottom of the page.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Congrats to the players who found some of the hidden features that could be used to get the upper hand on wolves!
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ELECTRICITYQOL">
+  <div class="section" like-handler="LikeBlogSection" like-id="84489" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       ELECTRICITY QOL
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240605/electricity_qol_tesla_igniter_1080.jpg"/>
+        <center>
+         <b>
+          Tesla Coil
+         </b>
+        </center>
+        <center>
+         Reduced tesla coil maximum power usage from 35 to 25 (no difference in time to kill)
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20200831/storagemonitor.jpg"/>
+        <center>
+         <b>
+          Storage Monitor
+         </b>
+        </center>
+        <center>
+         Added a passthrough slot to the Storage Monitor
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20200928/elevator_roller.jpg"/>
+        <center>
+         <b>
+          Elevators speed
+         </b>
+        </center>
+        <center>
+         Increased speed of player placed elevators by 50%
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241202/electricity_io_fullycharged_noui.jpg"/>
+        <center>
+         <b>
+          Battery full charge indicator
+         </b>
+        </center>
+        <center>
+         Added an output slot for when your battery is fully charged
+        </center>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Modularcarradios">
+  <div class="section" like-handler="LikeBlogSection" like-id="84477" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Modular car radios
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Modular car radios are now in Rust!
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241129/rust_car_radio_01.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This means that you can now craft a radio to place in your modular car for 120 metal fragments if you own the
+      <a class="" href="https://store.steampowered.com/app/1670430/Rust__Voice_Props_Pack/">
+       Voice Props Pack
+      </a>
+      . If you don't, it's on sale at 40% off from the 9th - 19th!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Simply craft the radio and then deploy it onto the cockpit of your modular vehicle. The radio will only be operational whilst the car engine is switched on. Once the radio is deployed, anyone will be able to interact with it.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Anyone with authorisation to the vehicle will be able to pick up the radio with a building hammer.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The radio comes with all the same built-in and internet streamed radio stations you find in the Boom Box
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20241204/car_radio_preview_thumb.jpg" src="https://files.facepunch.com/paddy/20241204/car_radio_preview.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Helicoptershredding">
+  <div class="section" like-handler="LikeBlogSection" like-id="84485" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Helicopter shredding
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Purchased Helicopters can now be picked up by the magnet crane and shredded at Junkyard. You will receive Scrap based on the helicopter type and it's current health (50% health = 50% of the Scrap).
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241202/helicopter_shredding_01.jpg"/>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Minicopter - 200 Scrap
+       </li>
+       <li>
+        Scrap Transport Helicopter - 300 Scrap
+       </li>
+       <li>
+        Attack Helicopter - 500 Scrap
+       </li>
+      </ul>
+      <div>
+       Stolen a helicopter from your neighbours? Why not destroy the evidence and get paid at the same time!
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Upgradablehighexternalwallsgates">
+  <div class="section" like-handler="LikeBlogSection" like-id="84490" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Upgradable high external walls &amp; gates
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Wooden high external walls and gates can now be upgraded to their stone versions via the hammer context manner, similar to regular building blocks. Each piece you upgrade requires a Stone high external wall or gate in your inventory.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241204/highwallupgrade_01.jpg"/>
+     </div>
+     <div>
+      Additionally, high external walls now craft in batches of three. The stone high external walls requiring 1 sheet metal per craft.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The stone high external gate has also been adjusted to require 1 sheet metal and only 3 gears, with its crafting cost reduced to 4000 wood/stone (down from 4500) for improved inventory management.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="VendingMachineStatistics">
+  <div class="section" like-handler="LikeBlogSection" like-id="84491" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Vending Machine Statistics
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      You are now able to see a bunch of statistics about your vending machine. This includes:
+      <br/>
+      <ul>
+       <li>
+        <b>
+         Transaction History
+         <br/>
+        </b>
+       </li>
+       <li>
+        <b>
+         Highest Revenue Items
+        </b>
+       </li>
+       <li>
+        <b>
+         Best Sold Items
+        </b>
+       </li>
+      </ul>
+      You can browse these stats in a wide variety of timescales: from the last 30 minutes to all-time.
+      <br/>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20241204/vendingmachine_stats.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <br/>
+      Some 'long term stats' are also available (all anonymous), these are:
+      <br/>
+      <ul>
+       <li>
+        <b>
+         Total Sales
+        </b>
+        : The total number of items purchased from the vending machine
+       </li>
+       <li>
+        <strong>
+         Total Unique Customers
+        </strong>
+        : The total number of individual customers who have made a purchase
+       </li>
+       <li>
+        <strong>
+         Total Repeat Customers
+        </strong>
+        : The total number of instances where existing customers have returned to make additional purchases.
+        <br/>
+       </li>
+       <li>
+        <b>
+         Best Customer
+        </b>
+        : The customer who has made the most purchases (total count of their transactions)
+       </li>
+      </ul>
+      These stats are processed on the Serverside then communicated to clients.
+      <br/>
+      <br/>
+      <br/>
+      Here are a few Server Convars to help server owners:
+     </div>
+     <div>
+      <br/>
+      <b>
+       vendingmachine.max_returned -
+      </b>
+      Specifies the maximum number of entries to return when fetching purchase history or aggregated stats (e.g., best-sold items, most revenue-generating items, etc)
+      <br/>
+      <br/>
+      <b>
+       vendingmachine.max_processed -
+      </b>
+      Limits the maximum number of sales records to process when performing operations like filtering or aggregating data, even if more records are available
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       vendingmachine.max_history -
+      </b>
+      Defines the maximum number of purchase records that the vending machine will store in memory (on Serverside) before removing older entries to make space for new ones
+     </div>
+     <div>
+      <br/>
+      Server owners can also run:
+      <b>
+       vendingmachine.clearallvendinghistory and
+      </b>
+      <b>
+       vendingmachine.clearallvendingcustomerhistory
+      </b>
+      <span>
+       to clear all Vending Machine stats and long term stats respectively.
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="LegacyShelterRevoke">
+  <div class="section" like-handler="LikeBlogSection" like-id="84492" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Legacy Shelter Revoke
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Once you placed your Legacy Shelter, it was possible to die and then be unable to place another. When placing down another shelter, your first one is now destroyed.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false">
+      <img src="https://files.facepunch.com/paddy/20231204/legacyshelter_01.jpg"/>
+     </div>
+     <div>
+      There's one trade off: Shelters now take a few seconds to place (just like high external walls). This gives enough time to warn you that your old Shelter is going to be destroyed, as well as preventing them from being used in PVP.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="VariableZoomScope">
+  <div class="section" like-handler="LikeBlogSection" like-id="84493" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Variable Zoom Scope
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The 16x scope was significantly under-used considering it's intended to be military loot. This seemed to come down to it being too high of a zoom.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This scope has now been renamed to the "variable zoom scope" and supports 3 zoom levels: 4x, 8x &amp; 16x. This makes it better than both of the old scopes combined &amp; adds in a new zoom for quick target acquisition.
+     </div>
+     <div>
+      <b>
+       <br/>
+      </b>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20241205/variablescope_preview_thumb.jpg" src="https://files.facepunch.com/paddy/20241205/variablescope_preview.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+     </div>
+     <div>
+      The default keybinds are 'Page Up' to increase zoom and 'Page Down' to decrease zoom, however I fully expect more experienced players to rebind these.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Try scroll wheel (if you aren't using it to switch weapons) or mouse 3 &amp; mouse 4 (if those aren't already bound).
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241205/optionsmenu_zoomcontrols.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ScrapExchangeVendorchanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84494" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Scrap Exchange Vendor changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Now that we've reached a point where we are happy with the
+      <a class="" href="https://rust.facepunch.com/news/road-renegades#dynamicvendorpricing">
+       dynamic pricing behaviour
+      </a>
+      when purchasing items with Scrap, we've decided to apply the same logic to items being sold for Scrap. Starting this month, you will notice that items that you sell to NPC vending machines for Scrap have a dynamic price applied to them. It will start the wipe with 50% less value per item sold, and can increase to an extra 100% value per item sold if no items are sold.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false">
+      <img src="https://files.facepunch.com/paddy/20220331/peacekeepers_01.jpg"/>
+     </div>
+     <div>
+      This will hopefully make it more valuable to sell items as a wipe goes on. As with the previous changes, we'll be monitoring these and making changes as needed.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="UnderwaterVisibility">
+  <div class="section" like-handler="LikeBlogSection" like-id="84505" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Underwater Visibility
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We recently tweaked this, but your feedback made it clear there was further room for improvement. So we did just that. Underwater visibility is now nearly doubled, allowing players to see further and more clearly underwater.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241003/rust_worldUpdate_diveSite_01.jpg"/>
+     </div>
+     <div>
+      Additionally, we've slightly increased the depth of water players can sink to before the oxygen level starts to tick down. During swimming, you are now less likely to drown to high waves.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="riskylandminedisarming">
+  <div class="section" like-handler="LikeBlogSection" like-id="84471" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       risky landmine disarming
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div class="autodiv">
+      Landmines now have a 15% chance to explode when being disarmed by another player, so be careful when clearing out minefields!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This was always meant to be the intended gameplay behaviour for landmines, but I discovered an old bug that prevented this from working as intended.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241126/rust_landmine_disarm_01.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Nodesparklechanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84487" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Node sparkle changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've slightly modified the behaviour when hitting nodes this month. Nodes will no longer show a sparkle before they are hit for the first time, once they are hit the sparkle will appear underneath the first hit. This first hit is considered a sparkle hit and will reward the appropriate amount of resources, so it's a very slight buff to ore collecting.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      We did this for a few reasons:
+     </div>
+     <div>
+      <ul>
+       <li>
+        This brings their behaviour in line with the tree X marker minigame
+       </li>
+       <li>
+        Finding the sparkle at first was slightly awkward, this feels smoother
+       </li>
+       <li>
+        Each sparkle was a networked entity that had to be streamed in and out as the player moves around
+       </li>
+       <li>
+        We had a sparkle per node in the world, so an average server will now have around 4.5k less entities in the world
+       </li>
+      </ul>
+      <div>
+       While I was at it I made some slight memory improvements so each node will take up less client and server memory.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="QUEUEIMPROVEMENTS">
+  <div class="section" like-handler="LikeBlogSection" like-id="84496" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       QUEUE IMPROVEMENTS
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      While looking at collecting some data around queues, we decided to do a few minor improvements to the queue system.   Up until now, the client was unaware of being in a queue, it was simply using server messaging to show the queue.  Now the client knows when it has entered and exited a server queue, and can act accordingly. We now display Steam rich presence for waiting in a queue and connecting to a server.   This also opens us up to do more client side related queue features in the future.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/paddy/20241203/WaitingInQueue.png"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      The other change to queues we made impacts modded server owners specifically.  The queue messaging system was being leverage by modded servers to implement loading screen messages via a plugin.  These loading screen messages would often fight with the client messaging, and generally didn't look great.   As a nice compromise, we've implemented the ability to change the "menu tip" message displayed in the loading screen.  This can allow modded server owners to implement their own tips that may be more relevant for the particular game mode and changes specific to the server.  To keep things backwards compatible, the same network message sent before will continue to work with one caveat.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="code" class="edit-block" contenteditable="false" data-code='// Old
+
+var net = Net.sv.StartWrite();
+net.PacketID(Message.Type.Message);
+net.String("Top Text");
+net.String("Bottom Text");
+net.Send(new SendInfo(conn));
+
+// New
+
+var net = Net.sv.StartWrite();
+net.PacketID(Message.Type.Message);
+net.String("Bolt");
+net.String("This server has instant craft!");
+net.Send(new SendInfo(conn));
+' data-language="csharp">
+      // Old
+      <br/>
+      <br/>
+      var net = Net.sv.StartWrite();
+      <br/>
+      net.PacketID(Message.Type.Message);
+      <br/>
+      net.String("Top Text");
+      <br/>
+      net.String("Bottom Text");
+      <br/>
+      net.Send(new SendInfo(conn));
+      <br/>
+      <br/>
+      // New
+      <br/>
+      <br/>
+      var net = Net.sv.StartWrite();
+      <br/>
+      net.PacketID(Message.Type.Message);
+      <br/>
+      net.String("Bolt");
+      <br/>
+      net.String("This server has instant craft!");
+      <br/>
+      net.Send(new SendInfo(conn));
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241203/loadingscreen_custommessage.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Instead of having top and bottom text, you can change the menu tip icon displayed.  Existing loading screen plugins will continue to function, but won't display a top message as that field is now used for an icon.  A list of available icons names has been published on our
+      <a class="" href="https://github.com/Facepunch/Rust.Community/blob/master/Icons.cs">
+       Community GitHub repository.
+      </a>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       Only servers clearly listed in the modded section may utilize this feature.
+      </b>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="RCONsecurityenhancements">
+  <div class="section" like-handler="LikeBlogSection" like-id="84497" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       RCON security enhancements
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Another one for all the server owners out there. We've started updating the security around RCON.   The server will output very prominent warning messages if you're using an insecure RCON password.  In some cases, the RCON server will fail to start if the password is bad enough (i.e. "password" or "changeme")
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      We've also added some safeguards against brute force attacks.  Now when a RCON client attempts to connect with a bad password, after 5 attempts the IP address will be banned for 5 minutes.  These values are all configurable through a number of new convars.   There are also a few convar commands that allow you to permanently ban both IP addresses and networks.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <ul>
+       <li>
+        <strong>
+         rcon.banduration (default: 300)
+        </strong>
+        <br/>
+        Number of seconds to apply to any automated ban.
+        <strong>
+         <br/>
+        </strong>
+       </li>
+       <li>
+        <strong>
+         rcon.maxpasswordfailures (default: 5)
+        </strong>
+        <br/>
+        Number of failed password attempts before applying a temp ban
+        <strong>
+         <br/>
+        </strong>
+       </li>
+       <li>
+        <strong>
+         rcon.logfailedattempts  (default: true)
+        </strong>
+        <br/>
+        Debug.Log all the various failed password / ban connects. Defaults to true, but large servers may want to   disable due to spam
+        <strong>
+         <br/>
+        </strong>
+       </li>
+       <li>
+        <strong>
+         rcon.permanentbanfailedips (default: false)
+        </strong>
+        <br/>
+        Permanently ban IPs that exceed the failed password threshold
+        <strong>
+         <br/>
+        </strong>
+       </li>
+       <li>
+        <strong>
+         rcon.ban_ip &lt;ip / network&gt;
+         <br/>
+        </strong>
+        Permanently bans an IP or network
+        <strong>
+         <br/>
+        </strong>
+       </li>
+       <li>
+        <strong>
+         rcon.unban_ip &lt;ip / network&gt;
+         <br/>
+        </strong>
+        Removes an  IP or network ban from both the permanent bans, and any temporary bans/attempts
+        <strong>
+         <br/>
+        </strong>
+       </li>
+       <li>
+        <strong>
+         rcon.print_rcon_failed_logins
+         <br/>
+        </strong>
+        Prints out the table of attempted logins that failed and if they resulted in a ban or not
+        <strong>
+         <br/>
+        </strong>
+       </li>
+       <li>
+        <strong>
+         rcon.clear_rcon_failed_logins
+         <br/>
+        </strong>
+        Removes all of the temporary failed login history/bans (does not remove permanent bans of any kind)
+        <strong>
+         <br/>
+        </strong>
+       </li>
+       <li>
+        <strong>
+         rcon.print_rcon_bans
+        </strong>
+        <br/>
+        List the permanent IP/network bans
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="NativeARM64HardwareSupport">
+  <div class="section" like-handler="LikeBlogSection" like-id="84472" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Native ARM64 Hardware Support
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've been waiting for a while for all of our third party software to natively support ARM64 hardware. This has now finally come to fruition and as the first platform to test this on, we've switched the Mac version of the game to use our native ARM64 build on Apple Silicon hardware. At the moment, Intel hardware is still supported on Mac as well and remains unaffected by this change.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      If this works out well, we will investigate native ARM64 support for other platforms in the future. The next most important one would likely be to natively run on ARM64 hardware in Windows laptops, but we are still waiting for some third party software to fully support this, so this will stretch a good amount into the next year at least.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Twitchrivalsisback">
+  <div class="section" like-handler="LikeBlogSection" like-id="84466" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Twitch rivals is back!
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/lewis/1b0311b121/tr5_image2.jpg"/>
+     </div>
+     <div>
+      That's right, Twitch Rivals - Team Battle V is almost here!
+      <br/>
+      <br/>
+     </div>
+     <div>
+      Starting Monday 9th of December and finishing Friday 13th, up to 150 Twitch creators from around the world will compete in our yearly global Rust PvP competitive event, with a prize pool of
+      <b>
+       $100,000
+      </b>
+      !
+      <br/>
+      <br/>
+      Last year's event saw some incredible plays from some rather understated competitors so be sure to tune in every day at 1900 GMT / 1400 EST to watch as tensions rise and the teams find their feet while they gather their resources, build to protect themselves, then raid, loot, and fight it out to be crowned victorious!
+      <br/>
+      <br/>
+      This year's Captains include Team Battle IV's winning team captain, Blooprint, as well as Oilrats, NoraExplorer, Willjum, and more! Full schedule and teams list from Twitch
+      <a class="selected" href="https://schedule.twitchrivals.com/events/rust-team-battle-v-on-twitch-rivals-lkKoK" target="https://schedule.twitchrivals.com/events/rust-team-battle-v-on-twitch-rivals-lkKoK">
+       here
+      </a>
+      .
+      <br/>
+      <br/>
+      As usual, there are some incredible looking Twitch Drops available to collect by watching the competitors, and by tuning in to the official competition
+      <a class="" href="https://www.twitch.tv/twitchrivals" target="https://www.twitch.tv/twitchrivals">
+       broadcast from Twitch Rivals
+      </a>
+      .
+      <br/>
+      Sync your accounts and find links to all channels at
+      <a class="" href="https://twitch.facepunch.com/" target="https://twitch.facepunch.com/">
+       twitch.facepunch.com
+      </a>
+      .
+      <br/>
+      <br/>
+      And don't forget, there are generic Twitch themed Drops that you can grab by
+      <a class="" href="https://www.twitch.tv/directory/category/rust" target="https://www.twitch.tv/directory/category/rust">
+       watching your favourite
+      </a>
+      creator on Twitch not participating in the event too!
+      <br/>
+      <br/>
+      As always, we'd like to thank
+      <a class="" href="https://rustoria.co/" target="https://rustoria.co/">
+       Rustoria
+      </a>
+      for working with us and Twitch to make this event possible.
+      <br/>
+      <br/>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" src="https://files.facepunch.com/Errn/1b0311b1/td32_socials-16x9v2.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="BuiltinServerProfiler">
+  <div class="section" like-handler="LikeBlogSection" like-id="84499" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Built-in Server Profiler
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Up to recently we've been focusing on server performance health via tracking aggregating performance telemetry. It allowed us to have a general overview of a server's performance from birds eye view. There are point where high-level overview is not sufficient to identify where exactly slow-downs are coming from.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This past month I've been working on a built-in profiler for the server. If used, it allows us to see all the code that is executed for a particular frame - allowing us to see more detail about what &amp; how things are going wrong.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" title="Capture of a 76 pop staging server">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b0211b1/VLSYR7Arpk.png"/>
+     </div>
+     <div>
+      With this, we can now combine our high-level telemetry as an "hotspot-warning" system, while using the built-in profiler will allow us to investigate what those hotspot consist of and which parts are the most worthwhile to optimize. This will help guide our efforts in optimizing the server performance while also validating that we have successfully optimized a particular block of logic.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The profiler comes with an extra benefit: this feature is going to be available for public use. Any server owner will be able to trigger it and take a look at the data. You'll be able to see both what vanilla server does, as well as if there's anything that Mods are actively doing.
+     </div>
+     <div>
+      <h2>
+       How to Generate a snapshot
+      </h2>
+     </div>
+     <div>
+      <i>
+       <b>
+        Note 1
+       </b>
+       : This is currently only available for servers hosted on Windows machines. Linux support is next to come.
+      </i>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" title="Incoming snapshot warning">
+      <img src="https://files.facepunch.com/danielprihodko/1b0411b1/jCm3Ix8EAJ.png"/>
+     </div>
+     <div>
+      <ul>
+       <li>
+        First, the feature needs to be activated when starting the server. You must launch the server executable with `
+        <b>
+         -enableProfiler
+        </b>
+        `
+       </li>
+       <li>
+        Once the server boots up, you can run the following console command: `
+        <b>
+         profile.perfsnapshot [delay] [name] [frames]
+        </b>
+        ` (all parameters are optional)
+       </li>
+       <li>
+        <b>
+         delay
+        </b>
+        is in seconds, by default set to 15
+       </li>
+       <li>
+        <b>
+         name
+        </b>
+        is the name of the snapshot file, by default is "Profile"
+       </li>
+       <li>
+        <b>
+         frames
+        </b>
+        is the number of frames to includes in the snapshot - default is 10, has a max of 10
+       </li>
+       <li>
+        Once the delay expires (you'll see messages in global chat), it will record the requested number of frames, generate and compress a snapshot - you will find it in &lt;server-dir&gt;/server/&lt;identity&gt;/profiler/&lt;name&gt;.json.gz
+       </li>
+      </ul>
+      <div>
+       <i>
+        <b>
+         Note 2
+        </b>
+        : if something goes wrong during generation the file won't be created(youl'l can it in server log file). I'll be continuing iterating on the profiler, so I'll iron out any left-overs.
+       </i>
+      </div>
+     </div>
+     <div>
+      <i>
+       <br/>
+      </i>
+     </div>
+     <div>
+      <i>
+       <b>
+        Note 3:
+       </b>
+       Taking a snapshot causes server to take a performance hit for a couple seconds. Make sure to give enough delay to avoid disturbing the server population too much. When not taking a snapshot, the impact is none/unnoticeable.
+      </i>
+     </div>
+     <h2>
+      Exploring The Snapshot
+     </h2>
+     <div>
+      You can extract the compressed snapshot using any utility that understands GZip (Windows11 explorer, 7zip). The snapshot uses
+      <a class="" href="https://docs.google.com/document/d/1CvAClvFfyA5R-PhYUmn5OOQtYMH4h6I0nSsKchNAySU/preview?tab=t.0#heading=h.yr4qxyxotyw" target="">
+       Google Event Format
+      </a>
+      , so you can use any tool to view it. For example, I've been using
+      <a class="" href="https://ui.perfetto.dev/">
+       Perfetto UI
+      </a>
+      to visualize the data - just drag and drop the json into the view and you can start exploring.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="MaPMAKINGMODDINGPrefabs">
+  <div class="section" like-handler="LikeBlogSection" like-id="84498" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       MaP MAKING &amp; MODDING Prefabs
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've added more prefabs for the mapping and modding community this month.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241112/woodpanel_tiledcubes_preview.jpg"/>
+     </div>
+     <div>
+      Below is a list of the additions and changes:
+      <br/>
+      <ul>
+       <li>
+        Additional concrete, charcoal, gravel, ceiling, roof and plaster tiled cube prefabs
+        <br/>
+       </li>
+       <li>
+        Coloured wood panel tiled cube prefabs (pictured above)
+        <br/>
+       </li>
+       <li>
+        Road and tarmac tiled cube prefabs
+       </li>
+       <li>
+        Cold and heat volume variants (low, med, high)
+       </li>
+       <li>
+        Radiation cube volumes - minimal, low, medium and high rad levels
+        <br/>
+       </li>
+       <li>
+        Toxic/radiation water cube + cylinder prefabs
+       </li>
+       <li>
+        Admin spawnable invisible 3x3 cube + wall
+       </li>
+       <li>
+        Static xmas light string prefab
+       </li>
+       <li>
+        Static fire prefabs
+        <br/>
+       </li>
+       <li>
+        Static spraycan decals
+       </li>
+       <li>
+        Birthday cake prefabs (from previous years)
+        <br/>
+       </li>
+       <li>
+        Invisible static PressButton
+       </li>
+       <li>
+        Fixes for material changes to glowing cubes and glass cubes
+       </li>
+      </ul>
+      <div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Christmas">
+  <div class="section" like-handler="LikeBlogSection" like-id="84506" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Christmas
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We'll release a mandatory update at 19:00 UTC on December 16th to enable this year's festivities.
+     </div>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-style="medium">
+       <img src="https://files.facepunch.com/paddy/20221206/gingerbreadmen_header_01.jpg"/>
+       <img src="https://files.facepunch.com/paddy/20211215/snowman_helmet.jpg"/>
+       <img src="https://files.facepunch.com/paddy/20211215/xmas_town.jpg"/>
+       <img src="https://files.facepunch.com/paddy/20221208/xmasmines_entrance_01.jpg"/>
+      </gallery>
+     </div>
+     <div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Polish and Progress
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Changelist
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Thursday, December 5, 2024
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
+    </div>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added native ARM64 support on Mac for Apple Silicon
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Modular Car Radios
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added 24x7 Bandit Town and Fishing Village radio stations
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added server.homingMissileTargetsHab convar to enable Homing Missiles to target Hot Air Balloons (off by default)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added new IoEntity.infiniteIoPower convar to power everything on a server
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can now pick up and shred player purchasable helicopters in the Junkyard
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added Built-In Server Profiler
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added "invis" admin command that makes the admin invisible to players and NPCs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added Vending Machine statistics
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added RCON IP ban system
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wolves have a better animation to jump up or down elevation
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wolves will give up on jumping at elevated players if a torch is swung at them
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wolves give up after following the player for a while, this happens a lot faster if the player is mounted or holding fire
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wolves speed is reduced and fluctuates more organically
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wolves are more likely to stop charging if one of their pack members gets hit near them
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wolves only respond to howls from their own pack, making it less common for packs of more that 4 wolves to form
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wolves won't see crouched players unless they are very close, allowing for melee attacks from the back
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wolves sight is reduced at night
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Increased speed of player placed elevators by 50%
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added new express buttons to player placed elevators that go all the way up or down
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Surgeon scrubs can now be crafted without a workbench
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a passthrough slot to the Storage Monitor
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Changed Tin Can Alarm recipe: 2 empty tuna cans -&gt; 30 metal fragments
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Ore nodes will no longer show the sparkle until they are hit for the first time
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Slightly increased the depth in water players can sink to before the oxygen level starts to tick down
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wooden high external walls &amp; gates can now be upgraded using the Hammer
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          A turret warning icon now appears next to the hostile warning indicator when you are hostile and near a peace keeper turret.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Scrap received when selling items to NPC vending machines is now dynamic
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Updated Tutorial island with new cliffs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Dying to the junkyard shredder now shows an icon and proper name in the death screen
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a "Fully Charged" output to all batteries which outputs 1 power when the battery is 100% charged.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Enabled rotation before deployment for the following items: Electrical Branch, Splitter, Button, Blocker, Root Combiner, Memory Cell, HBHF Sensor, Audio Alarm, RAND Switch, Simple Light, Siren Light, Flasher Light, Laser Detector, Pressure Pad, Tesla Coils, Sound light, Sprinklers, Igniter, Water pump, Debug power generator
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Vendor listing now uses standard item icons
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          TriggerRadiation now supports BoxColliders
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added small box to Workcart
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Legacy Shelter can now be revoked
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Waterpumps can now be used in shallower water
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Propane tanks now stack up to 20
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Modded servers can no longer change the status messages in the loading screen, instead the tip line and icon can be changed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Better Azure analytics error messaging
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Vending Machines now display if they are drone accessible or not
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improvement to Underwater Visibility
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Disco floors can now be rotated and deployed while snapped to another disco floor piece
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Homing missiles have been added to Bradley and Heli loot crate
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Automatically set CPU affinity for AMD X3D CPUs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Anti-Radiation Pills buffed: Decreased hydration reduction from 10 → 5, Increased scrap per trade from 1 → 10 and Increased radiation reduction from 25 → 75
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fridge storage increased to 48 slots
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wolves being able to jump on 2 storey bases or very tall cliffs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wolves hovering above ground
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Landmines now have a 15% chance to explode on being disarmed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed tesla coils being deployable under the terrain
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some deployables saying 'Not enough space' instead of 'Cannot build this close to X' when building in a monument no build zone
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed repair bench UI not displaying the required ingredient amount when the quantity is 1
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed research table UI showing the incorrect phrase when attempting to research broken items
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a crash when adding and removing a lot of slacked points to a wire
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Cutting the power of a broadcasting RF broadcaster will now stop its signal
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed oxygen remaining readout starting at 3s (there is actually 4s of oxygen when going underwater)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed oxygen readout showing incorrect amounts if multiple diving tanks are in the inventory
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed case where a second reload could be triggered if a player hit the reload key near the end of the reload animation (affected many guns)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed case where the crossbow reload would sometimes play an extra 0.25s animation when the reload finished if latency was high
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some floating grass and foliage on Tutorial Island
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed fingers not rendering on some leather glove skins
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed weapon reloads not reliably working at very (&lt;15fps) low frame rates
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed campfire water purifier not accepting freshwater in the propane tank section
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Travelling Vendor sharp LOD changes
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed ocean water Z-fighting with terrain at the shore
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row known-issues">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         error
+        </i>
+       </span>
+       <h3>
+        Known Issues
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wolves can sometimes suddenly die even though they didn't take damage
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Server Profiler can sometimes fail to generate a performance snapshot
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Investigating an on-going Server memory leak, which can result in server crashes
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Rich text end tags (e.g. &lt;/color&gt;) used in the menu tip message are erroneously escaped
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Custom modded server icons used in the menu tip don't correctly reset back to the default info icon
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 05 Dec 2024 02:40:00 Z</pubDate>
     </item>
   </channel>
 </rss>
