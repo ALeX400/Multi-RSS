@@ -1,6 +1,604 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Community Update 263</title>
+      <link>https://rust.facepunch.com/news/community-update-263/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Community Update 263
+    </h1>
+    <p editname="Summary" type="text">
+     New and improved RustHelp wiki, Treehouses, Motorbike Stunts, Speedpaints, and more!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      29 November 2024
+     </div>
+     <a class="tag community" href="?category=community">
+      COMMUNITY
+     </a>
+    </div>
+    <div class="author">
+     <div class="card user-card">
+      <div class="image">
+       <img src="https://files.facepunch.com/s/afe3bc0ea811.png"/>
+      </div>
+      <div class="body">
+       <div class="title has-text-white">
+        Errn
+       </div>
+       <div class="position">
+        Community Support
+       </div>
+       <div class="country">
+        United States
+       </div>
+       <div class="links">
+        <a class="button small" href="https://youtu.be/dQw4w9WgXcQ" icon="home">
+         web
+        </a>
+        <a class="button small" href="https://twitter.com/ErrnieGerrn" icon="chat">
+         twitter
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block" id="RustHelpWiki">
+  <div class="section" like-handler="LikeBlogSection" like-id="84479" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       RustHelp Wiki
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <a href="https://rusthelp.com/">
+       <img src="https://files.facepunch.com/Errn/1b2511b1/rusthelp.png"/>
+      </a>
+     </div>
+     <div>
+      Welcome to
+      <a class="" href="https://rusthelp.com/">
+       RustHelp
+      </a>
+      !  Your new hub for everything Rust related.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <a class="" href="https://rusthelp.com/">
+       RustHelp
+      </a>
+      is very much still a work in progress and new features are being added regularly.
+      <br/>
+      <br/>
+      <div>
+       Some of their goals are the following:
+      </div>
+      <div>
+       <ul>
+        <li>
+         Combine all information about Rust into a single website
+        </li>
+        <li>
+         Be available in as many languages as possible
+        </li>
+        <li>
+         Build useful tools for players  (Recycler tool, Raiding tool, Decay tool etc)
+        </li>
+        <li>
+         In depth monument data including a browser 3D monument viewer
+        </li>
+       </ul>
+       <div>
+        <br/>
+       </div>
+       <div>
+        Want to know how much metal your disco floor heli pad will take?  They got you.
+       </div>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://rusthelp.com/en/items/disco-floor#crafting">
+       <img src="https://files.facepunch.com/Errn/1b2511b1/disco.png"/>
+      </a>
+     </div>
+     <div>
+      Shoutout to
+      <a class="" href="https://rusthelp.com/en/about">
+       the team
+      </a>
+      for putting this all together!  If you're not familiar they also did
+      <a class="" href="https://rustmaps.com/">
+       RustMaps
+      </a>
+      .
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="EpicDeskCreatorCollabs">
+  <div class="section" like-handler="LikeBlogSection" like-id="84480" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       EpicDesk Creator Collabs
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Just in time for some Black Friday deals oh high quality desk pads!
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <a href="https://epicdesk.shop/collections/rust">
+       <img src="https://files.facepunch.com/Errn/1b2911b1/epicdeskbanner.png"/>
+      </a>
+     </div>
+     <div>
+      <a class="" href="https://epicdesk.shop/collections/rust">
+       Epic Desk
+      </a>
+      has a huge set of creator collabs going live today.  Use code: RUSTFRIDAY to get 15% off now till Monday!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      <a class="" href="https://epicdesk.shop/collections/aloneintokyo">
+       AloneinTokyo
+      </a>
+     </h2>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="columns">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03493.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03468.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03481.png"/>
+      </gallery>
+     </div>
+     <div>
+     </div>
+     <h2>
+      <a class="" href="https://epicdesk.shop/collections/taunted">
+       Taunted
+      </a>
+     </h2>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-style="columns">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03557.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03564.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <h2>
+       <a class="" href="https://epicdesk.shop/collections/tahliaaj">
+        Tahliaaj
+       </a>
+      </h2>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="columns">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03545.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03550.jpg"/>
+      </gallery>
+     </div>
+     <div>
+     </div>
+     <h2>
+      <a class="" href="https://epicdesk.shop/collections/falcon">
+       Falcon
+      </a>
+     </h2>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-style="columns">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03575.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03581.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      <a class="" href="https://epicdesk.shop/collections/willjum">
+       Willjum
+      </a>
+     </h2>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-style="columns">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/topview_14.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/topview_15.png"/>
+      </gallery>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      <a class="" href="https://epicdesk.shop/collections/posty">
+       Posty
+      </a>
+     </h2>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/topview_12.png"/>
+     </div>
+     <div>
+     </div>
+     <h2>
+      <a class="" href="https://epicdesk.shop/collections/cali">
+       Cali
+      </a>
+     </h2>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/topview_10.png"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      <a class="" href="https://epicdesk.shop/collections/motion">
+       Motion
+      </a>
+     </h2>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="columns">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03620.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03619.jpg"/>
+      </gallery>
+     </div>
+     <div>
+     </div>
+     <h2>
+      <a class="" href="https://epicdesk.shop/collections/valair">
+       Valair
+      </a>
+     </h2>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none" title="">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03631.jpg"/>
+     </div>
+     <div>
+      These deskpad collabs are only available for a limited amount of time and once they are gone they are gone!  Remember to use
+      <b>
+       <a class="" href="https://epicdesk.shop/collections/rust">
+        RUSTFRIDAY discount code for 15% off
+       </a>
+      </b>
+      till Midight PST Monday!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="MotorbikeStunts">
+  <div class="section" like-handler="LikeBlogSection" like-id="84481" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Motorbike Stunts
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Rust Artist by night, Stunt Double by day.
+      <a class="" href="https://www.youtube.com/@Slimmeh">
+       Slimmeh
+      </a>
+      shows off some epic motorbike stunts.  Landing inside a scrappy mid-flight??  Well done!
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Jwfxq8h7fL4?si=kST6GLUSrqX76Ogk" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="PoolPartyArtTimelapse">
+  <div class="section" like-handler="LikeBlogSection" like-id="84483" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Pool Party Art Timelapse
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <a class="" href="https://www.youtube.com/@MonsteraRust">
+       Monstera
+      </a>
+      at it again!  She always manages to capture the "moment" so well!
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/QMPkPfAIESQ?si=5Raf2ddwkTptaIoo" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="SwampTreehouseFort">
+  <div class="section" like-handler="LikeBlogSection" like-id="84484" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Swamp Treehouse Fort
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <a class="" href="https://www.youtube.com/@bluebubs">
+       Bluebubs
+      </a>
+      did a bit of research to find out what the biggest swamp tree base has ever been and decided to one-up everyone.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/iP9n8ij-tbc?si=5xfSfQTYwfcg5mTy" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+      What do you think?  Is it really the most foundations to date?
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="RustxYoutoozplushpins">
+  <div class="section" like-handler="LikeBlogSection" like-id="84486" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rust x Youtooz - plush &amp; pins
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       The all new Rust x Youtooz collection is now available to order!
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2711b1/rust-drop3_reveal_wide.png"/>
+     </div>
+     <div>
+      <span>
+       We've teamed up with Youtooz again to give the people what they really want. A huggable Hazmat!
+       <br/>
+       <br/>
+       The new plush is packed to the seams with 100% PP cotton and is made with a mix of the softest minky material and tricot sublimated material, perferct for cuddling or surviving with.
+      </span>
+      <span>
+       <br/>
+      </span>
+      <span>
+      </span>
+      <span>
+       <br/>
+       And it comes with a free in-game decorative item to put in your base - requiring just 50 Cloth to craft.
+       <br/>
+      </span>
+      <span>
+       <br/>
+       Redemption codes for the in-game plush item are sent via email after your order ships in April 2025.
+      </span>
+      <span>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2711b1/youtooz_plushy_01_alt1.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2711b1/youtooz_plushy_03.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2711b1/youtooz_plushy_07.jpg"/>
+     </div>
+     <div>
+      <span>
+       <br/>
+       There's also a decorative pin set on the way!
+
+This includes five unique enamel pins which measure in at 2 inches, with a shiny and high quality finish!
+      </span>
+      <span>
+       Perfect for a bag, jacket, or corkboard.
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2711b1/rust-pinset_photo-nologo_square_01.png"/>
+     </div>
+     <div>
+      <p>
+       <span>
+        The Hazmat plushie &amp; Rust pin-set, both are available now for a limited time!
+       </span>
+       <a class="" href="https://youtooz.com/collections/rust" target="https://youtooz.com/collections/rust">
+        Get yours before they're gone
+       </a>
+       <span>
+        .
+       </span>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="40offRustSTEAMAUTUMNSALE">
+  <div class="section" like-handler="LikeBlogSection" like-id="84475" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       40% off Rust - STEAM AUTUMN SALE
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The Steam Autumn Sale is here and means that Rust is now 40% off!
+      <br/>
+      <br/>
+      This also means that Store DLC items such as the Instruments, Sunburn, and Voice Props pack as well as the soundtrack are now at 40% off too!
+      <br/>
+      <br/>
+      Tell your friends and fill that squad -
+      <a class="" href="https://fcpn.ch/sas24b" target="https://fcpn.ch/sas24b">
+       head to Steam
+      </a>
+      to take advantage of the sale.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://fcpn.ch/sas24b">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2711b1/Steam-Autumn-Sale%20-%20Branding%201920x1080.png"/>
+      </a>
+     </div>
+     <div>
+      <br/>
+      And with the Steam Autumn Sale here, it now marks the announcement of the Steam Awards and this year's catergories, plus each eligable game.
+      <br/>
+      <br/>
+      Rust has had a fantastic 2024, with the continued release of regular monthly updates that feature new content, bug fixes, and quality of life updates. And as Rust approaches 11 years old, there's never been a better time to try and survive as the game sees continued growth in both new and returning players.
+      <br/>
+      <br/>
+      If you think we're deserving of making the first round of nominations, you can
+      <a class="" href="https://store.steampowered.com/steamawards/nominations?snr=1_4_660__steamawards-banner" target="https://store.steampowered.com/steamawards/nominations?snr=1_4_660__steamawards-banner">
+       vote for Rust here
+      </a>
+      .
+      <br/>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://store.steampowered.com/steamawards/nominations?">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2811b1/labor-of-love_16x9.png"/>
+      </a>
+     </div>
+     <div>
+      <br/>
+      <br/>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="Showmethestuff">
+  <div class="section" like-handler="LikeBlogSection" like-id="84482" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Show me the stuff!
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       If you made something cool or saw something cool, reach out! Tag me on
+       <a class="selected" href="https://twitter.com/ErrnieGerrn">
+        X
+       </a>
+       or u/ErrnieGerrn
+       <a class="" href="https://www.reddit.com/r/playrust/" target="">
+        Reddit
+       </a>
+       .
+       <br/>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Cover image by
+       <a class="" href="https://www.youtube.com/@rustdavinci">
+        daVinci
+       </a>
+       !
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Fri, 29 Nov 2024 11:35:00 Z</pubDate>
+    </item>
+    <item>
       <title>Halloween 2024</title>
       <link>https://rust.facepunch.com/news/halloween24/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -2409,604 +3007,6 @@ doing a good job, there is much more to be done in this area, and we are continu
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 07 Nov 2024 04:49:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Community Update 263</title>
-      <link>https://rust.facepunch.com/news/community-update-263/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Community Update 263
-    </h1>
-    <p editname="Summary" type="text">
-     New and improved RustHelp wiki, Treehouses, Motorbike Stunts, Speedpaints, and more!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      29 November 2024
-     </div>
-     <a class="tag community" href="?category=community">
-      COMMUNITY
-     </a>
-    </div>
-    <div class="author">
-     <div class="card user-card">
-      <div class="image">
-       <img src="https://files.facepunch.com/s/afe3bc0ea811.png"/>
-      </div>
-      <div class="body">
-       <div class="title has-text-white">
-        Errn
-       </div>
-       <div class="position">
-        Community Support
-       </div>
-       <div class="country">
-        United States
-       </div>
-       <div class="links">
-        <a class="button small" href="https://youtu.be/dQw4w9WgXcQ" icon="home">
-         web
-        </a>
-        <a class="button small" href="https://twitter.com/ErrnieGerrn" icon="chat">
-         twitter
-        </a>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block" id="RustHelpWiki">
-  <div class="section" like-handler="LikeBlogSection" like-id="84479" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       RustHelp Wiki
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <a href="https://rusthelp.com/">
-       <img src="https://files.facepunch.com/Errn/1b2511b1/rusthelp.png"/>
-      </a>
-     </div>
-     <div>
-      Welcome to
-      <a class="" href="https://rusthelp.com/">
-       RustHelp
-      </a>
-      !  Your new hub for everything Rust related.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <a class="" href="https://rusthelp.com/">
-       RustHelp
-      </a>
-      is very much still a work in progress and new features are being added regularly.
-      <br/>
-      <br/>
-      <div>
-       Some of their goals are the following:
-      </div>
-      <div>
-       <ul>
-        <li>
-         Combine all information about Rust into a single website
-        </li>
-        <li>
-         Be available in as many languages as possible
-        </li>
-        <li>
-         Build useful tools for players  (Recycler tool, Raiding tool, Decay tool etc)
-        </li>
-        <li>
-         In depth monument data including a browser 3D monument viewer
-        </li>
-       </ul>
-       <div>
-        <br/>
-       </div>
-       <div>
-        Want to know how much metal your disco floor heli pad will take?  They got you.
-       </div>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://rusthelp.com/en/items/disco-floor#crafting">
-       <img src="https://files.facepunch.com/Errn/1b2511b1/disco.png"/>
-      </a>
-     </div>
-     <div>
-      Shoutout to
-      <a class="" href="https://rusthelp.com/en/about">
-       the team
-      </a>
-      for putting this all together!  If you're not familiar they also did
-      <a class="" href="https://rustmaps.com/">
-       RustMaps
-      </a>
-      .
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="EpicDeskCreatorCollabs">
-  <div class="section" like-handler="LikeBlogSection" like-id="84480" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       EpicDesk Creator Collabs
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Just in time for some Black Friday deals oh high quality desk pads!
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <a href="https://epicdesk.shop/collections/rust">
-       <img src="https://files.facepunch.com/Errn/1b2911b1/epicdeskbanner.png"/>
-      </a>
-     </div>
-     <div>
-      <a class="" href="https://epicdesk.shop/collections/rust">
-       Epic Desk
-      </a>
-      has a huge set of creator collabs going live today.  Use code: RUSTFRIDAY to get 15% off now till Monday!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      <a class="" href="https://epicdesk.shop/collections/aloneintokyo">
-       AloneinTokyo
-      </a>
-     </h2>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="columns">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03493.png"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03468.png"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03481.png"/>
-      </gallery>
-     </div>
-     <div>
-     </div>
-     <h2>
-      <a class="" href="https://epicdesk.shop/collections/taunted">
-       Taunted
-      </a>
-     </h2>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-style="columns">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03557.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03564.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <h2>
-       <a class="" href="https://epicdesk.shop/collections/tahliaaj">
-        Tahliaaj
-       </a>
-      </h2>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="columns">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03545.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03550.jpg"/>
-      </gallery>
-     </div>
-     <div>
-     </div>
-     <h2>
-      <a class="" href="https://epicdesk.shop/collections/falcon">
-       Falcon
-      </a>
-     </h2>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-style="columns">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03575.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03581.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      <a class="" href="https://epicdesk.shop/collections/willjum">
-       Willjum
-      </a>
-     </h2>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-style="columns">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/topview_14.png"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/topview_15.png"/>
-      </gallery>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      <a class="" href="https://epicdesk.shop/collections/posty">
-       Posty
-      </a>
-     </h2>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/topview_12.png"/>
-     </div>
-     <div>
-     </div>
-     <h2>
-      <a class="" href="https://epicdesk.shop/collections/cali">
-       Cali
-      </a>
-     </h2>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/topview_10.png"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      <a class="" href="https://epicdesk.shop/collections/motion">
-       Motion
-      </a>
-     </h2>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="columns">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03620.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03619.jpg"/>
-      </gallery>
-     </div>
-     <div>
-     </div>
-     <h2>
-      <a class="" href="https://epicdesk.shop/collections/valair">
-       Valair
-      </a>
-     </h2>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none" title="">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03631.jpg"/>
-     </div>
-     <div>
-      These deskpad collabs are only available for a limited amount of time and once they are gone they are gone!  Remember to use
-      <b>
-       <a class="" href="https://epicdesk.shop/collections/rust">
-        RUSTFRIDAY discount code for 15% off
-       </a>
-      </b>
-      till Midight PST Monday!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="MotorbikeStunts">
-  <div class="section" like-handler="LikeBlogSection" like-id="84481" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Motorbike Stunts
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Rust Artist by night, Stunt Double by day.
-      <a class="" href="https://www.youtube.com/@Slimmeh">
-       Slimmeh
-      </a>
-      shows off some epic motorbike stunts.  Landing inside a scrappy mid-flight??  Well done!
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Jwfxq8h7fL4?si=kST6GLUSrqX76Ogk" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="PoolPartyArtTimelapse">
-  <div class="section" like-handler="LikeBlogSection" like-id="84483" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Pool Party Art Timelapse
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <a class="" href="https://www.youtube.com/@MonsteraRust">
-       Monstera
-      </a>
-      at it again!  She always manages to capture the "moment" so well!
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/QMPkPfAIESQ?si=5Raf2ddwkTptaIoo" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="SwampTreehouseFort">
-  <div class="section" like-handler="LikeBlogSection" like-id="84484" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Swamp Treehouse Fort
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <a class="" href="https://www.youtube.com/@bluebubs">
-       Bluebubs
-      </a>
-      did a bit of research to find out what the biggest swamp tree base has ever been and decided to one-up everyone.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/iP9n8ij-tbc?si=5xfSfQTYwfcg5mTy" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-      What do you think?  Is it really the most foundations to date?
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="RustxYoutoozplushpins">
-  <div class="section" like-handler="LikeBlogSection" like-id="84486" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Rust x Youtooz - plush &amp; pins
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       The all new Rust x Youtooz collection is now available to order!
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2711b1/rust-drop3_reveal_wide.png"/>
-     </div>
-     <div>
-      <span>
-       We've teamed up with Youtooz again to give the people what they really want. A huggable Hazmat!
-       <br/>
-       <br/>
-       The new plush is packed to the seams with 100% PP cotton and is made with a mix of the softest minky material and tricot sublimated material, perferct for cuddling or surviving with.
-      </span>
-      <span>
-       <br/>
-      </span>
-      <span>
-      </span>
-      <span>
-       <br/>
-       And it comes with a free in-game decorative item to put in your base - requiring just 50 Cloth to craft.
-       <br/>
-      </span>
-      <span>
-       <br/>
-       Redemption codes for the in-game plush item are sent via email after your order ships in April 2025.
-      </span>
-      <span>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2711b1/youtooz_plushy_01_alt1.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2711b1/youtooz_plushy_03.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2711b1/youtooz_plushy_07.jpg"/>
-     </div>
-     <div>
-      <span>
-       <br/>
-       There's also a decorative pin set on the way!
-
-This includes five unique enamel pins which measure in at 2 inches, with a shiny and high quality finish!
-      </span>
-      <span>
-       Perfect for a bag, jacket, or corkboard.
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2711b1/rust-pinset_photo-nologo_square_01.png"/>
-     </div>
-     <div>
-      <p>
-       <span>
-        The Hazmat plushie &amp; Rust pin-set, both are available now for a limited time!
-       </span>
-       <a class="" href="https://youtooz.com/collections/rust" target="https://youtooz.com/collections/rust">
-        Get yours before they're gone
-       </a>
-       <span>
-        .
-       </span>
-      </p>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="40offRustSTEAMAUTUMNSALE">
-  <div class="section" like-handler="LikeBlogSection" like-id="84475" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       40% off Rust - STEAM AUTUMN SALE
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The Steam Autumn Sale is here and means that Rust is now 40% off!
-      <br/>
-      <br/>
-      This also means that Store DLC items such as the Instruments, Sunburn, and Voice Props pack as well as the soundtrack are now at 40% off too!
-      <br/>
-      <br/>
-      Tell your friends and fill that squad -
-      <a class="" href="https://fcpn.ch/sas24b" target="https://fcpn.ch/sas24b">
-       head to Steam
-      </a>
-      to take advantage of the sale.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://fcpn.ch/sas24b">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2711b1/Steam-Autumn-Sale%20-%20Branding%201920x1080.png"/>
-      </a>
-     </div>
-     <div>
-      <br/>
-      And with the Steam Autumn Sale here, it now marks the announcement of the Steam Awards and this year's catergories, plus each eligable game.
-      <br/>
-      <br/>
-      Rust has had a fantastic 2024, with the continued release of regular monthly updates that feature new content, bug fixes, and quality of life updates. And as Rust approaches 11 years old, there's never been a better time to try and survive as the game sees continued growth in both new and returning players.
-      <br/>
-      <br/>
-      If you think we're deserving of making the first round of nominations, you can
-      <a class="" href="https://store.steampowered.com/steamawards/nominations?snr=1_4_660__steamawards-banner" target="https://store.steampowered.com/steamawards/nominations?snr=1_4_660__steamawards-banner">
-       vote for Rust here
-      </a>
-      .
-      <br/>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://store.steampowered.com/steamawards/nominations?">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2811b1/labor-of-love_16x9.png"/>
-      </a>
-     </div>
-     <div>
-      <br/>
-      <br/>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="Showmethestuff">
-  <div class="section" like-handler="LikeBlogSection" like-id="84482" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Show me the stuff!
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       If you made something cool or saw something cool, reach out! Tag me on
-       <a class="selected" href="https://twitter.com/ErrnieGerrn">
-        X
-       </a>
-       or u/ErrnieGerrn
-       <a class="" href="https://www.reddit.com/r/playrust/" target="">
-        Reddit
-       </a>
-       .
-       <br/>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Cover image by
-       <a class="" href="https://www.youtube.com/@rustdavinci">
-        daVinci
-       </a>
-       !
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Fri, 29 Nov 2024 11:35:00 Z</pubDate>
     </item>
     <item>
       <title>Polish and Progress</title>
