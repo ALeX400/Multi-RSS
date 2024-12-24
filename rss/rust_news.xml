@@ -1,6 +1,451 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Halloween 2024</title>
+      <link>https://rust.facepunch.com/news/halloween24/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Halloween 2024
+    </h1>
+    <p editname="Summary" type="text">
+     Darkness falls upon the island as monsters re-awaken from their slumber. The rifts open in random locations, leading to who-knows-where. Enter if you dare, but if you do, you better prepare!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      28 October 2024
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="HappyHalloween">
+  <div class="section" like-handler="LikeBlogSection" like-id="84443" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Happy Halloween!
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       The yearly Halloween event is now enabled!
+       <br/>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20201023/halloween_ghostsheets.jpg"/>
+     </div>
+     <div>
+      <span>
+       Once roughly every two in-game days, the Candy Hunt event will begin.
+       <br/>
+       You'll have 3 minutes to collect as much candy as you can, then top 3 players are given special loot bags as a reward. These candies and loot bags can be opened for various types of loot, ranging from scrap, all the way up to an M249!
+      </span>
+      <br/>
+      <br/>
+      <span>
+       If you don't make the podium, that's okay. The candies you collect can be upgraded for better loot!
+       <br/>
+      </span>
+      <br/>
+      <span>
+       This year's Halloween event will run until
+       <b>
+        November 7th.
+       </b>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="herebemonsters">
+  <div class="section" like-handler="LikeBlogSection" like-id="84444" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       here be monsters
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       Wondering what to do with all those body parts you've collected? Build your own monster!
+       <br/>
+      </span>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20211026/frankenstein_hauntedhouse.jpg" src="https://files.facepunch.com/paddy/20241025/halloween_frankwalk_720p.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <span>
+       To start putting together your morbid creation, first, you must slay the scarecrows and mummies that roam the lands. Once you've collected a head, torso, and legs, craft yourself a Frankenstein's table and place the body parts within it.
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20211026/monstertable_wakeup.jpg"/>
+     </div>
+     <div>
+      <span>
+       Awaken your new pet monster and control it by pressing "P".
+      </span>
+      <span>
+       The monster will follow your orders without question. It'll follow you around the map, defend you if attacked and help slay foes you wish to attack.
+       <br/>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20211026/frankenstein_lab_close.jpg"/>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+      <span>
+       If you're having trouble accessing the pet menu or already have a key bound to "P" then use the following console command:  bind X +pets or open the in-game controls menu.
+      </span>
+      <span>
+       <br/>
+       <br/>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="CursedArticles">
+  <div class="section" like-handler="LikeBlogSection" like-id="84447" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Cursed Articles
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       This year, we've added three Halloween-themed items - one purchasable, and two free.
+       <br/>
+      </span>
+     </div>
+     <h2>
+      <span>
+       MASKS
+      </span>
+     </h2>
+     <div>
+      Frankenstein and Mummy masks
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241024/rust_halloween_masks_02.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241024/rust_halloween_masks_03.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241024/rust_halloween_masks_01.jpg"/>
+     </div>
+     <div>
+      <br/>
+      <span>
+      </span>
+     </div>
+     <h2>
+      Dracula Cape + Mask
+      <br/>
+     </h2>
+     <div>
+      Dracula cape &amp; mask can be found on the
+      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
+       limited item store
+      </a>
+      .
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20231021/halloween_dracula_01.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Theriftsopen">
+  <div class="section" like-handler="LikeBlogSection" like-id="84445" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       The rifts open
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       Cultists are said to have been opening portals across the island, while others believe it's a Cobalt experiment code-named R.U.I.N gone horribly wrong.
+      </span>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+     </div>
+     <div>
+      <span>
+       Not much is known about these portals - what they do or where they go, but only a few brave souls have entered through and made it back alive.
+       <br/>
+      </span>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20221020/dungeonportal_01.jpg" src="https://files.facepunch.com/paddy/20241025/halloween_portaldoor_720p.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <span>
+       Do you dare to enter the rift?
+      </span>
+     </div>
+     <div>
+      <br/>
+      <span>
+      </span>
+     </div>
+     <div>
+      <span>
+       Server owners can adjust the portal count using the halloweendungeon.population convar.
+      </span>
+      <span>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="spookystoreupdate">
+  <div class="section" like-handler="LikeBlogSection" like-id="84446" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       spooky store update
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Scare yourself or your foes with the horrifyingly Halloween store items!
+      <br/>
+     </div>
+     <br/>
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <a class="selected" href="https://store.steampowered.com/itemstore/252490/">
+         <img src="https://files.facepunch.com/Alistair/128/10/2024/0397/metal.facemask.hockey.skin.png"/>
+         <center>
+          <b>
+           Hockey Facemask
+          </b>
+         </center>
+        </a>
+        <center>
+         Hockey Facemask skin is a reskin of the Metal Facemask.
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/">
+         <img src="https://files.facepunch.com/Alistair/128/10/2024/9l87/torch.skull.skin.png"/>
+         <center>
+          <b>
+           Cultist Deer Torch
+          </b>
+         </center>
+        </a>
+        <center>
+         The Cultist Deer Torch is a reskin of the starter torch.
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/">
+         <img src="https://files.facepunch.com/Alistair/128/10/2024/1916/mace.baseballbat.png"/>
+         <center>
+          <b>
+           Baseball Bat
+          </b>
+         </center>
+        </a>
+        <center>
+         The Baseball bat is a reskin of the mace melee weapon.
+        </center>
+       </div>
+      </div>
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/10/20/8Y15v1/skull.png"/>
+        </a>
+        <center>
+         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+         </a>
+         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+          <b>
+           Skull Rock
+          </b>
+         </a>
+        </center>
+       </div>
+       <div class="column is-6">
+        <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/10/20/5C82y1/carvable.pumpkin.png"/>
+        </a>
+        <center>
+         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+         </a>
+         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+          <b>
+           Pumpkin Carving
+          </b>
+         </a>
+        </center>
+       </div>
+      </div>
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10182/">
+         <img src="https://files.facepunch.com/Alistair/10/20/9b47X1/skull.gif"/>
+         <center>
+          <b>
+           Skull Trophy Pack
+          </b>
+         </center>
+        </a>
+        <center>
+         A decorative mount that can hold the skull of a friend or foe, including his/her name.
+         <br/>
+         <br/>
+         Comes in 4 variations
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10183/">
+         <img src="https://files.facepunch.com/Alistair/10/20/4661P1/spike.gif"/>
+         <center>
+          <b>
+           Skull Spike Pack
+          </b>
+         </center>
+        </a>
+        <center>
+         Inflict fear into your enemies with these decorative Skulls on spikes.
+         <br/>
+         <br/>
+         Comes in 3 variations
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10181/">
+         <img src="https://files.facepunch.com/Alistair/10/23/429581/MaleUnderwear_mummywraps.icon.png"/>
+         <center>
+          <b>
+           Mummy Underwear
+          </b>
+         </center>
+        </a>
+        <center>
+         Replace your default underwear with some new spooky underwear.
+         <br/>
+         <br/>
+         No crafting required!
+        </center>
+       </div>
+      </div>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+     </div>
+     <div>
+      <span>
+       Last years Halloween items have been raised from the dead, head over to the
+      </span>
+      <a class="selected" href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+       Rust item store
+      </a>
+      <span>
+       .
+       <br/>
+      </span>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Mon, 28 Oct 2024 01:55:00 Z</pubDate>
+    </item>
+    <item>
       <title>Season's beatings</title>
       <link>https://rust.facepunch.com/news/christmas2024/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -3277,451 +3722,6 @@ net.Send(new SendInfo(conn));
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 05 Dec 2024 02:40:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Halloween 2024</title>
-      <link>https://rust.facepunch.com/news/halloween24/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Halloween 2024
-    </h1>
-    <p editname="Summary" type="text">
-     Darkness falls upon the island as monsters re-awaken from their slumber. The rifts open in random locations, leading to who-knows-where. Enter if you dare, but if you do, you better prepare!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      28 October 2024
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="HappyHalloween">
-  <div class="section" like-handler="LikeBlogSection" like-id="84443" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Happy Halloween!
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       The yearly Halloween event is now enabled!
-       <br/>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20201023/halloween_ghostsheets.jpg"/>
-     </div>
-     <div>
-      <span>
-       Once roughly every two in-game days, the Candy Hunt event will begin.
-       <br/>
-       You'll have 3 minutes to collect as much candy as you can, then top 3 players are given special loot bags as a reward. These candies and loot bags can be opened for various types of loot, ranging from scrap, all the way up to an M249!
-      </span>
-      <br/>
-      <br/>
-      <span>
-       If you don't make the podium, that's okay. The candies you collect can be upgraded for better loot!
-       <br/>
-      </span>
-      <br/>
-      <span>
-       This year's Halloween event will run until
-       <b>
-        November 7th.
-       </b>
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="herebemonsters">
-  <div class="section" like-handler="LikeBlogSection" like-id="84444" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       here be monsters
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       Wondering what to do with all those body parts you've collected? Build your own monster!
-       <br/>
-      </span>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20211026/frankenstein_hauntedhouse.jpg" src="https://files.facepunch.com/paddy/20241025/halloween_frankwalk_720p.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <span>
-       To start putting together your morbid creation, first, you must slay the scarecrows and mummies that roam the lands. Once you've collected a head, torso, and legs, craft yourself a Frankenstein's table and place the body parts within it.
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20211026/monstertable_wakeup.jpg"/>
-     </div>
-     <div>
-      <span>
-       Awaken your new pet monster and control it by pressing "P".
-      </span>
-      <span>
-       The monster will follow your orders without question. It'll follow you around the map, defend you if attacked and help slay foes you wish to attack.
-       <br/>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20211026/frankenstein_lab_close.jpg"/>
-     </div>
-     <div>
-      <span>
-       <br/>
-      </span>
-      <span>
-       If you're having trouble accessing the pet menu or already have a key bound to "P" then use the following console command:  bind X +pets or open the in-game controls menu.
-      </span>
-      <span>
-       <br/>
-       <br/>
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="CursedArticles">
-  <div class="section" like-handler="LikeBlogSection" like-id="84447" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Cursed Articles
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       This year, we've added three Halloween-themed items - one purchasable, and two free.
-       <br/>
-      </span>
-     </div>
-     <h2>
-      <span>
-       MASKS
-      </span>
-     </h2>
-     <div>
-      Frankenstein and Mummy masks
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241024/rust_halloween_masks_02.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241024/rust_halloween_masks_03.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241024/rust_halloween_masks_01.jpg"/>
-     </div>
-     <div>
-      <br/>
-      <span>
-      </span>
-     </div>
-     <h2>
-      Dracula Cape + Mask
-      <br/>
-     </h2>
-     <div>
-      Dracula cape &amp; mask can be found on the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
-       limited item store
-      </a>
-      .
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20231021/halloween_dracula_01.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Theriftsopen">
-  <div class="section" like-handler="LikeBlogSection" like-id="84445" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       The rifts open
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       Cultists are said to have been opening portals across the island, while others believe it's a Cobalt experiment code-named R.U.I.N gone horribly wrong.
-      </span>
-     </div>
-     <div>
-      <span>
-       <br/>
-      </span>
-     </div>
-     <div>
-      <span>
-       Not much is known about these portals - what they do or where they go, but only a few brave souls have entered through and made it back alive.
-       <br/>
-      </span>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20221020/dungeonportal_01.jpg" src="https://files.facepunch.com/paddy/20241025/halloween_portaldoor_720p.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <span>
-       Do you dare to enter the rift?
-      </span>
-     </div>
-     <div>
-      <br/>
-      <span>
-      </span>
-     </div>
-     <div>
-      <span>
-       Server owners can adjust the portal count using the halloweendungeon.population convar.
-      </span>
-      <span>
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="spookystoreupdate">
-  <div class="section" like-handler="LikeBlogSection" like-id="84446" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       spooky store update
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Scare yourself or your foes with the horrifyingly Halloween store items!
-      <br/>
-     </div>
-     <br/>
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <a class="selected" href="https://store.steampowered.com/itemstore/252490/">
-         <img src="https://files.facepunch.com/Alistair/128/10/2024/0397/metal.facemask.hockey.skin.png"/>
-         <center>
-          <b>
-           Hockey Facemask
-          </b>
-         </center>
-        </a>
-        <center>
-         Hockey Facemask skin is a reskin of the Metal Facemask.
-        </center>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/">
-         <img src="https://files.facepunch.com/Alistair/128/10/2024/9l87/torch.skull.skin.png"/>
-         <center>
-          <b>
-           Cultist Deer Torch
-          </b>
-         </center>
-        </a>
-        <center>
-         The Cultist Deer Torch is a reskin of the starter torch.
-        </center>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/">
-         <img src="https://files.facepunch.com/Alistair/128/10/2024/1916/mace.baseballbat.png"/>
-         <center>
-          <b>
-           Baseball Bat
-          </b>
-         </center>
-        </a>
-        <center>
-         The Baseball bat is a reskin of the mace melee weapon.
-        </center>
-       </div>
-      </div>
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/10/20/8Y15v1/skull.png"/>
-        </a>
-        <center>
-         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-         </a>
-         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-          <b>
-           Skull Rock
-          </b>
-         </a>
-        </center>
-       </div>
-       <div class="column is-6">
-        <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/10/20/5C82y1/carvable.pumpkin.png"/>
-        </a>
-        <center>
-         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-         </a>
-         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-          <b>
-           Pumpkin Carving
-          </b>
-         </a>
-        </center>
-       </div>
-      </div>
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10182/">
-         <img src="https://files.facepunch.com/Alistair/10/20/9b47X1/skull.gif"/>
-         <center>
-          <b>
-           Skull Trophy Pack
-          </b>
-         </center>
-        </a>
-        <center>
-         A decorative mount that can hold the skull of a friend or foe, including his/her name.
-         <br/>
-         <br/>
-         Comes in 4 variations
-        </center>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10183/">
-         <img src="https://files.facepunch.com/Alistair/10/20/4661P1/spike.gif"/>
-         <center>
-          <b>
-           Skull Spike Pack
-          </b>
-         </center>
-        </a>
-        <center>
-         Inflict fear into your enemies with these decorative Skulls on spikes.
-         <br/>
-         <br/>
-         Comes in 3 variations
-        </center>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10181/">
-         <img src="https://files.facepunch.com/Alistair/10/23/429581/MaleUnderwear_mummywraps.icon.png"/>
-         <center>
-          <b>
-           Mummy Underwear
-          </b>
-         </center>
-        </a>
-        <center>
-         Replace your default underwear with some new spooky underwear.
-         <br/>
-         <br/>
-         No crafting required!
-        </center>
-       </div>
-      </div>
-     </div>
-     <div>
-      <span>
-       <br/>
-      </span>
-     </div>
-     <div>
-      <span>
-       Last years Halloween items have been raised from the dead, head over to the
-      </span>
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-       Rust item store
-      </a>
-      <span>
-       .
-       <br/>
-      </span>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Mon, 28 Oct 2024 01:55:00 Z</pubDate>
     </item>
     <item>
       <title>Armed and Animated</title>
