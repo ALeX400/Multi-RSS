@@ -1,1005 +1,6 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
-      <title>Halloween 2024</title>
-      <link>https://rust.facepunch.com/news/halloween24/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Halloween 2024
-    </h1>
-    <p editname="Summary" type="text">
-     Darkness falls upon the island as monsters re-awaken from their slumber. The rifts open in random locations, leading to who-knows-where. Enter if you dare, but if you do, you better prepare!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      28 October 2024
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="HappyHalloween">
-  <div class="section" like-handler="LikeBlogSection" like-id="84443" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Happy Halloween!
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       The yearly Halloween event is now enabled!
-       <br/>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20201023/halloween_ghostsheets.jpg"/>
-     </div>
-     <div>
-      <span>
-       Once roughly every two in-game days, the Candy Hunt event will begin.
-       <br/>
-       You'll have 3 minutes to collect as much candy as you can, then top 3 players are given special loot bags as a reward. These candies and loot bags can be opened for various types of loot, ranging from scrap, all the way up to an M249!
-      </span>
-      <br/>
-      <br/>
-      <span>
-       If you don't make the podium, that's okay. The candies you collect can be upgraded for better loot!
-       <br/>
-      </span>
-      <br/>
-      <span>
-       This year's Halloween event will run until
-       <b>
-        November 7th.
-       </b>
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="herebemonsters">
-  <div class="section" like-handler="LikeBlogSection" like-id="84444" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       here be monsters
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       Wondering what to do with all those body parts you've collected? Build your own monster!
-       <br/>
-      </span>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20211026/frankenstein_hauntedhouse.jpg" src="https://files.facepunch.com/paddy/20241025/halloween_frankwalk_720p.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <span>
-       To start putting together your morbid creation, first, you must slay the scarecrows and mummies that roam the lands. Once you've collected a head, torso, and legs, craft yourself a Frankenstein's table and place the body parts within it.
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20211026/monstertable_wakeup.jpg"/>
-     </div>
-     <div>
-      <span>
-       Awaken your new pet monster and control it by pressing "P".
-      </span>
-      <span>
-       The monster will follow your orders without question. It'll follow you around the map, defend you if attacked and help slay foes you wish to attack.
-       <br/>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20211026/frankenstein_lab_close.jpg"/>
-     </div>
-     <div>
-      <span>
-       <br/>
-      </span>
-      <span>
-       If you're having trouble accessing the pet menu or already have a key bound to "P" then use the following console command:  bind X +pets or open the in-game controls menu.
-      </span>
-      <span>
-       <br/>
-       <br/>
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="CursedArticles">
-  <div class="section" like-handler="LikeBlogSection" like-id="84447" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Cursed Articles
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       This year, we've added three Halloween-themed items - one purchasable, and two free.
-       <br/>
-      </span>
-     </div>
-     <h2>
-      <span>
-       MASKS
-      </span>
-     </h2>
-     <div>
-      Frankenstein and Mummy masks
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241024/rust_halloween_masks_02.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241024/rust_halloween_masks_03.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241024/rust_halloween_masks_01.jpg"/>
-     </div>
-     <div>
-      <br/>
-      <span>
-      </span>
-     </div>
-     <h2>
-      Dracula Cape + Mask
-      <br/>
-     </h2>
-     <div>
-      Dracula cape &amp; mask can be found on the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
-       limited item store
-      </a>
-      .
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20231021/halloween_dracula_01.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Theriftsopen">
-  <div class="section" like-handler="LikeBlogSection" like-id="84445" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       The rifts open
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       Cultists are said to have been opening portals across the island, while others believe it's a Cobalt experiment code-named R.U.I.N gone horribly wrong.
-      </span>
-     </div>
-     <div>
-      <span>
-       <br/>
-      </span>
-     </div>
-     <div>
-      <span>
-       Not much is known about these portals - what they do or where they go, but only a few brave souls have entered through and made it back alive.
-       <br/>
-      </span>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20221020/dungeonportal_01.jpg" src="https://files.facepunch.com/paddy/20241025/halloween_portaldoor_720p.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <span>
-       Do you dare to enter the rift?
-      </span>
-     </div>
-     <div>
-      <br/>
-      <span>
-      </span>
-     </div>
-     <div>
-      <span>
-       Server owners can adjust the portal count using the halloweendungeon.population convar.
-      </span>
-      <span>
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="spookystoreupdate">
-  <div class="section" like-handler="LikeBlogSection" like-id="84446" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       spooky store update
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Scare yourself or your foes with the horrifyingly Halloween store items!
-      <br/>
-     </div>
-     <br/>
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <a class="selected" href="https://store.steampowered.com/itemstore/252490/">
-         <img src="https://files.facepunch.com/Alistair/128/10/2024/0397/metal.facemask.hockey.skin.png"/>
-         <center>
-          <b>
-           Hockey Facemask
-          </b>
-         </center>
-        </a>
-        <center>
-         Hockey Facemask skin is a reskin of the Metal Facemask.
-        </center>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/">
-         <img src="https://files.facepunch.com/Alistair/128/10/2024/9l87/torch.skull.skin.png"/>
-         <center>
-          <b>
-           Cultist Deer Torch
-          </b>
-         </center>
-        </a>
-        <center>
-         The Cultist Deer Torch is a reskin of the starter torch.
-        </center>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/">
-         <img src="https://files.facepunch.com/Alistair/128/10/2024/1916/mace.baseballbat.png"/>
-         <center>
-          <b>
-           Baseball Bat
-          </b>
-         </center>
-        </a>
-        <center>
-         The Baseball bat is a reskin of the mace melee weapon.
-        </center>
-       </div>
-      </div>
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/10/20/8Y15v1/skull.png"/>
-        </a>
-        <center>
-         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-         </a>
-         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-          <b>
-           Skull Rock
-          </b>
-         </a>
-        </center>
-       </div>
-       <div class="column is-6">
-        <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/10/20/5C82y1/carvable.pumpkin.png"/>
-        </a>
-        <center>
-         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-         </a>
-         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-          <b>
-           Pumpkin Carving
-          </b>
-         </a>
-        </center>
-       </div>
-      </div>
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10182/">
-         <img src="https://files.facepunch.com/Alistair/10/20/9b47X1/skull.gif"/>
-         <center>
-          <b>
-           Skull Trophy Pack
-          </b>
-         </center>
-        </a>
-        <center>
-         A decorative mount that can hold the skull of a friend or foe, including his/her name.
-         <br/>
-         <br/>
-         Comes in 4 variations
-        </center>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10183/">
-         <img src="https://files.facepunch.com/Alistair/10/20/4661P1/spike.gif"/>
-         <center>
-          <b>
-           Skull Spike Pack
-          </b>
-         </center>
-        </a>
-        <center>
-         Inflict fear into your enemies with these decorative Skulls on spikes.
-         <br/>
-         <br/>
-         Comes in 3 variations
-        </center>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10181/">
-         <img src="https://files.facepunch.com/Alistair/10/23/429581/MaleUnderwear_mummywraps.icon.png"/>
-         <center>
-          <b>
-           Mummy Underwear
-          </b>
-         </center>
-        </a>
-        <center>
-         Replace your default underwear with some new spooky underwear.
-         <br/>
-         <br/>
-         No crafting required!
-        </center>
-       </div>
-      </div>
-     </div>
-     <div>
-      <span>
-       <br/>
-      </span>
-     </div>
-     <div>
-      <span>
-       Last years Halloween items have been raised from the dead, head over to the
-      </span>
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-       Rust item store
-      </a>
-      <span>
-       .
-       <br/>
-      </span>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Mon, 28 Oct 2024 01:55:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Season's beatings</title>
-      <link>https://rust.facepunch.com/news/christmas2024/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Season's beatings
-    </h1>
-    <p editname="Summary" type="text">
-     It's that wonderful time of the year again - our Christmas event is (s)now live, Rustmas Winter Drop Fest is here, and the base decorating competition is back with bells on!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      16 December 2024
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero light" id="HappyHolidays">
-  <div class="section" like-handler="LikeBlogSection" like-id="84509" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Happy Holidays!
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       From everyone at Facepunch, we'd like to wish you a Merry Christmas and a Happy New Year!
-      </span>
-      <br/>
-      <br/>
-      <span>
-       The Christmas Event is once again live!
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1311b1/rust_xmas2024_snowball_01%20%281%29.jpg"/>
-     </div>
-     <div>
-      <div>
-       If you're new to the island, here's what you can expect:
-      </div>
-      <br/>
-      <span>
-       As you play, you will start to hear the distinct sound of jingle bells. As soon as you do, leave the warm comfort of your base and start looking for your gifts!
-       <br/>
-       <ul>
-        <li>
-         <span>
-          Two gifts are spawned per player, in a radius of about 40m from you.
-         </span>
-        </li>
-        <li>
-         <span>
-          Run up and bash open your present to receive your Christmas gift.
-         </span>
-        </li>
-        <li>
-         <span>
-          They come in three sizes: small, medium, and large. But if you have enough small presents stashed, you can 'trade up' to a medium or large gift.
-         </span>
-        </li>
-        <li>
-         <span>
-          The contents of each present varies, but you'll find a mix of resources, weapons, and Christmas candy.
-         </span>
-        </li>
-       </ul>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1311b1/xmas2020_santasleigh.jpg"/>
-     </div>
-     <div>
-      <span>
-       This year, you'll still be able to find Santa hats and reindeer antlers, both of which can be worn and provide a decent amount of protection. And the lickable candy cane club is back! As well as two types of stockings.
-       <br/>
-      </span>
-      <br/>
-      <span>
-       If you hang a stocking inside your base when the jingle bells ring, the stocking will fill up with loot whether you've been good or not - no coal here!
-       <br/>
-      </span>
-      <br/>
-      <span>
-       The larger stocking has a higher chance for better items and both last around 5-10 refills.
-      </span>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1311b1/rust_xmas_tree_01.jpg"/>
-     </div>
-     <div>
-      <span>
-       The advent calendar also returns and is a craftable deployable, available to everyone during the Christmas event.
-       <br/>
-      </span>
-      <br/>
-      <span>
-       Once placed, you can claim an in-game surprise once every in-real-life day from the 16th of December.
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1311b1/xmas_adventcalendar.jpg"/>
-     </div>
-     <div>
-      <div>
-       <div>
-        The Christmas event ends on January 2nd @ 19:00GMT / 14:00EST
-       </div>
-       <div>
-        <span>
-         <br/>
-         Make it a December to remember!
-        </span>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="RustMasStore">
-  <div class="section" like-handler="LikeBlogSection" like-id="84511" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       RustMas Store
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We have brought some items from previous years, now purchasable from the Rust Item Store.
-      <br/>
-      <br/>
-      Since last year the festive garland pack now includes a double door garland. If you've already purchased this pack, you'll now be able to craft this item.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10171/">
-         <img src="https://files.facepunch.com/Alistair/12/16/8188o1/xmas.lightstring.advanced.png"/>
-         <center>
-          <b>
-           Deluxe Christmas Lights
-          </b>
-         </center>
-        </a>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10158/">
-         <img src="https://files.facepunch.com/Alistair/12/16/4B60I1/snowmachine.png"/>
-         <center>
-          <b>
-           Snow Machine
-          </b>
-         </center>
-        </a>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10148/">
-         <img src="https://files.facepunch.com/Alistair/12/16/6n76p1/snowman.png"/>
-         <center>
-          <b>
-           Snowman
-          </b>
-         </center>
-        </a>
-       </div>
-       <div class="columns is-multiline">
-       </div>
-      </div>
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10151/">
-         <img src="https://files.facepunch.com/Alistair/12/16/0j91W1/xmas.door.garland.png"/>
-         <center>
-          <b>
-           Festive Garlands Pack
-           <br/>
-          </b>
-         </center>
-        </a>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10149/">
-         <img src="https://files.facepunch.com/Alistair/12/16/9t36A1/xmasdoorwreath.png"/>
-         <center>
-          <b>
-           Christmas Door Wreath
-          </b>
-         </center>
-        </a>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10172/">
-         <img src="https://files.facepunch.com/Alistair/12/17/5o48V1/santabeard.png"/>
-         <center>
-          <b>
-           Santa Beard
-          </b>
-         </center>
-        </a>
-       </div>
-      </div>
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10188/">
-         <img src="https://files.facepunch.com/Alistair/12/16/2A70T1/360fx360f.png"/>
-         <center>
-          <b>
-           Neon sign pack
-          </b>
-         </center>
-        </a>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10203/">
-         <img src="https://files.facepunch.com/Alistair/12/16/5z93I1/attire.snowman.helmet.png"/>
-         <center>
-          <b>
-           Snowman Hat
-          </b>
-         </center>
-        </a>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero light" id="RUSTMASBASEDECORATIONCOMPETITION">
-  <div class="section" like-handler="LikeBlogSection" like-id="84510" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       RUSTMAS BASE DECORATION COMPETITION
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       We are excited to announce that the annual Rustmas Base Decorating Competition is back for 2024's festive period!
-       <br/>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       We're looking for the best Christmassy base that Rust has ever seen!
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1311b1/xmas2020_tree.jpg"/>
-     </div>
-     <div>
-      <div>
-       <h2>
-        Winner
-        <br/>
-       </h2>
-       <div>
-        £120 worth of skins of their choosing, and two Rust DLC/Items.
-       </div>
-       <h2>
-        Runner up
-       </h2>
-       <div>
-        £75 worth of skins of their choosing, and one Rust DLC/Item.
-       </div>
-       <h2>
-        How To Submit
-       </h2>
-       <div>
-        Once you’ve completed decorating your base, be sure to take 3-4 screenshots or a video walkthrough (MTV Cribs style) and upload them to X/Twitter, using the hashtag
-        <a class="" href="https://x.com/hashtag/Rustmas2024" target="https://x.com/hashtag/Rustmas2024">
-         #Rustmas2024
-        </a>
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        The winner and runner up will be announced from
-        <a class="selected" href="https://x.com/playrust">
-         Rust's Official X account
-        </a>
-        on January 13th.
-        <br/>
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        Please make sure you are following the Rust X/Twitter account so we can DM you if you win.
-        <br/>
-        <i>
-         If we do not get a response within 1 week of the winner announcement, a new winner will be chosen.
-        </i>
-       </div>
-       <h2>
-        Evaluation
-       </h2>
-       <div>
-        <div class="autodiv">
-         Submissions will be judged based on the following:
-        </div>
-       </div>
-       <div class="autodiv">
-        <ul>
-         <li>
-          Creativity
-         </li>
-         <li>
-          Design
-         </li>
-        </ul>
-       </div>
-       <div class="autodiv">
-        Judging will be performed by Facepunch Staff.
-        <br/>
-       </div>
-       <div class="autodiv">
-        <br/>
-       </div>
-       <div class="autodiv">
-        Bonus points if you remove the UI and your graphics are set higher than 1 :)
-        <br/>
-       </div>
-       <h2>
-        Terms
-       </h2>
-       <div>
-        <i>
-         This competition is run by Facepunch Studios LTD. The competition
-         <b>
-          ends on January 2nd 2025 23:59UTC
-         </b>
-         . No more than three entries per person. The winner and runner-up will be selected based on which Facepunch thinks is the most original/creative and any decisions Facepunch makes will be final. The winner and runner up must claim their prizes within one month of the closing date (which Facepunch may exchange for an alternative of the same or greater value). Our terms of service apply to any content you make for the competition: https://facepunch.com/legal. Winning entries must pick items from the Rust marketplace with market value.
-        </i>
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero light" id="RustmasTwitchDrops">
-  <div class="section" like-handler="LikeBlogSection" like-id="84508" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Rustmas Twitch Drops
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      It doesn't matter if you've been naughty or nice this year, as part of our ongoing commitment to creators on Twitch, we're pleased to unveil Drops on Rustmas!
-      <br/>
-      <br/>
-      All you need to do is check out anyone streaming Rust this festive period, and you can bag yourself some sweet Christmas themed Twitch Drops to make sure you and your base look jubilant this December and January.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://twitch.facepunch.com">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1311b1/twitch-drops-37_rustmas_blog.jpg"/>
-      </a>
-     </div>
-     <div>
-      As usual, don't forget to sync your Twitch and Steam accounts
-      <a class="" href="https://twitch.facepunch.com/" target="https://twitch.facepunch.com/">
-       here
-      </a>
-      .
-      <br/>
-      And remember; Facepunch will never contact you about Drops or access to any of your accounts.
-      <br/>
-      Stay frosty!
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="IceSculptures">
-  <div class="section" like-handler="LikeBlogSection" like-id="84512" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Ice Sculptures
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Over the last month, we've been hard at work on a new decorative features for your base.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      You've
- probably seen bits about Ice Sculptures floating about on YouTube, 
-Twitter, and Reddit, and maybe you've even had a quick play with it on 
-the Staging Branch, and we were really looking forward to releasing it 
-in time for Christmas, however, we've decided to postpone the release of
- the Ice Sculpture DLC.
-     </div>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-style="columns">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/116/12/2024/2H58/image%20%2822%29.png"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/116/12/2024/6e11/image%20%2823%29.png"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/116/12/2024/7x36/image%20%2821%29.png"/>
-      </gallery>
-     </div>
-     <div>
-      <p>
-       This was due to concerns about the quality of what will be achievable to carve by players while it's in its current state. And due to it being a paid DLC item, we want to ensure its value and not leave players disappointed.
-       <br/>
-      </p>
-      <p>
-       A big thank you to all members of the community who tested and gave feedback.
-       <br/>
-       <br/>
-       The plan is to continue experimenting with it until we're happy, and we may look at releasing it in a different carvable material at some point next year, if it fits.
-      </p>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero light" id="2024recaprustTURNS11">
-  <div class="section" like-handler="LikeBlogSection" like-id="84507" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       2024 recap - rust TURNS 11!
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span class="yt-core-attributed-string--link-inherit-color" dir="auto">
-       This month marks Rust's 11th anniversary!
-       <br/>
-       <br/>
-       Thank you to our incredible community for yet another spectacular year of farming, raiding, and roleplaying!
-       <br/>
-       <br/>
-       With all the work we've done to consistantly release new content this year, we have seen record player counts, as well as massive increases in viewership of our Twitch events, and now more than ever, we're seeing even more ways that you all enjoy playing Rust on lots of other platforms too.
-       <br/>
-       <br/>
-       So we thought we'd share some highlights from 2024 to remind ourselves of the significant changes we've brought to the world of Rust this year. 
-And to remind ourselves that we couldn't have done it without you, the players and creators.
-      </span>
-     </div>
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="youtube-container">
-       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-rid="943ec77f14068af3" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/8sMb0v14x5s?si=GJYj9fHY7yH57JC7" title="YouTube video player" width="560">
-       </iframe>
-      </div>
-     </div>
-     <div>
-     </div>
-     <div>
-      <span class="yt-core-attributed-string--link-inherit-color" dir="auto">
-       <br/>
-       Don't forget, to celebrate this monumental milestone, and as a thank you for your support this year, Rust is 50% off until January 2nd! And all DLCs are 40% off!
-       <br/>
-       Get it here or tell your new duo partner about the discount:
-      </span>
-      <span class="yt-core-attributed-string--link-inherit-color" dir="auto">
-       <a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color selected" force-new-state="true" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa28wSUoySUJUUFEwM1NCZGdQRGx0TjhuQ255UXxBQ3Jtc0tsX3VuRDQ0YTNERnNLTHQ4d0otTnRSWVR1NDlwVkphZUxPUHdINEx6Wl9oakhTNUlCSFg3LS1JdFlGWUFhWjhYM25DSjlvOE1QV0NHck1nM2x5UVZTRnE0RzJFYzdLQUl3QnUxUlUxS0NWQ1M1N09Cbw&amp;q=https%3A%2F%2Ffcpn.ch%2Fr11yt&amp;v=8sMb0v14x5s" rel="nofollow" tabindex="0" target="_blank">
-        https://fcpn.ch/r11yt
-       </a>
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Mon, 16 Dec 2024 11:32:00 Z</pubDate>
-    </item>
-    <item>
       <title>Armed and Animated</title>
       <link>https://rust.facepunch.com/news/armed-and-animated/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -2409,6 +1410,1005 @@ doing a good job, there is much more to be done in this area, and we are continu
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 07 Nov 2024 04:49:00 Z</pubDate>
+    </item>
+    <item>
+      <title>Halloween 2024</title>
+      <link>https://rust.facepunch.com/news/halloween24/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Halloween 2024
+    </h1>
+    <p editname="Summary" type="text">
+     Darkness falls upon the island as monsters re-awaken from their slumber. The rifts open in random locations, leading to who-knows-where. Enter if you dare, but if you do, you better prepare!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      28 October 2024
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="HappyHalloween">
+  <div class="section" like-handler="LikeBlogSection" like-id="84443" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Happy Halloween!
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       The yearly Halloween event is now enabled!
+       <br/>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20201023/halloween_ghostsheets.jpg"/>
+     </div>
+     <div>
+      <span>
+       Once roughly every two in-game days, the Candy Hunt event will begin.
+       <br/>
+       You'll have 3 minutes to collect as much candy as you can, then top 3 players are given special loot bags as a reward. These candies and loot bags can be opened for various types of loot, ranging from scrap, all the way up to an M249!
+      </span>
+      <br/>
+      <br/>
+      <span>
+       If you don't make the podium, that's okay. The candies you collect can be upgraded for better loot!
+       <br/>
+      </span>
+      <br/>
+      <span>
+       This year's Halloween event will run until
+       <b>
+        November 7th.
+       </b>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="herebemonsters">
+  <div class="section" like-handler="LikeBlogSection" like-id="84444" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       here be monsters
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       Wondering what to do with all those body parts you've collected? Build your own monster!
+       <br/>
+      </span>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20211026/frankenstein_hauntedhouse.jpg" src="https://files.facepunch.com/paddy/20241025/halloween_frankwalk_720p.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <span>
+       To start putting together your morbid creation, first, you must slay the scarecrows and mummies that roam the lands. Once you've collected a head, torso, and legs, craft yourself a Frankenstein's table and place the body parts within it.
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20211026/monstertable_wakeup.jpg"/>
+     </div>
+     <div>
+      <span>
+       Awaken your new pet monster and control it by pressing "P".
+      </span>
+      <span>
+       The monster will follow your orders without question. It'll follow you around the map, defend you if attacked and help slay foes you wish to attack.
+       <br/>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20211026/frankenstein_lab_close.jpg"/>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+      <span>
+       If you're having trouble accessing the pet menu or already have a key bound to "P" then use the following console command:  bind X +pets or open the in-game controls menu.
+      </span>
+      <span>
+       <br/>
+       <br/>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="CursedArticles">
+  <div class="section" like-handler="LikeBlogSection" like-id="84447" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Cursed Articles
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       This year, we've added three Halloween-themed items - one purchasable, and two free.
+       <br/>
+      </span>
+     </div>
+     <h2>
+      <span>
+       MASKS
+      </span>
+     </h2>
+     <div>
+      Frankenstein and Mummy masks
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241024/rust_halloween_masks_02.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241024/rust_halloween_masks_03.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241024/rust_halloween_masks_01.jpg"/>
+     </div>
+     <div>
+      <br/>
+      <span>
+      </span>
+     </div>
+     <h2>
+      Dracula Cape + Mask
+      <br/>
+     </h2>
+     <div>
+      Dracula cape &amp; mask can be found on the
+      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
+       limited item store
+      </a>
+      .
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20231021/halloween_dracula_01.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Theriftsopen">
+  <div class="section" like-handler="LikeBlogSection" like-id="84445" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       The rifts open
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       Cultists are said to have been opening portals across the island, while others believe it's a Cobalt experiment code-named R.U.I.N gone horribly wrong.
+      </span>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+     </div>
+     <div>
+      <span>
+       Not much is known about these portals - what they do or where they go, but only a few brave souls have entered through and made it back alive.
+       <br/>
+      </span>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20221020/dungeonportal_01.jpg" src="https://files.facepunch.com/paddy/20241025/halloween_portaldoor_720p.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <span>
+       Do you dare to enter the rift?
+      </span>
+     </div>
+     <div>
+      <br/>
+      <span>
+      </span>
+     </div>
+     <div>
+      <span>
+       Server owners can adjust the portal count using the halloweendungeon.population convar.
+      </span>
+      <span>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="spookystoreupdate">
+  <div class="section" like-handler="LikeBlogSection" like-id="84446" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       spooky store update
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Scare yourself or your foes with the horrifyingly Halloween store items!
+      <br/>
+     </div>
+     <br/>
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <a class="selected" href="https://store.steampowered.com/itemstore/252490/">
+         <img src="https://files.facepunch.com/Alistair/128/10/2024/0397/metal.facemask.hockey.skin.png"/>
+         <center>
+          <b>
+           Hockey Facemask
+          </b>
+         </center>
+        </a>
+        <center>
+         Hockey Facemask skin is a reskin of the Metal Facemask.
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/">
+         <img src="https://files.facepunch.com/Alistair/128/10/2024/9l87/torch.skull.skin.png"/>
+         <center>
+          <b>
+           Cultist Deer Torch
+          </b>
+         </center>
+        </a>
+        <center>
+         The Cultist Deer Torch is a reskin of the starter torch.
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/">
+         <img src="https://files.facepunch.com/Alistair/128/10/2024/1916/mace.baseballbat.png"/>
+         <center>
+          <b>
+           Baseball Bat
+          </b>
+         </center>
+        </a>
+        <center>
+         The Baseball bat is a reskin of the mace melee weapon.
+        </center>
+       </div>
+      </div>
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/10/20/8Y15v1/skull.png"/>
+        </a>
+        <center>
+         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+         </a>
+         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+          <b>
+           Skull Rock
+          </b>
+         </a>
+        </center>
+       </div>
+       <div class="column is-6">
+        <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/10/20/5C82y1/carvable.pumpkin.png"/>
+        </a>
+        <center>
+         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+         </a>
+         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+          <b>
+           Pumpkin Carving
+          </b>
+         </a>
+        </center>
+       </div>
+      </div>
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10182/">
+         <img src="https://files.facepunch.com/Alistair/10/20/9b47X1/skull.gif"/>
+         <center>
+          <b>
+           Skull Trophy Pack
+          </b>
+         </center>
+        </a>
+        <center>
+         A decorative mount that can hold the skull of a friend or foe, including his/her name.
+         <br/>
+         <br/>
+         Comes in 4 variations
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10183/">
+         <img src="https://files.facepunch.com/Alistair/10/20/4661P1/spike.gif"/>
+         <center>
+          <b>
+           Skull Spike Pack
+          </b>
+         </center>
+        </a>
+        <center>
+         Inflict fear into your enemies with these decorative Skulls on spikes.
+         <br/>
+         <br/>
+         Comes in 3 variations
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10181/">
+         <img src="https://files.facepunch.com/Alistair/10/23/429581/MaleUnderwear_mummywraps.icon.png"/>
+         <center>
+          <b>
+           Mummy Underwear
+          </b>
+         </center>
+        </a>
+        <center>
+         Replace your default underwear with some new spooky underwear.
+         <br/>
+         <br/>
+         No crafting required!
+        </center>
+       </div>
+      </div>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+     </div>
+     <div>
+      <span>
+       Last years Halloween items have been raised from the dead, head over to the
+      </span>
+      <a class="selected" href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+       Rust item store
+      </a>
+      <span>
+       .
+       <br/>
+      </span>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Mon, 28 Oct 2024 01:55:00 Z</pubDate>
+    </item>
+    <item>
+      <title>Season's beatings</title>
+      <link>https://rust.facepunch.com/news/christmas2024/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Season's beatings
+    </h1>
+    <p editname="Summary" type="text">
+     It's that wonderful time of the year again - our Christmas event is (s)now live, Rustmas Winter Drop Fest is here, and the base decorating competition is back with bells on!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      16 December 2024
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero light" id="HappyHolidays">
+  <div class="section" like-handler="LikeBlogSection" like-id="84509" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Happy Holidays!
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       From everyone at Facepunch, we'd like to wish you a Merry Christmas and a Happy New Year!
+      </span>
+      <br/>
+      <br/>
+      <span>
+       The Christmas Event is once again live!
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1311b1/rust_xmas2024_snowball_01%20%281%29.jpg"/>
+     </div>
+     <div>
+      <div>
+       If you're new to the island, here's what you can expect:
+      </div>
+      <br/>
+      <span>
+       As you play, you will start to hear the distinct sound of jingle bells. As soon as you do, leave the warm comfort of your base and start looking for your gifts!
+       <br/>
+       <ul>
+        <li>
+         <span>
+          Two gifts are spawned per player, in a radius of about 40m from you.
+         </span>
+        </li>
+        <li>
+         <span>
+          Run up and bash open your present to receive your Christmas gift.
+         </span>
+        </li>
+        <li>
+         <span>
+          They come in three sizes: small, medium, and large. But if you have enough small presents stashed, you can 'trade up' to a medium or large gift.
+         </span>
+        </li>
+        <li>
+         <span>
+          The contents of each present varies, but you'll find a mix of resources, weapons, and Christmas candy.
+         </span>
+        </li>
+       </ul>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1311b1/xmas2020_santasleigh.jpg"/>
+     </div>
+     <div>
+      <span>
+       This year, you'll still be able to find Santa hats and reindeer antlers, both of which can be worn and provide a decent amount of protection. And the lickable candy cane club is back! As well as two types of stockings.
+       <br/>
+      </span>
+      <br/>
+      <span>
+       If you hang a stocking inside your base when the jingle bells ring, the stocking will fill up with loot whether you've been good or not - no coal here!
+       <br/>
+      </span>
+      <br/>
+      <span>
+       The larger stocking has a higher chance for better items and both last around 5-10 refills.
+      </span>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1311b1/rust_xmas_tree_01.jpg"/>
+     </div>
+     <div>
+      <span>
+       The advent calendar also returns and is a craftable deployable, available to everyone during the Christmas event.
+       <br/>
+      </span>
+      <br/>
+      <span>
+       Once placed, you can claim an in-game surprise once every in-real-life day from the 16th of December.
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1311b1/xmas_adventcalendar.jpg"/>
+     </div>
+     <div>
+      <div>
+       <div>
+        The Christmas event ends on January 2nd @ 19:00GMT / 14:00EST
+       </div>
+       <div>
+        <span>
+         <br/>
+         Make it a December to remember!
+        </span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="RustMasStore">
+  <div class="section" like-handler="LikeBlogSection" like-id="84511" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       RustMas Store
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We have brought some items from previous years, now purchasable from the Rust Item Store.
+      <br/>
+      <br/>
+      Since last year the festive garland pack now includes a double door garland. If you've already purchased this pack, you'll now be able to craft this item.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10171/">
+         <img src="https://files.facepunch.com/Alistair/12/16/8188o1/xmas.lightstring.advanced.png"/>
+         <center>
+          <b>
+           Deluxe Christmas Lights
+          </b>
+         </center>
+        </a>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10158/">
+         <img src="https://files.facepunch.com/Alistair/12/16/4B60I1/snowmachine.png"/>
+         <center>
+          <b>
+           Snow Machine
+          </b>
+         </center>
+        </a>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10148/">
+         <img src="https://files.facepunch.com/Alistair/12/16/6n76p1/snowman.png"/>
+         <center>
+          <b>
+           Snowman
+          </b>
+         </center>
+        </a>
+       </div>
+       <div class="columns is-multiline">
+       </div>
+      </div>
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10151/">
+         <img src="https://files.facepunch.com/Alistair/12/16/0j91W1/xmas.door.garland.png"/>
+         <center>
+          <b>
+           Festive Garlands Pack
+           <br/>
+          </b>
+         </center>
+        </a>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10149/">
+         <img src="https://files.facepunch.com/Alistair/12/16/9t36A1/xmasdoorwreath.png"/>
+         <center>
+          <b>
+           Christmas Door Wreath
+          </b>
+         </center>
+        </a>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10172/">
+         <img src="https://files.facepunch.com/Alistair/12/17/5o48V1/santabeard.png"/>
+         <center>
+          <b>
+           Santa Beard
+          </b>
+         </center>
+        </a>
+       </div>
+      </div>
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10188/">
+         <img src="https://files.facepunch.com/Alistair/12/16/2A70T1/360fx360f.png"/>
+         <center>
+          <b>
+           Neon sign pack
+          </b>
+         </center>
+        </a>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10203/">
+         <img src="https://files.facepunch.com/Alistair/12/16/5z93I1/attire.snowman.helmet.png"/>
+         <center>
+          <b>
+           Snowman Hat
+          </b>
+         </center>
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero light" id="RUSTMASBASEDECORATIONCOMPETITION">
+  <div class="section" like-handler="LikeBlogSection" like-id="84510" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       RUSTMAS BASE DECORATION COMPETITION
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       We are excited to announce that the annual Rustmas Base Decorating Competition is back for 2024's festive period!
+       <br/>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       We're looking for the best Christmassy base that Rust has ever seen!
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1311b1/xmas2020_tree.jpg"/>
+     </div>
+     <div>
+      <div>
+       <h2>
+        Winner
+        <br/>
+       </h2>
+       <div>
+        £120 worth of skins of their choosing, and two Rust DLC/Items.
+       </div>
+       <h2>
+        Runner up
+       </h2>
+       <div>
+        £75 worth of skins of their choosing, and one Rust DLC/Item.
+       </div>
+       <h2>
+        How To Submit
+       </h2>
+       <div>
+        Once you’ve completed decorating your base, be sure to take 3-4 screenshots or a video walkthrough (MTV Cribs style) and upload them to X/Twitter, using the hashtag
+        <a class="" href="https://x.com/hashtag/Rustmas2024" target="https://x.com/hashtag/Rustmas2024">
+         #Rustmas2024
+        </a>
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        The winner and runner up will be announced from
+        <a class="selected" href="https://x.com/playrust">
+         Rust's Official X account
+        </a>
+        on January 13th.
+        <br/>
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        Please make sure you are following the Rust X/Twitter account so we can DM you if you win.
+        <br/>
+        <i>
+         If we do not get a response within 1 week of the winner announcement, a new winner will be chosen.
+        </i>
+       </div>
+       <h2>
+        Evaluation
+       </h2>
+       <div>
+        <div class="autodiv">
+         Submissions will be judged based on the following:
+        </div>
+       </div>
+       <div class="autodiv">
+        <ul>
+         <li>
+          Creativity
+         </li>
+         <li>
+          Design
+         </li>
+        </ul>
+       </div>
+       <div class="autodiv">
+        Judging will be performed by Facepunch Staff.
+        <br/>
+       </div>
+       <div class="autodiv">
+        <br/>
+       </div>
+       <div class="autodiv">
+        Bonus points if you remove the UI and your graphics are set higher than 1 :)
+        <br/>
+       </div>
+       <h2>
+        Terms
+       </h2>
+       <div>
+        <i>
+         This competition is run by Facepunch Studios LTD. The competition
+         <b>
+          ends on January 2nd 2025 23:59UTC
+         </b>
+         . No more than three entries per person. The winner and runner-up will be selected based on which Facepunch thinks is the most original/creative and any decisions Facepunch makes will be final. The winner and runner up must claim their prizes within one month of the closing date (which Facepunch may exchange for an alternative of the same or greater value). Our terms of service apply to any content you make for the competition: https://facepunch.com/legal. Winning entries must pick items from the Rust marketplace with market value.
+        </i>
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero light" id="RustmasTwitchDrops">
+  <div class="section" like-handler="LikeBlogSection" like-id="84508" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rustmas Twitch Drops
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      It doesn't matter if you've been naughty or nice this year, as part of our ongoing commitment to creators on Twitch, we're pleased to unveil Drops on Rustmas!
+      <br/>
+      <br/>
+      All you need to do is check out anyone streaming Rust this festive period, and you can bag yourself some sweet Christmas themed Twitch Drops to make sure you and your base look jubilant this December and January.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://twitch.facepunch.com">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1311b1/twitch-drops-37_rustmas_blog.jpg"/>
+      </a>
+     </div>
+     <div>
+      As usual, don't forget to sync your Twitch and Steam accounts
+      <a class="" href="https://twitch.facepunch.com/" target="https://twitch.facepunch.com/">
+       here
+      </a>
+      .
+      <br/>
+      And remember; Facepunch will never contact you about Drops or access to any of your accounts.
+      <br/>
+      Stay frosty!
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="IceSculptures">
+  <div class="section" like-handler="LikeBlogSection" like-id="84512" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Ice Sculptures
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Over the last month, we've been hard at work on a new decorative features for your base.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      You've
+ probably seen bits about Ice Sculptures floating about on YouTube, 
+Twitter, and Reddit, and maybe you've even had a quick play with it on 
+the Staging Branch, and we were really looking forward to releasing it 
+in time for Christmas, however, we've decided to postpone the release of
+ the Ice Sculpture DLC.
+     </div>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-style="columns">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/116/12/2024/2H58/image%20%2822%29.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/116/12/2024/6e11/image%20%2823%29.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/116/12/2024/7x36/image%20%2821%29.png"/>
+      </gallery>
+     </div>
+     <div>
+      <p>
+       This was due to concerns about the quality of what will be achievable to carve by players while it's in its current state. And due to it being a paid DLC item, we want to ensure its value and not leave players disappointed.
+       <br/>
+      </p>
+      <p>
+       A big thank you to all members of the community who tested and gave feedback.
+       <br/>
+       <br/>
+       The plan is to continue experimenting with it until we're happy, and we may look at releasing it in a different carvable material at some point next year, if it fits.
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero light" id="2024recaprustTURNS11">
+  <div class="section" like-handler="LikeBlogSection" like-id="84507" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       2024 recap - rust TURNS 11!
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span class="yt-core-attributed-string--link-inherit-color" dir="auto">
+       This month marks Rust's 11th anniversary!
+       <br/>
+       <br/>
+       Thank you to our incredible community for yet another spectacular year of farming, raiding, and roleplaying!
+       <br/>
+       <br/>
+       With all the work we've done to consistantly release new content this year, we have seen record player counts, as well as massive increases in viewership of our Twitch events, and now more than ever, we're seeing even more ways that you all enjoy playing Rust on lots of other platforms too.
+       <br/>
+       <br/>
+       So we thought we'd share some highlights from 2024 to remind ourselves of the significant changes we've brought to the world of Rust this year. 
+And to remind ourselves that we couldn't have done it without you, the players and creators.
+      </span>
+     </div>
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="youtube-container">
+       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-rid="943ec77f14068af3" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/8sMb0v14x5s?si=GJYj9fHY7yH57JC7" title="YouTube video player" width="560">
+       </iframe>
+      </div>
+     </div>
+     <div>
+     </div>
+     <div>
+      <span class="yt-core-attributed-string--link-inherit-color" dir="auto">
+       <br/>
+       Don't forget, to celebrate this monumental milestone, and as a thank you for your support this year, Rust is 50% off until January 2nd! And all DLCs are 40% off!
+       <br/>
+       Get it here or tell your new duo partner about the discount:
+      </span>
+      <span class="yt-core-attributed-string--link-inherit-color" dir="auto">
+       <a class="yt-core-attributed-string__link yt-core-attributed-string__link--call-to-action-color selected" force-new-state="true" href="https://www.youtube.com/redirect?event=video_description&amp;redir_token=QUFFLUhqa28wSUoySUJUUFEwM1NCZGdQRGx0TjhuQ255UXxBQ3Jtc0tsX3VuRDQ0YTNERnNLTHQ4d0otTnRSWVR1NDlwVkphZUxPUHdINEx6Wl9oakhTNUlCSFg3LS1JdFlGWUFhWjhYM25DSjlvOE1QV0NHck1nM2x5UVZTRnE0RzJFYzdLQUl3QnUxUlUxS0NWQ1M1N09Cbw&amp;q=https%3A%2F%2Ffcpn.ch%2Fr11yt&amp;v=8sMb0v14x5s" rel="nofollow" tabindex="0" target="_blank">
+        https://fcpn.ch/r11yt
+       </a>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Mon, 16 Dec 2024 11:32:00 Z</pubDate>
     </item>
     <item>
       <title>Community Update 263</title>
