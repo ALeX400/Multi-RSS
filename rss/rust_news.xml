@@ -1,6 +1,451 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Halloween 2024</title>
+      <link>https://rust.facepunch.com/news/halloween24/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Halloween 2024
+    </h1>
+    <p editname="Summary" type="text">
+     Darkness falls upon the island as monsters re-awaken from their slumber. The rifts open in random locations, leading to who-knows-where. Enter if you dare, but if you do, you better prepare!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      28 October 2024
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="HappyHalloween">
+  <div class="section" like-handler="LikeBlogSection" like-id="84443" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Happy Halloween!
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       The yearly Halloween event is now enabled!
+       <br/>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20201023/halloween_ghostsheets.jpg"/>
+     </div>
+     <div>
+      <span>
+       Once roughly every two in-game days, the Candy Hunt event will begin.
+       <br/>
+       You'll have 3 minutes to collect as much candy as you can, then top 3 players are given special loot bags as a reward. These candies and loot bags can be opened for various types of loot, ranging from scrap, all the way up to an M249!
+      </span>
+      <br/>
+      <br/>
+      <span>
+       If you don't make the podium, that's okay. The candies you collect can be upgraded for better loot!
+       <br/>
+      </span>
+      <br/>
+      <span>
+       This year's Halloween event will run until
+       <b>
+        November 7th.
+       </b>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="herebemonsters">
+  <div class="section" like-handler="LikeBlogSection" like-id="84444" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       here be monsters
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       Wondering what to do with all those body parts you've collected? Build your own monster!
+       <br/>
+      </span>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20211026/frankenstein_hauntedhouse.jpg" src="https://files.facepunch.com/paddy/20241025/halloween_frankwalk_720p.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <span>
+       To start putting together your morbid creation, first, you must slay the scarecrows and mummies that roam the lands. Once you've collected a head, torso, and legs, craft yourself a Frankenstein's table and place the body parts within it.
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20211026/monstertable_wakeup.jpg"/>
+     </div>
+     <div>
+      <span>
+       Awaken your new pet monster and control it by pressing "P".
+      </span>
+      <span>
+       The monster will follow your orders without question. It'll follow you around the map, defend you if attacked and help slay foes you wish to attack.
+       <br/>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20211026/frankenstein_lab_close.jpg"/>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+      <span>
+       If you're having trouble accessing the pet menu or already have a key bound to "P" then use the following console command:  bind X +pets or open the in-game controls menu.
+      </span>
+      <span>
+       <br/>
+       <br/>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="CursedArticles">
+  <div class="section" like-handler="LikeBlogSection" like-id="84447" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Cursed Articles
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       This year, we've added three Halloween-themed items - one purchasable, and two free.
+       <br/>
+      </span>
+     </div>
+     <h2>
+      <span>
+       MASKS
+      </span>
+     </h2>
+     <div>
+      Frankenstein and Mummy masks
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241024/rust_halloween_masks_02.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241024/rust_halloween_masks_03.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241024/rust_halloween_masks_01.jpg"/>
+     </div>
+     <div>
+      <br/>
+      <span>
+      </span>
+     </div>
+     <h2>
+      Dracula Cape + Mask
+      <br/>
+     </h2>
+     <div>
+      Dracula cape &amp; mask can be found on the
+      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
+       limited item store
+      </a>
+      .
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20231021/halloween_dracula_01.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Theriftsopen">
+  <div class="section" like-handler="LikeBlogSection" like-id="84445" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       The rifts open
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       Cultists are said to have been opening portals across the island, while others believe it's a Cobalt experiment code-named R.U.I.N gone horribly wrong.
+      </span>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+     </div>
+     <div>
+      <span>
+       Not much is known about these portals - what they do or where they go, but only a few brave souls have entered through and made it back alive.
+       <br/>
+      </span>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20221020/dungeonportal_01.jpg" src="https://files.facepunch.com/paddy/20241025/halloween_portaldoor_720p.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <span>
+       Do you dare to enter the rift?
+      </span>
+     </div>
+     <div>
+      <br/>
+      <span>
+      </span>
+     </div>
+     <div>
+      <span>
+       Server owners can adjust the portal count using the halloweendungeon.population convar.
+      </span>
+      <span>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="spookystoreupdate">
+  <div class="section" like-handler="LikeBlogSection" like-id="84446" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       spooky store update
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Scare yourself or your foes with the horrifyingly Halloween store items!
+      <br/>
+     </div>
+     <br/>
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <a class="selected" href="https://store.steampowered.com/itemstore/252490/">
+         <img src="https://files.facepunch.com/Alistair/128/10/2024/0397/metal.facemask.hockey.skin.png"/>
+         <center>
+          <b>
+           Hockey Facemask
+          </b>
+         </center>
+        </a>
+        <center>
+         Hockey Facemask skin is a reskin of the Metal Facemask.
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/">
+         <img src="https://files.facepunch.com/Alistair/128/10/2024/9l87/torch.skull.skin.png"/>
+         <center>
+          <b>
+           Cultist Deer Torch
+          </b>
+         </center>
+        </a>
+        <center>
+         The Cultist Deer Torch is a reskin of the starter torch.
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/">
+         <img src="https://files.facepunch.com/Alistair/128/10/2024/1916/mace.baseballbat.png"/>
+         <center>
+          <b>
+           Baseball Bat
+          </b>
+         </center>
+        </a>
+        <center>
+         The Baseball bat is a reskin of the mace melee weapon.
+        </center>
+       </div>
+      </div>
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/10/20/8Y15v1/skull.png"/>
+        </a>
+        <center>
+         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+         </a>
+         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+          <b>
+           Skull Rock
+          </b>
+         </a>
+        </center>
+       </div>
+       <div class="column is-6">
+        <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/10/20/5C82y1/carvable.pumpkin.png"/>
+        </a>
+        <center>
+         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+         </a>
+         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+          <b>
+           Pumpkin Carving
+          </b>
+         </a>
+        </center>
+       </div>
+      </div>
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10182/">
+         <img src="https://files.facepunch.com/Alistair/10/20/9b47X1/skull.gif"/>
+         <center>
+          <b>
+           Skull Trophy Pack
+          </b>
+         </center>
+        </a>
+        <center>
+         A decorative mount that can hold the skull of a friend or foe, including his/her name.
+         <br/>
+         <br/>
+         Comes in 4 variations
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10183/">
+         <img src="https://files.facepunch.com/Alistair/10/20/4661P1/spike.gif"/>
+         <center>
+          <b>
+           Skull Spike Pack
+          </b>
+         </center>
+        </a>
+        <center>
+         Inflict fear into your enemies with these decorative Skulls on spikes.
+         <br/>
+         <br/>
+         Comes in 3 variations
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10181/">
+         <img src="https://files.facepunch.com/Alistair/10/23/429581/MaleUnderwear_mummywraps.icon.png"/>
+         <center>
+          <b>
+           Mummy Underwear
+          </b>
+         </center>
+        </a>
+        <center>
+         Replace your default underwear with some new spooky underwear.
+         <br/>
+         <br/>
+         No crafting required!
+        </center>
+       </div>
+      </div>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+     </div>
+     <div>
+      <span>
+       Last years Halloween items have been raised from the dead, head over to the
+      </span>
+      <a class="selected" href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
+       Rust item store
+      </a>
+      <span>
+       .
+       <br/>
+      </span>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Mon, 28 Oct 2024 01:55:00 Z</pubDate>
+    </item>
+    <item>
       <title>Season's beatings</title>
       <link>https://rust.facepunch.com/news/christmas2024/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -555,22 +1000,22 @@ And to remind ourselves that we couldn't have done it without you, the players a
       <pubDate>Mon, 16 Dec 2024 11:32:00 Z</pubDate>
     </item>
     <item>
-      <title>Halloween 2024</title>
-      <link>https://rust.facepunch.com/news/halloween24/</link>
+      <title>Armed and Animated</title>
+      <link>https://rust.facepunch.com/news/armed-and-animated/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
 <div class="blog-hero">
  <div class="container" targetobject="blog">
   <div class="blog-hero-body">
    <div class="body-info">
     <h1 editname="Title" type="text">
-     Halloween 2024
+     Armed and Animated
     </h1>
     <p editname="Summary" type="text">
-     Darkness falls upon the island as monsters re-awaken from their slumber. The rifts open in random locations, leading to who-knows-where. Enter if you dare, but if you do, you better prepare!
+     This month's update brings you TWO new weapons - the handmade SMG and SKS rifle, additionally, new and improved wolf AI, Gesture Pack DLC, plus the usual bug fixes &amp; QoL changes!
     </p>
     <div class="tags">
      <div class="tag secondary">
-      28 October 2024
+      07 November 2024
      </div>
      <a class="tag devblog" style="text-decoration: none;">
       DEVBLOG
@@ -620,375 +1065,1341 @@ And to remind ourselves that we couldn't have done it without you, the players a
         }
 </style>
 <div class="blog">
- <div class="news-section-block sectionstyle-hero" id="HappyHalloween">
-  <div class="section" like-handler="LikeBlogSection" like-id="84443" targetobject="section">
+ <div class="news-section-block sectionstyle-hero" id="t1HandmadeSMG">
+  <div class="section" like-handler="LikeBlogSection" like-id="84454" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       Happy Halloween!
+       t1 Handmade SMG
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
      <div>
-      <span>
-       The yearly Halloween event is now enabled!
-       <br/>
-      </span>
+      This month, we're adding new weapons. Firstly, filling a gap in the weapon lineup, the Handmade SMG is unlockable near the end of the T1 tech tree.
+      <br/>
      </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20201023/halloween_ghostsheets.jpg"/>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241107/rust_t1smg_inspect_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241107/rust_t1smg_workbench_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241107/rust_t1smg_workbench_02.jpg"/>
      </div>
      <div>
-      <span>
-       Once roughly every two in-game days, the Candy Hunt event will begin.
-       <br/>
-       You'll have 3 minutes to collect as much candy as you can, then top 3 players are given special loot bags as a reward. These candies and loot bags can be opened for various types of loot, ranging from scrap, all the way up to an M249!
-      </span>
-      <br/>
-      <br/>
-      <span>
-       If you don't make the podium, that's okay. The candies you collect can be upgraded for better loot!
-       <br/>
-      </span>
-      <br/>
-      <span>
-       This year's Halloween event will run until
-       <b>
-        November 7th.
-       </b>
-      </span>
+      While it lacks accuracy and raw damage, it compensates for this with 
+sheer volume, letting players unleash a hail of bullets. Skilled 
+survivors can use it to stay competitive by timing their attacks and 
+positioning themselves carefully, allowing for surprise bursts against 
+better-equipped foes.
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20241107/t1smg_demonstration_01.jpg" src="https://files.facepunch.com/paddy/20241107/t1smg_demonstration_01.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
      </div>
     </div>
    </div>
   </div>
  </div>
- <div class="news-section-block sectionstyle-hero" id="herebemonsters">
-  <div class="section" like-handler="LikeBlogSection" like-id="84444" targetobject="section">
+ <div class="news-section-block sectionstyle-hero" id="SKS">
+  <div class="section" like-handler="LikeBlogSection" like-id="84455" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       here be monsters
+       SKS
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
      <div>
-      <span>
-       Wondering what to do with all those body parts you've collected? Build your own monster!
-       <br/>
-      </span>
+      Unlockable at the start of the T3 tech tree, the SKS bridges the gap between the SAR and the M39. This mid-tier powerhouse combines punchy damage with accuracy, making it a reliable pick for players who want a no-nonsense rifle with solid range and stopping power. The SKS delivers balanced performance with a kick that seasoned survivors will appreciate.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240430/SKS_hero_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240430/SKS_hero_03.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240430/SKS_hero_04.jpg"/>
      </div>
      <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20211026/frankenstein_hauntedhouse.jpg" src="https://files.facepunch.com/paddy/20241025/halloween_frankwalk_720p.mp4">
+      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20241107/sks_demonstration_01.jpg" src="https://files.facepunch.com/paddy/20241107/sks_demonstration_01.mp4">
        <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
       </video>
      </div>
      <div>
-      <span>
-       To start putting together your morbid creation, first, you must slay the scarecrows and mummies that roam the lands. Once you've collected a head, torso, and legs, craft yourself a Frankenstein's table and place the body parts within it.
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20211026/monstertable_wakeup.jpg"/>
      </div>
      <div>
-      <span>
-       Awaken your new pet monster and control it by pressing "P".
-      </span>
-      <span>
-       The monster will follow your orders without question. It'll follow you around the map, defend you if attacked and help slay foes you wish to attack.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="improvedwolfai">
+  <div class="section" like-handler="LikeBlogSection" like-id="84451" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       improved wolf ai
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Hello, I'm Maverick!
+     </div>
+     <div>
+      I recently joined Facepunch to work full-time on the AI and it's been a blast so far.
+     </div>
+     <div>
+      <div>
        <br/>
-      </span>
+      </div>
+      <div>
+       This month, we're releasing the first step of a major AI overhaul. We're starting small by just updating the wolf, but long-term, the goal is to update Scientists and all other animals.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241106/rust_november_wolves_03.jpg"/>
+     </div>
+     <div>
+     </div>
+     <h2>
+      The why
+     </h2>
+     <div>
+      The current wolf feels a bit like a landmine: if you're walking around and you didn't see it or hear its footsteps, you die. That issue is of course amplified in the pitch black night.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Since wolves run faster than players, once spotted, your only options are to try to kill it before it kills you, or jump out of reach if possible.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Since the wolf charges in a straight line, you don't really have to aim and if you have a nailgun or better, it's just a matter of unloading the magazine into the animal as quickly as you can.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Assuming you spotted the wolf before it spotted you, hunting it was not really engaging. When shot from a distance, wolves don't charge and just flee very far away, often forcing you to engage in a long hike to get it's loot.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The result of this is that the wolf was either frustratingly hard to handle, or trivial, with no in between. This motivated us to reshape the wolf into something that would pose a challenge that feels fair, and can be tackled in multiple ways.
      </div>
      <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20211026/frankenstein_lab_close.jpg"/>
-     </div>
-     <div>
-      <span>
-       <br/>
-      </span>
-      <span>
-       If you're having trouble accessing the pet menu or already have a key bound to "P" then use the following console command:  bind X +pets or open the in-game controls menu.
-      </span>
-      <span>
-       <br/>
-       <br/>
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="CursedArticles">
-  <div class="section" like-handler="LikeBlogSection" like-id="84447" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Cursed Articles
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       This year, we've added three Halloween-themed items - one purchasable, and two free.
-       <br/>
-      </span>
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241106/rust_november_wolves_01.jpg"/>
      </div>
      <h2>
-      <span>
-       MASKS
-      </span>
+      The how
      </h2>
      <div>
-      Frankenstein and Mummy masks
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241024/rust_halloween_masks_02.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241024/rust_halloween_masks_03.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241024/rust_halloween_masks_01.jpg"/>
+      I could write an exhaustive list of all the new behaviors, but I think it'll be way more fun for you to experiment, and I'm confident the community will find even the cool hidden ones.
      </div>
      <div>
       <br/>
-      <span>
-      </span>
-     </div>
-     <h2>
-      Dracula Cape + Mask
-      <br/>
-     </h2>
-     <div>
-      Dracula cape &amp; mask can be found on the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
-       limited item store
-      </a>
-      .
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20231021/halloween_dracula_01.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Theriftsopen">
-  <div class="section" like-handler="LikeBlogSection" like-id="84445" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       The rifts open
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       Cultists are said to have been opening portals across the island, while others believe it's a Cobalt experiment code-named R.U.I.N gone horribly wrong.
-      </span>
      </div>
      <div>
-      <span>
-       <br/>
-      </span>
-     </div>
-     <div>
-      <span>
-       Not much is known about these portals - what they do or where they go, but only a few brave souls have entered through and made it back alive.
-       <br/>
-      </span>
+      Forget everything you know about the old wolves and just try out stuff that seems like it should work!
      </div>
      <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20221020/dungeonportal_01.jpg" src="https://files.facepunch.com/paddy/20241025/halloween_portaldoor_720p.mp4">
+      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20241107/wolves_campfire_approach.jpg" src="https://files.facepunch.com/paddy/20241107/wolves_campfire_approach.mp4">
        <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
       </video>
      </div>
-     <div>
-      <span>
-       Do you dare to enter the rift?
-      </span>
-     </div>
-     <div>
-      <br/>
-      <span>
-      </span>
-     </div>
-     <div>
-      <span>
-       Server owners can adjust the portal count using the halloweendungeon.population convar.
-      </span>
-      <span>
-      </span>
-     </div>
     </div>
    </div>
   </div>
  </div>
- <div class="news-section-block sectionstyle-hero" id="spookystoreupdate">
-  <div class="section" like-handler="LikeBlogSection" like-id="84446" targetobject="section">
+ <div class="news-section-block sectionstyle-hero" id="QUALITYOFlIFECHANGES">
+  <div class="section" like-handler="LikeBlogSection" like-id="84460" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       spooky store update
+       QUALITY OF lIFE CHANGES
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Scare yourself or your foes with the horrifyingly Halloween store items!
-      <br/>
-     </div>
-     <br/>
      <div blocktype="html" class="edit-block selected" contenteditable="false">
       <div class="columns is-multiline">
-       <div class="column is-4">
-        <a class="selected" href="https://store.steampowered.com/itemstore/252490/">
-         <img src="https://files.facepunch.com/Alistair/128/10/2024/0397/metal.facemask.hockey.skin.png"/>
-         <center>
-          <b>
-           Hockey Facemask
-          </b>
-         </center>
-        </a>
-        <center>
-         Hockey Facemask skin is a reskin of the Metal Facemask.
-        </center>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/">
-         <img src="https://files.facepunch.com/Alistair/128/10/2024/9l87/torch.skull.skin.png"/>
-         <center>
-          <b>
-           Cultist Deer Torch
-          </b>
-         </center>
-        </a>
-        <center>
-         The Cultist Deer Torch is a reskin of the starter torch.
-        </center>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/">
-         <img src="https://files.facepunch.com/Alistair/128/10/2024/1916/mace.baseballbat.png"/>
-         <center>
-          <b>
-           Baseball Bat
-          </b>
-         </center>
-        </a>
-        <center>
-         The Baseball bat is a reskin of the mace melee weapon.
-        </center>
-       </div>
-      </div>
-      <div class="columns is-multiline">
        <div class="column is-6">
-        <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/10/20/8Y15v1/skull.png"/>
-        </a>
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241106/rust_IO_arrows_1080.jpg"/>
         <center>
-         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-         </a>
-         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-          <b>
-           Skull Rock
-          </b>
-         </a>
+         <b>
+          IO Arrows
+         </b>
+        </center>
+        <center>
+         New arrows that show input/outputs when looking at IO deployables
         </center>
        </div>
        <div class="column is-6">
-        <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/10/20/5C82y1/carvable.pumpkin.png"/>
-        </a>
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241106/rust_float_on_river_1080.jpg"/>
         <center>
-         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-         </a>
-         <a href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-          <b>
-           Pumpkin Carving
-          </b>
-         </a>
+         <b>
+          Floating objects drift down rivers
+         </b>
+        </center>
+        <center>
+         Corpses, Boogie Boards, Boats now float down rivers
         </center>
        </div>
-      </div>
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10182/">
-         <img src="https://files.facepunch.com/Alistair/10/20/9b47X1/skull.gif"/>
+       <div class="columns is-multiline">
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241106/rust_cctv_hearing_1080.jpg"/>
          <center>
           <b>
-           Skull Trophy Pack
+           Hear player voices over CCTV
           </b>
          </center>
-        </a>
-        <center>
-         A decorative mount that can hold the skull of a friend or foe, including his/her name.
-         <br/>
-         <br/>
-         Comes in 4 variations
-        </center>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10183/">
-         <img src="https://files.facepunch.com/Alistair/10/20/4661P1/spike.gif"/>
+         <center>
+          Listen in on the group taking Oil Rig
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241106/rust_cctv_disable1080.jpg"/>
          <center>
           <b>
-           Skull Spike Pack
+           Disable Monument CCTV
           </b>
          </center>
-        </a>
-        <center>
-         Inflict fear into your enemies with these decorative Skulls on spikes.
-         <br/>
-         <br/>
-         Comes in 3 variations
-        </center>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10181/">
-         <img src="https://files.facepunch.com/Alistair/10/23/429581/MaleUnderwear_mummywraps.icon.png"/>
+         <center>
+          Can now damage monument CCTV cameras to disable them for 5 minutes
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241107/rust_f7_copy_1080.jpg"/>
          <center>
           <b>
-           Mummy Underwear
+           Copy Paste IDs in F7 menu
           </b>
          </center>
-        </a>
-        <center>
-         Replace your default underwear with some new spooky underwear.
-         <br/>
-         <br/>
-         No crafting required!
-        </center>
+         <center>
+          Easily get a player's ID when using the Report menu
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240924/rust_waterwell_NPC_02.jpg"/>
+         <center>
+          <b>
+           Add vendor NPC's to all Water Wells
+          </b>
+         </center>
+         <center>
+          Every Water Well variant now has killable vendor
+         </center>
+        </div>
        </div>
       </div>
      </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="GesturePackDLC">
+  <div class="section" like-handler="LikeBlogSection" like-id="84449" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Gesture Pack DLC
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
      <div>
-      <span>
-       <br/>
-      </span>
-     </div>
-     <div>
-      <span>
-       Last years Halloween items have been raised from the dead, head over to the
-      </span>
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/browse/?filter=all">
-       Rust item store
+      This month, we've added more ways for players to communicate and express themselves with the introduction of our first gesture pack - available now on
+      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10270/" target="">
+       Rust's permanent item store.
       </a>
-      <span>
-       .
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241104/gesturepack_hero_01.jpg"/>
+     </div>
+     <div>
+      The pack includes 8 new gestures:
+     </div>
+     <div>
+      <ul>
+       <li>
+        Rock Paper Scissors (Mini-game)
+        <br/>
+       </li>
+       <li>
+        Loser / L Hand
+       </li>
+       <li>
+        Knuckle Crack
+       </li>
+       <li>
+        No-No / Wagging Finger
+        <br/>
+       </li>
+       <li>
+        Cut Throat
+        <br/>
+       </li>
+       <li>
+        Shush
+       </li>
+       <li>
+        Watching You
+       </li>
+       <li>
+        Finger Gun
+       </li>
+      </ul>
+      <div>
+       NOTE: You'll need to assign the gestures to a slot on the gesture wheel 
+via our new gesture wheel customisation on the main menu under
+       <b>
+        Options &gt; Gestures
+       </b>
+       <a class="selected" href="https://rust.facepunch.com/news/november-2024#GestureWheelCustomisation">
+        (learn 
+more below)
+       </a>
+      </div>
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20241030/gesturepack_preview_base1.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      Rock Paper Scissors
+      <br/>
+     </h2>
+     <div>
+      Included in the pack is our first ever gesture minigame;
+      <b>
+       Rock Paper Scissors.
+      </b>
+     </div>
+     <div>
+      <b>
        <br/>
+      </b>
+     </div>
+     <div>
+      Trying to decide which teammate does the next farming run? Or who gets to use the L96? Now you can settle the score with a round of Rock Paper Scissors.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241106/rust_gesturepack_rps_01.jpg"/>
+     </div>
+     <div>
+      To play, select Rock Paper Scissors from the gesture wheel then wait for an opponent to interact with you to start the minigame. (Note: you'll need to
+      <a class="selected" href="https://rust.facepunch.com/news/november-2024#GestureWheelCustomisation">
+       assign the gesture to a new slot
+      </a>
+      via the main menu for it to appear on the gesture wheel)
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Once a 2nd player joins, you'll be prompted with UI to choose a hand/option to play - use the numerical keys on your keyboard to make a selection of either rock, paper or scissors. Both you and your opponent will have 10 seconds to make a choice; if the timer runs out or a player moves too far away, the mini-game will end.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      After selections are made by both parties, each player will "shoot" simultaneously on the count of three to determine a win, lose or draw result.
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false" title="">
+      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20241106/gesture_rps_preview.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      We look forward to seeing how you all use the minigame - our plan is to add similar interactive gestures in the near future.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="GestureWheelCustomisation">
+  <div class="section" like-handler="LikeBlogSection" like-id="84450" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Gesture Wheel Customisation
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       In order to support the new gesture pack, we’ve added the ability to customise your gesture wheel this month, as well as adding a new wheel so you can access double the gestures. You’ll find this in the
+       <b>
+        Options &gt; Gestures
+       </b>
+       menu.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Customising your wheel is straightforward from this menu. Simply click on a slot to change what gesture is assigned, or use RMB to clear a slot. You can access the second wheel via the arrows at the top, and use E/Q to switch between gesture wheels in-game.
+      </div>
+      <div>
+       <br/>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241105/gesturewheel_menuoption.jpg"/>
+     </div>
+     <div>
+      <div>
+       <div>
+        We’re just exposing two wheels as even with the new gestures, you won’t be able to fill them up, but we’ve now got the system built so we can add more wheels as we release more gestures down the line.
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="RadioactiveWaterBuff">
+  <div class="section" like-handler="LikeBlogSection" like-id="84453" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Radioactive Water Buff
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The introduction of Radioactive Water last month was pretty weak. We 
+felt it needed a buff to bring it in line with the original vision.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_radwater_sprinkler_01.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Here are the changes to Radioactive Water:
+      <br/>
+      <ul>
+       <li>
+        We have increased the radiation amount from sprinklers by 70%
+       </li>
+       <li>
+        We have increased the radiation amount from splashes by 40%
+       </li>
+      </ul>
+      This makes Radioactive Water the counter against full kits that it should be.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="mixingtableimprovements">
+  <div class="section" like-handler="LikeBlogSection" like-id="84457" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       mixing table improvements
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      This month I added some nice QOL improvements for the mixing table.
+     </div>
+     <ul>
+      <li>
+       You can now click a recipe to add the required ingredients to the mixing table inventory, in the correct slots.
+      </li>
+      <li>
+       Repeat clicking will stack the additional ingredients required to produce another of the same item.
+      </li>
+      <li>
+       Shift-clicking will add the ingredients for the maximum number of items you can afford to produce.
+       <br/>
+      </li>
+      <li>
+       Recipes that you cannot afford to produce are now greyed out, making it much quicker to see what you can currently create.
+      </li>
+     </ul>
+     <div>
+      Finally, I made some minor performance and memory improvements for the mixing table UI.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="FacepunchServers">
+  <div class="section" like-handler="LikeBlogSection" like-id="84465" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Facepunch Servers
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Many official Facepunch servers, especially those in Eastern and Western Europe and Eastern US, have been upgraded to new, higher-performance hardware. This long-awaited upgrade should significantly improve stability in these regions during peak time. Some servers also received a slight increase in their max player capacities.
+      <br/>
+      <br/>
+      Following this update, you may find that your favourite Facepunch server is no longer on your favourites list. To find it, please use the search bar in-game and, if needed, enable the "show empty servers" option.
+      <br/>
+      <br/>
+      Upgrades for other regions will be rolled out in the coming weeks.
+      <br/>
+      <br/>
+      All blueprints have been transferred, so no progress has been lost.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="AnticheatUpdate">
+  <div class="section" like-handler="LikeBlogSection" like-id="84458" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Anticheat Update
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Since our last anti-cheat update back in
+      <a class="selected" href="https://rust.facepunch.com/news/road-renegades#AnticheatUpdate" target="https://rust.facepunch.com/news/road-renegades#AnticheatUpdate">
+       July
+      </a>
+      , we have applied an additional 91,676 bans, 19,398 of these were temporary, and the remaining were permanent bans. Here's the breakdown per patch:
+      <b>
+       <br/>
+      </b>
+     </div>
+     <div>
+      <b>
+       <br/>
+      </b>
+     </div>
+     <div>
+      <b>
+       World Update 2.0 - October
+      </b>
+      <br/>
+      <ul>
+       <li>
+        22,473 permanent bans
+       </li>
+       <li>
+        6,735 temporary bans
+       </li>
+       <li>
+        113,580 reports
+       </li>
+      </ul>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       Time To Kill - September
+      </b>
+      <br/>
+      <ul>
+       <li>
+        14,885 permanent bans
+       </li>
+       <li>
+        5,294 temporary bans
+       </li>
+       <li>
+        77,871 reports
+       </li>
+      </ul>
+     </div>
+     <div>
+      <b>
+       <br/>
+      </b>
+     </div>
+     <div>
+      <b>
+       Stay Alert - August
+      </b>
+     </div>
+     <div>
+      <ul>
+       <li>
+        22,827 permanent bans
+       </li>
+       <li>
+        1,386 temporary bans
+       </li>
+       <li>
+        105,031 reports
+       </li>
+      </ul>
+     </div>
+     <div>
+      <b>
+       <br/>
+      </b>
+     </div>
+     <div>
+      <b>
+       Road Renegades - July
+      </b>
+      <br/>
+      <ul>
+       <li>
+        12,093 permanent bans
+       </li>
+       <li>
+        5,983 temporary bans
+       </li>
+       <li>
+        102,764 reports
+       </li>
+      </ul>
+      <div>
+       <h2>
+        <b>
+         Notes
+        </b>
+       </h2>
+       <ul>
+        <li>
+         Patch-specific report data is only 
+from Facepunch Official servers due to data reliability originating from
+ non-official servers, the total number of reports across all server 
+since July is
+         <b>
+          5.3 million
+         </b>
+         .
+        </li>
+        <li>
+         Patch-specific ban data is global, and counts for all Facepunch applied game bans across any servers
+         <br/>
+        </li>
+        <li>
+         Bans that were later reverted are excluded from these metrics.
+        </li>
+        <li>
+         Bans
+ are placed for multiple reasons. The numbers above do not strictly 
+reflect only cheat-related bans, but cheat-related bans make up the vast
+ majority of bans.
+        </li>
+        <li>
+         A single player can receive 
+multiple bans, for example, if a user is temporarily banned and then 
+later switched to a permanent ban, this is counted as 2 bans in the 
+above metrics.
+        </li>
+       </ul>
+       <div>
+        The above is to provide context and transparency, not to state we're 
+doing a good job, there is much more to be done in this area, and we are continuing to
+ work on it.
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        <h2>
+         <b>
+          Next
+         </b>
+        </h2>
+        <div>
+         In July, I talked about server-side player culling, if a player is behind a hill and you can't see them, don't network the player. We feel we've done all we can in internal testing and will now roll out this change slowly across all official servers starting this month.
+         <br/>
+        </div>
+        <div>
+         <br/>
+        </div>
+        <div>
+         We teamed up with a third party to handle takedowns on our behalf. One of the core objectives is aimed at cheat-related material. The takedowns will be made at the request of Facepunch staff after manual review. There is no automation, and there is no room for innocent content to be taken down.
+         <br/>
+         <br/>
+         <ul>
+          <li>
+           We've taken down over 1200 cheats-related media on social platforms.
+          </li>
+          <li>
+           We're working continuing to work on several other legal fronts to disrupt cheaters.
+           <br/>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="CopyPaste">
+  <div class="section" like-handler="LikeBlogSection" like-id="84459" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Copy Paste
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       Copy Paste is a new admin tool that allows server admins to copy, paste &amp; save bases!
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       This brings a number of improvements; such as speeding up testing on staging, and allowing admins to submit a copy of a base alongside bug reports.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       If you are interested, head over to the
+       <a class="selected" href="https://wiki.facepunch.com/rust/CopyPaste">
+        wiki page
+       </a>
+       to learn more!
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="TwitchdropsRustKingdomsreturns">
+  <div class="section" like-handler="LikeBlogSection" like-id="84461" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Twitch drops - Rust Kingdoms returns
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       Rust Kingdoms returns! The ultimate battle for control begins this Friday on
+       <a class="" href="https://www.twitch.tv/directory/category/rust" target="https://www.twitch.tv/directory/category/rust">
+        Twitch
+       </a>
+       !
+       <br/>
+       <br/>
+       Watch live as some of the biggest creators both in and out of the Rust scene stake their claim for the throne, through serving/defying their masters, picking battles carefully, or risking all their rewards - who will rule the kingdom by Sunday 17th?
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b0611b1/twitch-drops-35_rustkingdoms_blog.jpg"/>
+     </div>
+     <div>
+      <span>
+       Event hosted by Rustoria.
+       <br/>
+      </span>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+     </div>
+     <div>
+      <span>
+       Don't miss out on lots of epic Twitch Drops too! You can sync your account at any time
+       <a class="" href="https://twitch.facepunch.com/" target="https://twitch.facepunch.com/">
+        here
+       </a>
+       .
       </span>
       <br/>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero right" id="flashsale40offrustthisweekend">
+  <div class="section" like-handler="LikeBlogSection" like-id="84463" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       flash sale - 40% off rust this weekend!
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0711b1/rust-november-sale_16x9.png"/>
+     </div>
+     <div>
+      In case you or your friends missed the World Update 2.0 sale, the game is now 40% off again for this weekend!
+      <br/>
+      <br/>
+      This also includes all
+      <a class="" href="https://store.steampowered.com/dlc/252490/Rust/" target="https://store.steampowered.com/dlc/252490/Rust/">
+       standalone DLC
+      </a>
+      on the Steam store
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Head on over to
+      <a class="" href="https://store.steampowered.com/app/252490?utm_source=blog_campaign=aanda_medium=blog" target="https://store.steampowered.com/app/252490?utm_source=blog_campaign=aanda_medium=blog">
+       Steam
+      </a>
+      to take advantage of this 48 hour sale, just in time for this month's wipe and the latest patch update.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Armed and Animated
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       November 2024 Changelog
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Thursday, November 7, 2024
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
+    </div>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          T1 Handmade SMG
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          T3 SKS
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Gesture Pack
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added Gesture Wheel customisation
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Replaced old cliffs and rocks in monuments with the new ones
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved wolf AI
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Copy Paste
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved radio frequency IO items server performance
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Vending machines with custom names now appear in the F1 UGC admin panel
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Implemented PR #61 in CUI - Steam avatar support (thanks rostov114)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added NPC vendors to all Water Well variants
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Player in-game voice chat and music can now be heard over CCTV feeds
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Player SteamId can now be copied in the F7 report menu
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Changed outfit of military tunnel scientists to the NVG outfit
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Monument cctv cameras will now be disabled for 5 minutes after taking damage
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          IO ports will now show arrows for the inputs &amp; outputs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          You can now surrender whilst ducking
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admins can now hold left Alt to use an orbit camera when in third persion view.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Teleportpos admin command now has more consistent behaviour.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Buoyant objects now properly follow the flow of water on rivers and near the shoreline.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reworked Large Backpack model to allow for easier workshop skinning
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reworked Flashlights &amp; Miner Hat, and fixed the inconsistent light output for wearer vs others.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added small rock formations that spawn around hill cliffs.
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed halloween candies spawning inside cliffs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed halloween hunt chat score announcement typo
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed CCTV camera being used to see through geometry - we now show interferences when the camera eyes are clipping
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed binoculars screen overlay being affected by the UI scale setting
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an error when multiple people are talking to an NPC and one player accepts a mission
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed not being able to place elevators too close to rocks or ice
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Ensured a player dies if they manage to clip into the bottom of Cargoship
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          'npc_spawn_on_cargo_ship' command now works as it should
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed divesites despawning and taking loot with it even if a player was nearby
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed patrol helicopter crashing at bunker entrances
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an NRE that occurred on the server in Travelling Vendor::IgnorePlayer
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the Travelling Vendor spawning on top of stuff inside Radtown
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the Travelling Vendor spawn sequence not trying multiple spawn locations should the first one fail
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the Travelling Vendor spawn location being guessable
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed divesite buoys being able to spawn on top of a player
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed issues with Bradley when moving through Radtown
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed server NRE occurring in patrol helicopters orbit strafe
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed quarry appearing to be turned off when 100m+ away
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed computer station input field losing focus after entering each camera
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed water jug dumping on ground if leaving water while filling
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed crafting queue showing '0s left' when re-ordering crafting queue
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed radiation protection showing at 10 when it was only 9 for certain clothing combinations
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed planters not receiving rain water between the hours of 8pm and 10am
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Optimized HBHF sensor server performance
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed various conditions where players would get stuck inside of objects
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed various cloth-related issues with the Dracula Cape
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed hand model clipping through gloves on many of the glove types
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed holes behind coastal cliffs appearing on some seeds
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed incorrect Rad tea dropping in Water Well food caches
+         </div>
+        </li>
+       </ul>
+      </div>
      </div>
     </div>
    </div>
@@ -997,7 +2408,7 @@ And to remind ourselves that we couldn't have done it without you, the players a
 </div>
 <center>
 </center><center>]]></description>
-      <pubDate>Mon, 28 Oct 2024 01:55:00 Z</pubDate>
+      <pubDate>Thu, 07 Nov 2024 04:49:00 Z</pubDate>
     </item>
     <item>
       <title>Community Update 263</title>
@@ -3722,1417 +5133,6 @@ net.Send(new SendInfo(conn));
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 05 Dec 2024 02:40:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Armed and Animated</title>
-      <link>https://rust.facepunch.com/news/armed-and-animated/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Armed and Animated
-    </h1>
-    <p editname="Summary" type="text">
-     This month's update brings you TWO new weapons - the handmade SMG and SKS rifle, additionally, new and improved wolf AI, Gesture Pack DLC, plus the usual bug fixes &amp; QoL changes!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      07 November 2024
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="t1HandmadeSMG">
-  <div class="section" like-handler="LikeBlogSection" like-id="84454" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       t1 Handmade SMG
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month, we're adding new weapons. Firstly, filling a gap in the weapon lineup, the Handmade SMG is unlockable near the end of the T1 tech tree.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241107/rust_t1smg_inspect_01.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241107/rust_t1smg_workbench_01.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241107/rust_t1smg_workbench_02.jpg"/>
-     </div>
-     <div>
-      While it lacks accuracy and raw damage, it compensates for this with 
-sheer volume, letting players unleash a hail of bullets. Skilled 
-survivors can use it to stay competitive by timing their attacks and 
-positioning themselves carefully, allowing for surprise bursts against 
-better-equipped foes.
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20241107/t1smg_demonstration_01.jpg" src="https://files.facepunch.com/paddy/20241107/t1smg_demonstration_01.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="SKS">
-  <div class="section" like-handler="LikeBlogSection" like-id="84455" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       SKS
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Unlockable at the start of the T3 tech tree, the SKS bridges the gap between the SAR and the M39. This mid-tier powerhouse combines punchy damage with accuracy, making it a reliable pick for players who want a no-nonsense rifle with solid range and stopping power. The SKS delivers balanced performance with a kick that seasoned survivors will appreciate.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240430/SKS_hero_01.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240430/SKS_hero_03.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240430/SKS_hero_04.jpg"/>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20241107/sks_demonstration_01.jpg" src="https://files.facepunch.com/paddy/20241107/sks_demonstration_01.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="improvedwolfai">
-  <div class="section" like-handler="LikeBlogSection" like-id="84451" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       improved wolf ai
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Hello, I'm Maverick!
-     </div>
-     <div>
-      I recently joined Facepunch to work full-time on the AI and it's been a blast so far.
-     </div>
-     <div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       This month, we're releasing the first step of a major AI overhaul. We're starting small by just updating the wolf, but long-term, the goal is to update Scientists and all other animals.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241106/rust_november_wolves_03.jpg"/>
-     </div>
-     <div>
-     </div>
-     <h2>
-      The why
-     </h2>
-     <div>
-      The current wolf feels a bit like a landmine: if you're walking around and you didn't see it or hear its footsteps, you die. That issue is of course amplified in the pitch black night.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Since wolves run faster than players, once spotted, your only options are to try to kill it before it kills you, or jump out of reach if possible.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Since the wolf charges in a straight line, you don't really have to aim and if you have a nailgun or better, it's just a matter of unloading the magazine into the animal as quickly as you can.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Assuming you spotted the wolf before it spotted you, hunting it was not really engaging. When shot from a distance, wolves don't charge and just flee very far away, often forcing you to engage in a long hike to get it's loot.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The result of this is that the wolf was either frustratingly hard to handle, or trivial, with no in between. This motivated us to reshape the wolf into something that would pose a challenge that feels fair, and can be tackled in multiple ways.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241106/rust_november_wolves_01.jpg"/>
-     </div>
-     <h2>
-      The how
-     </h2>
-     <div>
-      I could write an exhaustive list of all the new behaviors, but I think it'll be way more fun for you to experiment, and I'm confident the community will find even the cool hidden ones.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Forget everything you know about the old wolves and just try out stuff that seems like it should work!
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20241107/wolves_campfire_approach.jpg" src="https://files.facepunch.com/paddy/20241107/wolves_campfire_approach.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="QUALITYOFlIFECHANGES">
-  <div class="section" like-handler="LikeBlogSection" like-id="84460" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       QUALITY OF lIFE CHANGES
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241106/rust_IO_arrows_1080.jpg"/>
-        <center>
-         <b>
-          IO Arrows
-         </b>
-        </center>
-        <center>
-         New arrows that show input/outputs when looking at IO deployables
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241106/rust_float_on_river_1080.jpg"/>
-        <center>
-         <b>
-          Floating objects drift down rivers
-         </b>
-        </center>
-        <center>
-         Corpses, Boogie Boards, Boats now float down rivers
-        </center>
-       </div>
-       <div class="columns is-multiline">
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241106/rust_cctv_hearing_1080.jpg"/>
-         <center>
-          <b>
-           Hear player voices over CCTV
-          </b>
-         </center>
-         <center>
-          Listen in on the group taking Oil Rig
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241106/rust_cctv_disable1080.jpg"/>
-         <center>
-          <b>
-           Disable Monument CCTV
-          </b>
-         </center>
-         <center>
-          Can now damage monument CCTV cameras to disable them for 5 minutes
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241107/rust_f7_copy_1080.jpg"/>
-         <center>
-          <b>
-           Copy Paste IDs in F7 menu
-          </b>
-         </center>
-         <center>
-          Easily get a player's ID when using the Report menu
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240924/rust_waterwell_NPC_02.jpg"/>
-         <center>
-          <b>
-           Add vendor NPC's to all Water Wells
-          </b>
-         </center>
-         <center>
-          Every Water Well variant now has killable vendor
-         </center>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="GesturePackDLC">
-  <div class="section" like-handler="LikeBlogSection" like-id="84449" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Gesture Pack DLC
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month, we've added more ways for players to communicate and express themselves with the introduction of our first gesture pack - available now on
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10270/" target="">
-       Rust's permanent item store.
-      </a>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241104/gesturepack_hero_01.jpg"/>
-     </div>
-     <div>
-      The pack includes 8 new gestures:
-     </div>
-     <div>
-      <ul>
-       <li>
-        Rock Paper Scissors (Mini-game)
-        <br/>
-       </li>
-       <li>
-        Loser / L Hand
-       </li>
-       <li>
-        Knuckle Crack
-       </li>
-       <li>
-        No-No / Wagging Finger
-        <br/>
-       </li>
-       <li>
-        Cut Throat
-        <br/>
-       </li>
-       <li>
-        Shush
-       </li>
-       <li>
-        Watching You
-       </li>
-       <li>
-        Finger Gun
-       </li>
-      </ul>
-      <div>
-       NOTE: You'll need to assign the gestures to a slot on the gesture wheel 
-via our new gesture wheel customisation on the main menu under
-       <b>
-        Options &gt; Gestures
-       </b>
-       <a class="selected" href="https://rust.facepunch.com/news/november-2024#GestureWheelCustomisation">
-        (learn 
-more below)
-       </a>
-      </div>
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20241030/gesturepack_preview_base1.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      Rock Paper Scissors
-      <br/>
-     </h2>
-     <div>
-      Included in the pack is our first ever gesture minigame;
-      <b>
-       Rock Paper Scissors.
-      </b>
-     </div>
-     <div>
-      <b>
-       <br/>
-      </b>
-     </div>
-     <div>
-      Trying to decide which teammate does the next farming run? Or who gets to use the L96? Now you can settle the score with a round of Rock Paper Scissors.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241106/rust_gesturepack_rps_01.jpg"/>
-     </div>
-     <div>
-      To play, select Rock Paper Scissors from the gesture wheel then wait for an opponent to interact with you to start the minigame. (Note: you'll need to
-      <a class="selected" href="https://rust.facepunch.com/news/november-2024#GestureWheelCustomisation">
-       assign the gesture to a new slot
-      </a>
-      via the main menu for it to appear on the gesture wheel)
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Once a 2nd player joins, you'll be prompted with UI to choose a hand/option to play - use the numerical keys on your keyboard to make a selection of either rock, paper or scissors. Both you and your opponent will have 10 seconds to make a choice; if the timer runs out or a player moves too far away, the mini-game will end.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      After selections are made by both parties, each player will "shoot" simultaneously on the count of three to determine a win, lose or draw result.
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false" title="">
-      <video autoplay="" class="lightbox-thumbnail" crossorigin="anonymous" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20241106/gesture_rps_preview.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      We look forward to seeing how you all use the minigame - our plan is to add similar interactive gestures in the near future.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="GestureWheelCustomisation">
-  <div class="section" like-handler="LikeBlogSection" like-id="84450" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Gesture Wheel Customisation
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       In order to support the new gesture pack, we’ve added the ability to customise your gesture wheel this month, as well as adding a new wheel so you can access double the gestures. You’ll find this in the
-       <b>
-        Options &gt; Gestures
-       </b>
-       menu.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Customising your wheel is straightforward from this menu. Simply click on a slot to change what gesture is assigned, or use RMB to clear a slot. You can access the second wheel via the arrows at the top, and use E/Q to switch between gesture wheels in-game.
-      </div>
-      <div>
-       <br/>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241105/gesturewheel_menuoption.jpg"/>
-     </div>
-     <div>
-      <div>
-       <div>
-        We’re just exposing two wheels as even with the new gestures, you won’t be able to fill them up, but we’ve now got the system built so we can add more wheels as we release more gestures down the line.
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="RadioactiveWaterBuff">
-  <div class="section" like-handler="LikeBlogSection" like-id="84453" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Radioactive Water Buff
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The introduction of Radioactive Water last month was pretty weak. We 
-felt it needed a buff to bring it in line with the original vision.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240928/rust_radwater_sprinkler_01.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Here are the changes to Radioactive Water:
-      <br/>
-      <ul>
-       <li>
-        We have increased the radiation amount from sprinklers by 70%
-       </li>
-       <li>
-        We have increased the radiation amount from splashes by 40%
-       </li>
-      </ul>
-      This makes Radioactive Water the counter against full kits that it should be.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="mixingtableimprovements">
-  <div class="section" like-handler="LikeBlogSection" like-id="84457" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       mixing table improvements
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month I added some nice QOL improvements for the mixing table.
-     </div>
-     <ul>
-      <li>
-       You can now click a recipe to add the required ingredients to the mixing table inventory, in the correct slots.
-      </li>
-      <li>
-       Repeat clicking will stack the additional ingredients required to produce another of the same item.
-      </li>
-      <li>
-       Shift-clicking will add the ingredients for the maximum number of items you can afford to produce.
-       <br/>
-      </li>
-      <li>
-       Recipes that you cannot afford to produce are now greyed out, making it much quicker to see what you can currently create.
-      </li>
-     </ul>
-     <div>
-      Finally, I made some minor performance and memory improvements for the mixing table UI.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="FacepunchServers">
-  <div class="section" like-handler="LikeBlogSection" like-id="84465" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Facepunch Servers
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Many official Facepunch servers, especially those in Eastern and Western Europe and Eastern US, have been upgraded to new, higher-performance hardware. This long-awaited upgrade should significantly improve stability in these regions during peak time. Some servers also received a slight increase in their max player capacities.
-      <br/>
-      <br/>
-      Following this update, you may find that your favourite Facepunch server is no longer on your favourites list. To find it, please use the search bar in-game and, if needed, enable the "show empty servers" option.
-      <br/>
-      <br/>
-      Upgrades for other regions will be rolled out in the coming weeks.
-      <br/>
-      <br/>
-      All blueprints have been transferred, so no progress has been lost.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="AnticheatUpdate">
-  <div class="section" like-handler="LikeBlogSection" like-id="84458" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Anticheat Update
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Since our last anti-cheat update back in
-      <a class="selected" href="https://rust.facepunch.com/news/road-renegades#AnticheatUpdate" target="https://rust.facepunch.com/news/road-renegades#AnticheatUpdate">
-       July
-      </a>
-      , we have applied an additional 91,676 bans, 19,398 of these were temporary, and the remaining were permanent bans. Here's the breakdown per patch:
-      <b>
-       <br/>
-      </b>
-     </div>
-     <div>
-      <b>
-       <br/>
-      </b>
-     </div>
-     <div>
-      <b>
-       World Update 2.0 - October
-      </b>
-      <br/>
-      <ul>
-       <li>
-        22,473 permanent bans
-       </li>
-       <li>
-        6,735 temporary bans
-       </li>
-       <li>
-        113,580 reports
-       </li>
-      </ul>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       Time To Kill - September
-      </b>
-      <br/>
-      <ul>
-       <li>
-        14,885 permanent bans
-       </li>
-       <li>
-        5,294 temporary bans
-       </li>
-       <li>
-        77,871 reports
-       </li>
-      </ul>
-     </div>
-     <div>
-      <b>
-       <br/>
-      </b>
-     </div>
-     <div>
-      <b>
-       Stay Alert - August
-      </b>
-     </div>
-     <div>
-      <ul>
-       <li>
-        22,827 permanent bans
-       </li>
-       <li>
-        1,386 temporary bans
-       </li>
-       <li>
-        105,031 reports
-       </li>
-      </ul>
-     </div>
-     <div>
-      <b>
-       <br/>
-      </b>
-     </div>
-     <div>
-      <b>
-       Road Renegades - July
-      </b>
-      <br/>
-      <ul>
-       <li>
-        12,093 permanent bans
-       </li>
-       <li>
-        5,983 temporary bans
-       </li>
-       <li>
-        102,764 reports
-       </li>
-      </ul>
-      <div>
-       <h2>
-        <b>
-         Notes
-        </b>
-       </h2>
-       <ul>
-        <li>
-         Patch-specific report data is only 
-from Facepunch Official servers due to data reliability originating from
- non-official servers, the total number of reports across all server 
-since July is
-         <b>
-          5.3 million
-         </b>
-         .
-        </li>
-        <li>
-         Patch-specific ban data is global, and counts for all Facepunch applied game bans across any servers
-         <br/>
-        </li>
-        <li>
-         Bans that were later reverted are excluded from these metrics.
-        </li>
-        <li>
-         Bans
- are placed for multiple reasons. The numbers above do not strictly 
-reflect only cheat-related bans, but cheat-related bans make up the vast
- majority of bans.
-        </li>
-        <li>
-         A single player can receive 
-multiple bans, for example, if a user is temporarily banned and then 
-later switched to a permanent ban, this is counted as 2 bans in the 
-above metrics.
-        </li>
-       </ul>
-       <div>
-        The above is to provide context and transparency, not to state we're 
-doing a good job, there is much more to be done in this area, and we are continuing to
- work on it.
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        <h2>
-         <b>
-          Next
-         </b>
-        </h2>
-        <div>
-         In July, I talked about server-side player culling, if a player is behind a hill and you can't see them, don't network the player. We feel we've done all we can in internal testing and will now roll out this change slowly across all official servers starting this month.
-         <br/>
-        </div>
-        <div>
-         <br/>
-        </div>
-        <div>
-         We teamed up with a third party to handle takedowns on our behalf. One of the core objectives is aimed at cheat-related material. The takedowns will be made at the request of Facepunch staff after manual review. There is no automation, and there is no room for innocent content to be taken down.
-         <br/>
-         <br/>
-         <ul>
-          <li>
-           We've taken down over 1200 cheats-related media on social platforms.
-          </li>
-          <li>
-           We're working continuing to work on several other legal fronts to disrupt cheaters.
-           <br/>
-          </li>
-         </ul>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="CopyPaste">
-  <div class="section" like-handler="LikeBlogSection" like-id="84459" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Copy Paste
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       Copy Paste is a new admin tool that allows server admins to copy, paste &amp; save bases!
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       This brings a number of improvements; such as speeding up testing on staging, and allowing admins to submit a copy of a base alongside bug reports.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       If you are interested, head over to the
-       <a class="selected" href="https://wiki.facepunch.com/rust/CopyPaste">
-        wiki page
-       </a>
-       to learn more!
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="TwitchdropsRustKingdomsreturns">
-  <div class="section" like-handler="LikeBlogSection" like-id="84461" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Twitch drops - Rust Kingdoms returns
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       Rust Kingdoms returns! The ultimate battle for control begins this Friday on
-       <a class="" href="https://www.twitch.tv/directory/category/rust" target="https://www.twitch.tv/directory/category/rust">
-        Twitch
-       </a>
-       !
-       <br/>
-       <br/>
-       Watch live as some of the biggest creators both in and out of the Rust scene stake their claim for the throne, through serving/defying their masters, picking battles carefully, or risking all their rewards - who will rule the kingdom by Sunday 17th?
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b0611b1/twitch-drops-35_rustkingdoms_blog.jpg"/>
-     </div>
-     <div>
-      <span>
-       Event hosted by Rustoria.
-       <br/>
-      </span>
-     </div>
-     <div>
-      <span>
-       <br/>
-      </span>
-     </div>
-     <div>
-      <span>
-       Don't miss out on lots of epic Twitch Drops too! You can sync your account at any time
-       <a class="" href="https://twitch.facepunch.com/" target="https://twitch.facepunch.com/">
-        here
-       </a>
-       .
-      </span>
-      <br/>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero right" id="flashsale40offrustthisweekend">
-  <div class="section" like-handler="LikeBlogSection" like-id="84463" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       flash sale - 40% off rust this weekend!
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0711b1/rust-november-sale_16x9.png"/>
-     </div>
-     <div>
-      In case you or your friends missed the World Update 2.0 sale, the game is now 40% off again for this weekend!
-      <br/>
-      <br/>
-      This also includes all
-      <a class="" href="https://store.steampowered.com/dlc/252490/Rust/" target="https://store.steampowered.com/dlc/252490/Rust/">
-       standalone DLC
-      </a>
-      on the Steam store
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Head on over to
-      <a class="" href="https://store.steampowered.com/app/252490?utm_source=blog_campaign=aanda_medium=blog" target="https://store.steampowered.com/app/252490?utm_source=blog_campaign=aanda_medium=blog">
-       Steam
-      </a>
-      to take advantage of this 48 hour sale, just in time for this month's wipe and the latest patch update.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="change-blog-container">
-  <div class="container">
-   <div class="changes-container" id="changelist">
-    <div class="changes-sidebar">
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Patch Name
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Armed and Animated
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Changelist Title
-      </span>
-      <a class="title" style="text-decoration: none;">
-       November 2024 Changelog
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <a class="date" style="text-decoration: none;">
-       <span class="icon">
-        <i>
-         date_range
-        </i>
-       </span>
-       Thursday, November 7, 2024
-      </a>
-     </div>
-     <div class="sidebar-section">
-     </div>
-    </div>
-    <div class="changes-body">
-     <div class="changes-row features">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         add_circle
-        </i>
-       </span>
-       <h3>
-        Features
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          T1 Handmade SMG
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          T3 SKS
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Gesture Pack
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added Gesture Wheel customisation
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Replaced old cliffs and rocks in monuments with the new ones
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved wolf AI
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Copy Paste
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row improvements">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         arrow_circle_up
-        </i>
-       </span>
-       <h3>
-        Improvements
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved radio frequency IO items server performance
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Vending machines with custom names now appear in the F1 UGC admin panel
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Implemented PR #61 in CUI - Steam avatar support (thanks rostov114)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added NPC vendors to all Water Well variants
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Player in-game voice chat and music can now be heard over CCTV feeds
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Player SteamId can now be copied in the F7 report menu
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Changed outfit of military tunnel scientists to the NVG outfit
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Monument cctv cameras will now be disabled for 5 minutes after taking damage
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          IO ports will now show arrows for the inputs &amp; outputs
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          You can now surrender whilst ducking
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Admins can now hold left Alt to use an orbit camera when in third persion view.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Teleportpos admin command now has more consistent behaviour.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Buoyant objects now properly follow the flow of water on rivers and near the shoreline.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reworked Large Backpack model to allow for easier workshop skinning
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reworked Flashlights &amp; Miner Hat, and fixed the inconsistent light output for wearer vs others.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added small rock formations that spawn around hill cliffs.
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row fixed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         handyman
-        </i>
-       </span>
-       <h3>
-        Fixed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed halloween candies spawning inside cliffs
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed halloween hunt chat score announcement typo
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed CCTV camera being used to see through geometry - we now show interferences when the camera eyes are clipping
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed binoculars screen overlay being affected by the UI scale setting
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an error when multiple people are talking to an NPC and one player accepts a mission
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed not being able to place elevators too close to rocks or ice
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Ensured a player dies if they manage to clip into the bottom of Cargoship
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          'npc_spawn_on_cargo_ship' command now works as it should
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed divesites despawning and taking loot with it even if a player was nearby
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed patrol helicopter crashing at bunker entrances
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an NRE that occurred on the server in Travelling Vendor::IgnorePlayer
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed the Travelling Vendor spawning on top of stuff inside Radtown
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed the Travelling Vendor spawn sequence not trying multiple spawn locations should the first one fail
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed the Travelling Vendor spawn location being guessable
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed divesite buoys being able to spawn on top of a player
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed issues with Bradley when moving through Radtown
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed server NRE occurring in patrol helicopters orbit strafe
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed quarry appearing to be turned off when 100m+ away
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed computer station input field losing focus after entering each camera
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed water jug dumping on ground if leaving water while filling
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed crafting queue showing '0s left' when re-ordering crafting queue
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed radiation protection showing at 10 when it was only 9 for certain clothing combinations
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed planters not receiving rain water between the hours of 8pm and 10am
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Optimized HBHF sensor server performance
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed various conditions where players would get stuck inside of objects
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed various cloth-related issues with the Dracula Cape
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed hand model clipping through gloves on many of the glove types
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed holes behind coastal cliffs appearing on some seeds
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed incorrect Rad tea dropping in Water Well food caches
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 07 Nov 2024 04:49:00 Z</pubDate>
     </item>
   </channel>
 </rss>
