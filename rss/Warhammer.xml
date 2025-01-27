@@ -1,6 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Hotfix #58 (1.6.5) - Patch Notes</title>
+      <link>https://store.steampowered.com/news/app/1361210/view/536592036258645046</link>
+      <description><![CDATA[
+<style>
+        [data-focus-scheme="dark"] {
+            color-scheme: none;
+        }
+    </style>
+<img src="https://clan.fastly.steamstatic.com/images/38365286/465a2dc3a25ffc297e2644fa2f8b52ce9307794e.png"/><br/><br/><div class="bb_h1">Hey Everyone, </div>We’ve got our first Hotfix (#58 aka 1.6.5) for the year ready for everyone now. It’s begun to roll out across all of our platforms and it’ll begin to be available shortly. Players might want to relog to access the new servers.<br/><ul class="bb_ul"><li>Re: Stalls and disconnects on console. <br/><ul class="bb_ul"><li>We are continuing to investigate the increased rate of stalls causing disconnects on console. We’ve seen this happens more frequently in high intensity missions such as higher levels of Havoc and Auric Maelstrom missions. We have some initial ideas on what might help with these disconnects and we have included those fixes in this patch. <br/></li><li>We have additional fixes in the works for the next update as well. As the hotfix rolls out, we’ll continue to monitor player comments to see if there have been improvements, as well as checking data on our end.</li></ul></li></ul> <ul class="bb_ul"><li> [Console] Fixed a rare crash which could happen when suspending the game immediately after launching it. <br/></li><li> Fixed an uncommon crash which could happen when a player joined a Strike Team through the Party Finder due to the game failing to retrieve their profile data.<br/></li><li> Small improvements to memory usage for UI code. <br/></li><li> Improved presentation of the Weapons and Curios icons. The icons will now appear smaller, but better aligned and with more of the item visible. <br/></li><li> Fixed UI crash that can happen while showcasing the mastery progression in the end of round. <br/></li><li> Fixed some typos and incorrect translations.<br/></li><li> Fixed an issue where the description text of the Special action was overlapping with the UI in the Inspect screen for the Blaze Force Greatsword weapon family.<br/></li><li> Fixed an issue where the Quickplay “Select Threat Level” UI element was misplaced in the Mission Board menu.<br/></li><li> Fixed an issue where an incorrect image could be displayed when receiving a Party Finder invitation while already participating in a mission.<br/></li><li> Fixed a missing texture issue that sometimes resulted in a crash.  <br/></li><li> Fixed an issue with missing physics and stretching materials on the Veteran “Desert Hood (Dune camo)” headgear cosmetic.  <br/></li><li> Fixed an issue where the eyebrow would be removed while wearing the Zealot “Votarist's Pot Helm with Rebreather” headgear cosmetic.  <br/></li><li> Fixed the scaling of the decal on the side of the Psyker “Krieg Witch Mask (Krieg 143rd, Shadow Ops)” headgear cosmetic.  <br/></li><li> Fixed an issue where the eyebrow would be removed while wearing the Ogryn “Mark XII Brute Model Cranial Implant (Size XXXXL)” headgear cosmetic.  </li></ul><img src="https://clan.fastly.steamstatic.com/images/38365286/a65c70af1027202631df9d22270d8a366b72f32d.png"/>]]></description>
+      <pubDate>Mon, 27 Jan 2025 10:25:58 +0000</pubDate>
+    </item>
+    <item>
       <title>"DLC of your dreams" community survey - give us your feedback!</title>
       <link>https://store.steampowered.com/news/app/2186680/view/503940938959160186</link>
       <description><![CDATA[
@@ -49,18 +61,6 @@ We've asked you about this in Pathfinder, and the time has come to do the same f
     </style>
 Lord Captains! <br/><br/>We are deploying an update to resolve some of the frequently reported desync cases in co-op. <br/><br/>While this update should improve the situation, it does not yet cover all known cases. We are still in the process of investigating and fixing more of them, and will deploy another update as soon as possible.<br/><br/>It will help if you report any desyncs you encounter via the bug report tool! Can be done by pressing ALT+B or pushing both sticks on a controller at once.<br/><br/>Note that https://steamcommunity.com/app/2186680/discussions/0/4027970580228219058/ always contains up-to-date information on known issues and the roadmap of upcoming patches.<br/><br/><div class="bb_h2">Patch notes:</div><br/><ul class="bb_ul"><li> Fixed a few desync issues caused by Desperate Measures;<br/></li><li> Fixed a few desync issues caused by Cassia’s Lidless Stare;<br/></li><li> Fixed a few desync issues caused by Grand Strategist’s stratagems;<br/></li><li> Fixed desync issues caused by hovering the cursor over Apexalium Stimulant in combat;<br/></li><li> Fixed desync issues caused by opening the inventory in combat;<br/></li><li> Fixed desync issues caused by quickly clicking through the items in the inventory;<br/></li><li> Fixed desync issues caused by certain sequences of attacks and abilities;</li></ul>]]></description>
       <pubDate>Wed, 22 Jan 2025 10:53:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Abelard, announce that over 1 million Warrants of Trade have been claimed!</title>
-      <link>https://store.steampowered.com/news/app/2186680/view/764023459821912840</link>
-      <description><![CDATA[
-<style>
-        [data-focus-scheme="dark"] {
-            color-scheme: none;
-        }
-    </style>
-Abelard, announce that over 1 million Lord Captains have claimed their Warrant of Trade and ventured boldly into the Koronus Expanse! <br/><br/>To be the paragon of Humanity, unbroken by adversity, to walk bravely first into darkness, to unite and reclaim what was lost, to triumph over nightmares untold, to hold boldly the reins of fate, to walk steadily the road of thorns, through pain to greatness.<br/><br/>This was no easy task, but you have succeeded, Lord Captains.<br/><br/>The Emperor protects!<br/><br/><img src="https://clan.fastly.steamstatic.com/images/43222021/60db023bbb78af0550692d663b79668c31b9164e.jpg"/>]]></description>
-      <pubDate>Tue, 21 Jan 2025 16:12:49 +0000</pubDate>
     </item>
   </channel>
 </rss>
