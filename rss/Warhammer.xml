@@ -1,6 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Hotfix #59 (1.6.6) - Patch Notes</title>
+      <link>https://store.steampowered.com/news/app/1361210/view/536592669875372717</link>
+      <description><![CDATA[
+<style>
+        [data-focus-scheme="dark"] {
+            color-scheme: none;
+        }
+    </style>
+<img src="https://clan.fastly.steamstatic.com/images/38365286/cd496fffc43c60ab11e722fa5cb0bcecbf0ffd98.png"/><br/><br/><div class="bb_h1">Hey Everyone,</div>As mentioned in our last post, Update on Hotfix #58 (1.6.5), there as an issue in the game that could cause some players to crash when interacting with the Sacrifice function at the Shrine of the Omnissiah.<br/><br/>This was fixed in today’s hotfix.<br/><br/><ul class="bb_ul"><li> Fixed a crash that would happen when accessing the Sacrifice or Discard menus without any available weapon to sacrifice/discard, or when returning to the above menus after having sacrificed/discarded all the available weapons for that character.</li></ul><img src="https://clan.fastly.steamstatic.com/images/38365286/a65c70af1027202631df9d22270d8a366b72f32d.png"/>]]></description>
+      <pubDate>Mon, 03 Feb 2025 11:56:13 +0000</pubDate>
+    </item>
+    <item>
       <title>January Community Update</title>
       <link>https://store.steampowered.com/news/app/2183900/view/529836636819686186</link>
       <description><![CDATA[
@@ -50,18 +62,6 @@ Steam X Facebook Instagram Discord [url=https://bsky.app/profile/totalwar.bsky.s
     </style>
 <img src="https://clan.fastly.steamstatic.com/images/38365286/465a2dc3a25ffc297e2644fa2f8b52ce9307794e.png"/><br/><br/><div class="bb_h1">Hi Everyone,</div><br/>After our latest hotfix went live today, we noticed a crash can occur when some players access the Sacrifice area with Hadron and the Shrine of the Omnissiah.<br/><br/><i>For now, we recommend players to avoid Sacrificing any weapons.</i><br/>We are already working on another hotfix to address this crash. It will be coming out ASAP.<br/><br/>Thank you,<br/><br/>The Darktide Team<br/><br/><img src="https://clan.fastly.steamstatic.com/images/38365286/a65c70af1027202631df9d22270d8a366b72f32d.png"/>]]></description>
       <pubDate>Mon, 27 Jan 2025 18:18:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rogue Trader Collector's Editions - last batch available at merch.warhammer.com</title>
-      <link>https://store.steampowered.com/news/app/2186680/view/503940938959160344</link>
-      <description><![CDATA[
-<style>
-        [data-focus-scheme="dark"] {
-            color-scheme: none;
-        }
-    </style>
-Lord Captain!<br/><br/>A new message has arrived from your companion, Jae Heydari. The smuggler reports that she has managed to arrange the perfect deal, one truly worthy of a Rogue Trader.<br/><br/>A limited run of the Warhammer 40,000: Rogue Trader Collector's Edition has become available at merch.warhammer.com. If you haven't yet had the chance to buy your copy, then you won’t want to miss this final opportunity to do so!<br/><br/>https://merch.warhammer.com/products/warhammer-40000-rogue-trader-collectors-edition?_pos=1&amp;_sid=28856c25a&amp;_ss=r<br/><br/>In it, you will find a beautiful statue of your Lady Navigator, Cassia Orsellio, a game Art Book, a legendary Warrant of Trade, and so much more!<br/><br/>Hurry, Lord Captain, for these are the last Editions available!<br/><br/><img src="https://clan.fastly.steamstatic.com/images/43222021/f5051e8af8a7f14fd24b0b2b20572d29511eacb0.jpg"/><br/>]]></description>
-      <pubDate>Mon, 27 Jan 2025 14:56:43 +0000</pubDate>
     </item>
   </channel>
 </rss>
