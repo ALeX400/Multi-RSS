@@ -1,6 +1,339 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Lunar New Year 2025</title>
+      <link>https://rust.facepunch.com/news/lunar-new-year-2025/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Lunar New Year 2025
+    </h1>
+    <p editname="Summary" type="text">
+     2025's Lunar New Year is upon us! Celebrate the occasion by honouring the Year of the Snake with the Snake Mask, Wall Dividers, and stylish Wallpapers.
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      23 January 2025
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="LunarNewyear">
+  <div class="section" like-handler="LikeBlogSection" like-id="84534" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Lunar New year
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Happy Lunar New Year to everyone! This year, we celebrate the Year of the Snake. In Chinese culture,
+      <b>
+       the snake symbolises wisdom, intuition, and transformation
+      </b>
+      —qualities that everyone playing can appreciate!
+      <br/>
+      <br/>
+      To help you embrace the Lunar New Year spirit, we've stocked the Steam item store with a mix of new and returning Lunar New Year-themed items.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/122/01/2025/7y26/LNY2025_Collection_01.jpg"/>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="SnakeMask">
+  <div class="section" like-handler="LikeBlogSection" like-id="84537" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Snake Mask
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Celebrate the Year of the Snake with Rust’s new Snake Mask! Inspired by the serpent’s elegance and wisdom in Chinese mythology, this intricately designed mask features vibrant scales and symbolizes transformation and resilience.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_snakeMask_05.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false">
+      <img src="https://files.facepunch.com/paddy/20250122/lunarNewYear_snakeMask_09.jpg"/>
+     </div>
+     <div>
+      The Snake Mask can be purchased on the
+      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
+       Rust item store.
+      </a>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="WallDividers">
+  <div class="section" like-handler="LikeBlogSection" like-id="84536" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Wall Dividers
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Enhance your base this Lunar New Year with 3 stunning Chinese-themed wall dividers! Featuring intricate patterns and traditional designs, these decorative pieces bring a touch of cultural elegance to your base.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_all_01.jpg"/>
+     </div>
+     <div>
+      The wall dividers are deployed into wall frames.
+     </div>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_03.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_01.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_04.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_05.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      The Wall dividers can be purchased on the
+      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
+       Rust item store.
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="LunarWallpapers">
+  <div class="section" like-handler="LikeBlogSection" like-id="84538" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Lunar Wallpapers
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       Transform your base into a
+      </span>
+      <span>
+       stylish New Lunar haven with these 7 wallpaper skins - t
+      </span>
+      hese wallpapers bring the perfect Lunar New Year vibe to your base.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_bamboo_01.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_bamboo_02.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_cherryBlossom_01.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_diamond_03.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_diamond_01.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_lantern_03.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      <span>
+       The Wallpapers can be purchased on the
+      </span>
+      <a class="selected" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
+       Rust item store.
+      </a>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <br/>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="LunarStore">
+  <div class="section" like-handler="LikeBlogSection" like-id="84535" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Lunar Store
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       In addition, we’ve added items back from previous Lunar New Years celebrations to the Steam item store. The New Year Gong, Dragon Door Knocker, and the Chinese Lantern are all now available with links to all of the items below:
+      </div>
+      <div>
+       <br/>
+      </div>
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/newyeargong.deployed.icon.png"/>
+        <center>
+         <b>
+          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10174/">
+           New Year Gong
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/2019/02/1b0711b1/door_knocker.icon.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10160/">
+           Dragon Door Knocker
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/2019/02/1b0711b1/ChineseLantern.icon.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10162/">
+           Chinese Lantern
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/4w37/spear.cny.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10235/">
+           Lunar Spear
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/2x24/rocket.launcher.dragon.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10236/">
+           Rocket Launcher
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/firework_roman_volcano_pack.icon.png"/>
+        <center>
+         <b>
+          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10176/">
+           Small Firework Pack
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/boomerpack.icon.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10175/">
+           Large Firework Pack
+          </a>
+         </b>
+        </center>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 23 Jan 2025 02:00:00 Z</pubDate>
+    </item>
+    <item>
       <title>Community Update 263</title>
       <link>https://rust.facepunch.com/news/community-update-263/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -599,339 +932,6 @@ This includes five unique enamel pins which measure in at 2 inches, with a shiny
       <pubDate>Fri, 29 Nov 2024 11:35:00 Z</pubDate>
     </item>
     <item>
-      <title>Lunar New Year 2025</title>
-      <link>https://rust.facepunch.com/news/lunar-new-year-2025/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Lunar New Year 2025
-    </h1>
-    <p editname="Summary" type="text">
-     2025's Lunar New Year is upon us! Celebrate the occasion by honouring the Year of the Snake with the Snake Mask, Wall Dividers, and stylish Wallpapers.
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      23 January 2025
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="LunarNewyear">
-  <div class="section" like-handler="LikeBlogSection" like-id="84534" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Lunar New year
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Happy Lunar New Year to everyone! This year, we celebrate the Year of the Snake. In Chinese culture,
-      <b>
-       the snake symbolises wisdom, intuition, and transformation
-      </b>
-      —qualities that everyone playing can appreciate!
-      <br/>
-      <br/>
-      To help you embrace the Lunar New Year spirit, we've stocked the Steam item store with a mix of new and returning Lunar New Year-themed items.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/122/01/2025/7y26/LNY2025_Collection_01.jpg"/>
-     </div>
-     <div>
-      <span>
-       <br/>
-      </span>
-     </div>
-     <div>
-      <span>
-       <br/>
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="SnakeMask">
-  <div class="section" like-handler="LikeBlogSection" like-id="84537" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Snake Mask
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Celebrate the Year of the Snake with Rust’s new Snake Mask! Inspired by the serpent’s elegance and wisdom in Chinese mythology, this intricately designed mask features vibrant scales and symbolizes transformation and resilience.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_snakeMask_05.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false">
-      <img src="https://files.facepunch.com/paddy/20250122/lunarNewYear_snakeMask_09.jpg"/>
-     </div>
-     <div>
-      The Snake Mask can be purchased on the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
-       Rust item store.
-      </a>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="WallDividers">
-  <div class="section" like-handler="LikeBlogSection" like-id="84536" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Wall Dividers
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Enhance your base this Lunar New Year with 3 stunning Chinese-themed wall dividers! Featuring intricate patterns and traditional designs, these decorative pieces bring a touch of cultural elegance to your base.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_all_01.jpg"/>
-     </div>
-     <div>
-      The wall dividers are deployed into wall frames.
-     </div>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-style="medium">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_03.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_01.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_04.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_05.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      The Wall dividers can be purchased on the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
-       Rust item store.
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="LunarWallpapers">
-  <div class="section" like-handler="LikeBlogSection" like-id="84538" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Lunar Wallpapers
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       Transform your base into a
-      </span>
-      <span>
-       stylish New Lunar haven with these 7 wallpaper skins - t
-      </span>
-      hese wallpapers bring the perfect Lunar New Year vibe to your base.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_bamboo_01.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="medium">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_bamboo_02.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_cherryBlossom_01.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_diamond_03.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_diamond_01.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_lantern_03.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      <span>
-       The Wallpapers can be purchased on the
-      </span>
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
-       Rust item store.
-      </a>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <br/>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="LunarStore">
-  <div class="section" like-handler="LikeBlogSection" like-id="84535" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Lunar Store
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       In addition, we’ve added items back from previous Lunar New Years celebrations to the Steam item store. The New Year Gong, Dragon Door Knocker, and the Chinese Lantern are all now available with links to all of the items below:
-      </div>
-      <div>
-       <br/>
-      </div>
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/newyeargong.deployed.icon.png"/>
-        <center>
-         <b>
-          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10174/">
-           New Year Gong
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/2019/02/1b0711b1/door_knocker.icon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10160/">
-           Dragon Door Knocker
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/2019/02/1b0711b1/ChineseLantern.icon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10162/">
-           Chinese Lantern
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/4w37/spear.cny.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10235/">
-           Lunar Spear
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/2x24/rocket.launcher.dragon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10236/">
-           Rocket Launcher
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/firework_roman_volcano_pack.icon.png"/>
-        <center>
-         <b>
-          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10176/">
-           Small Firework Pack
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/boomerpack.icon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10175/">
-           Large Firework Pack
-          </a>
-         </b>
-        </center>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 23 Jan 2025 02:00:00 Z</pubDate>
-    </item>
-    <item>
       <title>Season's beatings</title>
       <link>https://rust.facepunch.com/news/christmas2024/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -1484,562 +1484,6 @@ And to remind ourselves that we couldn't have done it without you, the players a
 <center>
 </center><center>]]></description>
       <pubDate>Mon, 16 Dec 2024 11:32:00 Z</pubDate>
-    </item>
-    <item>
-      <title>11 Years Strong</title>
-      <link>https://rust.facepunch.com/news/11-years-strong/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     11 Years Strong
-    </h1>
-    <p editname="Summary" type="text">
-     Servers are now wiped, Santa is packing up and clearing out the bodies, we hope you enjoyed the Holiday Season. In this blog, we recap 2024 and reveal some upcoming changes.
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      02 January 2025
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="11Years">
-  <div class="section" like-handler="LikeBlogSection" like-id="84503" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       11 Years
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Servers are now wiped and Santa is packing up and clearing out 
-the bodies, but we hope you enjoyed the Holiday Season. We're getting back 
-to work after a couple of weeks off, which is why this blog is lighter 
-than usual, but we're looking forward to the journey ahead in 2025!
-      <br/>
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <div class="youtube-container">
-       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="15032385558" data-dashlane-rid="88331f9a581a696d" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/8sMb0v14x5s?si=52s6WA7Pn9ax2lOh" title="YouTube video player" width="560">
-       </iframe>
-      </div>
-     </div>
-     <div class="autodiv">
-      <br/>
-     </div>
-     <div class="autodiv">
-      At the end of last year, we celebrated Rust's 11th anniversary, marking an incredible journey. The game continues to experience year-over-year growth, which is quite remarkable for being 11 years old. Rust is now bigger than ever!
-      <br/>
-     </div>
-     <div class="autodiv">
-      <br/>
-     </div>
-     <div class="autodiv">
-      This year, we saw:
-      <br/>
-      <ul>
-       <li>
-        Over 325 million game sessions
-       </li>
-       <li>
-        Over 40 million hours played
-       </li>
-       <li class="autodiv">
-        Over 5.5 million unique players
-       </li>
-      </ul>
-     </div>
-     <div class="autodiv">
-      <br/>
-      Here's a recap of some of the major updates we did last year:
-     </div>
-     <div class="autodiv">
-      <br/>
-     </div>
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240905/rust_worldupdate_preview_25.jpg"/>
-        <center>
-         <b>
-          <a href="https://rust.facepunch.com/news/world_update_2" target="_blank">
-           World Update 2.0
-          </a>
-         </b>
-        </center>
-        <center>
-         This HUGE update completely changed the world and added many new unique points of interest around the world
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/motorbike_riding_01.jpg"/>
-        <center>
-         <b>
-          <a href="https://rust.facepunch.com/news/road-renegades" target="_blank">
-           Road Renegades
-          </a>
-         </b>
-        </center>
-        <center>
-         Added new forms of transport, bicycles and motorbikes
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240129/rust_backpacks_hero_01.jpg"/>
-        <center>
-         <b>
-          <a href="https://rust.facepunch.com/news/bags-to-riches/" target="_blank">
-           Bags To Riches
-          </a>
-         </b>
-        </center>
-        <center>
-         Finally added backpacks allowing players to carry more items and added the metal detector item
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240404/harbor_refresh_08.jpg"/>
-        <center>
-         <b>
-          <a href="https://rust.facepunch.com/news/waves-of-change" target="_blank">
-           Waves Of Change
-          </a>
-         </b>
-        </center>
-        <center>
-         Updated the cargoship and helicopter events, additionally overhauled the Harbors
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240307/rust_patch_202403_lighttheway_hero.jpg"/>
-        <center>
-         <b>
-          <a href="https://rust.facepunch.com/news/lighting-the-way" target="_blank">
-           Lighting The Way
-          </a>
-         </b>
-        </center>
-        <center>
-         Allows players to see and navigate at night, we add a small illumination area around the player
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240604/seismic_sensor_02.jpg"/>
-        <center>
-         <b>
-          <a href="https://rust.facepunch.com/news/seismicshift" target="_blank">
-           Seismic Shift
-          </a>
-         </b>
-        </center>
-        <center>
-         Added a new item which will send notifications to your phone if an explosion is detected
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241202/rust_junkpiles_03.jpg"/>
-        <center>
-         <b>
-          Quality Of Life
-         </b>
-        </center>
-        <center>
-         Over 300 QOL changes from saving codelocks to floating items
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240405/minigun_oilrig.jpg"/>
-        <center>
-         <b>
-          New Weapons
-         </b>
-        </center>
-        <center>
-         Added 5 new weapons, the minigun, military flame thrower, SKS, High Calibre Revolver, Handmade SMG
-        </center>
-       </div>
-      </div>
-     </div>
-     <div class="autodiv">
-      <br/>
-     </div>
-     <div class="autodiv">
-      Alongside a metric ton of improvements and bug fixes.
-      <br/>
-      <br/>
-      Rust continues to be a labour of love from all of us at Facepunch, and we couldn't have done it without your passion and feedback. Thank you for your continued support, be it playing the game, telling friends, and engaging and communicating with us. We've very much enjoyed everything we've worked on for the game this year.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="LookingForward">
-  <div class="section" like-handler="LikeBlogSection" like-id="84504" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Looking Forward
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      What’s in store for 2025? Consistency! Continued guaranteed monthly updates on the first Thursday of every month, alongside regular fixes, quality-of-life enhancements, improvements, and exciting holiday events.
-      <br/>
-      <br/>
-      <h2>
-       Next Month
-      </h2>
-      <div>
-       On February 6th, we'll release the Primitive update. The update will be one of the most impactful updates to date in changing the dynamics of early-game raiding and combat by introducing siege vehicles, primitive weapons, shields, and a dedicated game mode.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/119/12/2024/7n79/rust_primupdate_teaser_swordight_01.jpg"/>
-     </div>
-     <div>
-      The Primitive update represents a time in Rust where the already scarce technology and the usual homemade armaments and ammunition have been depleted from Rust's current setting, forcing survivors to fashion crude weapons with less sophisticated methods of attack and defence.
-     </div>
-     <div>
-      <br/>
-      The Siege Tower can be used to climb over exterior walls while players remain in cover. And it can be pushed or horse-drawn and has several floors, with extendable drawbridges that double up as shutters.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1911b1/rust_primupdate_teaser_armourset_01.jpg"/>
-     </div>
-     <div>
-      <div>
-       The Catapult will be a projectile launcher for longer distances that can utilise multiple projectiles such as boulders, fire bombs, and propane tank IEDs. While it does have wheels, its size makes it something that a horse will have to help you move it towards your next target.
-      </div>
-      <div>
-       <div>
-        <br/>
-        The Ballista is a combination of a catapult and a large crossbow which was highly accurate given the heft of its projectiles. And in Rust, those features remain with the Ballista also having multiple ammo types, being able to do heavy damage to people, doors, and vehicles.
-        <br/>
-        <br/>
-        Finally, the Battering Ram will be another addition that is driveable like a traditional vehicle, with a triggerable ram that damages building blocks.
-       </div>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1911b1/rust_primupdate_teaser_ballista_01.jpg"/>
-     </div>
-     <div>
-      <div>
-       As well as these new weapons and vehicles, we have been working on a variety of shields, a 4 shot mini-crossbow, and updates to melee damages and ranges.
-       <br/>
-       <br/>
-       With this comes some improvements to horses, including their ability to tow the new siege weapons, and new skins to customise your primitive approach to gameplay and expression.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250203/rust_primitive_hero_01.jpg"/>
-     </div>
-     <div>
-      <div>
-       Can't wait till February? Rust Staging Aux2 branch is publicly playable, allowing everyone to test and give feedback.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <h2>
-       Forwards
-      </h2>
-      <div>
-       Alongside
- next month's Primitive update, we have a ton of content currently in 
-development, and if you're keeping an eye on our commits page, you'll 
-already know some of what's on the way. This year, you can expect to see
- Cooking 2.0 bringing many changes to food management and unique buffs 
-to foods, a Jungle biome featuring dangerous animals such as crocodiles 
-and tigers, and changes to softcore and hardcore game modes.
-       <br/>
-       <br/>
-       Outlined above is skimming the surface of only a few key features. We have a lot more planned.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <h2>
-        But what about?
-       </h2>
-       <div>
-        <b>
-         Performance?
-         <br/>
-        </b>
-        <br/>
-        Performance
- is always an ongoing process. We're constantly adding and improving new
- features monthly, often hidden in changelogs. There is no magic button 
-to increase performance. Instead, it is a slow process of small gains.
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        We
- hired several people over the past couple of months whose sole job is 
-focused on performance-related tasks, these are positions which never 
-existed before, we never had staff dedicated to performance full-time, 
-they're getting to grips with the Rust project and are already hard at 
-work identifying and fixing issues. A recent example is Daniel's
-        <a class="selected" href="https://rust.facepunch.com/news/polish-and-progress#BuiltinServerProfiler" target="https://rust.facepunch.com/news/polish-and-progress#BuiltinServerProfiler">
-         server profiler
-        </a>
-        .
-        <br/>
-        <br/>
-        We'll continue to share news on performance in our monthly development blogs.
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        <b>
-         Old Content?
-         <br/>
-         <br/>
-        </b>
-        As like with prior years we've set aside multiple months in our 
-internal roadmap of light or no content. These gaps are deliberate to 
-allow us to be versatile and adaptive to community feedback, have time to 
-focus and address old content and improve recent content. We have a lot
- we can keep building upon, not all content we add to Rust is supposed 
-to become meta, but rather adding yet another way of achieving a goal.
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        <p>
-         <b>
-          Cheating?
-          <br/>
-          <br/>
-         </b>
-         Repeating the words of last year's blog: Anticheat is a hugely complex topic. We work closely with Epic Games' Easy 
-Anti-cheat, to aid in detecting and banning cheaters in Rust. We don't 
-disclose what we do and don't do when it comes to anti-cheat for good 
-reason. The more information we disclose publicly, the more it can 
-assist cheaters and cheat developers to circumvent measures, it's a huge
- cat-and-mouse game.
-        </p>
-        <div>
-         <br/>
-        </div>
-        One of the best 
-anti-cheat measures is obscurity. The fewer people know what EAC and we 
-are doing, the better. This comes with the drawback of not communicating
- enough, on the outside, it appears we're doing nothing. Almost every 
-month, we're shipping improvements or fixing/restricting cheat features.
- We've fixed several high-priority exploits upon discovery or disclosure
- within hours through hotfixes we don't note publicly. EAC sometimes 
-pushes several improvements weekly, which are applied when you start the
- game.
-        <br/>
-        <br/>
-        We continue to promise to you is we're actively monitoring and 
-combating cheaters daily. Our internal systems keep improving, as do 
-EAC.
-        <br/>
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        In past blogs I talked about server-side player culling, if a player is behind a hill and you can't see them, don't network the player to disrupt ESP cheat features. We're slowly iterating this and have tested it on live servers, we're working on getting this to the most performant state possible to work on mid-high population servers.
-        <br/>
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        Another feature we're exploring and want your feedback on it, is a form of premium servers. The overwhelming number of cheaters banned have Rust Steam inventory valued at below $20. A large number of long-term regular players have Rust Steam inventories of over $20. If we used this as a gate to entry for some servers, it would mean these servers would see considerably fewer cheat-related players, is this something you want? Would you play on these servers? We're still collecting data to determine the exact barrier to entry. The reason for looking at Rust's Steam Inventory price, in short, is because it's a metric that can't be spoofed and gamed easily, unlike game data. The big negative here is servers rely on a steady flow of players, new and old; this gate could have a net negative impact on the server's population and, thus, the overall gameplay experience - we'd love to hear your thoughts.
-        <br/>
-       </div>
-       <div>
-        <br/>
-        This year:
-        <br/>
-       </div>
-       <div>
-        <ul>
-         <li>
-          We've taken down over 1300 cheats-related media on social platforms.
-         </li>
-         <li>
-          290,000+ bans applied
-         </li>
-        </ul>
-       </div>
-       <div>
-        <ul class="RichTextList-bulleted">
-         <ul class="RichTextList-bulleted">
-          <li>
-           <div class="HighlightSol HighlightSol--buildingBlock TypographyPresentation TypographyPresentation--medium RichText3-paragraph--withVSpacingNormal RichText3-paragraph">
-            57,000+ Temporary
-           </div>
-          </li>
-          <li>
-           <div class="HighlightSol HighlightSol--buildingBlock TypographyPresentation TypographyPresentation--medium RichText3-paragraph--withVSpacingNormal RichText3-paragraph">
-            233,000+ Permanent
-           </div>
-          </li>
-         </ul>
-         <li>
-          <div class="HighlightSol HighlightSol--buildingBlock TypographyPresentation TypographyPresentation--medium RichText3-paragraph--withVSpacingNormal RichText3-paragraph">
-           The majority of cheaters have been removed from the game in less than 12 hours of playtime
-          </div>
-         </li>
-         <ul class="RichTextList-bulleted">
-          <li>
-           <div class="HighlightSol HighlightSol--buildingBlock TypographyPresentation TypographyPresentation--medium RichText3-paragraph--withVSpacingNormal RichText3-paragraph">
-            This has lowered this to 10 hours of playtime in the last 3-months
-           </div>
-          </li>
-         </ul>
-         <li>
-          12,617,47 Cheat reports received
-         </li>
-         <ul class="RichTextList-bulleted">
-          <li>
-           1,200,000~ cheating reports received on Facepunch servers
-           <br/>
-          </li>
-         </ul>
-        </ul>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero light" id="11yearsofrustinnumbers">
-  <div class="section" like-handler="LikeBlogSection" like-id="84516" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       11 years of rust in numbers...
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      While we celebrated a fantastic 2024 for the game, we realise a lot of what we've achieved boils down to 11 years of passion from the team. And passion from the community.
-      <br/>
-      <br/>
-      It's not always easy to put that into words, but we've managed to put it into numbers below.
-      <br/>
-      <br/>
-      Take a look at what you've helped us achieve over the last 11 years!
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcook/1b2011b1/Rust11%20Stats.png"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="THELASTdaysofrustmas">
-  <div class="section" like-handler="LikeBlogSection" like-id="84518" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       THE LAST days of rustmas
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Hurry!
-      <br/>
-      <br/>
-      Yes, Santa has packed up and cleared out, but there are still a few days left to claim free rewards for watching creators on Twitch!
-      <br/>
-      <br/>
-      All you need to do is check out anyone streaming Rust on Twitch by
-      <b>
-       Monday 6th of January
-      </b>
-      , and you can bag yourself some sweet Christmas-themed Twitch Drops to make sure you and your base look jubilant all year round if Christmas is more than just a holiday to you!
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false">
-      <a href="https://twitch.facepunch.com/">
-       <img src="https://files.facepunch.com/ashcoook/1b1311b1/twitch-drops-37_rustmas_blog.jpg"/>
-      </a>
-     </div>
-     <div>
-      <span>
-       <br/>
-       <br/>
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 02 Jan 2025 08:16:00 Z</pubDate>
     </item>
     <item>
       <title>Polish and Progress</title>
@@ -4166,6 +3610,562 @@ net.Send(new SendInfo(conn));
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 05 Dec 2024 02:40:00 Z</pubDate>
+    </item>
+    <item>
+      <title>11 Years Strong</title>
+      <link>https://rust.facepunch.com/news/11-years-strong/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     11 Years Strong
+    </h1>
+    <p editname="Summary" type="text">
+     Servers are now wiped, Santa is packing up and clearing out the bodies, we hope you enjoyed the Holiday Season. In this blog, we recap 2024 and reveal some upcoming changes.
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      02 January 2025
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="11Years">
+  <div class="section" like-handler="LikeBlogSection" like-id="84503" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       11 Years
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Servers are now wiped and Santa is packing up and clearing out 
+the bodies, but we hope you enjoyed the Holiday Season. We're getting back 
+to work after a couple of weeks off, which is why this blog is lighter 
+than usual, but we're looking forward to the journey ahead in 2025!
+      <br/>
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <div class="youtube-container">
+       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="15032385558" data-dashlane-rid="88331f9a581a696d" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/8sMb0v14x5s?si=52s6WA7Pn9ax2lOh" title="YouTube video player" width="560">
+       </iframe>
+      </div>
+     </div>
+     <div class="autodiv">
+      <br/>
+     </div>
+     <div class="autodiv">
+      At the end of last year, we celebrated Rust's 11th anniversary, marking an incredible journey. The game continues to experience year-over-year growth, which is quite remarkable for being 11 years old. Rust is now bigger than ever!
+      <br/>
+     </div>
+     <div class="autodiv">
+      <br/>
+     </div>
+     <div class="autodiv">
+      This year, we saw:
+      <br/>
+      <ul>
+       <li>
+        Over 325 million game sessions
+       </li>
+       <li>
+        Over 40 million hours played
+       </li>
+       <li class="autodiv">
+        Over 5.5 million unique players
+       </li>
+      </ul>
+     </div>
+     <div class="autodiv">
+      <br/>
+      Here's a recap of some of the major updates we did last year:
+     </div>
+     <div class="autodiv">
+      <br/>
+     </div>
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240905/rust_worldupdate_preview_25.jpg"/>
+        <center>
+         <b>
+          <a href="https://rust.facepunch.com/news/world_update_2" target="_blank">
+           World Update 2.0
+          </a>
+         </b>
+        </center>
+        <center>
+         This HUGE update completely changed the world and added many new unique points of interest around the world
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240703/motorbike_riding_01.jpg"/>
+        <center>
+         <b>
+          <a href="https://rust.facepunch.com/news/road-renegades" target="_blank">
+           Road Renegades
+          </a>
+         </b>
+        </center>
+        <center>
+         Added new forms of transport, bicycles and motorbikes
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240129/rust_backpacks_hero_01.jpg"/>
+        <center>
+         <b>
+          <a href="https://rust.facepunch.com/news/bags-to-riches/" target="_blank">
+           Bags To Riches
+          </a>
+         </b>
+        </center>
+        <center>
+         Finally added backpacks allowing players to carry more items and added the metal detector item
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240404/harbor_refresh_08.jpg"/>
+        <center>
+         <b>
+          <a href="https://rust.facepunch.com/news/waves-of-change" target="_blank">
+           Waves Of Change
+          </a>
+         </b>
+        </center>
+        <center>
+         Updated the cargoship and helicopter events, additionally overhauled the Harbors
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240307/rust_patch_202403_lighttheway_hero.jpg"/>
+        <center>
+         <b>
+          <a href="https://rust.facepunch.com/news/lighting-the-way" target="_blank">
+           Lighting The Way
+          </a>
+         </b>
+        </center>
+        <center>
+         Allows players to see and navigate at night, we add a small illumination area around the player
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240604/seismic_sensor_02.jpg"/>
+        <center>
+         <b>
+          <a href="https://rust.facepunch.com/news/seismicshift" target="_blank">
+           Seismic Shift
+          </a>
+         </b>
+        </center>
+        <center>
+         Added a new item which will send notifications to your phone if an explosion is detected
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20241202/rust_junkpiles_03.jpg"/>
+        <center>
+         <b>
+          Quality Of Life
+         </b>
+        </center>
+        <center>
+         Over 300 QOL changes from saving codelocks to floating items
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240405/minigun_oilrig.jpg"/>
+        <center>
+         <b>
+          New Weapons
+         </b>
+        </center>
+        <center>
+         Added 5 new weapons, the minigun, military flame thrower, SKS, High Calibre Revolver, Handmade SMG
+        </center>
+       </div>
+      </div>
+     </div>
+     <div class="autodiv">
+      <br/>
+     </div>
+     <div class="autodiv">
+      Alongside a metric ton of improvements and bug fixes.
+      <br/>
+      <br/>
+      Rust continues to be a labour of love from all of us at Facepunch, and we couldn't have done it without your passion and feedback. Thank you for your continued support, be it playing the game, telling friends, and engaging and communicating with us. We've very much enjoyed everything we've worked on for the game this year.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="LookingForward">
+  <div class="section" like-handler="LikeBlogSection" like-id="84504" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Looking Forward
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      What’s in store for 2025? Consistency! Continued guaranteed monthly updates on the first Thursday of every month, alongside regular fixes, quality-of-life enhancements, improvements, and exciting holiday events.
+      <br/>
+      <br/>
+      <h2>
+       Next Month
+      </h2>
+      <div>
+       On February 6th, we'll release the Primitive update. The update will be one of the most impactful updates to date in changing the dynamics of early-game raiding and combat by introducing siege vehicles, primitive weapons, shields, and a dedicated game mode.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/119/12/2024/7n79/rust_primupdate_teaser_swordight_01.jpg"/>
+     </div>
+     <div>
+      The Primitive update represents a time in Rust where the already scarce technology and the usual homemade armaments and ammunition have been depleted from Rust's current setting, forcing survivors to fashion crude weapons with less sophisticated methods of attack and defence.
+     </div>
+     <div>
+      <br/>
+      The Siege Tower can be used to climb over exterior walls while players remain in cover. And it can be pushed or horse-drawn and has several floors, with extendable drawbridges that double up as shutters.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1911b1/rust_primupdate_teaser_armourset_01.jpg"/>
+     </div>
+     <div>
+      <div>
+       The Catapult will be a projectile launcher for longer distances that can utilise multiple projectiles such as boulders, fire bombs, and propane tank IEDs. While it does have wheels, its size makes it something that a horse will have to help you move it towards your next target.
+      </div>
+      <div>
+       <div>
+        <br/>
+        The Ballista is a combination of a catapult and a large crossbow which was highly accurate given the heft of its projectiles. And in Rust, those features remain with the Ballista also having multiple ammo types, being able to do heavy damage to people, doors, and vehicles.
+        <br/>
+        <br/>
+        Finally, the Battering Ram will be another addition that is driveable like a traditional vehicle, with a triggerable ram that damages building blocks.
+       </div>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1911b1/rust_primupdate_teaser_ballista_01.jpg"/>
+     </div>
+     <div>
+      <div>
+       As well as these new weapons and vehicles, we have been working on a variety of shields, a 4 shot mini-crossbow, and updates to melee damages and ranges.
+       <br/>
+       <br/>
+       With this comes some improvements to horses, including their ability to tow the new siege weapons, and new skins to customise your primitive approach to gameplay and expression.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250203/rust_primitive_hero_01.jpg"/>
+     </div>
+     <div>
+      <div>
+       Can't wait till February? Rust Staging Aux2 branch is publicly playable, allowing everyone to test and give feedback.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <h2>
+       Forwards
+      </h2>
+      <div>
+       Alongside
+ next month's Primitive update, we have a ton of content currently in 
+development, and if you're keeping an eye on our commits page, you'll 
+already know some of what's on the way. This year, you can expect to see
+ Cooking 2.0 bringing many changes to food management and unique buffs 
+to foods, a Jungle biome featuring dangerous animals such as crocodiles 
+and tigers, and changes to softcore and hardcore game modes.
+       <br/>
+       <br/>
+       Outlined above is skimming the surface of only a few key features. We have a lot more planned.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <h2>
+        But what about?
+       </h2>
+       <div>
+        <b>
+         Performance?
+         <br/>
+        </b>
+        <br/>
+        Performance
+ is always an ongoing process. We're constantly adding and improving new
+ features monthly, often hidden in changelogs. There is no magic button 
+to increase performance. Instead, it is a slow process of small gains.
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        We
+ hired several people over the past couple of months whose sole job is 
+focused on performance-related tasks, these are positions which never 
+existed before, we never had staff dedicated to performance full-time, 
+they're getting to grips with the Rust project and are already hard at 
+work identifying and fixing issues. A recent example is Daniel's
+        <a class="selected" href="https://rust.facepunch.com/news/polish-and-progress#BuiltinServerProfiler" target="https://rust.facepunch.com/news/polish-and-progress#BuiltinServerProfiler">
+         server profiler
+        </a>
+        .
+        <br/>
+        <br/>
+        We'll continue to share news on performance in our monthly development blogs.
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        <b>
+         Old Content?
+         <br/>
+         <br/>
+        </b>
+        As like with prior years we've set aside multiple months in our 
+internal roadmap of light or no content. These gaps are deliberate to 
+allow us to be versatile and adaptive to community feedback, have time to 
+focus and address old content and improve recent content. We have a lot
+ we can keep building upon, not all content we add to Rust is supposed 
+to become meta, but rather adding yet another way of achieving a goal.
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        <p>
+         <b>
+          Cheating?
+          <br/>
+          <br/>
+         </b>
+         Repeating the words of last year's blog: Anticheat is a hugely complex topic. We work closely with Epic Games' Easy 
+Anti-cheat, to aid in detecting and banning cheaters in Rust. We don't 
+disclose what we do and don't do when it comes to anti-cheat for good 
+reason. The more information we disclose publicly, the more it can 
+assist cheaters and cheat developers to circumvent measures, it's a huge
+ cat-and-mouse game.
+        </p>
+        <div>
+         <br/>
+        </div>
+        One of the best 
+anti-cheat measures is obscurity. The fewer people know what EAC and we 
+are doing, the better. This comes with the drawback of not communicating
+ enough, on the outside, it appears we're doing nothing. Almost every 
+month, we're shipping improvements or fixing/restricting cheat features.
+ We've fixed several high-priority exploits upon discovery or disclosure
+ within hours through hotfixes we don't note publicly. EAC sometimes 
+pushes several improvements weekly, which are applied when you start the
+ game.
+        <br/>
+        <br/>
+        We continue to promise to you is we're actively monitoring and 
+combating cheaters daily. Our internal systems keep improving, as do 
+EAC.
+        <br/>
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        In past blogs I talked about server-side player culling, if a player is behind a hill and you can't see them, don't network the player to disrupt ESP cheat features. We're slowly iterating this and have tested it on live servers, we're working on getting this to the most performant state possible to work on mid-high population servers.
+        <br/>
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        Another feature we're exploring and want your feedback on it, is a form of premium servers. The overwhelming number of cheaters banned have Rust Steam inventory valued at below $20. A large number of long-term regular players have Rust Steam inventories of over $20. If we used this as a gate to entry for some servers, it would mean these servers would see considerably fewer cheat-related players, is this something you want? Would you play on these servers? We're still collecting data to determine the exact barrier to entry. The reason for looking at Rust's Steam Inventory price, in short, is because it's a metric that can't be spoofed and gamed easily, unlike game data. The big negative here is servers rely on a steady flow of players, new and old; this gate could have a net negative impact on the server's population and, thus, the overall gameplay experience - we'd love to hear your thoughts.
+        <br/>
+       </div>
+       <div>
+        <br/>
+        This year:
+        <br/>
+       </div>
+       <div>
+        <ul>
+         <li>
+          We've taken down over 1300 cheats-related media on social platforms.
+         </li>
+         <li>
+          290,000+ bans applied
+         </li>
+        </ul>
+       </div>
+       <div>
+        <ul class="RichTextList-bulleted">
+         <ul class="RichTextList-bulleted">
+          <li>
+           <div class="HighlightSol HighlightSol--buildingBlock TypographyPresentation TypographyPresentation--medium RichText3-paragraph--withVSpacingNormal RichText3-paragraph">
+            57,000+ Temporary
+           </div>
+          </li>
+          <li>
+           <div class="HighlightSol HighlightSol--buildingBlock TypographyPresentation TypographyPresentation--medium RichText3-paragraph--withVSpacingNormal RichText3-paragraph">
+            233,000+ Permanent
+           </div>
+          </li>
+         </ul>
+         <li>
+          <div class="HighlightSol HighlightSol--buildingBlock TypographyPresentation TypographyPresentation--medium RichText3-paragraph--withVSpacingNormal RichText3-paragraph">
+           The majority of cheaters have been removed from the game in less than 12 hours of playtime
+          </div>
+         </li>
+         <ul class="RichTextList-bulleted">
+          <li>
+           <div class="HighlightSol HighlightSol--buildingBlock TypographyPresentation TypographyPresentation--medium RichText3-paragraph--withVSpacingNormal RichText3-paragraph">
+            This has lowered this to 10 hours of playtime in the last 3-months
+           </div>
+          </li>
+         </ul>
+         <li>
+          12,617,47 Cheat reports received
+         </li>
+         <ul class="RichTextList-bulleted">
+          <li>
+           1,200,000~ cheating reports received on Facepunch servers
+           <br/>
+          </li>
+         </ul>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero light" id="11yearsofrustinnumbers">
+  <div class="section" like-handler="LikeBlogSection" like-id="84516" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       11 years of rust in numbers...
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      While we celebrated a fantastic 2024 for the game, we realise a lot of what we've achieved boils down to 11 years of passion from the team. And passion from the community.
+      <br/>
+      <br/>
+      It's not always easy to put that into words, but we've managed to put it into numbers below.
+      <br/>
+      <br/>
+      Take a look at what you've helped us achieve over the last 11 years!
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcook/1b2011b1/Rust11%20Stats.png"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="THELASTdaysofrustmas">
+  <div class="section" like-handler="LikeBlogSection" like-id="84518" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       THE LAST days of rustmas
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Hurry!
+      <br/>
+      <br/>
+      Yes, Santa has packed up and cleared out, but there are still a few days left to claim free rewards for watching creators on Twitch!
+      <br/>
+      <br/>
+      All you need to do is check out anyone streaming Rust on Twitch by
+      <b>
+       Monday 6th of January
+      </b>
+      , and you can bag yourself some sweet Christmas-themed Twitch Drops to make sure you and your base look jubilant all year round if Christmas is more than just a holiday to you!
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false">
+      <a href="https://twitch.facepunch.com/">
+       <img src="https://files.facepunch.com/ashcoook/1b1311b1/twitch-drops-37_rustmas_blog.jpg"/>
+      </a>
+     </div>
+     <div>
+      <span>
+       <br/>
+       <br/>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 02 Jan 2025 08:16:00 Z</pubDate>
     </item>
   </channel>
 </rss>
