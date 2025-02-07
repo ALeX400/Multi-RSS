@@ -1,11 +1,344 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Lunar New Year 2025</title>
+      <link>https://rust.facepunch.com/news/lunar-new-year-2025/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Lunar New Year 2025
+    </h1>
+    <p editname="Summary" type="text">
+     2025's Lunar New Year is upon us! Celebrate the occasion by honouring the Year of the Snake with the Snake Mask, Wall Dividers, and stylish Wallpapers.
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      23 January 2025
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="LunarNewyear">
+  <div class="section" like-handler="LikeBlogSection" like-id="84534">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Lunar New year
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Happy Lunar New Year to everyone! This year, we celebrate the Year of the Snake. In Chinese culture,
+      <b>
+       the snake symbolises wisdom, intuition, and transformation
+      </b>
+      —qualities that everyone playing can appreciate!
+      <br/>
+      <br/>
+      To help you embrace the Lunar New Year spirit, we've stocked the Steam item store with a mix of new and returning Lunar New Year-themed items.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/122/01/2025/7y26/LNY2025_Collection_01.jpg"/>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="SnakeMask">
+  <div class="section" like-handler="LikeBlogSection" like-id="84537">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Snake Mask
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Celebrate the Year of the Snake with Rust’s new Snake Mask! Inspired by the serpent’s elegance and wisdom in Chinese mythology, this intricately designed mask features vibrant scales and symbolizes transformation and resilience.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_snakeMask_05.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false">
+      <img src="https://files.facepunch.com/paddy/20250122/lunarNewYear_snakeMask_09.jpg"/>
+     </div>
+     <div>
+      The Snake Mask can be purchased on the
+      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
+       Rust item store.
+      </a>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="WallDividers">
+  <div class="section" like-handler="LikeBlogSection" like-id="84536">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Wall Dividers
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Enhance your base this Lunar New Year with 3 stunning Chinese-themed wall dividers! Featuring intricate patterns and traditional designs, these decorative pieces bring a touch of cultural elegance to your base.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_all_01.jpg"/>
+     </div>
+     <div>
+      The wall dividers are deployed into wall frames.
+     </div>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_03.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_01.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_04.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_05.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      The Wall dividers can be purchased on the
+      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
+       Rust item store.
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="LunarWallpapers">
+  <div class="section" like-handler="LikeBlogSection" like-id="84538">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Lunar Wallpapers
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       Transform your base into a
+      </span>
+      <span>
+       stylish New Lunar haven with these 7 wallpaper skins - t
+      </span>
+      hese wallpapers bring the perfect Lunar New Year vibe to your base.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_bamboo_01.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_bamboo_02.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_cherryBlossom_01.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_diamond_03.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_diamond_01.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_lantern_03.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      <span>
+       The Wallpapers can be purchased on the
+      </span>
+      <a class="selected" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
+       Rust item store.
+      </a>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <br/>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="LunarStore">
+  <div class="section" like-handler="LikeBlogSection" like-id="84535">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Lunar Store
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       In addition, we’ve added items back from previous Lunar New Years celebrations to the Steam item store. The New Year Gong, Dragon Door Knocker, and the Chinese Lantern are all now available with links to all of the items below:
+      </div>
+      <div>
+       <br/>
+      </div>
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/newyeargong.deployed.icon.png"/>
+        <center>
+         <b>
+          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10174/">
+           New Year Gong
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/2019/02/1b0711b1/door_knocker.icon.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10160/">
+           Dragon Door Knocker
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/2019/02/1b0711b1/ChineseLantern.icon.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10162/">
+           Chinese Lantern
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/4w37/spear.cny.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10235/">
+           Lunar Spear
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/2x24/rocket.launcher.dragon.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10236/">
+           Rocket Launcher
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/firework_roman_volcano_pack.icon.png"/>
+        <center>
+         <b>
+          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10176/">
+           Small Firework Pack
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/boomerpack.icon.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10175/">
+           Large Firework Pack
+          </a>
+         </b>
+        </center>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 23 Jan 2025 02:00:00 Z</pubDate>
+    </item>
+    <item>
       <title>Season's beatings</title>
       <link>https://rust.facepunch.com/news/christmas2024/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
 <div class="blog-hero">
- <div class="container" targetobject="blog">
+ <div class="container">
   <div class="blog-hero-body">
    <div class="body-info">
     <h1 editname="Title" type="text">
@@ -67,7 +400,7 @@
 </style>
 <div class="blog">
  <div class="news-section-block sectionstyle-hero light" id="HappyHolidays">
-  <div class="section" like-handler="LikeBlogSection" like-id="84509" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84509">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -175,7 +508,7 @@
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="RustMasStore">
-  <div class="section" like-handler="LikeBlogSection" like-id="84511" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84511">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -291,7 +624,7 @@
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero light" id="RUSTMASBASEDECORATIONCOMPETITION">
-  <div class="section" like-handler="LikeBlogSection" like-id="84510" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84510">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -412,7 +745,7 @@
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero light" id="RustmasTwitchDrops">
-  <div class="section" like-handler="LikeBlogSection" like-id="84508" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84508">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -450,7 +783,7 @@
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero dark" id="IceSculptures">
-  <div class="section" like-handler="LikeBlogSection" like-id="84512" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84512">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -499,7 +832,7 @@ in time for Christmas, however, we've decided to postpone the release of
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero light" id="2024recaprustTURNS11">
-  <div class="section" like-handler="LikeBlogSection" like-id="84507" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84507">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -555,344 +888,11 @@ And to remind ourselves that we couldn't have done it without you, the players a
       <pubDate>Mon, 16 Dec 2024 11:32:00 Z</pubDate>
     </item>
     <item>
-      <title>Lunar New Year 2025</title>
-      <link>https://rust.facepunch.com/news/lunar-new-year-2025/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Lunar New Year 2025
-    </h1>
-    <p editname="Summary" type="text">
-     2025's Lunar New Year is upon us! Celebrate the occasion by honouring the Year of the Snake with the Snake Mask, Wall Dividers, and stylish Wallpapers.
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      23 January 2025
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="LunarNewyear">
-  <div class="section" like-handler="LikeBlogSection" like-id="84534" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Lunar New year
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Happy Lunar New Year to everyone! This year, we celebrate the Year of the Snake. In Chinese culture,
-      <b>
-       the snake symbolises wisdom, intuition, and transformation
-      </b>
-      —qualities that everyone playing can appreciate!
-      <br/>
-      <br/>
-      To help you embrace the Lunar New Year spirit, we've stocked the Steam item store with a mix of new and returning Lunar New Year-themed items.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/122/01/2025/7y26/LNY2025_Collection_01.jpg"/>
-     </div>
-     <div>
-      <span>
-       <br/>
-      </span>
-     </div>
-     <div>
-      <span>
-       <br/>
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="SnakeMask">
-  <div class="section" like-handler="LikeBlogSection" like-id="84537" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Snake Mask
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Celebrate the Year of the Snake with Rust’s new Snake Mask! Inspired by the serpent’s elegance and wisdom in Chinese mythology, this intricately designed mask features vibrant scales and symbolizes transformation and resilience.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_snakeMask_05.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false">
-      <img src="https://files.facepunch.com/paddy/20250122/lunarNewYear_snakeMask_09.jpg"/>
-     </div>
-     <div>
-      The Snake Mask can be purchased on the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
-       Rust item store.
-      </a>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="WallDividers">
-  <div class="section" like-handler="LikeBlogSection" like-id="84536" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Wall Dividers
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Enhance your base this Lunar New Year with 3 stunning Chinese-themed wall dividers! Featuring intricate patterns and traditional designs, these decorative pieces bring a touch of cultural elegance to your base.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_all_01.jpg"/>
-     </div>
-     <div>
-      The wall dividers are deployed into wall frames.
-     </div>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-style="medium">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_03.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_01.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_04.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/lunarNewYear_wallDivider_05.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      The Wall dividers can be purchased on the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
-       Rust item store.
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="LunarWallpapers">
-  <div class="section" like-handler="LikeBlogSection" like-id="84538" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Lunar Wallpapers
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       Transform your base into a
-      </span>
-      <span>
-       stylish New Lunar haven with these 7 wallpaper skins - t
-      </span>
-      hese wallpapers bring the perfect Lunar New Year vibe to your base.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_bamboo_01.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="medium">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_bamboo_02.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_cherryBlossom_01.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_diamond_03.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_diamond_01.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250122/LunarNewYear_wallpaper_lantern_03.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      <span>
-       The Wallpapers can be purchased on the
-      </span>
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
-       Rust item store.
-      </a>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <br/>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="LunarStore">
-  <div class="section" like-handler="LikeBlogSection" like-id="84535" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Lunar Store
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       In addition, we’ve added items back from previous Lunar New Years celebrations to the Steam item store. The New Year Gong, Dragon Door Knocker, and the Chinese Lantern are all now available with links to all of the items below:
-      </div>
-      <div>
-       <br/>
-      </div>
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/newyeargong.deployed.icon.png"/>
-        <center>
-         <b>
-          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10174/">
-           New Year Gong
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/2019/02/1b0711b1/door_knocker.icon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10160/">
-           Dragon Door Knocker
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/2019/02/1b0711b1/ChineseLantern.icon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10162/">
-           Chinese Lantern
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/4w37/spear.cny.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10235/">
-           Lunar Spear
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/2x24/rocket.launcher.dragon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10236/">
-           Rocket Launcher
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/firework_roman_volcano_pack.icon.png"/>
-        <center>
-         <b>
-          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10176/">
-           Small Firework Pack
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/boomerpack.icon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10175/">
-           Large Firework Pack
-          </a>
-         </b>
-        </center>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 23 Jan 2025 02:00:00 Z</pubDate>
-    </item>
-    <item>
       <title>11 Years Strong</title>
       <link>https://rust.facepunch.com/news/11-years-strong/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
 <div class="blog-hero">
- <div class="container" targetobject="blog">
+ <div class="container">
   <div class="blog-hero-body">
    <div class="body-info">
     <h1 editname="Title" type="text">
@@ -954,7 +954,7 @@ And to remind ourselves that we couldn't have done it without you, the players a
 </style>
 <div class="blog">
  <div class="news-section-block sectionstyle-hero" id="11Years">
-  <div class="section" like-handler="LikeBlogSection" like-id="84503" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84503">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -1128,7 +1128,7 @@ than usual, but we're looking forward to the journey ahead in 2025!
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="LookingForward">
-  <div class="section" like-handler="LikeBlogSection" like-id="84504" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84504">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -1373,7 +1373,7 @@ EAC.
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero light" id="11yearsofrustinnumbers">
-  <div class="section" like-handler="LikeBlogSection" like-id="84516" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84516">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -1400,7 +1400,7 @@ EAC.
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero dark" id="THELASTdaysofrustmas">
-  <div class="section" like-handler="LikeBlogSection" like-id="84518" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84518">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -1444,52 +1444,26 @@ EAC.
       <pubDate>Thu, 02 Jan 2025 08:16:00 Z</pubDate>
     </item>
     <item>
-      <title>Community Update 263</title>
-      <link>https://rust.facepunch.com/news/community-update-263/</link>
+      <title>Primitive</title>
+      <link>https://rust.facepunch.com/news/primitive/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
 <div class="blog-hero">
- <div class="container" targetobject="blog">
+ <div class="container">
   <div class="blog-hero-body">
    <div class="body-info">
     <h1 editname="Title" type="text">
-     Community Update 263
+     Primitive
     </h1>
     <p editname="Summary" type="text">
-     New and improved RustHelp wiki, Treehouses, Motorbike Stunts, Speedpaints, and more!
+     The Primitive update is here. And it's a big one! Featuring four siege weapons, a new bow, shields, and a new game mode. As well as updates to horses, ragdolls, and much more!
     </p>
     <div class="tags">
      <div class="tag secondary">
-      29 November 2024
+      06 February 2025
      </div>
-     <a class="tag community" href="?category=community">
-      COMMUNITY
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
      </a>
-    </div>
-    <div class="author">
-     <div class="card user-card">
-      <div class="image">
-       <img src="https://files.facepunch.com/s/afe3bc0ea811.png"/>
-      </div>
-      <div class="body">
-       <div class="title has-text-white">
-        Errn
-       </div>
-       <div class="position">
-        Community Support
-       </div>
-       <div class="country">
-        United States
-       </div>
-       <div class="links">
-        <a class="button small" href="https://youtu.be/dQw4w9WgXcQ" icon="home">
-         web
-        </a>
-        <a class="button small" href="https://twitter.com/ErrnieGerrn" icon="chat">
-         twitter
-        </a>
-       </div>
-      </div>
-     </div>
     </div>
    </div>
   </div>
@@ -1535,78 +1509,786 @@ EAC.
         }
 </style>
 <div class="blog">
- <div class="news-section-block" id="RustHelpWiki">
-  <div class="section" like-handler="LikeBlogSection" like-id="84479" targetobject="section">
+ <div class="news-section-block" id="">
+  <div class="section" like-handler="LikeBlogSection" like-id="84547">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       RustHelp Wiki
+       ⠀
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <a href="https://rusthelp.com/">
-       <img src="https://files.facepunch.com/Errn/1b2511b1/rusthelp.png"/>
-      </a>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <div class="youtube-container">
+       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/ctPXY2Ofm_M?si=ko4vT125P2JB2dy6" title="YouTube video player" width="560">
+       </iframe>
+      </div>
      </div>
      <div>
-      Welcome to
-      <a class="" href="https://rusthelp.com/">
-       RustHelp
-      </a>
-      !  Your new hub for everything Rust related.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="PrimitiveGamemode">
+  <div class="section" like-handler="LikeBlogSection" like-id="84526">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Primitive Gamemode
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The early game of Rust can be the most exciting, unfortunately players rush to fully automatic rifles as fast as possible to get an edge over their enemies. What if the early game could last forever....?
      </div>
      <div>
       <br/>
      </div>
      <div>
-      <a class="" href="https://rusthelp.com/">
-       RustHelp
-      </a>
-      is very much still a work in progress and new features are being added regularly.
-      <br/>
-      <br/>
+      The primitive mode brings us to a distant future where the knowledge of high tech items have been lost, leaving the inhabitants of the island only able to make basic items.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false">
+      <img src="https://files.facepunch.com/paddy/20250128/rust_primupdate_teaser_armourset_01.jpg"/>
+     </div>
+     <div>
+      The following changes apply to the primitive game mode.
+     </div>
+     <div>
+      <b>
+       <br/>
+      </b>
+     </div>
+     <div>
+      <b>
+       Allowed Weapons
+      </b>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Melee
+       </li>
+       <li>
+        Bow, Compound Bow, Crossbow, Mini Crossbow
+       </li>
+       <li>
+        Speargun
+       </li>
+       <li>
+        Eoka
+       </li>
+       <li>
+        Beancan Grenade, Molotov
+       </li>
+       <li>
+        Flashlight Attachment
+       </li>
+       <li>
+        Shields
+       </li>
+      </ul>
       <div>
-       Some of their goals are the following:
+       <b>
+        Restricted Armor
+       </b>
       </div>
       <div>
        <ul>
         <li>
-         Combine all information about Rust into a single website
+         Removed Facemask
         </li>
         <li>
-         Be available in as many languages as possible
-        </li>
-        <li>
-         Build useful tools for players  (Recycler tool, Raiding tool, Decay tool etc)
-        </li>
-        <li>
-         In depth monument data including a browser 3D monument viewer
+         Removed Metal Chest Plate
         </li>
        </ul>
+      </div>
+      <div>
        <div>
-        <br/>
+        <b>
+         Resources Changes
+        </b>
        </div>
        <div>
-        Want to know how much metal your disco floor heli pad will take?  They got you.
+        <ul>
+         <li>
+          Less Sulfur Nodes Spawn (50%)
+         </li>
+         <li>
+          Increased Tech Tree Tax (2x)
+         </li>
+        </ul>
        </div>
+      </div>
+      <div>
+       <b>
+        Loot Changes
+       </b>
+      </div>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Jackhammer &amp; Chainsaw (loot only)
+       </li>
+       <li>
+        New travelling vendor trades
+       </li>
+      </ul>
+      <div>
+       <b>
+        Raiding Changes
+       </b>
+      </div>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Removed All Rockets &amp; C4
+       </li>
+       <li>
+        Removed MLRS
+       </li>
+      </ul>
+     </div>
+     <div>
+      <div>
+       <b>
+        Building Changes
+       </b>
+      </div>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Removed Metal Building Grade
+       </li>
+       <li>
+        Removed Armored Building Grade
+       </li>
+       <li>
+        Removed Armored Doors
+       </li>
+       <li>
+        Removed C4, Rockets &amp; Explosive ammo
+       </li>
+      </ul>
+      <div>
+       <b>
+        World Modifications
+       </b>
+      </div>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Removed Monuments (Oil Rig, Missile Silo, Excavator, Underwater Labs)
+       </li>
+       <li>
+        Removed Underground Train System
+       </li>
+       <li>
+        Removed Scientist NPCs (vendors remain)
+       </li>
+       <li>
+        Disabled Patrol Heli Event
+       </li>
+       <li>
+        Disabled Cargo Ship Event
+       </li>
+       <li>
+        Disabled Bradley APC
+       </li>
+       <li>
+        Increased Wild Horse Spawns (2x)
+       </li>
+      </ul>
+      <div>
+       <b>
+        Travel Changes
+       </b>
+      </div>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Removed Helicopters (Minicopter, Scrap Transport Helicopter, Attack Helicopter)
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Siegeweapons">
+  <div class="section" like-handler="LikeBlogSection" like-id="84539">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Siege weapons
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Introducing 4 new vehicles: Siege Weapons!
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250206/medieval_siegeweapons_lineup_01.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      Designed for early game raiding, they're all craftable and deployable in the wilds. A great addition to your raiding and grubbing arsenal.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      In addition to the cost to craft, building them will require extra materials and a hammer.
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20250206/catapult_build_thumb.jpg" src="https://files.facepunch.com/paddy/20250206/catapult_build_01.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <div>
+       They are both available in the primitive and vanilla game modes, from the workbench level 2.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Catapult">
+  <div class="section" like-handler="LikeBlogSection" like-id="84531">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Catapult
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The catapult is capable of launching powerful projectiles with a large impact radius.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250203/medieval_catapult_02.jpg"/>
+     </div>
+     <div>
+      It comes with 3 new ammunition items:
+     </div>
+     <div>
+      <ul>
+       <li>
+        <b>
+         Scattershot
+        </b>
+        : multiple rocks in a spread
+       </li>
+       <li>
+        <b>
+         Firebomb
+        </b>
+        : ignites on impact, spreading flames
+       </li>
+       <li>
+        <b>
+         Propane Explosive Bomb:
+        </b>
+        high-damage explosives, damages construction
+       </li>
+      </ul>
+     </div>
+     <div>
+      It can also launch players. Use at your own risk.
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20250206/catapult_ragdoll_thumb.jpg" src="https://files.facepunch.com/paddy/20250206/catapult_ragdoll_blog.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="CatapultAmmo">
+  <div class="section" like-handler="LikeBlogSection" like-id="84548">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Catapult Ammo
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      You can also use the Firebomb and Propane bombs as a deployable raiding tool. Once deployed they will start to spark when they take any damage and explode after several seconds. When used in this way bombs will do less damage.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_catapult_ammo_02.jpg"/>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20250207/deployable_ammo_thumb.jpg" src="https://files.facepunch.com/paddy/20250207/rust_deployable_ammo.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="SiegeTower">
+  <div class="section" like-handler="LikeBlogSection" like-id="84527">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Siege Tower
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The Siege Tower provides a new way to get into compounds, high open windows or help with a raid. As the heaviest Siege Weapon, these towers lack some mobility, but make up for it in strength. Like the other Siege Weapons: The Siege Tower can be towed by a horse, or pushed to get it into position.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250204/medieval_siegeTower_07.jpg"/>
+     </div>
+     <div>
+      <br/>
+      Each tower is 3 levels tall, with a drawbridge on each level. Use the drawbridge to provide some protection as you assault a base.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250204/medieval_siegeTower_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250204/medieval_siegeTower_02.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      Each tower can have a door placed at the bottom for an added layer of security.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="BatteringRam">
+  <div class="section" like-handler="LikeBlogSection" like-id="84528">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Battering Ram
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The battering ram is a heavy fuel-powered vehicle you can drive around. Its reinforced arm can be used to destroy wooden and stone constructions.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_batteringram_03.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_batteringram_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_batteringram_02.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <div>
+       The ram takes damage with each hit and will need high-quality metal to stay operational.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Ballista">
+  <div class="section" like-handler="LikeBlogSection" like-id="84529">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Ballista
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The ballista is a massive, wheeled crossbow designed for long-range combat. It can be deployed on terrain and towed by horses.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250204/medieval_ballista_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250204/medieval_ballista_02.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      It can fire 4 new bolt items:
+     </div>
+     <div>
+      <ul>
+       <li>
+        <b>
+         Pitchfork Bolt
+        </b>
+        : large sweeping projectile
+       </li>
+       <li>
+        <b>
+         Piercer Bolt
+        </b>
+        : penetrates armored vehicles
+       </li>
+       <li>
+        <b>
+         Hammerhead Bolt
+        </b>
+        : heavy and solid, deals damage to doors
+       </li>
+       <li>
+        <b>
+         Incendiary Bolt
+        </b>
+        : ignites on impact, spreading flames
+       </li>
+      </ul>
+      <div>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250204/medieval_ballista_ammo_01.jpg"/>
+     </div>
+     <div>
+      A stationary version is also available, which can be deployed within your base for defensive use.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Shields">
+  <div class="section" like-handler="LikeBlogSection" like-id="84525">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Shields
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Shields are a new backpack slot item that allows you handle frontal
+ threats with ease. Simply equip the shield in your backpack slot and 
+equip a compatible single handed weapon and the shield will 
+automatically appear.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250203/rust_shields_01.jpg"/>
+     </div>
+     <div>
+      <div>
+       While holding a shield, it
+ takes over the function of RMB, so you won’t be able to aim down sights
+ or throw weapons. Instead holding RMB will raise the shield in front of
+ you, giving you more protection at the cost of reduced visibility and 
+not being able to sprint.
+      </div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      You can only hold a Shield up for 4 seconds before having to put it back down, this is shown via a small progress bad near the crosshair (similar to the Compound Bow).
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/rust_primupdate_teaser_swordight_01.jpg"/>
+     </div>
+     <div>
+      <div>
+       There are 3 shield variants, each with a different damage block amount. This amount is the percentage of damage that the shield absorbs from any incoming attack, the remaining portion will be received by the player holding the shield. While equipped, you’ll see a new shield durability bar appear above your health bar, any damage a shield takes is applied to its durability and once broken the shield will be unequipped.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Items that are compatible with shields will mention this on their item information panel when selected.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       When not in use, Shields will appear on your back. Note that while they are on your back, they provide no protection. You will need to equip the shield in order to block any attacks.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250203/rust_shields_03.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="4shotMinicrossbow">
+  <div class="section" like-handler="LikeBlogSection" like-id="84530">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       4 shot Mini crossbow
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      In the spirit of a primitive mode, we wanted to add another arrow 
+weapon. The Mini Crossbow is a fresh take on the Crossbow. Providing 4 
+shots in a rotating barrel, at the cost of some damage and range.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250203/rust_minicrossbow_hero_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/paddy/20250203/rust_minicrossbow_firstperson_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/paddy/20250203/rust_minicrossbow_tabletop_01.jpg"/>
+     </div>
+     <div>
+      The Mini Crossbow will not only be a great addition to the base game, but also the new primitive gamemode.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Horses">
+  <div class="section" like-handler="LikeBlogSection" like-id="84532">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Horses
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Horses have been completely overhauled and should feel much better to play with.
+     </div>
+     <div>
+      <ul>
+       <li>
+        They can now traverse most terrain types and monuments
+       </li>
+       <li>
+        New movement mechanics allow them to skid by pressing CTRL when galloping
+       </li>
+       <li>
+        They can swim, auto-avoid trees and be pulled when led
+       </li>
+      </ul>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20250204/rust_horseriding_01.jpg" src="https://files.facepunch.com/paddy/20250206/rust_horseriding_rework_720p.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <div>
+       Horses can also tow siege weapons, including the catapult, siege tower, and ballista.
+      </div>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20250204/rust_horsetowing.jpg" src="https://files.facepunch.com/paddy/20250204/horsetowing_demonstration_full.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      Additionally, their impact on server performance has been massively improved.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="MEDIevalpackDLC">
+  <div class="section" like-handler="LikeBlogSection" like-id="84533">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       MEDIeval pack DLC
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      This month, we’re introducing the new Medieval Pack DLC - a themed collection featuring 8 new items and skins consisting of the new Medieval Barricade, Knights Armour clothing skins, Medieval Large Wood Box skin, the Medieval Assault Rifle skin and Medieval skins for the Sheet Metal Door and Double Doors.
+     </div>
+     <div>
+      <h2>
+       Knight Armour Set
+       <br/>
+      </h2>
+      <div>
+       <span>
+        <span>
+         Arise a brave Knight with these chivalric skins for the Coffeecan Helmet, Roadsign Jacket and Roadsign Kilt.
+         <br/>
+        </span>
+       </span>
       </div>
      </div>
      <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://rusthelp.com/en/items/disco-floor#crafting">
-       <img src="https://files.facepunch.com/Errn/1b2511b1/disco.png"/>
-      </a>
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/knightarmour_01.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/knightarmour_07.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_knightArmour_tableTop_02.jpg"/>
+      </gallery>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_knightArmourPose_02.jpg"/>
      </div>
      <div>
-      Shoutout to
-      <a class="" href="https://rusthelp.com/en/about">
-       the team
-      </a>
-      for putting this all together!  If you're not familiar they also did
-      <a class="" href="https://rustmaps.com/">
-       RustMaps
+     </div>
+     <h2>
+      Medieval Barricade
+     </h2>
+     <div>
+      Lay down this barricade to stave off the most ardent attackers, or augment the battlefield with its unique middle-age-themed visuals. Note that you will need to know the Barbed Wooden Barricade blueprint to craft this.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_barricade_01.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_barricade_02.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_barricade_04.jpg"/>
+      </gallery>
+     </div>
+     <div>
+     </div>
+     <div>
+     </div>
+     <div>
+      <h2>
+       Medieval Assault Rifle
+      </h2>
+      Kingmaker or Kingslayer - you call the shots with this resplendent relic.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_AR_01.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_AR_closeup_01.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_AR_closeup_05.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_AR_05.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_AR_08.jpg"/>
+      </gallery>
+     </div>
+     <div>
+     </div>
+     <div>
+      <h2>
+       Medieval Large Wooden Box
+      </h2>
+      Every Lord needs a sturdy coffer to store their spoils of war. Look no further than this stalwart companion.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_largeBox_05.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_largeBox_02.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_largeBox_04.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_largeBox_03.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_largeBox_06.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      <span id="docs-internal-guid-85afd1ef-7fff-a962-0e09-4911a4f772a1">
+      </span>
+      <span id="docs-internal-guid-85afd1ef-7fff-a962-0e09-4911a4f772a1">
+      </span>
+      <span>
+      </span>
+      <br/>
+     </div>
+     <div>
+      <h2>
+       <span>
+        Medieval Sheet Metal Door &amp; Double Door
+       </span>
+       <br/>
+       <span>
+       </span>
+      </h2>
+      <span>
+       Survey your lands from behind these imposing castle doors, uniquely adorned with spikes to keep the p̶e̶a̶s̶a̶n̶t̶s nakeds out.
+      </span>
+      <span>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/rust_medieval_metaldoor_skins_01.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/rust_medieval_metaldoor_skins_03.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/rust_medieval_metaldoor_skins_06.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/rust_medieval_metaldoor_skins_08.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <span>
+       The pack can be purchased from the
+      </span>
+      <a class="selected" href="https://store.steampowered.com/itemstore/252490/">
+       Rust Steam item store
       </a>
       .
      </div>
@@ -1614,422 +2296,1192 @@ EAC.
    </div>
   </div>
  </div>
- <div class="news-section-block" id="EpicDeskCreatorCollabs">
-  <div class="section" like-handler="LikeBlogSection" like-id="84480" targetobject="section">
+ <div class="news-section-block sectionstyle-hero" id="Ragdolls">
+  <div class="section" like-handler="LikeBlogSection" like-id="84543">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       EpicDesk Creator Collabs
+       Ragdolls
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
      <div>
-      Just in time for some Black Friday deals oh high quality desk pads!
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <a href="https://epicdesk.shop/collections/rust">
-       <img src="https://files.facepunch.com/Errn/1b2911b1/epicdeskbanner.png"/>
-      </a>
-     </div>
-     <div>
-      <a class="" href="https://epicdesk.shop/collections/rust">
-       Epic Desk
-      </a>
-      has a huge set of creator collabs going live today.  Use code: RUSTFRIDAY to get 15% off now till Monday!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      <a class="" href="https://epicdesk.shop/collections/aloneintokyo">
-       AloneinTokyo
-      </a>
-     </h2>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="columns">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03493.png"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03468.png"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03481.png"/>
-      </gallery>
-     </div>
-     <div>
-     </div>
-     <h2>
-      <a class="" href="https://epicdesk.shop/collections/taunted">
-       Taunted
-      </a>
-     </h2>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-style="columns">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03557.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03564.jpg"/>
-      </gallery>
+      Temporary player ragdolling has been added for bikes and horses.
      </div>
      <div>
       <br/>
      </div>
      <div>
-      <h2>
-       <a class="" href="https://epicdesk.shop/collections/tahliaaj">
-        Tahliaaj
-       </a>
-      </h2>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="columns">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03545.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03550.jpg"/>
-      </gallery>
-     </div>
-     <div>
-     </div>
-     <h2>
-      <a class="" href="https://epicdesk.shop/collections/falcon">
-       Falcon
-      </a>
-     </h2>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-style="columns">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03575.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03581.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      <a class="" href="https://epicdesk.shop/collections/willjum">
-       Willjum
-      </a>
-     </h2>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-style="columns">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/topview_14.png"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/topview_15.png"/>
-      </gallery>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      <a class="" href="https://epicdesk.shop/collections/posty">
-       Posty
-      </a>
-     </h2>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/topview_12.png"/>
-     </div>
-     <div>
-     </div>
-     <h2>
-      <a class="" href="https://epicdesk.shop/collections/cali">
-       Cali
-      </a>
-     </h2>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/topview_10.png"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      <a class="" href="https://epicdesk.shop/collections/motion">
-       Motion
-      </a>
-     </h2>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="columns">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03620.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03619.jpg"/>
-      </gallery>
-     </div>
-     <div>
-     </div>
-     <h2>
-      <a class="" href="https://epicdesk.shop/collections/valair">
-       Valair
-      </a>
-     </h2>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none" title="">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2911b1/DSC03631.jpg"/>
-     </div>
-     <div>
-      These deskpad collabs are only available for a limited amount of time and once they are gone they are gone!  Remember to use
-      <b>
-       <a class="" href="https://epicdesk.shop/collections/rust">
-        RUSTFRIDAY discount code for 15% off
-       </a>
-      </b>
-      till Midight PST Monday!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="MotorbikeStunts">
-  <div class="section" like-handler="LikeBlogSection" like-id="84481" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Motorbike Stunts
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Rust Artist by night, Stunt Double by day.
-      <a class="" href="https://www.youtube.com/@Slimmeh">
-       Slimmeh
-      </a>
-      shows off some epic motorbike stunts.  Landing inside a scrappy mid-flight??  Well done!
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Jwfxq8h7fL4?si=kST6GLUSrqX76Ogk" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="PoolPartyArtTimelapse">
-  <div class="section" like-handler="LikeBlogSection" like-id="84483" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Pool Party Art Timelapse
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <a class="" href="https://www.youtube.com/@MonsteraRust">
-       Monstera
-      </a>
-      at it again!  She always manages to capture the "moment" so well!
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/QMPkPfAIESQ?si=5Raf2ddwkTptaIoo" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="SwampTreehouseFort">
-  <div class="section" like-handler="LikeBlogSection" like-id="84484" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Swamp Treehouse Fort
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <a class="" href="https://www.youtube.com/@bluebubs">
-       Bluebubs
-      </a>
-      did a bit of research to find out what the biggest swamp tree base has ever been and decided to one-up everyone.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/iP9n8ij-tbc?si=5xfSfQTYwfcg5mTy" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-      What do you think?  Is it really the most foundations to date?
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="RustxYoutoozplushpins">
-  <div class="section" like-handler="LikeBlogSection" like-id="84486" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Rust x Youtooz - plush &amp; pins
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       The all new Rust x Youtooz collection is now available to order!
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2711b1/rust-drop3_reveal_wide.png"/>
-     </div>
-     <div>
-      <span>
-       We've teamed up with Youtooz again to give the people what they really want. A huggable Hazmat!
-       <br/>
-       <br/>
-       The new plush is packed to the seams with 100% PP cotton and is made with a mix of the softest minky material and tricot sublimated material, perferct for cuddling or surviving with.
-      </span>
-      <span>
-       <br/>
-      </span>
-      <span>
-      </span>
-      <span>
-       <br/>
-       And it comes with a free in-game decorative item to put in your base - requiring just 50 Cloth to craft.
-       <br/>
-      </span>
-      <span>
-       <br/>
-       Redemption codes for the in-game plush item are sent via email after your order ships in April 2025.
-      </span>
-      <span>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2711b1/youtooz_plushy_01_alt1.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2711b1/youtooz_plushy_03.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2711b1/youtooz_plushy_07.jpg"/>
-     </div>
-     <div>
-      <span>
-       <br/>
-       There's also a decorative pin set on the way!
-
-This includes five unique enamel pins which measure in at 2 inches, with a shiny and high quality finish!
-      </span>
-      <span>
-       Perfect for a bag, jacket, or corkboard.
-      </span>
+      Taking large amounts of collision damage on bikes and horses will result in the player being flung from their seat and eventually getting back up (assuming they haven't died in the process). Players can also be flung from the saddle of a horse if it's had too much airtime or has slid too far. Horses will ragdoll in these cases as well.
      </div>
      <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2711b1/rust-pinset_photo-nologo_square_01.png"/>
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/rust_horse_radgoll.jpg"/>
      </div>
      <div>
-      <p>
-       <span>
-        The Hazmat plushie &amp; Rust pin-set, both are available now for a limited time!
-       </span>
-       <a class="" href="https://youtooz.com/collections/rust" target="https://youtooz.com/collections/rust">
-        Get yours before they're gone
+      <br/>
+     </div>
+     <div>
+      If you're unlucky enough to be used as ammunition for a catapult, you'll also ragdoll and are guaranteed to die on impact.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Collision damage on bikes has been re-balanced with ragdolls in mind, with the aim of making it less likely to instantly die from hitting obstacles on a bike.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Socialintegrations">
+  <div class="section" like-handler="LikeBlogSection" like-id="84540">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Social integrations
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We're rolling out a social integration layer to Rust this month, no more messing around with overlays or alt-tabbing - you can now view, chat, invite, and add friends, all from right inside the game.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false">
+      <img src="https://files.facepunch.com/Alistair/106/02/2025/6T08/Rust_social_integrations_menu_1080_jpg%20%282%29.jpg"/>
+     </div>
+     <div>
+      Your Steam friends list will automatically sync up in-game. No setup required. Prefer using Discord? No problem! All you need to do is link your account, and your Discord friends will be right there, ready to connect. This way, you’ve got the best of both worlds.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Give it a try, and as always, let us know what you think.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Qualityoflifechanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84545">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Quality of life changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230530/sleepingbags_limit.jpg"/>
+        <center>
+         <b>
+          Pickup sleeping bags
+         </b>
+        </center>
+        <center>
+         Players can now pick up any sleeping bag as long they are in TC range
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/jarryd/1b0311b1/spraycans_box.jpg"/>
+        <center>
+         <b>
+          IO Reskinning
+         </b>
+        </center>
+        <center>
+         Can now reskin IO deployables with the spray can without disconnecting it entirely
+        </center>
+       </div>
+       <div class="columns is-multiline">
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/jarryd/1b0311b1/mobilephone1.jpg"/>
+         <center>
+          <b>
+           Phone names
+          </b>
+         </center>
+         <center>
+          Phones can now have names up to 30 characters long
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250206/pumpkin_rolling.jpg"/>
+         <center>
+          <b>
+           Pumpkin Rolling
+          </b>
+         </center>
+         <center>
+          Dropped pumpkins no longer roll indefinitely
+         </center>
+        </div>
+        <div class="columns is-multiline">
+         <div class="column is-6">
+          <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/02/2025/7N98/chrome_JjeTOCnLfq.jpg"/>
+          <center>
+           <b>
+            Backpacks on Weapon Racks
+           </b>
+          </center>
+          <center>
+           Backpacks and shields can now be used with weapon racks.
+          </center>
+         </div>
+         <div class="column is-6">
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="FirstPersonAdminESP">
+  <div class="section" like-handler="LikeBlogSection" like-id="84544">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       First Person Admin ESP
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've been slowly building up the feature set of our admin ESP system over the years, mostly due to the demands of various streaming events. This was restricted to using the debug/flying camera, it will now work as expected while in first person perspective spectating. Many server admins have asked for this to have better situational awareness while spectating players.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      It uses the same convars as the normal ESP system so you shouldn't need to do anything new. All of the existing convars will apply, this includes:
+      <br/>
+      <ul>
+       <li>
+        ESPCanvas.MaxNameplates
+       </li>
+       <li>
+        ESPCanvas.OverrideMaxDisplayDistance
+       </li>
+       <li>
+        ESPCanvas.DisableOcclusionChecks
+       </li>
+       <li>
+        ESPCanvas.ShowHealth
+       </li>
+       <li>
+        ESPCanvas.ColourCodeTeams
+       </li>
+       <li>
+        ESPCanvas.UseRandomTeamColours
+       </li>
+       <li>
+        ESPCanvas.DisplayDistanceMultiplier
+       </li>
+      </ul>
+      <div>
+       If there are further improvements that would help in live spectating, please let us know!
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="TwitchdropsHomebrewed2">
+  <div class="section" like-handler="LikeBlogSection" like-id="84541">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Twitch drops - Home brewed 2
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <h2>
+      Twitch Drops are back!
+     </h2>
+     <div>
+      And from more of our favourite creators on the rise that you should definitely start to recognize!
+      <br/>
+      <br/>
+      Be sure to
+      <a class="" href="https://twitch.facepunch.com" target="https://twitch.facepunch.com">
+       sync up
+      </a>
+      and claim your Drops after watching these fantastic creators on Twitch.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0511b1/td_38-blog-image.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="ServerProfilerLinuxReducedOverhead">
+  <div class="section" like-handler="LikeBlogSection" like-id="84546">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Server Profiler - Linux &amp; Reduced Overhead
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <b>
+       TL;DR - Shipping Linux binary; Server profiler should have less impact when idle and recording by gathering less data; if it fails to generate a snapshot, you can now export a debug binary snapshot and share it with us.
+      </b>
+     </div>
+     <h2>
+      Linux Support
+     </h2>
+     <div>
+      This update will contain a library built for Linux environment. The library is a native recorder, so the interface (the "perfsnapshot" command) works the same.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The library has been built on Ubuntu 24.04.1 via GCC 13.3 in C++20 mode and it depends on POSIX utilities (dlopen, dlsym) - so it should be accessible everywhere.
+     </div>
+     <h2>
+      Profiler Overhead
+     </h2>
+     <div>
+      Since the first release of our internal profiler, we got the opportunity to test it in the real world conditions. My first tests were rough (could only capture 1-2 frames worth of data before ballooning to multiple gigabytes of data) and I got feedback from number of server owners that not only it doesn't produce snapshots in some situations, it also has idle overhead - just enabling profiler can have a 5-10fps on a high-pop server.
+     </div>
+     <div>
+      <br/>
+      I've spent some time this update cycle to to reduce this overhead, as in the current conditions it severely reduces the benefit we can get out of the tool. I've tackled it from a couple angles:
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      Reduced how much Code we capture
+     </h2>
+     <div>
+      The profiler works by annotating every code method that it encounters, wrapping it in a set of calls that dispatch to different Mono profilers. Comparatively, for complex and expensive methods these call are unnoticeable, but for small utility functions that do a trivial thing (change a bool, set a bit, append to a list, etc) the dispatching calls add massive overhead (we're talking 10x+ the cost of the utility function). Lastly, these dispatching calls are cheaper when the profiler is enabled, but not capturing - but they are still not free.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Originally I set up a number of annotation filters to exclude some known and safe code (stuff from System.Collections.Generic namespace, for example), but it still left a lot of "fat" that we could trim. Here's the before and after of the changes affecting our player processing loop:
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none" title="Before">
+      <img src="https://files.facepunch.com/danielprihodko/1b0311b1/msedge_em8WKclH6P.png"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none" title="After">
+      <img src="https://files.facepunch.com/danielprihodko/1b0311b1/msedge_LKtgyfNuqq.png"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      As you can see there's much less of nested calls(reduced verticality), and instant calls (triangles, they take less than Perfetto is able to track) appear much earlier.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This update we no longer capture:
+      <br/>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Hash functions
+       </li>
+       <li>
+        Casting &amp; comparison operators
+       </li>
+       <li>
+        Property getters
+       </li>
+       <li>
+        UnityEngine.CoreModule related code
+       </li>
+       <li>
+        Enumerators
+       </li>
+       <li>
+        Anything Math related
+       </li>
+       <li>
+        Our internal collections (like BufferList)
+       </li>
+       <li>
+        Serialization code
+       </li>
+      </ul>
+      <div>
+       There's more, but hopefully you see the principle behind the choice - anything small, trivial or reliable gets ignored.
+      </div>
+     </div>
+     <div>
+     </div>
+     <div>
+      This allowed us to massively reduce the amount of data we generate during capture - on staging server, we used to generate about
+      <b>
+       17MB of json per player
+      </b>
+      , after these changes it's gone down to
+      <b>
+       ~0.5MB of json per player
+      </b>
+      . This should also reduce the "idle" overhead, since there's much less "dispatch code" that's scattered around.
+     </div>
+     <h2>
+      Improved json generation logic
+     </h2>
+     <div>
+      One of the quirks that we have to deal with profiler-gathered data is that it doesn't know where the frame begins and ends - it's just a stream of "method enter/exit" records + "frame end" record that happens somewhere deep in the managed callstack. And since we want to display the data in a per-frame organized matter, we need to scan this stream to figure out how to partition all records.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Originally I implemented a less-efficient version of this because I assumed that there wouldn't be too much data to overwhlem this process. Since the previous section showed that I was wrong on the scale of data, I've also spent a bit of time to improve the export process - we now only need 2 whole-data-set scans to figure out frame grouping, instead of 3 originally, so using napkin-math, this gives us 33% export speedup.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Additionally, I've received reports that profiler can fail to generate snapshots. There are a couple scenarios in the above frame-reconstruction logic that can cause it to fail, so for these cases I've added the option to dump a binary debug snapshot - just run "perfsnapshot &lt;delay&gt; &lt;name&gt; &lt;frames&gt;
+      <b>
+       1
+      </b>
+      ", and you should see a "&lt;name&gt;.bin.gz" in "&lt;root&gt;/server/&lt;identity&gt;/profiler/" folder. I'll be able to inspect it in our internal tool to see what am I missing:
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" title="Debug Profile Bin Viewer">
+      <img src="https://files.facepunch.com/danielprihodko/1b0311b1/Unity_1WjQqGDVmc.png"/>
+     </div>
+     <h2>
+      Future Plans
+     </h2>
+     <div>
+      I've been using this tool on the daily to inspect the state of our Staging servers, and I'm hoping to do the same with our medium and high-pop release servers as well. To squeeze out the most, there are additional improvements that I'd like to pursue when the time allows:
+      <br/>
+      <ul>
+       <li>
+        Continue trimming down on annotated functions - there's still plenty to reduce.
+       </li>
+       <li>
+        Need to expose the annotation filter to server owners - right now it's all hardcoded which is limiting
+       </li>
+       <li>
+        Need to expand allocation tracking - right now we just track how much we allocated on main thread. We could track allocated object types, and figure out a better way to display it on Perfetto.
+       </li>
+       <li>
+        Emit more metadata about the performance state - provide manual annotation tools to emit the scope of workload for our team, or to show cross-thread dependencies.
+       </li>
+       <li>
+        Explore automatic capture during frame spikes.
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Wellipets">
+  <div class="section" like-handler="LikeBlogSection" like-id="84542">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Wellipets
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b3111b1/wellipets-x-rust%20-%20Now%20Redeemable.jpg"/>
+     </div>
+     <div>
+      The wait is over!
+     </div>
+     <div>
+      <p dir="ltr">
+       The exclusive Rust x
+       <a class="" href="https://wellipets.com/wellipets-x-rust" target="https://wellipets.com/wellipets-x-rust">
+        Wellipets
        </a>
-       <span>
-        .
-       </span>
+       wellington frog boots have started shipping, and codes for the in-game frog boot helmet are ready to redeem* from 11AM GMT on Friday 7th February.
+      </p>
+      <p dir="ltr">
+       Thank you again to everyone for taking part in this special collaboration, and don't forget to redeem your codes
+       <a class="" href="https://rust.facepunch.com/redeem/">
+        here
+       </a>
+       .
+      </p>
+      <p dir="ltr">
+       <i>
+        <span>
+         *
+         <b>
+          The digital item is complementary to the purchase and only redeemable for the PC version of Rust.
+         </b>
+        </span>
+        A unique product key code will be sent after the delivery of your physical item. Should you wish to exchange sizes of the physical item, please refrain from submitting your digital keycode until you receive your exchanged sizes. Once the digital code is redeemed, you forfeit the right to return the physical item.
+       </i>
       </p>
      </div>
     </div>
    </div>
   </div>
  </div>
- <div class="news-section-block" id="40offRustSTEAMAUTUMNSALE">
-  <div class="section" like-handler="LikeBlogSection" like-id="84475" targetobject="section">
+ <div class="news-section-block sectionstyle-hero dark" id="48hourflashsale">
+  <div class="section" like-handler="LikeBlogSection" like-id="84524">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       40% off Rust - STEAM AUTUMN SALE
+       48 hour flash sale
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
      <div>
-      The Steam Autumn Sale is here and means that Rust is now 40% off!
+      To celebrate the release of this month's Primitive update, we're having a flash sale!
       <br/>
-      <br/>
-      This also means that Store DLC items such as the Instruments, Sunburn, and Voice Props pack as well as the soundtrack are now at 40% off too!
-      <br/>
-      <br/>
-      Tell your friends and fill that squad -
-      <a class="" href="https://fcpn.ch/sas24b" target="https://fcpn.ch/sas24b">
-       head to Steam
-      </a>
-      to take advantage of the sale.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://fcpn.ch/sas24b">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2711b1/Steam-Autumn-Sale%20-%20Branding%201920x1080.png"/>
-      </a>
+      For the next 48 hours, Rust and all Steam DLC's will be 50% off.
      </div>
      <div>
-      <br/>
-      And with the Steam Autumn Sale here, it now marks the announcement of the Steam Awards and this year's catergories, plus each eligable game.
-      <br/>
-      <br/>
-      Rust has had a fantastic 2024, with the continued release of regular monthly updates that feature new content, bug fixes, and quality of life updates. And as Rust approaches 11 years old, there's never been a better time to try and survive as the game sees continued growth in both new and returning players.
-      <br/>
-      <br/>
-      If you think we're deserving of making the first round of nominations, you can
-      <a class="" href="https://store.steampowered.com/steamawards/nominations?snr=1_4_660__steamawards-banner" target="https://store.steampowered.com/steamawards/nominations?snr=1_4_660__steamawards-banner">
-       vote for Rust here
-      </a>
-      .
-      <br/>
-      <br/>
+      <p class="editor-paragraph" dir="ltr">
+       Treat your new squad mate to a copy
+       <a class="" href="https://fcpn.ch/primb" target="fcpn.ch/primb">
+        on Steam
+       </a>
+       .
+      </p>
      </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://store.steampowered.com/steamawards/nominations?">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2811b1/labor-of-love_16x9.png"/>
-      </a>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20250203/flashsale_steam_feb2025.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
      </div>
      <div>
-      <br/>
-      <br/>
-      <br/>
+      <p class="editor-paragraph" dir="ltr">
+       <br/>
+      </p>
      </div>
     </div>
    </div>
   </div>
  </div>
- <div class="news-section-block" id="Showmethestuff">
-  <div class="section" like-handler="LikeBlogSection" like-id="84482" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Show me the stuff!
-      </div>
-     </a>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Primitive
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Primitive Update
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Wednesday, January 8, 2025
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
     </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       If you made something cool or saw something cool, reach out! Tag me on
-       <a class="selected" href="https://twitter.com/ErrnieGerrn">
-        X
-       </a>
-       or u/ErrnieGerrn
-       <a class="" href="https://www.reddit.com/r/playrust/" target="">
-        Reddit
-       </a>
-       .
-       <br/>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
       </div>
-      <div>
-       <br/>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added Primitive game mode
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added Shields
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added Catapult
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added Siege Tower
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added Ballista
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added Battering Ram
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added 4 Shot Mini Crossbow
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added DLAA option to the graphics menu
+         </div>
+        </li>
+       </ul>
       </div>
-      <div>
-       Cover image by
-       <a class="" href="https://www.youtube.com/@rustdavinci">
-        daVinci
-       </a>
-       !
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Overhauled horses
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Horses now increase comfort from a fire when in proximity
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved the client performance of industrial lights, ceiling lights, search lights and electric heaters
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved the client performance of moving vehicles
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Various client optimisation when opening/closing the main menu, inventory and other UI screens
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Players can now pick up any sleeping bag as long they are in TC range
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can now reskin IO deployables with the spray can without disconnecting it entirely
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Static payphones now have more accurate grid numbers in their phone directory
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Phones can now have names up to 30 characters long
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a breaking server rules option to the F7 report window (will not be enforced on Facepunch servers)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added squeeze, barrel and current bone parent readouts to the debug cam info readout
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Industrial lights have been merged into a single item, red and green versions are now skins (so they can be changed with the spraycan)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added teleportteam2me command, will use the local players team or the provided team id
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a toggle to the Admin F1 UGC panel to hide wanted posters
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can now use multiple commands with a midi bind via the ‘;’ symbol (same as binds)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced the chance of a player getting killed at the end of a zipline, particularly if the zipline was arriving at an extreme angle
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed wording of vending machine dynamic price multiplier when looking at vending machine on a map
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added “debug.deleteentitybyid” convar
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed ClearUGCByPlayer convar requiring the player to be online
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admin ESP features can now be used in first person when spectating
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can now loop the entire timeline (Demo Editor)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Allow spaces in shot and folder names (Demo Editor)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Automatically switch control to the camera when a shot recording starts (Demo Editor)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added accessibility.disableMovementInInventory convar to block player input when the inventory screen is open.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Backpacks and shields can now be used with weapon racks.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved performance in the workshop menu. Both when open and after the window is closed.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admin: Added authradius_radius &lt;playerRadius&gt; &lt;entRadius&gt; to authorise everyone within playerRadius of the command user on all entities within entRadius of the player.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admin: Added deauthradius_radius &lt;playerRadius&gt; &lt;entRadius&gt; to deauthorise everyone within playerRadius of the command user on all entities within entRadius of the player.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admin: Added authradius_multi &lt;radius&gt; &lt;player&gt; &lt;player&gt; &lt;...&gt; to auth multiple players on all entities within radius of the command user.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admin: Added deauthradius_multi&lt;radius&gt; &lt;player&gt; &lt;player&gt; &lt;...&gt; to deauth multiple players on all entities within radius of the command user.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admin: Added a "Stack" button to F1 menu item icons to give a full stack of item.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admin: Added clear_trees_radius to clear all trees in a radius form the player
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Creative mode: Added Creative.bypassHoldToPlaceDuration convar to bypass the hold to place time of deployables such as High External Walls.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved TAA implementation by reducing blurring and artifacting.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          ServerProfiler: added linux binary
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          ServerProfiler: reduced capture overhead
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Horses now use anisotropic materials for more realistic hair shading
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admin :'chat.mutelist' now exposes SteamID's
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed F1 Grenades not saving Specular maps on the Community Workshop.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Lumberjack Hoodie not rendering when equipped.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed item store Prototype Pickaxe being referred as Protoype Hatchet
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the performance issues impacting Chinese, Japanese and Korean fonts when opening menus or using the chat
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed missing Chinese, Japanese and Korean characters in the UI
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Removed the "GiveItem failed!" error message that appeared when looting an item with a full inventory
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Dropped pumpkins no longer roll indefinitely
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed spraying the factory skin twice would result in a broken texture
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some packs in the store displaying their store page incorrectly at low UI scale
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed fish traps needing to be reset after a server restart
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a calculation error when applying dynamic pricing to a vending machine sale
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed holosights looking different based on the accessibility colour selected while in NVG
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed certain AntiHack errors preventing the placement of deployables (e.g. barricades)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed occasional errors when saving shots (Demo Editor)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed shot and folder input fields resetting when pressing escape (Demo Editor)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Ice Assault Rifle's name and description to be in line with other similar items.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an issue with player inventory being locked if kicked when surrendering.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Items can no longer be swapped into softcore reclaim bags, fixing an exploit.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Submarines can no longer be stolen when purchased at Fishing Village.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Submarine fuel can no longer be stolen from a submarine purchased at the Fishing Village.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          The patrol helicopter will no longer shoot at scientists.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Remove an error logged by wolves that could spam server logs.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed DLSS Ultra Performance Mode artifacts.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed formatting issues with importing and exporting normal maps via the workshop.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Fishing Villages spawning too close to harbor
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Cargoship being able to abduct NPC's
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Road Bradley and Travelling Vendor events not outputting the correct printouts
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed respawning static planter causing hash conflicts on sockets
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Vending Machine stats panel incorrectly separating combined purchases as single purchases
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Ensured phrases are translated properly on Vending Machine stats panel
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed death and auth commands not working for locks on tool cupboards
+         </div>
+        </li>
+       </ul>
       </div>
      </div>
     </div>
@@ -2039,14 +3491,14 @@ This includes five unique enamel pins which measure in at 2 inches, with a shiny
 </div>
 <center>
 </center><center>]]></description>
-      <pubDate>Fri, 29 Nov 2024 11:35:00 Z</pubDate>
+      <pubDate>Thu, 06 Feb 2025 03:18:00 Z</pubDate>
     </item>
     <item>
       <title>Polish and Progress</title>
       <link>https://rust.facepunch.com/news/polish-and-progress/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
 <div class="blog-hero">
- <div class="container" targetobject="blog">
+ <div class="container">
   <div class="blog-hero-body">
    <div class="body-info">
     <h1 editname="Title" type="text">
@@ -2108,7 +3560,7 @@ This includes five unique enamel pins which measure in at 2 inches, with a shiny
 </style>
 <div class="blog">
  <div class="news-section-block sectionstyle-hero" id="Rusts11thbirthdaycelebrations">
-  <div class="section" like-handler="LikeBlogSection" like-id="84467" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84467">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -2228,7 +3680,7 @@ This includes five unique enamel pins which measure in at 2 inches, with a shiny
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="Qualityoflifechanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84488" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84488">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -2335,7 +3787,7 @@ This includes five unique enamel pins which measure in at 2 inches, with a shiny
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="WOLFPACKSbalancing">
-  <div class="section" like-handler="LikeBlogSection" like-id="84474" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84474">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -2439,7 +3891,7 @@ This includes five unique enamel pins which measure in at 2 inches, with a shiny
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="ELECTRICITYQOL">
-  <div class="section" like-handler="LikeBlogSection" like-id="84489" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84489">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -2502,7 +3954,7 @@ This includes five unique enamel pins which measure in at 2 inches, with a shiny
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="Modularcarradios">
-  <div class="section" like-handler="LikeBlogSection" like-id="84477" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84477">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -2559,7 +4011,7 @@ This includes five unique enamel pins which measure in at 2 inches, with a shiny
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="Helicoptershredding">
-  <div class="section" like-handler="LikeBlogSection" like-id="84485" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84485">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -2601,7 +4053,7 @@ This includes five unique enamel pins which measure in at 2 inches, with a shiny
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="Upgradablehighexternalwallsgates">
-  <div class="section" like-handler="LikeBlogSection" like-id="84490" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84490">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -2632,7 +4084,7 @@ This includes five unique enamel pins which measure in at 2 inches, with a shiny
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="VendingMachineStatistics">
-  <div class="section" like-handler="LikeBlogSection" like-id="84491" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84491">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -2748,7 +4200,7 @@ This includes five unique enamel pins which measure in at 2 inches, with a shiny
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="LegacyShelterRevoke">
-  <div class="section" like-handler="LikeBlogSection" like-id="84492" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84492">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -2772,7 +4224,7 @@ This includes five unique enamel pins which measure in at 2 inches, with a shiny
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="VariableZoomScope">
-  <div class="section" like-handler="LikeBlogSection" like-id="84493" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84493">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -2823,7 +4275,7 @@ This includes five unique enamel pins which measure in at 2 inches, with a shiny
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="ScrapExchangeVendorchanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84494" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84494">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -2852,7 +4304,7 @@ This includes five unique enamel pins which measure in at 2 inches, with a shiny
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="UnderwaterVisibility">
-  <div class="section" like-handler="LikeBlogSection" like-id="84505" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84505">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -2876,7 +4328,7 @@ This includes five unique enamel pins which measure in at 2 inches, with a shiny
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="riskylandminedisarming">
-  <div class="section" like-handler="LikeBlogSection" like-id="84471" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84471">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -2906,7 +4358,7 @@ This includes five unique enamel pins which measure in at 2 inches, with a shiny
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="Nodesparklechanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84487" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84487">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -2949,7 +4401,7 @@ This includes five unique enamel pins which measure in at 2 inches, with a shiny
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="QUEUEIMPROVEMENTS">
-  <div class="section" like-handler="LikeBlogSection" like-id="84496" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84496">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -3048,7 +4500,7 @@ net.Send(new SendInfo(conn));
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="RCONsecurityenhancements">
-  <div class="section" like-handler="LikeBlogSection" like-id="84497" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84497">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -3167,7 +4619,7 @@ net.Send(new SendInfo(conn));
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="NativeARM64HardwareSupport">
-  <div class="section" like-handler="LikeBlogSection" like-id="84472" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84472">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -3191,7 +4643,7 @@ net.Send(new SendInfo(conn));
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="Twitchrivalsisback">
-  <div class="section" like-handler="LikeBlogSection" like-id="84466" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84466">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -3265,7 +4717,7 @@ net.Send(new SendInfo(conn));
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="BuiltinServerProfiler">
-  <div class="section" like-handler="LikeBlogSection" like-id="84499" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84499">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -3392,7 +4844,7 @@ net.Send(new SendInfo(conn));
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="MaPMAKINGMODDINGPrefabs">
-  <div class="section" like-handler="LikeBlogSection" like-id="84498" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84498">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
@@ -3465,7 +4917,7 @@ net.Send(new SendInfo(conn));
   </div>
  </div>
  <div class="news-section-block sectionstyle-hero" id="Christmas">
-  <div class="section" like-handler="LikeBlogSection" like-id="84506" targetobject="section">
+  <div class="section" like-handler="LikeBlogSection" like-id="84506">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
