@@ -1,6 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Rogue Trader Difficulty Survey</title>
+      <link>https://store.steampowered.com/news/app/2186680/view/529838538997366826</link>
+      <description><![CDATA[
+<style>
+        [data-focus-scheme="dark"] {
+            color-scheme: none;
+        }
+    </style>
+Is the game too hard? Too easy? Would you like more challenge? <br/><br/>Share your opinions about each of the game's Acts in this difficulty survey! Your opinions are really important for us to improve the game's balance. <br/><br/>Thank you!<br/><br/>https://www.surveymonkey.com/r/85WMYRL]]></description>
+      <pubDate>Wed, 12 Feb 2025 11:56:07 +0000</pubDate>
+    </item>
+    <item>
       <title>Darktide 101: Enemy Character Art - Dev Blog</title>
       <link>https://store.steampowered.com/news/app/1361210/view/536593846012739645</link>
       <description><![CDATA[
@@ -51,18 +63,6 @@
     </style>
 <img src="https://clan.fastly.steamstatic.com/images/38365286/f25bd44022d68107336ddb85cf02b225ed6f8fff.png"/><br/><br/><div class="bb_h1">Hey everyone, </div><br/>We’ve got another quick update this week. Hotfix #60 (1.6.7) is currently rolling out and it’ll be available for everyone across our platforms today.<br/><ul class="bb_ul"><li> Fixed a server crash which could happen when players joined the Mourningstar.<br/></li><li> Fixed an issue where deaths which bypassed the downed state were not considered as failing the requirements of the "The Insane" penance.<br/><ul class="bb_ul"><li> <b>Dev Note:</b> <i>“The Insane” penance: Complete a Havoc Assignment of 35 or higher without anyone getting downed.</i></li></ul></li><li> Fixed an issue where the arms of the player character could disappear at certain camera angles when wearing the "Padre's Truskan Pattern Fatigues with Flak Vest (Glacial Might)" and "Truskan Sanctionite's Greatcoat with Flak Vest (Glacial Might)" upperbody cosmetics.</li></ul><img src="https://clan.fastly.steamstatic.com/images/38365286/a65c70af1027202631df9d22270d8a366b72f32d.png"/>]]></description>
       <pubDate>Wed, 05 Feb 2025 12:42:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hotfix #59 (1.6.6) - Patch Notes</title>
-      <link>https://store.steampowered.com/news/app/1361210/view/536592669875372717</link>
-      <description><![CDATA[
-<style>
-        [data-focus-scheme="dark"] {
-            color-scheme: none;
-        }
-    </style>
-<img src="https://clan.fastly.steamstatic.com/images/38365286/cd496fffc43c60ab11e722fa5cb0bcecbf0ffd98.png"/><br/><br/><div class="bb_h1">Hey Everyone,</div>As mentioned in our last post, Update on Hotfix #58 (1.6.5), there as an issue in the game that could cause some players to crash when interacting with the Sacrifice function at the Shrine of the Omnissiah.<br/><br/>This was fixed in today’s hotfix.<br/><br/><ul class="bb_ul"><li> Fixed a crash that would happen when accessing the Sacrifice or Discard menus without any available weapon to sacrifice/discard, or when returning to the above menus after having sacrificed/discarded all the available weapons for that character.</li></ul><img src="https://clan.fastly.steamstatic.com/images/38365286/a65c70af1027202631df9d22270d8a366b72f32d.png"/>]]></description>
-      <pubDate>Mon, 03 Feb 2025 11:56:13 +0000</pubDate>
     </item>
   </channel>
 </rss>
