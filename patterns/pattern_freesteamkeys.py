@@ -83,7 +83,7 @@ def fetch_article_content(article_url):
 
         article_content = clean_article_content(article_content) if article_content else "No content found."
 
-        styles = """<link href="https://raw.githubusercontent.com/ALeX400/Multi-RSS/refs/heads/main/assets/freesteamkeys.css" rel="stylesheet">"""
+        styles = """<link href="https://alex400.github.io/Multi-RSS/assets/freesteamkeys.css" rel="stylesheet">"""
         final_content = f"{styles}{article_header}{article_content}"
         return final_content.strip()
     except requests.RequestException as e:
