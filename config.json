@@ -40,6 +40,11 @@
 			"url": "https://rust.facepunch.com/news/",
 			"script": "pattern_rust_facepunch.py",
 			"FileName": "rust_news.xml"
+		},
+		"Free-Steam-Keys": {
+			"url": "https://www.freesteamkeys.com/keys-available/feed",
+			"script": "pattern_freesteamkeys.py",
+			"FileName": null
 		}
 		/**
 		"World News": {
