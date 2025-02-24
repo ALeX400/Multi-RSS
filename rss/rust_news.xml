@@ -1,6 +1,358 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Community Update 264</title>
+      <link>https://rust.facepunch.com/news/community-update-264/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Community Update 264
+    </h1>
+    <p editname="Summary" type="text">
+     With the holiday rushes over let's get caught up!  Tetris Rust, Animal Rescue Charities, LOTS of art, zerg tutorials, and more!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      20 February 2025
+     </div>
+     <a class="tag community" href="?category=community">
+      Community
+     </a>
+    </div>
+    <div class="author">
+     <div class="card user-card">
+      <div class="image">
+       <img src="https://files.facepunch.com/s/afe3bc0ea811.png"/>
+      </div>
+      <div class="body">
+       <div class="title has-text-white">
+        Errn
+       </div>
+       <div class="position">
+        Community Support
+       </div>
+       <div class="country">
+        United States
+       </div>
+       <div class="links">
+        <a class="button small" href="https://youtu.be/dQw4w9WgXcQ" icon="home">
+         web
+        </a>
+        <a class="button small" href="https://twitter.com/ErrnieGerrn" icon="chat">
+         twitter
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block" id="TetrisinRust">
+  <div class="section" like-handler="LikeBlogSection" like-id="84552" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Tetris in Rust
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Few months ago you may have seen a teaser for a giant GameBoy within Rust that you can actually play Tetris on.
+      <br/>
+      <br/>
+      <a class="" href="https://www.youtube.com/@PhilieveRust">
+       Philieve Rust
+      </a>
+      has done it again!  This is an electrical masterpiece and a must-see.
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="505" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/G4EN2L4-yOI?si=RjLg6CEHt0XWbZgC" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+      He did a pretty amazing puzzle base for the
+      <a class="" href="https://x.com/PhilieveRust/status/1844820167777476948">
+       Charitable Rust event
+      </a>
+      last fall which is also worth the watch!
+      <br/>
+      <br/>
+      SPLENDID
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="FurstaidPetRescueFundraiser">
+  <div class="section" like-handler="LikeBlogSection" like-id="84553" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Furstaid Pet Rescue Fundraiser
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Recently Los Angeles, California experienced a terrible wildfire disaster.  Resulted in many displaced families and lost pets.
+      <br/>
+      <br/>
+      <a class="" href="https://www.twitch.tv/chrissytinafx">
+       ChrissyTina
+      </a>
+      ,
+      <a class="" href="https://www.twitch.tv/raynbirds">
+       Raynbirds
+      </a>
+      , and
+      <a class="" href="https://www.twitch.tv/valair">
+       Valair
+      </a>
+      got their heads together and hosted a
+      <a class="" href="https://x.com/ChrissytinaFx/status/1885017926664937685">
+       pet rescue fundraiser
+      </a>
+      to help local animal shelters aid and foster displaced pets.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="slim">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/gallery.jpg"/>
+     </div>
+     <div>
+      They also teamed up with the
+      <a class="" href="https://x.com/Art_of_Rust">
+       Art of Rust
+      </a>
+      community to paint people's pets in game!
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="default">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/Vix1.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/Vix2.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/Vix3.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/bee1.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/nshade1.jpg"/>
+      </gallery>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/monstera1.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/monstera2.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/Leaf1.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/Hpixel1.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/joji.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/davinci.png"/>
+      </gallery>
+     </div>
+     <div>
+      <a class="" href="https://x.com/B0Be_r">
+       Bob
+      </a>
+      totally gets a participation ribbon for this one.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/Errn/1b1811b1/Bob.jpg"/>
+     </div>
+     <div>
+      So many amazing artists that participated in this event!  Many of which you can find on X
+      <a class="" href="https://x.com/hashtag/rustfurstaid?src=hashtag_click">
+       here
+      </a>
+      .
+      <br/>
+      <br/>
+      Oh, and Nightshade gave us a speedpaint!
+      <br/>
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="792" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/oL1Y59rFJtA?si=kirZzQ_DxsjSpsxx" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+      Overall they were able to raise over $9,000 for
+      <a class="" href="https://tiltify.com/@chrissytinafx/rust-furst-aid?origin=dashboard">
+       BestFriends.org
+      </a>
+      .  Well done everyone!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="How2Zerg">
+  <div class="section" like-handler="LikeBlogSection" like-id="84554" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       How 2 Zerg
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      If you're into highly educational tutorials dripping with dark humor and sarcasm then you're going to love
+      <a class="" href="https://www.youtube.com/@DirtyTrout">
+       Dirty Trout
+      </a>
+      !
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      He normally edits for other creators but recently came out with his own banger.
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="148" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/UBaS4i7vNsI?si=gRkY8HvV9_eZEWxu" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+      We're digging this out-of-norm video style and hope to see more!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="GLobalWarfare2Teaser">
+  <div class="section" like-handler="LikeBlogSection" like-id="84555" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       GLobal Warfare 2 Teaser
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Last summer
+      <a class="" href="https://www.youtube.com/@FancyOrb">
+       FancyOrb
+      </a>
+      put together and hosted the
+      <a class="" href="https://x.com/FancyOrb_/status/1805286214238384618">
+       Global Warfare 2
+      </a>
+      event.  Where the map was the real world and Rust players from all walks of life competed for territory standing.  There were politics, betrayals, victories, and an amazing timeline.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      He's almost finished with the literal movie about the whole thing and offered up a teaser.  Full-length coming soon!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="199" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/6Tk99AXWdu0?si=GSdJEX94Fs7Fcdko" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+      Global Warfare 3 when?
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="ErrnsNewSection">
+  <div class="section" like-handler="LikeBlogSection" like-id="84557" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Errn's New Section
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div style="outline: rgba(139, 195, 74, 0.3) dashed 1px;">
+       If you made something cool or saw something cool, reach out! Tag me on
+       <a class="selected" href="https://twitter.com/ErrnieGerrn">
+        X
+       </a>
+       or u/ErrnieGerrn
+       <a class="" href="https://www.reddit.com/r/playrust/" target="">
+        Reddit
+       </a>
+       .
+       <br/>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Cover image by
+       <a class="selected" href="https://x.com/monsterarust">
+        Monstera
+       </a>
+       !
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 20 Feb 2025 09:30:00 Z</pubDate>
+    </item>
+    <item>
       <title>Season's beatings</title>
       <link>https://rust.facepunch.com/news/christmas2024/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -553,358 +905,6 @@ And to remind ourselves that we couldn't have done it without you, the players a
 <center>
 </center><center>]]></description>
       <pubDate>Mon, 16 Dec 2024 11:32:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Community Update 264</title>
-      <link>https://rust.facepunch.com/news/community-update-264/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Community Update 264
-    </h1>
-    <p editname="Summary" type="text">
-     With the holiday rushes over let's get caught up!  Tetris Rust, Animal Rescue Charities, LOTS of art, zerg tutorials, and more!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      20 February 2025
-     </div>
-     <a class="tag community" href="?category=community">
-      Community
-     </a>
-    </div>
-    <div class="author">
-     <div class="card user-card">
-      <div class="image">
-       <img src="https://files.facepunch.com/s/afe3bc0ea811.png"/>
-      </div>
-      <div class="body">
-       <div class="title has-text-white">
-        Errn
-       </div>
-       <div class="position">
-        Community Support
-       </div>
-       <div class="country">
-        United States
-       </div>
-       <div class="links">
-        <a class="button small" href="https://youtu.be/dQw4w9WgXcQ" icon="home">
-         web
-        </a>
-        <a class="button small" href="https://twitter.com/ErrnieGerrn" icon="chat">
-         twitter
-        </a>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block" id="TetrisinRust">
-  <div class="section" like-handler="LikeBlogSection" like-id="84552" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Tetris in Rust
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Few months ago you may have seen a teaser for a giant GameBoy within Rust that you can actually play Tetris on.
-      <br/>
-      <br/>
-      <a class="" href="https://www.youtube.com/@PhilieveRust">
-       Philieve Rust
-      </a>
-      has done it again!  This is an electrical masterpiece and a must-see.
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="505" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/G4EN2L4-yOI?si=RjLg6CEHt0XWbZgC" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-      He did a pretty amazing puzzle base for the
-      <a class="" href="https://x.com/PhilieveRust/status/1844820167777476948">
-       Charitable Rust event
-      </a>
-      last fall which is also worth the watch!
-      <br/>
-      <br/>
-      SPLENDID
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="FurstaidPetRescueFundraiser">
-  <div class="section" like-handler="LikeBlogSection" like-id="84553" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Furstaid Pet Rescue Fundraiser
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Recently Los Angeles, California experienced a terrible wildfire disaster.  Resulted in many displaced families and lost pets.
-      <br/>
-      <br/>
-      <a class="" href="https://www.twitch.tv/chrissytinafx">
-       ChrissyTina
-      </a>
-      ,
-      <a class="" href="https://www.twitch.tv/raynbirds">
-       Raynbirds
-      </a>
-      , and
-      <a class="" href="https://www.twitch.tv/valair">
-       Valair
-      </a>
-      got their heads together and hosted a
-      <a class="" href="https://x.com/ChrissytinaFx/status/1885017926664937685">
-       pet rescue fundraiser
-      </a>
-      to help local animal shelters aid and foster displaced pets.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="slim">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/gallery.jpg"/>
-     </div>
-     <div>
-      They also teamed up with the
-      <a class="" href="https://x.com/Art_of_Rust">
-       Art of Rust
-      </a>
-      community to paint people's pets in game!
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="default">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/Vix1.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/Vix2.png"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/Vix3.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/bee1.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/nshade1.jpg"/>
-      </gallery>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/monstera1.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/monstera2.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/Leaf1.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/Hpixel1.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/joji.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b1811b1/davinci.png"/>
-      </gallery>
-     </div>
-     <div>
-      <a class="" href="https://x.com/B0Be_r">
-       Bob
-      </a>
-      totally gets a participation ribbon for this one.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/Errn/1b1811b1/Bob.jpg"/>
-     </div>
-     <div>
-      So many amazing artists that participated in this event!  Many of which you can find on X
-      <a class="" href="https://x.com/hashtag/rustfurstaid?src=hashtag_click">
-       here
-      </a>
-      .
-      <br/>
-      <br/>
-      Oh, and Nightshade gave us a speedpaint!
-      <br/>
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="792" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/oL1Y59rFJtA?si=kirZzQ_DxsjSpsxx" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-      Overall they were able to raise over $9,000 for
-      <a class="" href="https://tiltify.com/@chrissytinafx/rust-furst-aid?origin=dashboard">
-       BestFriends.org
-      </a>
-      .  Well done everyone!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="How2Zerg">
-  <div class="section" like-handler="LikeBlogSection" like-id="84554" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       How 2 Zerg
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      If you're into highly educational tutorials dripping with dark humor and sarcasm then you're going to love
-      <a class="" href="https://www.youtube.com/@DirtyTrout">
-       Dirty Trout
-      </a>
-      !
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      He normally edits for other creators but recently came out with his own banger.
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="148" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/UBaS4i7vNsI?si=gRkY8HvV9_eZEWxu" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-      We're digging this out-of-norm video style and hope to see more!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="GLobalWarfare2Teaser">
-  <div class="section" like-handler="LikeBlogSection" like-id="84555" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       GLobal Warfare 2 Teaser
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Last summer
-      <a class="" href="https://www.youtube.com/@FancyOrb">
-       FancyOrb
-      </a>
-      put together and hosted the
-      <a class="" href="https://x.com/FancyOrb_/status/1805286214238384618">
-       Global Warfare 2
-      </a>
-      event.  Where the map was the real world and Rust players from all walks of life competed for territory standing.  There were politics, betrayals, victories, and an amazing timeline.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      He's almost finished with the literal movie about the whole thing and offered up a teaser.  Full-length coming soon!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="199" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/6Tk99AXWdu0?si=GSdJEX94Fs7Fcdko" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-      Global Warfare 3 when?
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="ErrnsNewSection">
-  <div class="section" like-handler="LikeBlogSection" like-id="84557" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Errn's New Section
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div style="outline: rgba(139, 195, 74, 0.3) dashed 1px;">
-       If you made something cool or saw something cool, reach out! Tag me on
-       <a class="selected" href="https://twitter.com/ErrnieGerrn">
-        X
-       </a>
-       or u/ErrnieGerrn
-       <a class="" href="https://www.reddit.com/r/playrust/" target="">
-        Reddit
-       </a>
-       .
-       <br/>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Cover image by
-       <a class="selected" href="https://x.com/monsterarust">
-        Monstera
-       </a>
-       !
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 20 Feb 2025 09:30:00 Z</pubDate>
     </item>
     <item>
       <title>11 Years Strong</title>
