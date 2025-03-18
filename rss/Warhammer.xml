@@ -1,6 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Hotfix 6.4.3</title>
+      <link>https://store.steampowered.com/news/app/552500/view/606402352818161401</link>
+      <description><![CDATA[
+<style>
+        [data-focus-scheme="dark"] {
+            color-scheme: none;
+        }
+    </style>
+<blockquote class="bb_blockquote"> <div class="bb_h2">	Hotfix 6.4.3 - 17th of March							</div> <div class="bb_h3">	Features &amp; Tweaks							</div> <ul class="bb_ul"> <li>	Bot Improvements: (note, these changes were missed from patch 6.4.0 patch notes)								<br/> <ul class="bb_ul"> <li>	Bots now avoid healing Zealots.						</li></ul> </li></ul> <br/> <div class="bb_h3">	Fixes							</div> <ul class="bb_ul"> <li>	Fixed social wheel messages not working in Versus.								<br/> </li><li>	Fixed a bug where Weaves was inaccessible for some players.							</li></ul> </blockquote> ]]></description>
+      <pubDate>Tue, 18 Mar 2025 12:31:45 +0000</pubDate>
+    </item>
+    <item>
       <title>Updates to Havoc - Dev Blog</title>
       <link>https://store.steampowered.com/news/app/1361210/view/573751255204102938</link>
       <description><![CDATA[
@@ -83,18 +95,6 @@ Steam X Facebook Instagram Discord [url=https://bsky.app/profile/totalwar.bsky.s
 Steam X Facebook Instagram Discord [url=https://bsky.app/profile/totalwar.bsky.social 
  style=button]Bluesky[/url]</div></div>]]></description>
       <pubDate>Thu, 13 Mar 2025 18:01:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Public Test Server is LIVE!! 📣</title>
-      <link>https://store.steampowered.com/news/app/2183900/view/588387954308677661</link>
-      <description><![CDATA[
-<style>
-        [data-focus-scheme="dark"] {
-            color-scheme: none;
-        }
-    </style>
-<div class="bb_h3">Dear Space Marines,</div><br/><div class="bb_h2">The Public Test Server is LIVE! 🎉🎉🎉</div><br/>Install it, play with work-in-progress game content and share your experience with us and the other PTS players! Don't forget that the PTS functions like a separate game. If you have questions, please make sur to read the FAQ here!<br/><br/>And for those who want to read the <b>detailed patch notes</b>, it's here! <br/><br/><div class="bb_h3">The Emperor protects! </div>]]></description>
-      <pubDate>Thu, 13 Mar 2025 10:06:10 +0000</pubDate>
     </item>
   </channel>
 </rss>
