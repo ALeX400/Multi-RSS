@@ -1,6 +1,504 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Custom Sideskirts for SCS Volvo FH4/5/6 v1.0 ETS2</title>
+      <link>https://www.ets2world.com/custom-sideskirts-for-scs-volvo-fh4-5-6-v1-0-ets2/</link>
+      <description><![CDATA[<article class="post-366770 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-partstuning">
+ <div class="post-inner group">
+  <p class="post-byline">
+   <span class="vcard author">
+    <span class="fn">
+     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
+      <span style="color: #777;">
+       Euro Truck Simulator 2 Mods
+      </span>
+     </a>
+     |
+     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
+      <span style="color: #777;">
+       American Truck Simulator Mods
+      </span>
+     </a>
+    </span>
+   </span>
+   |
+   <span class="published">
+    March 21, 2025
+   </span>
+  </p>
+  <center>
+   <div class="thumbnail">
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="1080" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/custom-sideskirts-for-scs-volvo-fh4-5-6-v1.0-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/03/custom-sideskirts-for-scs-volvo-fh4-5-6-v1.0-ets2-1.jpg 1920w, https://www.ets2world.com/wp-content/uploads/2025/03/custom-sideskirts-for-scs-volvo-fh4-5-6-v1.0-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/03/custom-sideskirts-for-scs-volvo-fh4-5-6-v1.0-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/03/custom-sideskirts-for-scs-volvo-fh4-5-6-v1.0-ets2-1-768x432.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/03/custom-sideskirts-for-scs-volvo-fh4-5-6-v1.0-ets2-1-1536x864.jpg 1536w" width="1920"/>
+    <img alt="ETS2 Parts/Tuning" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+   </div>
+  </center>
+  <div class="clear">
+  </div>
+  <div class="entry themeform">
+   <div class="entry-inner">
+    <hr/>
+    <center style="margin-top:15px;">
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/custom-sideskirts-for-scs-volvo-fh4-5-6-v1.0-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/custom-sideskirts-for-scs-volvo-fh4-5-6-v1.0-ets2-1-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/custom-sideskirts-for-scs-volvo-fh4-5-6-v1.0-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/custom-sideskirts-for-scs-volvo-fh4-5-6-v1.0-ets2-2-160x160.jpg" width="160"/>
+     </a>
+    </center>
+    <center>
+    </center>
+    <p>
+     <strong>
+      Custom Sideskirts for SCS Volvo FH4/5/6 v1.0 ETS2
+     </strong>
+    </p>
+    <hr/>
+    <p>
+     <strong>
+      Summary:
+     </strong>
+     <br/>
+     – This mod adds custom sideskirts for the stock Volvo FH4/5/6.
+     <br/>
+     – There are two variants, one for the 4×2 chassis, and one for the 6×2/4 long chassis.
+     <br/>
+     – Currently unavailable for the 6×2/4 short chassis on the FH5/6 (WIP, will probably be released when game version 1.54 stable comes out).
+     <br/>
+     – All parts of the sideskirts are built from the scratch, except the locker handle model, which is borrowed from SCS trailers.
+     <br/>
+     – The sideskirts are paintable and skinnable.
+     <br/>
+     – The sideskirts have slots for marker lights and other accessories.
+     <br/>
+     – The sideskirts are made to align with the chassis covers from the FH tuning pack.
+    </p>
+    <p>
+     <strong>
+      Notes:
+     </strong>
+     <br/>
+     – Tested on 1.53.x (should work fine on newer versions too)
+     <br/>
+     – I cannot guarantee compatibility with other mods, especially ones that change the trucks’ chassis, add new chassis models or modify the sideskirt locator in anyway.
+     <br/>
+     – Other mods used in screenshots: BC-Exterior Belka accessory, Boreman LED Marker Lights Pack and SCS wheels REWORK V2.
+     <br/>
+     – Templates are included below.
+    </p>
+    <p>
+     <strong>
+      Accessory names for skinning:
+     </strong>
+     <br/>
+     acc_list[]: “sideskirt.azskirt4x2” (4×2 Sideskirt)
+     <br/>
+     acc_list[]: “sideskirt.azskirt6x4” (6×2/4 Long Sideskirt)
+    </p>
+    <hr/>
+    <strong>
+     Credits:
+    </strong>
+    jake_azazel83
+    <br/>
+    <p style="margin-bottom:3px;">
+    </p>
+    <hr/>
+    <hr>
+    <strong>
+     How to install ETS2 mods or ATS Mods
+    </strong>
+    <br/>
+    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
+    <hr>
+     <div>
+      <span style="font-size:15px; color: #f42d36;">
+       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
+      </span>
+     </div>
+     <hr/>
+     <center>
+     </center>
+     <p>
+      <center>
+       <div>
+        <a class="dmod" href="https://modsfile.com/ogaydxe352tw/unpack_azcustomsideskirtfh456.rar.html" rel="nofollow" target="_blank">
+         <strong>
+          DOWNLOAD MOD
+         </strong>
+        </a>
+       </div>
+      </center>
+     </p>
+     <center style="margin-top:35px;">
+     </center>
+     <nav class="pagination group">
+     </nav>
+    </hr>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+ </div>
+ <hr/>
+</article>
+<br><br><br>]]></description>
+    </item>
+    <item>
+      <title>4-axle split bucket 1.53 ETS2</title>
+      <link>https://www.ets2world.com/4-axle-split-bucket-1-53-ets2/</link>
+      <description><![CDATA[<article class="post-366766 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trailers">
+ <div class="post-inner group">
+  <p class="post-byline">
+   <span class="vcard author">
+    <span class="fn">
+     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
+      <span style="color: #777;">
+       Euro Truck Simulator 2 Mods
+      </span>
+     </a>
+     |
+     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
+      <span style="color: #777;">
+       American Truck Simulator Mods
+      </span>
+     </a>
+    </span>
+   </span>
+   |
+   <span class="published">
+    March 21, 2025
+   </span>
+  </p>
+  <center>
+   <div class="thumbnail">
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="1067" sizes="(max-width: 1475px) 100vw, 1475px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/cacamba-4eixos-bi-partida-1.53-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/03/cacamba-4eixos-bi-partida-1.53-ets2-1.jpg 1475w, https://www.ets2world.com/wp-content/uploads/2025/03/cacamba-4eixos-bi-partida-1.53-ets2-1-300x217.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/03/cacamba-4eixos-bi-partida-1.53-ets2-1-1024x741.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/03/cacamba-4eixos-bi-partida-1.53-ets2-1-768x556.jpg 768w" width="1475"/>
+    <img alt="ETS2 Trailers" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+   </div>
+  </center>
+  <div class="clear">
+  </div>
+  <div class="entry themeform">
+   <div class="entry-inner">
+    <hr/>
+    <center style="margin-top:15px;">
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/cacamba-4eixos-bi-partida-1.53-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/cacamba-4eixos-bi-partida-1.53-ets2-1-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/cacamba-4eixos-bi-partida-1.53-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/cacamba-4eixos-bi-partida-1.53-ets2-2-160x160.jpg" width="160"/>
+     </a>
+    </center>
+    <center>
+    </center>
+    <p>
+     <strong>
+      4-axle split bucket 1.53 ETS2
+     </strong>
+    </p>
+    <hr/>
+    <p>
+     Trailer standalone
+     <br/>
+     Acessorios proprios
+     <br/>
+     v1.53
+    </p>
+    <hr/>
+    <strong>
+     Credits:
+    </strong>
+    pisc
+    <br/>
+    <p style="margin-bottom:3px;">
+    </p>
+    <hr/>
+    <hr>
+    <strong>
+     How to install ETS2 mods or ATS Mods
+    </strong>
+    <br/>
+    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
+    <hr>
+     <div>
+      <span style="font-size:15px; color: #f42d36;">
+       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
+      </span>
+     </div>
+     <hr/>
+     <center>
+     </center>
+     <p>
+      <center>
+       <div>
+        <a class="dmod" href="https://modsfile.com/vqndvcc3utca/BIPARTIDA_V1__SHOP_PISC_.zip.html" rel="nofollow" target="_blank">
+         <strong>
+          DOWNLOAD MOD
+         </strong>
+        </a>
+       </div>
+      </center>
+     </p>
+     <center style="margin-top:35px;">
+     </center>
+     <nav class="pagination group">
+     </nav>
+    </hr>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+ </div>
+ <hr/>
+</article>
+<br><br><br>]]></description>
+    </item>
+    <item>
+      <title>Road to Caucasus + ProMods The Great Steppe Road Connector (1.53) v1.0 ETS2</title>
+      <link>https://www.ets2world.com/road-to-caucasus-promods-the-great-steppe-road-connector-1-53-v1-0-ets2/</link>
+      <description><![CDATA[<article class="post-366759 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
+ <div class="post-inner group">
+  <p class="post-byline">
+   <span class="vcard author">
+    <span class="fn">
+     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
+      <span style="color: #777;">
+       Euro Truck Simulator 2 Mods
+      </span>
+     </a>
+     |
+     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
+      <span style="color: #777;">
+       American Truck Simulator Mods
+      </span>
+     </a>
+    </span>
+   </span>
+   |
+   <span class="published">
+    March 21, 2025
+   </span>
+  </p>
+  <center>
+   <div class="thumbnail">
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="624" sizes="(max-width: 1110px) 100vw, 1110px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-2B-promods-the-great-steppe-road-connector-v1.0-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-2B-promods-the-great-steppe-road-connector-v1.0-ets2-1.jpg 1110w, https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-2B-promods-the-great-steppe-road-connector-v1.0-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-2B-promods-the-great-steppe-road-connector-v1.0-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-2B-promods-the-great-steppe-road-connector-v1.0-ets2-1-768x432.jpg 768w" width="1110"/>
+    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+   </div>
+  </center>
+  <div class="clear">
+  </div>
+  <div class="entry themeform">
+   <div class="entry-inner">
+    <hr/>
+    <center style="margin-top:15px;">
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-2B-promods-the-great-steppe-road-connector-v1.0-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-2B-promods-the-great-steppe-road-connector-v1.0-ets2-1-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-2B-promods-the-great-steppe-road-connector-v1.0-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-2B-promods-the-great-steppe-road-connector-v1.0-ets2-2-160x160.jpg" width="160"/>
+     </a>
+    </center>
+    <center>
+    </center>
+    <p>
+     <strong>
+      Road to Caucasus + ProMods The Great Steppe Road Connector (1.53) v1.0 ETS2
+     </strong>
+    </p>
+    <hr/>
+    <p>
+     Road to Caucasus – Promods The Great Steppe Road Connector
+     <br/>
+     This connector only works with Road to Caucasus version 1.1 and higher.
+     <br/>
+     Game: 1.53
+    </p>
+    <hr/>
+    <strong>
+     Credits:
+    </strong>
+    Yuriko (MCY)
+    <br/>
+    <p style="margin-bottom:3px;">
+    </p>
+    <hr/>
+    <hr>
+    <strong>
+     How to install ETS2 mods or ATS Mods
+    </strong>
+    <br/>
+    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
+    <hr>
+     <div>
+      <span style="font-size:15px; color: #f42d36;">
+       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
+      </span>
+     </div>
+     <hr/>
+     <center>
+     </center>
+     <p>
+      <center>
+       <div>
+        <a class="dmod" href="https://modsfile.com/cvsix5wj7p7r/rtc_tgs_rc.scs.html" rel="nofollow" target="_blank">
+         <strong>
+          DOWNLOAD MOD
+         </strong>
+        </a>
+       </div>
+      </center>
+     </p>
+     <center style="margin-top:35px;">
+     </center>
+     <nav class="pagination group">
+     </nav>
+    </hr>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+ </div>
+ <hr/>
+</article>
+<br><br><br>]]></description>
+    </item>
+    <item>
+      <title>Road to Caucasus v1.1 (1.53) ETS2</title>
+      <link>https://www.ets2world.com/road-to-caucasus-v1-1-1-53-ets2/</link>
+      <description><![CDATA[<article class="post-366754 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
+ <div class="post-inner group">
+  <p class="post-byline">
+   <span class="vcard author">
+    <span class="fn">
+     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
+      <span style="color: #777;">
+       Euro Truck Simulator 2 Mods
+      </span>
+     </a>
+     |
+     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
+      <span style="color: #777;">
+       American Truck Simulator Mods
+      </span>
+     </a>
+    </span>
+   </span>
+   |
+   <span class="published">
+    March 21, 2025
+   </span>
+  </p>
+  <center>
+   <div class="thumbnail">
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="788" sizes="(max-width: 1400px) 100vw, 1400px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-v1.1-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-v1.1-ets2-1.jpg 1400w, https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-v1.1-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-v1.1-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-v1.1-ets2-1-768x432.jpg 768w" width="1400"/>
+    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+   </div>
+  </center>
+  <div class="clear">
+  </div>
+  <div class="entry themeform">
+   <div class="entry-inner">
+    <hr/>
+    <center style="margin-top:15px;">
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-v1.1-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-v1.1-ets2-1-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-v1.1-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-v1.1-ets2-2-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-v1.1-ets2-3.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-v1.1-ets2-3-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-v1.1-ets2-4.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/road-to-caucasus-v1.1-ets2-4-160x160.jpg" width="160"/>
+     </a>
+    </center>
+    <center>
+    </center>
+    <p>
+     <strong>
+      Road to Caucasus v1.1 (1.53) ETS2
+     </strong>
+    </p>
+    <hr/>
+    <p>
+     <strong>
+      Beta Version 1.1:
+     </strong>
+     <br/>
+     WARNING. From map version 1.1 and above there is no connection with Promods The Great Steppe. There will be a separate road connector for this.
+     <br/>
+     – Added 3 towns & roads: Grozny, Khasavyurt, Chervlennaya
+     <br/>
+     – Added 5 companies
+     <br/>
+     – Fixed other many bugs
+    </p>
+    <p>
+     <strong>
+      Required Content
+     </strong>
+     <br/>
+     <a href="https://www.ets2world.com/southern-region-map-v12-2-1-48-ets2/" rel="noopener" target="_blank">
+      Southern Region Map
+     </a>
+     ,
+     <a href="https://www.ets2world.com/the-great-steppe-v1-2-2-1-53-ets2/" rel="noopener" target="_blank">
+      The Great Steppe
+     </a>
+    </p>
+    <p>
+     Game: 1.53
+    </p>
+    <hr/>
+    <strong>
+     Credits:
+    </strong>
+    Yuriko (MCY)
+    <br/>
+    <p style="margin-bottom:3px;">
+    </p>
+    <hr/>
+    <hr>
+    <strong>
+     How to install ETS2 mods or ATS Mods
+    </strong>
+    <br/>
+    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
+    <hr>
+     <div>
+      <span style="font-size:15px; color: #f42d36;">
+       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
+      </span>
+     </div>
+     <hr/>
+     <center>
+     </center>
+     <p>
+      <center>
+       <div>
+        <a class="dmod" href="https://modsfile.com/fg9qg3bhgws4/rtc_beta_v_1_1.scs.html" rel="nofollow" target="_blank">
+         <strong>
+          DOWNLOAD MOD
+         </strong>
+        </a>
+       </div>
+      </center>
+     </p>
+     <center style="margin-top:35px;">
+     </center>
+     <nav class="pagination group">
+     </nav>
+    </hr>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+ </div>
+ <hr/>
+</article>
+<br><br><br>]]></description>
+    </item>
+    <item>
       <title>RVM Pickup Truck v4.7 1.54 ETS2</title>
       <link>https://www.ets2world.com/rvm-pickup-truck-v4-7-1-54-ets2/</link>
       <description><![CDATA[<article class="post-366744 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trucks">
@@ -106,538 +604,6 @@
       <center>
        <div>
         <a class="dmod" href="https://modsfile.com/hx7zok3o66wr/UNZIP_RVM.zip.html" rel="nofollow" target="_blank">
-         <strong>
-          DOWNLOAD MOD
-         </strong>
-        </a>
-       </div>
-      </center>
-     </p>
-     <center style="margin-top:35px;">
-     </center>
-     <nav class="pagination group">
-     </nav>
-    </hr>
-   </div>
-   <div class="clear">
-   </div>
-  </div>
- </div>
- <hr/>
-</article>
-<br><br><br>]]></description>
-    </item>
-    <item>
-      <title>Ford LTL 9000 v5.0 1.53 ATS</title>
-      <link>https://www.ets2world.com/ford-ltl-9000-v5-0-1-53-ats/</link>
-      <description><![CDATA[<article class="post-366740 post type-post status-publish format-standard has-post-thumbnail hentry category-ats-maps">
- <div class="post-inner group">
-  <p class="post-byline">
-   <span class="vcard author">
-    <span class="fn">
-     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
-      <span style="color: #777;">
-       Euro Truck Simulator 2 Mods
-      </span>
-     </a>
-     |
-     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
-      <span style="color: #777;">
-       American Truck Simulator Mods
-      </span>
-     </a>
-    </span>
-   </span>
-   |
-   <span class="published">
-    March 21, 2025
-   </span>
-  </p>
-  <center>
-   <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="775" sizes="(max-width: 1240px) 100vw, 1240px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/ford-ltl-9000-v5.0-1.53-ats-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/03/ford-ltl-9000-v5.0-1.53-ats-1.jpg 1240w, https://www.ets2world.com/wp-content/uploads/2025/03/ford-ltl-9000-v5.0-1.53-ats-1-300x188.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/03/ford-ltl-9000-v5.0-1.53-ats-1-1024x640.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/03/ford-ltl-9000-v5.0-1.53-ats-1-768x480.jpg 768w" width="1240"/>
-    <img alt="ATS Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ats3.png"/>
-   </div>
-  </center>
-  <div class="clear">
-  </div>
-  <div class="entry themeform">
-   <div class="entry-inner">
-    <hr/>
-    <center style="margin-top:15px;">
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/ford-ltl-9000-v5.0-1.53-ats-1.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/ford-ltl-9000-v5.0-1.53-ats-1-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/ford-ltl-9000-v5.0-1.53-ats-2.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/ford-ltl-9000-v5.0-1.53-ats-2-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/ford-ltl-9000-v5.0-1.53-ats-3.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/ford-ltl-9000-v5.0-1.53-ats-3-160x160.jpg" width="160"/>
-     </a>
-    </center>
-    <center>
-    </center>
-    <p>
-     <strong>
-      Ford LTL 9000 v5.0 1.53 ATS
-     </strong>
-    </p>
-    <hr/>
-    <p>
-     <strong>
-      Changelog v5
-     </strong>
-     <br/>
-     – Added support for interior shadow
-     <br/>
-     – Fixed crashing issues
-     <br/>
-     – Reimported models and files to latest dates
-     <br/>
-     – Clean and remove obsolete elements
-     <br/>
-     – Compatibility for 1.51-1.53
-    </p>
-    <p>
-     <strong>
-      Includes:
-     </strong>
-     <br/>
-     Cabins: Flattop, Sleeper
-     <br/>
-     2 Chassis
-     <br/>
-     Engines: Cummins NTC/444/N14/L10, DD92, Cat 3406E/3406B/3406C
-     <br/>
-     2 Interiors
-     <br/>
-     A lot of customization/tuning for interior & exterior
-    </p>
-    <hr/>
-    <strong>
-     Credits:
-    </strong>
-    Bladeshop
-    <br/>
-    <p style="margin-bottom:3px;">
-    </p>
-    <hr/>
-    <hr>
-    <strong>
-     How to install ETS2 mods or ATS Mods
-    </strong>
-    <br/>
-    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
-    <hr>
-     <div>
-      <span style="font-size:15px; color: #f42d36;">
-       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
-      </span>
-     </div>
-     <hr/>
-     <center>
-     </center>
-     <p>
-      <center>
-       <div>
-        <a class="dmod" href="https://modsfile.com/pa1ykfwl9cc7/BladeShop_LTL_9000_v5_ATS_1.53.scs.html" rel="nofollow" target="_blank">
-         <strong>
-          DOWNLOAD MOD
-         </strong>
-        </a>
-       </div>
-      </center>
-     </p>
-     <center style="margin-top:35px;">
-     </center>
-     <nav class="pagination group">
-     </nav>
-    </hr>
-   </div>
-   <div class="clear">
-   </div>
-  </div>
- </div>
- <hr/>
-</article>
-<br><br><br>]]></description>
-    </item>
-    <item>
-      <title>Truck Sounds Reworked Megapack v12.1 ETS2</title>
-      <link>https://www.ets2world.com/truck-sounds-reworked-megapack-v12-1-ets2/</link>
-      <description><![CDATA[<article class="post-366738 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-sounds">
- <div class="post-inner group">
-  <p class="post-byline">
-   <span class="vcard author">
-    <span class="fn">
-     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
-      <span style="color: #777;">
-       Euro Truck Simulator 2 Mods
-      </span>
-     </a>
-     |
-     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
-      <span style="color: #777;">
-       American Truck Simulator Mods
-      </span>
-     </a>
-    </span>
-   </span>
-   |
-   <span class="published">
-    March 21, 2025
-   </span>
-  </p>
-  <center>
-   <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="365" sizes="(max-width: 650px) 100vw, 650px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/truck-sounds-reworked-megapack-v12.1-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/03/truck-sounds-reworked-megapack-v12.1-ets2-1.jpg 650w, https://www.ets2world.com/wp-content/uploads/2025/03/truck-sounds-reworked-megapack-v12.1-ets2-1-300x168.jpg 300w" width="650"/>
-    <img alt="ETS2 Sounds" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
-   </div>
-  </center>
-  <div class="clear">
-  </div>
-  <div class="entry themeform">
-   <div class="entry-inner">
-    <hr/>
-    <center style="margin-top:15px;">
-    </center>
-    <center>
-    </center>
-    <p>
-     <strong>
-      Truck Sounds Reworked Megapack v12.1 ETS2
-     </strong>
-    </p>
-    <hr/>
-    <p>
-     <strong>
-      Feature:
-     </strong>
-     <br/>
-     19 engines sound reworked from SCS sounds
-     <br/>
-     7 transmissions and 6 types of retarder sounds
-     <br/>
-     New definite engines for accurate sound for each engines
-     <br/>
-     Custom interior attenuation for realistic sound inside the truck
-     <br/>
-     New improved custom sound attenuation for realistic sound fade off with reverb and distortion effects
-     <br/>
-     New improved exhaust distortion combined with sound orientation
-     <br/>
-     New 950hp engine with 5250nm torque for all trucks
-     <br/>
-     New allison 6 gear transmission for all trucks
-    </p>
-    <p>
-     <strong>
-      Sounds for:
-     </strong>
-     <br/>
-     DAF XF 105 by Vadik
-     <br/>
-     MAN TGX 2020
-     <br/>
-     MAN TGX Euro 5 Reworked by Madster
-     <br/>
-     MAN TGX Euro 6 by Madster
-     <br/>
-     Mercedes-Benz Antos 12
-     <br/>
-     Mercedes-Benz Actros 2019
-     <br/>
-     Mercedes-Benz Actros MP2 Black Edition by Dotec
-     <br/>
-     Renault Magnum by Knox
-     <br/>
-     Scania RJL (R, Streamline, T series, 4 Series)
-     <br/>
-     Scania R2012 by Fred
-     <br/>
-     RPIE Volvo FH16 2012
-    </p>
-    <hr/>
-    <strong>
-     Credits:
-    </strong>
-    RastaJr
-    <br/>
-    <p style="margin-bottom:3px;">
-    </p>
-    <hr/>
-    <hr>
-    <strong>
-     How to install ETS2 mods or ATS Mods
-    </strong>
-    <br/>
-    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
-    <hr>
-     <div>
-      <span style="font-size:15px; color: #f42d36;">
-       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
-      </span>
-     </div>
-     <hr/>
-     <center>
-     </center>
-     <p>
-      <center>
-       <div>
-        <a class="dmod" href="https://modsfile.com/3rvbn24de3t3/scs_truck_sound_rework_megapack.scs.html" rel="nofollow" target="_blank">
-         <strong>
-          DOWNLOAD MOD
-         </strong>
-        </a>
-       </div>
-      </center>
-     </p>
-     <center style="margin-top:35px;">
-     </center>
-     <nav class="pagination group">
-     </nav>
-    </hr>
-   </div>
-   <div class="clear">
-   </div>
-  </div>
- </div>
- <hr/>
-</article>
-<br><br><br>]]></description>
-    </item>
-    <item>
-      <title>Audi R8 V10 Spyder 2021 v1.2 1.54 ETS2</title>
-      <link>https://www.ets2world.com/audi-r8-v10-spyder-2021-v1-2-1-54-ets2/</link>
-      <description><![CDATA[<article class="post-366695 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-cars">
- <div class="post-inner group">
-  <p class="post-byline">
-   <span class="vcard author">
-    <span class="fn">
-     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
-      <span style="color: #777;">
-       Euro Truck Simulator 2 Mods
-      </span>
-     </a>
-     |
-     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
-      <span style="color: #777;">
-       American Truck Simulator Mods
-      </span>
-     </a>
-    </span>
-   </span>
-   |
-   <span class="published">
-    March 21, 2025
-   </span>
-  </p>
-  <center>
-   <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="1080" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/audi-r8-v10-spyder-2021-v1.2-1.54-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/03/audi-r8-v10-spyder-2021-v1.2-1.54-ets2-1.jpg 1920w, https://www.ets2world.com/wp-content/uploads/2025/03/audi-r8-v10-spyder-2021-v1.2-1.54-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/03/audi-r8-v10-spyder-2021-v1.2-1.54-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/03/audi-r8-v10-spyder-2021-v1.2-1.54-ets2-1-768x432.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/03/audi-r8-v10-spyder-2021-v1.2-1.54-ets2-1-1536x864.jpg 1536w" width="1920"/>
-    <img alt="ETS2 Cars" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
-   </div>
-  </center>
-  <div class="clear">
-  </div>
-  <div class="entry themeform">
-   <div class="entry-inner">
-    <hr/>
-    <center style="margin-top:15px;">
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/audi-r8-v10-spyder-2021-v1.2-1.54-ets2-1.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/audi-r8-v10-spyder-2021-v1.2-1.54-ets2-1-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/audi-r8-v10-spyder-2021-v1.2-1.54-ets2-2.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/audi-r8-v10-spyder-2021-v1.2-1.54-ets2-2-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/audi-r8-v10-spyder-2021-v1.2-1.54-ets2-3.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/audi-r8-v10-spyder-2021-v1.2-1.54-ets2-3-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/audi-r8-v10-spyder-2021-v1.2-1.54-ets2-4.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/audi-r8-v10-spyder-2021-v1.2-1.54-ets2-4-160x160.jpg" width="160"/>
-     </a>
-    </center>
-    <center>
-    </center>
-    <p>
-     <strong>
-      Audi R8 V10 Spyder 2021 v1.2 1.54 ETS2
-     </strong>
-    </p>
-    <hr/>
-    <p>
-     <strong>
-      A new Updates :
-     </strong>
-     <br/>
-     – i added more color interior 3 of options
-     <br/>
-     – i Fixed the Driver of high
-     <br/>
-     – i added Original of Engine Sound
-     <br/>
-     – i Edited Some materials of exterior
-     <br/>
-     – i Edited the Engine TOP Speed : up 300KH
-     <br/>
-     – with 7 Gears
-    </p>
-    <p>
-     <strong>
-      Specifications:
-     </strong>
-     <br/>
-     – Very high-quality exterior & interior
-     <br/>
-     – options of Rim paintable
-     <br/>
-     – HQ UI Dashboard it have digital speed and Rpm gauge
-     <br/>
-     – it have HQ GPS with screens
-     <br/>
-     – i added lights interior custome just Pross ” O ”
-     <br/>
-     – Excellent driveability i improved engine and physics
-     <br/>
-     – Openable Front Windows
-     <br/>
-     – Wipers work accurately
-     <br/>
-     – I added A new Engine Sound is very nice
-     <br/>
-     – Top Speed : 320KH
-     <br/>
-     – 6th gear
-     <br/>
-     Truck Dealers > Access Mod Dealer > Audi
-    </p>
-    <hr/>
-    <strong>
-     Credits:
-    </strong>
-    Gaza
-    <br/>
-    <p style="margin-bottom:3px;">
-    </p>
-    <hr/>
-    <hr>
-    <strong>
-     How to install ETS2 mods or ATS Mods
-    </strong>
-    <br/>
-    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
-    <hr>
-     <div>
-      <span style="font-size:15px; color: #f42d36;">
-       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
-      </span>
-     </div>
-     <hr/>
-     <center>
-     </center>
-     <p>
-      <center>
-       <div>
-        <a class="dmod" href="https://modsfile.com/kbrx3h91kaf2/2021_Audi_R8_V10_Spyder_1.2_1.54x.zip.html" rel="nofollow" target="_blank">
-         <strong>
-          DOWNLOAD MOD
-         </strong>
-        </a>
-       </div>
-      </center>
-     </p>
-     <center style="margin-top:35px;">
-     </center>
-     <nav class="pagination group">
-     </nav>
-    </hr>
-   </div>
-   <div class="clear">
-   </div>
-  </div>
- </div>
- <hr/>
-</article>
-<br><br><br>]]></description>
-    </item>
-    <item>
-      <title>ACTRO DESBLOQUEADO 1.53 ETS2</title>
-      <link>https://www.ets2world.com/actro-desbloqueado-1-53-ets2/</link>
-      <description><![CDATA[<article class="post-366714 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trucks">
- <div class="post-inner group">
-  <p class="post-byline">
-   <span class="vcard author">
-    <span class="fn">
-     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
-      <span style="color: #777;">
-       Euro Truck Simulator 2 Mods
-      </span>
-     </a>
-     |
-     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
-      <span style="color: #777;">
-       American Truck Simulator Mods
-      </span>
-     </a>
-    </span>
-   </span>
-   |
-   <span class="published">
-    March 21, 2025
-   </span>
-  </p>
-  <center>
-   <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="679" sizes="(max-width: 704px) 100vw, 704px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/actro-desbloqueado-1.53-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/03/actro-desbloqueado-1.53-ets2-1.jpg 704w, https://www.ets2world.com/wp-content/uploads/2025/03/actro-desbloqueado-1.53-ets2-1-300x289.jpg 300w" width="704"/>
-    <img alt="ETS2 Trucks" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
-   </div>
-  </center>
-  <div class="clear">
-  </div>
-  <div class="entry themeform">
-   <div class="entry-inner">
-    <hr/>
-    <center style="margin-top:15px;">
-    </center>
-    <center>
-    </center>
-    <p>
-     <strong>
-      ACTRO DESBLOQUEADO 1.53 ETS2
-     </strong>
-    </p>
-    <hr/>
-    <p>
-     The Actros Desbloqueado mod for Euro Truck Simulator 2 (ETS2) version 1.53 introduces a fully unlocked Mercedes-Benz Actros truck, giving players immediate access to all customization options and upgrades. It features high-quality textures, a detailed interior, realistic engine sounds, and accurate driving physics. The mod supports various chassis configurations, tuning parts, and advanced lighting effects, offering a complete and immersive experience. Fully optimized for ETS2 1.53, this mod is perfect for players who want full freedom to personalize and drive the Actros right away.
-    </p>
-    <hr/>
-    <strong>
-     Credits:
-    </strong>
-    PAULO JUNIOR
-    <br/>
-    <p style="margin-bottom:3px;">
-    </p>
-    <hr/>
-    <hr>
-    <strong>
-     How to install ETS2 mods or ATS Mods
-    </strong>
-    <br/>
-    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
-    <hr>
-     <div>
-      <span style="font-size:15px; color: #f42d36;">
-       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
-      </span>
-     </div>
-     <hr/>
-     <center>
-     </center>
-     <p>
-      <center>
-       <div>
-        <a class="dmod" href="https://modsfile.com/lskixdjsgs2n/ACTROS_MACAU_DESBLOQUEADO.scs.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
