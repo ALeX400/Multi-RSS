@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
-      <title>Aleutian Islands v2.0.1 ATS</title>
-      <link>https://www.ets2world.com/aleutian-islands-v2-0-1-ats/</link>
-      <description><![CDATA[<article class="post-367967 post type-post status-publish format-standard has-post-thumbnail hentry category-ats-maps">
+      <title>MUO/Reforma Compatibility Patch v1.9.1 1.54 ATS</title>
+      <link>https://www.ets2world.com/muo-reforma-compatibility-patch-v1-9-1-1-54-ats/</link>
+      <description><![CDATA[<article class="post-368018 post type-post status-publish format-standard has-post-thumbnail hentry category-ats-maps">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -28,7 +28,7 @@
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="788" sizes="(max-width: 1400px) 100vw, 1400px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/aleutian-islands-v2.0.1-ats-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/03/aleutian-islands-v2.0.1-ats-1.jpg 1400w, https://www.ets2world.com/wp-content/uploads/2025/03/aleutian-islands-v2.0.1-ats-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/03/aleutian-islands-v2.0.1-ats-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/03/aleutian-islands-v2.0.1-ats-1-768x432.jpg 768w" width="1400"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="624" sizes="(max-width: 1110px) 100vw, 1110px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/muo-reforma-compatibility-patch-v1.9.1-1.54-ats-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/03/muo-reforma-compatibility-patch-v1.9.1-1.54-ats-1.jpg 1110w, https://www.ets2world.com/wp-content/uploads/2025/03/muo-reforma-compatibility-patch-v1.9.1-1.54-ats-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/03/muo-reforma-compatibility-patch-v1.9.1-1.54-ats-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/03/muo-reforma-compatibility-patch-v1.9.1-1.54-ats-1-768x432.jpg 768w" width="1110"/>
     <img alt="ATS Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ats3.png"/>
    </div>
   </center>
@@ -38,68 +38,62 @@
    <div class="entry-inner">
     <hr/>
     <center style="margin-top:15px;">
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/aleutian-islands-v2.0.1-ats-1.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/aleutian-islands-v2.0.1-ats-1-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/aleutian-islands-v2.0.1-ats-2.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/aleutian-islands-v2.0.1-ats-2-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/aleutian-islands-v2.0.1-ats-3.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/aleutian-islands-v2.0.1-ats-3-160x160.jpg" width="160"/>
-     </a>
     </center>
     <center>
     </center>
     <p>
      <strong>
-      Aleutian Islands v2.0.1 ATS
+      MUO/Reforma Compatibility Patch v1.9.1 1.54 ATS
      </strong>
     </p>
     <hr/>
     <p>
-     <strong>
-      Changelog v2.0.1
-     </strong>
-     <br/>
-     – Fix country error that cause CTD
-     <br/>
-     – Fix ferry error
+     Supported Game Versions: 1.54
     </p>
     <p>
      <strong>
       Description
      </strong>
      <br/>
-     This mod is a new development version of Adak Island. This mod expands in the Aleutian Islands.
-    </p>
-    <p>
-     Compatible with any map costume.
-     <br/>
-     – Rebuild Adak Islands
-     <br/>
-     – Added 3 islands:
-     <br/>
-     – Adak
-     <br/>
-     – Akutan
-     <br/>
-     – Atka
+     This mod adds connections between Reforma Map and Quaristice’s Minor Urban Overhaul.
     </p>
     <p>
      <strong>
-      Load Order:
+      The mod fixes connections in these areas:
      </strong>
      <br/>
-     Put it on NTTF and traffic fix from GMC if you use it
+     Uses Quaristice’s I-580 and I-80 connection between MUO’s Oakland and the refreshed Reforma Sacramento (ATS 1.40-1.43)
+     <br/>
+     Uses PaZz’s I-5 and I-8 connections to Carlsbad and San Diego
+     <br/>
+     Uses n1cky1992’s I-10 connection between PaZz’s Quartzsite and MUO’s Phoenix (ATS 1.40-1.46)
+     <br/>
+     Adds I-10 connection between MUO’s Los Angeles and Reforma’s Palm Springs, Palm Desert, and the refreshed PaZzMod areas
+     <br/>
+     It also uses Mega Resources and SCS California signage in the MUO freeways, such as Los Angeles, Oxnard, Carlsbad, and San Diego. Moreover, as SCS, Reforma, and Quaristice update their map areas, this patch will also be updated to reflect the changes.
     </p>
     <p>
-     Compatibility: 1.54 1.53
+     <strong>
+      Load order:
+     </strong>
+     <br/>
+     MUO/SN Compatibility Patch (optional) (ATS 1.47 and newer)
+     <br/>
+     MUO/Reforma Compatibility Patch
+     <br/>
+     Reforma Sierra Nevada Legacy (optional) (ATS 1.47 and newer)
+     <br/>
+     Reforma map file
+     <br/>
+     Mega Resources (ATS 1.43 and newer)
+     <br/>
+     Either Minor Urban Overhaul or Lite Urban Overhaul
     </p>
     <hr/>
     <strong>
      Credits:
     </strong>
-    Edward Elgar
+    defeoac
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -122,7 +116,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/mt6s5ynghwvd/aleutian_islands_v2_0_1.scs.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/rxk4rnubnl3z/muo_reforma_compatibility_patch_154.scs.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
@@ -145,9 +139,9 @@
 <br><br><br>]]></description>
     </item>
     <item>
-      <title>DAF 530 6×2 1.53 ETS2</title>
-      <link>https://www.ets2world.com/daf-530-6x2-1-53-ets2/</link>
-      <description><![CDATA[<article class="post-367959 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trucks">
+      <title>Wrecker Addon v1.1.1 ATS</title>
+      <link>https://www.ets2world.com/wrecker-addon-v1-1-1-ats/</link>
+      <description><![CDATA[<article class="post-368012 post type-post status-publish format-standard has-post-thumbnail hentry category-ats-trucks">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -172,8 +166,8 @@
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="707" sizes="(max-width: 939px) 100vw, 939px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/daf-530-6x2-1.53-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/03/daf-530-6x2-1.53-ets2-1.jpg 939w, https://www.ets2world.com/wp-content/uploads/2025/03/daf-530-6x2-1.53-ets2-1-300x226.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/03/daf-530-6x2-1.53-ets2-1-768x578.jpg 768w" width="939"/>
-    <img alt="ETS2 Trucks" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="720" sizes="(max-width: 1280px) 100vw, 1280px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/ats-wrecker-addon-v1.1.1-ats-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/03/ats-wrecker-addon-v1.1.1-ats-1.jpg 1280w, https://www.ets2world.com/wp-content/uploads/2025/03/ats-wrecker-addon-v1.1.1-ats-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/03/ats-wrecker-addon-v1.1.1-ats-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/03/ats-wrecker-addon-v1.1.1-ats-1-768x432.jpg 768w" width="1280"/>
+    <img alt="ATS Trucks" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ats3.png"/>
    </div>
   </center>
   <div class="clear">
@@ -182,24 +176,68 @@
    <div class="entry-inner">
     <hr/>
     <center style="margin-top:15px;">
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/ats-wrecker-addon-v1.1.1-ats-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/ats-wrecker-addon-v1.1.1-ats-1-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/ats-wrecker-addon-v1.1.1-ats-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/ats-wrecker-addon-v1.1.1-ats-2-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/ats-wrecker-addon-v1.1.1-ats-3.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/ats-wrecker-addon-v1.1.1-ats-3-160x160.jpg" width="160"/>
+     </a>
     </center>
     <center>
     </center>
     <p>
      <strong>
-      DAF 530 6×2 1.53 ETS2
+      Wrecker Addon v1.1.1 ATS
      </strong>
     </p>
     <hr/>
     <p>
-     The DAF 530 6×2 mod for Euro Truck Simulator 2 (ETS2) version 1.53 adds a powerful and modern DAF truck with a 6×2 axle configuration, ideal for heavy loads and long hauls. It features high-quality exterior and interior models, realistic engine sounds, smooth driving physics, and functional dashboard elements. The mod includes customization options such as paint jobs, tuning parts, and lighting. Fully optimized for ETS2 1.53, this mod is perfect for players looking for a strong and efficient DAF truck setup.
+     <strong>
+      Changelog v1.1.1
+     </strong>
+     <br/>
+     – Fixed beacon light
+     <br/>
+     – Added addon for Convoy (fixed problem with overweight in some states)
+     <br/>
+     – All bugs are corrected to the extent of their presence / appearance.
+    </p>
+    <p>
+     You can use it on one of our trucks from the list, or on ALL of them at once.
+     <br/>
+     You don’t need to purchase DLC separately for each truck.
+     <br/>
+     In the game, you just need to choose the appropriate cabin and install the Wrecker chassis.
+     <br/>
+     Trucks for evacuation will be available in the “Freight Market”.
+    </p>
+    <p>
+     <strong>
+      This mod works ONLY with listed trucks:
+     </strong>
+     <br/>
+     Freightshaker Cascadia 125
+     <br/>
+     Freightshaker Classic XL (including FLD120)
+     <br/>
+     KW W900 Highway Killer
+     <br/>
+     Pete 362 Cabover
+     <br/>
+     Pete 389 Glider (including 379, 378, 388)
+    </p>
+    <p>
+     Game version: 1.54
     </p>
     <hr/>
     <strong>
      Credits:
     </strong>
-    paulo junior classe A desbloqueado por sweet
     <br/>
+    We dont have any information about the author of this mod. If you are an author, please contact us or leave a comment below and we will add your credits.
     <p style="margin-bottom:3px;">
     </p>
     <hr/>
@@ -221,7 +259,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/pzfq2wsqchmk/DAF_XF_e_2_EIXOS_SHOP_PISCbySweetUnlockerClassA.scs.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/wwtri4fzpy4p/addon_wreck_v1_1_1.rar.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
@@ -244,9 +282,9 @@
 <br><br><br>]]></description>
     </item>
     <item>
-      <title>Nissan Titan Warrior 2017 1.53 ETS2</title>
-      <link>https://www.ets2world.com/nissan-titan-warrior-2017-1-53-ets2/</link>
-      <description><![CDATA[<article class="post-367957 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trucks">
+      <title>MAN F90 by Madster v2.3 1.53 ETS2</title>
+      <link>https://www.ets2world.com/man-f90-by-madster-v2-3-1-53-ets2/</link>
+      <description><![CDATA[<article class="post-368007 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trucks">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -271,7 +309,7 @@
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="720" sizes="(max-width: 1280px) 100vw, 1280px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/nissan-titan-warrior-2017-1.53-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/03/nissan-titan-warrior-2017-1.53-ets2-1.jpg 1280w, https://www.ets2world.com/wp-content/uploads/2025/03/nissan-titan-warrior-2017-1.53-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/03/nissan-titan-warrior-2017-1.53-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/03/nissan-titan-warrior-2017-1.53-ets2-1-768x432.jpg 768w" width="1280"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="562" sizes="(max-width: 1000px) 100vw, 1000px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/man-f90-by-madster-v2.3-1.53-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/03/man-f90-by-madster-v2.3-1.53-ets2-1.jpg 1000w, https://www.ets2world.com/wp-content/uploads/2025/03/man-f90-by-madster-v2.3-1.53-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/03/man-f90-by-madster-v2.3-1.53-ets2-1-768x432.jpg 768w" width="1000"/>
     <img alt="ETS2 Trucks" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
@@ -281,23 +319,63 @@
    <div class="entry-inner">
     <hr/>
     <center style="margin-top:15px;">
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/man-f90-by-madster-v2.3-1.53-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/man-f90-by-madster-v2.3-1.53-ets2-1-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/man-f90-by-madster-v2.3-1.53-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/man-f90-by-madster-v2.3-1.53-ets2-2-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/man-f90-by-madster-v2.3-1.53-ets2-3.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/man-f90-by-madster-v2.3-1.53-ets2-3-160x160.jpg" width="160"/>
+     </a>
     </center>
     <center>
     </center>
     <p>
      <strong>
-      Nissan Titan Warrior 2017 1.53 ETS2
+      MAN F90 by Madster v2.3 1.53 ETS2
      </strong>
     </p>
     <hr/>
     <p>
-     The Nissan Titan Warrior 2017 mod for Euro Truck Simulator 2 (ETS2) version 1.53 introduces a bold and aggressive concept pickup truck to the game. It features high-quality exterior and interior models, realistic V8 engine sounds, smooth driving physics, and functional dashboard elements. The mod includes customization options like paint jobs, wheels, and lighting. Fully optimized for ETS2 1.53, this mod is perfect for players who enjoy driving powerful, off-road-ready trucks with a futuristic design.
+     <strong>
+      Changelog v2.3
+     </strong>
+     <br/>
+     – Updated models, animations, materials etc.
+     <br/>
+     – Fixed textures on wheels knobs and signal buttons
+     <br/>
+     – Corrected errors and bugs
+     <br/>
+     – Compatibility for 1.51-1.53
+    </p>
+    <p>
+     <strong>
+      Features:
+     </strong>
+     <br/>
+     – Standalone truck
+     <br/>
+     – 3 Cabins
+     <br/>
+     – 7 Chassis
+     <br/>
+     – 5 Engines w/ sounds
+     <br/>
+     – 3 Interiors each Cabins
+     <br/>
+     – 2 Transmissions (12 speed)
+     <br/>
+     – Tuning parts
+     <br/>
+     – Cabin Accessories
     </p>
     <hr/>
     <strong>
      Credits:
     </strong>
-    qra sol
+    Madster, Cobrablue
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -320,7 +398,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/byw6g3ykp9ha/Nissan_Titan_Warrior_2017_-_ETS2_1.49.rar.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/c0uywke7o917/man_f90_by_madster_v2_3.scs.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
@@ -343,9 +421,9 @@
 <br><br><br>]]></description>
     </item>
     <item>
-      <title>SCANIA 113 F 1.53 ETS2</title>
-      <link>https://www.ets2world.com/scania-113-f-1-53-ets2/</link>
-      <description><![CDATA[<article class="post-367955 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trucks">
+      <title>SCANIA RJL BRAZILIAN 1.54 ETS2</title>
+      <link>https://www.ets2world.com/scania-rjl-brazilian-1-54-ets2/</link>
+      <description><![CDATA[<article class="post-367998 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trucks">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -370,7 +448,7 @@
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="386" sizes="(max-width: 686px) 100vw, 686px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/scania-113-f-1.53-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/03/scania-113-f-1.53-ets2-1.jpg 686w, https://www.ets2world.com/wp-content/uploads/2025/03/scania-113-f-1.53-ets2-1-300x169.jpg 300w" width="686"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="452" sizes="(max-width: 800px) 100vw, 800px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/scania-rjl-brazilian-1.54-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/03/scania-rjl-brazilian-1.54-ets2-1.jpg 800w, https://www.ets2world.com/wp-content/uploads/2025/03/scania-rjl-brazilian-1.54-ets2-1-300x170.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/03/scania-rjl-brazilian-1.54-ets2-1-768x434.jpg 768w" width="800"/>
     <img alt="ETS2 Trucks" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
@@ -385,18 +463,22 @@
     </center>
     <p>
      <strong>
-      SCANIA 113 F 1.53 ETS2
+      SCANIA RJL BRAZILIAN 1.54 ETS2
      </strong>
     </p>
     <hr/>
     <p>
-     The Scania 113 F mod for Euro Truck Simulator 2 (ETS2) version 1.53 introduces a classic flat-front Scania truck, popular in Latin America and Europe. It features high-quality exterior and interior models, realistic engine sounds, and authentic driving physics. The mod offers various customization options, including chassis types, paint jobs, and accessories. Fully optimized for ETS2 1.53, this mod is perfect for fans of vintage Scania trucks looking for a nostalgic and immersive driving experience.
+     Brazilian Scania RJL for ETS2 1.54
+     <br/>
+     COMPATIBLE WITH VERSIONS 1.48, 1.49, 1.50, 1.51, 1.52, 1.53 AND 1.54
+     <br/>
+     This mod is a re-edit of an old Rafael Alves mod for ETS2 1.40, I just made some edits to the textures and changed the compatible versions.
     </p>
     <hr/>
     <strong>
      Credits:
     </strong>
-    PAULO JUNIOR EQUIPE CLASSE A
+    RJL, JoseMods, Rafael Alves
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -419,7 +501,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/ndorzbnpgeva/Scania_113_-_ALM.Mods.scs.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/83i2s9gvch4t/scania_rjl_brasileira.scs.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
@@ -442,9 +524,9 @@
 <br><br><br>]]></description>
     </item>
     <item>
-      <title>Scania Nextgen XT Pack v2.2.2 ETS2</title>
-      <link>https://www.ets2world.com/scania-nextgen-xt-pack-v2-2-2-ets2/</link>
-      <description><![CDATA[<article class="post-367953 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trucks">
+      <title>Mercedes-Benz GLS Maybach 2023 v1.6 1.54 ETS2</title>
+      <link>https://www.ets2world.com/mercedes-benz-gls-maybach-2023-v1-6-1-54-ets2/</link>
+      <description><![CDATA[<article class="post-367985 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-cars">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -469,8 +551,8 @@
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="720" sizes="(max-width: 1280px) 100vw, 1280px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/scania-nextgen-xt-pack-v2.2.2-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/03/scania-nextgen-xt-pack-v2.2.2-ets2-1.jpg 1280w, https://www.ets2world.com/wp-content/uploads/2025/03/scania-nextgen-xt-pack-v2.2.2-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/03/scania-nextgen-xt-pack-v2.2.2-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/03/scania-nextgen-xt-pack-v2.2.2-ets2-1-768x432.jpg 768w" width="1280"/>
-    <img alt="ETS2 Trucks" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="1080" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/mercedes-benz-gls-maybach-2023-v1.6-1.54-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/03/mercedes-benz-gls-maybach-2023-v1.6-1.54-ets2-1.jpg 1920w, https://www.ets2world.com/wp-content/uploads/2025/03/mercedes-benz-gls-maybach-2023-v1.6-1.54-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/03/mercedes-benz-gls-maybach-2023-v1.6-1.54-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/03/mercedes-benz-gls-maybach-2023-v1.6-1.54-ets2-1-768x432.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/03/mercedes-benz-gls-maybach-2023-v1.6-1.54-ets2-1-1536x864.jpg 1536w" width="1920"/>
+    <img alt="ETS2 Cars" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
   <div class="clear">
@@ -479,54 +561,60 @@
    <div class="entry-inner">
     <hr/>
     <center style="margin-top:15px;">
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/mercedes-benz-gls-maybach-2023-v1.6-1.54-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/mercedes-benz-gls-maybach-2023-v1.6-1.54-ets2-1-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/mercedes-benz-gls-maybach-2023-v1.6-1.54-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/mercedes-benz-gls-maybach-2023-v1.6-1.54-ets2-2-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/03/mercedes-benz-gls-maybach-2023-v1.6-1.54-ets2-3.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/03/mercedes-benz-gls-maybach-2023-v1.6-1.54-ets2-3-160x160.jpg" width="160"/>
+     </a>
     </center>
     <center>
     </center>
     <p>
      <strong>
-      Scania Nextgen XT Pack v2.2.2 ETS2
+      Mercedes-Benz GLS Maybach 2023 v1.6 1.54 ETS2
      </strong>
     </p>
     <hr/>
     <p>
      <strong>
-      What’s new in 2.2.2:
+      A new update :
      </strong>
      <br/>
-     – Fixed missing texture on “Standard” front grille ribs
-     <br/>
-     – 1.53 update
+     – Fixed Some Materials
     </p>
     <p>
      <strong>
-      V2.2.1:
+      ChangeLog:
      </strong>
      <br/>
-     – Fixed missing or weird engine badges. Changed prices of badges to create rudimentary sorting.
+     I Fixed the material and Quality
      <br/>
-     – Fixed some glitches in included paint jobs due to no longer using XT-specific front masks and ribs. Not entirely fixed, don’t use painted ribs with the included paint jobs.
+     i Fixed Lights interior
+     <br/>
+     I edited the color of interior
+     <br/>
+     I added anim of windows out side and wipers
+     <br/>
+     I added licence plate
+     <br/>
+     I improved the physics and engine
+     <br/>
+     Max Speed : 288 KmH
     </p>
     <p>
-     <strong>
-      V2.2:
-     </strong>
+     Credits:
      <br/>
-     – Engine badges for all engines except the S ### scheme have been made or re-made. I kept the old S 650 and S730 badges, but everything else has been redone. Thank you to Galimim for allowing me to use some of his work for that.
-     <br/>
-     – A new bull bar, the “Goliath XT”, has been added, in four color options. It’s basically the stock Goliath reshaped to look more like the Trux OFFROAD B24-6, with some additional accessory slots to allow different ways to mount your lights. LED bar friendly locators have been added as well.
-    </p>
-    <p>
-     <strong>
-      Description:
-     </strong>
-     <br/>
-     This is a complete rework of TheNuvolari’s Scania XT pack.
+     Gaza
     </p>
     <hr/>
     <strong>
      Credits:
     </strong>
-    Winchester1979
+    Gaza
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -549,7 +637,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/t40xon3swytp/xt_addons_2.2.2.scs.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/oscgw6fdmrcm/Mercedes-Benz_GLS_Maybach_2023_1.6_1.54x.zip.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
