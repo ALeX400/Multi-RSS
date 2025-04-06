@@ -1,6 +1,427 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Premium Servers</title>
+      <link>https://rust.facepunch.com/news/premium-servers/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Premium Servers
+    </h1>
+    <p editname="Summary" type="text">
+     We are launching premium servers today and here's everything you need to know!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      13 March 2025
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      Devblog
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="PremiumServerLaunch">
+  <div class="section" like-handler="LikeBlogSection" like-id="84588" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Premium Server Launch
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We are rolling out
+      <span data-end="114" data-start="95">
+       Premium Servers
+      </span>
+      , an
+      <span data-end="135" data-start="119">
+       experimental
+      </span>
+      way to filter out cheat users and create a better experience for legit players.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      To access Premium Servers, your Rust Steam inventory must be valued at $15 or more. This includes items from the
+      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=All">
+       Permanent Store
+      </a>
+      , such as building skins, décor packs, and hazmat skins, as well as any other
+      <a class="" href="https://steamcommunity.com/market/search?appid=252490">
+       tradable Rust items
+      </a>
+      with an attached value. Currently we do not include Rust's standalone DLC such as Instruments, Sunburn and Voice Props packs (this may change in future).
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/105/03/2025/4y97/RustClient_FZFr8oSdQm.jpg"/>
+     </div>
+     <div>
+      We initially communicated a $20 threshold, but after analysing data from millions of accounts, we've settled on $15 as a more effective starting point. This is based on a comparison of banned accounts versus regular players, aiming to strike a balance between accessibility and cheat deterrence, although opting on the lower end.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <ul>
+       <li data-end="954" data-start="869">
+        <span data-end="952" data-start="871">
+         Premium Servers will only be visible if your account meets the $15 threshold.
+        </span>
+       </li>
+       <li data-end="954" data-start="869">
+        <span data-end="952" data-start="871">
+         Premium Servers will show a Premium (and clickable) Tag to provide details about eligibility.
+        </span>
+       </li>
+       <li data-end="1061" data-start="955">
+        <span data-end="993" data-start="957">
+         This won’t stop every cheat user
+        </span>
+        , but it’s an extra layer of friction against disposable cheat accounts.
+       </li>
+       <li data-end="1146" data-start="1062">
+        <span data-end="1092" data-start="1064">
+         Server owners can opt-in
+        </span>
+        by enabling the following convar: "
+        <code data-end="1143" data-start="1127">
+         server.premium 1"
+        </code>
+       </li>
+       <li data-end="1260" data-start="1147">
+        <span data-end="1181" data-start="1149">
+         The $15 threshold may change
+        </span>
+        over time, and we may introduce additional factors to refine premium status.
+        <br/>
+       </li>
+       <li data-end="1260" data-start="1147">
+        Depending on Steam traffic, brand new purchases may take up to 20 minutes to reflect onto the Premium Server authorization.
+       </li>
+       <li data-end="1260" data-start="1147">
+        You can manually refresh or check your premium status by going to the server listings, clicking the premium server tag and clicking the refresh icon.
+       </li>
+       <li data-end="1260" data-start="1147">
+        If you have premium status, it'll
+        <a class="" href="https://files.facepunch.com/Alistair/113/03/2025/6E20/RustClient_jOV78XFHHW.png">
+         display on your avatar
+        </a>
+        on the menu menu
+       </li>
+      </ul>
+      <div>
+       If we encounter any abuse or exploitation of Premium servers or the market, user accounts will be banned. All trades of Rust skins are logged.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Servers">
+  <div class="section" like-handler="LikeBlogSection" like-id="84590" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Servers
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <p>
+       There are currently several new, freshly wiped official premium servers now live!
+      </p>
+      <p>
+       To connect to these servers, you'll find them in the official server list or connect directly from the mainmenu, open the console by pressing F1 and typing "connect" followed by the IP or endpoint. For example, "connect eupremium.rustopia.gg" or "connect 79.137.98.213:28015"
+      </p>
+      <h2>
+       Monthly MAP WIPES:
+      </h2>
+      <div>
+       <div>
+        <b>
+         EU Facepunch
+        </b>
+       </div>
+       <div>
+        <ul>
+         <li>
+          EU Premium 1 - 79.137.98.213:28015
+         </li>
+         <li>
+          EU Premium 2 - 79.137.98.146:28015
+         </li>
+         <li>
+          EU Premium Small 1 - 79.137.98.146:28020
+          <br/>
+         </li>
+         <li>
+          EU Premium 3 - 79.137.98.117:28015
+         </li>
+         <li>
+          EU Premium 4 - 79.137.98.117:28020
+          <br/>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <b>
+        EU East Facepunch
+       </b>
+       <br/>
+       <div>
+        <ul>
+         <li>
+          EU East Premium 1 - 57.128.211.55:28015
+         </li>
+         <li>
+          EU East Premium 2 - 57.128.211.53:28015
+         </li>
+         <li>
+          EU East Premium Small 1 - 57.128.211.53:28020
+          <br/>
+         </li>
+         <li>
+          EU East Premium 3 - 57.128.211.54:28015
+         </li>
+         <li>
+          EU East Premium 4 - 57.128.211.54:28020
+          <br/>
+         </li>
+        </ul>
+       </div>
+       <div>
+        <br/>
+        <b>
+         US West Facepunch
+        </b>
+        <br/>
+        <div>
+         <ul>
+          <li>
+           US West Premium 1 - 148.113.198.88:28015
+          </li>
+          <li>
+           US West Premium 2 - 148.113.198.86:28015
+          </li>
+          <li>
+           US West Premium Small 1 148.113.198.86:28020
+           <br/>
+          </li>
+          <li>
+           US West Premium 3 - 148.113.198.87:28015
+          </li>
+          <li>
+           US West Premium 4 - 148.113.198.87:28020
+           <br/>
+          </li>
+         </ul>
+        </div>
+        <br/>
+        <b>
+         US East Facepunch
+        </b>
+        <div>
+         <ul>
+          <li>
+           US East Premium 1 - 40.160.19.6:28015
+          </li>
+          <li>
+           US East Premium 2 - 40.160.19.218:28015
+          </li>
+          <li>
+           US East Premium Small 1 - 40.160.19.218:28020
+           <br/>
+          </li>
+          <li>
+           US East Premium 3 - 40.160.19.217:28015
+          </li>
+          <li>
+           US East Premium 4 - 40.160.19.217:28020
+           <br/>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <p>
+      </p>
+      <h2>
+       Weekly MAP WIPES:
+      </h2>
+      <p>
+       <span>
+        <b>
+         US Community Officials
+        </b>
+        <br/>
+       </span>
+      </p>
+      <ul>
+       <li>
+        <span>
+         us-medium.rusticated.com:28010
+        </span>
+       </li>
+       <li>
+        <span>
+         us.premium.rplayrust.com
+        </span>
+       </li>
+       <li>
+        <span>
+         main.us-premium.moose.gg
+        </span>
+       </li>
+      </ul>
+      <p>
+       <span>
+        <b>
+         EU Community Officials
+        </b>
+       </span>
+       <br/>
+      </p>
+      <ul>
+       <li>
+        eu-medium.rusticated.com:28010
+       </li>
+       <li>
+        eupremium.rustopia.gg
+       </li>
+       <li>
+        premium.rustspain.com:28015
+       </li>
+      </ul>
+      <br/>
+      <b>
+       AU/Asia Community Officials
+      </b>
+      <br/>
+      <ul>
+       <li>
+        aupremium.rustafied.com
+       </li>
+       <li>
+        premium.rustoria.asia
+       </li>
+      </ul>
+      <p>
+       <br/>
+      </p>
+      <p>
+       <i>
+        Community-run officials may have their own separate blueprint wipe schedules.  We recommend seeking out their individual discords/website for specifics. Terms and conditions apply.
+       </i>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="LookingAhead">
+  <div class="section" like-handler="LikeBlogSection" like-id="84589" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Looking Ahead
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We will stress, this is an
+      <span data-end="1287" data-start="1273">
+       experiment
+      </span>
+      , and we’ll be closely monitoring its impact. We will know more in the upcoming weeks if this is something we can expand upon and refine.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      We will also take this opportunity to also encourage everyone to set up and use
+      <a class="" href="https://help.steampowered.com/en/faqs/view/7EFD-3CAE-64D3-1C31">
+       Steam's mobile authenticator
+      </a>
+      .  It both protects your account from intruders, and also allows quicker Steam/Rust skin trades among friends.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 13 Mar 2025 02:00:00 Z</pubDate>
+    </item>
+    <item>
       <title>Soft Refresh</title>
       <link>https://rust.facepunch.com/news/soft-refresh/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -1585,25 +2006,23 @@
       <pubDate>Thu, 03 Apr 2025 13:45:00 Z</pubDate>
     </item>
     <item>
-      <title>Premium Servers</title>
-      <link>https://rust.facepunch.com/news/premium-servers/</link>
+      <title>Primitive</title>
+      <link>https://rust.facepunch.com/news/primitive/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
 <div class="blog-hero">
  <div class="container" targetobject="blog">
   <div class="blog-hero-body">
    <div class="body-info">
-    <h1 editname="Title" type="text">
-     Premium Servers
-    </h1>
+    <img alt="Primitive" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b2811b115/primitive-update-branding-light.png"/>
     <p editname="Summary" type="text">
-     We are launching premium servers today and here's everything you need to know!
+     The Primitive update is here. And it's a big one! Featuring four siege weapons, a new bow, shields, and a new game mode. As well as updates to horses, ragdolls, and much more!
     </p>
     <div class="tags">
      <div class="tag secondary">
-      13 March 2025
+      06 February 2025
      </div>
      <a class="tag devblog" style="text-decoration: none;">
-      Devblog
+      DEVBLOG
      </a>
     </div>
    </div>
@@ -1650,316 +2069,1248 @@
         }
 </style>
 <div class="blog">
- <div class="news-section-block sectionstyle-hero" id="PremiumServerLaunch">
-  <div class="section" like-handler="LikeBlogSection" like-id="84588" targetobject="section">
+ <div class="news-section-block" id="">
+  <div class="section" like-handler="LikeBlogSection" like-id="84547" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       Premium Server Launch
+       ⠀
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <div class="youtube-container">
+       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/ctPXY2Ofm_M?si=ko4vT125P2JB2dy6" title="YouTube video player" width="560">
+       </iframe>
+      </div>
+     </div>
+     <div>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="PrimitiveGamemode">
+  <div class="section" like-handler="LikeBlogSection" like-id="84526" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Primitive Gamemode
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
      <div>
-      We are rolling out
-      <span data-end="114" data-start="95">
-       Premium Servers
-      </span>
-      , an
-      <span data-end="135" data-start="119">
-       experimental
-      </span>
-      way to filter out cheat users and create a better experience for legit players.
+      The early game of Rust can be the most exciting, unfortunately players rush to fully automatic rifles as fast as possible to get an edge over their enemies. What if the early game could last forever....?
      </div>
      <div>
       <br/>
      </div>
      <div>
-      To access Premium Servers, your Rust Steam inventory must be valued at $15 or more. This includes items from the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=All">
-       Permanent Store
-      </a>
-      , such as building skins, décor packs, and hazmat skins, as well as any other
-      <a class="" href="https://steamcommunity.com/market/search?appid=252490">
-       tradable Rust items
-      </a>
-      with an attached value. Currently we do not include Rust's standalone DLC such as Instruments, Sunburn and Voice Props packs (this may change in future).
+      The primitive mode brings us to a distant future where the knowledge of high tech items have been lost, leaving the inhabitants of the island only able to make basic items.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false">
+      <img src="https://files.facepunch.com/paddy/20250128/rust_primupdate_teaser_armourset_01.jpg"/>
      </div>
      <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/105/03/2025/4y97/RustClient_FZFr8oSdQm.jpg"/>
+      The following changes apply to the primitive game mode.
      </div>
      <div>
-      We initially communicated a $20 threshold, but after analysing data from millions of accounts, we've settled on $15 as a more effective starting point. This is based on a comparison of banned accounts versus regular players, aiming to strike a balance between accessibility and cheat deterrence, although opting on the lower end.
+      <b>
+       <br/>
+      </b>
      </div>
      <div>
-      <br/>
+      <b>
+       Allowed Weapons
+      </b>
      </div>
      <div>
       <ul>
-       <li data-end="954" data-start="869">
-        <span data-end="952" data-start="871">
-         Premium Servers will only be visible if your account meets the $15 threshold.
-        </span>
+       <li>
+        Melee
        </li>
-       <li data-end="954" data-start="869">
-        <span data-end="952" data-start="871">
-         Premium Servers will show a Premium (and clickable) Tag to provide details about eligibility.
-        </span>
+       <li>
+        Bow, Compound Bow, Crossbow, Mini Crossbow
        </li>
-       <li data-end="1061" data-start="955">
-        <span data-end="993" data-start="957">
-         This won’t stop every cheat user
-        </span>
-        , but it’s an extra layer of friction against disposable cheat accounts.
+       <li>
+        Speargun
        </li>
-       <li data-end="1146" data-start="1062">
-        <span data-end="1092" data-start="1064">
-         Server owners can opt-in
-        </span>
-        by enabling the following convar: "
-        <code data-end="1143" data-start="1127">
-         server.premium 1"
-        </code>
+       <li>
+        Eoka
        </li>
-       <li data-end="1260" data-start="1147">
-        <span data-end="1181" data-start="1149">
-         The $15 threshold may change
-        </span>
-        over time, and we may introduce additional factors to refine premium status.
-        <br/>
+       <li>
+        Beancan Grenade, Molotov
        </li>
-       <li data-end="1260" data-start="1147">
-        Depending on Steam traffic, brand new purchases may take up to 20 minutes to reflect onto the Premium Server authorization.
+       <li>
+        Flashlight Attachment
        </li>
-       <li data-end="1260" data-start="1147">
-        You can manually refresh or check your premium status by going to the server listings, clicking the premium server tag and clicking the refresh icon.
-       </li>
-       <li data-end="1260" data-start="1147">
-        If you have premium status, it'll
-        <a class="" href="https://files.facepunch.com/Alistair/113/03/2025/6E20/RustClient_jOV78XFHHW.png">
-         display on your avatar
-        </a>
-        on the menu menu
+       <li>
+        Shields
        </li>
       </ul>
       <div>
-       If we encounter any abuse or exploitation of Premium servers or the market, user accounts will be banned. All trades of Rust skins are logged.
+       <b>
+        Restricted Armor
+       </b>
+      </div>
+      <div>
+       <ul>
+        <li>
+         Removed Facemask
+        </li>
+        <li>
+         Removed Metal Chest Plate
+        </li>
+       </ul>
+      </div>
+      <div>
+       <div>
+        <b>
+         Resources Changes
+        </b>
+       </div>
+       <div>
+        <ul>
+         <li>
+          Less Sulfur Nodes Spawn (50%)
+         </li>
+         <li>
+          Increased Tech Tree Tax (2x)
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+       <b>
+        Loot Changes
+       </b>
+      </div>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Jackhammer &amp; Chainsaw (loot only)
+       </li>
+       <li>
+        New travelling vendor trades
+       </li>
+      </ul>
+      <div>
+       <b>
+        Raiding Changes
+       </b>
+      </div>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Removed All Rockets &amp; C4
+       </li>
+       <li>
+        Removed MLRS
+       </li>
+      </ul>
+     </div>
+     <div>
+      <div>
+       <b>
+        Building Changes
+       </b>
+      </div>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Removed Metal Building Grade
+       </li>
+       <li>
+        Removed Armored Building Grade
+       </li>
+       <li>
+        Removed Armored Doors
+       </li>
+       <li>
+        Removed C4, Rockets &amp; Explosive ammo
+       </li>
+      </ul>
+      <div>
+       <b>
+        World Modifications
+       </b>
+      </div>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Removed Monuments (Oil Rig, Missile Silo, Excavator, Underwater Labs)
+       </li>
+       <li>
+        Removed Underground Train System
+       </li>
+       <li>
+        Removed Scientist NPCs (vendors remain)
+       </li>
+       <li>
+        Disabled Patrol Heli Event
+       </li>
+       <li>
+        Disabled Cargo Ship Event
+       </li>
+       <li>
+        Disabled Bradley APC
+       </li>
+       <li>
+        Increased Wild Horse Spawns (2x)
+       </li>
+      </ul>
+      <div>
+       <b>
+        Travel Changes
+       </b>
+      </div>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Removed Helicopters (Minicopter, Scrap Transport Helicopter, Attack Helicopter)
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Siegeweapons">
+  <div class="section" like-handler="LikeBlogSection" like-id="84539" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Siege weapons
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Introducing 4 new vehicles: Siege Weapons!
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250206/medieval_siegeweapons_lineup_01.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      Designed for early game raiding, they're all craftable and deployable in the wilds. A great addition to your raiding and grubbing arsenal.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      In addition to the cost to craft, building them will require extra materials and a hammer.
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20250206/catapult_build_thumb.jpg" src="https://files.facepunch.com/paddy/20250206/catapult_build_01.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <div>
+       They are both available in the primitive and vanilla game modes, from the workbench level 2.
       </div>
      </div>
     </div>
    </div>
   </div>
  </div>
- <div class="news-section-block sectionstyle-hero" id="Servers">
-  <div class="section" like-handler="LikeBlogSection" like-id="84590" targetobject="section">
+ <div class="news-section-block sectionstyle-hero" id="Catapult">
+  <div class="section" like-handler="LikeBlogSection" like-id="84531" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       Servers
+       Catapult
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
      <div>
-      <p>
-       There are currently several new, freshly wiped official premium servers now live!
-      </p>
-      <p>
-       To connect to these servers, you'll find them in the official server list or connect directly from the mainmenu, open the console by pressing F1 and typing "connect" followed by the IP or endpoint. For example, "connect eupremium.rustopia.gg" or "connect 79.137.98.213:28015"
-      </p>
-      <h2>
-       Monthly MAP WIPES:
-      </h2>
-      <div>
-       <div>
-        <b>
-         EU Facepunch
-        </b>
-       </div>
-       <div>
-        <ul>
-         <li>
-          EU Premium 1 - 79.137.98.213:28015
-         </li>
-         <li>
-          EU Premium 2 - 79.137.98.146:28015
-         </li>
-         <li>
-          EU Premium Small 1 - 79.137.98.146:28020
-          <br/>
-         </li>
-         <li>
-          EU Premium 3 - 79.137.98.117:28015
-         </li>
-         <li>
-          EU Premium 4 - 79.137.98.117:28020
-          <br/>
-         </li>
-        </ul>
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <b>
-        EU East Facepunch
-       </b>
-       <br/>
-       <div>
-        <ul>
-         <li>
-          EU East Premium 1 - 57.128.211.55:28015
-         </li>
-         <li>
-          EU East Premium 2 - 57.128.211.53:28015
-         </li>
-         <li>
-          EU East Premium Small 1 - 57.128.211.53:28020
-          <br/>
-         </li>
-         <li>
-          EU East Premium 3 - 57.128.211.54:28015
-         </li>
-         <li>
-          EU East Premium 4 - 57.128.211.54:28020
-          <br/>
-         </li>
-        </ul>
-       </div>
-       <div>
-        <br/>
-        <b>
-         US West Facepunch
-        </b>
-        <br/>
-        <div>
-         <ul>
-          <li>
-           US West Premium 1 - 148.113.198.88:28015
-          </li>
-          <li>
-           US West Premium 2 - 148.113.198.86:28015
-          </li>
-          <li>
-           US West Premium Small 1 148.113.198.86:28020
-           <br/>
-          </li>
-          <li>
-           US West Premium 3 - 148.113.198.87:28015
-          </li>
-          <li>
-           US West Premium 4 - 148.113.198.87:28020
-           <br/>
-          </li>
-         </ul>
-        </div>
-        <br/>
-        <b>
-         US East Facepunch
-        </b>
-        <div>
-         <ul>
-          <li>
-           US East Premium 1 - 40.160.19.6:28015
-          </li>
-          <li>
-           US East Premium 2 - 40.160.19.218:28015
-          </li>
-          <li>
-           US East Premium Small 1 - 40.160.19.218:28020
-           <br/>
-          </li>
-          <li>
-           US East Premium 3 - 40.160.19.217:28015
-          </li>
-          <li>
-           US East Premium 4 - 40.160.19.217:28020
-           <br/>
-          </li>
-         </ul>
-        </div>
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <p>
-      </p>
-      <h2>
-       Weekly MAP WIPES:
-      </h2>
-      <p>
-       <span>
-        <b>
-         US Community Officials
-        </b>
-        <br/>
-       </span>
-      </p>
+      The catapult is capable of launching powerful projectiles with a large impact radius.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250203/medieval_catapult_02.jpg"/>
+     </div>
+     <div>
+      It comes with 3 new ammunition items:
+     </div>
+     <div>
       <ul>
        <li>
-        <span>
-         us-medium.rusticated.com:28010
-        </span>
-       </li>
-       <li>
-        <span>
-         us.premium.rplayrust.com
-        </span>
-       </li>
-       <li>
-        <span>
-         main.us-premium.moose.gg
-        </span>
-       </li>
-      </ul>
-      <p>
-       <span>
         <b>
-         EU Community Officials
+         Scattershot
         </b>
-       </span>
-       <br/>
-      </p>
-      <ul>
-       <li>
-        eu-medium.rusticated.com:28010
+        : multiple rocks in a spread
        </li>
        <li>
-        eupremium.rustopia.gg
+        <b>
+         Firebomb
+        </b>
+        : ignites on impact, spreading flames
        </li>
        <li>
-        premium.rustspain.com:28015
+        <b>
+         Propane Explosive Bomb:
+        </b>
+        high-damage explosives, damages construction
        </li>
       </ul>
+     </div>
+     <div>
+      It can also launch players. Use at your own risk.
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20250206/catapult_ragdoll_thumb.jpg" src="https://files.facepunch.com/paddy/20250206/catapult_ragdoll_blog.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
       <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="CatapultAmmo">
+  <div class="section" like-handler="LikeBlogSection" like-id="84548" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Catapult Ammo
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      You can also use the Firebomb and Propane bombs as a deployable raiding tool. Once deployed they will start to spark when they take any damage and explode after several seconds. When used in this way bombs will do less damage.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_catapult_ammo_02.jpg"/>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20250207/deployable_ammo_thumb.jpg" src="https://files.facepunch.com/paddy/20250207/rust_deployable_ammo.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="SiegeTower">
+  <div class="section" like-handler="LikeBlogSection" like-id="84527" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Siege Tower
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The Siege Tower provides a new way to get into compounds, high open windows or help with a raid. As the heaviest Siege Weapon, these towers lack some mobility, but make up for it in strength. Like the other Siege Weapons: The Siege Tower can be towed by a horse, or pushed to get it into position.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250204/medieval_siegeTower_07.jpg"/>
+     </div>
+     <div>
+      <br/>
+      Each tower is 3 levels tall, with a drawbridge on each level. Use the drawbridge to provide some protection as you assault a base.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250204/medieval_siegeTower_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250204/medieval_siegeTower_02.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      Each tower can have a door placed at the bottom for an added layer of security.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="BatteringRam">
+  <div class="section" like-handler="LikeBlogSection" like-id="84528" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Battering Ram
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The battering ram is a heavy fuel-powered vehicle you can drive around. Its reinforced arm can be used to destroy wooden and stone constructions.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_batteringram_03.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_batteringram_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_batteringram_02.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <div>
+       The ram takes damage with each hit and will need high-quality metal to stay operational.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Ballista">
+  <div class="section" like-handler="LikeBlogSection" like-id="84529" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Ballista
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The ballista is a massive, wheeled crossbow designed for long-range combat. It can be deployed on terrain and towed by horses.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250204/medieval_ballista_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250204/medieval_ballista_02.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      It can fire 4 new bolt items:
+     </div>
+     <div>
+      <ul>
+       <li>
+        <b>
+         Pitchfork Bolt
+        </b>
+        : large sweeping projectile
+       </li>
+       <li>
+        <b>
+         Piercer Bolt
+        </b>
+        : penetrates armored vehicles
+       </li>
+       <li>
+        <b>
+         Hammerhead Bolt
+        </b>
+        : heavy and solid, deals damage to doors
+       </li>
+       <li>
+        <b>
+         Incendiary Bolt
+        </b>
+        : ignites on impact, spreading flames
+       </li>
+      </ul>
+      <div>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250204/medieval_ballista_ammo_01.jpg"/>
+     </div>
+     <div>
+      A stationary version is also available, which can be deployed within your base for defensive use.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Shields">
+  <div class="section" like-handler="LikeBlogSection" like-id="84525" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Shields
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Shields are a new backpack slot item that allows you handle frontal
+ threats with ease. Simply equip the shield in your backpack slot and 
+equip a compatible single handed weapon and the shield will 
+automatically appear.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250203/rust_shields_01.jpg"/>
+     </div>
+     <div>
+      <div>
+       While holding a shield, it
+ takes over the function of RMB, so you won’t be able to aim down sights
+ or throw weapons. Instead holding RMB will raise the shield in front of
+ you, giving you more protection at the cost of reduced visibility and 
+not being able to sprint.
+      </div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      You can only hold a Shield up for 4 seconds before having to put it back down, this is shown via a small progress bar near the crosshair (similar to the Compound Bow).
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/rust_primupdate_teaser_swordight_01.jpg"/>
+     </div>
+     <div>
+      <div>
+       There are 3 shield variants, each with a different damage block amount. This amount is the percentage of damage that the shield absorbs from any incoming attack, the remaining portion will be received by the player holding the shield. While equipped, you’ll see a new shield durability bar appear above your health bar, any damage a shield takes is applied to its durability and once broken the shield will be unequipped.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Items that are compatible with shields will mention this on their item information panel when selected.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       When not in use, Shields will appear on your back. Note that while they are on your back, they provide no protection. You will need to equip the shield in order to block any attacks.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250203/rust_shields_03.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="4shotMinicrossbow">
+  <div class="section" like-handler="LikeBlogSection" like-id="84530" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       4 shot Mini crossbow
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      In the spirit of a primitive mode, we wanted to add another arrow 
+weapon. The Mini Crossbow is a fresh take on the Crossbow. Providing 4 
+shots in a rotating barrel, at the cost of some damage and range.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250203/rust_minicrossbow_hero_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/paddy/20250203/rust_minicrossbow_firstperson_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/paddy/20250203/rust_minicrossbow_tabletop_01.jpg"/>
+     </div>
+     <div>
+      The Mini Crossbow will not only be a great addition to the base game, but also the new primitive gamemode.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Horses">
+  <div class="section" like-handler="LikeBlogSection" like-id="84532" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Horses
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Horses have been completely overhauled and should feel much better to play with.
+     </div>
+     <div>
+      <ul>
+       <li>
+        They can now traverse most terrain types and monuments
+       </li>
+       <li>
+        New movement mechanics allow them to skid by pressing
+        <b>
+         CTRL
+        </b>
+        when galloping
+       </li>
+       <li>
+        Pressing
+        <b>
+         CTRL
+        </b>
+        will also help the horse to take tighter turns
+       </li>
+       <li>
+        They can swim, auto-avoid trees and be pulled when led
+       </li>
+      </ul>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20250204/rust_horseriding_01.jpg" src="https://files.facepunch.com/paddy/20250206/rust_horseriding_rework_720p.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <div>
+       Horses can also tow siege weapons, including the catapult, siege tower, and ballista.
+      </div>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20250204/rust_horsetowing.jpg" src="https://files.facepunch.com/paddy/20250204/horsetowing_demonstration_full.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      Additionally, their impact on server performance has been massively improved.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="MEDIevalpackDLC">
+  <div class="section" like-handler="LikeBlogSection" like-id="84533" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       MEDIeval pack DLC
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      This month, we’re introducing the new Medieval Pack DLC - a themed collection featuring 8 new items and skins consisting of the new Medieval Barricade, Knights Armour clothing skins, Medieval Large Wood Box skin, the Medieval Assault Rifle skin and Medieval skins for the Sheet Metal Door and Double Doors.
+     </div>
+     <div>
+      <h2>
+       Knight Armour Set
+       <br/>
+      </h2>
+      <div>
+       <span>
+        <span>
+         Arise a brave Knight with these chivalric skins for the Coffeecan Helmet, Roadsign Jacket and Roadsign Kilt.
+         <br/>
+        </span>
+       </span>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/knightarmour_01.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/knightarmour_07.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_knightArmour_tableTop_02.jpg"/>
+      </gallery>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_knightArmourPose_02.jpg"/>
+     </div>
+     <div>
+     </div>
+     <h2>
+      Medieval Barricade
+     </h2>
+     <div>
+      Lay down this barricade to stave off the most ardent attackers, or augment the battlefield with its unique middle-age-themed visuals. Note that you will need to know the Barbed Wooden Barricade blueprint to craft this.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_barricade_01.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_barricade_02.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_barricade_04.jpg"/>
+      </gallery>
+     </div>
+     <div>
+     </div>
+     <div>
+     </div>
+     <div>
+      <h2>
+       Medieval Assault Rifle
+      </h2>
+      Kingmaker or Kingslayer - you call the shots with this resplendent relic.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_AR_01.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_AR_closeup_01.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_AR_closeup_05.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_AR_05.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_AR_08.jpg"/>
+      </gallery>
+     </div>
+     <div>
+     </div>
+     <div>
+      <h2>
+       Medieval Large Wooden Box
+      </h2>
+      Every Lord needs a sturdy coffer to store their spoils of war. Look no further than this stalwart companion.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_largeBox_05.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_largeBox_02.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_largeBox_04.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_largeBox_03.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_largeBox_06.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      <span id="docs-internal-guid-85afd1ef-7fff-a962-0e09-4911a4f772a1">
+      </span>
+      <span id="docs-internal-guid-85afd1ef-7fff-a962-0e09-4911a4f772a1">
+      </span>
+      <span>
+      </span>
+      <br/>
+     </div>
+     <div>
+      <h2>
+       <span>
+        Medieval Sheet Metal Door &amp; Double Door
+       </span>
+       <br/>
+       <span>
+       </span>
+      </h2>
+      <span>
+       Survey your lands from behind these imposing castle doors, uniquely adorned with spikes to keep the p̶e̶a̶s̶a̶n̶t̶s nakeds out.
+      </span>
+      <span>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/rust_medieval_metaldoor_skins_01.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/rust_medieval_metaldoor_skins_03.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/rust_medieval_metaldoor_skins_06.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/rust_medieval_metaldoor_skins_08.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <span>
+       The pack can be purchased from the
+      </span>
+      <a class="selected" href="https://store.steampowered.com/itemstore/252490/">
+       Rust Steam item store
+      </a>
+      .
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Ragdolls">
+  <div class="section" like-handler="LikeBlogSection" like-id="84543" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Ragdolls
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Temporary player ragdolling has been added for bikes and horses.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Taking large amounts of collision damage on bikes and horses will result in the player being flung from their seat and eventually getting back up (assuming they haven't died in the process). Players can also be flung from the saddle of a horse if it's had too much airtime or has slid too far. Horses will ragdoll in these cases as well.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/rust_horse_radgoll.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      If you're unlucky enough to be used as ammunition for a catapult, you'll also ragdoll and are guaranteed to die on impact.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Collision damage on bikes has been re-balanced with ragdolls in mind, with the aim of making it less likely to instantly die from hitting obstacles on a bike.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Socialintegrations">
+  <div class="section" like-handler="LikeBlogSection" like-id="84540" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Social integrations
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We're rolling out a social integration layer to Rust this month, no more messing around with overlays or alt-tabbing - you can now view, chat, invite, and add friends, all from right inside the game.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false">
+      <img src="https://files.facepunch.com/Alistair/106/02/2025/6T08/Rust_social_integrations_menu_1080_jpg%20%282%29.jpg"/>
+     </div>
+     <div>
+      Your Steam friends list will automatically sync up in-game. No setup required. Prefer using Discord? No problem! All you need to do is link your account, and your Discord friends will be right there, ready to connect. This way, you’ve got the best of both worlds.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Give it a try, and as always, let us know what you think.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Qualityoflifechanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84545" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Quality of life changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230530/sleepingbags_limit.jpg"/>
+        <center>
+         <b>
+          Pickup sleeping bags
+         </b>
+        </center>
+        <center>
+         Players can now pick up any sleeping bag as long they are in TC range
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/jarryd/1b0311b1/spraycans_box.jpg"/>
+        <center>
+         <b>
+          IO Reskinning
+         </b>
+        </center>
+        <center>
+         Can now reskin IO deployables with the spray can without disconnecting it entirely
+        </center>
+       </div>
+       <div class="columns is-multiline">
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/jarryd/1b0311b1/mobilephone1.jpg"/>
+         <center>
+          <b>
+           Phone names
+          </b>
+         </center>
+         <center>
+          Phones can now have names up to 30 characters long
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250206/pumpkin_rolling.jpg"/>
+         <center>
+          <b>
+           Pumpkin Rolling
+          </b>
+         </center>
+         <center>
+          Dropped pumpkins no longer roll indefinitely
+         </center>
+        </div>
+        <div class="columns is-multiline">
+         <div class="column is-6">
+          <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/02/2025/7N98/chrome_JjeTOCnLfq.jpg"/>
+          <center>
+           <b>
+            Backpacks on Weapon Racks
+           </b>
+          </center>
+          <center>
+           Backpacks and shields can now be used with weapon racks.
+          </center>
+         </div>
+         <div class="column is-6">
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="FirstPersonAdminESP">
+  <div class="section" like-handler="LikeBlogSection" like-id="84544" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       First Person Admin ESP
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've been slowly building up the feature set of our admin ESP system over the years, mostly due to the demands of various streaming events. This was restricted to using the debug/flying camera, it will now work as expected while in first person perspective spectating. Many server admins have asked for this to have better situational awareness while spectating players.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      It uses the same convars as the normal ESP system so you shouldn't need to do anything new. All of the existing convars will apply, this includes:
+      <br/>
+      <ul>
+       <li>
+        ESPCanvas.MaxNameplates
+       </li>
+       <li>
+        ESPCanvas.OverrideMaxDisplayDistance
+       </li>
+       <li>
+        ESPCanvas.DisableOcclusionChecks
+       </li>
+       <li>
+        ESPCanvas.ShowHealth
+       </li>
+       <li>
+        ESPCanvas.ColourCodeTeams
+       </li>
+       <li>
+        ESPCanvas.UseRandomTeamColours
+       </li>
+       <li>
+        ESPCanvas.DisplayDistanceMultiplier
+       </li>
+      </ul>
+      <div>
+       If there are further improvements that would help in live spectating, please let us know!
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="TwitchdropsHomebrewed2">
+  <div class="section" like-handler="LikeBlogSection" like-id="84541" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Twitch drops - Home brewed 2
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <h2>
+      Twitch Drops are back!
+     </h2>
+     <div>
+      And from more of our favourite creators on the rise that you should definitely start to recognize!
+      <br/>
+      <br/>
+      Be sure to
+      <a class="" href="https://twitch.facepunch.com" target="https://twitch.facepunch.com">
+       sync up
+      </a>
+      and claim your Drops after watching these fantastic creators on Twitch.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0511b1/td_38-blog-image.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="ServerProfilerLinuxReducedOverhead">
+  <div class="section" like-handler="LikeBlogSection" like-id="84546" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Server Profiler - Linux &amp; Reduced Overhead
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
       <b>
-       AU/Asia Community Officials
+       TL;DR - Shipping Linux binary; Server profiler should have less impact when idle and recording by gathering less data; if it fails to generate a snapshot, you can now export a debug binary snapshot and share it with us.
       </b>
+     </div>
+     <h2>
+      Linux Support
+     </h2>
+     <div>
+      This update will contain a library built for Linux environment. The library is a native recorder, so the interface (the "perfsnapshot" command) works the same.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The library has been built on Ubuntu 24.04.1 via GCC 13.3 in C++20 mode and it depends on POSIX utilities (dlopen, dlsym) - so it should be accessible everywhere.
+     </div>
+     <h2>
+      Profiler Overhead
+     </h2>
+     <div>
+      Since the first release of our internal profiler, we got the opportunity to test it in the real world conditions. My first tests were rough (could only capture 1-2 frames worth of data before ballooning to multiple gigabytes of data) and I got feedback from number of server owners that not only it doesn't produce snapshots in some situations, it also has idle overhead - just enabling profiler can have a 5-10fps on a high-pop server.
+     </div>
+     <div>
+      <br/>
+      I've spent some time this update cycle to to reduce this overhead, as in the current conditions it severely reduces the benefit we can get out of the tool. I've tackled it from a couple angles:
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      Reduced how much Code we capture
+     </h2>
+     <div>
+      The profiler works by annotating every code method that it encounters, wrapping it in a set of calls that dispatch to different Mono profilers. Comparatively, for complex and expensive methods these call are unnoticeable, but for small utility functions that do a trivial thing (change a bool, set a bit, append to a list, etc) the dispatching calls add massive overhead (we're talking 10x+ the cost of the utility function). Lastly, these dispatching calls are cheaper when the profiler is enabled, but not capturing - but they are still not free.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Originally I set up a number of annotation filters to exclude some known and safe code (stuff from System.Collections.Generic namespace, for example), but it still left a lot of "fat" that we could trim. Here's the before and after of the changes affecting our player processing loop:
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none" title="Before">
+      <img src="https://files.facepunch.com/danielprihodko/1b0311b1/msedge_em8WKclH6P.png"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none" title="After">
+      <img src="https://files.facepunch.com/danielprihodko/1b0311b1/msedge_LKtgyfNuqq.png"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      As you can see there's much less of nested calls(reduced verticality), and instant calls (triangles, they take less than Perfetto is able to track) appear much earlier.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This update we no longer capture:
+      <br/>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Hash functions
+       </li>
+       <li>
+        Casting &amp; comparison operators
+       </li>
+       <li>
+        Property getters
+       </li>
+       <li>
+        UnityEngine.CoreModule related code
+       </li>
+       <li>
+        Enumerators
+       </li>
+       <li>
+        Anything Math related
+       </li>
+       <li>
+        Our internal collections (like BufferList)
+       </li>
+       <li>
+        Serialization code
+       </li>
+      </ul>
+      <div>
+       There's more, but hopefully you see the principle behind the choice - anything small, trivial or reliable gets ignored.
+      </div>
+     </div>
+     <div>
+     </div>
+     <div>
+      This allowed us to massively reduce the amount of data we generate during capture - on staging server, we used to generate about
+      <b>
+       17MB of json per player
+      </b>
+      , after these changes it's gone down to
+      <b>
+       ~0.5MB of json per player
+      </b>
+      . This should also reduce the "idle" overhead, since there's much less "dispatch code" that's scattered around.
+     </div>
+     <h2>
+      Improved json generation logic
+     </h2>
+     <div>
+      One of the quirks that we have to deal with profiler-gathered data is that it doesn't know where the frame begins and ends - it's just a stream of "method enter/exit" records + "frame end" record that happens somewhere deep in the managed callstack. And since we want to display the data in a per-frame organized matter, we need to scan this stream to figure out how to partition all records.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Originally I implemented a less-efficient version of this because I assumed that there wouldn't be too much data to overwhlem this process. Since the previous section showed that I was wrong on the scale of data, I've also spent a bit of time to improve the export process - we now only need 2 whole-data-set scans to figure out frame grouping, instead of 3 originally, so using napkin-math, this gives us 33% export speedup.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Additionally, I've received reports that profiler can fail to generate snapshots. There are a couple scenarios in the above frame-reconstruction logic that can cause it to fail, so for these cases I've added the option to dump a binary debug snapshot - just run "perfsnapshot &lt;delay&gt; &lt;name&gt; &lt;frames&gt;
+      <b>
+       1
+      </b>
+      ", and you should see a "&lt;name&gt;.bin.gz" in "&lt;root&gt;/server/&lt;identity&gt;/profiler/" folder. I'll be able to inspect it in our internal tool to see what am I missing:
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" title="Debug Profile Bin Viewer">
+      <img src="https://files.facepunch.com/danielprihodko/1b0311b1/Unity_1WjQqGDVmc.png"/>
+     </div>
+     <h2>
+      Future Plans
+     </h2>
+     <div>
+      I've been using this tool on the daily to inspect the state of our Staging servers, and I'm hoping to do the same with our medium and high-pop release servers as well. To squeeze out the most, there are additional improvements that I'd like to pursue when the time allows:
       <br/>
       <ul>
        <li>
-        aupremium.rustafied.com
+        Continue trimming down on annotated functions - there's still plenty to reduce.
        </li>
        <li>
-        premium.rustoria.asia
+        Need to expose the annotation filter to server owners - right now it's all hardcoded which is limiting
+       </li>
+       <li>
+        Need to expand allocation tracking - right now we just track how much we allocated on main thread. We could track allocated object types, and figure out a better way to display it on Perfetto.
+       </li>
+       <li>
+        Emit more metadata about the performance state - provide manual annotation tools to emit the scope of workload for our team, or to show cross-thread dependencies.
+       </li>
+       <li>
+        Explore automatic capture during frame spikes.
        </li>
       </ul>
-      <p>
-       <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Wellipets">
+  <div class="section" like-handler="LikeBlogSection" like-id="84542" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Wellipets
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b3111b1/wellipets-x-rust%20-%20Now%20Redeemable.jpg"/>
+     </div>
+     <div>
+      The wait is over!
+     </div>
+     <div>
+      <p dir="ltr">
+       The exclusive Rust x
+       <a class="" href="https://wellipets.com/wellipets-x-rust" target="https://wellipets.com/wellipets-x-rust">
+        Wellipets
+       </a>
+       wellington frog boots have started shipping, and codes for the in-game frog boot helmet are ready to redeem* from 11AM GMT on Friday 7th February.
       </p>
-      <p>
+      <p dir="ltr">
+       Thank you again to everyone for taking part in this special collaboration, and don't forget to redeem your codes
+       <a class="" href="https://rust.facepunch.com/redeem/">
+        here
+       </a>
+       .
+      </p>
+      <p dir="ltr">
        <i>
-        Community-run officials may have their own separate blueprint wipe schedules.  We recommend seeking out their individual discords/website for specifics. Terms and conditions apply.
+        <span>
+         *
+         <b>
+          The digital item is complementary to the purchase and only redeemable for the PC version of Rust.
+         </b>
+        </span>
+        A unique product key code will be sent after the delivery of your physical item. Should you wish to exchange sizes of the physical item, please refrain from submitting your digital keycode until you receive your exchanged sizes. Once the digital code is redeemed, you forfeit the right to return the physical item.
        </i>
       </p>
      </div>
@@ -1967,34 +3318,742 @@
    </div>
   </div>
  </div>
- <div class="news-section-block" id="LookingAhead">
-  <div class="section" like-handler="LikeBlogSection" like-id="84589" targetobject="section">
+ <div class="news-section-block sectionstyle-hero dark" id="48hourflashsale">
+  <div class="section" like-handler="LikeBlogSection" like-id="84524" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       Looking Ahead
+       48 hour flash sale
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
      <div>
-      We will stress, this is an
-      <span data-end="1287" data-start="1273">
-       experiment
+      To celebrate the release of this month's Primitive update, we're having a flash sale!
+      <br/>
+      For the next 48 hours, Rust and all Steam DLC's will be 50% off.
+     </div>
+     <div>
+      <p class="editor-paragraph" dir="ltr">
+       Treat your new squad mate to a copy
+       <a class="" href="https://fcpn.ch/primb" target="fcpn.ch/primb">
+        on Steam
+       </a>
+       .
+      </p>
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20250203/flashsale_steam_feb2025.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <p class="editor-paragraph" dir="ltr">
+       <br/>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
       </span>
-      , and we’ll be closely monitoring its impact. We will know more in the upcoming weeks if this is something we can expand upon and refine.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      We will also take this opportunity to also encourage everyone to set up and use
-      <a class="" href="https://help.steampowered.com/en/faqs/view/7EFD-3CAE-64D3-1C31">
-       Steam's mobile authenticator
+      <a class="title" style="text-decoration: none;">
+       Primitive
       </a>
-      .  It both protects your account from intruders, and also allows quicker Steam/Rust skin trades among friends.
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Primitive Update
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Wednesday, January 8, 2025
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
+    </div>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added Primitive game mode
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added Shields
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added Catapult
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added Siege Tower
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added Ballista
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added Battering Ram
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added 4 Shot Mini Crossbow
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added DLAA option to the graphics menu
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Overhauled horses
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Horses now increase comfort from a fire when in proximity
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved the client performance of industrial lights, ceiling lights, search lights and electric heaters
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved the client performance of moving vehicles
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Various client optimisation when opening/closing the main menu, inventory and other UI screens
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Players can now pick up any sleeping bag as long they are in TC range
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can now reskin IO deployables with the spray can without disconnecting it entirely
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Static payphones now have more accurate grid numbers in their phone directory
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Phones can now have names up to 30 characters long
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a breaking server rules option to the F7 report window (will not be enforced on Facepunch servers)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added squeeze, barrel and current bone parent readouts to the debug cam info readout
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Industrial lights have been merged into a single item, red and green versions are now skins (so they can be changed with the spraycan)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added teleportteam2me command, will use the local players team or the provided team id
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a toggle to the Admin F1 UGC panel to hide wanted posters
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can now use multiple commands with a midi bind via the ‘;’ symbol (same as binds)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced the chance of a player getting killed at the end of a zipline, particularly if the zipline was arriving at an extreme angle
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed wording of vending machine dynamic price multiplier when looking at vending machine on a map
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added “debug.deleteentitybyid” convar
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed ClearUGCByPlayer convar requiring the player to be online
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admin ESP features can now be used in first person when spectating
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can now loop the entire timeline (Demo Editor)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Allow spaces in shot and folder names (Demo Editor)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Automatically switch control to the camera when a shot recording starts (Demo Editor)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added accessibility.disableMovementInInventory convar to block player input when the inventory screen is open.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Backpacks and shields can now be used with weapon racks.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved performance in the workshop menu. Both when open and after the window is closed.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admin: Added authradius_radius &lt;playerRadius&gt; &lt;entRadius&gt; to authorise everyone within playerRadius of the command user on all entities within entRadius of the player.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admin: Added deauthradius_radius &lt;playerRadius&gt; &lt;entRadius&gt; to deauthorise everyone within playerRadius of the command user on all entities within entRadius of the player.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admin: Added authradius_multi &lt;radius&gt; &lt;player&gt; &lt;player&gt; &lt;...&gt; to auth multiple players on all entities within radius of the command user.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admin: Added deauthradius_multi&lt;radius&gt; &lt;player&gt; &lt;player&gt; &lt;...&gt; to deauth multiple players on all entities within radius of the command user.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admin: Added a "Stack" button to F1 menu item icons to give a full stack of item.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admin: Added clear_trees_radius to clear all trees in a radius form the player
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Creative mode: Added Creative.bypassHoldToPlaceDuration convar to bypass the hold to place time of deployables such as High External Walls.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved TAA implementation by reducing blurring and artifacting.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          ServerProfiler: added linux binary
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          ServerProfiler: reduced capture overhead
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Horses now use anisotropic materials for more realistic hair shading
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admin :'chat.mutelist' now exposes SteamID's
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed F1 Grenades not saving Specular maps on the Community Workshop.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Lumberjack Hoodie not rendering when equipped.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed item store Prototype Pickaxe being referred as Protoype Hatchet
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the performance issues impacting Chinese, Japanese and Korean fonts when opening menus or using the chat
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed missing Chinese, Japanese and Korean characters in the UI
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Removed the "GiveItem failed!" error message that appeared when looting an item with a full inventory
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Dropped pumpkins no longer roll indefinitely
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed spraying the factory skin twice would result in a broken texture
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some packs in the store displaying their store page incorrectly at low UI scale
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed fish traps needing to be reset after a server restart
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a calculation error when applying dynamic pricing to a vending machine sale
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed holosights looking different based on the accessibility colour selected while in NVG
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed certain AntiHack errors preventing the placement of deployables (e.g. barricades)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed occasional errors when saving shots (Demo Editor)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed shot and folder input fields resetting when pressing escape (Demo Editor)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Ice Assault Rifle's name and description to be in line with other similar items.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an issue with player inventory being locked if kicked when surrendering.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Items can no longer be swapped into softcore reclaim bags, fixing an exploit.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Submarines can no longer be stolen when purchased at Fishing Village.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Submarine fuel can no longer be stolen from a submarine purchased at the Fishing Village.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          The patrol helicopter will no longer shoot at scientists.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Remove an error logged by wolves that could spam server logs.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed DLSS Ultra Performance Mode artifacts.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed formatting issues with importing and exporting normal maps via the workshop.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Fishing Villages spawning too close to harbor
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Cargoship being able to abduct NPC's
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Road Bradley and Travelling Vendor events not outputting the correct printouts
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed respawning static planter causing hash conflicts on sockets
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Vending Machine stats panel incorrectly separating combined purchases as single purchases
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Ensured phrases are translated properly on Vending Machine stats panel
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed death and auth commands not working for locks on tool cupboards
+         </div>
+        </li>
+       </ul>
+      </div>
      </div>
     </div>
    </div>
@@ -2003,7 +4062,7 @@
 </div>
 <center>
 </center><center>]]></description>
-      <pubDate>Thu, 13 Mar 2025 02:00:00 Z</pubDate>
+      <pubDate>Thu, 06 Feb 2025 03:18:00 Z</pubDate>
     </item>
     <item>
       <title>Community Update 264</title>
@@ -4890,2065 +6949,6 @@ that tells you how long you have, as well as showing an icon if the item
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 06 Mar 2025 14:00:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Primitive</title>
-      <link>https://rust.facepunch.com/news/primitive/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <img alt="Primitive" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b2811b115/primitive-update-branding-light.png"/>
-    <p editname="Summary" type="text">
-     The Primitive update is here. And it's a big one! Featuring four siege weapons, a new bow, shields, and a new game mode. As well as updates to horses, ragdolls, and much more!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      06 February 2025
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block" id="">
-  <div class="section" like-handler="LikeBlogSection" like-id="84547" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       ⠀
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <div class="youtube-container">
-       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/ctPXY2Ofm_M?si=ko4vT125P2JB2dy6" title="YouTube video player" width="560">
-       </iframe>
-      </div>
-     </div>
-     <div>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="PrimitiveGamemode">
-  <div class="section" like-handler="LikeBlogSection" like-id="84526" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Primitive Gamemode
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The early game of Rust can be the most exciting, unfortunately players rush to fully automatic rifles as fast as possible to get an edge over their enemies. What if the early game could last forever....?
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The primitive mode brings us to a distant future where the knowledge of high tech items have been lost, leaving the inhabitants of the island only able to make basic items.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false">
-      <img src="https://files.facepunch.com/paddy/20250128/rust_primupdate_teaser_armourset_01.jpg"/>
-     </div>
-     <div>
-      The following changes apply to the primitive game mode.
-     </div>
-     <div>
-      <b>
-       <br/>
-      </b>
-     </div>
-     <div>
-      <b>
-       Allowed Weapons
-      </b>
-     </div>
-     <div>
-      <ul>
-       <li>
-        Melee
-       </li>
-       <li>
-        Bow, Compound Bow, Crossbow, Mini Crossbow
-       </li>
-       <li>
-        Speargun
-       </li>
-       <li>
-        Eoka
-       </li>
-       <li>
-        Beancan Grenade, Molotov
-       </li>
-       <li>
-        Flashlight Attachment
-       </li>
-       <li>
-        Shields
-       </li>
-      </ul>
-      <div>
-       <b>
-        Restricted Armor
-       </b>
-      </div>
-      <div>
-       <ul>
-        <li>
-         Removed Facemask
-        </li>
-        <li>
-         Removed Metal Chest Plate
-        </li>
-       </ul>
-      </div>
-      <div>
-       <div>
-        <b>
-         Resources Changes
-        </b>
-       </div>
-       <div>
-        <ul>
-         <li>
-          Less Sulfur Nodes Spawn (50%)
-         </li>
-         <li>
-          Increased Tech Tree Tax (2x)
-         </li>
-        </ul>
-       </div>
-      </div>
-      <div>
-       <b>
-        Loot Changes
-       </b>
-      </div>
-     </div>
-     <div>
-      <ul>
-       <li>
-        Jackhammer &amp; Chainsaw (loot only)
-       </li>
-       <li>
-        New travelling vendor trades
-       </li>
-      </ul>
-      <div>
-       <b>
-        Raiding Changes
-       </b>
-      </div>
-     </div>
-     <div>
-      <ul>
-       <li>
-        Removed All Rockets &amp; C4
-       </li>
-       <li>
-        Removed MLRS
-       </li>
-      </ul>
-     </div>
-     <div>
-      <div>
-       <b>
-        Building Changes
-       </b>
-      </div>
-     </div>
-     <div>
-      <ul>
-       <li>
-        Removed Metal Building Grade
-       </li>
-       <li>
-        Removed Armored Building Grade
-       </li>
-       <li>
-        Removed Armored Doors
-       </li>
-       <li>
-        Removed C4, Rockets &amp; Explosive ammo
-       </li>
-      </ul>
-      <div>
-       <b>
-        World Modifications
-       </b>
-      </div>
-     </div>
-     <div>
-      <ul>
-       <li>
-        Removed Monuments (Oil Rig, Missile Silo, Excavator, Underwater Labs)
-       </li>
-       <li>
-        Removed Underground Train System
-       </li>
-       <li>
-        Removed Scientist NPCs (vendors remain)
-       </li>
-       <li>
-        Disabled Patrol Heli Event
-       </li>
-       <li>
-        Disabled Cargo Ship Event
-       </li>
-       <li>
-        Disabled Bradley APC
-       </li>
-       <li>
-        Increased Wild Horse Spawns (2x)
-       </li>
-      </ul>
-      <div>
-       <b>
-        Travel Changes
-       </b>
-      </div>
-     </div>
-     <div>
-      <ul>
-       <li>
-        Removed Helicopters (Minicopter, Scrap Transport Helicopter, Attack Helicopter)
-       </li>
-      </ul>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Siegeweapons">
-  <div class="section" like-handler="LikeBlogSection" like-id="84539" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Siege weapons
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Introducing 4 new vehicles: Siege Weapons!
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250206/medieval_siegeweapons_lineup_01.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      Designed for early game raiding, they're all craftable and deployable in the wilds. A great addition to your raiding and grubbing arsenal.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      In addition to the cost to craft, building them will require extra materials and a hammer.
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20250206/catapult_build_thumb.jpg" src="https://files.facepunch.com/paddy/20250206/catapult_build_01.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <div>
-       They are both available in the primitive and vanilla game modes, from the workbench level 2.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Catapult">
-  <div class="section" like-handler="LikeBlogSection" like-id="84531" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Catapult
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The catapult is capable of launching powerful projectiles with a large impact radius.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250203/medieval_catapult_02.jpg"/>
-     </div>
-     <div>
-      It comes with 3 new ammunition items:
-     </div>
-     <div>
-      <ul>
-       <li>
-        <b>
-         Scattershot
-        </b>
-        : multiple rocks in a spread
-       </li>
-       <li>
-        <b>
-         Firebomb
-        </b>
-        : ignites on impact, spreading flames
-       </li>
-       <li>
-        <b>
-         Propane Explosive Bomb:
-        </b>
-        high-damage explosives, damages construction
-       </li>
-      </ul>
-     </div>
-     <div>
-      It can also launch players. Use at your own risk.
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20250206/catapult_ragdoll_thumb.jpg" src="https://files.facepunch.com/paddy/20250206/catapult_ragdoll_blog.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="CatapultAmmo">
-  <div class="section" like-handler="LikeBlogSection" like-id="84548" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Catapult Ammo
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      You can also use the Firebomb and Propane bombs as a deployable raiding tool. Once deployed they will start to spark when they take any damage and explode after several seconds. When used in this way bombs will do less damage.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_catapult_ammo_02.jpg"/>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20250207/deployable_ammo_thumb.jpg" src="https://files.facepunch.com/paddy/20250207/rust_deployable_ammo.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="SiegeTower">
-  <div class="section" like-handler="LikeBlogSection" like-id="84527" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Siege Tower
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The Siege Tower provides a new way to get into compounds, high open windows or help with a raid. As the heaviest Siege Weapon, these towers lack some mobility, but make up for it in strength. Like the other Siege Weapons: The Siege Tower can be towed by a horse, or pushed to get it into position.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250204/medieval_siegeTower_07.jpg"/>
-     </div>
-     <div>
-      <br/>
-      Each tower is 3 levels tall, with a drawbridge on each level. Use the drawbridge to provide some protection as you assault a base.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250204/medieval_siegeTower_01.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250204/medieval_siegeTower_02.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      Each tower can have a door placed at the bottom for an added layer of security.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="BatteringRam">
-  <div class="section" like-handler="LikeBlogSection" like-id="84528" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Battering Ram
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The battering ram is a heavy fuel-powered vehicle you can drive around. Its reinforced arm can be used to destroy wooden and stone constructions.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_batteringram_03.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_batteringram_01.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_batteringram_02.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <div>
-       The ram takes damage with each hit and will need high-quality metal to stay operational.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Ballista">
-  <div class="section" like-handler="LikeBlogSection" like-id="84529" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Ballista
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The ballista is a massive, wheeled crossbow designed for long-range combat. It can be deployed on terrain and towed by horses.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250204/medieval_ballista_01.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250204/medieval_ballista_02.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      It can fire 4 new bolt items:
-     </div>
-     <div>
-      <ul>
-       <li>
-        <b>
-         Pitchfork Bolt
-        </b>
-        : large sweeping projectile
-       </li>
-       <li>
-        <b>
-         Piercer Bolt
-        </b>
-        : penetrates armored vehicles
-       </li>
-       <li>
-        <b>
-         Hammerhead Bolt
-        </b>
-        : heavy and solid, deals damage to doors
-       </li>
-       <li>
-        <b>
-         Incendiary Bolt
-        </b>
-        : ignites on impact, spreading flames
-       </li>
-      </ul>
-      <div>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250204/medieval_ballista_ammo_01.jpg"/>
-     </div>
-     <div>
-      A stationary version is also available, which can be deployed within your base for defensive use.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Shields">
-  <div class="section" like-handler="LikeBlogSection" like-id="84525" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Shields
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Shields are a new backpack slot item that allows you handle frontal
- threats with ease. Simply equip the shield in your backpack slot and 
-equip a compatible single handed weapon and the shield will 
-automatically appear.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250203/rust_shields_01.jpg"/>
-     </div>
-     <div>
-      <div>
-       While holding a shield, it
- takes over the function of RMB, so you won’t be able to aim down sights
- or throw weapons. Instead holding RMB will raise the shield in front of
- you, giving you more protection at the cost of reduced visibility and 
-not being able to sprint.
-      </div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      You can only hold a Shield up for 4 seconds before having to put it back down, this is shown via a small progress bar near the crosshair (similar to the Compound Bow).
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/rust_primupdate_teaser_swordight_01.jpg"/>
-     </div>
-     <div>
-      <div>
-       There are 3 shield variants, each with a different damage block amount. This amount is the percentage of damage that the shield absorbs from any incoming attack, the remaining portion will be received by the player holding the shield. While equipped, you’ll see a new shield durability bar appear above your health bar, any damage a shield takes is applied to its durability and once broken the shield will be unequipped.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Items that are compatible with shields will mention this on their item information panel when selected.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       When not in use, Shields will appear on your back. Note that while they are on your back, they provide no protection. You will need to equip the shield in order to block any attacks.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250203/rust_shields_03.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="4shotMinicrossbow">
-  <div class="section" like-handler="LikeBlogSection" like-id="84530" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       4 shot Mini crossbow
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      In the spirit of a primitive mode, we wanted to add another arrow 
-weapon. The Mini Crossbow is a fresh take on the Crossbow. Providing 4 
-shots in a rotating barrel, at the cost of some damage and range.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250203/rust_minicrossbow_hero_01.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/paddy/20250203/rust_minicrossbow_firstperson_01.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/paddy/20250203/rust_minicrossbow_tabletop_01.jpg"/>
-     </div>
-     <div>
-      The Mini Crossbow will not only be a great addition to the base game, but also the new primitive gamemode.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Horses">
-  <div class="section" like-handler="LikeBlogSection" like-id="84532" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Horses
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Horses have been completely overhauled and should feel much better to play with.
-     </div>
-     <div>
-      <ul>
-       <li>
-        They can now traverse most terrain types and monuments
-       </li>
-       <li>
-        New movement mechanics allow them to skid by pressing
-        <b>
-         CTRL
-        </b>
-        when galloping
-       </li>
-       <li>
-        Pressing
-        <b>
-         CTRL
-        </b>
-        will also help the horse to take tighter turns
-       </li>
-       <li>
-        They can swim, auto-avoid trees and be pulled when led
-       </li>
-      </ul>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" poster="https://files.facepunch.com/paddy/20250204/rust_horseriding_01.jpg" src="https://files.facepunch.com/paddy/20250206/rust_horseriding_rework_720p.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <div>
-       Horses can also tow siege weapons, including the catapult, siege tower, and ballista.
-      </div>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video controls="" playsinline="" poster="https://files.facepunch.com/paddy/20250204/rust_horsetowing.jpg" src="https://files.facepunch.com/paddy/20250204/horsetowing_demonstration_full.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      Additionally, their impact on server performance has been massively improved.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="MEDIevalpackDLC">
-  <div class="section" like-handler="LikeBlogSection" like-id="84533" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       MEDIeval pack DLC
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month, we’re introducing the new Medieval Pack DLC - a themed collection featuring 8 new items and skins consisting of the new Medieval Barricade, Knights Armour clothing skins, Medieval Large Wood Box skin, the Medieval Assault Rifle skin and Medieval skins for the Sheet Metal Door and Double Doors.
-     </div>
-     <div>
-      <h2>
-       Knight Armour Set
-       <br/>
-      </h2>
-      <div>
-       <span>
-        <span>
-         Arise a brave Knight with these chivalric skins for the Coffeecan Helmet, Roadsign Jacket and Roadsign Kilt.
-         <br/>
-        </span>
-       </span>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/knightarmour_01.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="grid">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/knightarmour_07.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_knightArmour_tableTop_02.jpg"/>
-      </gallery>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_knightArmourPose_02.jpg"/>
-     </div>
-     <div>
-     </div>
-     <h2>
-      Medieval Barricade
-     </h2>
-     <div>
-      Lay down this barricade to stave off the most ardent attackers, or augment the battlefield with its unique middle-age-themed visuals. Note that you will need to know the Barbed Wooden Barricade blueprint to craft this.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_barricade_01.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="grid">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_barricade_02.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_barricade_04.jpg"/>
-      </gallery>
-     </div>
-     <div>
-     </div>
-     <div>
-     </div>
-     <div>
-      <h2>
-       Medieval Assault Rifle
-      </h2>
-      Kingmaker or Kingslayer - you call the shots with this resplendent relic.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_AR_01.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-style="medium">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_AR_closeup_01.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_AR_closeup_05.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_AR_05.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250130/medieval_AR_08.jpg"/>
-      </gallery>
-     </div>
-     <div>
-     </div>
-     <div>
-      <h2>
-       Medieval Large Wooden Box
-      </h2>
-      Every Lord needs a sturdy coffer to store their spoils of war. Look no further than this stalwart companion.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_largeBox_05.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="medium">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_largeBox_02.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_largeBox_04.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_largeBox_03.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/medieval_largeBox_06.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      <span id="docs-internal-guid-85afd1ef-7fff-a962-0e09-4911a4f772a1">
-      </span>
-      <span id="docs-internal-guid-85afd1ef-7fff-a962-0e09-4911a4f772a1">
-      </span>
-      <span>
-      </span>
-      <br/>
-     </div>
-     <div>
-      <h2>
-       <span>
-        Medieval Sheet Metal Door &amp; Double Door
-       </span>
-       <br/>
-       <span>
-       </span>
-      </h2>
-      <span>
-       Survey your lands from behind these imposing castle doors, uniquely adorned with spikes to keep the p̶e̶a̶s̶a̶n̶t̶s nakeds out.
-      </span>
-      <span>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/rust_medieval_metaldoor_skins_01.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="grid">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/rust_medieval_metaldoor_skins_03.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/rust_medieval_metaldoor_skins_06.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250128/rust_medieval_metaldoor_skins_08.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <span>
-       The pack can be purchased from the
-      </span>
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/">
-       Rust Steam item store
-      </a>
-      .
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Ragdolls">
-  <div class="section" like-handler="LikeBlogSection" like-id="84543" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Ragdolls
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Temporary player ragdolling has been added for bikes and horses.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Taking large amounts of collision damage on bikes and horses will result in the player being flung from their seat and eventually getting back up (assuming they haven't died in the process). Players can also be flung from the saddle of a horse if it's had too much airtime or has slid too far. Horses will ragdoll in these cases as well.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250205/rust_horse_radgoll.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      If you're unlucky enough to be used as ammunition for a catapult, you'll also ragdoll and are guaranteed to die on impact.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Collision damage on bikes has been re-balanced with ragdolls in mind, with the aim of making it less likely to instantly die from hitting obstacles on a bike.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Socialintegrations">
-  <div class="section" like-handler="LikeBlogSection" like-id="84540" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Social integrations
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We're rolling out a social integration layer to Rust this month, no more messing around with overlays or alt-tabbing - you can now view, chat, invite, and add friends, all from right inside the game.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false">
-      <img src="https://files.facepunch.com/Alistair/106/02/2025/6T08/Rust_social_integrations_menu_1080_jpg%20%282%29.jpg"/>
-     </div>
-     <div>
-      Your Steam friends list will automatically sync up in-game. No setup required. Prefer using Discord? No problem! All you need to do is link your account, and your Discord friends will be right there, ready to connect. This way, you’ve got the best of both worlds.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Give it a try, and as always, let us know what you think.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Qualityoflifechanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84545" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Quality of life changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230530/sleepingbags_limit.jpg"/>
-        <center>
-         <b>
-          Pickup sleeping bags
-         </b>
-        </center>
-        <center>
-         Players can now pick up any sleeping bag as long they are in TC range
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/jarryd/1b0311b1/spraycans_box.jpg"/>
-        <center>
-         <b>
-          IO Reskinning
-         </b>
-        </center>
-        <center>
-         Can now reskin IO deployables with the spray can without disconnecting it entirely
-        </center>
-       </div>
-       <div class="columns is-multiline">
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/jarryd/1b0311b1/mobilephone1.jpg"/>
-         <center>
-          <b>
-           Phone names
-          </b>
-         </center>
-         <center>
-          Phones can now have names up to 30 characters long
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250206/pumpkin_rolling.jpg"/>
-         <center>
-          <b>
-           Pumpkin Rolling
-          </b>
-         </center>
-         <center>
-          Dropped pumpkins no longer roll indefinitely
-         </center>
-        </div>
-        <div class="columns is-multiline">
-         <div class="column is-6">
-          <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/02/2025/7N98/chrome_JjeTOCnLfq.jpg"/>
-          <center>
-           <b>
-            Backpacks on Weapon Racks
-           </b>
-          </center>
-          <center>
-           Backpacks and shields can now be used with weapon racks.
-          </center>
-         </div>
-         <div class="column is-6">
-         </div>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="FirstPersonAdminESP">
-  <div class="section" like-handler="LikeBlogSection" like-id="84544" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       First Person Admin ESP
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've been slowly building up the feature set of our admin ESP system over the years, mostly due to the demands of various streaming events. This was restricted to using the debug/flying camera, it will now work as expected while in first person perspective spectating. Many server admins have asked for this to have better situational awareness while spectating players.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      It uses the same convars as the normal ESP system so you shouldn't need to do anything new. All of the existing convars will apply, this includes:
-      <br/>
-      <ul>
-       <li>
-        ESPCanvas.MaxNameplates
-       </li>
-       <li>
-        ESPCanvas.OverrideMaxDisplayDistance
-       </li>
-       <li>
-        ESPCanvas.DisableOcclusionChecks
-       </li>
-       <li>
-        ESPCanvas.ShowHealth
-       </li>
-       <li>
-        ESPCanvas.ColourCodeTeams
-       </li>
-       <li>
-        ESPCanvas.UseRandomTeamColours
-       </li>
-       <li>
-        ESPCanvas.DisplayDistanceMultiplier
-       </li>
-      </ul>
-      <div>
-       If there are further improvements that would help in live spectating, please let us know!
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="TwitchdropsHomebrewed2">
-  <div class="section" like-handler="LikeBlogSection" like-id="84541" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Twitch drops - Home brewed 2
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <h2>
-      Twitch Drops are back!
-     </h2>
-     <div>
-      And from more of our favourite creators on the rise that you should definitely start to recognize!
-      <br/>
-      <br/>
-      Be sure to
-      <a class="" href="https://twitch.facepunch.com" target="https://twitch.facepunch.com">
-       sync up
-      </a>
-      and claim your Drops after watching these fantastic creators on Twitch.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0511b1/td_38-blog-image.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="ServerProfilerLinuxReducedOverhead">
-  <div class="section" like-handler="LikeBlogSection" like-id="84546" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Server Profiler - Linux &amp; Reduced Overhead
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <b>
-       TL;DR - Shipping Linux binary; Server profiler should have less impact when idle and recording by gathering less data; if it fails to generate a snapshot, you can now export a debug binary snapshot and share it with us.
-      </b>
-     </div>
-     <h2>
-      Linux Support
-     </h2>
-     <div>
-      This update will contain a library built for Linux environment. The library is a native recorder, so the interface (the "perfsnapshot" command) works the same.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The library has been built on Ubuntu 24.04.1 via GCC 13.3 in C++20 mode and it depends on POSIX utilities (dlopen, dlsym) - so it should be accessible everywhere.
-     </div>
-     <h2>
-      Profiler Overhead
-     </h2>
-     <div>
-      Since the first release of our internal profiler, we got the opportunity to test it in the real world conditions. My first tests were rough (could only capture 1-2 frames worth of data before ballooning to multiple gigabytes of data) and I got feedback from number of server owners that not only it doesn't produce snapshots in some situations, it also has idle overhead - just enabling profiler can have a 5-10fps on a high-pop server.
-     </div>
-     <div>
-      <br/>
-      I've spent some time this update cycle to to reduce this overhead, as in the current conditions it severely reduces the benefit we can get out of the tool. I've tackled it from a couple angles:
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      Reduced how much Code we capture
-     </h2>
-     <div>
-      The profiler works by annotating every code method that it encounters, wrapping it in a set of calls that dispatch to different Mono profilers. Comparatively, for complex and expensive methods these call are unnoticeable, but for small utility functions that do a trivial thing (change a bool, set a bit, append to a list, etc) the dispatching calls add massive overhead (we're talking 10x+ the cost of the utility function). Lastly, these dispatching calls are cheaper when the profiler is enabled, but not capturing - but they are still not free.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Originally I set up a number of annotation filters to exclude some known and safe code (stuff from System.Collections.Generic namespace, for example), but it still left a lot of "fat" that we could trim. Here's the before and after of the changes affecting our player processing loop:
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none" title="Before">
-      <img src="https://files.facepunch.com/danielprihodko/1b0311b1/msedge_em8WKclH6P.png"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none" title="After">
-      <img src="https://files.facepunch.com/danielprihodko/1b0311b1/msedge_LKtgyfNuqq.png"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      As you can see there's much less of nested calls(reduced verticality), and instant calls (triangles, they take less than Perfetto is able to track) appear much earlier.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      This update we no longer capture:
-      <br/>
-     </div>
-     <div>
-      <ul>
-       <li>
-        Hash functions
-       </li>
-       <li>
-        Casting &amp; comparison operators
-       </li>
-       <li>
-        Property getters
-       </li>
-       <li>
-        UnityEngine.CoreModule related code
-       </li>
-       <li>
-        Enumerators
-       </li>
-       <li>
-        Anything Math related
-       </li>
-       <li>
-        Our internal collections (like BufferList)
-       </li>
-       <li>
-        Serialization code
-       </li>
-      </ul>
-      <div>
-       There's more, but hopefully you see the principle behind the choice - anything small, trivial or reliable gets ignored.
-      </div>
-     </div>
-     <div>
-     </div>
-     <div>
-      This allowed us to massively reduce the amount of data we generate during capture - on staging server, we used to generate about
-      <b>
-       17MB of json per player
-      </b>
-      , after these changes it's gone down to
-      <b>
-       ~0.5MB of json per player
-      </b>
-      . This should also reduce the "idle" overhead, since there's much less "dispatch code" that's scattered around.
-     </div>
-     <h2>
-      Improved json generation logic
-     </h2>
-     <div>
-      One of the quirks that we have to deal with profiler-gathered data is that it doesn't know where the frame begins and ends - it's just a stream of "method enter/exit" records + "frame end" record that happens somewhere deep in the managed callstack. And since we want to display the data in a per-frame organized matter, we need to scan this stream to figure out how to partition all records.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Originally I implemented a less-efficient version of this because I assumed that there wouldn't be too much data to overwhlem this process. Since the previous section showed that I was wrong on the scale of data, I've also spent a bit of time to improve the export process - we now only need 2 whole-data-set scans to figure out frame grouping, instead of 3 originally, so using napkin-math, this gives us 33% export speedup.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Additionally, I've received reports that profiler can fail to generate snapshots. There are a couple scenarios in the above frame-reconstruction logic that can cause it to fail, so for these cases I've added the option to dump a binary debug snapshot - just run "perfsnapshot &lt;delay&gt; &lt;name&gt; &lt;frames&gt;
-      <b>
-       1
-      </b>
-      ", and you should see a "&lt;name&gt;.bin.gz" in "&lt;root&gt;/server/&lt;identity&gt;/profiler/" folder. I'll be able to inspect it in our internal tool to see what am I missing:
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" title="Debug Profile Bin Viewer">
-      <img src="https://files.facepunch.com/danielprihodko/1b0311b1/Unity_1WjQqGDVmc.png"/>
-     </div>
-     <h2>
-      Future Plans
-     </h2>
-     <div>
-      I've been using this tool on the daily to inspect the state of our Staging servers, and I'm hoping to do the same with our medium and high-pop release servers as well. To squeeze out the most, there are additional improvements that I'd like to pursue when the time allows:
-      <br/>
-      <ul>
-       <li>
-        Continue trimming down on annotated functions - there's still plenty to reduce.
-       </li>
-       <li>
-        Need to expose the annotation filter to server owners - right now it's all hardcoded which is limiting
-       </li>
-       <li>
-        Need to expand allocation tracking - right now we just track how much we allocated on main thread. We could track allocated object types, and figure out a better way to display it on Perfetto.
-       </li>
-       <li>
-        Emit more metadata about the performance state - provide manual annotation tools to emit the scope of workload for our team, or to show cross-thread dependencies.
-       </li>
-       <li>
-        Explore automatic capture during frame spikes.
-       </li>
-      </ul>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="Wellipets">
-  <div class="section" like-handler="LikeBlogSection" like-id="84542" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Wellipets
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b3111b1/wellipets-x-rust%20-%20Now%20Redeemable.jpg"/>
-     </div>
-     <div>
-      The wait is over!
-     </div>
-     <div>
-      <p dir="ltr">
-       The exclusive Rust x
-       <a class="" href="https://wellipets.com/wellipets-x-rust" target="https://wellipets.com/wellipets-x-rust">
-        Wellipets
-       </a>
-       wellington frog boots have started shipping, and codes for the in-game frog boot helmet are ready to redeem* from 11AM GMT on Friday 7th February.
-      </p>
-      <p dir="ltr">
-       Thank you again to everyone for taking part in this special collaboration, and don't forget to redeem your codes
-       <a class="" href="https://rust.facepunch.com/redeem/">
-        here
-       </a>
-       .
-      </p>
-      <p dir="ltr">
-       <i>
-        <span>
-         *
-         <b>
-          The digital item is complementary to the purchase and only redeemable for the PC version of Rust.
-         </b>
-        </span>
-        A unique product key code will be sent after the delivery of your physical item. Should you wish to exchange sizes of the physical item, please refrain from submitting your digital keycode until you receive your exchanged sizes. Once the digital code is redeemed, you forfeit the right to return the physical item.
-       </i>
-      </p>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="48hourflashsale">
-  <div class="section" like-handler="LikeBlogSection" like-id="84524" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       48 hour flash sale
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      To celebrate the release of this month's Primitive update, we're having a flash sale!
-      <br/>
-      For the next 48 hours, Rust and all Steam DLC's will be 50% off.
-     </div>
-     <div>
-      <p class="editor-paragraph" dir="ltr">
-       Treat your new squad mate to a copy
-       <a class="" href="https://fcpn.ch/primb" target="fcpn.ch/primb">
-        on Steam
-       </a>
-       .
-      </p>
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/paddy/20250203/flashsale_steam_feb2025.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <p class="editor-paragraph" dir="ltr">
-       <br/>
-      </p>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="change-blog-container">
-  <div class="container">
-   <div class="changes-container" id="changelist">
-    <div class="changes-sidebar">
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Patch Name
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Primitive
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Changelist Title
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Primitive Update
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <a class="date" style="text-decoration: none;">
-       <span class="icon">
-        <i>
-         date_range
-        </i>
-       </span>
-       Wednesday, January 8, 2025
-      </a>
-     </div>
-     <div class="sidebar-section">
-     </div>
-    </div>
-    <div class="changes-body">
-     <div class="changes-row features">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         add_circle
-        </i>
-       </span>
-       <h3>
-        Features
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added Primitive game mode
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added Shields
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added Catapult
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added Siege Tower
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added Ballista
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added Battering Ram
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added 4 Shot Mini Crossbow
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added DLAA option to the graphics menu
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row improvements">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         arrow_circle_up
-        </i>
-       </span>
-       <h3>
-        Improvements
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Overhauled horses
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Horses now increase comfort from a fire when in proximity
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved the client performance of industrial lights, ceiling lights, search lights and electric heaters
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved the client performance of moving vehicles
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Various client optimisation when opening/closing the main menu, inventory and other UI screens
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Players can now pick up any sleeping bag as long they are in TC range
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can now reskin IO deployables with the spray can without disconnecting it entirely
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Static payphones now have more accurate grid numbers in their phone directory
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Phones can now have names up to 30 characters long
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added a breaking server rules option to the F7 report window (will not be enforced on Facepunch servers)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added squeeze, barrel and current bone parent readouts to the debug cam info readout
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Industrial lights have been merged into a single item, red and green versions are now skins (so they can be changed with the spraycan)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added teleportteam2me command, will use the local players team or the provided team id
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added a toggle to the Admin F1 UGC panel to hide wanted posters
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can now use multiple commands with a midi bind via the ‘;’ symbol (same as binds)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduced the chance of a player getting killed at the end of a zipline, particularly if the zipline was arriving at an extreme angle
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed wording of vending machine dynamic price multiplier when looking at vending machine on a map
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added “debug.deleteentitybyid” convar
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed ClearUGCByPlayer convar requiring the player to be online
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Admin ESP features can now be used in first person when spectating
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can now loop the entire timeline (Demo Editor)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Allow spaces in shot and folder names (Demo Editor)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Automatically switch control to the camera when a shot recording starts (Demo Editor)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added accessibility.disableMovementInInventory convar to block player input when the inventory screen is open.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Backpacks and shields can now be used with weapon racks.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved performance in the workshop menu. Both when open and after the window is closed.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Admin: Added authradius_radius &lt;playerRadius&gt; &lt;entRadius&gt; to authorise everyone within playerRadius of the command user on all entities within entRadius of the player.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Admin: Added deauthradius_radius &lt;playerRadius&gt; &lt;entRadius&gt; to deauthorise everyone within playerRadius of the command user on all entities within entRadius of the player.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Admin: Added authradius_multi &lt;radius&gt; &lt;player&gt; &lt;player&gt; &lt;...&gt; to auth multiple players on all entities within radius of the command user.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Admin: Added deauthradius_multi&lt;radius&gt; &lt;player&gt; &lt;player&gt; &lt;...&gt; to deauth multiple players on all entities within radius of the command user.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Admin: Added a "Stack" button to F1 menu item icons to give a full stack of item.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Admin: Added clear_trees_radius to clear all trees in a radius form the player
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Creative mode: Added Creative.bypassHoldToPlaceDuration convar to bypass the hold to place time of deployables such as High External Walls.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved TAA implementation by reducing blurring and artifacting.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          ServerProfiler: added linux binary
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          ServerProfiler: reduced capture overhead
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Horses now use anisotropic materials for more realistic hair shading
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Admin :'chat.mutelist' now exposes SteamID's
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row fixed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         handyman
-        </i>
-       </span>
-       <h3>
-        Fixed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed F1 Grenades not saving Specular maps on the Community Workshop.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Lumberjack Hoodie not rendering when equipped.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed item store Prototype Pickaxe being referred as Protoype Hatchet
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed the performance issues impacting Chinese, Japanese and Korean fonts when opening menus or using the chat
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed missing Chinese, Japanese and Korean characters in the UI
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Removed the "GiveItem failed!" error message that appeared when looting an item with a full inventory
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Dropped pumpkins no longer roll indefinitely
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed spraying the factory skin twice would result in a broken texture
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some packs in the store displaying their store page incorrectly at low UI scale
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed fish traps needing to be reset after a server restart
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a calculation error when applying dynamic pricing to a vending machine sale
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed holosights looking different based on the accessibility colour selected while in NVG
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed certain AntiHack errors preventing the placement of deployables (e.g. barricades)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed occasional errors when saving shots (Demo Editor)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed shot and folder input fields resetting when pressing escape (Demo Editor)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Ice Assault Rifle's name and description to be in line with other similar items.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an issue with player inventory being locked if kicked when surrendering.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Items can no longer be swapped into softcore reclaim bags, fixing an exploit.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Submarines can no longer be stolen when purchased at Fishing Village.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Submarine fuel can no longer be stolen from a submarine purchased at the Fishing Village.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          The patrol helicopter will no longer shoot at scientists.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Remove an error logged by wolves that could spam server logs.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed DLSS Ultra Performance Mode artifacts.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed formatting issues with importing and exporting normal maps via the workshop.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Fishing Villages spawning too close to harbor
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Cargoship being able to abduct NPC's
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Road Bradley and Travelling Vendor events not outputting the correct printouts
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed respawning static planter causing hash conflicts on sockets
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Vending Machine stats panel incorrectly separating combined purchases as single purchases
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Ensured phrases are translated properly on Vending Machine stats panel
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed death and auth commands not working for locks on tool cupboards
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 06 Feb 2025 03:18:00 Z</pubDate>
     </item>
   </channel>
 </rss>
