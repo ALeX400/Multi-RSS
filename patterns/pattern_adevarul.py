@@ -17,7 +17,18 @@ def load_styles():
 
 def clean_article_content(soup):
     # Remove specific elements
-    for selector in ['.info.svelte-hvtg27', '.date.metaFont.svelte-hvtg27', '.read-more-item', 'footer', 'nav', 'script', 'div[class^="google-adposition"]']:
+    for selector in [
+        '.info.svelte-hvtg27',
+        '.date.metaFont.svelte-hvtg27',
+        '.read-more-item',
+        'footer',
+        'nav',
+        'script',
+        'div[class^="google-adposition"]',
+        '.info.svelte-1rvbgrh',
+        '.published.svelte-1rvbgrh',
+        'header.svelte-1rvbgrh'
+    ]:
         for elem in soup.select(selector):
             elem.decompose()
     
