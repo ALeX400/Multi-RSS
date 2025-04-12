@@ -45,6 +45,51 @@
 			"url": "https://www.freesteamkeys.com/keys-available/feed",
 			"script": "pattern_freesteamkeys.py",
 			"FileName": null
+		},
+		"ProSport Nationala Romaniei": {
+			"url": "https://www.prosport.ro/fotbal-intern/nationala/feed/",
+			"script": "pattern_prosport.py",
+			"FileName": "prosport_nationala.xml"
+		},
+		"ProSport Europa League": {
+			"url": "https://www.prosport.ro/fotbal-extern/europa-league/feed/",
+			"script": "pattern_prosport.py",
+			"FileName": "prosport_europa_league.xml"
+		},
+		"ProSport Champions League": {
+			"url": "https://www.prosport.ro/fotbal-extern/uefa-champions-league/feed/",
+			"script": "pattern_prosport.py",
+			"FileName": "prosport_champions_league.xml"
+		},
+		"ProSport Tenis": {
+			"url": "https://www.prosport.ro/alte-sporturi/tenis/feed/",
+			"script": "pattern_prosport.py",
+			"FileName": "prosport_tenis.xml"
+		},
+		"ProSport Baschet": {
+			"url": "https://www.prosport.ro/alte-sporturi/baschet/feed/",
+			"script": "pattern_prosport.py",
+			"FileName": "prosport_baschet.xml"
+		},
+		"ProSport Formula 1": {
+			"url": "https://www.prosport.ro/formula-1/feed/",
+			"script": "pattern_prosport.py",
+			"FileName": "prosport_formula1.xml"
+		},
+		"ProSport Handbal": {
+			"url": "https://www.prosport.ro/alte-sporturi/handbal/feed/",
+			"script": "pattern_prosport.py",
+			"FileName": "prosport_handbal.xml"
+		},
+		"ProSport Box": {
+			"url": "https://www.prosport.ro/alte-sporturi/box/feed/",
+			"script": "pattern_prosport.py",
+			"FileName": "prosport_box.xml"
+		},
+		"ProSport Sport Life": {
+			"url": "https://www.prosport.ro/sport-life/feed/",
+			"script": "pattern_prosport.py",
+			"FileName": "prosport_sportlife.xml"
 		}
 		/**
 		"World News": {
