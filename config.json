@@ -46,6 +46,11 @@
 			"script": "pattern_freesteamkeys.py",
 			"FileName": null
 		},
+		"ProSport Champions League": {
+			"url": "https://www.prosport.ro/fotbal-extern/uefa-champions-league/feed",
+			"script": "pattern_prosport.py",
+			"FileName": "prosport_champions_league.xml"
+		},
 		"ProSport Nationala Romaniei": {
 			"url": "https://www.prosport.ro/fotbal-intern/nationala/feed/",
 			"script": "pattern_prosport.py",
@@ -55,11 +60,6 @@
 			"url": "https://www.prosport.ro/fotbal-extern/europa-league/feed/",
 			"script": "pattern_prosport.py",
 			"FileName": "prosport_europa_league.xml"
-		},
-		"ProSport Champions League": {
-			"url": "https://www.prosport.ro/fotbal-extern/uefa-champions-league/feed",
-			"script": "pattern_prosport.py",
-			"FileName": "prosport_champions_league.xml"
 		},
 		"ProSport Tenis": {
 			"url": "https://www.prosport.ro/alte-sporturi/tenis/feed",
