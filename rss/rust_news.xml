@@ -422,291 +422,6 @@
       <pubDate>Thu, 13 Mar 2025 02:00:00 Z</pubDate>
     </item>
     <item>
-      <title>Easter 2025</title>
-      <link>https://rust.facepunch.com/news/easter-2025/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Easter 2025
-    </h1>
-    <p editname="Summary" type="text">
-     Happy Easter! Easter Egg Hunt is back and there's a whole range of fun items now available too, if you quit horsing around.
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      10 April 2025
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="Easterhunt">
-  <div class="section" like-handler="LikeBlogSection" like-id="84611" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Easter hunt
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <p>
-       Starting today until April 24th, every 24-38 in-game hours an Easter egg hunt will begin. You'll have 3 minutes to collect as many eggs as you can. The top 3 players are given special eggs as a reward. These eggs can be cracked open for various types of loot ranging from scrap all the way up to an M249!
-      </p>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/04/14/269931/hunt.jpg"/>
-     </div>
-     <div>
-      <div>
-       If you don't make the podium, that's okay. The painted eggs you collect can be upgraded to Bronze eggs once you collect 10. If you collect 10 bronze eggs then you can upgrade to a silver egg, eventually all the way to gold!
-       <br/>
-      </div>
-      <div>
-       <br/>
-       There are various items available to help you during your hunt. The Easter Basket will allow instant pickup of eggs and the Bunny Onesie and Ears will provide you with an advantage via Egg Vision.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="HorseCostume">
-  <div class="section" like-handler="LikeBlogSection" like-id="84612" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Horse Costume
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       This year, we've added a new costume DLC attire, the Horse costume! The Horse costume is a lower body wearable item which can be crafted with cloth and wood.
-       <br/>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://store.steampowered.com/itemstore/252490/detail/10237/">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/107/04/2025/3F97/apr2025_easter_horsesuit_05.jpg"/>
-      </a>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="grid">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/1R39/apr2025_easter_horsesuit_02_alt1.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/107/04/2025/7Q47/apr2025_easter_horsesuit_04.jpg"/>
-      </gallery>
-     </div>
-     <div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The Horse costume comes in three variants and is only available for a limited time on the Rust
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
-       item store
-      </a>
-      .
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="CargoRustigeEgg">
-  <div class="section" like-handler="LikeBlogSection" like-id="84613" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Cargo Rustige Egg
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <p>
-       This Easter, treat yourself and your base to a different kind of egg. Not one made of chocolate, but one made of some of the most sought-after elements.
-       <br/>
-      </p>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/adamwilliamson/20250314/rustigeegg_06.jpg"/>
-     </div>
-     <div>
-      This easter Rustige Egg is aquatic-themed and features the Cargoship with an RHIB patrol boat.
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/adamwilliamson/20250314/rustigeegg_02_loop.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      Available for a limited on the Rust
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10300/">
-       item store
-      </a>
-      .
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="EasterStore">
-  <div class="section" like-handler="LikeBlogSection" like-id="84614" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Easter Store
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The Easter store returns!
-     </div>
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10179/">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/helkus/1b0811b1/nest.hat.icon.png"/>
-        </a>
-        <center>
-         <a href="https://store.steampowered.com/itemstore/252490/detail/10179/">
-         </a>
-         <a href="https://store.steampowered.com/itemstore/252490/detail/10179/">
-          <b>
-           Egg Hat
-          </b>
-         </a>
-        </center>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10193/">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/03/31/1e9841/hat.bunnyhat.png"/>
-        </a>
-        <center>
-         <a href="https://store.steampowered.com/itemstore/252490/detail/10193/">
-         </a>
-         <a href="https://store.steampowered.com/itemstore/252490/detail/10193/">
-          <b>
-           Bunny Hat
-          </b>
-         </a>
-        </center>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10208/">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/jacob/1b2111b1/attire.egg.suit.png"/>
-        </a>
-        <center>
-         <a href="https://store.steampowered.com/itemstore/252490/detail/10208/">
-         </a>
-         <a href="https://store.steampowered.com/itemstore/252490/detail/10208/">
-          <b>
-           Egg Costume
-          </b>
-         </a>
-        </center>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="ChickenCostume">
-  <div class="section" like-handler="LikeBlogSection" like-id="84619" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Chicken Costume
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Returning again this year is the Chicken Costume! The Chicken Costume is lower body wearable item which can be crafted with cloth and wood.
-      <br/>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/jacob/1b2111b1/lw06fdezjn.jpg"/>
-     </div>
-     <div>
-      <span>
-       You can find the clucking chicken costume in Rust
-      </span>
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10237/">
-       item store
-      </a>
-      <span>
-       .
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 10 Apr 2025 08:42:00 Z</pubDate>
-    </item>
-    <item>
       <title>Community Update 264</title>
       <link>https://rust.facepunch.com/news/community-update-264/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -2641,6 +2356,291 @@
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 03 Apr 2025 13:45:00 Z</pubDate>
+    </item>
+    <item>
+      <title>Easter 2025</title>
+      <link>https://rust.facepunch.com/news/easter-2025/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Easter 2025
+    </h1>
+    <p editname="Summary" type="text">
+     Happy Easter! Easter Egg Hunt is back and there's a whole range of fun items now available too, if you quit horsing around.
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      10 April 2025
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="Easterhunt">
+  <div class="section" like-handler="LikeBlogSection" like-id="84611" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Easter hunt
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <p>
+       Starting today until April 24th, every 24-38 in-game hours an Easter egg hunt will begin. You'll have 3 minutes to collect as many eggs as you can. The top 3 players are given special eggs as a reward. These eggs can be cracked open for various types of loot ranging from scrap all the way up to an M249!
+      </p>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/04/14/269931/hunt.jpg"/>
+     </div>
+     <div>
+      <div>
+       If you don't make the podium, that's okay. The painted eggs you collect can be upgraded to Bronze eggs once you collect 10. If you collect 10 bronze eggs then you can upgrade to a silver egg, eventually all the way to gold!
+       <br/>
+      </div>
+      <div>
+       <br/>
+       There are various items available to help you during your hunt. The Easter Basket will allow instant pickup of eggs and the Bunny Onesie and Ears will provide you with an advantage via Egg Vision.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="HorseCostume">
+  <div class="section" like-handler="LikeBlogSection" like-id="84612" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Horse Costume
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       This year, we've added a new costume DLC attire, the Horse costume! The Horse costume is a lower body wearable item which can be crafted with cloth and wood.
+       <br/>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://store.steampowered.com/itemstore/252490/detail/10237/">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/107/04/2025/3F97/apr2025_easter_horsesuit_05.jpg"/>
+      </a>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/1R39/apr2025_easter_horsesuit_02_alt1.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/107/04/2025/7Q47/apr2025_easter_horsesuit_04.jpg"/>
+      </gallery>
+     </div>
+     <div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The Horse costume comes in three variants and is only available for a limited time on the Rust
+      <a class="selected" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
+       item store
+      </a>
+      .
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="CargoRustigeEgg">
+  <div class="section" like-handler="LikeBlogSection" like-id="84613" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Cargo Rustige Egg
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <p>
+       This Easter, treat yourself and your base to a different kind of egg. Not one made of chocolate, but one made of some of the most sought-after elements.
+       <br/>
+      </p>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/adamwilliamson/20250314/rustigeegg_06.jpg"/>
+     </div>
+     <div>
+      This easter Rustige Egg is aquatic-themed and features the Cargoship with an RHIB patrol boat.
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/adamwilliamson/20250314/rustigeegg_02_loop.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      Available for a limited on the Rust
+      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10300/">
+       item store
+      </a>
+      .
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="EasterStore">
+  <div class="section" like-handler="LikeBlogSection" like-id="84614" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Easter Store
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The Easter store returns!
+     </div>
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10179/">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/helkus/1b0811b1/nest.hat.icon.png"/>
+        </a>
+        <center>
+         <a href="https://store.steampowered.com/itemstore/252490/detail/10179/">
+         </a>
+         <a href="https://store.steampowered.com/itemstore/252490/detail/10179/">
+          <b>
+           Egg Hat
+          </b>
+         </a>
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10193/">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/03/31/1e9841/hat.bunnyhat.png"/>
+        </a>
+        <center>
+         <a href="https://store.steampowered.com/itemstore/252490/detail/10193/">
+         </a>
+         <a href="https://store.steampowered.com/itemstore/252490/detail/10193/">
+          <b>
+           Bunny Hat
+          </b>
+         </a>
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10208/">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/jacob/1b2111b1/attire.egg.suit.png"/>
+        </a>
+        <center>
+         <a href="https://store.steampowered.com/itemstore/252490/detail/10208/">
+         </a>
+         <a href="https://store.steampowered.com/itemstore/252490/detail/10208/">
+          <b>
+           Egg Costume
+          </b>
+         </a>
+        </center>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ChickenCostume">
+  <div class="section" like-handler="LikeBlogSection" like-id="84619" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Chicken Costume
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Returning again this year is the Chicken Costume! The Chicken Costume is lower body wearable item which can be crafted with cloth and wood.
+      <br/>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/jacob/1b2111b1/lw06fdezjn.jpg"/>
+     </div>
+     <div>
+      <span>
+       You can find the clucking chicken costume in Rust
+      </span>
+      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10237/">
+       item store
+      </a>
+      <span>
+       .
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 10 Apr 2025 08:42:00 Z</pubDate>
     </item>
     <item>
       <title>Crafting Update</title>
