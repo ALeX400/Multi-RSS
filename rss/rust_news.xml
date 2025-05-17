@@ -1,6 +1,712 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Premium Servers</title>
+      <link>https://rust.facepunch.com/news/premium-servers/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Premium Servers
+    </h1>
+    <p editname="Summary" type="text">
+     We are launching premium servers today and here's everything you need to know!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      13 March 2025
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      Devblog
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="PremiumServerLaunch">
+  <div class="section" like-handler="LikeBlogSection" like-id="84588" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Premium Server Launch
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We are rolling out
+      <span data-end="114" data-start="95">
+       Premium Servers
+      </span>
+      , an
+      <span data-end="135" data-start="119">
+       experimental
+      </span>
+      way to filter out cheat users and create a better experience for legit players.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      To access Premium Servers, your Rust Steam inventory must be valued at $15 or more. This includes items from the
+      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=All">
+       Permanent Store
+      </a>
+      , such as building skins, décor packs, and hazmat skins, as well as any other
+      <a class="" href="https://steamcommunity.com/market/search?appid=252490">
+       tradable Rust items
+      </a>
+      with an attached value. Currently we do not include Rust's standalone DLC such as Instruments, Sunburn and Voice Props packs (this may change in future).
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/105/03/2025/4y97/RustClient_FZFr8oSdQm.jpg"/>
+     </div>
+     <div>
+      We initially communicated a $20 threshold, but after analysing data from millions of accounts, we've settled on $15 as a more effective starting point. This is based on a comparison of banned accounts versus regular players, aiming to strike a balance between accessibility and cheat deterrence, although opting on the lower end.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <ul>
+       <li data-end="954" data-start="869">
+        <span data-end="952" data-start="871">
+         Premium Servers will only be visible if your account meets the $15 threshold.
+        </span>
+       </li>
+       <li data-end="954" data-start="869">
+        <span data-end="952" data-start="871">
+         Premium Servers will show a Premium (and clickable) Tag to provide details about eligibility.
+        </span>
+       </li>
+       <li data-end="1061" data-start="955">
+        <span data-end="993" data-start="957">
+         This won’t stop every cheat user
+        </span>
+        , but it’s an extra layer of friction against disposable cheat accounts.
+       </li>
+       <li data-end="1146" data-start="1062">
+        <span data-end="1092" data-start="1064">
+         Server owners can opt-in
+        </span>
+        by enabling the following convar: "
+        <code data-end="1143" data-start="1127">
+         server.premium 1"
+        </code>
+       </li>
+       <li data-end="1260" data-start="1147">
+        <span data-end="1181" data-start="1149">
+         The $15 threshold may change
+        </span>
+        over time, and we may introduce additional factors to refine premium status.
+        <br/>
+       </li>
+       <li data-end="1260" data-start="1147">
+        Depending on Steam traffic, brand new purchases may take up to 20 minutes to reflect onto the Premium Server authorization.
+       </li>
+       <li data-end="1260" data-start="1147">
+        You can manually refresh or check your premium status by going to the server listings, clicking the premium server tag and clicking the refresh icon.
+       </li>
+       <li data-end="1260" data-start="1147">
+        If you have premium status, it'll
+        <a class="" href="https://files.facepunch.com/Alistair/113/03/2025/6E20/RustClient_jOV78XFHHW.png">
+         display on your avatar
+        </a>
+        on the menu menu
+       </li>
+      </ul>
+      <div>
+       If we encounter any abuse or exploitation of Premium servers or the market, user accounts will be banned. All trades of Rust skins are logged.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Servers">
+  <div class="section" like-handler="LikeBlogSection" like-id="84590" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Servers
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <p>
+       There are currently several new, freshly wiped official premium servers now live!
+      </p>
+      <p>
+       To connect to these servers, you'll find them in the official server list or connect directly from the mainmenu, open the console by pressing F1 and typing "connect" followed by the IP or endpoint. For example, "connect eupremium.rustopia.gg" or "connect 79.137.98.213:28015"
+      </p>
+      <h2>
+       Monthly MAP WIPES:
+      </h2>
+      <div>
+       <div>
+        <b>
+         EU Facepunch
+        </b>
+       </div>
+       <div>
+        <ul>
+         <li>
+          EU Premium 1 - 79.137.98.213:28015
+         </li>
+         <li>
+          EU Premium 2 - 79.137.98.146:28015
+         </li>
+         <li>
+          EU Premium Small 1 - 79.137.98.146:28020
+          <br/>
+         </li>
+         <li>
+          EU Premium 3 - 79.137.98.117:28015
+         </li>
+         <li>
+          EU Premium 4 - 79.137.98.117:28020
+          <br/>
+         </li>
+        </ul>
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <b>
+        EU East Facepunch
+       </b>
+       <br/>
+       <div>
+        <ul>
+         <li>
+          EU East Premium 1 - 57.128.211.55:28015
+         </li>
+         <li>
+          EU East Premium 2 - 57.128.211.53:28015
+         </li>
+         <li>
+          EU East Premium Small 1 - 57.128.211.53:28020
+          <br/>
+         </li>
+         <li>
+          EU East Premium 3 - 57.128.211.54:28015
+         </li>
+         <li>
+          EU East Premium 4 - 57.128.211.54:28020
+          <br/>
+         </li>
+        </ul>
+       </div>
+       <div>
+        <br/>
+        <b>
+         US West Facepunch
+        </b>
+        <br/>
+        <div>
+         <ul>
+          <li>
+           US West Premium 1 - 148.113.198.88:28015
+          </li>
+          <li>
+           US West Premium 2 - 148.113.198.86:28015
+          </li>
+          <li>
+           US West Premium Small 1 148.113.198.86:28020
+           <br/>
+          </li>
+          <li>
+           US West Premium 3 - 148.113.198.87:28015
+          </li>
+          <li>
+           US West Premium 4 - 148.113.198.87:28020
+           <br/>
+          </li>
+         </ul>
+        </div>
+        <br/>
+        <b>
+         US East Facepunch
+        </b>
+        <div>
+         <ul>
+          <li>
+           US East Premium 1 - 40.160.19.6:28015
+          </li>
+          <li>
+           US East Premium 2 - 40.160.19.218:28015
+          </li>
+          <li>
+           US East Premium Small 1 - 40.160.19.218:28020
+           <br/>
+          </li>
+          <li>
+           US East Premium 3 - 40.160.19.217:28015
+          </li>
+          <li>
+           US East Premium 4 - 40.160.19.217:28020
+           <br/>
+          </li>
+         </ul>
+        </div>
+       </div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <p>
+      </p>
+      <h2>
+       Weekly MAP WIPES:
+      </h2>
+      <p>
+       <span>
+        <b>
+         US Community Officials
+        </b>
+        <br/>
+       </span>
+      </p>
+      <ul>
+       <li>
+        <span>
+         us-medium.rusticated.com:28010
+        </span>
+       </li>
+       <li>
+        <span>
+         us.premium.rplayrust.com
+        </span>
+       </li>
+       <li>
+        <span>
+         main.us-premium.moose.gg
+        </span>
+       </li>
+      </ul>
+      <p>
+       <span>
+        <b>
+         EU Community Officials
+        </b>
+       </span>
+       <br/>
+      </p>
+      <ul>
+       <li>
+        eu-medium.rusticated.com:28010
+       </li>
+       <li>
+        eupremium.rustopia.gg
+       </li>
+       <li>
+        premium.rustspain.com:28015
+       </li>
+      </ul>
+      <br/>
+      <b>
+       AU/Asia Community Officials
+      </b>
+      <br/>
+      <ul>
+       <li>
+        aupremium.rustafied.com
+       </li>
+       <li>
+        premium.rustoria.asia
+       </li>
+      </ul>
+      <p>
+       <br/>
+      </p>
+      <p>
+       <i>
+        Community-run officials may have their own separate blueprint wipe schedules.  We recommend seeking out their individual discords/website for specifics. Terms and conditions apply.
+       </i>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="LookingAhead">
+  <div class="section" like-handler="LikeBlogSection" like-id="84589" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Looking Ahead
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We will stress, this is an
+      <span data-end="1287" data-start="1273">
+       experiment
+      </span>
+      , and we’ll be closely monitoring its impact. We will know more in the upcoming weeks if this is something we can expand upon and refine.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      We will also take this opportunity to also encourage everyone to set up and use
+      <a class="" href="https://help.steampowered.com/en/faqs/view/7EFD-3CAE-64D3-1C31">
+       Steam's mobile authenticator
+      </a>
+      .  It both protects your account from intruders, and also allows quicker Steam/Rust skin trades among friends.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 13 Mar 2025 02:00:00 Z</pubDate>
+    </item>
+    <item>
+      <title>Easter 2025</title>
+      <link>https://rust.facepunch.com/news/easter-2025/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Easter 2025
+    </h1>
+    <p editname="Summary" type="text">
+     Happy Easter! Easter Egg Hunt is back and there's a whole range of fun items now available too, if you quit horsing around.
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      10 April 2025
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="Easterhunt">
+  <div class="section" like-handler="LikeBlogSection" like-id="84611" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Easter hunt
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <p>
+       Starting today until April 24th, every 24-38 in-game hours an Easter egg hunt will begin. You'll have 3 minutes to collect as many eggs as you can. The top 3 players are given special eggs as a reward. These eggs can be cracked open for various types of loot ranging from scrap all the way up to an M249!
+      </p>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/04/14/269931/hunt.jpg"/>
+     </div>
+     <div>
+      <div>
+       If you don't make the podium, that's okay. The painted eggs you collect can be upgraded to Bronze eggs once you collect 10. If you collect 10 bronze eggs then you can upgrade to a silver egg, eventually all the way to gold!
+       <br/>
+      </div>
+      <div>
+       <br/>
+       There are various items available to help you during your hunt. The Easter Basket will allow instant pickup of eggs and the Bunny Onesie and Ears will provide you with an advantage via Egg Vision.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="HorseCostume">
+  <div class="section" like-handler="LikeBlogSection" like-id="84612" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Horse Costume
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       This year, we've added a new costume DLC attire, the Horse costume! The Horse costume is a lower body wearable item which can be crafted with cloth and wood.
+       <br/>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://store.steampowered.com/itemstore/252490/detail/10237/">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/107/04/2025/3F97/apr2025_easter_horsesuit_05.jpg"/>
+      </a>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/1R39/apr2025_easter_horsesuit_02_alt1.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/107/04/2025/7Q47/apr2025_easter_horsesuit_04.jpg"/>
+      </gallery>
+     </div>
+     <div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The Horse costume comes in three variants and is only available for a limited time on the Rust
+      <a class="selected" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
+       item store
+      </a>
+      .
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="CargoRustigeEgg">
+  <div class="section" like-handler="LikeBlogSection" like-id="84613" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Cargo Rustige Egg
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <p>
+       This Easter, treat yourself and your base to a different kind of egg. Not one made of chocolate, but one made of some of the most sought-after elements.
+       <br/>
+      </p>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/adamwilliamson/20250314/rustigeegg_06.jpg"/>
+     </div>
+     <div>
+      This easter Rustige Egg is aquatic-themed and features the Cargoship with an RHIB patrol boat.
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/adamwilliamson/20250314/rustigeegg_02_loop.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      Available for a limited on the Rust
+      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10300/">
+       item store
+      </a>
+      .
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="EasterStore">
+  <div class="section" like-handler="LikeBlogSection" like-id="84614" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Easter Store
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The Easter store returns!
+     </div>
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10179/">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/helkus/1b0811b1/nest.hat.icon.png"/>
+        </a>
+        <center>
+         <a href="https://store.steampowered.com/itemstore/252490/detail/10179/">
+         </a>
+         <a href="https://store.steampowered.com/itemstore/252490/detail/10179/">
+          <b>
+           Egg Hat
+          </b>
+         </a>
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10193/">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/03/31/1e9841/hat.bunnyhat.png"/>
+        </a>
+        <center>
+         <a href="https://store.steampowered.com/itemstore/252490/detail/10193/">
+         </a>
+         <a href="https://store.steampowered.com/itemstore/252490/detail/10193/">
+          <b>
+           Bunny Hat
+          </b>
+         </a>
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10208/">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/jacob/1b2111b1/attire.egg.suit.png"/>
+        </a>
+        <center>
+         <a href="https://store.steampowered.com/itemstore/252490/detail/10208/">
+         </a>
+         <a href="https://store.steampowered.com/itemstore/252490/detail/10208/">
+          <b>
+           Egg Costume
+          </b>
+         </a>
+        </center>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ChickenCostume">
+  <div class="section" like-handler="LikeBlogSection" like-id="84619" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Chicken Costume
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Returning again this year is the Chicken Costume! The Chicken Costume is lower body wearable item which can be crafted with cloth and wood.
+      <br/>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/jacob/1b2111b1/lw06fdezjn.jpg"/>
+     </div>
+     <div>
+      <span>
+       You can find the clucking chicken costume in Rust
+      </span>
+      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10237/">
+       item store
+      </a>
+      <span>
+       .
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 10 Apr 2025 08:42:00 Z</pubDate>
+    </item>
+    <item>
       <title>Soft Refresh</title>
       <link>https://rust.facepunch.com/news/soft-refresh/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -1585,443 +2291,20 @@
       <pubDate>Thu, 03 Apr 2025 13:45:00 Z</pubDate>
     </item>
     <item>
-      <title>Premium Servers</title>
-      <link>https://rust.facepunch.com/news/premium-servers/</link>
+      <title>Jungle Update</title>
+      <link>https://rust.facepunch.com/news/jungle-update/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
 <div class="blog-hero">
  <div class="container" targetobject="blog">
   <div class="blog-hero-body">
    <div class="body-info">
-    <h1 editname="Title" type="text">
-     Premium Servers
-    </h1>
+    <img alt="Jungle Update" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b0111b119/jungle-update-branding.png"/>
     <p editname="Summary" type="text">
-     We are launching premium servers today and here's everything you need to know!
+     Explore a whole new biome! This month's update introduces a lush new Jungle, complete with climbable trees and vine swinging, deadly tigers and crocodiles, new monuments, boomerangs, blowpipes, and more!
     </p>
     <div class="tags">
      <div class="tag secondary">
-      13 March 2025
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      Devblog
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="PremiumServerLaunch">
-  <div class="section" like-handler="LikeBlogSection" like-id="84588" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Premium Server Launch
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We are rolling out
-      <span data-end="114" data-start="95">
-       Premium Servers
-      </span>
-      , an
-      <span data-end="135" data-start="119">
-       experimental
-      </span>
-      way to filter out cheat users and create a better experience for legit players.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      To access Premium Servers, your Rust Steam inventory must be valued at $15 or more. This includes items from the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=All">
-       Permanent Store
-      </a>
-      , such as building skins, décor packs, and hazmat skins, as well as any other
-      <a class="" href="https://steamcommunity.com/market/search?appid=252490">
-       tradable Rust items
-      </a>
-      with an attached value. Currently we do not include Rust's standalone DLC such as Instruments, Sunburn and Voice Props packs (this may change in future).
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/105/03/2025/4y97/RustClient_FZFr8oSdQm.jpg"/>
-     </div>
-     <div>
-      We initially communicated a $20 threshold, but after analysing data from millions of accounts, we've settled on $15 as a more effective starting point. This is based on a comparison of banned accounts versus regular players, aiming to strike a balance between accessibility and cheat deterrence, although opting on the lower end.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <ul>
-       <li data-end="954" data-start="869">
-        <span data-end="952" data-start="871">
-         Premium Servers will only be visible if your account meets the $15 threshold.
-        </span>
-       </li>
-       <li data-end="954" data-start="869">
-        <span data-end="952" data-start="871">
-         Premium Servers will show a Premium (and clickable) Tag to provide details about eligibility.
-        </span>
-       </li>
-       <li data-end="1061" data-start="955">
-        <span data-end="993" data-start="957">
-         This won’t stop every cheat user
-        </span>
-        , but it’s an extra layer of friction against disposable cheat accounts.
-       </li>
-       <li data-end="1146" data-start="1062">
-        <span data-end="1092" data-start="1064">
-         Server owners can opt-in
-        </span>
-        by enabling the following convar: "
-        <code data-end="1143" data-start="1127">
-         server.premium 1"
-        </code>
-       </li>
-       <li data-end="1260" data-start="1147">
-        <span data-end="1181" data-start="1149">
-         The $15 threshold may change
-        </span>
-        over time, and we may introduce additional factors to refine premium status.
-        <br/>
-       </li>
-       <li data-end="1260" data-start="1147">
-        Depending on Steam traffic, brand new purchases may take up to 20 minutes to reflect onto the Premium Server authorization.
-       </li>
-       <li data-end="1260" data-start="1147">
-        You can manually refresh or check your premium status by going to the server listings, clicking the premium server tag and clicking the refresh icon.
-       </li>
-       <li data-end="1260" data-start="1147">
-        If you have premium status, it'll
-        <a class="" href="https://files.facepunch.com/Alistair/113/03/2025/6E20/RustClient_jOV78XFHHW.png">
-         display on your avatar
-        </a>
-        on the menu menu
-       </li>
-      </ul>
-      <div>
-       If we encounter any abuse or exploitation of Premium servers or the market, user accounts will be banned. All trades of Rust skins are logged.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Servers">
-  <div class="section" like-handler="LikeBlogSection" like-id="84590" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Servers
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <p>
-       There are currently several new, freshly wiped official premium servers now live!
-      </p>
-      <p>
-       To connect to these servers, you'll find them in the official server list or connect directly from the mainmenu, open the console by pressing F1 and typing "connect" followed by the IP or endpoint. For example, "connect eupremium.rustopia.gg" or "connect 79.137.98.213:28015"
-      </p>
-      <h2>
-       Monthly MAP WIPES:
-      </h2>
-      <div>
-       <div>
-        <b>
-         EU Facepunch
-        </b>
-       </div>
-       <div>
-        <ul>
-         <li>
-          EU Premium 1 - 79.137.98.213:28015
-         </li>
-         <li>
-          EU Premium 2 - 79.137.98.146:28015
-         </li>
-         <li>
-          EU Premium Small 1 - 79.137.98.146:28020
-          <br/>
-         </li>
-         <li>
-          EU Premium 3 - 79.137.98.117:28015
-         </li>
-         <li>
-          EU Premium 4 - 79.137.98.117:28020
-          <br/>
-         </li>
-        </ul>
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <b>
-        EU East Facepunch
-       </b>
-       <br/>
-       <div>
-        <ul>
-         <li>
-          EU East Premium 1 - 57.128.211.55:28015
-         </li>
-         <li>
-          EU East Premium 2 - 57.128.211.53:28015
-         </li>
-         <li>
-          EU East Premium Small 1 - 57.128.211.53:28020
-          <br/>
-         </li>
-         <li>
-          EU East Premium 3 - 57.128.211.54:28015
-         </li>
-         <li>
-          EU East Premium 4 - 57.128.211.54:28020
-          <br/>
-         </li>
-        </ul>
-       </div>
-       <div>
-        <br/>
-        <b>
-         US West Facepunch
-        </b>
-        <br/>
-        <div>
-         <ul>
-          <li>
-           US West Premium 1 - 148.113.198.88:28015
-          </li>
-          <li>
-           US West Premium 2 - 148.113.198.86:28015
-          </li>
-          <li>
-           US West Premium Small 1 148.113.198.86:28020
-           <br/>
-          </li>
-          <li>
-           US West Premium 3 - 148.113.198.87:28015
-          </li>
-          <li>
-           US West Premium 4 - 148.113.198.87:28020
-           <br/>
-          </li>
-         </ul>
-        </div>
-        <br/>
-        <b>
-         US East Facepunch
-        </b>
-        <div>
-         <ul>
-          <li>
-           US East Premium 1 - 40.160.19.6:28015
-          </li>
-          <li>
-           US East Premium 2 - 40.160.19.218:28015
-          </li>
-          <li>
-           US East Premium Small 1 - 40.160.19.218:28020
-           <br/>
-          </li>
-          <li>
-           US East Premium 3 - 40.160.19.217:28015
-          </li>
-          <li>
-           US East Premium 4 - 40.160.19.217:28020
-           <br/>
-          </li>
-         </ul>
-        </div>
-       </div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <p>
-      </p>
-      <h2>
-       Weekly MAP WIPES:
-      </h2>
-      <p>
-       <span>
-        <b>
-         US Community Officials
-        </b>
-        <br/>
-       </span>
-      </p>
-      <ul>
-       <li>
-        <span>
-         us-medium.rusticated.com:28010
-        </span>
-       </li>
-       <li>
-        <span>
-         us.premium.rplayrust.com
-        </span>
-       </li>
-       <li>
-        <span>
-         main.us-premium.moose.gg
-        </span>
-       </li>
-      </ul>
-      <p>
-       <span>
-        <b>
-         EU Community Officials
-        </b>
-       </span>
-       <br/>
-      </p>
-      <ul>
-       <li>
-        eu-medium.rusticated.com:28010
-       </li>
-       <li>
-        eupremium.rustopia.gg
-       </li>
-       <li>
-        premium.rustspain.com:28015
-       </li>
-      </ul>
-      <br/>
-      <b>
-       AU/Asia Community Officials
-      </b>
-      <br/>
-      <ul>
-       <li>
-        aupremium.rustafied.com
-       </li>
-       <li>
-        premium.rustoria.asia
-       </li>
-      </ul>
-      <p>
-       <br/>
-      </p>
-      <p>
-       <i>
-        Community-run officials may have their own separate blueprint wipe schedules.  We recommend seeking out their individual discords/website for specifics. Terms and conditions apply.
-       </i>
-      </p>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="LookingAhead">
-  <div class="section" like-handler="LikeBlogSection" like-id="84589" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Looking Ahead
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We will stress, this is an
-      <span data-end="1287" data-start="1273">
-       experiment
-      </span>
-      , and we’ll be closely monitoring its impact. We will know more in the upcoming weeks if this is something we can expand upon and refine.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      We will also take this opportunity to also encourage everyone to set up and use
-      <a class="" href="https://help.steampowered.com/en/faqs/view/7EFD-3CAE-64D3-1C31">
-       Steam's mobile authenticator
-      </a>
-      .  It both protects your account from intruders, and also allows quicker Steam/Rust skin trades among friends.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 13 Mar 2025 02:00:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Easter 2025</title>
-      <link>https://rust.facepunch.com/news/easter-2025/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Easter 2025
-    </h1>
-    <p editname="Summary" type="text">
-     Happy Easter! Easter Egg Hunt is back and there's a whole range of fun items now available too, if you quit horsing around.
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      10 April 2025
+      01 May 2025
      </div>
      <a class="tag devblog" style="text-decoration: none;">
       DEVBLOG
@@ -2071,179 +2354,520 @@
         }
 </style>
 <div class="blog">
- <div class="news-section-block sectionstyle-hero" id="Easterhunt">
-  <div class="section" like-handler="LikeBlogSection" like-id="84611" targetobject="section">
+ <div class="news-section-block" id="">
+  <div class="section" like-handler="LikeBlogSection" like-id="84647" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       Easter hunt
+       ⠀
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <p>
-       Starting today until April 24th, every 24-38 in-game hours an Easter egg hunt will begin. You'll have 3 minutes to collect as many eggs as you can. The top 3 players are given special eggs as a reward. These eggs can be cracked open for various types of loot ranging from scrap all the way up to an M249!
-      </p>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/04/14/269931/hunt.jpg"/>
-     </div>
-     <div>
-      <div>
-       If you don't make the podium, that's okay. The painted eggs you collect can be upgraded to Bronze eggs once you collect 10. If you collect 10 bronze eggs then you can upgrade to a silver egg, eventually all the way to gold!
-       <br/>
-      </div>
-      <div>
-       <br/>
-       There are various items available to help you during your hunt. The Easter Basket will allow instant pickup of eggs and the Bunny Onesie and Ears will provide you with an advantage via Egg Vision.
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="youtube-container">
+       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="2809" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/D0BHMuwU4Nk?si=HZTjMwA92mJOnw0V" title="YouTube video player" width="560">
+       </iframe>
       </div>
      </div>
     </div>
    </div>
   </div>
  </div>
- <div class="news-section-block sectionstyle-hero" id="HorseCostume">
-  <div class="section" like-handler="LikeBlogSection" like-id="84612" targetobject="section">
+ <div class="news-section-block sectionstyle-hero" id="JungleBiome">
+  <div class="section" like-handler="LikeBlogSection" like-id="84626" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       Horse Costume
+       Jungle Biome
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
      <div>
-      <span>
-       This year, we've added a new costume DLC attire, the Horse costume! The Horse costume is a lower body wearable item which can be crafted with cloth and wood.
-       <br/>
-      </span>
+      We've added the first new biome to the game since the original introduction of the procedural world generation: Jungle!
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/122/04/2025/6J27/jungleUpdate_biome_02.jpg"/>
+     </div>
+     <div>
+      The jungle biome covers part of the temperate coastal (tier 0) area where new players spawn. The terrain in this biome is flatter than other biomes, has a higher river density and thicker foliage.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The jungle biome features a large variety of completely new foliage. This includes new types of bushes, such as bromeliads and monstera. New undergrowth plants like arrowroot and calathea. As well as variety of new trees like trumpet trees, jungle palms and sandbox trees.
+     </div>
+     <div>
+      The biggest of them all are enormous kapok trees that you will be able to climb and swing from.
      </div>
      <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://store.steampowered.com/itemstore/252490/detail/10237/">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/107/04/2025/3F97/apr2025_easter_horsesuit_05.jpg"/>
-      </a>
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/0x42/jungleUpdate_biome_18.jpg"/>
      </div>
      <div blocktype="gallery" class="edit-block" contenteditable="false">
       <gallery data-gallery-style="grid">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/1R39/apr2025_easter_horsesuit_02_alt1.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/107/04/2025/7Q47/apr2025_easter_horsesuit_04.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/6e80/jungleUpdate_biome_06.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/5W47/jungleUpdate_biome_05.jpg"/>
       </gallery>
      </div>
      <div>
+      The jungle is much denser than what you may be used to, so be aware that dangers and predators may lurk in every corner. Or use it to your advantage and hunt your prey instead.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/9F06/jungleUpdate_biome_03.jpg"/>
+     </div>
+     <div>
+      The jungle biome is vast, but allows for full base building like all other biomes. Take a step inside and embrace your inner Tarzan.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="VineSwinging">
+  <div class="section" like-handler="LikeBlogSection" like-id="84622" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Vine Swinging
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      While exploring the Jungle biome you will encounter a new type of tree covered in vines, you can climb these trees to reach branches that provide a new vantage point. There are also interactive vines on a lot of these branches that allow you to swing from one branch to another, allowing you to traverse significant distances in the jungle without having to touch the ground.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/jarryd/1b2211b1/jungleupdate_vineswing_01.jpg"/>
+     </div>
+     <div>
+      <br/>
+      Unlike our other form of aerial transportation (ziplines) vines move from one location to another, so if you are travelling as a team you will need to throw the vine back to your friends after using them so they can follow you. You can also use a vine to quickly, safely and quietly descend to the jungle floor.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/jarryd/1b2211b1/jungleupdate_vineswing_02.jpg"/>
      </div>
      <div>
       <br/>
      </div>
      <div>
-      The Horse costume comes in three variants and is only available for a limited time on the Rust
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
-       item store
-      </a>
-      .
+      <br/>
+      Just like other trees these vines can be knocked down for wood, however they will create an invulnerable stump in their place and the tree will respawn after a while.
+      <br/>
+      <br/>
      </div>
     </div>
    </div>
   </div>
  </div>
- <div class="news-section-block sectionstyle-hero" id="CargoRustigeEgg">
-  <div class="section" like-handler="LikeBlogSection" like-id="84613" targetobject="section">
+ <div class="news-section-block sectionstyle-hero" id="JungleRemnants">
+  <div class="section" like-handler="LikeBlogSection" like-id="84628" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       Cargo Rustige Egg
+       Jungle Remnants
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
      <div>
-      <p>
-       This Easter, treat yourself and your base to a different kind of egg. Not one made of chocolate, but one made of some of the most sought-after elements.
+      Among the towering trees and thick undergrowth, you’ll stumble across small jungle monuments, each holding a glimpse into a forgotten past. These include the Jungle Ziggurat, a weathered stone structure with its own mysteries, and a scattering of ancient jungle ruins left behind by a long-lost civilization.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/6p53/jungleupdate_ziggurat_37.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/4k95/jungleupdate_ziggurat_41.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/7W93/jungleupdate_ziggurat_03.jpg"/>
+      </gallery>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/1C73/jungleupdate_ziggurat_20.jpg"/>
+     </div>
+     <h2>
+     </h2>
+     <h2>
+      <span>
+       Jungle Ruins
+      </span>
+     </h2>
+     <div>
+      The new Jungle Ruins are small monuments packed with atmosphere and early-game loot. Perfect for a quick stop while exploring, you’ll find low-tier supplies and maybe even a few surprises tucked away among the overgrown ruins.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/3L29/jungleupdate_jungleruins_08.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/1I69/jungleupdate_jungleruins_31.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/3P09/jungleupdate_jungleruins_22.jpg"/>
+      </gallery>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/3w84/jungleupdate_jungleruins_05.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="TIGERsandpanthers">
+  <div class="section" like-handler="LikeBlogSection" like-id="84620" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       TIGERs and panthers
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The dense foliage of the jungle will be a grub's paradise, but they will need to be careful... there may be something sneakier than them lurking.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/116/04/2025/7T51/jungleupdate_tiger_01_alt1.jpg"/>
+     </div>
+     <div>
+      The tiger may be the deadliest animal you'll ever encounter in Rust. It closes in extremely slowly from behind, and only strikes when it's sure to kill. A moment of inattention in the jungle is all it takes.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The challenge developing a stealthy NPC, is that it can easily feel unfair and bullshit.
+     </div>
+     <div>
+      In Rust people are already often ambushed by all kinds of NPCs, and those are not even trying to be stealthy...
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <div>
+       To address this there are 3 different hints in game that will let you know if you are being stalked from behind, some more subtle than others.
+      </div>
+      <div>
+       We do our best to guarantee that you won't be jumped without getting at least one cue.
+      </div>
+      <div>
+       It'll be on you to experiment and discover those hidden signals.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/116/04/2025/4253/jungleupdate_tiger_04.jpg"/>
+     </div>
+     <div>
+      Do not only scan the foliage for black stripes and orange, as you may fail to notice the very rare black panther that also roams the jungle.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2911b1/jungleupdate_panther_02.jpg"/>
+     </div>
+     <div>
+      Finally there is a hidden trick you can pull on tigers and panthers, good luck finding it!
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="CROCODILE">
+  <div class="section" like-handler="LikeBlogSection" like-id="84621" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       CROCODILE
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       You may notice the rivers are wider and deeper in the jungle, but think twice before crossing, maybe this shape you see in the murky water is not a dead tree.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/116/04/2025/3W84/jungleupdate_crocodile_07.jpg"/>
+     </div>
+     <div>
+      If the tiger is the deadliest, the crocodile may be the toughest.
+     </div>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/116/04/2025/1E88/jungleupdate_crocodile_02.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      Don't lower your guard just because it looks slow and short-sighted, you may be surprised...
+     </div>
+     <div>
+      The crocodile operates on the basis of mutual respect, don't mess with it and you'll be fine, but mess around and find out.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/116/04/2025/4212/jungleupdate_crocodile_01.jpg"/>
+     </div>
+     <div>
+      Like the wolf and tiger, the crocodile also has a hidden counterplay that will give an edge to the ones in the know.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Boomerang">
+  <div class="section" like-handler="LikeBlogSection" like-id="84637" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Boomerang
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We’re introducing another new early game weapon: the Boomerang!
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/1M10/jungleupdate_boomerang_05.jpg"/>
+     </div>
+     <div>
+      This throwable weapon travels in a fixed arc and
+      <strong data-end="319" data-start="294">
+       returns to the player
+      </strong>
+      after each throw, just like you’d expect. Its consistent path means skilled players can
+      <strong data-end="443" data-start="407">
+       master its timing and trajectory
+      </strong>
+      <span data-end="443" data-start="407">
+       to gain an advantage. The Boomerang can also be used as a melee weapon in a pinch if you need it for close range!
+      </span>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="blowpipe">
+  <div class="section" like-handler="LikeBlogSection" like-id="84623" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       blowpipe
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      This month, we’re introducing a new early game weapon: the Blowpipe – a silent, improvised weapon for those who enjoy causing problems quietly.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/0j37/jungleupdate_blowpipe_03.jpg"/>
+     </div>
+     <div>
+      <div>
+       <div>
+        <b>
+         <br/>
+        </b>
+       </div>
+       <ul>
+        <li>
+         <b>
+          Wood Dart
+         </b>
+         – Basic and to the point. Light damage with no frills.
+        </li>
+        <li>
+         <b>
+          Scatter Dart
+         </b>
+         – A short-range spread shot that sprays multiple smaller darts. Great for up-close chaos.
+        </li>
+        <li>
+         <b>
+          Incapacitate Dart
+         </b>
+         – Slows your target and obscures their vision for a short time. Perfect for making a quick getaway (or moving in for the finish).
+        </li>
+        <li>
+         <b>
+          Radiation Dart
+         </b>
+         – Applies stackable radiation to your target. Watch them get progressively more uncomfortable.
+        </li>
+       </ul>
+      </div>
+      <div>
        <br/>
-      </p>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/adamwilliamson/20250314/rustigeegg_06.jpg"/>
-     </div>
-     <div>
-      This easter Rustige Egg is aquatic-themed and features the Cargoship with an RHIB patrol boat.
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/adamwilliamson/20250314/rustigeegg_02_loop.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      Available for a limited on the Rust
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10300/">
-       item store
-      </a>
-      .
+      </div>
+      <div>
+       The blowpipe’s low cost and quiet operation make it a solid choice for ambushes, harassment, or just annoying your neighbours.
+      </div>
      </div>
     </div>
    </div>
   </div>
  </div>
- <div class="news-section-block sectionstyle-hero" id="EasterStore">
-  <div class="section" like-handler="LikeBlogSection" like-id="84614" targetobject="section">
+ <div class="news-section-block sectionstyle-hero" id="snakes">
+  <div class="section" like-handler="LikeBlogSection" like-id="84624" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       Easter Store
+       snakes
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
      <div>
-      The Easter store returns!
+      Snakes are a stealthy new threat found in the Jungle biome - and you'll definitely need to keep an eye (or ear) out for them!
      </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/6X56/jungleupdate_snake_02.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      They hide pretty well in their leafy environment and their poison attack slows your movement speed. Be sure to listen out for their attack hiss as it's usually the first sign that you're about to be bitten!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      They'll definitely keep you on your toes - a quickly timed jump after their hiss will avoid the attack altogether!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      On the plus side, dead snakes can be skinned for Snake Venom, a new item that can be used to create incapacitate darts for the new blowpipe weapon.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="LargerRivers">
+  <div class="section" like-handler="LikeBlogSection" like-id="84625" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Larger Rivers
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Rivers are now longer, wider, and deeper in all biomes. They can no longer be walked across and require players to swim in order to cross them. The jungle biome specifically also has a higher river density compared to other biomes, which leads to more rivers in total on a map.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/122/04/2025/0p45/jungleUpdate_biome_16.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="NotableChanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84634" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Notable Changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
      <div blocktype="html" class="edit-block selected" contenteditable="false">
       <div class="columns is-multiline">
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10179/">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/helkus/1b0811b1/nest.hat.icon.png"/>
-        </a>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/7d65/jungleupdate_QOL_vendingmachine_02.jpg"/>
         <center>
-         <a href="https://store.steampowered.com/itemstore/252490/detail/10179/">
-         </a>
-         <a href="https://store.steampowered.com/itemstore/252490/detail/10179/">
-          <b>
-           Egg Hat
-          </b>
-         </a>
+         <b>
+          Vending Machine Fridge
+         </b>
+        </center>
+        <center>
+         The Vending Machine can be powered to stop food spoiling
         </center>
        </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10193/">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/03/31/1e9841/hat.bunnyhat.png"/>
-        </a>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/101/05/2025/9r15/jungleupdate_QOL_fridgecool_01.png"/>
         <center>
-         <a href="https://store.steampowered.com/itemstore/252490/detail/10193/">
-         </a>
-         <a href="https://store.steampowered.com/itemstore/252490/detail/10193/">
-          <b>
-           Bunny Hat
-          </b>
-         </a>
+         <b>
+          Food Cooling Icon
+         </b>
+        </center>
+        <center>
+         A new icon now appears to indicate when your food is being kept cool and fresh
         </center>
        </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10208/">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/jacob/1b2111b1/attire.egg.suit.png"/>
-        </a>
-        <center>
-         <a href="https://store.steampowered.com/itemstore/252490/detail/10208/">
-         </a>
-         <a href="https://store.steampowered.com/itemstore/252490/detail/10208/">
+       <div class="columns is-multiline">
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/jarryd/1b0511b1/chickencoop_01.jpg"/>
+         <center>
           <b>
-           Egg Costume
+           Chicken coop fits on a foundation
           </b>
-         </a>
-        </center>
+         </center>
+         <center>
+          Resized the chicken coop to fit on a foundation, it also now snaps into place!
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/1h17/jungleupdate_meats_03.jpg"/>
+         <center>
+          <b>
+           Jungle Animal Meats
+          </b>
+         </center>
+         <center>
+          Several new Jungle themed animal meats added
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/101/05/2025/2v31/jungleupdate_outbreakscientist_01%20%281%29.jpg"/>
+         <center>
+          <b>
+           Outbreak Scientist
+          </b>
+         </center>
+         <center>
+          New scientists now roam the jungle!
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/101/05/2025/5456/RustClient_tZmxfmzsMM.jpg"/>
+         <center>
+          <b>
+           Leather Gloves
+          </b>
+         </center>
+         <center>
+          Leather Gloves are now default BP and no longer require a sewing kit
+         </center>
+        </div>
        </div>
       </div>
      </div>
@@ -2251,35 +2875,1347 @@
    </div>
   </div>
  </div>
- <div class="news-section-block sectionstyle-hero" id="ChickenCostume">
-  <div class="section" like-handler="LikeBlogSection" like-id="84619" targetobject="section">
+ <div class="news-section-block sectionstyle-hero" id="JungleDLCItemPack">
+  <div class="section" like-handler="LikeBlogSection" like-id="84635" targetobject="section">
    <div class="inner">
     <div class="section-header">
      <a class="editmode-link" style="text-decoration: none;">
       <div class="title" editname="Title" type="text">
-       Chicken Costume
+       Jungle DLC Item Pack
       </div>
      </a>
     </div>
     <div class="content" editname="Contents" using-lightbox="">
      <div>
-      Returning again this year is the Chicken Costume! The Chicken Costume is lower body wearable item which can be crafted with cloth and wood.
-      <br/>
+      <div>
+       We’re dropping a brand-new DLC - the Jungle Pack, packed with 20 new skins and items. You’ll find skinnables like the Bamboo Wall Shelf, Half-Height Shelves, Jungle Relic Assault Rifle, Cocoknight Wood Armor, Bamboo Large Storage, and loads more.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       There’s also new wallpapers, sprays, a gesture, and some chat emojis to mess around with.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       You can grab the Jungle Pack from the
+       <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10273" target="https://store.steampowered.com/itemstore/252490/detail/10273">
+        Rust Item Store
+       </a>
+       on Steam or straight from in-game.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/8q56/jungleupdate_DLChero_01.jpg"/>
+     </div>
+     <div>
+      <div>
+       <br/>
+      </div>
+      <h2>
+       Bamboo Shelving
+      </h2>
+     </div>
+     <div>
+      <div>
+       Why have one shelf when you can have three?
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       This pack comes with Bamboo Salvaged Shelves, Bamboo Salvaged Half Shelves, and Bamboo Wall Shelves. Perfect for giving your base that overgrown, lived-in look.
+      </div>
+     </div>
+     <div>
       <br/>
      </div>
      <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/jacob/1b2111b1/lw06fdezjn.jpg"/>
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/7O98/jungleupdate_shelving_01.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/129/04/2025/3405/jungleupdate_shelving_04.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/129/04/2025/2D14/jungleupdate_shelving_05.jpg"/>
+      </gallery>
      </div>
      <div>
-      <span>
-       You can find the clucking chicken costume in Rust
-      </span>
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10237/">
-       item store
+      <p>
+       The bamboo shelf is a reskin for a regular shelf, the shallow and half-height shelves are currently unique items to the pack.
+      </p>
+      <h2>
+       Bamboo Barrels
+      </h2>
+      <div>
+      </div>
+      <div>
+       <div>
+        Need somewhere to stash your loot? These Bamboo Barrels are skinned versions of the Large Wood Box, coming in both vertical and horizontal styles.
+       </div>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/1w58/jungleupdate_storageDLC_03.jpg"/>
+     </div>
+     <div>
+      <p>
+       Same size as the ones from the Decor Pack, just way more... jungly.
+      </p>
+      <h2>
+       Jungle Relic Assault Rifle
+      </h2>
+      <div>
+       This ancient relic AK reskin has seen things — bad things.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/1a09/jungleupdate_jungleAR_05.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/1D02/jungleupdate_jungleAR_07.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/1r72/jungleupdate_jungleAR_08.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      <h2>
+      </h2>
+      <div>
+       <br/>
+      </div>
+      <h2>
+       Cocoknight Wood Armor
+      </h2>
+      <div>
+       Only the bravest warriors can adorn the Cocoknight Armor. Made from bark, vines and.. coconuts, this armor set consists of skins for the Wood Armor Helmet, Chestplate, Pants and the newly introduced Gloves.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/7J41/jungleupdate_dlc_coconutarmour_01.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/1J16/jungleupdate_dlc_coconutarmour_05.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/5729/jungleupdate_dlc_coconutarmour_04.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      <div>
+      </div>
+      <h2>
+       <br/>
+      </h2>
+      <div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <h2>
+       Obsidian Bone Knife
+      </h2>
+      <div>
+       Knapped from the darkest obsidian, this skin for the Bone Knife has been passed down through the ages. As sharp as it is mysterious.
+      </div>
+      <div>
+       <br/>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/122/04/2025/0l21/jungleupdate_obsidianknife_01.jpg"/>
+     </div>
+     <div>
+      <h2>
+       Jungle Idol Rock
+      </h2>
+      <div>
+       Whomever holds the Jungle Idol Rock will see death. Whose it is, is uncertain.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/6x79/jungleupdate_rock_03.jpg"/>
+     </div>
+     <div>
+      <h2>
+       Wallpapers, Sprays, Gesture and Chat Emoji
+      </h2>
+      <div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <p class="" data-end="1981" data-start="1934">
+        To really set the vibe, we’re also throwing in:
+       </p>
+       <span data-end="2001" data-start="1985">
+        <ul>
+         <li>
+          <span data-end="2001" data-start="1985">
+           3 Wallpapers
+          </span>
+          : Jungle Animals, Leaves, and Sigil
+         </li>
+         <li>
+          <span data-end="2053" data-start="2041">
+           2 Sprays
+          </span>
+          : Tiger and Skull
+         </li>
+         <li>
+          <span data-end="2092" data-start="2075">
+           2 Chat Emojis
+          </span>
+          : Sick and Bush
+         </li>
+         <li>
+          <span data-end="2129" data-start="2112">
+           1 New Gesture
+          </span>
+          : Beats Chest!
+         </li>
+        </ul>
+       </span>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/danieltyler/1b2811b1/rust_jungle_emoted_blog_16x9_gif.gif"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/8B57/jungleupdate_gesture_01.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/4N71/jungleupdate_sprays_03.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/3z19/jungleupdate_wallpaper_01.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      <h2>
+      </h2>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ExplosiveProtectionfix">
+  <div class="section" like-handler="LikeBlogSection" like-id="84639" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Explosive Protection fix
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      When initially released the damage reduction of explosive armor inserts didn't match the resistance numbers shown on the inventory screen. This was caused by most forms of explosive damage being part melee damage so they could kill players without being used for raiding but the damage reduction not reducing the melee damage component. This was fixed by converting existing damage values to pure explosive damage in PvP while keeping the existing values for raiding.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/paddy/20250227/rust_armourplates_tabletop_01.jpg"/>
+     </div>
+     <div>
+      This brought a new problem: with the inserts and certain combinations of armor you could reach up to 93% explosive protection and shrug off rockets! To compensate explosive protection will now be capped at 75% which should save you from a single rocket at high explosive protection values.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Huntervision">
+  <div class="section" like-handler="LikeBlogSection" like-id="84640" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Hunter vision
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The hunter vision is a new boost that let you see the scent trails of wild animals, helping you to track and hunt them down easily.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/danieltyler/1b3011b1/rust_hunter_vision_16x9__1080_jpg.jpg"/>
+     </div>
+     <div>
+      Eating the big cat pie will give you the boost for 15 minutes.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="JungleBuildingskin">
+  <div class="section" like-handler="LikeBlogSection" like-id="84641" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Jungle Building skin
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The new Jungle stone building skin,
+      <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10326" target="https://store.steampowered.com/itemstore/252490/detail/10326">
+       available now
       </a>
-      <span>
-       .
+      from the Rust store, allows you to change the visuals of your stone tier base.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/129/04/2025/4Q82/jungleupdate_buildingstone_02.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/129/04/2025/7283/jungleupdate_buildingstone_05.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/129/04/2025/6U34/jungleupdate_buildingstone_04.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      This skin is for sale at the Steam store. To use, simply equip your hammer tool, display the wheel, and enable building skins. This should reveal the skin's wheel on which you may choose Jungle Temple upgrade.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/129/04/2025/3b42/jungleupdate_buildingstone_10.jpg"/>
+     </div>
+     <div>
+      Available now from the in-game store or
+      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10326" target="https://store.steampowered.com/itemstore/252490/detail/10326">
+       Steam item store
+      </a>
+      .
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Woodgloves">
+  <div class="section" like-handler="LikeBlogSection" like-id="84642" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Wood gloves
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Rounding out the wooden armor set, the new Wood Gloves are now available! Default craftable and made from wood and cloth, these gloves offer early-game protection that slots between Leather Gloves and Roadsign Gloves.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/129/04/2025/2375/jungleupdate_woodgloves_05.jpg"/>
+     </div>
+     <div>
+      Perfect for fresh spawns or anyone needing quick, reliable hand protection without the need for a blueprint.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-style="grid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/129/04/2025/2777/jungleupdate_woodgloves_06.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/129/04/2025/3Q16/jungleupdate_woodgloves_02.jpg"/>
+      </gallery>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ServerProfilerUpdates">
+  <div class="section" like-handler="LikeBlogSection" like-id="84643" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Server Profiler Updates
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <h2>
+      Experimental Streaming Support
+     </h2>
+     <div>
+      With this update we're releasing the next stage of Server Profiler - experimental support for streaming profiling telemetry into memory. This can be done with the following command:
+     </div>
+     <div>
+      <b>
+       profile.perfsnapshot_stream [Name] [MainThreadBuffer] [WorkerThreadBuffer] [Debug]
+      </b>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Name (max 32 characters, defaults to "Profile") - controls the filename of the snapshot, [Name].json.gz
+       </li>
+       <li>
+        MainThreadBuffer (MB, max 256, defaults to 32) - how big is the telemetry buffer for main thread
+       </li>
+       <li>
+        WorkerThreadBuffer (MB, max 256, defaults to 8) - how big is the telemetry buffer for each worker thread
+       </li>
+       <li>
+        Debug (0/1, defaults to 0) - whether to generate [Name].bin.gz for debugging
+       </li>
+      </ul>
+     </div>
+     <div>
+      The key difference here is that original `profile.perfsnapshot` command was able to accumulate up to 10 frames of data, while the new command will accumulate telemetry until the main thread storage is full, at which point it'll export the [Name].json.gz file. For ~40 players on staging server and default 32MB main thread storage we were able to generate roughly 60 frames of data:
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="slim" title="32MB worth of main thread data - captured 59 frames or 0.4s">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b2811b1/RyoFqLjECK.png"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      Quiet Mode
+     </h2>
+     <div>
+      I've exposed a new control for server-chat notifications when a snapshot is being taken - the messages that warn the players about potential server stutters with a countdown:
+     </div>
+     <div>
+      <b>
+       profile.quiet 0/1
+      </b>
+      - default to 0 (will notify), set to 1 to disable chat messages.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This affects both the old
+      <b>
+       profile.perfsnapshot
+      </b>
+      and the new
+      <b>
+       profile.perfsnapshot_stream
+      </b>
+      commands.
+      <br/>
+      <br/>
+      If you'd like to learn more about the server profiler you can find more
+      <a class="selected" href="https://rust.facepunch.com/news/polish-and-progress#BuiltinServerProfiler" target="https://rust.facepunch.com/news/polish-and-progress#BuiltinServerProfiler">
+       here
+      </a>
+      .
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ServerOptimizations">
+  <div class="section" like-handler="LikeBlogSection" like-id="84644" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Server Optimizations
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <h2>
+      Batched Player Processing - Experimental Physics Query Batching
+     </h2>
+     <div>
+      In the
+      <a class="" href="https://rust.facepunch.com/news/crafting-update#ServerOptimizations">
+       "Crafting Update", Server Optimizations section
+      </a>
+      I've written about starting to work on batched player processing. The goal is to group logic better to enable more efficient memory cache utilization as well as starting to process players in parallel. Back then we only tried processing water queries for players in parallel.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This coming update we have now converted NoClip validation, 1 of 3 physics-heavy player validation routines, over to the new batched flow. It aggregates all the physics queries into separate batches, and runs batches sequentially, while each batch internally is run in-parallel.
+      <br/>
+      <br/>
+      My synthetic stress tests showed a ~5x/~80% speed-up of AntiHack.AreNoClipping compared to original implementation of AntiHack.IsNoClipping.
+     </div>
+     <div>
+      <br/>
+      Original flow simulating 4 checks for 10k players:
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="slim">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b2811b1/I8fCSlNKkW.png"/>
+     </div>
+     <div>
+      Parallel flow:
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/danielprihodko/1b2811b1/G7YM0DH7XU.png"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Running the new logic on a 57 player staging server currently shows reduced benefits
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Original flow(50 frames of data):
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/danielprihodko/1b2911b1/736p3Syfkj.png"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Parallel flow (52 frames of data):
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/danielprihodko/1b2911b1/sLl3j0v3kJ.png"/>
+     </div>
+     <div>
+      It shows that we're getting around ~0.5ms(~10%) savings in AreNoClipping, the method that I focused on optimizing. We're also seeing ~13ms(~18%) savings at top level, ServerUpdateParallel.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      It's important to note that this is all on relatively fresh Staging with a relatively small population. Release environment is a bit different, so I'll be validating how it behaves and if it's stable going forward.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="playerserverocclusion">
+  <div class="section" like-handler="LikeBlogSection" like-id="84646" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       player server occlusion
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We last spoke about player server occlusion in the
+      <a class="" href="https://rust.facepunch.com/news/crafting-update#playerSERVEROCCLUSION" target="">
+       Crafting Update news post
+      </a>
+      , in that post we stated our future plans were to ensure all servers are using server occlusion by default.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      We now believe the system is in the right position for this so starting this patch servers will have server occlusion enabled by default. If you are a server owner running a custom map that you don't think is suitable for server occlusion or running a server on older hardware, you may want to disable server occlusion, you can do that with the following startup parameters:
+     </div>
+     <div>
+      <ul>
+       <li>
+        <b>
+         -disable-server-occlusion
+        </b>
+        , this parameter will ensure server occlusion is completely disabled.
+       </li>
+       <li>
+        <b>
+         -disable-server-occlusion-rocks
+        </b>
+        , this parameter will skip including rocks in the occlusion grid bake, this is recommended if you're running older hardware but still want to make use of server occlusion as it can significantly increase initial grid generation time.
+       </li>
+      </ul>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="TwitchDrops">
+  <div class="section" like-handler="LikeBlogSection" like-id="84636" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Twitch Drops
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <h2>
+      Twitch Drops are back!
+     </h2>
+     <div>
+      Starting at today's update, until May 28th, we will have an array of general Rust drops for all to enjoy.  These drops can be earned on
+      <a class="" href="https://www.twitch.tv/directory/category/rust">
+       any Rust channel
+      </a>
+      that has drops enabled!
+     </div>
+     <div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       These Drops are paying homage to our Community Official servers.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth" title="Get Synced!">
+      <a href="https://twitch.facepunch.com/">
+       <img src="https://files.facepunch.com/ashcoook/1b2911b1/td_39-blog-image.jpg"/>
+      </a>
+     </div>
+     <div>
+      Don't forget to ensure you are synced over at
+      <a class="selected" href="https://twitch.facepunch.com/">
+       https://twitch.facepunch.com/
+      </a>
+     </div>
+     <div>
+      <br/>
+      And be vigilant of scams - Facepunch will never DM you about Twitch Drops.
+      <br/>
+      <br/>
+      <i>
+       Drops will end around midnight UTC on May 28th.
+      </i>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="WorkshopQualityoflifechanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84629" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Workshop Quality of life changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <p class="" data-end="321" data-start="213">
+       This month, the team has been working hard on some significant quality-of-life changes to the Rust Workshop.
+      </p>
+      <p class="" data-end="488" data-start="323">
+       Although many of these changes are designed to make community skin artists' lives a little easier, they should also improve the visual quality of many in-game items!
+      </p>
+      <p class="" data-end="725" data-start="490">
+       We've added previously missing Ambient Occlusion and Specular maps to all skinnable weapons, clothing, and deployables. These will automatically apply to existing skins that do not include their own custom textures for these map slots.
+      </p>
+      <p class="" data-end="872" data-start="727">
+       We’ve also fixed the downloadable meshes in the Workshop so they now have correct position, scale, and rotation, along with more sensible pivots!
+      </p>
+      <p class="" data-end="1080" data-start="874">
+       A bunch of weapon-related issues have been resolved, including UV fixes on third-person models, properly displaying arrows on bows and crossbows, and adding third-person sights to the Double Barrel Shotgun.
+      </p>
+      <p class="" data-end="1221" data-start="1082">
+       The Wood Storage Box and Large Wood Box now support transparency for interiors. We can't wait to see what the community comes up with here!
+      </p>
+      <p class="" data-end="1536" data-start="1223">
+       We've also made a raft of improvements to the Workshop scene, including fixing items disappearing at a distance, implementing Time-of-Day pause and Skybox Rotate functionality, and — for the extremely adept skin artists — fixing an issue where normal maps were sometimes incorrectly displayed on skin submissions.
+      </p>
+      <p class="" data-end="1615" data-start="1538">
+       A definitive list of changes is included in the improvements and fixes below.
+      </p>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <div>
+      </div>
+      <div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="48hourFlashSale">
+  <div class="section" like-handler="LikeBlogSection" like-id="84618" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       48 hour Flash Sale
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2911b1/Flash-Sale%20-%20Branding%2016x9.png"/>
+     </div>
+     <div>
+      <div>
+       To celebrate the release of this month's Jungle update, we're having a flash sale!
+       <br/>
+       Rust and all Steam DLC's will be 50% off until 18:00 BST / 10:00AM PT this Saturday!
+      </div>
+      <div>
+       <p class="editor-paragraph" dir="ltr">
+        Get that new squad mate in by gifting them a copy
+        <a class="" href="https://fcpn.ch/jusb" target="fcpn.ch/jusb">
+         on Steam
+        </a>
+        .
+       </p>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
       </span>
+      <a class="title" style="text-decoration: none;">
+       Jungle Update
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Jungle Change Log
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Thursday, May 1, 2025
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
+    </div>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added jungle biome
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Rivers are now longer, wider and deeper and require swimming to cross them
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New Ziggurat monument
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New Jungle Remnants monuments
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New Boomerang weapon
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New Blow Pipe weapon (with 4 darts)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Snakes
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Crocodiles
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Tigers
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Panthers
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New Vine Swinging trees
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Big cat pie
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Hunter vision
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Sunlight stat on chickens now increases much faster
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Chicken coop has been resized to more neatly fit on a single foundation (and has snapping)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a freezing icon when an item is being refrigerated
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Vending Machine can now operate as a Fridge
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Re-enabled network cache on many IO entities (improved server performance)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved rendering performance of powered Industrial Conveyors
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added Ambient Occlusion Map to the following assets: Baseball Cap, Beenie Hat, Bone Knife, Bolt Rifle, Hammer, Hatchet, Hide Pants, Hide Shoes, Hoodie, Long T-shirt, Longsword, LR300, M249, MP5, Pants, Pickaxe, Riot Helmet, Rug, Salvaged Hammer, Sandbag Barricade, Snow Jacket, Spinning Wheel, Sword, T-shirt, Thompson, Vagabond Jacket, Waterpipe Shotgun, Wood Storage Box
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added Specular Map to the following assets: Beenie Hat, Hide Pants, Hide Shoes, Hoodie, Leather Gloves, Sandbag Barricade
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved interior UV's for Wood Storage Box, improving the look of transparent skins
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Rustige Egg specular glare is now balanced across all variants
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Increased Locker skinned texture resolution
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved Hatchet Third-Person model and LODs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Poison vital UI now appears when you're poisoned
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added weapon sight present in First-Person to the Third-Person model on Double Barrel Shotgun. It is also now skinnable
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added interior geometry and UV's for Large Wood Box, allowing for better transparency usage
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Item asset field on asset export in Workshop Scene will now automatically take the default asset name unless the user adds a custom name
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Rivers and lakes now have underwater effects
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved underwater visuals
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Projectiles will no longer clip into the camera when throwing (grenades, etc.)
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed horses not triggering laser detectors
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to mute some game sounds when changing audio setting
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed not being able to clear authed players when the Tugboat/Turret was at maximum authed player count (softcore)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed destroyed bags turning back into regular bags on server restart (softcore)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed container not preserving the correct amount of loot when destroyed (softcore)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to lose items by reskinning high gates while dropped items are nearby
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed harsh LOD popping and reduced bloom effect on new Rustige egg
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed TMP errors when using an IME while typing in chat (Chinese, Japanese)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed computer station being used to clip through doors
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an issue that allowed players to stop auto turrets from firing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some formatting issues when displaying non-English characters in the chat
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can no longer put out satchels through walls with the water pistol
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed error when painting on spinning sign
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed ‘ent auth’ command not working on tugboats
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed dropping an item while dancing resulting in an invisible local weapon
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed eggs that were hatching in a chicken coop getting stuck if the server restarts
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed flamethrowers marked as shield compatible in the UI
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can no longer cover ladder hatches with rugs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the interior boxes on the hackable crate sometimes disappearing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an issue locking your character in place when renaming sleeping bags (among other cases), if a controller was connected (set accessibility.senduinavigationevents to true if controller input is needed)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Event lootboxes can now fill the hotbar if inventory is full
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Miner Hat reverting to vanilla skin while on
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a case where XOR switches incorrectly send power on server restart
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed door gibs not reflecting door skin
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed UV's on destroyed gibs models for Double Wooden Door, Double Armored Door, Industrial Door
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed all downloadable Workshop meshes, resetting position, rotation, scale and centered pivots. The transforms are now also now non-inverted
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Crossbow's UVs in Third-Person, they now display skins correctly
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Hatchet's UVs in Third-Person, they now display skins correctly
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed LR300's normals on dust cover in First-Person
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Custom SMG displaying incorrect material on the grip in First-Person
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed NRE with F1 Grenade in Workshop Scene
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed player hands appearing red in Workshop Scene
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed assets LODing out too quickly in Workshop Scene. They will now still be visible at distance
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Miner's Hat now uses correct Specular workflow
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Miner's Hat now displays skins correctly when the light is turned on
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Arrows not displaying correctly in Third-Person for the Hunting Bow, Compound Bow and Crossbow
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Custom SMG sights being different in the Third-Person model compared to the First-Person model
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an exploit allowing heavy armor on horseback
+         </div>
+        </li>
+       </ul>
+      </div>
      </div>
     </div>
    </div>
@@ -2288,7 +4224,7 @@
 </div>
 <center>
 </center><center>]]></description>
-      <pubDate>Thu, 10 Apr 2025 08:42:00 Z</pubDate>
+      <pubDate>Thu, 01 May 2025 01:49:00 Z</pubDate>
     </item>
     <item>
       <title>Crafting Update</title>
@@ -4823,1942 +6759,6 @@ that tells you how long you have, as well as showing an icon if the item
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 06 Mar 2025 14:00:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Jungle Update</title>
-      <link>https://rust.facepunch.com/news/jungle-update/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <img alt="Jungle Update" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b0111b119/jungle-update-branding.png"/>
-    <p editname="Summary" type="text">
-     Explore a whole new biome! This month's update introduces a lush new Jungle, complete with climbable trees and vine swinging, deadly tigers and crocodiles, new monuments, boomerangs, blowpipes, and more!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      01 May 2025
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block" id="">
-  <div class="section" like-handler="LikeBlogSection" like-id="84647" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       ⠀
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="youtube-container">
-       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="2809" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/D0BHMuwU4Nk?si=HZTjMwA92mJOnw0V" title="YouTube video player" width="560">
-       </iframe>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="JungleBiome">
-  <div class="section" like-handler="LikeBlogSection" like-id="84626" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Jungle Biome
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've added the first new biome to the game since the original introduction of the procedural world generation: Jungle!
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/122/04/2025/6J27/jungleUpdate_biome_02.jpg"/>
-     </div>
-     <div>
-      The jungle biome covers part of the temperate coastal (tier 0) area where new players spawn. The terrain in this biome is flatter than other biomes, has a higher river density and thicker foliage.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The jungle biome features a large variety of completely new foliage. This includes new types of bushes, such as bromeliads and monstera. New undergrowth plants like arrowroot and calathea. As well as variety of new trees like trumpet trees, jungle palms and sandbox trees.
-     </div>
-     <div>
-      The biggest of them all are enormous kapok trees that you will be able to climb and swing from.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/0x42/jungleUpdate_biome_18.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="grid">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/6e80/jungleUpdate_biome_06.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/5W47/jungleUpdate_biome_05.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      The jungle is much denser than what you may be used to, so be aware that dangers and predators may lurk in every corner. Or use it to your advantage and hunt your prey instead.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/9F06/jungleUpdate_biome_03.jpg"/>
-     </div>
-     <div>
-      The jungle biome is vast, but allows for full base building like all other biomes. Take a step inside and embrace your inner Tarzan.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="VineSwinging">
-  <div class="section" like-handler="LikeBlogSection" like-id="84622" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Vine Swinging
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      While exploring the Jungle biome you will encounter a new type of tree covered in vines, you can climb these trees to reach branches that provide a new vantage point. There are also interactive vines on a lot of these branches that allow you to swing from one branch to another, allowing you to traverse significant distances in the jungle without having to touch the ground.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/jarryd/1b2211b1/jungleupdate_vineswing_01.jpg"/>
-     </div>
-     <div>
-      <br/>
-      Unlike our other form of aerial transportation (ziplines) vines move from one location to another, so if you are travelling as a team you will need to throw the vine back to your friends after using them so they can follow you. You can also use a vine to quickly, safely and quietly descend to the jungle floor.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/jarryd/1b2211b1/jungleupdate_vineswing_02.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <br/>
-      Just like other trees these vines can be knocked down for wood, however they will create an invulnerable stump in their place and the tree will respawn after a while.
-      <br/>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="JungleRemnants">
-  <div class="section" like-handler="LikeBlogSection" like-id="84628" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Jungle Remnants
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Among the towering trees and thick undergrowth, you’ll stumble across small jungle monuments, each holding a glimpse into a forgotten past. These include the Jungle Ziggurat, a weathered stone structure with its own mysteries, and a scattering of ancient jungle ruins left behind by a long-lost civilization.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/6p53/jungleupdate_ziggurat_37.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="grid">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/4k95/jungleupdate_ziggurat_41.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/7W93/jungleupdate_ziggurat_03.jpg"/>
-      </gallery>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/1C73/jungleupdate_ziggurat_20.jpg"/>
-     </div>
-     <h2>
-     </h2>
-     <h2>
-      <span>
-       Jungle Ruins
-      </span>
-     </h2>
-     <div>
-      The new Jungle Ruins are small monuments packed with atmosphere and early-game loot. Perfect for a quick stop while exploring, you’ll find low-tier supplies and maybe even a few surprises tucked away among the overgrown ruins.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/3L29/jungleupdate_jungleruins_08.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="grid">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/1I69/jungleupdate_jungleruins_31.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/3P09/jungleupdate_jungleruins_22.jpg"/>
-      </gallery>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/3w84/jungleupdate_jungleruins_05.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="TIGERsandpanthers">
-  <div class="section" like-handler="LikeBlogSection" like-id="84620" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       TIGERs and panthers
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The dense foliage of the jungle will be a grub's paradise, but they will need to be careful... there may be something sneakier than them lurking.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/116/04/2025/7T51/jungleupdate_tiger_01_alt1.jpg"/>
-     </div>
-     <div>
-      The tiger may be the deadliest animal you'll ever encounter in Rust. It closes in extremely slowly from behind, and only strikes when it's sure to kill. A moment of inattention in the jungle is all it takes.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The challenge developing a stealthy NPC, is that it can easily feel unfair and bullshit.
-     </div>
-     <div>
-      In Rust people are already often ambushed by all kinds of NPCs, and those are not even trying to be stealthy...
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <div>
-       To address this there are 3 different hints in game that will let you know if you are being stalked from behind, some more subtle than others.
-      </div>
-      <div>
-       We do our best to guarantee that you won't be jumped without getting at least one cue.
-      </div>
-      <div>
-       It'll be on you to experiment and discover those hidden signals.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/116/04/2025/4253/jungleupdate_tiger_04.jpg"/>
-     </div>
-     <div>
-      Do not only scan the foliage for black stripes and orange, as you may fail to notice the very rare black panther that also roams the jungle.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2911b1/jungleupdate_panther_02.jpg"/>
-     </div>
-     <div>
-      Finally there is a hidden trick you can pull on tigers and panthers, good luck finding it!
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="CROCODILE">
-  <div class="section" like-handler="LikeBlogSection" like-id="84621" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       CROCODILE
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       You may notice the rivers are wider and deeper in the jungle, but think twice before crossing, maybe this shape you see in the murky water is not a dead tree.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/116/04/2025/3W84/jungleupdate_crocodile_07.jpg"/>
-     </div>
-     <div>
-      If the tiger is the deadliest, the crocodile may be the toughest.
-     </div>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/116/04/2025/1E88/jungleupdate_crocodile_02.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      Don't lower your guard just because it looks slow and short-sighted, you may be surprised...
-     </div>
-     <div>
-      The crocodile operates on the basis of mutual respect, don't mess with it and you'll be fine, but mess around and find out.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/116/04/2025/4212/jungleupdate_crocodile_01.jpg"/>
-     </div>
-     <div>
-      Like the wolf and tiger, the crocodile also has a hidden counterplay that will give an edge to the ones in the know.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Boomerang">
-  <div class="section" like-handler="LikeBlogSection" like-id="84637" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Boomerang
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We’re introducing another new early game weapon: the Boomerang!
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/1M10/jungleupdate_boomerang_05.jpg"/>
-     </div>
-     <div>
-      This throwable weapon travels in a fixed arc and
-      <strong data-end="319" data-start="294">
-       returns to the player
-      </strong>
-      after each throw, just like you’d expect. Its consistent path means skilled players can
-      <strong data-end="443" data-start="407">
-       master its timing and trajectory
-      </strong>
-      <span data-end="443" data-start="407">
-       to gain an advantage. The Boomerang can also be used as a melee weapon in a pinch if you need it for close range!
-      </span>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="blowpipe">
-  <div class="section" like-handler="LikeBlogSection" like-id="84623" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       blowpipe
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month, we’re introducing a new early game weapon: the Blowpipe – a silent, improvised weapon for those who enjoy causing problems quietly.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/0j37/jungleupdate_blowpipe_03.jpg"/>
-     </div>
-     <div>
-      <div>
-       <div>
-        <b>
-         <br/>
-        </b>
-       </div>
-       <ul>
-        <li>
-         <b>
-          Wood Dart
-         </b>
-         – Basic and to the point. Light damage with no frills.
-        </li>
-        <li>
-         <b>
-          Scatter Dart
-         </b>
-         – A short-range spread shot that sprays multiple smaller darts. Great for up-close chaos.
-        </li>
-        <li>
-         <b>
-          Incapacitate Dart
-         </b>
-         – Slows your target and obscures their vision for a short time. Perfect for making a quick getaway (or moving in for the finish).
-        </li>
-        <li>
-         <b>
-          Radiation Dart
-         </b>
-         – Applies stackable radiation to your target. Watch them get progressively more uncomfortable.
-        </li>
-       </ul>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       The blowpipe’s low cost and quiet operation make it a solid choice for ambushes, harassment, or just annoying your neighbours.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="snakes">
-  <div class="section" like-handler="LikeBlogSection" like-id="84624" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       snakes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Snakes are a stealthy new threat found in the Jungle biome - and you'll definitely need to keep an eye (or ear) out for them!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/6X56/jungleupdate_snake_02.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      They hide pretty well in their leafy environment and their poison attack slows your movement speed. Be sure to listen out for their attack hiss as it's usually the first sign that you're about to be bitten!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      They'll definitely keep you on your toes - a quickly timed jump after their hiss will avoid the attack altogether!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      On the plus side, dead snakes can be skinned for Snake Venom, a new item that can be used to create incapacitate darts for the new blowpipe weapon.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="LargerRivers">
-  <div class="section" like-handler="LikeBlogSection" like-id="84625" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Larger Rivers
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Rivers are now longer, wider, and deeper in all biomes. They can no longer be walked across and require players to swim in order to cross them. The jungle biome specifically also has a higher river density compared to other biomes, which leads to more rivers in total on a map.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/122/04/2025/0p45/jungleUpdate_biome_16.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="NotableChanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84634" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Notable Changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/7d65/jungleupdate_QOL_vendingmachine_02.jpg"/>
-        <center>
-         <b>
-          Vending Machine Fridge
-         </b>
-        </center>
-        <center>
-         The Vending Machine can be powered to stop food spoiling
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/101/05/2025/9r15/jungleupdate_QOL_fridgecool_01.png"/>
-        <center>
-         <b>
-          Food Cooling Icon
-         </b>
-        </center>
-        <center>
-         A new icon now appears to indicate when your food is being kept cool and fresh
-        </center>
-       </div>
-       <div class="columns is-multiline">
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/jarryd/1b0511b1/chickencoop_01.jpg"/>
-         <center>
-          <b>
-           Chicken coop fits on a foundation
-          </b>
-         </center>
-         <center>
-          Resized the chicken coop to fit on a foundation, it also now snaps into place!
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/1h17/jungleupdate_meats_03.jpg"/>
-         <center>
-          <b>
-           Jungle Animal Meats
-          </b>
-         </center>
-         <center>
-          Several new Jungle themed animal meats added
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/101/05/2025/2v31/jungleupdate_outbreakscientist_01%20%281%29.jpg"/>
-         <center>
-          <b>
-           Outbreak Scientist
-          </b>
-         </center>
-         <center>
-          New scientists now roam the jungle!
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/101/05/2025/5456/RustClient_tZmxfmzsMM.jpg"/>
-         <center>
-          <b>
-           Leather Gloves
-          </b>
-         </center>
-         <center>
-          Leather Gloves are now default BP and no longer require a sewing kit
-         </center>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="JungleDLCItemPack">
-  <div class="section" like-handler="LikeBlogSection" like-id="84635" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Jungle DLC Item Pack
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       We’re dropping a brand-new DLC - the Jungle Pack, packed with 20 new skins and items. You’ll find skinnables like the Bamboo Wall Shelf, Half-Height Shelves, Jungle Relic Assault Rifle, Cocoknight Wood Armor, Bamboo Large Storage, and loads more.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       There’s also new wallpapers, sprays, a gesture, and some chat emojis to mess around with.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       You can grab the Jungle Pack from the
-       <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10273" target="https://store.steampowered.com/itemstore/252490/detail/10273">
-        Rust Item Store
-       </a>
-       on Steam or straight from in-game.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/8q56/jungleupdate_DLChero_01.jpg"/>
-     </div>
-     <div>
-      <div>
-       <br/>
-      </div>
-      <h2>
-       Bamboo Shelving
-      </h2>
-     </div>
-     <div>
-      <div>
-       Why have one shelf when you can have three?
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       This pack comes with Bamboo Salvaged Shelves, Bamboo Salvaged Half Shelves, and Bamboo Wall Shelves. Perfect for giving your base that overgrown, lived-in look.
-      </div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/7O98/jungleupdate_shelving_01.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="grid">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/129/04/2025/3405/jungleupdate_shelving_04.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/129/04/2025/2D14/jungleupdate_shelving_05.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      <p>
-       The bamboo shelf is a reskin for a regular shelf, the shallow and half-height shelves are currently unique items to the pack.
-      </p>
-      <h2>
-       Bamboo Barrels
-      </h2>
-      <div>
-      </div>
-      <div>
-       <div>
-        Need somewhere to stash your loot? These Bamboo Barrels are skinned versions of the Large Wood Box, coming in both vertical and horizontal styles.
-       </div>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/1w58/jungleupdate_storageDLC_03.jpg"/>
-     </div>
-     <div>
-      <p>
-       Same size as the ones from the Decor Pack, just way more... jungly.
-      </p>
-      <h2>
-       Jungle Relic Assault Rifle
-      </h2>
-      <div>
-       This ancient relic AK reskin has seen things — bad things.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/1a09/jungleupdate_jungleAR_05.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="grid">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/1D02/jungleupdate_jungleAR_07.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/1r72/jungleupdate_jungleAR_08.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      <h2>
-      </h2>
-      <div>
-       <br/>
-      </div>
-      <h2>
-       Cocoknight Wood Armor
-      </h2>
-      <div>
-       Only the bravest warriors can adorn the Cocoknight Armor. Made from bark, vines and.. coconuts, this armor set consists of skins for the Wood Armor Helmet, Chestplate, Pants and the newly introduced Gloves.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/7J41/jungleupdate_dlc_coconutarmour_01.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="grid">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/1J16/jungleupdate_dlc_coconutarmour_05.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/5729/jungleupdate_dlc_coconutarmour_04.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      <div>
-      </div>
-      <h2>
-       <br/>
-      </h2>
-      <div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <h2>
-       Obsidian Bone Knife
-      </h2>
-      <div>
-       Knapped from the darkest obsidian, this skin for the Bone Knife has been passed down through the ages. As sharp as it is mysterious.
-      </div>
-      <div>
-       <br/>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/122/04/2025/0l21/jungleupdate_obsidianknife_01.jpg"/>
-     </div>
-     <div>
-      <h2>
-       Jungle Idol Rock
-      </h2>
-      <div>
-       Whomever holds the Jungle Idol Rock will see death. Whose it is, is uncertain.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/6x79/jungleupdate_rock_03.jpg"/>
-     </div>
-     <div>
-      <h2>
-       Wallpapers, Sprays, Gesture and Chat Emoji
-      </h2>
-      <div>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <p class="" data-end="1981" data-start="1934">
-        To really set the vibe, we’re also throwing in:
-       </p>
-       <span data-end="2001" data-start="1985">
-        <ul>
-         <li>
-          <span data-end="2001" data-start="1985">
-           3 Wallpapers
-          </span>
-          : Jungle Animals, Leaves, and Sigil
-         </li>
-         <li>
-          <span data-end="2053" data-start="2041">
-           2 Sprays
-          </span>
-          : Tiger and Skull
-         </li>
-         <li>
-          <span data-end="2092" data-start="2075">
-           2 Chat Emojis
-          </span>
-          : Sick and Bush
-         </li>
-         <li>
-          <span data-end="2129" data-start="2112">
-           1 New Gesture
-          </span>
-          : Beats Chest!
-         </li>
-        </ul>
-       </span>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/danieltyler/1b2811b1/rust_jungle_emoted_blog_16x9_gif.gif"/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/8B57/jungleupdate_gesture_01.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/4N71/jungleupdate_sprays_03.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/128/04/2025/3z19/jungleupdate_wallpaper_01.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      <h2>
-      </h2>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="ExplosiveProtectionfix">
-  <div class="section" like-handler="LikeBlogSection" like-id="84639" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Explosive Protection fix
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      When initially released the damage reduction of explosive armor inserts didn't match the resistance numbers shown on the inventory screen. This was caused by most forms of explosive damage being part melee damage so they could kill players without being used for raiding but the damage reduction not reducing the melee damage component. This was fixed by converting existing damage values to pure explosive damage in PvP while keeping the existing values for raiding.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/paddy/20250227/rust_armourplates_tabletop_01.jpg"/>
-     </div>
-     <div>
-      This brought a new problem: with the inserts and certain combinations of armor you could reach up to 93% explosive protection and shrug off rockets! To compensate explosive protection will now be capped at 75% which should save you from a single rocket at high explosive protection values.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Huntervision">
-  <div class="section" like-handler="LikeBlogSection" like-id="84640" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Hunter vision
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The hunter vision is a new boost that let you see the scent trails of wild animals, helping you to track and hunt them down easily.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/danieltyler/1b3011b1/rust_hunter_vision_16x9__1080_jpg.jpg"/>
-     </div>
-     <div>
-      Eating the big cat pie will give you the boost for 15 minutes.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="JungleBuildingskin">
-  <div class="section" like-handler="LikeBlogSection" like-id="84641" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Jungle Building skin
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The new Jungle stone building skin,
-      <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10326" target="https://store.steampowered.com/itemstore/252490/detail/10326">
-       available now
-      </a>
-      from the Rust store, allows you to change the visuals of your stone tier base.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/129/04/2025/4Q82/jungleupdate_buildingstone_02.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="grid">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/129/04/2025/7283/jungleupdate_buildingstone_05.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/129/04/2025/6U34/jungleupdate_buildingstone_04.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      This skin is for sale at the Steam store. To use, simply equip your hammer tool, display the wheel, and enable building skins. This should reveal the skin's wheel on which you may choose Jungle Temple upgrade.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/129/04/2025/3b42/jungleupdate_buildingstone_10.jpg"/>
-     </div>
-     <div>
-      Available now from the in-game store or
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10326" target="https://store.steampowered.com/itemstore/252490/detail/10326">
-       Steam item store
-      </a>
-      .
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Woodgloves">
-  <div class="section" like-handler="LikeBlogSection" like-id="84642" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Wood gloves
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Rounding out the wooden armor set, the new Wood Gloves are now available! Default craftable and made from wood and cloth, these gloves offer early-game protection that slots between Leather Gloves and Roadsign Gloves.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/129/04/2025/2375/jungleupdate_woodgloves_05.jpg"/>
-     </div>
-     <div>
-      Perfect for fresh spawns or anyone needing quick, reliable hand protection without the need for a blueprint.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-style="grid">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/129/04/2025/2777/jungleupdate_woodgloves_06.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/129/04/2025/3Q16/jungleupdate_woodgloves_02.jpg"/>
-      </gallery>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="ServerProfilerUpdates">
-  <div class="section" like-handler="LikeBlogSection" like-id="84643" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Server Profiler Updates
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <h2>
-      Experimental Streaming Support
-     </h2>
-     <div>
-      With this update we're releasing the next stage of Server Profiler - experimental support for streaming profiling telemetry into memory. This can be done with the following command:
-     </div>
-     <div>
-      <b>
-       profile.perfsnapshot_stream [Name] [MainThreadBuffer] [WorkerThreadBuffer] [Debug]
-      </b>
-     </div>
-     <div>
-      <ul>
-       <li>
-        Name (max 32 characters, defaults to "Profile") - controls the filename of the snapshot, [Name].json.gz
-       </li>
-       <li>
-        MainThreadBuffer (MB, max 256, defaults to 32) - how big is the telemetry buffer for main thread
-       </li>
-       <li>
-        WorkerThreadBuffer (MB, max 256, defaults to 8) - how big is the telemetry buffer for each worker thread
-       </li>
-       <li>
-        Debug (0/1, defaults to 0) - whether to generate [Name].bin.gz for debugging
-       </li>
-      </ul>
-     </div>
-     <div>
-      The key difference here is that original `profile.perfsnapshot` command was able to accumulate up to 10 frames of data, while the new command will accumulate telemetry until the main thread storage is full, at which point it'll export the [Name].json.gz file. For ~40 players on staging server and default 32MB main thread storage we were able to generate roughly 60 frames of data:
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="slim" title="32MB worth of main thread data - captured 59 frames or 0.4s">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b2811b1/RyoFqLjECK.png"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      Quiet Mode
-     </h2>
-     <div>
-      I've exposed a new control for server-chat notifications when a snapshot is being taken - the messages that warn the players about potential server stutters with a countdown:
-     </div>
-     <div>
-      <b>
-       profile.quiet 0/1
-      </b>
-      - default to 0 (will notify), set to 1 to disable chat messages.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      This affects both the old
-      <b>
-       profile.perfsnapshot
-      </b>
-      and the new
-      <b>
-       profile.perfsnapshot_stream
-      </b>
-      commands.
-      <br/>
-      <br/>
-      If you'd like to learn more about the server profiler you can find more
-      <a class="selected" href="https://rust.facepunch.com/news/polish-and-progress#BuiltinServerProfiler" target="https://rust.facepunch.com/news/polish-and-progress#BuiltinServerProfiler">
-       here
-      </a>
-      .
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="ServerOptimizations">
-  <div class="section" like-handler="LikeBlogSection" like-id="84644" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Server Optimizations
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <h2>
-      Batched Player Processing - Experimental Physics Query Batching
-     </h2>
-     <div>
-      In the
-      <a class="" href="https://rust.facepunch.com/news/crafting-update#ServerOptimizations">
-       "Crafting Update", Server Optimizations section
-      </a>
-      I've written about starting to work on batched player processing. The goal is to group logic better to enable more efficient memory cache utilization as well as starting to process players in parallel. Back then we only tried processing water queries for players in parallel.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      This coming update we have now converted NoClip validation, 1 of 3 physics-heavy player validation routines, over to the new batched flow. It aggregates all the physics queries into separate batches, and runs batches sequentially, while each batch internally is run in-parallel.
-      <br/>
-      <br/>
-      My synthetic stress tests showed a ~5x/~80% speed-up of AntiHack.AreNoClipping compared to original implementation of AntiHack.IsNoClipping.
-     </div>
-     <div>
-      <br/>
-      Original flow simulating 4 checks for 10k players:
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="slim">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b2811b1/I8fCSlNKkW.png"/>
-     </div>
-     <div>
-      Parallel flow:
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/danielprihodko/1b2811b1/G7YM0DH7XU.png"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Running the new logic on a 57 player staging server currently shows reduced benefits
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Original flow(50 frames of data):
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/danielprihodko/1b2911b1/736p3Syfkj.png"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Parallel flow (52 frames of data):
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/danielprihodko/1b2911b1/sLl3j0v3kJ.png"/>
-     </div>
-     <div>
-      It shows that we're getting around ~0.5ms(~10%) savings in AreNoClipping, the method that I focused on optimizing. We're also seeing ~13ms(~18%) savings at top level, ServerUpdateParallel.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      It's important to note that this is all on relatively fresh Staging with a relatively small population. Release environment is a bit different, so I'll be validating how it behaves and if it's stable going forward.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="playerserverocclusion">
-  <div class="section" like-handler="LikeBlogSection" like-id="84646" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       player server occlusion
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We last spoke about player server occlusion in the
-      <a class="" href="https://rust.facepunch.com/news/crafting-update#playerSERVEROCCLUSION" target="">
-       Crafting Update news post
-      </a>
-      , in that post we stated our future plans were to ensure all servers are using server occlusion by default.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      We now believe the system is in the right position for this so starting this patch servers will have server occlusion enabled by default. If you are a server owner running a custom map that you don't think is suitable for server occlusion or running a server on older hardware, you may want to disable server occlusion, you can do that with the following startup parameters:
-     </div>
-     <div>
-      <ul>
-       <li>
-        <b>
-         -disable-server-occlusion
-        </b>
-        , this parameter will ensure server occlusion is completely disabled.
-       </li>
-       <li>
-        <b>
-         -disable-server-occlusion-rocks
-        </b>
-        , this parameter will skip including rocks in the occlusion grid bake, this is recommended if you're running older hardware but still want to make use of server occlusion as it can significantly increase initial grid generation time.
-       </li>
-      </ul>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="TwitchDrops">
-  <div class="section" like-handler="LikeBlogSection" like-id="84636" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Twitch Drops
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <h2>
-      Twitch Drops are back!
-     </h2>
-     <div>
-      Starting at today's update, until May 28th, we will have an array of general Rust drops for all to enjoy.  These drops can be earned on
-      <a class="" href="https://www.twitch.tv/directory/category/rust">
-       any Rust channel
-      </a>
-      that has drops enabled!
-     </div>
-     <div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       These Drops are paying homage to our Community Official servers.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth" title="Get Synced!">
-      <a href="https://twitch.facepunch.com/">
-       <img src="https://files.facepunch.com/ashcoook/1b2911b1/td_39-blog-image.jpg"/>
-      </a>
-     </div>
-     <div>
-      Don't forget to ensure you are synced over at
-      <a class="selected" href="https://twitch.facepunch.com/">
-       https://twitch.facepunch.com/
-      </a>
-     </div>
-     <div>
-      <br/>
-      And be vigilant of scams - Facepunch will never DM you about Twitch Drops.
-      <br/>
-      <br/>
-      <i>
-       Drops will end around midnight UTC on May 28th.
-      </i>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="WorkshopQualityoflifechanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84629" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Workshop Quality of life changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <p class="" data-end="321" data-start="213">
-       This month, the team has been working hard on some significant quality-of-life changes to the Rust Workshop.
-      </p>
-      <p class="" data-end="488" data-start="323">
-       Although many of these changes are designed to make community skin artists' lives a little easier, they should also improve the visual quality of many in-game items!
-      </p>
-      <p class="" data-end="725" data-start="490">
-       We've added previously missing Ambient Occlusion and Specular maps to all skinnable weapons, clothing, and deployables. These will automatically apply to existing skins that do not include their own custom textures for these map slots.
-      </p>
-      <p class="" data-end="872" data-start="727">
-       We’ve also fixed the downloadable meshes in the Workshop so they now have correct position, scale, and rotation, along with more sensible pivots!
-      </p>
-      <p class="" data-end="1080" data-start="874">
-       A bunch of weapon-related issues have been resolved, including UV fixes on third-person models, properly displaying arrows on bows and crossbows, and adding third-person sights to the Double Barrel Shotgun.
-      </p>
-      <p class="" data-end="1221" data-start="1082">
-       The Wood Storage Box and Large Wood Box now support transparency for interiors. We can't wait to see what the community comes up with here!
-      </p>
-      <p class="" data-end="1536" data-start="1223">
-       We've also made a raft of improvements to the Workshop scene, including fixing items disappearing at a distance, implementing Time-of-Day pause and Skybox Rotate functionality, and — for the extremely adept skin artists — fixing an issue where normal maps were sometimes incorrectly displayed on skin submissions.
-      </p>
-      <p class="" data-end="1615" data-start="1538">
-       A definitive list of changes is included in the improvements and fixes below.
-      </p>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <div>
-      </div>
-      <div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="48hourFlashSale">
-  <div class="section" like-handler="LikeBlogSection" like-id="84618" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       48 hour Flash Sale
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2911b1/Flash-Sale%20-%20Branding%2016x9.png"/>
-     </div>
-     <div>
-      <div>
-       To celebrate the release of this month's Jungle update, we're having a flash sale!
-       <br/>
-       Rust and all Steam DLC's will be 50% off until 18:00 BST / 10:00AM PT this Saturday!
-      </div>
-      <div>
-       <p class="editor-paragraph" dir="ltr">
-        Get that new squad mate in by gifting them a copy
-        <a class="" href="https://fcpn.ch/jusb" target="fcpn.ch/jusb">
-         on Steam
-        </a>
-        .
-       </p>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="change-blog-container">
-  <div class="container">
-   <div class="changes-container" id="changelist">
-    <div class="changes-sidebar">
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Patch Name
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Jungle Update
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Changelist Title
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Jungle Change Log
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <a class="date" style="text-decoration: none;">
-       <span class="icon">
-        <i>
-         date_range
-        </i>
-       </span>
-       Thursday, May 1, 2025
-      </a>
-     </div>
-     <div class="sidebar-section">
-     </div>
-    </div>
-    <div class="changes-body">
-     <div class="changes-row features">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         add_circle
-        </i>
-       </span>
-       <h3>
-        Features
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added jungle biome
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Rivers are now longer, wider and deeper and require swimming to cross them
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          New Ziggurat monument
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          New Jungle Remnants monuments
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          New Boomerang weapon
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          New Blow Pipe weapon (with 4 darts)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Snakes
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Crocodiles
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Tigers
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Panthers
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          New Vine Swinging trees
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Big cat pie
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Hunter vision
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row improvements">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         arrow_circle_up
-        </i>
-       </span>
-       <h3>
-        Improvements
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Sunlight stat on chickens now increases much faster
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Chicken coop has been resized to more neatly fit on a single foundation (and has snapping)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added a freezing icon when an item is being refrigerated
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Vending Machine can now operate as a Fridge
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Re-enabled network cache on many IO entities (improved server performance)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved rendering performance of powered Industrial Conveyors
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added Ambient Occlusion Map to the following assets: Baseball Cap, Beenie Hat, Bone Knife, Bolt Rifle, Hammer, Hatchet, Hide Pants, Hide Shoes, Hoodie, Long T-shirt, Longsword, LR300, M249, MP5, Pants, Pickaxe, Riot Helmet, Rug, Salvaged Hammer, Sandbag Barricade, Snow Jacket, Spinning Wheel, Sword, T-shirt, Thompson, Vagabond Jacket, Waterpipe Shotgun, Wood Storage Box
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added Specular Map to the following assets: Beenie Hat, Hide Pants, Hide Shoes, Hoodie, Leather Gloves, Sandbag Barricade
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved interior UV's for Wood Storage Box, improving the look of transparent skins
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Rustige Egg specular glare is now balanced across all variants
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Increased Locker skinned texture resolution
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved Hatchet Third-Person model and LODs
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Poison vital UI now appears when you're poisoned
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added weapon sight present in First-Person to the Third-Person model on Double Barrel Shotgun. It is also now skinnable
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added interior geometry and UV's for Large Wood Box, allowing for better transparency usage
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Item asset field on asset export in Workshop Scene will now automatically take the default asset name unless the user adds a custom name
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Rivers and lakes now have underwater effects
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved underwater visuals
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Projectiles will no longer clip into the camera when throwing (grenades, etc.)
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row fixed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         handyman
-        </i>
-       </span>
-       <h3>
-        Fixed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed horses not triggering laser detectors
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to mute some game sounds when changing audio setting
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed not being able to clear authed players when the Tugboat/Turret was at maximum authed player count (softcore)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed destroyed bags turning back into regular bags on server restart (softcore)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed container not preserving the correct amount of loot when destroyed (softcore)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to lose items by reskinning high gates while dropped items are nearby
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed harsh LOD popping and reduced bloom effect on new Rustige egg
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed TMP errors when using an IME while typing in chat (Chinese, Japanese)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed computer station being used to clip through doors
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an issue that allowed players to stop auto turrets from firing
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some formatting issues when displaying non-English characters in the chat
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can no longer put out satchels through walls with the water pistol
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed error when painting on spinning sign
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed ‘ent auth’ command not working on tugboats
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed dropping an item while dancing resulting in an invisible local weapon
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed eggs that were hatching in a chicken coop getting stuck if the server restarts
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed flamethrowers marked as shield compatible in the UI
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can no longer cover ladder hatches with rugs
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed the interior boxes on the hackable crate sometimes disappearing
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an issue locking your character in place when renaming sleeping bags (among other cases), if a controller was connected (set accessibility.senduinavigationevents to true if controller input is needed)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Event lootboxes can now fill the hotbar if inventory is full
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Miner Hat reverting to vanilla skin while on
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a case where XOR switches incorrectly send power on server restart
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed door gibs not reflecting door skin
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed UV's on destroyed gibs models for Double Wooden Door, Double Armored Door, Industrial Door
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed all downloadable Workshop meshes, resetting position, rotation, scale and centered pivots. The transforms are now also now non-inverted
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Crossbow's UVs in Third-Person, they now display skins correctly
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Hatchet's UVs in Third-Person, they now display skins correctly
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed LR300's normals on dust cover in First-Person
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Custom SMG displaying incorrect material on the grip in First-Person
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed NRE with F1 Grenade in Workshop Scene
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed player hands appearing red in Workshop Scene
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed assets LODing out too quickly in Workshop Scene. They will now still be visible at distance
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Miner's Hat now uses correct Specular workflow
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Miner's Hat now displays skins correctly when the light is turned on
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Arrows not displaying correctly in Third-Person for the Hunting Bow, Compound Bow and Crossbow
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Custom SMG sights being different in the Third-Person model compared to the First-Person model
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an exploit allowing heavy armor on horseback
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 01 May 2025 01:49:00 Z</pubDate>
     </item>
   </channel>
 </rss>
