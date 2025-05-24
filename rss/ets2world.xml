@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
-      <title>Dark Background Map v1.0 ETS2</title>
-      <link>https://www.ets2world.com/dark-background-map-v1-0-ets2/</link>
-      <description><![CDATA[<article class="post-374627 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
+      <title>SRmap Fix v1.54-1.1.0 ETS2</title>
+      <link>https://www.ets2world.com/srmap-fix-v1-54-1-1-0-ets2/</link>
+      <description><![CDATA[<article class="post-374667 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -28,7 +28,7 @@
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="1080" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/dark-ets-2-background-map-v1.0-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/05/dark-ets-2-background-map-v1.0-ets2-1.jpg 1920w, https://www.ets2world.com/wp-content/uploads/2025/05/dark-ets-2-background-map-v1.0-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/05/dark-ets-2-background-map-v1.0-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/05/dark-ets-2-background-map-v1.0-ets2-1-768x432.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/05/dark-ets-2-background-map-v1.0-ets2-1-1536x864.jpg 1536w" width="1920"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="360" sizes="(max-width: 640px) 100vw, 640px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/srmap-fix-v1.54-1.1.0-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/05/srmap-fix-v1.54-1.1.0-ets2-1.jpg 640w, https://www.ets2world.com/wp-content/uploads/2025/05/srmap-fix-v1.54-1.1.0-ets2-1-300x169.jpg 300w" width="640"/>
     <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
@@ -38,37 +38,46 @@
    <div class="entry-inner">
     <hr/>
     <center style="margin-top:15px;">
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/dark-ets-2-background-map-v1.0-ets2-1.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/dark-ets-2-background-map-v1.0-ets2-1-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/dark-ets-2-background-map-v1.0-ets2-2.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/dark-ets-2-background-map-v1.0-ets2-2-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/dark-ets-2-background-map-v1.0-ets2-3.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/dark-ets-2-background-map-v1.0-ets2-3-160x160.jpg" width="160"/>
-     </a>
     </center>
     <center>
     </center>
     <p>
      <strong>
-      Dark Background Map v1.0 ETS2
+      SRmap Fix v1.54-1.1.0 ETS2
      </strong>
     </p>
     <hr/>
     <p>
-     This mod changes background map, adding country names and flags.
+     <strong>
+      Changelog v1.54-1.1.0
+     </strong>
      <br/>
-     It is recommended to set the Map alignment setting to flat.
+     – Stopped Russian Police Cars and Ambulances spawning outside of Russia
     </p>
     <p>
-     Tested on version 1.54
+     Fixes Sign Conflicts with other maps
+     <br/>
+     Disables a Model Definition to avoid Crash
+     <br/>
+     Adds English Localization
+    </p>
+    <p>
+     <strong>
+      Load Order:
+     </strong>
+     <br/>
+     1. SRMap Fix
+     <br/>
+     2.
+     <a href="https://www.ets2world.com/southern-region-v13-1-ets2/" rel="noopener" target="_blank">
+      SRMap
+     </a>
     </p>
     <hr/>
     <strong>
      Credits:
     </strong>
-    MossyMuss
+    GMC
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -91,7 +100,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/d07fuank1s3n/Dark_ETS_2_Background_Map.zip.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/6tdu1x9odyqm/gmc_srmap_fix.scs.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
@@ -114,9 +123,9 @@
 <br><br><br>]]></description>
     </item>
     <item>
-      <title>Scania R580 J.Vrolijk Transport + Trailer v12 1.54 ETS2</title>
-      <link>https://www.ets2world.com/scania-r580-j-vrolijk-transport-trailer-v12-1-54-ets2/</link>
-      <description><![CDATA[<article class="post-374631 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trucks">
+      <title>Travemünde Map Addon v1.1 1.54 ETS2</title>
+      <link>https://www.ets2world.com/travemunde-map-addon-v1-1-1-54-ets2/</link>
+      <description><![CDATA[<article class="post-374661 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -141,7 +150,147 @@
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="720" sizes="(max-width: 1280px) 100vw, 1280px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/scania-r580-j.vrolijk-transport-2B-trailer-v12-1.54-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/05/scania-r580-j.vrolijk-transport-2B-trailer-v12-1.54-ets2-1.jpg 1280w, https://www.ets2world.com/wp-content/uploads/2025/05/scania-r580-j.vrolijk-transport-2B-trailer-v12-1.54-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/05/scania-r580-j.vrolijk-transport-2B-trailer-v12-1.54-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/05/scania-r580-j.vrolijk-transport-2B-trailer-v12-1.54-ets2-1-768x432.jpg 768w" width="1280"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="720" sizes="(max-width: 1280px) 100vw, 1280px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/travemunde-map-addon-v1.1-1.54-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/05/travemunde-map-addon-v1.1-1.54-ets2-1.jpg 1280w, https://www.ets2world.com/wp-content/uploads/2025/05/travemunde-map-addon-v1.1-1.54-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/05/travemunde-map-addon-v1.1-1.54-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/05/travemunde-map-addon-v1.1-1.54-ets2-1-768x432.jpg 768w" width="1280"/>
+    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+   </div>
+  </center>
+  <div class="clear">
+  </div>
+  <div class="entry themeform">
+   <div class="entry-inner">
+    <hr/>
+    <center style="margin-top:15px;">
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/travemunde-map-addon-v1.1-1.54-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/travemunde-map-addon-v1.1-1.54-ets2-1-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/travemunde-map-addon-v1.1-1.54-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/travemunde-map-addon-v1.1-1.54-ets2-2-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/travemunde-map-addon-v1.1-1.54-ets2-3.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/travemunde-map-addon-v1.1-1.54-ets2-3-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/travemunde-map-addon-v1.1-1.54-ets2-4.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/travemunde-map-addon-v1.1-1.54-ets2-4-160x160.jpg" width="160"/>
+     </a>
+    </center>
+    <center>
+    </center>
+    <p>
+     <strong>
+      Travemünde Map Addon v1.1 1.54 ETS2
+     </strong>
+    </p>
+    <hr/>
+    <p>
+     <strong>
+      Information:
+     </strong>
+     <br/>
+     3 SCS companies added
+     <br/>
+     2 construction companies added
+     <br/>
+     Supermarket added
+     <br/>
+     Truck service added
+     <br/>
+     Gas station added
+     <br/>
+     Roadworks added
+     <br/>
+     Some overall improvements in Travemünde and surroundings
+     <br/>
+     Lots of details added
+     <br/>
+     Works in convoy
+    </p>
+    <p>
+     <strong>
+      Requires:
+     </strong>
+     <br/>
+     Promods 2.74 is required to have and load above promods
+     <br/>
+     Works on 1.54
+    </p>
+    <hr/>
+    <strong>
+     Credits:
+    </strong>
+    ADG
+    <br/>
+    <p style="margin-bottom:3px;">
+    </p>
+    <hr/>
+    <hr>
+    <strong>
+     How to install ETS2 mods or ATS Mods
+    </strong>
+    <br/>
+    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
+    <hr>
+     <div>
+      <span style="font-size:15px; color: #f42d36;">
+       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
+      </span>
+     </div>
+     <hr/>
+     <center>
+     </center>
+     <p>
+      <center>
+       <div>
+        <a class="dmod" href="https://modsfile.com/zxpnqhhfjs49/travemnde_map_addon_by_adg_creations_without_company_yard_locked.scs.html" rel="nofollow" target="_blank">
+         <strong>
+          DOWNLOAD MOD
+         </strong>
+        </a>
+       </div>
+      </center>
+     </p>
+     <center style="margin-top:35px;">
+     </center>
+     <nav class="pagination group">
+     </nav>
+    </hr>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+ </div>
+ <hr/>
+</article>
+<br><br><br>]]></description>
+    </item>
+    <item>
+      <title>Ford Trucks F-MAX v 2.6.7 1.54 ETS2</title>
+      <link>https://www.ets2world.com/ford-trucks-f-max-v-2-6-7-1-54-ets2/</link>
+      <description><![CDATA[<article class="post-374651 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trucks">
+ <div class="post-inner group">
+  <p class="post-byline">
+   <span class="vcard author">
+    <span class="fn">
+     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
+      <span style="color: #777;">
+       Euro Truck Simulator 2 Mods
+      </span>
+     </a>
+     |
+     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
+      <span style="color: #777;">
+       American Truck Simulator Mods
+      </span>
+     </a>
+    </span>
+   </span>
+   |
+   <span class="published">
+    May 24, 2025
+   </span>
+  </p>
+  <center>
+   <div class="thumbnail">
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="358" sizes="(max-width: 637px) 100vw, 637px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/ford-trucks-f-max-v-2.6.7-1.54-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/05/ford-trucks-f-max-v-2.6.7-1.54-ets2-1.jpg 637w, https://www.ets2world.com/wp-content/uploads/2025/05/ford-trucks-f-max-v-2.6.7-1.54-ets2-1-300x169.jpg 300w" width="637"/>
     <img alt="ETS2 Trucks" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
@@ -151,67 +300,115 @@
    <div class="entry-inner">
     <hr/>
     <center style="margin-top:15px;">
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/scania-r580-j.vrolijk-transport-2B-trailer-v12-1.54-ets2-5.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/scania-r580-j.vrolijk-transport-2B-trailer-v12-1.54-ets2-5-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/ford-trucks-f-max-v-2.6.7-1.54-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/ford-trucks-f-max-v-2.6.7-1.54-ets2-1-160x160.jpg" width="160"/>
      </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/scania-r580-j.vrolijk-transport-2B-trailer-v12-1.54-ets2-1.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/scania-r580-j.vrolijk-transport-2B-trailer-v12-1.54-ets2-1-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/ford-trucks-f-max-v-2.6.7-1.54-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/ford-trucks-f-max-v-2.6.7-1.54-ets2-2-160x160.jpg" width="160"/>
      </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/scania-r580-j.vrolijk-transport-2B-trailer-v12-1.54-ets2-2.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/scania-r580-j.vrolijk-transport-2B-trailer-v12-1.54-ets2-2-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/scania-r580-j.vrolijk-transport-2B-trailer-v12-1.54-ets2-3.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/scania-r580-j.vrolijk-transport-2B-trailer-v12-1.54-ets2-3-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/scania-r580-j.vrolijk-transport-2B-trailer-v12-1.54-ets2-4.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/scania-r580-j.vrolijk-transport-2B-trailer-v12-1.54-ets2-4-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/ford-trucks-f-max-v-2.6.7-1.54-ets2-3.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/ford-trucks-f-max-v-2.6.7-1.54-ets2-3-160x160.jpg" width="160"/>
      </a>
     </center>
     <center>
     </center>
     <p>
      <strong>
-      Scania R580 J.Vrolijk Transport + Trailer v12 1.54 ETS2
+      Ford Trucks F-MAX v 2.6.7 1.54 ETS2
      </strong>
     </p>
     <hr/>
     <p>
-     <strong>
-      Include:
-     </strong>
+     Ford Trucks F-MAX v2.6.7 – Euro Truck Simulator 2 (ETS2 1.54 Compatible)
      <br/>
-     Topline cab
-     <br/>
-     6×2 taglift
-     <br/>
-     DC16 580 V8 Openpipe sound
-     <br/>
-     Custom interior and salon
-     <br/>
-     12 speed + retarder
-     <br/>
-     Full Standalone
-     <br/>
-     Full Lightmask
-     <br/>
-     Full animation
-     <br/>
-     RED interior light as accessory
-     <br/>
-     Support SiSL’s Mega Pack
-     <br/>
-     Personal wheels
-     <br/>
-     Has interior tuning
+     Experience true Ford engineering in Euro Truck Simulator 2 with the Ford Trucks F-MAX v2.6.7, a highly detailed and feature-rich standalone truck mod. This version brings the acclaimed F-MAX up to compatibility with ETS2 1.54, offering a combination of realism, functionality, and customizability.
     </p>
     <p>
-     This truck works on version 1.54
+     <strong>
+      Key Features:
+     </strong>
+     <br/>
+     Original Exterior & Interior Design – Faithfully recreated based on the official F-MAX.
+     <br/>
+     Original Dashboard & Sounds – Features authentic engine audio sourced from the Ford Cargo 1842T (by EngineVoiceRecords).
+     <br/>
+     Standalone Truck – Does not replace any base game vehicles.
+     <br/>
+     Available at FORD Trucks Dealer – Located in Berlin (optional) or accessible via Mod Dealer.
+     <br/>
+     Fully Compatible with Standard Game Features – Including Quick Jobs and New Profile selection.
+    </p>
+    <p>
+     <strong>
+      Specifications:
+     </strong>
+     <br/>
+     Chassis: 4×2 (Standard and LL)
+     <br/>
+     Engine: EcoTorq 12.7L producing 500 PS and 2500 Nm torque
+     <br/>
+     Transmission: ZF 12TX2620 gearbox
+     <br/>
+     Fuel Capacity: 600L main + optional 450L auxiliary tank
+     <br/>
+     Navigation: Integrated GPS system
+    </p>
+    <p>
+     <strong>
+      Customization Options:
+     </strong>
+     <br/>
+     Changeable front grill (black or white)
+     <br/>
+     Adjustable spoiler heights: Low (standard), Low 2, High, Very High, Mid High
+     <br/>
+     Customizable sunshield, side skirts, and top bar for lighting
+     <br/>
+     Optional animated mudflaps
+     <br/>
+     Animated pedals and handbrake
+     <br/>
+     Cabin lights (blue)
+     <br/>
+     Multiple navigation screen layouts (standard GPS, small GPS, multimedia)
+     <br/>
+     Realistic license plate options (SCS Software or custom)
+     <br/>
+     Includes skin template for custom paint jobs
+    </p>
+    <p>
+     <strong>
+      DLC & Mod Support:
+     </strong>
+     <br/>
+     SiSL’s Mega Pack (Cabin Accessories)
+     <br/>
+     Turkish Paint Jobs Pack
+     <br/>
+     Window Flags DLC
+     <br/>
+     FIA European Truck Championship Paint Jobs
+     <br/>
+     Truck of the Year Paint Job
+     <br/>
+     European Logistics Companies Paint Jobs (Mod required)
+     <br/>
+     This mod is ideal for players seeking a premium-quality Ford experience in ETS2 with comprehensive customization, accurate detailing, and full gameplay integration.
+    </p>
+    <p>
+     <strong>
+      Available in the Mod Dealer
+     </strong>
+     <br/>
+     Ready for Quick Jobs
+     <br/>
+     📦Start a New Profile with the F-MAX
     </p>
     <hr/>
     <strong>
      Credits:
     </strong>
-    PDT
+    Publisher: @simulation Hasan Elmaz Öfke – SimülasyonTÜRK
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -234,7 +431,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/xe8obxihha2l/scania_r580_j_vrolijk_transport_v_12.scs.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/vrrlitnx3gr8/Ford-Trucks-F-MAX-1.54.zip.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
@@ -257,9 +454,9 @@
 <br><br><br>]]></description>
     </item>
     <item>
-      <title>DreamLand Map v1.5 1:1 Scale 1.54 ETS2</title>
-      <link>https://www.ets2world.com/dreamland-map-v1-5-11-scale-1-54-ets2/</link>
-      <description><![CDATA[<article class="post-374623 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
+      <title>Roextended – DonbassMap RC&amp;FIX v1.0 ETS2</title>
+      <link>https://www.ets2world.com/roextended-donbassmap-rcfix-v1-0-ets2/</link>
+      <description><![CDATA[<article class="post-374645 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -279,12 +476,147 @@
    </span>
    |
    <span class="published">
-    May 23, 2025
+    May 24, 2025
    </span>
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="1080" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/5Bets2-5D-dreamland-map-v1.5-1-1-scale-1.54-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/05/5Bets2-5D-dreamland-map-v1.5-1-1-scale-1.54-ets2-1.jpg 1920w, https://www.ets2world.com/wp-content/uploads/2025/05/5Bets2-5D-dreamland-map-v1.5-1-1-scale-1.54-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/05/5Bets2-5D-dreamland-map-v1.5-1-1-scale-1.54-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/05/5Bets2-5D-dreamland-map-v1.5-1-1-scale-1.54-ets2-1-768x432.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/05/5Bets2-5D-dreamland-map-v1.5-1-1-scale-1.54-ets2-1-1536x864.jpg 1536w" width="1920"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="1080" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/roextended-donbassmap-rcafix-v1.0-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/05/roextended-donbassmap-rcafix-v1.0-ets2-1.jpg 1920w, https://www.ets2world.com/wp-content/uploads/2025/05/roextended-donbassmap-rcafix-v1.0-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/05/roextended-donbassmap-rcafix-v1.0-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/05/roextended-donbassmap-rcafix-v1.0-ets2-1-768x432.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/05/roextended-donbassmap-rcafix-v1.0-ets2-1-1536x864.jpg 1536w" width="1920"/>
+    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+   </div>
+  </center>
+  <div class="clear">
+  </div>
+  <div class="entry themeform">
+   <div class="entry-inner">
+    <hr/>
+    <center style="margin-top:15px;">
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/roextended-donbassmap-rcafix-v1.0-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/roextended-donbassmap-rcafix-v1.0-ets2-1-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/roextended-donbassmap-rcafix-v1.0-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/roextended-donbassmap-rcafix-v1.0-ets2-2-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/roextended-donbassmap-rcafix-v1.0-ets2-3.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/roextended-donbassmap-rcafix-v1.0-ets2-3-160x160.jpg" width="160"/>
+     </a>
+    </center>
+    <center>
+    </center>
+    <p>
+     <strong>
+      Roextended – DonbassMap RC&FIX v1.0 ETS2
+     </strong>
+    </p>
+    <hr/>
+    <p>
+     Add to Collection Follow Private Message
+    </p>
+    <p>
+     <strong>
+      Load order:
+     </strong>
+     <br/>
+     Roextended – DonbassMap RC&FIX
+     <br/>
+     Donbass Map
+     <br/>
+     Db_model
+     <br/>
+     RoexF1
+     <br/>
+     RoexF2
+     <br/>
+     RoexF3
+     <br/>
+     RoexF4
+    </p>
+    <p>
+     <strong>
+      Note
+     </strong>
+     :
+     <br/>
+     This mod doesn’t modify any map contents or use any assets from Roex. This mod only modifies map sectors.
+    </p>
+    <hr/>
+    <strong>
+     Credits:
+    </strong>
+    sosiski
+    <br/>
+    <p style="margin-bottom:3px;">
+    </p>
+    <hr/>
+    <hr>
+    <strong>
+     How to install ETS2 mods or ATS Mods
+    </strong>
+    <br/>
+    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
+    <hr>
+     <div>
+      <span style="font-size:15px; color: #f42d36;">
+       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
+      </span>
+     </div>
+     <hr/>
+     <center>
+     </center>
+     <p>
+      <center>
+       <div>
+        <a class="dmod" href="https://modsfile.com/lxmf714k1e2d/Roex-DonbassRC_FIX.scs.html" rel="nofollow" target="_blank">
+         <strong>
+          DOWNLOAD MOD
+         </strong>
+        </a>
+       </div>
+      </center>
+     </p>
+     <center style="margin-top:35px;">
+     </center>
+     <nav class="pagination group">
+     </nav>
+    </hr>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+ </div>
+ <hr/>
+</article>
+<br><br><br>]]></description>
+    </item>
+    <item>
+      <title>Republic of Kazakhstan OTGR Fix v1.0 ETS2</title>
+      <link>https://www.ets2world.com/republic-of-kazakhstan-otgr-fix-v1-0-ets2/</link>
+      <description><![CDATA[<article class="post-374649 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
+ <div class="post-inner group">
+  <p class="post-byline">
+   <span class="vcard author">
+    <span class="fn">
+     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
+      <span style="color: #777;">
+       Euro Truck Simulator 2 Mods
+      </span>
+     </a>
+     |
+     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
+      <span style="color: #777;">
+       American Truck Simulator Mods
+      </span>
+     </a>
+    </span>
+   </span>
+   |
+   <span class="published">
+    May 24, 2025
+   </span>
+  </p>
+  <center>
+   <div class="thumbnail">
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="624" sizes="(max-width: 1110px) 100vw, 1110px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/republic-of-kazakhstan-otgr-fix-v1.0-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/05/republic-of-kazakhstan-otgr-fix-v1.0-ets2-1.jpg 1110w, https://www.ets2world.com/wp-content/uploads/2025/05/republic-of-kazakhstan-otgr-fix-v1.0-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/05/republic-of-kazakhstan-otgr-fix-v1.0-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/05/republic-of-kazakhstan-otgr-fix-v1.0-ets2-1-768x432.jpg 768w" width="1110"/>
     <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
@@ -299,51 +631,18 @@
     </center>
     <p>
      <strong>
-      DreamLand Map v1.5 1:1 Scale 1.54 ETS2
+      Republic of Kazakhstan OTGR Fix v1.0 ETS2
      </strong>
     </p>
     <hr/>
     <p>
-     Uploading to different sites through different links constitutes a criminal offense. Legal action will be taken.
-    </p>
-    <p>
-     Dreamland Map V1.5 Released.
-     <br/>
-     This version works on versions 1.54 of the game. However, for a smooth experience, it is based on 1.54. (There may be a coating problem in version 1.53)
-     <br/>
-     This map was created in an imaginary 1:1 scale.
-     <br/>
-     There are more areas to explore within this new version.
-    </p>
-    <p>
-     Thanks to my brother Furkan Gürel for his support.
-     <br/>
-     One new city (XtrakBay) has been added to the map, and some minor fixes have also been made.
-     <br/>
-     Now let’s take a look at the actual update notes:
-    </p>
-    <p>
-     v1.5 – Towns and Cities – What’s New:
-    </p>
-    <p>
-     — The truck dealer area in the Pas City region has been completely renewed – the port area will be renewed again in a future version.
-     <br/>
-     — A new city named XtrakBay has been added.
-     <br/>
-     — The ferry connection to Spaceland Island has been removed and replaced with a bridge.
-     <br/>
-     — Various map bugs have been fixed.
-    </p>
-    <p>
-     To play our map, you must have all map DLCs. Otherwise, the map will not work properly, and missing road junctions may appear.
-     <br/>
-     To play the map separately, you need to create a new save. (This is not necessary for players who are already playing.)
+     This mod fixes broken models in Republic of Kazakhstan caused by model conflict with OTGR
     </p>
     <hr/>
     <strong>
      Credits:
     </strong>
-    OyunPas
+    Rxx2008
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -366,277 +665,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/qc07mwueugnm/DreamLand_Map_v1.5.zip.html" rel="nofollow" target="_blank">
-         <strong>
-          DOWNLOAD MOD
-         </strong>
-        </a>
-       </div>
-      </center>
-     </p>
-     <center style="margin-top:35px;">
-     </center>
-     <nav class="pagination group">
-     </nav>
-    </hr>
-   </div>
-   <div class="clear">
-   </div>
-  </div>
- </div>
- <hr/>
-</article>
-<br><br><br>]]></description>
-    </item>
-    <item>
-      <title>Hybrid Road Connector v4.6 1.54 ETS2</title>
-      <link>https://www.ets2world.com/hybrid-road-connector-v4-6-1-54-ets2/</link>
-      <description><![CDATA[<article class="post-374619 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
- <div class="post-inner group">
-  <p class="post-byline">
-   <span class="vcard author">
-    <span class="fn">
-     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
-      <span style="color: #777;">
-       Euro Truck Simulator 2 Mods
-      </span>
-     </a>
-     |
-     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
-      <span style="color: #777;">
-       American Truck Simulator Mods
-      </span>
-     </a>
-    </span>
-   </span>
-   |
-   <span class="published">
-    May 23, 2025
-   </span>
-  </p>
-  <center>
-   <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="548" sizes="(max-width: 1104px) 100vw, 1104px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/hybrid-road-connector-v4.6-1.54-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/05/hybrid-road-connector-v4.6-1.54-ets2-1.jpg 1104w, https://www.ets2world.com/wp-content/uploads/2025/05/hybrid-road-connector-v4.6-1.54-ets2-1-300x149.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/05/hybrid-road-connector-v4.6-1.54-ets2-1-1024x508.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/05/hybrid-road-connector-v4.6-1.54-ets2-1-768x381.jpg 768w" width="1104"/>
-    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
-   </div>
-  </center>
-  <div class="clear">
-  </div>
-  <div class="entry themeform">
-   <div class="entry-inner">
-    <hr/>
-    <center style="margin-top:15px;">
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/hybrid-road-connector-v4.6-1.54-ets2-1.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/hybrid-road-connector-v4.6-1.54-ets2-1-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/hybrid-road-connector-v4.6-1.54-ets2-2.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/hybrid-road-connector-v4.6-1.54-ets2-2-160x160.jpg" width="160"/>
-     </a>
-    </center>
-    <center>
-    </center>
-    <p>
-     <strong>
-      Hybrid Road Connector v4.6 1.54 ETS2
-     </strong>
-    </p>
-    <hr/>
-    <p>
-     <strong>
-      Changelog
-     </strong>
-     <br/>
-     – Updated for Rusmap 2.54.1
-    </p>
-    <p>
-     Hybrid 1 – Roextended 4.6 – Rusmap 2.54.1 – Promods 2.74—> ALL interconnected
-     <br/>
-     Hybrid 2 – Roextended 4.6 – Rusmap 2.54.1 – Promods 2.74 – Middle East add-on—> ALL interconnected
-    </p>
-    <p>
-     Maps from road connection name are MANDATORY to be FUNCTIONAL
-     <br/>
-     Place this above both maps files in mod manager.
-     <br/>
-     For 1.54.x only
-    </p>
-    <hr/>
-    <strong>
-     Credits:
-    </strong>
-    Sergey, Arayas, PM
-    <br/>
-    <p style="margin-bottom:3px;">
-    </p>
-    <hr/>
-    <hr>
-    <strong>
-     How to install ETS2 mods or ATS Mods
-    </strong>
-    <br/>
-    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
-    <hr>
-     <div>
-      <span style="font-size:15px; color: #f42d36;">
-       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
-      </span>
-     </div>
-     <hr/>
-     <center>
-     </center>
-     <p>
-      <center>
-       <div>
-        <a class="dmod" href="https://modsfile.com/g228a0827bc5/Unzip_Hybird.zip.html" rel="nofollow" target="_blank">
-         <strong>
-          DOWNLOAD MOD
-         </strong>
-        </a>
-       </div>
-      </center>
-     </p>
-     <center style="margin-top:35px;">
-     </center>
-     <nav class="pagination group">
-     </nav>
-    </hr>
-   </div>
-   <div class="clear">
-   </div>
-  </div>
- </div>
- <hr/>
-</article>
-<br><br><br>]]></description>
-    </item>
-    <item>
-      <title>Renault Logan 1.4L 2012 v1.2 ETS2</title>
-      <link>https://www.ets2world.com/renault-logan-1-4l-2012-v1-2-ets2/</link>
-      <description><![CDATA[<article class="post-374610 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-cars">
- <div class="post-inner group">
-  <p class="post-byline">
-   <span class="vcard author">
-    <span class="fn">
-     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
-      <span style="color: #777;">
-       Euro Truck Simulator 2 Mods
-      </span>
-     </a>
-     |
-     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
-      <span style="color: #777;">
-       American Truck Simulator Mods
-      </span>
-     </a>
-    </span>
-   </span>
-   |
-   <span class="published">
-    May 23, 2025
-   </span>
-  </p>
-  <center>
-   <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="1080" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-1.jpg 1920w, https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-1-768x432.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-1-1536x864.jpg 1536w" width="1920"/>
-    <img alt="ETS2 Cars" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
-   </div>
-  </center>
-  <div class="clear">
-  </div>
-  <div class="entry themeform">
-   <div class="entry-inner">
-    <hr/>
-    <center style="margin-top:15px;">
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-1.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-1-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-2.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-2-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-3.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-3-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-4.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-4-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-5.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-5-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-6.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-6-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-7.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/05/renault-logan-1.4l-2012-v1.2-ets2-7-160x160.jpg" width="160"/>
-     </a>
-    </center>
-    <center>
-    </center>
-    <p>
-     <strong>
-      Renault Logan 1.4L 2012 v1.2 ETS2
-     </strong>
-    </p>
-    <hr/>
-    <p>
-     <strong>
-      ChangeLogo:
-     </strong>
-     <br/>
-     Don’t forget to add Def File up the mod
-     <br/>
-     updated to 1.54x
-     <br/>
-     I added licence plate
-     <br/>
-     I improved the physics and engine
-    </p>
-    <p>
-     Specifications:
-     <br/>
-     – Very high-quality exterior & interior
-     <br/>
-     – i added lights interior custome just Pross ” O ”
-     <br/>
-     – Excellent driveability i improved engine and physics
-     <br/>
-     – Openable Front Windows
-     <br/>
-     – Wipers work accurately
-     <br/>
-     – Top Speed : 185 KmH
-     <br/>
-     – 5th gear
-     <br/>
-     Truck Dealers > Access Mod Dealer > Dacia
-    </p>
-    <hr/>
-    <strong>
-     Credits:
-    </strong>
-    Gaza
-    <br/>
-    <p style="margin-bottom:3px;">
-    </p>
-    <hr/>
-    <hr>
-    <strong>
-     How to install ETS2 mods or ATS Mods
-    </strong>
-    <br/>
-    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
-    <hr>
-     <div>
-      <span style="font-size:15px; color: #f42d36;">
-       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
-      </span>
-     </div>
-     <hr/>
-     <center>
-     </center>
-     <p>
-      <center>
-       <div>
-        <a class="dmod" href="https://modsfile.com/fkd90gjptz5h/renault_logan_1_4l_2012_1_2_1_54x.zip.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/amsmliks9va6/rxx_kaz_otgr_fix.scs.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
