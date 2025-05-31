@@ -1,6 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Some Quick Fixes</title>
+      <link>https://store.steampowered.com/news/app/2078450/view/515211349279639544</link>
+      <description><![CDATA[
+<style>
+        [data-focus-scheme="dark"] {
+            color-scheme: none;
+        }
+    </style>
+OI, just a quick one with some fixes below that we felt necessary to patch<br/><ul class="bb_ul"><li>Fixed crash related to player states<br/></li><li>Fixed issue with game browser not updating<br/></li><li>Fixed accessories issue in the Kustomize menu<br/></li><li>Fixed players not getting scrap from solo matches<br/></li><li>All maps autoselect now when creating a new game<br/></li><li>Bots are enabled by default when creating a new game<br/></li><li>Added number of players in public lobbies to the bottom of the Game Browser<br/></li><li>votekick response window changed to 20 seconds<br/><br/>Have a good weekend ladz ːsteamthumbsupː</li></ul>]]></description>
+      <pubDate>Fri, 30 May 2025 19:46:14 +0000</pubDate>
+    </item>
+    <item>
       <title>Skulls Event extended until June 8th!</title>
       <link>https://store.steampowered.com/news/app/552500/view/546736546679621632</link>
       <description><![CDATA[
@@ -49,18 +61,6 @@ Just dropped a small patch before the weekend. Please be sure to restart Steam t
     </style>
 <blockquote class="bb_blockquote"> <div class="bb_h2">	Hotfix 6.6.2 - 28th of May							</div> <br/> <div class="bb_h3">	Fixes							</div> <br/><ul class="bb_ul"> <li> <b>Fixed players not being able to progress in Weaves.</b> <br/> </li><li> <b>(Versus) Fixed recent balance changes unintentionally removing certain passive buffs from various careers.</b> <br/> </li><li>	Fixed a crash if a skeleton attacks an enemy that is exactly on top of the skeleton									<br/> </li><li>	Fixed a crash if a skeleton's target enemy is despawned the same frame that it starts its attack.									<br/> </li><li>	Fixed an issue where random poses wasn't used in the end screen when completing weaves									<br/> </li><li>	Fixed a bug where "reset" and "switch hero" descriptions switched places when crafting or salvaging items depending on if an item is selected or not.									<br/> </li><li>	Fixed a bug where Handmaiden's "Asrai Alacrity" talent didn't increase power level when not being the party leader.									<br/> </li><li>	(Versus) Fixed a crash when attempting to join someone from the main menu via Steam friends while they are hosting a Custom Game.									<br/> </li><li>	Fixed a bug where the player would end up in an infinite loading screen if they are in a friend's level, go to the Main Menu, and then join their friend via friend joining.									<br/> </li><li>	Fixed occasional enemy related crash when on very low framerate.									<br/> </li><li>	Fixed a bug where the cursor got stuck on screen until shutdown if having viewed a cinematic in the main menu.									<br/> </li><li>	Weave Skins are now available for Weapon Poses.									<br/> </li><li>	(Chaos Wastes) Added the ability to scroll through the list of boons while in the Pilgrimage map.									<br/> </li><li>	Patched a bug in the 'Neuter Ult Effects' mod that was breaking the Huntsman's career skill invisibility.									<br/> </li><li>	(Chaos Wastes) Fixed the weekly expedition reward skin not displaying its name properly.																	<br/> </li><li> <b>The Well of Dreams fixes:</b> <br/> <ul class="bb_ul"><li>	Fixed a crash when a players character despawns while inside a spotlight in The Well of Dreams								<br/> </li><li>	Fixed a client crash when walking into a spotlight area in The Well of Dreams just after losing connection to the host.								<br/> </li><li>	Fixed a spot where you could fall into a pit and get stuck.								<br/> </li><li>	Fixed a bug where you could turn the pages on the event books after the event was over.								<br/> </li><li>	Fixed a bug where interacting with the pages too fast will make the symbols look funky.								<br/> </li><li>	Fixed a crash involving shaders in the map.</li></ul></li></ul></blockquote> ]]></description>
       <pubDate>Wed, 28 May 2025 09:55:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hotfix 1.3.2.29 is live!</title>
-      <link>https://store.steampowered.com/news/app/2186680/view/523092014040876439</link>
-      <description><![CDATA[
-<style>
-        [data-focus-scheme="dark"] {
-            color-scheme: none;
-        }
-    </style>
-Hotfix 1.3.2.29 is live, fixing the problem with the new mirror in the Lord Captain's quarters that caused the character's model to become invisible.]]></description>
-      <pubDate>Tue, 27 May 2025 11:11:28 +0000</pubDate>
     </item>
   </channel>
 </rss>
