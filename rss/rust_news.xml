@@ -827,6 +827,1590 @@
       <pubDate>Thu, 29 May 2025 03:00:00 Z</pubDate>
     </item>
     <item>
+      <title>Soft Refresh</title>
+      <link>https://rust.facepunch.com/news/soft-refresh/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Soft Refresh
+    </h1>
+    <p editname="Summary" type="text">
+     This month's update brings Softcore game mode refresh with deployable debris, respawn and upkeep changes, External Wall DLC and a glimpse at the upcoming Jungle update
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      03 April 2025
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="DeployableDebrisSoftcore">
+  <div class="section" like-handler="LikeBlogSection" like-id="84593" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Deployable Debris (Softcore)
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       A selection of deployable objects in your base will now leave behind a destroyed version when killed in the softcore game mode, allowing you to repair them to quickly get your base back up and running after a raid.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       When destroyed, these objects will drop 50% of their contents, the other 50% will be stored inside and accessible only by the player owners.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2025/1B08/softcore_deployablecorpses_01.jpg"/>
+     </div>
+     <div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       <div>
+        <div>
+         If the deployable is destroyed due to losing its ground, it will fall to the nearest position and won't be repairable on the spot. You can still pick it up with a hammer and repair it later at a repair bench.
+        </div>
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        This new behaviour is enabled on:
+       </div>
+      </div>
+      <ul>
+       <li>
+        Large Wooden Box
+       </li>
+       <li>
+        Storage Barrels
+       </li>
+       <li>
+        Small Wooden Box
+       </li>
+       <li>
+        Coffin
+       </li>
+       <li>
+        Small Furnace
+       </li>
+       <li>
+        Electric Furnace
+       </li>
+       <li>
+        Locker
+       </li>
+       <li>
+        Tool Cupboard
+       </li>
+       <li>
+        Fridge
+       </li>
+       <li>
+        Vending Machine
+       </li>
+       <li>
+        All Workbenches
+       </li>
+      </ul>
+     </div>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-style="columns">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/6350/softcore_deployablecorpses_04.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/8S61/softcore_deployablecorpses_02%20%281%29.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      In the case of Tool Cupboards, the destroyed version will still provide building authorization in its normal radius for 48 hours and can only be repaired by players that were authorized on it.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Whilst this feature is only applied to the softcore game mode, it's a bit of an experiment, and we may bring it over to the vanilla game in future.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="RespawnCHangesSoftcore">
+  <div class="section" like-handler="LikeBlogSection" like-id="84594" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Respawn CHanges (Softcore)
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The Reclaim Terminal at Outpost has been removed, and we don’t think you’ll miss it.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      In Softcore, if you die outside of a building privilege radius, you’ll now respawn with 50% of your inventory automatically. No more sprinting to Outpost, hoping your stuff didn’t get looted, and waiting around to reclaim your bits and pieces. The system is now faster, cleaner, and more forgiving.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/Alistair/102/04/2025/7S61/softcoreupdate_respawnchanges_04.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <div>
+       We’ve also improved how that 50% is calculated. Previously, it would just grab half of your item stacks, meaning you could end up keeping full stacks of low-value junk while losing all your meds or ammo. Now, it does what you'd expect: you keep 50% of your total count for stackables, which makes the whole thing a lot fairer and more predictable.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       This change should help reduce the friction after dying in the field while keeping the Softcore experience accessible for players who are still learning the ropes—or just trying to get back on their feet.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="UpkeeptaxchangesSoftcore">
+  <div class="section" like-handler="LikeBlogSection" like-id="84596" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Upkeep tax changes (Softcore)
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Softcore mode has higher upkeep rates for doors to discourage massive sprawling bases and encourage more raiding. Building blocks are unchanged.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2025/8Z54/softcoreUpdate_upkeeptax_05.jpg"/>
+     </div>
+     <div>
+      <div>
+       The difference is pretty significant: the average large base will now see door upkeep around 90%, compared to 30% in vanilla. Smaller, tighter bases won’t feel this as much, but sprawling honeycomb bunkers stuffed with doors will now come with a proper maintenance bill.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       The aim here is to discourage door mazes that sit untouched for weeks and make raiding more viable, even if you’re not rolling with a full zerg. You’ll still need to defend your loot, but you might have to think twice before slapping down that 38th garage door “just in case.”
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="PvPDamageSoftcore">
+  <div class="section" like-handler="LikeBlogSection" like-id="84601" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       PvP Damage (Softcore)
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Softcore mode has always been about giving newer or more casual players a gentler way to ease into the brutality of Rust. With that in mind, we’ve made a change that should make early PvP feel a little less punishing: bullet damage from one player to another has been reduced by
+      <strong data-end="458" data-start="451">
+       25%
+      </strong>
+      in Softcore.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/paddy/20240905/rust_202409_ttk_heroimage.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      The goal here is simple - give fights more breathing room. Instead of being instantly downed the moment someone spots you with a semi, you’ll have a bit more time to react, reposition, or even fight back. We want to encourage longer, scrappier engagements where you actually get to play the fight, not just die in it.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="SleepingBagChangessoftcore">
+  <div class="section" like-handler="LikeBlogSection" like-id="84602" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Sleeping Bag Changes (softcore)
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Sleeping Bags/Towels/Beds will now function slightly differently in softcore mode. When destroyed, they will be replaced with a new destroyed version that will still allow the player to respawn at that point one last time.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/4z81/apr2025_sleepingbagcorpses_03.jpg"/>
+     </div>
+     <div>
+      Once you respawn the bag will be destroyed. Bags in this state have a little skull icon next to them on the map/respawn screen.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="AdobeWallandGate">
+  <div class="section" like-handler="LikeBlogSection" like-id="84617" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Adobe Wall and Gate
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      This month, we’re introducing the Adobe external wall and gate skin pack, now a
+      <span>
+       vailable from the
+      </span>
+      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10304/" target="_blank">
+       Rust store
+      </a>
+      . T
+      <span>
+       he Adobe external wall and gate skin pack allows you to change the visuals of your external walls and gates.
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/8z00/highwalls_adobe_04.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-alignment="default" data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/1381/highwalls_adobe_15.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/1809/highwalls_adobe_09.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/9y20/highwalls_adobe_16.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/4F74/highwalls_adobe_01.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      You can use the Spray Can item to reskin your external walls.
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="QualityofLifeChanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84603" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Quality of Life Changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2025/7w85/apr2025_fridge_01.jpg"/>
+        <center>
+         <b>
+          Fridge Changes
+         </b>
+        </center>
+        <center>
+         Bota Bags and Honeycomb can now be placed in Fridges
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2025/5g88/apr2025_rug_03_4k.jpg"/>
+        <center>
+         <b>
+          Easy Rug Deployment
+         </b>
+        </center>
+        <center>
+         Can now place rugs under already placed deployables
+        </center>
+       </div>
+       <div class="columns is-multiline">
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2025/9G80/QOL_bowammo_01.jpg"/>
+         <center>
+          <b>
+           Crossbow &amp; Turret Arrows
+          </b>
+         </center>
+         <center>
+          All Crossbows and Bow Turrets now show if they're loaded and the type of arrow loaded to other players
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2025/9w14/apr2025_impactdecals_02_4k.jpg"/>
+         <center>
+          <b>
+           More Unique Impact Details
+          </b>
+         </center>
+         <center>
+          More impact details are now rotated, and scaled randomly to increase uniqueness
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/4X97/Discord_M21krJiFQd.jpg"/>
+         <center>
+          <b>
+           Hanging Banner
+          </b>
+         </center>
+         <center>
+          Hanging banner can now be placed at a greater distance allowing ease of placement
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/6S35/Discord_zTVGruTidj.jpg"/>
+         <center>
+          <b>
+           Pole Banner
+          </b>
+         </center>
+         <center>
+          The pole banner can now be placed on construction
+         </center>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="BeesystemBalanceImprovements">
+  <div class="section" like-handler="LikeBlogSection" like-id="84609" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Bee system Balance &amp; Improvements
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      A number of changes are now being rolled out to the Bee System to help balance and improve the overall experience. I'll start with the most important and work down.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       Bee Swarms
+      </b>
+      <br/>
+      <ul>
+       <li>
+        <b>
+         Takes all clothing protection into consideration
+        </b>
+        : This means that when the Bees sting you their damage is reduced according to all of your clothing, just like damage from any other sources. Hazmat suits
+        <b>
+         still
+        </b>
+        block all damage that comes from Bees.
+       </li>
+       <li>
+        <b>
+         Swarms no longer directly stack on top of each other:
+        </b>
+        When attacking someone with Bee Swarms you could pile on Bee Swarms and each Swarm would do its own damage. This meant 10 Bee Swarms would do 10x damage. Bee Swarms now do
+        <b>
+         less
+        </b>
+        and
+        <b>
+         less
+        </b>
+        damage with each swarm piled on top.
+       </li>
+      </ul>
+      <b>
+       Beehives
+       <br/>
+      </b>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/0U20/beehive_UI_01.jpg"/>
+     </div>
+     <div>
+      <ul>
+       <li>
+        <b>
+         Adjustments:
+        </b>
+        Beehives were creating too much Honeycomb in the Temperate Biome, this has now been rebalanced.
+       </li>
+       <li>
+        <b>
+         Hostile Environments:
+        </b>
+        Beehives now work properly in hostile environments. Remember to use heaters in the snow!
+       </li>
+       <li>
+        <b>
+         Is Producing Honeycomb:
+        </b>
+        Due to the slow fill up of the nucleus status bar: it was hard to know if your hive was producing Honeycomb or not. There's now an indicator at the bottom to make it more clear.
+       </li>
+       <li>
+        <b>
+         Temperature Readout:
+        </b>
+        it was hard to see what the temperature bar meant. It's now possible to see exactly what temperature is being read out. This should hopefully make it a bit more clear.
+        <br/>
+        <br/>
+       </li>
+      </ul>
+      A bunch of bug fixes and hardening of the Bee System rolls out with this patch. Hopefully everything is a bit more snappy.
+      <br/>
+      <br/>
+      I hope you have all been having fun with the Bees!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="AreaofEffectVolumes">
+  <div class="section" like-handler="LikeBlogSection" like-id="84608" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Area of Effect Volumes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      It was always difficult to know what range a Sprinkler or Heater had.
+      <br/>
+      <br/>
+      This change provides some visualisation for area of effects. This means you can see the area of effect of a Sprinkler, Heater, Shotgun Trap, Flame Turret, Igniter, Various Sensors etc.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/0657/apr2025_sprinklerheater_02.jpg"/>
+     </div>
+     <div>
+      This volume only gives a rough outline of where the object will affect and not exactly what objects will be affected, but it's a great start. As with anything: this can be disabled in the settings if you don't like it.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/2269/apr2025_sprinklerheater_03.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="abysspacknewSUNKENKNIFE">
+  <div class="section" like-handler="LikeBlogSection" like-id="84595" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       abyss pack - new SUNKEN KNIFE
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      August 2023's
+      <a class="" href="https://rust.facepunch.com/skins/abyss" target="https://rust.facepunch.com/skins/abyss">
+       Abyss Pack
+      </a>
+      has been updated to now include a new free item!
+     </div>
+     <div>
+      <br/>
+      The Sunken Knife is a new addition that follows in the aesthetic of the
+      <span>
+       rest of the damaged deep-water items found in the abyss. But don't worry, despite its corroded form, it still functions fully as a sharp close combat weapon.
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250314/rust_abysspack_sunkenknife_01.jpg"/>
+     </div>
+     <div>
+      If you already own the Abyss Pack, the new Sunken Knife skin will automatically be added as a skin option for the Combat Knife.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250320/rust_abysspack_sunkenknife_04.jpg"/>
+     </div>
+     <div>
+      You can get the pack on the Steam Item Store.
+      <br/>
+      <br/>
+      For more information and all media, head
+      <a class="" href="https://rust.facepunch.com/skins/abyss" target="https://rust.facepunch.com/skins/abyss">
+       here
+      </a>
+      .
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="PremiumServerUpdate">
+  <div class="section" like-handler="LikeBlogSection" like-id="84606" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Premium Server Update
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      It’s been just a few weeks since we launched
+      <strong data-end="241" data-start="222">
+       <a class="selected" href="https://rust.facepunch.com/news/premium-servers">
+        Premium Servers
+       </a>
+      </strong>
+      , and we’re happy to report they’ve been a solid win.
+      <br/>
+      <br/>
+      The goal was simple: create a more secure environment with less cheating by requiring a minimum $15 Steam inventory to join. So far, the results speak for themselves. According to our internal review, players on Premium Servers encounter cheaters around four times less often than those on regular servers.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/105/03/2025/4y97/RustClient_FZFr8oSdQm.jpg"/>
+     </div>
+     <div>
+      <br/>
+      Even with fewer Premium Servers running, their populations have stayed healthy, especially outside of peak hours, where they’ve occasionally outpaced non-premium servers.
+      <br/>
+      <br/>
+      We’ll continue monitoring how these servers evolve and may adjust thresholds or requirements over time, but for now, we’re calling this launch a success. Thanks to everyone who jumped in early and helped make it work.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      If you're looking for a better experience, I highly recommend sticking with Premium.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="LinuxDedicatedServerUpdate">
+  <div class="section" like-handler="LikeBlogSection" like-id="84597" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Linux Dedicated Server Update
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Last September
+      <a class="" href="https://rust.facepunch.com/news/time-to-kill#Linuxdedicatedserverupdate" target="">
+       we announced
+      </a>
+      that we will have to retire dedicated server support for Debian 10 / Ubuntu 18 soon. This change is now around the corner, so this is one last warning to all server owners and hosting providers to update their infrastructure accordingly. Our new minimum requirements will be Debian 11 / Ubuntu 20.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="CREATIVEMODENOFUELalwayson">
+  <div class="section" like-handler="LikeBlogSection" like-id="84604" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       CREATIVE MODE: NO FUEL/always on
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      For server owners and admins: I've added a way to make all fuel sources such as furnaces, candles, etc, work without fuel in creative mode.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The following new commands can be used to toggle it for individual entity instances:
+     </div>
+     <div>
+      <br/>
+      <ul>
+       <li>
+        toggleAlwaysOnAll &lt;true/false&gt; - Toggles the mode for all supported entities on a server (admin only)
+       </li>
+       <li>
+        toggleAlwaysOn &lt;true/false&gt; - Toggles the mode for the entity you are currently looking at
+       </li>
+       <li>
+        toggleAlwaysOnRadius &lt;true/false&gt; &lt;radius&gt; - Toggles the mode for all entities in specified radius
+       </li>
+      </ul>
+      <br/>
+      All these commands and features require creative mode to be enabled for the player or all players.
+      <br/>
+      <br/>
+      I've also added the creative.AlwaysOnEnabled convar which needs to be enabled for the whole thing to work.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      When in this mode, some new item specific features help make the process smoother, such as torch holders spawning a torch item if the commands are used on empty torch holders and other items such as the candle now don't use up durability and can run forever.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="HackeroneBountyProgram">
+  <div class="section" like-handler="LikeBlogSection" like-id="84598" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Hackerone Bounty Program
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've been testing
+      <a class="" href="https://www.hackerone.com/">
+       Hackerone
+      </a>
+      for a good while now and have had some good experiences with it. For those that don't know, Hackerone allows reporting security vulnerabilities and exploits in exchange for a bug bounty as a win-win for both us and whoever submitted the report. In order to make this easier going forward, we've set up a
+      <a class="" href="https://facepunch.com/security">
+       dedicated security page
+      </a>
+      on our website that makes submitting reports extremely easy, secure and straightforward. If you or someone you know are aware of something that fits our bug bounty program rules as laid out on our security page, please don't hesitate to submit a report via the link above.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="discordsocialintegrationreward">
+  <div class="section" like-handler="LikeBlogSection" like-id="84607" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       discord social integration reward
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0111b1/apr2025_discordtrophy_02.jpg"/>
+     </div>
+     <div>
+      In February, we rolled out a social integration layer to Rust, no more alt-tabbing - you can view, chat, invite, and add friends, all from right inside the game, all through Discord.
+      <br/>
+      <br/>
+      The feedback for this has been fantastic and now we've partnered with Discord to provide players that sync their accounts with a reward - a Discord Trophy that is craftable and deployable in-game!
+      <br/>
+      <br/>
+      Not linked your accounts yet? Head in game and sync your Steam and Discord friend with ease, right from the main menu!
+      <br/>
+      <br/>
+      Here's a quick how to:
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/danieltyler/1b2811b1/rust_discord_integration_v3_16x9_webm.webm">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="JungleUpdateteaser">
+  <div class="section" like-handler="LikeBlogSection" like-id="84615" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Jungle Update teaser
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       The Jungle Update is coming and approaching final development stages, and with it comes a brand new biome, new early-game weapons, and a whole cast of deadly new wildlife including crocodiles, snakes, and more.
+      </div>
+      <div>
+       <br/>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/8537/jungleUpdate_teaser_tiger_01.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-style="columns">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/3a26/jungleUpdate_teaser_tiger_08.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/2Q88/jungleUpdate_teaser_tiger_06.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      We’re planning to kick off public testing early this month, so if you’re eager to get a first look (or first bite), keep an eye on our socials and Discord announcements for when testing begins. We'd love to hear your feedback.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="commandlineargumentsoverrule">
+  <div class="section" like-handler="LikeBlogSection" like-id="84616" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       command line arguments overrule
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       Some server command-line arguments weren’t being applied correctly if conflicting values were already saved in server.cfg.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       We’ve now updated the server bootstrap process to reload command-line arguments after loading server.cfg, ensuring that command-line values always take precedence.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       If you're a server owner and running Rust on Linux or using a third-party server manager like Pterodactyl, we recommend reviewing your setup to make sure everything is working as expected.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Easter">
+  <div class="section" like-handler="LikeBlogSection" like-id="84605" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Easter
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       On April 10th at 17:00 BST we'll be releasing an optional update to enable this years Easter events and releasing the Horse costume.
+       <br/>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       During the Easter event every 24-38 hours in-game hours an Easter egg hunt will begin. You'll have 3 minutes to collect as many eggs as you can. The top 3 players are given special eggs as a reward. These eggs can be cracked open for various types of loot ranging from scrap all the way up to an M249!
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Soft Refresh
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       April Update
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Thursday, April 3, 2025
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
+    </div>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced PvP bullet damage by 25% (Softcore)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Containers can't be opened without building privilege (Softcore)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          When dying, you’ll now respawn with 50% of your inventory automatically (Softcore)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Destroyed containers now create a destroyed version of themselves that saves 50% of your loot and can be repaired/picked up (Softcore)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Destroyed Tool Cupboards will still apply building authorization for 48 hours, can only be repaired by owner (Softcore)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can now respawn one last time at a destroyed sleeping bag (Softcore)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added range visualizations to a variety of entities (Sprinkler, Heater, HBHF Sensor, Igniter, Auto Turret, Flame Turret, Shotgun Trap, Tesla Coil)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New creative mode to turn entities on/off without power/fuel (see creative.AlwaysOnEnabled)
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Bread now heals over time instead of instantly
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Chicken coop now shows a list of all valid food items
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added some more valid food like honeycomb and birthday cake
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved how we display the temperature changes from the warming/cooling teas
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved how temperature is displayed when inspecting beehives
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved the shield stamina bar sync with the server, especially with high latency
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved Bee Grenade description
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Show food spoilage level on the item icon using the condition bar (green bar on the left)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can now place parachutes on weapon racks
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New “clear_bushes_radius” admin command to clear client side foliage around the camera
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Removed legacy GameAnalytics system
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          drawColliders now works in demos
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fill in the default name of the weapon when exporting the mesh (Workshop Editor)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Show all LODs of entities (Workshop Editor)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Time of Day no longer progresses over time (Workshop Editor)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a skybox rotation slider (Workshop Editor)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          First person hands skin colour now matches the spawned player (Workshop Editor)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved server performance of server.playerlistpos command
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Command-line-arguments now overrule anything previously written to config
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Significantly reduced the physics overhead of inactive vehicles
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Parachutes can now be placed on weapon racks
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Pie recipe ingredient order is now standardised
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved temperature status readability for temperature tea consumable information panels
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced the size of the sunflower world model to fix clipping issues and generally be less annoying
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Made Legacy Shelter Icon smaller
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Allow Bota Bag and Honeycomb in the Fridge
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Beehive Nuclei can now be composted
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added visualisation volumes to a bunch of deployables
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can now see others arrows loaded in bows/crossbows
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Rugs can now be placed under other deployables
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed 3p revolver cylinder staying open if swapping weapons mid reload
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed weapon attachments not loading properly when using server occlusion (affected silencer shots)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed sleeping players sometimes being invisible when using server occlusion
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed HV rocket using regular rocket sounds
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Possibly fixed water IO not working properly after a server restart (server.useLegacySprinklerLoadProcess convar will revert to old behaviour)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed not being able to mount handcuffed players to the new ridable horses
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Car radio item drop/pickup/impact sfx now use the appropriate burlap sack sfx
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a gap under Canyon C
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a spot where players could get stuck between two boxes at Satellite Dish
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a cliff that players get under in Water Treatment Plant
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to wield weapons while mounted to ballistas
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to fire submarine torpedoes in safe zones
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed cooking visuals not correct on hobo barrels in monuments
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Possible fix for emoji error when disconnecting from servers
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Possible fix for chicken egg drop server error
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Bee Grenades now properly assign their owner (PvE)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed birthday cake not showing consumption info in Inventory
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed wooden armour description referencing rope as a crafting ingredient
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some inconsistencies when switching to and from knight amour skins in a Repair Bench
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed reskinning a Fridge turning off the IO light
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed MIDI errors when running on a Mac
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed takeScreenshot command turning off TSSAA
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed F1 grenade throwing errors (Workshop Editor)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to steal armor inserts or weapon mods from a surrendering player
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can no longer fire torpedoes from within a safe zone
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Orchid, rose and sunflowers now show the correct icons in the growables UI.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed any force-dropped items remaining locked when surrendering.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Beehives not working properly in the snow/desert
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Beehives having a secret 6th slot that would fill up and not be able to be emptied
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Beehives putting logs in server console
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed inventory radiation protection amount moving up/down depending on order of items in armour slots
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed items sometimes keeping cooking icon if they are removed from the Electric Furnace mid cook
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed vending machines showing rope as '0 ft'
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed 'ent kill' killing building blocks behind dropped items
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed boxes, locker, fridge and vending machines gibs not using skins
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Some fixes on entities missing their owner ids
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed powered searchlights not lighting up in some cases
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed players getting stuck in a noclip cycle when respawning partially inside of an object
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 03 Apr 2025 13:45:00 Z</pubDate>
+    </item>
+    <item>
       <title>Easter 2025</title>
       <link>https://rust.facepunch.com/news/easter-2025/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -3046,1590 +4630,6 @@
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 01 May 2025 01:49:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Soft Refresh</title>
-      <link>https://rust.facepunch.com/news/soft-refresh/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Soft Refresh
-    </h1>
-    <p editname="Summary" type="text">
-     This month's update brings Softcore game mode refresh with deployable debris, respawn and upkeep changes, External Wall DLC and a glimpse at the upcoming Jungle update
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      03 April 2025
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="DeployableDebrisSoftcore">
-  <div class="section" like-handler="LikeBlogSection" like-id="84593" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Deployable Debris (Softcore)
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       A selection of deployable objects in your base will now leave behind a destroyed version when killed in the softcore game mode, allowing you to repair them to quickly get your base back up and running after a raid.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       When destroyed, these objects will drop 50% of their contents, the other 50% will be stored inside and accessible only by the player owners.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2025/1B08/softcore_deployablecorpses_01.jpg"/>
-     </div>
-     <div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       <div>
-        <div>
-         If the deployable is destroyed due to losing its ground, it will fall to the nearest position and won't be repairable on the spot. You can still pick it up with a hammer and repair it later at a repair bench.
-        </div>
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        This new behaviour is enabled on:
-       </div>
-      </div>
-      <ul>
-       <li>
-        Large Wooden Box
-       </li>
-       <li>
-        Storage Barrels
-       </li>
-       <li>
-        Small Wooden Box
-       </li>
-       <li>
-        Coffin
-       </li>
-       <li>
-        Small Furnace
-       </li>
-       <li>
-        Electric Furnace
-       </li>
-       <li>
-        Locker
-       </li>
-       <li>
-        Tool Cupboard
-       </li>
-       <li>
-        Fridge
-       </li>
-       <li>
-        Vending Machine
-       </li>
-       <li>
-        All Workbenches
-       </li>
-      </ul>
-     </div>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-style="columns">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/6350/softcore_deployablecorpses_04.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/8S61/softcore_deployablecorpses_02%20%281%29.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      In the case of Tool Cupboards, the destroyed version will still provide building authorization in its normal radius for 48 hours and can only be repaired by players that were authorized on it.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Whilst this feature is only applied to the softcore game mode, it's a bit of an experiment, and we may bring it over to the vanilla game in future.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="RespawnCHangesSoftcore">
-  <div class="section" like-handler="LikeBlogSection" like-id="84594" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Respawn CHanges (Softcore)
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The Reclaim Terminal at Outpost has been removed, and we don’t think you’ll miss it.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      In Softcore, if you die outside of a building privilege radius, you’ll now respawn with 50% of your inventory automatically. No more sprinting to Outpost, hoping your stuff didn’t get looted, and waiting around to reclaim your bits and pieces. The system is now faster, cleaner, and more forgiving.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/Alistair/102/04/2025/7S61/softcoreupdate_respawnchanges_04.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <div>
-       We’ve also improved how that 50% is calculated. Previously, it would just grab half of your item stacks, meaning you could end up keeping full stacks of low-value junk while losing all your meds or ammo. Now, it does what you'd expect: you keep 50% of your total count for stackables, which makes the whole thing a lot fairer and more predictable.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       This change should help reduce the friction after dying in the field while keeping the Softcore experience accessible for players who are still learning the ropes—or just trying to get back on their feet.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="UpkeeptaxchangesSoftcore">
-  <div class="section" like-handler="LikeBlogSection" like-id="84596" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Upkeep tax changes (Softcore)
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Softcore mode has higher upkeep rates for doors to discourage massive sprawling bases and encourage more raiding. Building blocks are unchanged.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2025/8Z54/softcoreUpdate_upkeeptax_05.jpg"/>
-     </div>
-     <div>
-      <div>
-       The difference is pretty significant: the average large base will now see door upkeep around 90%, compared to 30% in vanilla. Smaller, tighter bases won’t feel this as much, but sprawling honeycomb bunkers stuffed with doors will now come with a proper maintenance bill.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       The aim here is to discourage door mazes that sit untouched for weeks and make raiding more viable, even if you’re not rolling with a full zerg. You’ll still need to defend your loot, but you might have to think twice before slapping down that 38th garage door “just in case.”
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="PvPDamageSoftcore">
-  <div class="section" like-handler="LikeBlogSection" like-id="84601" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       PvP Damage (Softcore)
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Softcore mode has always been about giving newer or more casual players a gentler way to ease into the brutality of Rust. With that in mind, we’ve made a change that should make early PvP feel a little less punishing: bullet damage from one player to another has been reduced by
-      <strong data-end="458" data-start="451">
-       25%
-      </strong>
-      in Softcore.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/paddy/20240905/rust_202409_ttk_heroimage.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      The goal here is simple - give fights more breathing room. Instead of being instantly downed the moment someone spots you with a semi, you’ll have a bit more time to react, reposition, or even fight back. We want to encourage longer, scrappier engagements where you actually get to play the fight, not just die in it.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="SleepingBagChangessoftcore">
-  <div class="section" like-handler="LikeBlogSection" like-id="84602" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Sleeping Bag Changes (softcore)
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Sleeping Bags/Towels/Beds will now function slightly differently in softcore mode. When destroyed, they will be replaced with a new destroyed version that will still allow the player to respawn at that point one last time.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/4z81/apr2025_sleepingbagcorpses_03.jpg"/>
-     </div>
-     <div>
-      Once you respawn the bag will be destroyed. Bags in this state have a little skull icon next to them on the map/respawn screen.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="AdobeWallandGate">
-  <div class="section" like-handler="LikeBlogSection" like-id="84617" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Adobe Wall and Gate
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month, we’re introducing the Adobe external wall and gate skin pack, now a
-      <span>
-       vailable from the
-      </span>
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10304/" target="_blank">
-       Rust store
-      </a>
-      . T
-      <span>
-       he Adobe external wall and gate skin pack allows you to change the visuals of your external walls and gates.
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/8z00/highwalls_adobe_04.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-alignment="default" data-gallery-style="medium">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/1381/highwalls_adobe_15.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/1809/highwalls_adobe_09.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/9y20/highwalls_adobe_16.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/4F74/highwalls_adobe_01.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      You can use the Spray Can item to reskin your external walls.
-     </div>
-     <div>
-      <span>
-       <br/>
-      </span>
-     </div>
-     <div>
-      <span>
-       <br/>
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="QualityofLifeChanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84603" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Quality of Life Changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2025/7w85/apr2025_fridge_01.jpg"/>
-        <center>
-         <b>
-          Fridge Changes
-         </b>
-        </center>
-        <center>
-         Bota Bags and Honeycomb can now be placed in Fridges
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2025/5g88/apr2025_rug_03_4k.jpg"/>
-        <center>
-         <b>
-          Easy Rug Deployment
-         </b>
-        </center>
-        <center>
-         Can now place rugs under already placed deployables
-        </center>
-       </div>
-       <div class="columns is-multiline">
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2025/9G80/QOL_bowammo_01.jpg"/>
-         <center>
-          <b>
-           Crossbow &amp; Turret Arrows
-          </b>
-         </center>
-         <center>
-          All Crossbows and Bow Turrets now show if they're loaded and the type of arrow loaded to other players
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2025/9w14/apr2025_impactdecals_02_4k.jpg"/>
-         <center>
-          <b>
-           More Unique Impact Details
-          </b>
-         </center>
-         <center>
-          More impact details are now rotated, and scaled randomly to increase uniqueness
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/4X97/Discord_M21krJiFQd.jpg"/>
-         <center>
-          <b>
-           Hanging Banner
-          </b>
-         </center>
-         <center>
-          Hanging banner can now be placed at a greater distance allowing ease of placement
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/6S35/Discord_zTVGruTidj.jpg"/>
-         <center>
-          <b>
-           Pole Banner
-          </b>
-         </center>
-         <center>
-          The pole banner can now be placed on construction
-         </center>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="BeesystemBalanceImprovements">
-  <div class="section" like-handler="LikeBlogSection" like-id="84609" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Bee system Balance &amp; Improvements
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      A number of changes are now being rolled out to the Bee System to help balance and improve the overall experience. I'll start with the most important and work down.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       Bee Swarms
-      </b>
-      <br/>
-      <ul>
-       <li>
-        <b>
-         Takes all clothing protection into consideration
-        </b>
-        : This means that when the Bees sting you their damage is reduced according to all of your clothing, just like damage from any other sources. Hazmat suits
-        <b>
-         still
-        </b>
-        block all damage that comes from Bees.
-       </li>
-       <li>
-        <b>
-         Swarms no longer directly stack on top of each other:
-        </b>
-        When attacking someone with Bee Swarms you could pile on Bee Swarms and each Swarm would do its own damage. This meant 10 Bee Swarms would do 10x damage. Bee Swarms now do
-        <b>
-         less
-        </b>
-        and
-        <b>
-         less
-        </b>
-        damage with each swarm piled on top.
-       </li>
-      </ul>
-      <b>
-       Beehives
-       <br/>
-      </b>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/0U20/beehive_UI_01.jpg"/>
-     </div>
-     <div>
-      <ul>
-       <li>
-        <b>
-         Adjustments:
-        </b>
-        Beehives were creating too much Honeycomb in the Temperate Biome, this has now been rebalanced.
-       </li>
-       <li>
-        <b>
-         Hostile Environments:
-        </b>
-        Beehives now work properly in hostile environments. Remember to use heaters in the snow!
-       </li>
-       <li>
-        <b>
-         Is Producing Honeycomb:
-        </b>
-        Due to the slow fill up of the nucleus status bar: it was hard to know if your hive was producing Honeycomb or not. There's now an indicator at the bottom to make it more clear.
-       </li>
-       <li>
-        <b>
-         Temperature Readout:
-        </b>
-        it was hard to see what the temperature bar meant. It's now possible to see exactly what temperature is being read out. This should hopefully make it a bit more clear.
-        <br/>
-        <br/>
-       </li>
-      </ul>
-      A bunch of bug fixes and hardening of the Bee System rolls out with this patch. Hopefully everything is a bit more snappy.
-      <br/>
-      <br/>
-      I hope you have all been having fun with the Bees!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="AreaofEffectVolumes">
-  <div class="section" like-handler="LikeBlogSection" like-id="84608" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Area of Effect Volumes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      It was always difficult to know what range a Sprinkler or Heater had.
-      <br/>
-      <br/>
-      This change provides some visualisation for area of effects. This means you can see the area of effect of a Sprinkler, Heater, Shotgun Trap, Flame Turret, Igniter, Various Sensors etc.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/0657/apr2025_sprinklerheater_02.jpg"/>
-     </div>
-     <div>
-      This volume only gives a rough outline of where the object will affect and not exactly what objects will be affected, but it's a great start. As with anything: this can be disabled in the settings if you don't like it.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/2269/apr2025_sprinklerheater_03.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="abysspacknewSUNKENKNIFE">
-  <div class="section" like-handler="LikeBlogSection" like-id="84595" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       abyss pack - new SUNKEN KNIFE
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      August 2023's
-      <a class="" href="https://rust.facepunch.com/skins/abyss" target="https://rust.facepunch.com/skins/abyss">
-       Abyss Pack
-      </a>
-      has been updated to now include a new free item!
-     </div>
-     <div>
-      <br/>
-      The Sunken Knife is a new addition that follows in the aesthetic of the
-      <span>
-       rest of the damaged deep-water items found in the abyss. But don't worry, despite its corroded form, it still functions fully as a sharp close combat weapon.
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250314/rust_abysspack_sunkenknife_01.jpg"/>
-     </div>
-     <div>
-      If you already own the Abyss Pack, the new Sunken Knife skin will automatically be added as a skin option for the Combat Knife.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250320/rust_abysspack_sunkenknife_04.jpg"/>
-     </div>
-     <div>
-      You can get the pack on the Steam Item Store.
-      <br/>
-      <br/>
-      For more information and all media, head
-      <a class="" href="https://rust.facepunch.com/skins/abyss" target="https://rust.facepunch.com/skins/abyss">
-       here
-      </a>
-      .
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="PremiumServerUpdate">
-  <div class="section" like-handler="LikeBlogSection" like-id="84606" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Premium Server Update
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      It’s been just a few weeks since we launched
-      <strong data-end="241" data-start="222">
-       <a class="selected" href="https://rust.facepunch.com/news/premium-servers">
-        Premium Servers
-       </a>
-      </strong>
-      , and we’re happy to report they’ve been a solid win.
-      <br/>
-      <br/>
-      The goal was simple: create a more secure environment with less cheating by requiring a minimum $15 Steam inventory to join. So far, the results speak for themselves. According to our internal review, players on Premium Servers encounter cheaters around four times less often than those on regular servers.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/105/03/2025/4y97/RustClient_FZFr8oSdQm.jpg"/>
-     </div>
-     <div>
-      <br/>
-      Even with fewer Premium Servers running, their populations have stayed healthy, especially outside of peak hours, where they’ve occasionally outpaced non-premium servers.
-      <br/>
-      <br/>
-      We’ll continue monitoring how these servers evolve and may adjust thresholds or requirements over time, but for now, we’re calling this launch a success. Thanks to everyone who jumped in early and helped make it work.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      If you're looking for a better experience, I highly recommend sticking with Premium.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="LinuxDedicatedServerUpdate">
-  <div class="section" like-handler="LikeBlogSection" like-id="84597" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Linux Dedicated Server Update
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Last September
-      <a class="" href="https://rust.facepunch.com/news/time-to-kill#Linuxdedicatedserverupdate" target="">
-       we announced
-      </a>
-      that we will have to retire dedicated server support for Debian 10 / Ubuntu 18 soon. This change is now around the corner, so this is one last warning to all server owners and hosting providers to update their infrastructure accordingly. Our new minimum requirements will be Debian 11 / Ubuntu 20.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="CREATIVEMODENOFUELalwayson">
-  <div class="section" like-handler="LikeBlogSection" like-id="84604" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       CREATIVE MODE: NO FUEL/always on
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      For server owners and admins: I've added a way to make all fuel sources such as furnaces, candles, etc, work without fuel in creative mode.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The following new commands can be used to toggle it for individual entity instances:
-     </div>
-     <div>
-      <br/>
-      <ul>
-       <li>
-        toggleAlwaysOnAll &lt;true/false&gt; - Toggles the mode for all supported entities on a server (admin only)
-       </li>
-       <li>
-        toggleAlwaysOn &lt;true/false&gt; - Toggles the mode for the entity you are currently looking at
-       </li>
-       <li>
-        toggleAlwaysOnRadius &lt;true/false&gt; &lt;radius&gt; - Toggles the mode for all entities in specified radius
-       </li>
-      </ul>
-      <br/>
-      All these commands and features require creative mode to be enabled for the player or all players.
-      <br/>
-      <br/>
-      I've also added the creative.AlwaysOnEnabled convar which needs to be enabled for the whole thing to work.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      When in this mode, some new item specific features help make the process smoother, such as torch holders spawning a torch item if the commands are used on empty torch holders and other items such as the candle now don't use up durability and can run forever.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="HackeroneBountyProgram">
-  <div class="section" like-handler="LikeBlogSection" like-id="84598" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Hackerone Bounty Program
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've been testing
-      <a class="" href="https://www.hackerone.com/">
-       Hackerone
-      </a>
-      for a good while now and have had some good experiences with it. For those that don't know, Hackerone allows reporting security vulnerabilities and exploits in exchange for a bug bounty as a win-win for both us and whoever submitted the report. In order to make this easier going forward, we've set up a
-      <a class="" href="https://facepunch.com/security">
-       dedicated security page
-      </a>
-      on our website that makes submitting reports extremely easy, secure and straightforward. If you or someone you know are aware of something that fits our bug bounty program rules as laid out on our security page, please don't hesitate to submit a report via the link above.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="discordsocialintegrationreward">
-  <div class="section" like-handler="LikeBlogSection" like-id="84607" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       discord social integration reward
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0111b1/apr2025_discordtrophy_02.jpg"/>
-     </div>
-     <div>
-      In February, we rolled out a social integration layer to Rust, no more alt-tabbing - you can view, chat, invite, and add friends, all from right inside the game, all through Discord.
-      <br/>
-      <br/>
-      The feedback for this has been fantastic and now we've partnered with Discord to provide players that sync their accounts with a reward - a Discord Trophy that is craftable and deployable in-game!
-      <br/>
-      <br/>
-      Not linked your accounts yet? Head in game and sync your Steam and Discord friend with ease, right from the main menu!
-      <br/>
-      <br/>
-      Here's a quick how to:
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/danieltyler/1b2811b1/rust_discord_integration_v3_16x9_webm.webm">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="JungleUpdateteaser">
-  <div class="section" like-handler="LikeBlogSection" like-id="84615" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Jungle Update teaser
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       The Jungle Update is coming and approaching final development stages, and with it comes a brand new biome, new early-game weapons, and a whole cast of deadly new wildlife including crocodiles, snakes, and more.
-      </div>
-      <div>
-       <br/>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/8537/jungleUpdate_teaser_tiger_01.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-style="columns">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/3a26/jungleUpdate_teaser_tiger_08.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/04/2025/2Q88/jungleUpdate_teaser_tiger_06.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      We’re planning to kick off public testing early this month, so if you’re eager to get a first look (or first bite), keep an eye on our socials and Discord announcements for when testing begins. We'd love to hear your feedback.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="commandlineargumentsoverrule">
-  <div class="section" like-handler="LikeBlogSection" like-id="84616" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       command line arguments overrule
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       Some server command-line arguments weren’t being applied correctly if conflicting values were already saved in server.cfg.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       We’ve now updated the server bootstrap process to reload command-line arguments after loading server.cfg, ensuring that command-line values always take precedence.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       If you're a server owner and running Rust on Linux or using a third-party server manager like Pterodactyl, we recommend reviewing your setup to make sure everything is working as expected.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Easter">
-  <div class="section" like-handler="LikeBlogSection" like-id="84605" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Easter
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       On April 10th at 17:00 BST we'll be releasing an optional update to enable this years Easter events and releasing the Horse costume.
-       <br/>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       During the Easter event every 24-38 hours in-game hours an Easter egg hunt will begin. You'll have 3 minutes to collect as many eggs as you can. The top 3 players are given special eggs as a reward. These eggs can be cracked open for various types of loot ranging from scrap all the way up to an M249!
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="change-blog-container">
-  <div class="container">
-   <div class="changes-container" id="changelist">
-    <div class="changes-sidebar">
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Patch Name
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Soft Refresh
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Changelist Title
-      </span>
-      <a class="title" style="text-decoration: none;">
-       April Update
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <a class="date" style="text-decoration: none;">
-       <span class="icon">
-        <i>
-         date_range
-        </i>
-       </span>
-       Thursday, April 3, 2025
-      </a>
-     </div>
-     <div class="sidebar-section">
-     </div>
-    </div>
-    <div class="changes-body">
-     <div class="changes-row features">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         add_circle
-        </i>
-       </span>
-       <h3>
-        Features
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduced PvP bullet damage by 25% (Softcore)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Containers can't be opened without building privilege (Softcore)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          When dying, you’ll now respawn with 50% of your inventory automatically (Softcore)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Destroyed containers now create a destroyed version of themselves that saves 50% of your loot and can be repaired/picked up (Softcore)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Destroyed Tool Cupboards will still apply building authorization for 48 hours, can only be repaired by owner (Softcore)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can now respawn one last time at a destroyed sleeping bag (Softcore)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added range visualizations to a variety of entities (Sprinkler, Heater, HBHF Sensor, Igniter, Auto Turret, Flame Turret, Shotgun Trap, Tesla Coil)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          New creative mode to turn entities on/off without power/fuel (see creative.AlwaysOnEnabled)
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row improvements">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         arrow_circle_up
-        </i>
-       </span>
-       <h3>
-        Improvements
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Bread now heals over time instead of instantly
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Chicken coop now shows a list of all valid food items
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added some more valid food like honeycomb and birthday cake
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved how we display the temperature changes from the warming/cooling teas
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved how temperature is displayed when inspecting beehives
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved the shield stamina bar sync with the server, especially with high latency
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved Bee Grenade description
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Show food spoilage level on the item icon using the condition bar (green bar on the left)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can now place parachutes on weapon racks
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          New “clear_bushes_radius” admin command to clear client side foliage around the camera
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Removed legacy GameAnalytics system
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          drawColliders now works in demos
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fill in the default name of the weapon when exporting the mesh (Workshop Editor)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Show all LODs of entities (Workshop Editor)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Time of Day no longer progresses over time (Workshop Editor)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added a skybox rotation slider (Workshop Editor)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          First person hands skin colour now matches the spawned player (Workshop Editor)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved server performance of server.playerlistpos command
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Command-line-arguments now overrule anything previously written to config
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Significantly reduced the physics overhead of inactive vehicles
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Parachutes can now be placed on weapon racks
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Pie recipe ingredient order is now standardised
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved temperature status readability for temperature tea consumable information panels
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduced the size of the sunflower world model to fix clipping issues and generally be less annoying
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Made Legacy Shelter Icon smaller
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Allow Bota Bag and Honeycomb in the Fridge
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Beehive Nuclei can now be composted
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added visualisation volumes to a bunch of deployables
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can now see others arrows loaded in bows/crossbows
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Rugs can now be placed under other deployables
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row fixed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         handyman
-        </i>
-       </span>
-       <h3>
-        Fixed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed 3p revolver cylinder staying open if swapping weapons mid reload
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed weapon attachments not loading properly when using server occlusion (affected silencer shots)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed sleeping players sometimes being invisible when using server occlusion
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed HV rocket using regular rocket sounds
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Possibly fixed water IO not working properly after a server restart (server.useLegacySprinklerLoadProcess convar will revert to old behaviour)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed not being able to mount handcuffed players to the new ridable horses
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Car radio item drop/pickup/impact sfx now use the appropriate burlap sack sfx
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a gap under Canyon C
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a spot where players could get stuck between two boxes at Satellite Dish
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a cliff that players get under in Water Treatment Plant
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to wield weapons while mounted to ballistas
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to fire submarine torpedoes in safe zones
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed cooking visuals not correct on hobo barrels in monuments
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Possible fix for emoji error when disconnecting from servers
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Possible fix for chicken egg drop server error
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Bee Grenades now properly assign their owner (PvE)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed birthday cake not showing consumption info in Inventory
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed wooden armour description referencing rope as a crafting ingredient
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some inconsistencies when switching to and from knight amour skins in a Repair Bench
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed reskinning a Fridge turning off the IO light
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed MIDI errors when running on a Mac
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed takeScreenshot command turning off TSSAA
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed F1 grenade throwing errors (Workshop Editor)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to steal armor inserts or weapon mods from a surrendering player
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can no longer fire torpedoes from within a safe zone
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Orchid, rose and sunflowers now show the correct icons in the growables UI.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed any force-dropped items remaining locked when surrendering.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Beehives not working properly in the snow/desert
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Beehives having a secret 6th slot that would fill up and not be able to be emptied
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Beehives putting logs in server console
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed inventory radiation protection amount moving up/down depending on order of items in armour slots
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed items sometimes keeping cooking icon if they are removed from the Electric Furnace mid cook
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed vending machines showing rope as '0 ft'
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed 'ent kill' killing building blocks behind dropped items
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed boxes, locker, fridge and vending machines gibs not using skins
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Some fixes on entities missing their owner ids
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed powered searchlights not lighting up in some cases
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed players getting stuck in a noclip cycle when respawning partially inside of an object
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 03 Apr 2025 13:45:00 Z</pubDate>
     </item>
   </channel>
 </rss>
