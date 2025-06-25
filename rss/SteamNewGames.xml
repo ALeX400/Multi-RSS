@@ -160,76 +160,80 @@ Descrierea conținutului pentru adulți indisponibilă.
      Windows
     </h3>
    </center>
-   <div class="ipsSpoiler_contents ipsClearfix">
-    <div class="ipsSpoiler" data-ipsspoiler="">
-     <div class="ipsSpoiler_contents ipsClearfix">
-      <div class="sys_req_container">
-      </div>
-     </div>
+   <div class="sys_req_container">
+    <div class="sys_req_left_col">
+     <ul>
+      <strong>
+       Minimum:
+      </strong>
+      <br/>
+      <ul class="bb_ul">
+       <li>
+        <strong>
+         OS:
+        </strong>
+        Windows 10
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Processor:
+        </strong>
+        3rd Gen i3/AMD FX-4100 Series
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Memory:
+        </strong>
+        2 GB RAM
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Graphics:
+        </strong>
+        GeForce 7 Series/Radeon R7 Series
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Storage:
+        </strong>
+        250 MB available space
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Additional Notes:
+        </strong>
+        1080p display
+       </li>
+      </ul>
+     </ul>
     </div>
-   </div>
-   <center>
-    <h3>
-     MacOS
-    </h3>
-   </center>
-   <div class="ipsSpoiler_contents ipsClearfix">
-    <div class="ipsSpoiler" data-ipsspoiler="">
-     <div class="ipsSpoiler_contents ipsClearfix">
-      <div class="sys_req_container">
-       <div class="sys_req_full">
-        <ul>
-         <strong>
-          Minimum:
-         </strong>
-         <br/>
-         <ul class="bb_ul">
-          <li>
-           <strong>
-            OS:
-           </strong>
-           MacOS 10.14+
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Processor:
-           </strong>
-           Intel Core i7
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Memory:
-           </strong>
-           2 GB RAM
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Graphics:
-           </strong>
-           GeForce 700 Series
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Storage:
-           </strong>
-           250 MB available space
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Additional Notes:
-           </strong>
-           1080p display
-          </li>
-         </ul>
-        </ul>
-       </div>
-      </div>
-     </div>
+    <div class="sys_req_right_col">
+     <ul>
+      <strong>
+       Recommended:
+      </strong>
+      <br/>
+      <ul class="bb_ul">
+       <li>
+        <strong>
+         Memory:
+        </strong>
+        2 MB RAM
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Storage:
+        </strong>
+        250 MB available space
+       </li>
+      </ul>
+     </ul>
     </div>
    </div>
   </div>
@@ -341,7 +345,9 @@ Descrierea conținutului pentru adulți indisponibilă.
   "Lex Imperialis" is the second story expansion for Warhammer 40,000: Rogue Trader, providing an additional 15 hours of thrilling narrative-driven gameplay that explores the iron-clad rule of Imperial Law and introduces an entirely new faction — the Adeptus Arbites. Unravel the dark secrets of House von Valancius as you navigate a perilous web of justice, duty, and betrayal, on a quest that will alter the destiny of the entire Koronus Expanse.
  </p>
  <p class="bb_paragraph">
-  <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3622820/extras/WH40K_RT_DLC_2_GIf_Event.gif"/>
+  <div class="bb_img_ctn">
+   <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3622820/extras/WH40K_RT_DLC_2_GIf_Event.gif"/>
+  </div>
  </p>
  <p class="bb_paragraph">
   <strong>
@@ -350,7 +356,9 @@ Descrierea conținutului pentru adulți indisponibilă.
   Immerse yourself in a tense narrative where your choices as judge and judged ripple throughout the Imperium. Delve into the intricate process of the Grand Harvesting and experience firsthand the grim responsibility of collecting the Imperial Tithe — and the severe consequences that await those who interfere with this sacred duty.
  </p>
  <p class="bb_paragraph">
-  <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3622820/extras/WH40K_RT_DLC_2_GIf_Locations.gif"/>
+  <div class="bb_img_ctn">
+   <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3622820/extras/WH40K_RT_DLC_2_GIf_Locations.gif"/>
+  </div>
  </p>
  <p class="bb_paragraph">
   <strong>
@@ -359,7 +367,9 @@ Descrierea conținutului pentru adulți indisponibilă.
   Embrace tactical innovation with an all-new set of Familiars and bring fresh strategy to combat challenges. Command a majestic cybernetic eagle — a living embodiment of the Aquila — while your companion directs his powerful cyber-mastiff. These battle companions dramatically reshape combat encounters, requiring the use of inventive tactics while delivering thrilling, unpredictable outcomes.
  </p>
  <p class="bb_paragraph">
-  <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3622820/extras/WH40K_RT_DLC_2_GIf_Pets.gif"/>
+  <div class="bb_img_ctn">
+   <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3622820/extras/WH40K_RT_DLC_2_GIf_Pets.gif"/>
+  </div>
  </p>
  <p class="bb_paragraph">
   <strong>
@@ -368,7 +378,9 @@ Descrierea conținutului pentru adulți indisponibilă.
   : Meet Solomorne Anthar, a seasoned Arbites officer whose unwavering dedication to Imperial justice is matched only by his simmering anger and hatred of criminals. Accompanied by his loyal cyber-mastiff, this fierce Arbitrator offers players not only formidable combat skills but also a deeply personal romance and a troubled past to uncover.
  </p>
  <p class="bb_paragraph">
-  <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3622820/extras/WH40K_RT_DLC_2_GIf_Solomorne.gif"/>
+  <div class="bb_img_ctn">
+   <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3622820/extras/WH40K_RT_DLC_2_GIf_Solomorne.gif"/>
+  </div>
  </p>
  <p class="bb_paragraph">
   <strong>
@@ -377,7 +389,9 @@ Descrierea conținutului pentru adulți indisponibilă.
   Face the unyielding guardians of Imperial law. These incorruptible enforcers arrive equipped with signature weaponry — shotguns, suppression shields, and power mauls — to redefine battlefield dynamics and tactical gameplay, embodying both their elite status and their relentless pursuit of order.
  </p>
  <p class="bb_paragraph">
-  <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3622820/extras/WH40K_RT_DLC_2_GIf_Arbites.gif"/>
+  <div class="bb_img_ctn">
+   <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3622820/extras/WH40K_RT_DLC_2_GIf_Arbites.gif"/>
+  </div>
  </p>
 </div>
 <div class="game_area_description" id="game_area_content_descriptors">
