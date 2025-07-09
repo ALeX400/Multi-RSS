@@ -1,6 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Hotfix #72 (1.8.4)</title>
+      <link>https://store.steampowered.com/news/app/1361210/view/520843384949052047</link>
+      <description><![CDATA[
+<style>
+        [data-focus-scheme="dark"] {
+            color-scheme: none;
+        }
+    </style>
+<div class="bb_h1">Hey Everyone, </div><p class="bb_paragraph"> </p><p class="bb_paragraph">Hotfix #72 (1.8.4) is currently rolling out across our platforms. In the meantime, you can read the notes below.</p><ul class="bb_ul"><li><p class="bb_paragraph">Fixed server crash occurring while playing Refinery Delta-17.</p></li><li><p class="bb_paragraph">Rolled back to FSR version 3.1.2. This change is made to ensure the best overall experience for players, while maintaining support for key features like FSR 4 and others. We're actively working on updating to a newer version in the future and will reintroduce newer improvements when ready.</p></li><li><p class="bb_paragraph">Fixed issue where the Arbites Talent 'Razor-Jaw Augment' was being affected by Cyber-Mastiff damage increasing buffs.</p></li></ul><p class="bb_paragraph"><b>Dev Note</b>: <i>Regarding the last issue on the list, this resulted in damage being increased by up to 450% at times.</i></p><p class="bb_paragraph"></p><p class="bb_paragraph"><b>Havoc Campaign - Mission Pool and Mutator Rotation</b></p><p class="bb_paragraph">Every third week during a Havoc Campaign, we are rotating the mission pool and mutator pool. One or two missions and mutators will swap out during this time. This rotation will happen next week.</p><p class="bb_paragraph"></p><p class="bb_paragraph"><b>Mission Pool</b></p><p class="bb_paragraph"><i>Incoming</i></p><ul class="bb_ul"><li><p class="bb_paragraph"><i>Hab Dreyko</i></p></li><li><p class="bb_paragraph"><i>Mercantile HL-70-04-510</i></p></li></ul><p class="bb_paragraph"><i>Outgoing</i></p><ul class="bb_ul"><li><p class="bb_paragraph"><i>Consignment Yard HL17-36</i></p></li><li><p class="bb_paragraph"><i>Chasm Logistratum</i></p><p class="bb_paragraph"></p></li></ul><p class="bb_paragraph"><b>Mutators</b></p><p class="bb_paragraph"><i>Incoming</i></p><ul class="bb_ul"><li><p class="bb_paragraph"><i>None</i></p></li></ul><p class="bb_paragraph"><i>Outgoing</i></p><ul class="bb_ul"><li><p class="bb_paragraph"><i>Pus-Hardened Skin</i></p></li><li><p class="bb_paragraph"><i>Inferno Special Event</i></p></li></ul>]]></description>
+      <pubDate>Wed, 09 Jul 2025 12:14:21 +0000</pubDate>
+    </item>
+    <item>
       <title>Hotfix 6.6.5 - 9th of July</title>
       <link>https://store.steampowered.com/news/app/552500/view/546739082808529465</link>
       <description><![CDATA[
@@ -49,18 +61,6 @@ Steam X Facebook Instagram Discord Bluesky</div>]]></description>
     </style>
 <p class="bb_paragraph">We’re very pleased to announce that Team MoDakBul, who provided post-launch Korean localisation for the first game, will be providing their services once again for Mechanicus II.</p><p class="bb_paragraph"></p><p class="bb_paragraph">Big thanks to both Team MoDakBul and our Korean-speaking players for your support. We’re excited to make Mechanicus II more accessible to even more of you on day one!</p>]]></description>
       <pubDate>Fri, 04 Jul 2025 09:00:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Update 1.4.0.200 is out</title>
-      <link>https://store.steampowered.com/news/app/2186680/view/523095184762736041</link>
-      <description><![CDATA[
-<style>
-        [data-focus-scheme="dark"] {
-            color-scheme: none;
-        }
-    </style>
-Lord Captains! <br/><br/>A patch for Warhammer 40000: Rogue Trader has arrived for PC. We’ve addressed the blocking issue that might occur in Act IV for some players with the Arbites origin.<br/><br/><u>Please be aware of the plot spoilers below!</u><br/><br/>Note that https://steamcommunity.com/app/2186680/discussions/0/4027970580228219058/ always contains up-to-date information on known issues and the roadmap of upcoming patches.<br/><br/><div class="bb_h2">Patch Notes:</div><br/><ul class="bb_ul"><li> After speaking with Proctor Adriana Yeager in Act IV, further plot progress could become blocked for the players with the Adeptus Arbites origin in some cases – fixed. If you experienced this bug, speak to Adriana Yeager and then to Clerk Tertius Quart to advance in the quest.</li></ul>]]></description>
-      <pubDate>Fri, 04 Jul 2025 08:08:52 +0000</pubDate>
     </item>
   </channel>
 </rss>
