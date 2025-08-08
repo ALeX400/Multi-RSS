@@ -1,6 +1,436 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Heretic + Hexen</title>
+      <link>https://store.steampowered.com/app/3286930/Heretic__Hexen/</link>
+      <description><![CDATA[<style>
+            .sys_req_container {
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 10px;
+            }
+            .sys_req_left_col, .sys_req_right_col {
+                flex: 1;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+            .sys_req_left_col {
+                border-right: 1px solid #ccc;
+            }
+            .sys_req_right_col {
+                border-left: 1px solid #ccc;
+            }
+            .ipsQuote_citation, .ipsSpoiler_header {
+                display: flex;
+                justify-content: center;
+            }
+            .ipsSpoiler_header [data-action='toggleSpoiler'] {
+                margin-top: 1px;
+            }
+            [dir='ltr'] .ipsQuote, [dir='ltr'] .ipsSpoiler, [dir='ltr'] .ipsStyle_spoiler {
+                border-width: 0 4px 0 4px;
+            }
+            </style>
+    <div class="details_block" id="genresAndManufacturer">
+ <b>
+  Title:
+ </b>
+ Heretic + Hexen
+ <br/>
+ <b>
+  Genre:
+ </b>
+ <span data-panel='{"flow-children":"row"}'>
+  <a>
+   Action
+  </a>
+  ,
+  <a>
+   Adventure
+  </a>
+  ,
+  <a>
+   RPG
+  </a>
+ </span>
+ <br/>
+ <div class="dev_row">
+  <b>
+   Developer:
+  </b>
+  <a>
+   id Software
+  </a>
+  ,
+  <a>
+   Nightdive Studios
+  </a>
+ </div>
+ <div class="dev_row">
+  <b>
+   Publisher:
+  </b>
+  <a>
+   Bethesda Softworks
+  </a>
+ </div>
+ <b>
+  Release Date:
+ </b>
+ Aug 7, 2025
+ <br/>
+</div>
+<br/>
+<br/>
+<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/3286930/" width="850">
+</iframe>
+<br/>
+<br/>
+<div class="game_area_description" id="game_area_description">
+ <h2>
+  About This Game
+ </h2>
+ <p class="bb_paragraph">
+  Step into the definitive re-release of two dark spell-casting shooters that shaped the genre.
+ </p>
+ <p class="bb_paragraph">
+  Forged by Raven Software on a modified DOOM engine, Heretic and Hexen were released in 1994 and 1995, pushing first person shooters into bold new territory. These innovative cult classics introduced groundbreaking features like inventory systems, vertical aiming, and distinct character classes, reshaping first person action games for generations to come. This enhanced restoration makes Heretic + Hexen available to new audiences and long-time fans with expanded accessibility across more platforms and languages than ever before. Whether you're returning to these shadowy realms or discovering them for the first time, an epic legacy awaits.
+ </p>
+ <h2 class="bb_tag">
+  Owners Receive
+ </h2>
+ <ul class="bb_ul">
+  <li>
+   <p class="bb_paragraph">
+    Heretic: Shadow of the Serpent Riders¹
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    Hexen: Beyond Heretic¹
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    Hexen: Deathkings of the Dark Citadel¹
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    Two all-new episodes created in collaboration between individuals at id Software + Nightdive Studios:
+   </p>
+   <ul class="bb_ul">
+    <li>
+     <p class="bb_paragraph">
+      Heretic: Faith Renewed
+     </p>
+    </li>
+    <li>
+     <p class="bb_paragraph">
+      Hexen: Vestiges of Grandeur
+     </p>
+    </li>
+   </ul>
+  </li>
+ </ul>
+ <p class="bb_paragraph">
+  There are a total of 117 campaign maps and 120 deathmatch maps in Heretic + Hexen.
+ </p>
+ <h2 class="bb_tag">
+  New Enhancements
+ </h2>
+ <ul class="bb_ul">
+  <li>
+   <p class="bb_paragraph">
+    Online cross-platform deathmatch and co-op for up to 16 players²
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    Local split-screen deathmatch and co-op for up to 8 players
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    Toggleable, enhanced Tome of Power soundtrack by Andrew Hulshult
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    Community-published mod support with an in-game mod browser² ³
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    Improved performance with multithreaded rendering supporting up to 4K resolution and 120 FPS⁵
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    A Vault section containing concept art and unused sprites from the development of the original games
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    Accessibility options, such as updated UI, improved legibility, contrast and screen FX adjustments, and text-to-speech features.
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    Modern controller support
+   </p>
+   <ul class="bb_ul">
+    <li>
+     <p class="bb_paragraph">
+      Weapon carousel for faster weapon switching
+     </p>
+    </li>
+   </ul>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    Game balance toggle (original/enhanced)
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    Quick Save/Load support
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    Widescreen support
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    Many engine fixes for bugs present in original versions
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    Translated into 12 new languages: French, Italian, German, Spanish, LATAM Spanish, Brazilian Portuguese, Polish, Russian, Japanese, Korean, Traditional Chinese and Simplified Chinese
+   </p>
+  </li>
+ </ul>
+ <p class="bb_paragraph">
+  ¹Original DOS versions of Heretic: Shadow of the Serpent Riders, Hexen: Beyond Heretic and Hexen: Deathkings of the Dark Citadel are included in the Steam version.
+ </p>
+ <p class="bb_paragraph">
+  ² account required.
+ </p>
+ <p class="bb_paragraph">
+  ³Mods need to be installed separately; installation requires additional system storage.
+ </p>
+ <p class="bb_paragraph">
+  ⁵Compatible display required.
+ </p>
+ <h2 class="bb_tag">
+  About the Included Games
+ </h2>
+ <p class="bb_paragraph">
+  <strong>
+   Heretic: Shadow of the Serpent Riders
+  </strong>
+ </p>
+ <p class="bb_paragraph">
+  Three brothers, known as the Serpent Riders, used their powerful magic to possess and corrupt the seven kings of the realm, plunging it into war and chaos. But a race of elves known as the Sidhe resisted and were branded heretics. On the brink of losing the war, the Sidhe elders sacrificed themselves and the elven capital city to destroy the seven kings and their armies. As one of the few surviving elves, you embark on a quest for vengeance against those who slaughtered your friends, family, and entire race.
+ </p>
+ <p class="bb_paragraph">
+  <strong>
+   Heretic: Faith Renewed [NEW]
+  </strong>
+ </p>
+ <p class="bb_paragraph">
+  Years after the planes were cleansed of D'Sparil's wretched influence, a wandering warrior in search of home arrives at a foreign land to discover the blighted stains of that old time religion seeping through the cracks of society once more. In the fortified city, zealous acolytes stand high atop a decadent cathedral and listen to the lamentations echoing from the streets as non-believers are dragged away for 'correction.' The shadow of D'Sparil lingers after death, his absence attributed to apotheosis. Once revered, now worshipped, deserving of neither. An all-too-familiar scene, and one you simply cannot stomach. Taking up the mantle of Heretic once more, you stride into the city, staff in hand, to silence the echoes of your arch-nemesis.
+ </p>
+ <p class="bb_paragraph">
+  <strong>
+   Hexen: Beyond Heretic
+  </strong>
+ </p>
+ <p class="bb_paragraph">
+  While the Sidhe elf Corvus battled the evil forces of D'Sparil, the remaining two Serpent Riders were busy sowing the seeds of destruction in other dimensions. As a Warrior, Mage, or Cleric, you must fight the undead and brave elemental dungeons and decaying wilderness to defend your realm of Cronos from Korax, the second Serpent Rider.
+ </p>
+ <p class="bb_paragraph">
+  <strong>
+   Hexen: Deathkings of the Dark Citadel
+  </strong>
+ </p>
+ <p class="bb_paragraph">
+  After defeating the evil Korax, the second Serpent Rider, and discovering the Chaos Sphere, you have been transported to the Realm of the Dead. Now your only way home is blocked by hordes of undead and the Dark Citadel. Where Hexen ends, the true nightmare begins.
+ </p>
+ <p class="bb_paragraph">
+  <strong>
+   Hexen: Vestiges of Grandeur [NEW]
+  </strong>
+ </p>
+ <p class="bb_paragraph">
+  Korax lingers between life and death, his shredded corpse left behind with no semblance of life while he clings to a fresh, if fragile, rebirth. His grip on Cronos is once more released, yet the cycle continues, proving another force is at work: an invisible hand puppeteering both Korax and you, weaving a star-crossed destiny that will never die. And if that hand tugs the threads of fate again, what surprises are yet in store for you?
+ </p>
+</div>
+<div class="game_area_description" id="game_area_content_descriptors">
+ <h2>
+  Mature Content Description
+ </h2>
+ <p>
+  The developers describe the content like this:
+ </p>
+ <p>
+  <i>
+   This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Frequent Violence or Gore, General Mature Content
+  </i>
+ </p>
+</div>
+<br/>
+<br/>
+<center>
+ <h2>
+  System Requirements
+ </h2>
+</center>
+<div class="ipsSpoiler_contents ipsClearfix">
+ <div class="ipsSpoiler" data-ipsspoiler="">
+  <div class="ipsSpoiler_contents ipsClearfix">
+   <center>
+    <h3>
+     Windows
+    </h3>
+   </center>
+   <div class="sys_req_container">
+    <div class="sys_req_left_col">
+     <ul>
+      <strong>
+       Minimum:
+      </strong>
+      <br/>
+      <ul class="bb_ul">
+       <li>
+        Requires a 64-bit processor and operating system
+        <br/>
+       </li>
+       <li>
+        <strong>
+         OS:
+        </strong>
+        Windows 10 64-bit
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Processor:
+        </strong>
+        Intel Core i5-3570 @3.4GHz or AMD Ryzen 5 1400 @3.5GHz
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Memory:
+        </strong>
+        8 GB RAM
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Graphics:
+        </strong>
+        NVIDIA Geforce GTX 650 TI (2GB) or AMD HD 7750 (1GB)
+        <br/>
+       </li>
+       <li>
+        <strong>
+         DirectX:
+        </strong>
+        Version 11
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Storage:
+        </strong>
+        2 GB available space
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Additional Notes:
+        </strong>
+        High speed broadband connection required for online play
+       </li>
+      </ul>
+     </ul>
+    </div>
+    <div class="sys_req_right_col">
+     <ul>
+      <strong>
+       Recommended:
+      </strong>
+      <br/>
+      <ul class="bb_ul">
+       <li>
+        Requires a 64-bit processor and operating system
+        <br/>
+       </li>
+       <li>
+        <strong>
+         OS:
+        </strong>
+        Windows 10 64-bit
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Processor:
+        </strong>
+        Intel Core i5-6600k @3.5GHz or AMD Ryzen 5 1600 @3.2GHz
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Memory:
+        </strong>
+        8 GB RAM
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Graphics:
+        </strong>
+        NVIDIA GeForce GTX 1070 TI (8GB) or AMD RX Vega 56 (8GB) or Intel Arc A 380
+        <br/>
+       </li>
+       <li>
+        <strong>
+         DirectX:
+        </strong>
+        Version 11
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Storage:
+        </strong>
+        2 GB available space
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Additional Notes:
+        </strong>
+        High speed broadband connection required for online play
+       </li>
+      </ul>
+     </ul>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<br/>
+<br/>
+<center>]]></description>
+    </item>
+    <item>
       <title>Tiny Bookshop</title>
       <link>https://store.steampowered.com/app/2133760/Tiny_Bookshop/</link>
       <description><![CDATA[<style>
@@ -104,9 +534,9 @@
  </h2>
  <p class="bb_paragraph">
   <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/87a4c2f4a804089caef5cc3441abe592.poster.avif?t=1754585919">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/87a4c2f4a804089caef5cc3441abe592.webm?t=1754585919" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/87a4c2f4a804089caef5cc3441abe592.mp4?t=1754585919" type="video/mp4"/>
+   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/87a4c2f4a804089caef5cc3441abe592.poster.avif?t=1754585919">
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/87a4c2f4a804089caef5cc3441abe592.webm?t=1754585919" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/87a4c2f4a804089caef5cc3441abe592.mp4?t=1754585919" type="video/mp4"/>
    </video>
   </div>
  </p>
@@ -130,12 +560,12 @@
  </p>
  <p class="bb_paragraph">
   <div class="bb_img_ctn">
-   <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/76c3c6833bfb816a3d2e0797ccb9a331.webp"/>
+   <img class="bb_img" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/76c3c6833bfb816a3d2e0797ccb9a331.webp"/>
   </div>
   <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/723c51c0a66d25434354233df84ee922.poster.avif?t=1754585919">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/723c51c0a66d25434354233df84ee922.webm?t=1754585919" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/723c51c0a66d25434354233df84ee922.mp4?t=1754585919" type="video/mp4"/>
+   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/723c51c0a66d25434354233df84ee922.poster.avif?t=1754585919">
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/723c51c0a66d25434354233df84ee922.webm?t=1754585919" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/723c51c0a66d25434354233df84ee922.mp4?t=1754585919" type="video/mp4"/>
    </video>
   </div>
  </p>
@@ -155,9 +585,9 @@
  </p>
  <p class="bb_paragraph">
   <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/3bfb7fb0795d3adcecfced6f76648fda.poster.avif?t=1754585919">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/3bfb7fb0795d3adcecfced6f76648fda.webm?t=1754585919" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/3bfb7fb0795d3adcecfced6f76648fda.mp4?t=1754585919" type="video/mp4"/>
+   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/3bfb7fb0795d3adcecfced6f76648fda.poster.avif?t=1754585919">
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/3bfb7fb0795d3adcecfced6f76648fda.webm?t=1754585919" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/3bfb7fb0795d3adcecfced6f76648fda.mp4?t=1754585919" type="video/mp4"/>
    </video>
   </div>
  </p>
@@ -181,9 +611,9 @@
  </p>
  <p class="bb_paragraph">
   <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/b9673b5ca710864f387739e2b70e9427.poster.avif?t=1754585919">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/b9673b5ca710864f387739e2b70e9427.webm?t=1754585919" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/b9673b5ca710864f387739e2b70e9427.mp4?t=1754585919" type="video/mp4"/>
+   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/b9673b5ca710864f387739e2b70e9427.poster.avif?t=1754585919">
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/b9673b5ca710864f387739e2b70e9427.webm?t=1754585919" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/b9673b5ca710864f387739e2b70e9427.mp4?t=1754585919" type="video/mp4"/>
    </video>
   </div>
  </p>
@@ -207,9 +637,9 @@
  </p>
  <p class="bb_paragraph">
   <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/dd2d1bc4453837e46a447c3fe7bcb38b.poster.avif?t=1754585919">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/dd2d1bc4453837e46a447c3fe7bcb38b.webm?t=1754585919" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/dd2d1bc4453837e46a447c3fe7bcb38b.mp4?t=1754585919" type="video/mp4"/>
+   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/dd2d1bc4453837e46a447c3fe7bcb38b.poster.avif?t=1754585919">
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/dd2d1bc4453837e46a447c3fe7bcb38b.webm?t=1754585919" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/dd2d1bc4453837e46a447c3fe7bcb38b.mp4?t=1754585919" type="video/mp4"/>
    </video>
   </div>
  </p>
@@ -233,9 +663,9 @@
  </p>
  <p class="bb_paragraph">
   <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/0e6131677ff3412985a93c81925ab34e.poster.avif?t=1754585919">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/0e6131677ff3412985a93c81925ab34e.webm?t=1754585919" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/0e6131677ff3412985a93c81925ab34e.mp4?t=1754585919" type="video/mp4"/>
+   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/0e6131677ff3412985a93c81925ab34e.poster.avif?t=1754585919">
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/0e6131677ff3412985a93c81925ab34e.webm?t=1754585919" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/0e6131677ff3412985a93c81925ab34e.mp4?t=1754585919" type="video/mp4"/>
    </video>
   </div>
  </p>
@@ -259,9 +689,9 @@
  </p>
  <p class="bb_paragraph">
   <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/acef5a12c542f231cc21cf917e1b8163.poster.avif?t=1754585919">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/acef5a12c542f231cc21cf917e1b8163.webm?t=1754585919" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/acef5a12c542f231cc21cf917e1b8163.mp4?t=1754585919" type="video/mp4"/>
+   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/acef5a12c542f231cc21cf917e1b8163.poster.avif?t=1754585919">
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/acef5a12c542f231cc21cf917e1b8163.webm?t=1754585919" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/acef5a12c542f231cc21cf917e1b8163.mp4?t=1754585919" type="video/mp4"/>
    </video>
   </div>
  </p>
@@ -277,7 +707,7 @@
  </p>
  <p class="bb_paragraph">
   <div class="bb_img_ctn">
-   <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/0c1ace7aaf74b6fe6bab84dd2cd3bafd.avif"/>
+   <img class="bb_img" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/0c1ace7aaf74b6fe6bab84dd2cd3bafd.avif"/>
   </div>
  </p>
  <p class="bb_paragraph">
@@ -291,7 +721,7 @@
  </p>
  <p class="bb_paragraph">
   <div class="bb_img_ctn">
-   <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2133760/extras/d343d8fea3ec0b3d580fc226d1ebefa1.avif"/>
+   <img class="bb_img" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2133760/extras/d343d8fea3ec0b3d580fc226d1ebefa1.avif"/>
   </div>
  </p>
  <p class="bb_paragraph">
@@ -807,15 +1237,15 @@ Descrierea conținutului pentru adulți indisponibilă.
  </h2>
  <p class="bb_paragraph">
   <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/fee52935ac305438d76e6c7bc72b4052.poster.avif?t=1754583224">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/fee52935ac305438d76e6c7bc72b4052.webm?t=1754583224" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/fee52935ac305438d76e6c7bc72b4052.mp4?t=1754583224" type="video/mp4"/>
+   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/fee52935ac305438d76e6c7bc72b4052.poster.avif?t=1754598774">
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/fee52935ac305438d76e6c7bc72b4052.webm?t=1754598774" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/fee52935ac305438d76e6c7bc72b4052.mp4?t=1754598774" type="video/mp4"/>
    </video>
   </div>
  </p>
  <p class="bb_paragraph">
   <div class="bb_img_ctn">
-   <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/79c438cc29b122e0c67e62f54948703a.avif"/>
+   <img class="bb_img" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/79c438cc29b122e0c67e62f54948703a.avif"/>
   </div>
  </p>
  <p class="bb_paragraph">
@@ -843,14 +1273,14 @@ Descrierea conținutului pentru adulți indisponibilă.
  </p>
  <h2 class="bb_tag">
   <div class="bb_img_ctn">
-   <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/503ece3cdf9486eb97de8f6617c44b0f.avif"/>
+   <img class="bb_img" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/503ece3cdf9486eb97de8f6617c44b0f.avif"/>
   </div>
  </h2>
  <p class="bb_paragraph">
   <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/acc27d1625b22524d607ecfa012207fe.poster.avif?t=1754583224">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/acc27d1625b22524d607ecfa012207fe.webm?t=1754583224" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/acc27d1625b22524d607ecfa012207fe.mp4?t=1754583224" type="video/mp4"/>
+   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/acc27d1625b22524d607ecfa012207fe.poster.avif?t=1754598774">
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/acc27d1625b22524d607ecfa012207fe.webm?t=1754598774" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/acc27d1625b22524d607ecfa012207fe.mp4?t=1754598774" type="video/mp4"/>
    </video>
   </div>
  </p>
@@ -861,14 +1291,14 @@ Descrierea conținutului pentru adulți indisponibilă.
  </p>
  <h2 class="bb_tag">
   <div class="bb_img_ctn">
-   <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/54548fc32e7458fce4e71c9567af7f87.avif"/>
+   <img class="bb_img" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/54548fc32e7458fce4e71c9567af7f87.avif"/>
   </div>
  </h2>
  <p class="bb_paragraph">
   <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/158c96e4603be10b0a27769e01b8ff2f.poster.avif?t=1754583224">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/158c96e4603be10b0a27769e01b8ff2f.webm?t=1754583224" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/158c96e4603be10b0a27769e01b8ff2f.mp4?t=1754583224" type="video/mp4"/>
+   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/158c96e4603be10b0a27769e01b8ff2f.poster.avif?t=1754598774">
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/158c96e4603be10b0a27769e01b8ff2f.webm?t=1754598774" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/158c96e4603be10b0a27769e01b8ff2f.mp4?t=1754598774" type="video/mp4"/>
    </video>
   </div>
  </p>
@@ -879,14 +1309,14 @@ Descrierea conținutului pentru adulți indisponibilă.
  </p>
  <h2 class="bb_tag">
   <div class="bb_img_ctn">
-   <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/41fb993fecf44e19b25512b708ca3333.avif"/>
+   <img class="bb_img" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/41fb993fecf44e19b25512b708ca3333.avif"/>
   </div>
  </h2>
  <p class="bb_paragraph">
   <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/2d5c0633808ccd1952607ce3610297e0.poster.avif?t=1754583224">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/2d5c0633808ccd1952607ce3610297e0.webm?t=1754583224" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/2d5c0633808ccd1952607ce3610297e0.mp4?t=1754583224" type="video/mp4"/>
+   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/2d5c0633808ccd1952607ce3610297e0.poster.avif?t=1754598774">
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/2d5c0633808ccd1952607ce3610297e0.webm?t=1754598774" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/2d5c0633808ccd1952607ce3610297e0.mp4?t=1754598774" type="video/mp4"/>
    </video>
   </div>
  </p>
@@ -897,14 +1327,14 @@ Descrierea conținutului pentru adulți indisponibilă.
  </p>
  <h2 class="bb_tag">
   <div class="bb_img_ctn">
-   <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/e0eef47cddae5e3e60eaafab125c227d.avif"/>
+   <img class="bb_img" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/e0eef47cddae5e3e60eaafab125c227d.avif"/>
   </div>
  </h2>
  <p class="bb_paragraph">
   <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/6e620d45f25b724ae056ca28b0988219.poster.avif?t=1754583224">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/6e620d45f25b724ae056ca28b0988219.webm?t=1754583224" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1941540/extras/6e620d45f25b724ae056ca28b0988219.mp4?t=1754583224" type="video/mp4"/>
+   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/6e620d45f25b724ae056ca28b0988219.poster.avif?t=1754598774">
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/6e620d45f25b724ae056ca28b0988219.webm?t=1754598774" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1941540/extras/6e620d45f25b724ae056ca28b0988219.mp4?t=1754598774" type="video/mp4"/>
    </video>
   </div>
  </p>
@@ -1066,8 +1496,8 @@ Descrierea conținutului pentru adulți indisponibilă.
 <center>]]></description>
     </item>
     <item>
-      <title>Is This Seat Taken?</title>
-      <link>https://store.steampowered.com/app/3035120/Is_This_Seat_Taken/</link>
+      <title>Gemporium: A Cute Mining Sim</title>
+      <link>https://store.steampowered.com/app/2836100/Gemporium_A_Cute_Mining_Sim/</link>
       <description><![CDATA[<style>
             .sys_req_container {
                 display: flex;
@@ -1100,18 +1530,18 @@ Descrierea conținutului pentru adulți indisponibilă.
  <b>
   Title:
  </b>
- Is This Seat Taken?
+ Gemporium: A Cute Mining Sim
  <br/>
  <b>
   Genre:
  </b>
  <span data-panel='{"flow-children":"row"}'>
   <a>
-   Casual
+   Action
   </a>
   ,
   <a>
-   Indie
+   Simulation
   </a>
  </span>
  <br/>
@@ -1120,7 +1550,7 @@ Descrierea conținutului pentru adulți indisponibilă.
    Developer:
   </b>
   <a>
-   Poti Poti Studio
+   Merge Conflict Studio
   </a>
  </div>
  <div class="dev_row">
@@ -1128,15 +1558,7 @@ Descrierea conținutului pentru adulți indisponibilă.
    Publisher:
   </b>
   <a>
-   Wholesome Games Presents
-  </a>
- </div>
- <div class="dev_row">
-  <b>
-   Franchise:
-  </b>
-  <a>
-   Wholesome Games
+   Merge Conflict Studio
   </a>
  </div>
  <b>
@@ -1147,7 +1569,7 @@ Descrierea conținutului pentru adulți indisponibilă.
 </div>
 <br/>
 <br/>
-<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/3035120/" width="850">
+<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/2836100/" width="850">
 </iframe>
 <br/>
 <br/>
@@ -1156,386 +1578,125 @@ Descrierea conținutului pentru adulți indisponibilă.
   About This Game
  </h2>
  <p class="bb_paragraph">
-  Window seat or aisle? Booth or table? Lone wolf or life of the party? In
-  <i>
-   Is This Seat Taken?
-  </i>
-  , your mission is to organize groups of people according to their preferences. It’s a cozy, no-pressure logic puzzle game where you’re in charge of who sits where.
- </p>
- <p class="bb_paragraph">
   <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" crossorigin="anonymous" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3035120/extras/d4964051eb8b848d71751e9b3afd4598.poster.avif?t=1754575258">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3035120/extras/d4964051eb8b848d71751e9b3afd4598.webm?t=1754575258" type="video/webm; codecs=vp9"/>
-   </video>
+   <img class="bb_img" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2836100/extras/1ad45fc9a562d80b3cdcdbb1c8227026.avif"/>
   </div>
  </p>
  <p class="bb_paragraph">
-  Whether it’s the cinema, a crowded bus, a wedding reception, or a cramped taxi cab, every setting introduces new characters with specific tastes. A party guest with a sensitive nose won’t be happy sitting next to a stranger who’s wearing too much cologne. A sleepy passenger won’t be happy trying to nap on the bus next to someone listening to loud music. It’s all about reading the room to find the perfect placement!
- </p>
- <p class="bb_paragraph">
-  <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" crossorigin="anonymous" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3035120/extras/45140228c46559f4176c019e353f779e.poster.avif?t=1754575258">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3035120/extras/45140228c46559f4176c019e353f779e.webm?t=1754575258" type="video/webm; codecs=vp9"/>
-   </video>
-  </div>
- </p>
- <p class="bb_paragraph">
-  Nat is an aspiring actor whose world gets turned upside down when they see a shape just like them on the big screen. This discovery sends Nat on a global journey to meet their hero and figure out how to fit in. Experience Nat's heartfelt story as you travel from city to city, each with its own levels, characters, and charm.
- </p>
- <p class="bb_paragraph">
-  <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" crossorigin="anonymous" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3035120/extras/422256be5e87b10ff439e4ec01a82213.poster.avif?t=1754575258">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3035120/extras/422256be5e87b10ff439e4ec01a82213.webm?t=1754575258" type="video/webm; codecs=vp9"/>
-   </video>
-  </div>
- </p>
- <ul class="bb_ul">
-  <li>
-   <p class="bb_paragraph">
-    Play seating matchmaker to please picky characters.
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    Discover each character’s unique traits—relatable, outlandish, and everything in between.
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    Piece together satisfying puzzles with no timers or leaderboards.
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    Unlock fun new scenarios as you progress—from bus rides to banquets!
-   </p>
-   <p class="bb_paragraph">
-   </p>
-  </li>
- </ul>
-</div>
-Descrierea conținutului pentru adulți indisponibilă.
-<br/>
-<br/>
-<center>
- <h2>
-  System Requirements
- </h2>
-</center>
-<div class="ipsSpoiler_contents ipsClearfix">
- <div class="ipsSpoiler" data-ipsspoiler="">
-  <div class="ipsSpoiler_contents ipsClearfix">
-   <center>
-    <h3>
-     Windows
-    </h3>
-   </center>
-   <div class="ipsSpoiler_contents ipsClearfix">
-    <div class="ipsSpoiler" data-ipsspoiler="">
-     <div class="ipsSpoiler_contents ipsClearfix">
-      <div class="sys_req_container">
-      </div>
-     </div>
-    </div>
-   </div>
-   <center>
-    <h3>
-     MacOS
-    </h3>
-   </center>
-   <div class="ipsSpoiler_contents ipsClearfix">
-    <div class="ipsSpoiler" data-ipsspoiler="">
-     <div class="ipsSpoiler_contents ipsClearfix">
-      <div class="sys_req_container">
-      </div>
-     </div>
-    </div>
-   </div>
-   <center>
-    <h3>
-     Linux
-    </h3>
-   </center>
-   <div class="ipsSpoiler_contents ipsClearfix">
-    <div class="ipsSpoiler" data-ipsspoiler="">
-     <div class="ipsSpoiler_contents ipsClearfix">
-      <div class="sys_req_container">
-       <div class="sys_req_full">
-        <ul>
-         <strong>
-          Minimum:
-         </strong>
-         <br/>
-         <ul class="bb_ul">
-          <li>
-           <strong>
-            OS:
-           </strong>
-           SteamOS
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Processor:
-           </strong>
-           Zen 2 4c/8t, 2.4-3.5GHz
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Memory:
-           </strong>
-           8 GB RAM
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Graphics:
-           </strong>
-           8 RDNA 2 CUs, 1.6GHz
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Additional Notes:
-           </strong>
-           Only tested on steam deck
-          </li>
-         </ul>
-        </ul>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<br/>
-<br/>
-<center>]]></description>
-    </item>
-    <item>
-      <title>Whimside</title>
-      <link>https://store.steampowered.com/app/3064030/Whimside/</link>
-      <description><![CDATA[<style>
-            .sys_req_container {
-                display: flex;
-                flex-wrap: wrap;
-                margin-bottom: 10px;
-            }
-            .sys_req_left_col, .sys_req_right_col {
-                flex: 1;
-                padding: 10px;
-                box-sizing: border-box;
-            }
-            .sys_req_left_col {
-                border-right: 1px solid #ccc;
-            }
-            .sys_req_right_col {
-                border-left: 1px solid #ccc;
-            }
-            .ipsQuote_citation, .ipsSpoiler_header {
-                display: flex;
-                justify-content: center;
-            }
-            .ipsSpoiler_header [data-action='toggleSpoiler'] {
-                margin-top: 1px;
-            }
-            [dir='ltr'] .ipsQuote, [dir='ltr'] .ipsSpoiler, [dir='ltr'] .ipsStyle_spoiler {
-                border-width: 0 4px 0 4px;
-            }
-            </style>
-    <div class="details_block" id="genresAndManufacturer">
- <b>
-  Title:
- </b>
- Whimside
- <br/>
- <b>
-  Genre:
- </b>
- <span data-panel='{"flow-children":"row"}'>
-  <a>
-   Casual
-  </a>
+  Grow your small gem business in this short, casual simulation miner, Gemporium! Manage your time wisely between
+  <strong>
+   mining gemstones
+  </strong>
   ,
-  <a>
-   Indie
-  </a>
- </span>
- <br/>
- <div class="dev_row">
-  <b>
-   Developer:
-  </b>
-  <a>
-   Toadzillart
-  </a>
- </div>
- <div class="dev_row">
-  <b>
-   Publisher:
-  </b>
-  <a>
-   Future Friends Games
-  </a>
- </div>
- <div class="dev_row">
-  <b>
-   Franchise:
-  </b>
-  <a>
-   Future Friends Games
-  </a>
- </div>
- <b>
-  Release Date:
- </b>
- Aug 7, 2025
- <br/>
-</div>
-<br/>
-<br/>
-<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/3064030/" width="850">
-</iframe>
-<br/>
-<br/>
-<div class="game_area_description" id="game_area_description">
- <h2>
-  About This Game
+  <strong>
+   refining them for more profit,
+  </strong>
+  and
+  <strong>
+   selling them to awaiting customers
+  </strong>
+  . After your Grandmole goes on vacation, you’re in charge of running her shop, and you quickly learn it also comes with a price of
+  <strong>
+   massive debt.
+  </strong>
+  Now, on top of building your business, you must appease the
+  <strong>
+   Loan Shark
+  </strong>
+  without going broke!
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
+  Gemporium features a timed day cycle where you have to balance completing tasks and running the gem store. Each day consists of:
+ </p>
+ <h2 class="bb_tag">
+  <div class="bb_img_ctn">
+   <img class="bb_img" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2836100/extras/3b0db6b87c3c425b7f4506e0b9317792.avif"/>
+  </div>
  </h2>
  <p class="bb_paragraph">
+  <strong>
+   Explore
+  </strong>
+  deeper and deeper in the local mines to stock up on gems of different rarities. Utilize various mining tools to prevent cracks and maintain the highest quality product for your shop!
+ </p>
+ <p class="bb_paragraph">
   <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" crossorigin="anonymous" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3064030/extras/85ef305795ddfe807179b57b6102a872.poster.avif?t=1754583813">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3064030/extras/85ef305795ddfe807179b57b6102a872.webm?t=1754583813" type="video/webm; codecs=vp9"/>
+   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2836100/extras/045b2dcdbd75660ab472a294fd022b7f.poster.avif?t=1754593850">
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2836100/extras/045b2dcdbd75660ab472a294fd022b7f.webm?t=1754593850" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2836100/extras/045b2dcdbd75660ab472a294fd022b7f.mp4?t=1754593850" type="video/mp4"/>
    </video>
+  </div>
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <h2 class="bb_tag">
+  <div class="bb_img_ctn">
+   <img class="bb_img" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2836100/extras/70086e9042220e0fdb360f891fb0e110.avif"/>
+  </div>
+ </h2>
+ <p class="bb_paragraph">
+  <strong>
+   Polish
+  </strong>
+  and prepare your recent finds in the mine to convert those lumps of rock into something collectors adore! Unrefined gemstones sell for way less than their refined counterparts, so make sure to visit the refinement table before you set up shop.
+ </p>
+ <p class="bb_paragraph">
+  <div class="bb_img_ctn">
+   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2836100/extras/e02377396636d99610bf5d4854a03b70.poster.avif?t=1754593850">
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2836100/extras/e02377396636d99610bf5d4854a03b70.webm?t=1754593850" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2836100/extras/e02377396636d99610bf5d4854a03b70.mp4?t=1754593850" type="video/mp4"/>
+   </video>
+  </div>
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <h2 class="bb_tag">
+  <div class="bb_img_ctn">
+   <img class="bb_img" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2836100/extras/f450873902493a8d72812a0ba077fe4c.avif"/>
+  </div>
+ </h2>
+ <p class="bb_paragraph">
+  <strong>
+   Sell
+  </strong>
+  your stockpile of gems to eagerly awaiting customers, but make sure to keep their tastes in mind to maximize your profit and increase your shop's reputation! The shop is only open for a limited amount of time each day, so don't be late!
+ </p>
+ <p class="bb_paragraph">
+  <div class="bb_img_ctn">
+   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2836100/extras/a6a78b500e017baa5d72eb10f87f946e.poster.avif?t=1754593850">
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2836100/extras/a6a78b500e017baa5d72eb10f87f946e.webm?t=1754593850" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2836100/extras/a6a78b500e017baa5d72eb10f87f946e.mp4?t=1754593850" type="video/mp4"/>
+   </video>
+  </div>
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
+  <div class="bb_img_ctn">
+   <img class="bb_img" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2836100/extras/6e5e734f0756022c5981d560219e3df2.avif"/>
   </div>
  </p>
  <p class="bb_paragraph">
   <strong>
-   <i>
-    WHIMSIDE
-   </i>
+   Upgrade
   </strong>
-  is a cozy and relaxing collection game that sits at the bottom of your screen, keeping you company whether you're working, studying, or just kicking back and watching videos. Capture and create new species of Whimlings, then unleash your creativity by decorating your very whimsical space.
+  your tools, shop, and home to progress from being an anxious little mole to a master market manipulator.
  </p>
  <p class="bb_paragraph">
-  Play at your own pace, and enjoy the relaxing escape that
-  <i>
-   WHIMSIDE
-  </i>
-  offers you throughout the day!
  </p>
  <p class="bb_paragraph">
   <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3064030/extras/a88156365140aab6de71298ee438cb9c.poster.avif?t=1754583813">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3064030/extras/a88156365140aab6de71298ee438cb9c.webm?t=1754583813" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3064030/extras/a88156365140aab6de71298ee438cb9c.mp4?t=1754583813" type="video/mp4"/>
-   </video>
+   <img class="bb_img" src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2836100/extras/1538ba98d6f0ce49d2008b707a3be056.avif"/>
   </div>
  </p>
- <h2 class="bb_tag">
-  EXPLORE THE WORLD OF WHIMSIDE
- </h2>
  <p class="bb_paragraph">
-  Set off to explore the world of
+  For fans of a more relaxed experience, there are multiple day speed options that modify how much you have to rush to meet objectives! Alternatively, you can activate
   <strong>
-   <i>
-    WHIMSIDE
-   </i>
+   Cozy Mode
   </strong>
-  . Capture or hybridize Whimlings to unlock new biomes. Each biome is rich with secrets and surprises, not to mention rare new species to uncover and collect!
- </p>
- <p class="bb_paragraph">
-  <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3064030/extras/5cc4859195b04c99bbf53eb1c6fb9a09.poster.avif?t=1754583813">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3064030/extras/5cc4859195b04c99bbf53eb1c6fb9a09.webm?t=1754583813" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3064030/extras/5cc4859195b04c99bbf53eb1c6fb9a09.mp4?t=1754583813" type="video/mp4"/>
-   </video>
-  </div>
- </p>
- <h2 class="bb_tag">
-  DESIGN YOUR OWN WHIMSICAL SPACE
- </h2>
- <p class="bb_paragraph">
-  As you progress, you’ll unlock a variety of decorations, empowering you to personalize your own whimsical haven - from a peaceful garden to an extravagant outdoor playground! Your favorite Whimlings can also settle in, keeping you company throughout the day.
- </p>
- <h2 class="bb_tag">
-  CREATE YOUR PERFECT WHIMLING
- </h2>
- <p class="bb_paragraph">
-  Fuse two Whimlings into a whole new creature! Every unique combination reveals a procedurally generated new species, which will help you unlock new biomes and decorations!
- </p>
- <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  <div class="bb_img_ctn">
-   <video autoplay="" class="bb_img" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3064030/extras/fbec20800f85e894c5ef92d5fbcdfa9a.poster.avif?t=1754583813">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3064030/extras/fbec20800f85e894c5ef92d5fbcdfa9a.webm?t=1754583813" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3064030/extras/fbec20800f85e894c5ef92d5fbcdfa9a.mp4?t=1754583813" type="video/mp4"/>
-   </video>
-  </div>
- </p>
- <h2 class="bb_tag">
-  UNLEASH THE TWITCH MAGIC
- </h2>
- <p class="bb_paragraph">
-  Our special Twitch integration is designed specifically for streamers, allowing you to share your adventure with your community. Interactions happen seamlessly, with no need for commands, providing a smooth and non-intrusive experience. The more your viewers engage, the more in-game rewards you’ll earn.
- </p>
- <ul class="bb_ul">
-  <li>
-   <p class="bb_paragraph">
-    <strong>
-     <i>
-      WHIMSIDE
-     </i>
-    </strong>
-    is perfect to stream alongside Just Chatting, Art, or any other content.
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    Let your viewers help you spot the rarest Whimlings while you focus on something else.
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    Unlock bonuses thanks to viewer participation.
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    Automatically assign names to Whimlings based on your most active viewers.
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    Celebrate hype trains with special in-game events.
-   </p>
-  </li>
- </ul>
- <p class="bb_paragraph">
-  <div class="bb_img_ctn">
-   <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3064030/extras/3731df1a68d901bd36b149887d797926.poster.avif?t=1754583813"/>
-    <img class="bb_img" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3064030/extras/3731df1a68d901bd36b149887d797926.apng"/>
-   </picture>
-  </div>
- </p>
- <h2 class="bb_tag">
-  WISHLIST AND JOIN THE ADVENTURE
- </h2>
- <p class="bb_paragraph">
-  Hi, we’re Toadzillart and Tadpoly, the game dev couple behind
-  <i>
-   WHIMSIDE
-  </i>
-  . Creating this enchanting universe has been a true labor of love for us. If
-  <i>
-   WHIMSIDE
-  </i>
-  inspires you, please consider adding it to your wishlist. It’s the best way to support us on this creative journey. Thank you for being part of this adventure and helping to bring this whimsical world to life!
+  to turn off the daily timer entirely and play at your own pace.
  </p>
 </div>
 Descrierea conținutului pentru adulți indisponibilă.
@@ -1573,35 +1734,28 @@ Descrierea conținutului pentru adulți indisponibilă.
         <strong>
          Processor:
         </strong>
-        Intel® Core™ i3 @ 3.2 GHZ
+        Ryzen 1600x or Intel 7500k
         <br/>
        </li>
        <li>
         <strong>
          Memory:
         </strong>
-        4 GB RAM
+        8 GB RAM
         <br/>
        </li>
        <li>
         <strong>
          Graphics:
         </strong>
-        Graphics card with DX9
-        <br/>
-       </li>
-       <li>
-        <strong>
-         DirectX:
-        </strong>
-        Version 9.0
+        GTX 970
         <br/>
        </li>
        <li>
         <strong>
          Storage:
         </strong>
-        256 MB available space
+        1 GB available space
        </li>
       </ul>
      </ul>
