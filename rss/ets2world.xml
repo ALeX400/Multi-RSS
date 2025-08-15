@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
-      <title>Physics Mod v1.3 ATS</title>
-      <link>https://www.ets2world.com/physics-mod-v1-3-ats/</link>
-      <description><![CDATA[<article class="post-383165 post type-post status-publish format-standard has-post-thumbnail hentry category-ats-other">
+      <title>Dangerous Roads Map mod 1.55 ETS2</title>
+      <link>https://www.ets2world.com/dangerous-roads-map-mod-1-55-ets2/</link>
+      <description><![CDATA[<article class="post-383212 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -28,8 +28,8 @@
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="600" sizes="(max-width: 800px) 100vw, 800px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/physics-mod-v1.3-ats-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/physics-mod-v1.3-ats-1.jpg 800w, https://www.ets2world.com/wp-content/uploads/2025/08/physics-mod-v1.3-ats-1-300x225.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/08/physics-mod-v1.3-ats-1-768x576.jpg 768w" width="800"/>
-    <img alt="ATS Other" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ats3.png"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="1080" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/dangerous-roads-map-mod-ets2-1.55-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/dangerous-roads-map-mod-ets2-1.55-ets2-1.jpg 1920w, https://www.ets2world.com/wp-content/uploads/2025/08/dangerous-roads-map-mod-ets2-1.55-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/08/dangerous-roads-map-mod-ets2-1.55-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/08/dangerous-roads-map-mod-ets2-1.55-ets2-1-768x432.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/08/dangerous-roads-map-mod-ets2-1.55-ets2-1-1536x864.jpg 1536w" width="1920"/>
+    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
   <div class="clear">
@@ -38,356 +38,51 @@
    <div class="entry-inner">
     <hr/>
     <center style="margin-top:15px;">
-    </center>
-    <center>
-    </center>
-    <p>
-     <strong>
-      Physics Mod v1.3 ATS
-     </strong>
-    </p>
-    <hr/>
-    <p>
-     Suspension & Cabin Movement
-     <br/>
-     Chassis Suspension Overhaul – More realistic weight transfer and rebound behavior.
-     <br/>
-     Cabin Suspension Adjustments – Improved independent cabin movement that reacts naturally to road conditions.
-     <br/>
-     Balanced Cabin Lean & Roll – No more “blocky” side-to-side motion; smoother transitions.
-     <br/>
-     Reduced Over-Dampening – Trucks now feel less stiff and more responsive to bumps and terrain.
-    </p>
-    <p>
-     Transmission, Gearbox Behavior & Powertrain Realism
-     <br/>
-     Improved Automatic Shifting Logic
-     <br/>
-     Shifts at lower RPMs under light throttle for better fuel efficiency.
-     <br/>
-     Holds gears properly under load for realistic power delivery.
-     <br/>
-     Reduced excessive gear hunting.
-     <br/>
-     Adjusted shift timing for a more natural feel.
-     <br/>
-     Refined Manual Gearbox Behavior
-     <br/>
-     Clutch engagement tuned for smoother starts.
-     <br/>
-     More realistic RPM fall.
-     <br/>
-     Improved Transmission Resistance – More natural power loss through the drivetrain, making acceleration and deceleration feel smoother and more authentic.
-     <br/>
-     Balanced Flywheel Inertia – The engine now holds and loses revs in a more progressive and realistic way, improving shift behavior and coasting.
-     <br/>
-     Refined Torque Converter Behavior – Gear shifts feel smoother and more natural, especially under load, preventing excessive slipping while maintaining realistic power delivery.
-    </p>
-    <p>
-     Steering & Handling
-     <br/>
-     More Progressive Steering Response – Less sensitive at center for better highway stability.
-     <br/>
-     Balanced Steering Wheel Travel – Adjusted max steering angle to better match real trucks (38 degrees)
-     <br/>
-     Supports Gamepads – Features realistic, speed-sensitive auto-centering for smooth and precise control.
-    </p>
-    <p>
-     Road & Environment Interaction
-     <br/>
-     Refined Wheel Slip Behavior – Adjusted slip factors to reduce understeer/oversteer.
-     <br/>
-     More Noticeable Mini-Bumps & Road Feedback – Feels more like a real truck suspension.
-     <br/>
-     Subtle Air Seat Movement Simulation – Adds immersion with natural seat bounce over bumps.
-    </p>
-    <p>
-     Realistic Throttle Curve
-     <br/>
-     Optional realistic throttle curve included, providing smoother and more progressive throttle response. This improves low-speed control, reduces jerky acceleration, and enhances realism by mimicking the way real truck engines respond to throttle input.
-    </p>
-    <p>
-     Compatibility & Optimization
-     <br/>
-     Works with All Trucks – Fully compatible with stock and modded trucks (providing they have independent chassis/cabin physics)
-    </p>
-    <p>
-     Designed for Wheel Users – Balanced for users with a steering wheel.
-     <br/>
-     Designed for Gamepad Users – Handle your truck with ease without a steering wheel.
-    </p>
-    <hr/>
-    <strong>
-     Credits:
-    </strong>
-    zeemods
-    <br/>
-    <p style="margin-bottom:3px;">
-    </p>
-    <hr/>
-    <hr>
-    <strong>
-     How to install ETS2 mods or ATS Mods
-    </strong>
-    <br/>
-    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
-    <hr>
-     <div>
-      <span style="font-size:15px; color: #f42d36;">
-       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
-      </span>
-     </div>
-     <hr/>
-     <center>
-     </center>
-     <p>
-      <center>
-       <div>
-        <a class="dmod" href="https://modsfile.com/nfi1p71b5ge6/zeemods_physics_mod_v1_3_physx_gamepad.scs.html" rel="nofollow" target="_blank">
-         <strong>
-          DOWNLOAD MOD
-         </strong>
-        </a>
-       </div>
-      </center>
-     </p>
-     <center style="margin-top:35px;">
-     </center>
-     <nav class="pagination group">
-     </nav>
-    </hr>
-   </div>
-   <div class="clear">
-   </div>
-  </div>
- </div>
- <hr/>
-</article>
-<br><br><br>]]></description>
-    </item>
-    <item>
-      <title>MAZ 5440E9 Prostor v5.0 1.55 ETS2</title>
-      <link>https://www.ets2world.com/maz-5440e9-prostor-v5-0-1-55-ets2/</link>
-      <description><![CDATA[<article class="post-383145 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trucks">
- <div class="post-inner group">
-  <p class="post-byline">
-   <span class="vcard author">
-    <span class="fn">
-     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
-      <span style="color: #777;">
-       Euro Truck Simulator 2 Mods
-      </span>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/dangerous-roads-map-mod-ets2-1.55-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/dangerous-roads-map-mod-ets2-1.55-ets2-1-160x160.jpg" width="160"/>
      </a>
-     |
-     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
-      <span style="color: #777;">
-       American Truck Simulator Mods
-      </span>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/dangerous-roads-map-mod-ets2-1.55-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/dangerous-roads-map-mod-ets2-1.55-ets2-2-160x160.jpg" width="160"/>
      </a>
-    </span>
-   </span>
-   |
-   <span class="published">
-    August 15, 2025
-   </span>
-  </p>
-  <center>
-   <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="720" sizes="(max-width: 1280px) 100vw, 1280px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-1.jpg 1280w, https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-1-768x432.jpg 768w" width="1280"/>
-    <img alt="ETS2 Trucks" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
-   </div>
-  </center>
-  <div class="clear">
-  </div>
-  <div class="entry themeform">
-   <div class="entry-inner">
-    <hr/>
-    <center style="margin-top:15px;">
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-3.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-3-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/dangerous-roads-map-mod-ets2-1.55-ets2-3.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/dangerous-roads-map-mod-ets2-1.55-ets2-3-160x160.jpg" width="160"/>
      </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-4.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-4-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/dangerous-roads-map-mod-ets2-1.55-ets2-4.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/dangerous-roads-map-mod-ets2-1.55-ets2-4-160x160.jpg" width="160"/>
      </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-1.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-1-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/dangerous-roads-map-mod-ets2-1.55-ets2-5.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/dangerous-roads-map-mod-ets2-1.55-ets2-5-160x160.jpg" width="160"/>
      </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-2.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-2-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/dangerous-roads-map-mod-ets2-1.55-ets2-6.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/dangerous-roads-map-mod-ets2-1.55-ets2-6-160x160.jpg" width="160"/>
      </a>
     </center>
     <center>
     </center>
     <p>
      <strong>
-      MAZ 5440E9 Prostor v5.0 1.55 ETS2
+      Dangerous Roads Map mod 1.55 ETS2
      </strong>
     </p>
     <hr/>
     <p>
-     General information:
+     Dangerous Roads Map mod ETS2
      <br/>
-     – 1 PROSTOR-series Cabin
+     There are many different roads on the map, there are dangerous roads,
      <br/>
-     – 1 4×2 5440E9 chassis
-     <br/>
-     – 1 engine Daimler OM 501 Euro-5
-     <br/>
-     – Own PROSTOR-series interior and animation
-     <br/>
-     – 1 ZF16s transmission options
-     <br/>
-     – Lightmask
-     <br/>
-     – Full 8K & 4K AO Baked 3D model
-     <br/>
-     – Support DLC CA, Wolly & SISL’s Accessories Packs
-     <br/>
-     – Own Animated Trailer Cables
-     <br/>
-     – Animation of wipers, roof hatch and windows
-     <br/>
-     – Alot of accessories
-     <br/>
-     – Trailers
-     <br/>
-     – Templates
-     <br/>
-     – Mod adapted for 1.55
-    </p>
-    <hr/>
-    <strong>
-     Credits:
-    </strong>
-    Nikola
-    <br/>
-    <p style="margin-bottom:3px;">
-    </p>
-    <hr/>
-    <hr>
-    <strong>
-     How to install ETS2 mods or ATS Mods
-    </strong>
-    <br/>
-    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
-    <hr>
-     <div>
-      <span style="font-size:15px; color: #f42d36;">
-       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
-      </span>
-     </div>
-     <hr/>
-     <center>
-     </center>
-     <p>
-      <center>
-       <div>
-        <a class="dmod" href="https://modsfile.com/q206k7hdb3r7/MAZ_5440E9_Prostor_v5.0.scs.html" rel="nofollow" target="_blank">
-         <strong>
-          DOWNLOAD MOD
-         </strong>
-        </a>
-       </div>
-      </center>
-     </p>
-     <center style="margin-top:35px;">
-     </center>
-     <nav class="pagination group">
-     </nav>
-    </hr>
-   </div>
-   <div class="clear">
-   </div>
-  </div>
- </div>
- <hr/>
-</article>
-<br><br><br>]]></description>
-    </item>
-    <item>
-      <title>Scania V8 Open pipe sound SJ Concept v1.1 ETS2</title>
-      <link>https://www.ets2world.com/scania-v8-open-pipe-sound-sj-concept-v1-1-ets2-2/</link>
-      <description><![CDATA[<article class="post-383157 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-sounds">
- <div class="post-inner group">
-  <p class="post-byline">
-   <span class="vcard author">
-    <span class="fn">
-     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
-      <span style="color: #777;">
-       Euro Truck Simulator 2 Mods
-      </span>
-     </a>
-     |
-     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
-      <span style="color: #777;">
-       American Truck Simulator Mods
-      </span>
-     </a>
-    </span>
-   </span>
-   |
-   <span class="published">
-    August 15, 2025
-   </span>
-  </p>
-  <center>
-   <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="365" sizes="(max-width: 650px) 100vw, 650px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/scania-v8-open-pipe-sound-sj-concept-v1.1-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/scania-v8-open-pipe-sound-sj-concept-v1.1-ets2-1.jpg 650w, https://www.ets2world.com/wp-content/uploads/2025/08/scania-v8-open-pipe-sound-sj-concept-v1.1-ets2-1-300x168.jpg 300w" width="650"/>
-    <img alt="ETS2 Sounds" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
-   </div>
-  </center>
-  <div class="clear">
-  </div>
-  <div class="entry themeform">
-   <div class="entry-inner">
-    <hr/>
-    <center style="margin-top:15px;">
-    </center>
-    <center>
-    </center>
-    <p>
-     <strong>
-      Scania V8 Open pipe sound SJ Concept v1.1 ETS2
-     </strong>
-    </p>
-    <hr/>
-    <p>
-     – New sound for NG Scania engines
-     <br/>
-     – New EGR VGT ENGINE (520, 580, 730) engine sounds for NG and 6 Series
-     <br/>
-     – Added automatic exhaust brake engage sound when shifting for NG Scania
-     <br/>
-     – Adjusted rpm drop speed
-    </p>
-    <p>
-     – Scania DC16 V8 Euro 3-5 500-620HP with open pipe sound
-     <br/>
-     – Exhaust brake auto-engage when shifting on opticruise gearbox
-     <br/>
-     – Gearbox whine sound
-     <br/>
-     – Retarder sound
-     <br/>
-     – Opticruise shifting sound if you choose opticruise gearbox
-     <br/>
-     – Max Volume regulation for reduced chance of audio clipping and sound cutting
-     <br/>
-     – Sound attenuation effects for realistic sound fade off from the distance
-     <br/>
-     – Sound distortions and directional effects for realistic distortions from different positions around the truck
-     <br/>
-     – Exhaust valve system to switch between straight pipe and stock exhaust
+     The map is full of various dangerous and deadly routes
     </p>
     <div class="video-container">
-     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="281" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/-I4iRTj-DQg?feature=oembed&wmode=opaque" title="Scania V8 Open pipe sound SJ Concept V0. 6ETS2 1 48" width="500">
+     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="375" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/e2mTqgGlPGY?feature=oembed&wmode=opaque" title="Most Dangerous roads Map Mod in ETS2 1.55" width="500">
      </iframe>
     </div>
+    <p>
+    </p>
     <hr/>
     <strong>
      Credits:
     </strong>
-    Slav Jerry
+    Rota FG
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -410,7 +105,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/9x9l142o159w/scania_v8_open_pipe_sound_sj_concept_v1_1.scs.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/7c5yajyf60gr/MAPA_ESTRADAS_DESAFIADORAS_1.55.rar.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
@@ -433,9 +128,9 @@
 <br><br><br>]]></description>
     </item>
     <item>
-      <title>Pack Tuning Renault Range T v1.4 ETS2</title>
-      <link>https://www.ets2world.com/pack-tuning-renault-range-t-v1-4-ets2/</link>
-      <description><![CDATA[<article class="post-383152 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-partstuning">
+      <title>Map ICRF S2 By Evergreen Update 1.50 to 1.55 ETS2</title>
+      <link>https://www.ets2world.com/map-icrf-s2-by-evergreen-update-1-50-to-1-55-ets2/</link>
+      <description><![CDATA[<article class="post-383194 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -460,8 +155,8 @@
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="365" sizes="(max-width: 650px) 100vw, 650px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-1.jpg 650w, https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-1-300x168.jpg 300w" width="650"/>
-    <img alt="ETS2 Parts/Tuning" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="1080" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-1.jpg 1920w, https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-1-768x432.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-1-1536x864.jpg 1536w" width="1920"/>
+    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
   <div class="clear">
@@ -470,85 +165,70 @@
    <div class="entry-inner">
     <hr/>
     <center style="margin-top:15px;">
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-1.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-1-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-1-160x160.jpg" width="160"/>
      </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-2.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-2-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-2-160x160.jpg" width="160"/>
      </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-3.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-3-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-3.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-3-160x160.jpg" width="160"/>
      </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-4.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-4-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-4.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-4-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-5.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-5-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-6.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-6-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-7.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-7-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-8.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-8-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-9.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/map-icrf-s2-by-evergreen-update-ets2-1.50-to-1.55-ets2-9-160x160.jpg" width="160"/>
      </a>
     </center>
     <center>
     </center>
     <p>
      <strong>
-      Pack Tuning Renault Range T v1.4 ETS2
+      Map ICRF S2 By Evergreen Update 1.50 to 1.55 ETS2
      </strong>
     </p>
     <hr/>
     <p>
-     – 71 new colors
-     <br/>
-     – 4 new rear bumpers
-     <br/>
-     – 1 new wing cabin (completely black plastic)
-     <br/>
-     – 2 new sun visors
-     <br/>
-     – 1 new wing landing gear (fully painted)
-     <br/>
-     – 2 new stripes (paint and chrome) -> Template included
-     <br/>
-     – 2 new front elements wind frames (painted and chrome)
-     <br/>
-     – 3 slotted lobes (plastic, paint and chrome)
-     <br/>
-     – 7 low chassis
-     <br/>
-     – License plate number individually
-     <br/>
-     – 3 tall tubes (chrome, painted and black)
-     <br/>
-     – Orange DRL
-     <br/>
-     – 6 front grilles (2 color options and chrome)
-     <br/>
-     – 5 steering wheels (red/yellow/blue/grey Danish color)
-     <br/>
-     – 5 new colors (BERLIET brand)
-     <br/>
-     – 1 front bumper trim with LED strip
-     <br/>
-     – 5 new cabin reflectors: (red, yellow, green, blue and black)
-     <br/>
-     – 2 new roof spoilers (chrome and plastic)
-     <br/>
-     – 2 new interior spoilers (chrome and plastic)
-     <br/>
-     – 2 new standalone steering wheels
+     ICRF Sukabumi S2 Map By Evergreen1976 updated for the ETS2 game version 1.50 to 1.55 by Bimo Wahyu Saputro.
     </p>
     <p>
-     – Added slots on the sun shade for paint
+     The map is offline, for work, create or download a ready made profile.
      <br/>
-     – Added 11 SAVIEM colors (86 colors)
-     <br/>
-     – Standalone paint filter -> Template included
-     <br/>
-     – 1 new cabin reflector (paint)
+     Interesting map of Indonesia. Lots of lush vegetation, the local flavor is well conveyed.
     </p>
     <p>
-     Test on v1.55
+     Detailed, many villages with many residents, large and small bus stations, companies with an unusual layout. There are many different objects on the side of the road: parked vehicles, markets, groups of residents, etc. Life is literally in full swing. The peculiarity of this map is that most companies are located very far from cities, service stations and places for overnight stays, are quite rare, the climate is tropical with showers and fogs of such density that it is extremely difficult to travel.
+    </p>
+    <p>
+     To the east of Sukajaya there is a huge village, through which there is a very narrow single lane to the company, which is located quite far outside the city. This site is the most interesting.
+    </p>
+    <p>
+     Video review:
+    </p>
+    <div class="video-container">
+     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="375" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/E95dKz0XUB8?feature=oembed&wmode=opaque" title="Download Map ICRF S2 + Overloaded BUS Mod For ETS2 1.55" width="500">
+     </iframe>
+    </div>
+    <p>
     </p>
     <hr/>
     <strong>
      Credits:
     </strong>
-    HorseeHorse Modding
+    Adie Evergreen
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -571,7 +251,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/t6jh97d0pl4d/pack_tuning_renault_range_t_1_55.scs.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/cwttbt0b6ik2/Map_-_ICRF_S2_By_Evergreen1976_V.1.50.rar.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
@@ -594,9 +274,9 @@
 <br><br><br>]]></description>
     </item>
     <item>
-      <title>Oberhavel v1.7.3 ETS2</title>
-      <link>https://www.ets2world.com/oberhavel-v1-7-3-ets2/</link>
-      <description><![CDATA[<article class="post-383150 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
+      <title>Road to Caucasus + RusMap Aldimator RC v1.2 ETS2</title>
+      <link>https://www.ets2world.com/road-to-caucasus-rusmap-aldimator-rc-v1-2-ets2/</link>
+      <description><![CDATA[<article class="post-383204 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -621,7 +301,7 @@
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="624" sizes="(max-width: 1110px) 100vw, 1110px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/oberhavel-v1.7.3-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/oberhavel-v1.7.3-ets2-1.jpg 1110w, https://www.ets2world.com/wp-content/uploads/2025/08/oberhavel-v1.7.3-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/08/oberhavel-v1.7.3-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/08/oberhavel-v1.7.3-ets2-1-768x432.jpg 768w" width="1110"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="720" sizes="(max-width: 1280px) 100vw, 1280px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/road-to-caucasus-2B-rusmap-aldimator-rc-v1.2-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/road-to-caucasus-2B-rusmap-aldimator-rc-v1.2-ets2-1.jpg 1280w, https://www.ets2world.com/wp-content/uploads/2025/08/road-to-caucasus-2B-rusmap-aldimator-rc-v1.2-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/08/road-to-caucasus-2B-rusmap-aldimator-rc-v1.2-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/08/road-to-caucasus-2B-rusmap-aldimator-rc-v1.2-ets2-1-768x432.jpg 768w" width="1280"/>
     <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
@@ -636,28 +316,20 @@
     </center>
     <p>
      <strong>
-      Oberhavel v1.7.3 ETS2
+      Road to Caucasus + RusMap Aldimator RC v1.2 ETS2
      </strong>
     </p>
     <hr/>
     <p>
-     Oberhavel is a district in the north of Berlin.
-    </p>
-    <p>
-     The map mod includes two towns:
+     Roads connecting the Road to Caucasus and RusMap [Aldimator] maps in the Volgograd and Aktobe regions to Krasnoslobodsk.
      <br/>
-     Velten with four businesses, two gas stations, a garage, and a workshop with its own house.
-     <br/>
-     Germendorf in the industrial area with two businesses and a workshop.
-    </p>
-    <p>
-     Small graphic fixes.
+     Adaptation for 1.55.
     </p>
     <hr/>
     <strong>
      Credits:
     </strong>
-    I_KIMBLE_I
+    MCY
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -680,7 +352,284 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/dge9lcdajpsv/oberhavel_1_7_3.scs.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/oufxt9p3l9s3/RTC_RusMapAld_RC_v.1.2.scs.html" rel="nofollow" target="_blank">
+         <strong>
+          DOWNLOAD MOD
+         </strong>
+        </a>
+       </div>
+      </center>
+     </p>
+     <center style="margin-top:35px;">
+     </center>
+     <nav class="pagination group">
+     </nav>
+    </hr>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+ </div>
+ <hr/>
+</article>
+<br><br><br>]]></description>
+    </item>
+    <item>
+      <title>VOLKSWAGEN DELIVERY 9.160 1.55 ETS2</title>
+      <link>https://www.ets2world.com/volkswagen-delivery-9-160-1-55-ets2/</link>
+      <description><![CDATA[<article class="post-383185 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trucks">
+ <div class="post-inner group">
+  <p class="post-byline">
+   <span class="vcard author">
+    <span class="fn">
+     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
+      <span style="color: #777;">
+       Euro Truck Simulator 2 Mods
+      </span>
+     </a>
+     |
+     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
+      <span style="color: #777;">
+       American Truck Simulator Mods
+      </span>
+     </a>
+    </span>
+   </span>
+   |
+   <span class="published">
+    August 15, 2025
+   </span>
+  </p>
+  <center>
+   <div class="thumbnail">
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="768" sizes="(max-width: 1366px) 100vw, 1366px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/volkswagen-delivery-9.160-1.55-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/volkswagen-delivery-9.160-1.55-ets2-1.jpg 1366w, https://www.ets2world.com/wp-content/uploads/2025/08/volkswagen-delivery-9.160-1.55-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/08/volkswagen-delivery-9.160-1.55-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/08/volkswagen-delivery-9.160-1.55-ets2-1-768x432.jpg 768w" width="1366"/>
+    <img alt="ETS2 Trucks" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+   </div>
+  </center>
+  <div class="clear">
+  </div>
+  <div class="entry themeform">
+   <div class="entry-inner">
+    <hr/>
+    <center style="margin-top:15px;">
+    </center>
+    <center>
+    </center>
+    <p>
+     <strong>
+      VOLKSWAGEN DELIVERY 9.160 1.55 ETS2
+     </strong>
+    </p>
+    <hr/>
+    <p>
+     VOLKSWAGEN DELIVERY 9.160
+     <br/>
+     Chassis 4×2
+     <br/>
+     Game: Euro truck simulator 2
+    </p>
+    <hr/>
+    <strong>
+     Credits:
+    </strong>
+    ETS2 Rotas Brasil
+    <br/>
+    <p style="margin-bottom:3px;">
+    </p>
+    <hr/>
+    <hr>
+    <strong>
+     How to install ETS2 mods or ATS Mods
+    </strong>
+    <br/>
+    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
+    <hr>
+     <div>
+      <span style="font-size:15px; color: #f42d36;">
+       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
+      </span>
+     </div>
+     <hr/>
+     <center>
+     </center>
+     <p>
+      <center>
+       <div>
+        <a class="dmod" href="https://modsfile.com/0r54ibzd367y/VOLKSWAGEN_DELIVERY_9.160_V1.55.rar.html" rel="nofollow" target="_blank">
+         <strong>
+          DOWNLOAD MOD
+         </strong>
+        </a>
+       </div>
+      </center>
+     </p>
+     <center style="margin-top:35px;">
+     </center>
+     <nav class="pagination group">
+     </nav>
+    </hr>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+ </div>
+ <hr/>
+</article>
+<br><br><br>]]></description>
+    </item>
+    <item>
+      <title>FUELO.EU DIESEL PRICE 15 08 2025 v1.0 1.55 ETS2</title>
+      <link>https://www.ets2world.com/fuelo-eu-diesel-price-15-08-2025-v1-0-1-55-ets2/</link>
+      <description><![CDATA[<article class="post-383179 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-other">
+ <div class="post-inner group">
+  <p class="post-byline">
+   <span class="vcard author">
+    <span class="fn">
+     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
+      <span style="color: #777;">
+       Euro Truck Simulator 2 Mods
+      </span>
+     </a>
+     |
+     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
+      <span style="color: #777;">
+       American Truck Simulator Mods
+      </span>
+     </a>
+    </span>
+   </span>
+   |
+   <span class="published">
+    August 15, 2025
+   </span>
+  </p>
+  <center>
+   <div class="thumbnail">
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="1080" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/fuelo.eu-diesel-price-15-08-2025-v1.0-1.55-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/fuelo.eu-diesel-price-15-08-2025-v1.0-1.55-ets2-1.jpg 1920w, https://www.ets2world.com/wp-content/uploads/2025/08/fuelo.eu-diesel-price-15-08-2025-v1.0-1.55-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/08/fuelo.eu-diesel-price-15-08-2025-v1.0-1.55-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/08/fuelo.eu-diesel-price-15-08-2025-v1.0-1.55-ets2-1-768x432.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/08/fuelo.eu-diesel-price-15-08-2025-v1.0-1.55-ets2-1-1536x864.jpg 1536w" width="1920"/>
+    <img alt="ETS2 Other" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+   </div>
+  </center>
+  <div class="clear">
+  </div>
+  <div class="entry themeform">
+   <div class="entry-inner">
+    <hr/>
+    <center style="margin-top:15px;">
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/fuelo.eu-diesel-price-15-08-2025-v1.0-1.55-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/fuelo.eu-diesel-price-15-08-2025-v1.0-1.55-ets2-1-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/fuelo.eu-diesel-price-15-08-2025-v1.0-1.55-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/fuelo.eu-diesel-price-15-08-2025-v1.0-1.55-ets2-2-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/fuelo.eu-diesel-price-15-08-2025-v1.0-1.55-ets2-3.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/fuelo.eu-diesel-price-15-08-2025-v1.0-1.55-ets2-3-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/fuelo.eu-diesel-price-15-08-2025-v1.0-1.55-ets2-4.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/fuelo.eu-diesel-price-15-08-2025-v1.0-1.55-ets2-4-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/fuelo.eu-diesel-price-15-08-2025-v1.0-1.55-ets2-5.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/fuelo.eu-diesel-price-15-08-2025-v1.0-1.55-ets2-5-160x160.jpg" width="160"/>
+     </a>
+    </center>
+    <center>
+    </center>
+    <p>
+     <strong>
+      FUELO.EU DIESEL PRICE 15 08 2025 v1.0 1.55 ETS2
+     </strong>
+    </p>
+    <hr/>
+    <p>
+     FUELO.EU DIESEL PRICE BY RODONITCHO MODS 1.0 1.55 15 08 2025
+     <br/>
+     AUSTRIA 1,60
+     <br/>
+     BELGIUM 1,72
+     <br/>
+     BOSNIA 1,22
+     <br/>
+     BULGARIA 1,23
+     <br/>
+     CROATIA 1,37
+     <br/>
+     CZECH REPUBLIC 1,41
+     <br/>
+     ESTONIA 1,50
+     <br/>
+     FRANCE 1,67
+     <br/>
+     GERMANY 1,59
+     <br/>
+     GREECE 1,52
+     <br/>
+     HUNGARY 1,49
+     <br/>
+     IRELAND 1,65
+     <br/>
+     ITALY 1,73
+     <br/>
+     LATVIA 1,54
+     <br/>
+     LITHUANIA 1,49
+     <br/>
+     MACEDONIA 1,11
+     <br/>
+     NETHERLANDS 1,82
+     <br/>
+     POLAND 1,41
+     <br/>
+     PORTUGAL 1,68
+     <br/>
+     ROMANIA 1,51
+     <br/>
+     SERBIA 1,65
+     <br/>
+     SLOVAKIA 1,50
+     <br/>
+     SLOVENIA 1,46
+     <br/>
+     SPAIN 1,48
+     <br/>
+     SWITZERLAND 1,94
+     <br/>
+     TURKEY 1,15
+     <br/>
+     UNITED KINGDOM 1,92
+    </p>
+    <div class="video-container">
+     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="281" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/yB1kCuaWsxM?feature=oembed&wmode=opaque" title="019/05/0339/2025/4233 RODONITCHO MODS ETS2 1.55.0.14S FUELO.EU DIESEL PRICE 1.0 1.55 16 07 2025" width="500">
+     </iframe>
+    </div>
+    <p>
+    </p>
+    <hr/>
+    <strong>
+     Credits:
+    </strong>
+    RODONITCHO MODS
+    <br/>
+    <p style="margin-bottom:3px;">
+    </p>
+    <hr/>
+    <hr>
+    <strong>
+     How to install ETS2 mods or ATS Mods
+    </strong>
+    <br/>
+    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
+    <hr>
+     <div>
+      <span style="font-size:15px; color: #f42d36;">
+       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
+      </span>
+     </div>
+     <hr/>
+     <center>
+     </center>
+     <p>
+      <center>
+       <div>
+        <a class="dmod" href="https://modsfile.com/zc32j8gkknvn/FUELO.EU_DIESEL_PRICE_BY_RODONITCHO_MODS_1.0_1.55_15_08_2025.zip.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
