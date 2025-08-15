@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
-      <title>Road to Caucasus + Promods RC v1.3 ETS2</title>
-      <link>https://www.ets2world.com/road-to-caucasus-promods-rc-v1-3-ets2/</link>
-      <description><![CDATA[<article class="post-383135 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
+      <title>Physics Mod v1.3 ATS</title>
+      <link>https://www.ets2world.com/physics-mod-v1-3-ats/</link>
+      <description><![CDATA[<article class="post-383165 post type-post status-publish format-standard has-post-thumbnail hentry category-ats-other">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -23,13 +23,13 @@
    </span>
    |
    <span class="published">
-    August 14, 2025
+    August 15, 2025
    </span>
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="162" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/road-to-caucasus-2B-promods-rc-v1.3-ets2-1.jpg" width="276"/>
-    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="600" sizes="(max-width: 800px) 100vw, 800px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/physics-mod-v1.3-ats-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/physics-mod-v1.3-ats-1.jpg 800w, https://www.ets2world.com/wp-content/uploads/2025/08/physics-mod-v1.3-ats-1-300x225.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/08/physics-mod-v1.3-ats-1-768x576.jpg 768w" width="800"/>
+    <img alt="ATS Other" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ats3.png"/>
    </div>
   </center>
   <div class="clear">
@@ -43,22 +43,84 @@
     </center>
     <p>
      <strong>
-      Road to Caucasus + Promods RC v1.3 ETS2
+      Physics Mod v1.3 ATS
      </strong>
     </p>
     <hr/>
     <p>
-     Road to Caucasus + Promods RC
+     Suspension & Cabin Movement
      <br/>
-     – The connector is optimized for ETS2 version 1.55.
+     Chassis Suspension Overhaul – More realistic weight transfer and rebound behavior.
      <br/>
-     – Fixed bugs.
+     Cabin Suspension Adjustments – Improved independent cabin movement that reacts naturally to road conditions.
+     <br/>
+     Balanced Cabin Lean & Roll – No more “blocky” side-to-side motion; smoother transitions.
+     <br/>
+     Reduced Over-Dampening – Trucks now feel less stiff and more responsive to bumps and terrain.
+    </p>
+    <p>
+     Transmission, Gearbox Behavior & Powertrain Realism
+     <br/>
+     Improved Automatic Shifting Logic
+     <br/>
+     Shifts at lower RPMs under light throttle for better fuel efficiency.
+     <br/>
+     Holds gears properly under load for realistic power delivery.
+     <br/>
+     Reduced excessive gear hunting.
+     <br/>
+     Adjusted shift timing for a more natural feel.
+     <br/>
+     Refined Manual Gearbox Behavior
+     <br/>
+     Clutch engagement tuned for smoother starts.
+     <br/>
+     More realistic RPM fall.
+     <br/>
+     Improved Transmission Resistance – More natural power loss through the drivetrain, making acceleration and deceleration feel smoother and more authentic.
+     <br/>
+     Balanced Flywheel Inertia – The engine now holds and loses revs in a more progressive and realistic way, improving shift behavior and coasting.
+     <br/>
+     Refined Torque Converter Behavior – Gear shifts feel smoother and more natural, especially under load, preventing excessive slipping while maintaining realistic power delivery.
+    </p>
+    <p>
+     Steering & Handling
+     <br/>
+     More Progressive Steering Response – Less sensitive at center for better highway stability.
+     <br/>
+     Balanced Steering Wheel Travel – Adjusted max steering angle to better match real trucks (38 degrees)
+     <br/>
+     Supports Gamepads – Features realistic, speed-sensitive auto-centering for smooth and precise control.
+    </p>
+    <p>
+     Road & Environment Interaction
+     <br/>
+     Refined Wheel Slip Behavior – Adjusted slip factors to reduce understeer/oversteer.
+     <br/>
+     More Noticeable Mini-Bumps & Road Feedback – Feels more like a real truck suspension.
+     <br/>
+     Subtle Air Seat Movement Simulation – Adds immersion with natural seat bounce over bumps.
+    </p>
+    <p>
+     Realistic Throttle Curve
+     <br/>
+     Optional realistic throttle curve included, providing smoother and more progressive throttle response. This improves low-speed control, reduces jerky acceleration, and enhances realism by mimicking the way real truck engines respond to throttle input.
+    </p>
+    <p>
+     Compatibility & Optimization
+     <br/>
+     Works with All Trucks – Fully compatible with stock and modded trucks (providing they have independent chassis/cabin physics)
+    </p>
+    <p>
+     Designed for Wheel Users – Balanced for users with a steering wheel.
+     <br/>
+     Designed for Gamepad Users – Handle your truck with ease without a steering wheel.
     </p>
     <hr/>
     <strong>
      Credits:
     </strong>
-    MCY
+    zeemods
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -81,7 +143,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/btjgruzph0uh/RTC_PRMDS_RC_v.1.3.scs.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/nfi1p71b5ge6/zeemods_physics_mod_v1_3_physx_gamepad.scs.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
@@ -104,9 +166,9 @@
 <br><br><br>]]></description>
     </item>
     <item>
-      <title>Volkswagen Passat B8 2017 1.54-1.55 ETS2</title>
-      <link>https://www.ets2world.com/volkswagen-passat-b8-2017-1-54-1-55-ets2/</link>
-      <description><![CDATA[<article class="post-383131 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-cars">
+      <title>MAZ 5440E9 Prostor v5.0 1.55 ETS2</title>
+      <link>https://www.ets2world.com/maz-5440e9-prostor-v5-0-1-55-ets2/</link>
+      <description><![CDATA[<article class="post-383145 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trucks">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -126,278 +188,12 @@
    </span>
    |
    <span class="published">
-    August 14, 2025
+    August 15, 2025
    </span>
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="937" sizes="(max-width: 555px) 100vw, 555px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/volkswagen-passat-b8-2017-1.54-1.55-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/volkswagen-passat-b8-2017-1.54-1.55-ets2-1.jpg 555w, https://www.ets2world.com/wp-content/uploads/2025/08/volkswagen-passat-b8-2017-1.54-1.55-ets2-1-178x300.jpg 178w" width="555"/>
-    <img alt="ETS2 Cars" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
-   </div>
-  </center>
-  <div class="clear">
-  </div>
-  <div class="entry themeform">
-   <div class="entry-inner">
-    <hr/>
-    <center style="margin-top:15px;">
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/volkswagen-passat-b8-2017-1.54-1.55-ets2-1.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/volkswagen-passat-b8-2017-1.54-1.55-ets2-1-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/volkswagen-passat-b8-2017-1.54-1.55-ets2-2.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/volkswagen-passat-b8-2017-1.54-1.55-ets2-2-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/volkswagen-passat-b8-2017-1.54-1.55-ets2-3.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/volkswagen-passat-b8-2017-1.54-1.55-ets2-3-160x160.jpg" width="160"/>
-     </a>
-    </center>
-    <center>
-    </center>
-    <p>
-     <strong>
-      Volkswagen Passat B8 2017 1.54-1.55 ETS2
-     </strong>
-    </p>
-    <hr/>
-    <p>
-     CHANGELOG:
-     <br/>
-     Updated to game version 1.54-1.55
-     <br/>
-     Engine Update.
-    </p>
-    <p>
-     Features;
-     <br/>
-     – HQ Model
-     <br/>
-     – HQ Salon
-     <br/>
-     – Ao(Ambiyans Coating)
-     <br/>
-     – Real Sound
-     <br/>
-     – Cakar slots
-     <br/>
-     – Phone option
-     <br/>
-     – Siren Sound[N]
-     <br/>
-     – 4 Different Bumpers
-     <br/>
-     – 4 Different Blinds
-     <br/>
-     – 2 Different Mirror Options
-     <br/>
-     – 4 Different Cockpit Colors
-     <br/>
-     – 2 Different Seat Covers
-     <br/>
-     – 2 Different Ceiling Coverings
-     <br/>
-     – 3 Different Wheels
-    </p>
-    <hr/>
-    <strong>
-     Credits:
-    </strong>
-    Mert İrşi-Nimit
-    <br/>
-    <p style="margin-bottom:3px;">
-    </p>
-    <hr/>
-    <hr>
-    <strong>
-     How to install ETS2 mods or ATS Mods
-    </strong>
-    <br/>
-    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
-    <hr>
-     <div>
-      <span style="font-size:15px; color: #f42d36;">
-       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
-      </span>
-     </div>
-     <hr/>
-     <center>
-     </center>
-     <p>
-      <center>
-       <div>
-        <a class="dmod" href="https://modsfile.com/l8ej31xg885s/Volkswagen-Passat-B8-2017.scs.html" rel="nofollow" target="_blank">
-         <strong>
-          DOWNLOAD MOD
-         </strong>
-        </a>
-       </div>
-      </center>
-     </p>
-     <center style="margin-top:35px;">
-     </center>
-     <nav class="pagination group">
-     </nav>
-    </hr>
-   </div>
-   <div class="clear">
-   </div>
-  </div>
- </div>
- <hr/>
-</article>
-<br><br><br>]]></description>
-    </item>
-    <item>
-      <title>Mercedes-Benz AMG GT R 2017 1.54-1.55 ETS2</title>
-      <link>https://www.ets2world.com/mercedes-benz-amg-gt-r-2017-1-54-1-55-ets2/</link>
-      <description><![CDATA[<article class="post-383127 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-cars">
- <div class="post-inner group">
-  <p class="post-byline">
-   <span class="vcard author">
-    <span class="fn">
-     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
-      <span style="color: #777;">
-       Euro Truck Simulator 2 Mods
-      </span>
-     </a>
-     |
-     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
-      <span style="color: #777;">
-       American Truck Simulator Mods
-      </span>
-     </a>
-    </span>
-   </span>
-   |
-   <span class="published">
-    August 14, 2025
-   </span>
-  </p>
-  <center>
-   <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="937" sizes="(max-width: 555px) 100vw, 555px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/mercedes-benz-amg-gt-r-2017-1.54-1.55-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/mercedes-benz-amg-gt-r-2017-1.54-1.55-ets2-1.jpg 555w, https://www.ets2world.com/wp-content/uploads/2025/08/mercedes-benz-amg-gt-r-2017-1.54-1.55-ets2-1-178x300.jpg 178w" width="555"/>
-    <img alt="ETS2 Cars" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
-   </div>
-  </center>
-  <div class="clear">
-  </div>
-  <div class="entry themeform">
-   <div class="entry-inner">
-    <hr/>
-    <center style="margin-top:15px;">
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/mercedes-benz-amg-gt-r-2017-1.54-1.55-ets2-1.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/mercedes-benz-amg-gt-r-2017-1.54-1.55-ets2-1-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/mercedes-benz-amg-gt-r-2017-1.54-1.55-ets2-2.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/mercedes-benz-amg-gt-r-2017-1.54-1.55-ets2-2-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/mercedes-benz-amg-gt-r-2017-1.54-1.55-ets2-3.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/mercedes-benz-amg-gt-r-2017-1.54-1.55-ets2-3-160x160.jpg" width="160"/>
-     </a>
-    </center>
-    <center>
-    </center>
-    <p>
-     <strong>
-      Mercedes-Benz AMG GT R 2017 1.54-1.55 ETS2
-     </strong>
-    </p>
-    <hr/>
-    <p>
-     <strong>
-      CHANGELOG:
-     </strong>
-     <br/>
-     Updated to game version 1.54-1.55
-    </p>
-    <p>
-     <strong>
-      Features;
-     </strong>
-     <br/>
-     – HQ Model
-     <br/>
-     – Ao(Ambiyans Coating)
-     <br/>
-     – Real Sound
-    </p>
-    <hr/>
-    <strong>
-     Credits:
-    </strong>
-    Mert İrşi-Nimit
-    <br/>
-    <p style="margin-bottom:3px;">
-    </p>
-    <hr/>
-    <hr>
-    <strong>
-     How to install ETS2 mods or ATS Mods
-    </strong>
-    <br/>
-    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
-    <hr>
-     <div>
-      <span style="font-size:15px; color: #f42d36;">
-       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
-      </span>
-     </div>
-     <hr/>
-     <center>
-     </center>
-     <p>
-      <center>
-       <div>
-        <a class="dmod" href="https://modsfile.com/5rhjoqo6z4tx/Mercedes-AMG-GTR2017.scs.html" rel="nofollow" target="_blank">
-         <strong>
-          DOWNLOAD MOD
-         </strong>
-        </a>
-       </div>
-      </center>
-     </p>
-     <center style="margin-top:35px;">
-     </center>
-     <nav class="pagination group">
-     </nav>
-    </hr>
-   </div>
-   <div class="clear">
-   </div>
-  </div>
- </div>
- <hr/>
-</article>
-<br><br><br>]]></description>
-    </item>
-    <item>
-      <title>Scania P310 Bitruck v1.0 ETS2</title>
-      <link>https://www.ets2world.com/scania-p310-bitruck-v1-0-ets2/</link>
-      <description><![CDATA[<article class="post-383137 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trucks">
- <div class="post-inner group">
-  <p class="post-byline">
-   <span class="vcard author">
-    <span class="fn">
-     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
-      <span style="color: #777;">
-       Euro Truck Simulator 2 Mods
-      </span>
-     </a>
-     |
-     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
-      <span style="color: #777;">
-       American Truck Simulator Mods
-      </span>
-     </a>
-    </span>
-   </span>
-   |
-   <span class="published">
-    August 14, 2025
-   </span>
-  </p>
-  <center>
-   <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="335" sizes="(max-width: 630px) 100vw, 630px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/scania-p310-bitruck-v1.0-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/scania-p310-bitruck-v1.0-ets2-1.jpg 630w, https://www.ets2world.com/wp-content/uploads/2025/08/scania-p310-bitruck-v1.0-ets2-1-300x160.jpg 300w" width="630"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="720" sizes="(max-width: 1280px) 100vw, 1280px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-1.jpg 1280w, https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-1-768x432.jpg 768w" width="1280"/>
     <img alt="ETS2 Trucks" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
@@ -407,71 +203,63 @@
    <div class="entry-inner">
     <hr/>
     <center style="margin-top:15px;">
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/scania-p310-bitruck-v1.0-ets2-1.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/scania-p310-bitruck-v1.0-ets2-1-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-3.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-3-160x160.jpg" width="160"/>
      </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/scania-p310-bitruck-v1.0-ets2-2.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/scania-p310-bitruck-v1.0-ets2-2-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-4.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-4-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-1-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/maz-5440e9-prostor-v5.0-1.55-ets2-2-160x160.jpg" width="160"/>
      </a>
     </center>
     <center>
     </center>
     <p>
      <strong>
-      Scania P310 Bitruck v1.0 ETS2
+      MAZ 5440E9 Prostor v5.0 1.55 ETS2
      </strong>
     </p>
     <hr/>
     <p>
-     The Scania P310 Bitruck is a very popular and versatile truck in the Brazilian market, especially for medium to heavy-duty transport. The “Bitruck” designation refers to its axle configuration, which typically means it has four axles with eight wheels on the ground. This setup, usually an 8×2 configuration with two steerable front axles and two rear drive axles, allows it to carry a significantly higher weight than a standard truck.
+     General information:
      <br/>
-     Here’s a breakdown of what makes the Scania P310 Bitruck a notable vehicle:
-    </p>
-    <p>
-     <strong>
-      Key Specifications and Features
-     </strong>
+     – 1 PROSTOR-series Cabin
      <br/>
-     Engine: It’s powered by a 9.3-liter, 5-cylinder engine that produces 314 horsepower and a strong torque of 158 mkgf. This is a powerful and reliable engine for its category.
+     – 1 4×2 5440E9 chassis
      <br/>
-     Chassis and Axles: The “Bitruck” configuration (most commonly 8×2) is its defining feature. It has a high legal Gross Vehicle Weight (GVW) of 29,000 kg and a technical capacity of up to 33,200 kg, making it ideal for hauling heavy loads over long distances.
+     – 1 engine Daimler OM 501 Euro-5
      <br/>
-     Transmission: The P310 often comes with a manual 9-speed GR905 gearbox, which includes a super-low gear for difficult starts and heavy loads. Some models may feature Scania’s automated Opticruise transmission.
+     – Own PROSTOR-series interior and animation
      <br/>
-     Cabin: The P-series cabin is designed for regional and medium-distance transport. It’s known for being practical, comfortable, and functional, with features like air conditioning, an air suspension seat for the driver, and a bunk for resting.
+     – 1 ZF16s transmission options
      <br/>
-     Applications: The P310 Bitruck’s versatility means it’s used for a wide range of applications. It can be fitted with a variety of bodies, including:
+     – Lightmask
      <br/>
-     “Carroceria” (Stake body): For general cargo like grains and materials.
+     – Full 8K & 4K AO Baked 3D model
      <br/>
-     “Baú” or “Sider”: For enclosed cargo, often used for transporting electronics, furniture, or palletized goods.
+     – Support DLC CA, Wolly & SISL’s Accessories Packs
      <br/>
-     “Caçamba Basculante” (Dump truck): For construction materials, gravel, or sand.
+     – Own Animated Trailer Cables
      <br/>
-     Tanker or Refrigerated box: For liquid cargo or temperature-sensitive goods.
-    </p>
-    <p>
-     <strong>
-      Market and Pricing
-     </strong>
+     – Animation of wipers, roof hatch and windows
      <br/>
-     The Scania P310 Bitruck is very popular in the used truck market in Brazil. Prices vary significantly depending on the year, condition, mileage, and the type of body installed on the chassis.
+     – Alot of accessories
      <br/>
-     As a general guideline, based on current market listings, you can expect prices to be in the following ranges:
+     – Trailers
      <br/>
-     Older models (2012-2015): Prices typically range from around R$ 300,000 to R$ 400,000.
+     – Templates
      <br/>
-     Newer models (2018-2021): These can go for R$ 450,000 and up, often reaching over R$ 500,000 for well-maintained trucks with a low mileage
-     <br/>
-     You can find these trucks for sale on popular online marketplaces and specialized truck dealers throughout Brazil. Many listings are from São Paulo, Minas Gerais, and Santa Catarina.
-     <br/>
-     If you’re in the market for a reliable and high-capacity truck, the Scania P310 Bitruck is a great option to consider. Would you like to know more about its maintenance or typical fuel consumption?
+     – Mod adapted for 1.55
     </p>
     <hr/>
     <strong>
      Credits:
     </strong>
-    cabelo.encomendas
+    Nikola
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -494,7 +282,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/dfq1k36rswhi/pzinha_do_nene_ciotta_cabelomods.scs.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/q206k7hdb3r7/MAZ_5440E9_Prostor_v5.0.scs.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
@@ -517,9 +305,9 @@
 <br><br><br>]]></description>
     </item>
     <item>
-      <title>More Swiss Towns for ProMods v1.0.5 1.55 ETS2</title>
-      <link>https://www.ets2world.com/more-swiss-towns-for-promods-v1-0-5-1-55-ets2/</link>
-      <description><![CDATA[<article class="post-383124 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
+      <title>Scania V8 Open pipe sound SJ Concept v1.1 ETS2</title>
+      <link>https://www.ets2world.com/scania-v8-open-pipe-sound-sj-concept-v1-1-ets2-2/</link>
+      <description><![CDATA[<article class="post-383157 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-sounds">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -539,13 +327,13 @@
    </span>
    |
    <span class="published">
-    August 14, 2025
+    August 15, 2025
    </span>
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="624" sizes="(max-width: 1110px) 100vw, 1110px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/more-swiss-towns-for-promods-v1.0.5-1.55-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/more-swiss-towns-for-promods-v1.0.5-1.55-ets2-1.jpg 1110w, https://www.ets2world.com/wp-content/uploads/2025/08/more-swiss-towns-for-promods-v1.0.5-1.55-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/08/more-swiss-towns-for-promods-v1.0.5-1.55-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/08/more-swiss-towns-for-promods-v1.0.5-1.55-ets2-1-768x432.jpg 768w" width="1110"/>
-    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="365" sizes="(max-width: 650px) 100vw, 650px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/scania-v8-open-pipe-sound-sj-concept-v1.1-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/scania-v8-open-pipe-sound-sj-concept-v1.1-ets2-1.jpg 650w, https://www.ets2world.com/wp-content/uploads/2025/08/scania-v8-open-pipe-sound-sj-concept-v1.1-ets2-1-300x168.jpg 300w" width="650"/>
+    <img alt="ETS2 Sounds" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
   <div class="clear">
@@ -559,27 +347,47 @@
     </center>
     <p>
      <strong>
-      More Swiss Towns for ProMods v1.0.5 1.55 ETS2
+      Scania V8 Open pipe sound SJ Concept v1.1 ETS2
      </strong>
     </p>
     <hr/>
     <p>
-     <strong>
-      Update: v1.0.5
-     </strong>
+     – New sound for NG Scania engines
      <br/>
-     Compatibility update for ProMods 2.75 / ETS2 1.55
+     – New EGR VGT ENGINE (520, 580, 730) engine sounds for NG and 6 Series
+     <br/>
+     – Added automatic exhaust brake engage sound when shifting for NG Scania
+     <br/>
+     – Adjusted rpm drop speed
     </p>
     <p>
-     Adds the towns of Domat/Elms & Susten into the game.
+     – Scania DC16 V8 Euro 3-5 500-620HP with open pipe sound
      <br/>
-     Please place this mod ABOVE ProMods Europe
+     – Exhaust brake auto-engage when shifting on opticruise gearbox
+     <br/>
+     – Gearbox whine sound
+     <br/>
+     – Retarder sound
+     <br/>
+     – Opticruise shifting sound if you choose opticruise gearbox
+     <br/>
+     – Max Volume regulation for reduced chance of audio clipping and sound cutting
+     <br/>
+     – Sound attenuation effects for realistic sound fade off from the distance
+     <br/>
+     – Sound distortions and directional effects for realistic distortions from different positions around the truck
+     <br/>
+     – Exhaust valve system to switch between straight pipe and stock exhaust
     </p>
+    <div class="video-container">
+     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="281" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/-I4iRTj-DQg?feature=oembed&wmode=opaque" title="Scania V8 Open pipe sound SJ Concept V0. 6ETS2 1 48" width="500">
+     </iframe>
+    </div>
     <hr/>
     <strong>
      Credits:
     </strong>
-    Enphyte
+    Slav Jerry
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -602,7 +410,277 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/d5068izr9rwu/more_swiss_towns_map.scs.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/9x9l142o159w/scania_v8_open_pipe_sound_sj_concept_v1_1.scs.html" rel="nofollow" target="_blank">
+         <strong>
+          DOWNLOAD MOD
+         </strong>
+        </a>
+       </div>
+      </center>
+     </p>
+     <center style="margin-top:35px;">
+     </center>
+     <nav class="pagination group">
+     </nav>
+    </hr>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+ </div>
+ <hr/>
+</article>
+<br><br><br>]]></description>
+    </item>
+    <item>
+      <title>Pack Tuning Renault Range T v1.4 ETS2</title>
+      <link>https://www.ets2world.com/pack-tuning-renault-range-t-v1-4-ets2/</link>
+      <description><![CDATA[<article class="post-383152 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-partstuning">
+ <div class="post-inner group">
+  <p class="post-byline">
+   <span class="vcard author">
+    <span class="fn">
+     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
+      <span style="color: #777;">
+       Euro Truck Simulator 2 Mods
+      </span>
+     </a>
+     |
+     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
+      <span style="color: #777;">
+       American Truck Simulator Mods
+      </span>
+     </a>
+    </span>
+   </span>
+   |
+   <span class="published">
+    August 15, 2025
+   </span>
+  </p>
+  <center>
+   <div class="thumbnail">
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="365" sizes="(max-width: 650px) 100vw, 650px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-1.jpg 650w, https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-1-300x168.jpg 300w" width="650"/>
+    <img alt="ETS2 Parts/Tuning" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+   </div>
+  </center>
+  <div class="clear">
+  </div>
+  <div class="entry themeform">
+   <div class="entry-inner">
+    <hr/>
+    <center style="margin-top:15px;">
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-1-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-2-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-3.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-3-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-4.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/pack-tuning-renault-range-t-v1.4-ets2-4-160x160.jpg" width="160"/>
+     </a>
+    </center>
+    <center>
+    </center>
+    <p>
+     <strong>
+      Pack Tuning Renault Range T v1.4 ETS2
+     </strong>
+    </p>
+    <hr/>
+    <p>
+     – 71 new colors
+     <br/>
+     – 4 new rear bumpers
+     <br/>
+     – 1 new wing cabin (completely black plastic)
+     <br/>
+     – 2 new sun visors
+     <br/>
+     – 1 new wing landing gear (fully painted)
+     <br/>
+     – 2 new stripes (paint and chrome) -> Template included
+     <br/>
+     – 2 new front elements wind frames (painted and chrome)
+     <br/>
+     – 3 slotted lobes (plastic, paint and chrome)
+     <br/>
+     – 7 low chassis
+     <br/>
+     – License plate number individually
+     <br/>
+     – 3 tall tubes (chrome, painted and black)
+     <br/>
+     – Orange DRL
+     <br/>
+     – 6 front grilles (2 color options and chrome)
+     <br/>
+     – 5 steering wheels (red/yellow/blue/grey Danish color)
+     <br/>
+     – 5 new colors (BERLIET brand)
+     <br/>
+     – 1 front bumper trim with LED strip
+     <br/>
+     – 5 new cabin reflectors: (red, yellow, green, blue and black)
+     <br/>
+     – 2 new roof spoilers (chrome and plastic)
+     <br/>
+     – 2 new interior spoilers (chrome and plastic)
+     <br/>
+     – 2 new standalone steering wheels
+    </p>
+    <p>
+     – Added slots on the sun shade for paint
+     <br/>
+     – Added 11 SAVIEM colors (86 colors)
+     <br/>
+     – Standalone paint filter -> Template included
+     <br/>
+     – 1 new cabin reflector (paint)
+    </p>
+    <p>
+     Test on v1.55
+    </p>
+    <hr/>
+    <strong>
+     Credits:
+    </strong>
+    HorseeHorse Modding
+    <br/>
+    <p style="margin-bottom:3px;">
+    </p>
+    <hr/>
+    <hr>
+    <strong>
+     How to install ETS2 mods or ATS Mods
+    </strong>
+    <br/>
+    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
+    <hr>
+     <div>
+      <span style="font-size:15px; color: #f42d36;">
+       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
+      </span>
+     </div>
+     <hr/>
+     <center>
+     </center>
+     <p>
+      <center>
+       <div>
+        <a class="dmod" href="https://modsfile.com/t6jh97d0pl4d/pack_tuning_renault_range_t_1_55.scs.html" rel="nofollow" target="_blank">
+         <strong>
+          DOWNLOAD MOD
+         </strong>
+        </a>
+       </div>
+      </center>
+     </p>
+     <center style="margin-top:35px;">
+     </center>
+     <nav class="pagination group">
+     </nav>
+    </hr>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+ </div>
+ <hr/>
+</article>
+<br><br><br>]]></description>
+    </item>
+    <item>
+      <title>Oberhavel v1.7.3 ETS2</title>
+      <link>https://www.ets2world.com/oberhavel-v1-7-3-ets2/</link>
+      <description><![CDATA[<article class="post-383150 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
+ <div class="post-inner group">
+  <p class="post-byline">
+   <span class="vcard author">
+    <span class="fn">
+     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
+      <span style="color: #777;">
+       Euro Truck Simulator 2 Mods
+      </span>
+     </a>
+     |
+     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
+      <span style="color: #777;">
+       American Truck Simulator Mods
+      </span>
+     </a>
+    </span>
+   </span>
+   |
+   <span class="published">
+    August 15, 2025
+   </span>
+  </p>
+  <center>
+   <div class="thumbnail">
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="624" sizes="(max-width: 1110px) 100vw, 1110px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/08/oberhavel-v1.7.3-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/08/oberhavel-v1.7.3-ets2-1.jpg 1110w, https://www.ets2world.com/wp-content/uploads/2025/08/oberhavel-v1.7.3-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/08/oberhavel-v1.7.3-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/08/oberhavel-v1.7.3-ets2-1-768x432.jpg 768w" width="1110"/>
+    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+   </div>
+  </center>
+  <div class="clear">
+  </div>
+  <div class="entry themeform">
+   <div class="entry-inner">
+    <hr/>
+    <center style="margin-top:15px;">
+    </center>
+    <center>
+    </center>
+    <p>
+     <strong>
+      Oberhavel v1.7.3 ETS2
+     </strong>
+    </p>
+    <hr/>
+    <p>
+     Oberhavel is a district in the north of Berlin.
+    </p>
+    <p>
+     The map mod includes two towns:
+     <br/>
+     Velten with four businesses, two gas stations, a garage, and a workshop with its own house.
+     <br/>
+     Germendorf in the industrial area with two businesses and a workshop.
+    </p>
+    <p>
+     Small graphic fixes.
+    </p>
+    <hr/>
+    <strong>
+     Credits:
+    </strong>
+    I_KIMBLE_I
+    <br/>
+    <p style="margin-bottom:3px;">
+    </p>
+    <hr/>
+    <hr>
+    <strong>
+     How to install ETS2 mods or ATS Mods
+    </strong>
+    <br/>
+    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
+    <hr>
+     <div>
+      <span style="font-size:15px; color: #f42d36;">
+       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
+      </span>
+     </div>
+     <hr/>
+     <center>
+     </center>
+     <p>
+      <center>
+       <div>
+        <a class="dmod" href="https://modsfile.com/dge9lcdajpsv/oberhavel_1_7_3.scs.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
