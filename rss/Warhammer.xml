@@ -1,6 +1,20 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>New Gameplay Overview for Warhammer 40,000: Mechanicus II</title>
+      <link>https://store.steampowered.com/news/app/2532480/view/547870056202109075</link>
+      <description><![CDATA[
+<style>
+        [data-focus-scheme="dark"] {
+            color-scheme: none;
+        }
+    </style>
+<p class="bb_paragraph">The Omnissiah has blessed us with a glimpse of what to expect from Warhammer 40,000 Mechanicus II. Get a first glimpse of what’s to come in the sequel:</p>
+<iframe allowfullscreen="1" frameborder="0" height="500" src="https://www.youtube.com/embed/" width="850" xd_nkrcwz0w?fs='1&amp;modestbranding=1&amp;rel=0"'></iframe>
+<p class="bb_paragraph">Whether you’re a faithful servant of the Omnissiah or aligned with the ancient dynasties, wishlist today and prepare for the battles to come.</p>]]></description>
+      <pubDate>Thu, 21 Aug 2025 15:03:28 +0000</pubDate>
+    </item>
+    <item>
       <title>New In-Game Event: Light the fuse!</title>
       <link>https://store.steampowered.com/news/app/1361210/view/668340807104725674</link>
       <description><![CDATA[
@@ -49,18 +63,6 @@ SteamXFacebookInstagramDiscordBluesky</div>]]></description>
     </style>
 <div class="bb_h1">Hey Everyone, </div><p class="bb_paragraph"></p><p class="bb_paragraph">Hotfix #73 (1.8.5) is currently rolling out across our platforms. In the meantime, you can read the notes below.</p><p class="bb_paragraph"><b>General Fixes and Updates</b></p><ul class="bb_ul"><li><p class="bb_paragraph">Added a toggle in the Mission Terminal Options to turn off quickplaying into the Battle for Tertium campaign missions.</p></li><li><p class="bb_paragraph">Fixed an issue that was causing the server to crash when players would step in specific locations in several missions.</p></li><li><p class="bb_paragraph">Fixed an issue related to gas clouds that could cause a crash.</p></li><li><p class="bb_paragraph">Fixed an issue where not all active buffs icons would be displayed in the HUD, but only a part of them.</p></li><li><p class="bb_paragraph">Fixed an issue that was preventing equipped items from being shown in the inventory.</p></li><li><p class="bb_paragraph">Fixed an issue where the "Executor" blessing was not stacking correctly.</p></li><li><p class="bb_paragraph">Fixed an issue where the “Hot Shot” blessing was scaling incorrectly over the tiers, while also remaining active while the secondary weapon was not wielded.</p></li></ul><p class="bb_paragraph"><i><b>Dev Note:</b> The blessing will now scale its value 20/30/40/50% over tiers 1 to 4 as intended, instead of the incorrect and reverse scaling 80/70/60/50%.</i></p><ul class="bb_ul"><li><p class="bb_paragraph">Fixed an issue where the "All or Nothing" blessing was not stacking correctly on Atrox Tactical Axes and Munitorum Sapper Shovels.</p></li><li><p class="bb_paragraph">Fixed an issue where Scab Flamers would fail to play their voicelines.</p></li><li><p class="bb_paragraph">Fixed an issue in the Barber-Chirurgeon where adjusting height only wasn't allowing players to confirm the changes to their character.</p></li><li><p class="bb_paragraph">The Mastery card in the End of Round screen now shows the correct weapon max level exp instead of showing it as level 0 with 0 exp.</p></li><li><p class="bb_paragraph">Added additional error message codes for network errors and server disconnections.</p></li></ul><p class="bb_paragraph"></p><p class="bb_paragraph"><b>Cosmetic and Animation Fixes</b></p><ul class="bb_ul"><li><p class="bb_paragraph">Fixed some clipping issues on the scarf of the Veteran “Bakkan Pattern Fatigues with Flak Vest” upperbody cosmetic.  </p></li><li><p class="bb_paragraph">Fixed an issue where parts of facial hair would disappear while using the Veteran “Family Heirloom Flak Helmet” headgear cosmetic. </p></li><li><p class="bb_paragraph">Fixed an issue where the same name was used for multiple cosmetic reward frames.</p></li></ul><p class="bb_paragraph"><b><i>Dev Note:</i></b><i> The previously named “Purge the Unclean” frame from the Rotten Armour event is now “Disgustingly Resilient”.</i> </p><ul class="bb_ul"><li><p class="bb_paragraph">Fixed an issue where the “Obtained From” text was not displayed properly for the Rotten Armour event reward frame.</p></li><li><p class="bb_paragraph">Fixed an issue where the preview image of the “Brass Crucis” weapon trinket was not displayed correctly.  </p></li><li><p class="bb_paragraph">Fixed an issue where the following Zealot cosmetic upperbodies could look fractured:  </p><ul class="bb_ul"><li><p class="bb_paragraph">Armour of the House of the Begloried Redemptor.</p></li><li><p class="bb_paragraph">Pious Warrior's Armour.</p></li></ul></li><li><p class="bb_paragraph">Fixed an issue where the purity seal on the Ogryn “Bestest Trophy Pack” accessory cosmetic would float slightly away from the pack. </p></li><li><p class="bb_paragraph">Fixed an instance of metal plates clipping through the gloves of the Veteran “Vostroyan Flak Coat” upperbody cosmetic while inspecting weapons. </p></li><li><p class="bb_paragraph">Fixed issues where the anchor on the Ogryn “Field Issue Haversack (XXXXL)” accessory cosmetic would rapidly move around while running.</p></li><li><p class="bb_paragraph">Fixed an issue where the Zealot “Witchhunter's Hat” headgear cosmetic would incorrectly remove small parts of some hair styles.  </p></li><li><p class="bb_paragraph">Fixed an issue where the “Intra-Cranial Implant” headgear cosmetic would not connect properly in the neck.  </p></li><li><p class="bb_paragraph">Fixed issues with backpacks partially clipping into the Veteran “Bakkan Pattern Fatigues with Flak Vest” and Zealot “Preacher's Bakkan Pattern Fatigues with Flak Vest” upperbody cosmetics.</p></li></ul><p class="bb_paragraph"></p><div class="bb_h2">Arbites Fixes &amp; Tweaks</div><p class="bb_paragraph"><b>General Fixes</b></p><ul class="bb_ul"><li><p class="bb_paragraph">Fixed an issue where the following talents could fail to trigger correctly: Execution Order, Efficient Killer, Malocator, No Lenience, Keeping Protocol and Writ of Execution<i>.</i></p></li><li><p class="bb_paragraph">Improved the DLC validation process for the Arbites Class add-on.</p></li><li><p class="bb_paragraph">Fixed an issue that could cause the game to crash when using Execution Order.</p></li><li><p class="bb_paragraph">Fixed an issue where the Arbites Cyber-Mastiff would not disappear with the players during the Outro win cutscene in Mortis Trials.</p></li><li><p class="bb_paragraph">Fixed an issue where the Cyber-Mastiff smoke effects would not show in the inventory views.</p></li><li><p class="bb_paragraph">Fixed an issue where the icon for the Arbites Shock Maul wasn't correctly aligned in the Mastery screen.</p></li></ul><p class="bb_paragraph"><img src="https://clan.fastly.steamstatic.com/images/38365286/a65c70af1027202631df9d22270d8a366b72f32d.png"/></p><p class="bb_paragraph">We’ll see you on the Mourningstar. </p><p class="bb_paragraph">– The Darktide Team</p>]]></description>
       <pubDate>Tue, 19 Aug 2025 11:35:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>Feast of Grimnir - Teaser Trailer</title>
-      <link>https://store.steampowered.com/news/app/552500/view/515218419125060119</link>
-      <description><![CDATA[
-<style>
-        [data-focus-scheme="dark"] {
-            color-scheme: none;
-        }
-    </style>
-<p class="bb_paragraph"><i>It's a time for quaffing and settling old grudges — The Feast of Grimnir approaches, Heroes.</i></p><p class="bb_paragraph">https://youtu.be/iQtJlHxZ6Lg</p>]]></description>
-      <pubDate>Fri, 15 Aug 2025 19:02:15 +0000</pubDate>
     </item>
   </channel>
 </rss>
