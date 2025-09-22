@@ -385,1556 +385,6 @@
       <pubDate>Thu, 24 Jul 2025 06:30:00 Z</pubDate>
     </item>
     <item>
-      <title>Maintenance</title>
-      <link>https://rust.facepunch.com/news/maintenance/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
-  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
-   <source src="https://files.facepunch.com/lewis/1b0411b116/maintenance_hero%202.mp4" type="video/mp4"/>
-   Your browser does not support the video tag.
-  </video>
- </div>
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <img alt="Maintenance" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b2811b1/maintenance_branding.png"/>
-    <p editname="Summary" type="text">
-     This month we bring you an update of fixes and improvements! Long distance gun sounds, team bag labels, player processing optimizations, Exhibit DLC Item Pack, &amp; more!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      04 September 2025
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="Maintenance">
-  <div class="section" like-handler="LikeBlogSection" like-id="84750" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Maintenance
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month’s update is a little lighter than recent, focused on tackling a number of long-standing bugs and improvements. We’ve been working through community feedback to smooth out some of the more persistent issues and make everyday gameplay feel that bit better. Normally, if bugs persist for several years, there’s usually a good reason for that, whether it’s being difficult to reproduce or requiring a lot of work to resolve.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/07/2025/6k50/rust_navalteaser_01.jpg"/>
-     </div>
-     <div>
-      <p data-end="368" data-start="113">
-       Looking ahead to October, we’re lining up some strong meta and balance changes. If you’ve got suggestions, don’t hesitate to share them with us across our socials, including
-       <a class="" href="https://discord.com/invite/rust">
-        Discord
-       </a>
-       , we’re always keeping an eye out and reading through what you send.
-      </p>
-      <p data-end="368" data-start="113">
-       November will bring the much-anticipated Naval update. This will introduce modular boats with cannons, of course, and much more. You’ll be able to customise your vessel, set sail across the high seas, explore new ocean-based monuments, and even discover smaller outlying islands beyond the horizon.
-      </p>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/104/09/2025/7U84/pinboard.png"/>
-     </div>
-     <div>
-      <p data-end="368" data-start="113">
-       In December, we'll be celebrating 12 years of Rust, what the heck. 12!
-       <br/>
-       <br/>
-       Additionally, we'll soon be announcing the
-       <a class="selected" href="https://store.steampowered.com/news/app/252490/view/800062851651732678">
-        Warhammer X Rust crossover DLC
-       </a>
-       .
-      </p>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="LongDistanceGunshots">
-  <div class="section" like-handler="LikeBlogSection" like-id="84737" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Long Distance Gunshots
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Networking range in Rust is made up of grids. Players view the world a few grids at a time - you're unable to see outside of that.
-      <br/>
-      <br/>
-      As a result you've only been able to hear things like gunshots in grids you're registered to, this makes the world feel incredibly small and closed off. Some servers increase or decrease the grid size to lower network overhead. This unfortunately takes those gunshots with it, making the situation even worse.
-      <br/>
-      <br/>
-     </div>
-     <div>
-      We can now run gunshots at different distances to the network range: helping make Rust feel more alive and shaking up the meta by giving advantages/disadvantages to certain weapons.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ianhenderson/1b0111b1/Photos_p1CM7u1uEf.jpg"/>
-     </div>
-     <div>
-      The
-      <b>
-       old default
-      </b>
-      maximum a sound could travel was around
-      <b>
-       350 meters
-      </b>
-      . (the size of a default network grid) this was the same for all weapons, as explained above.
-     </div>
-     <div>
-      <br/>
-      The new values are as follows:
-      <br/>
-      <ul>
-       <li>
-        Pistols / SAR / SKS / SMGs / Shotguns -
-        <b>
-         400 meters
-        </b>
-       </li>
-       <li>
-        AK / LR -
-        <b>
-         500 meters
-        </b>
-       </li>
-       <li>
-        LMGs / Minigun / Long Distance Rifles (Bolt Action Rifle / L9) -
-        <b>
-         600 meters
-         <br/>
-        </b>
-       </li>
-      </ul>
-      It might only seem like 50 extra meters on the low end, but those 50 meters will be seeping into your neighboring grids (unlike before). Letting you hear more of the world around you.
-      <br/>
-      <br/>
-      These values also mean that players will now be able to hear you from much further away if you're choosing to use stronger weapons such as the AK or a Bolt Action Rifle.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Teambaglabels">
-  <div class="section" like-handler="LikeBlogSection" like-id="84738" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Team bag labels
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      It was hard to see what bags belonged to which team members, even if they named them correctly it could be a pain to figure out.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/09/2025/6v62/rust_sleeping_bag_name_1080_jpg.jpg"/>
-     </div>
-     <div>
-      Provided you now have Building Privilege and a Hammer out, you will now be able to see which bags are owned by which team members when looking at them.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="MinicopterDamageIndicators">
-  <div class="section" like-handler="LikeBlogSection" like-id="84746" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Minicopter Damage Indicators
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Visual and audio damage indicator effects have been added to the minicopter to provide clearer feedback on it's health status. As the minicopter takes damage there will be progressing effects, just like the other helicopters, with thresholds at 45% and 20% health remaining. Now if you see a mini leaving a raid trailing smoke and you can't hit the driver, you'll know to aim for the chassis!
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ianhenderson/1b0111b1/Photos_jlwD6kj4xc.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="FoliageDisplacementImprovements">
-  <div class="section" like-handler="LikeBlogSection" like-id="84747" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Foliage Displacement Improvements
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Foliage displacement has been improved to allow for smooth transitions. This includes when objects are removed and also makes displacement from moving sources like players look more realistic and natural.
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/dayaan/1b0211b1/rust_grass_displacement_16x9_h264.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="VolumetricCloudsEnabledbydefault">
-  <div class="section" like-handler="LikeBlogSection" like-id="84748" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Volumetric Clouds Enabled by default
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      With the last patch, we introduced new volumetric clouds as an alternative to the 2D clouds.  However, we put them under experimental settings and kept them disabled by default.
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/brianlach/2025/August/07_01-59-OddSpadefoot.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      With this patch, the volumetric clouds are now enabled by default, with the long-term goal being to completely replace the 2D clouds.  The setting for them has been moved under the normal graphics settings tab, and the quality levels are tied to graphics presets.  Additionally, the
-      <b>
-       graphics.vclouds
-      </b>
-      convar has been replaced by
-      <b>
-       graphics.volumetric_clouds
-      </b>
-      .
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="NotableChanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84745" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Notable Changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/elliot.h/1b0311b1/rust_automated_workshop_screenshot_COMBINED_1080_jpg.jpg"/>
-        <center>
-         <b>
-          Automated Workshop Screenshots
-         </b>
-        </center>
-        <center>
-         Workshop submissions using the in-client skin creator tool now automatically take screenshots that are included in the upload.
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/09/2025/6V87/rust_openeyes_jpg.png"/>
-        <center>
-         <b>
-          Players Eyes
-         </b>
-        </center>
-        <center>
-         For several years, a bug has caused players eyes to sometimes appear closed, this is now fixed!
-        </center>
-       </div>
-       <div class="columns is-multiline">
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/09/2025/6C15/rust_invis_sleeping_bag_1080_jpg.jpg"/>
-         <center>
-          <b>
-           Invisible Respawn
-          </b>
-         </center>
-         <center>
-          Fixed players being invisible when respawning, whilst asleep
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/09/2025/5M53/rust_c4_stacking_1080_jpg.jpg"/>
-         <center>
-          <b>
-           RF C4
-          </b>
-         </center>
-         <center>
-          Fixed C4 not being stackable after enabling RF
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/09/2025/5136/rust_rugs_delete_deployables_1080_jpg.jpg"/>
-         <center>
-          <b>
-           Tugboat Rug
-          </b>
-         </center>
-         <center>
-          Fixed rugs deleting deployables when picked up, if on a tugboat
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/cipeaX/2025/September/excavator_aerial.jpg"/>
-         <center>
-          <b>
-           Barricade placement
-          </b>
-         </center>
-         <center>
-          Fixed barricade deployment being blocked on sand dunes around giant excavator
-         </center>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero light" id="ExhibitDecorPackDLC">
-  <div class="section" like-handler="LikeBlogSection" like-id="84744" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Exhibit Decor Pack DLC
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       Taking the stage this month is the Exhibit Decor Pack, an illuminating collection of deployable items to glow up your base.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       The pack can be purchased in-game or from the
-       <a class="" href="https://rust.facepunch.com/store/decor/exhibit">
-        Rust Steam item store
-       </a>
-      </div>
-     </div>
-     <div>
-      <b>
-       <br/>
-      </b>
-     </div>
-     <div>
-      <div>
-       <b>
-        Bulb String Lights
-       </b>
-      </div>
-      <div>
-       Get that warm and fuzzy feeling with these decorative bulb string lights. Hosting a garden party or wiping a raiding party - it’ll look fabulous.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_bulb_string_lights_long_1080.jpg"/>
-     </div>
-     <div>
-      <div>
-       <b>
-        Clothing Mannequin
-       </b>
-      </div>
-     </div>
-     <div>
-      <div>
-       <font color="#e4dad1">
-        Goes by “Manny”. Dress him up in your favourite attire and pose him for style. He’ll even swap clothes with you if you want a quick wardrobe change.
-       </font>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_mannequin_clothes_1080.jpg"/>
-     </div>
-     <div>
-      <div>
-       <b>
-        Wall Cabinet
-       </b>
-      </div>
-      <div>
-       <font color="#e4dad1">
-        <div>
-         Place on the wall and store your smaller items inside or on the shelf below. Has 18 slots.
-        </div>
-       </font>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_wall_cabinet_1080.jpg"/>
-     </div>
-     <div>
-      <div>
-       <b>
-        Moveable Spotlights
-       </b>
-      </div>
-      <div>
-       Light-up the action with these moveable spotlights. Target them with the hammer and they’ll orient towards you! Comes both in wall and floor mountable varieties.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_tripod_spotlight_detail_1080.jpg"/>
-     </div>
-     <div>
-      <div>
-       <b>
-        Fairy Lights
-       </b>
-      </div>
-      <div>
-       <font color="#e4dad1">
-        <div>
-         Smaller and more twinkly than the Bulb String Lights, these Fairy Lights bring a touch of magic to the wasteland.
-        </div>
-       </font>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_fairy_lights_1080.jpg"/>
-     </div>
-     <div>
-      <div>
-       <b>
-        Fluorescent Strip Lights
-       </b>
-      </div>
-      <div>
-       Giving off a strong UV light, these strip lights will be a great addition to any grow-op. Comes both in wall and ceiling mountable varieties.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_flourescent_light_plant_1080.jpg"/>
-     </div>
-     <div>
-      <div>
-       <b>
-        Chandelier
-       </b>
-      </div>
-      <div>
-       Give a touch of elegance to your base with this adjustable Chandelier light. Raise and lower it to the perfect height. Time to fit a grand staircase in your 2x1.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_chandelier_1080.jpg"/>
-     </div>
-     <div>
-      <div>
-       <b>
-        Electric Table Lamp
-       </b>
-      </div>
-      <div>
-       <div>
-        <div>
-         Settle down for the long dark night with this cozy Electric Table Lamp. Maybe get a buddy to read you a story.
-        </div>
-        <div>
-        </div>
-       </div>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_electric_table_lamp_central_1080.jpg"/>
-     </div>
-     <div>
-      <div>
-       <div>
-        <b>
-         Beanbag Chairs
-        </b>
-       </div>
-      </div>
-      <div>
-       <div>
-        Sit back and relax in these Beanbag Chairs. Comes in two varieties.
-       </div>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_beanbag_pose_1080.jpg"/>
-     </div>
-     <div>
-      <div>
-       <b>
-        Wallpapers
-       </b>
-      </div>
-      <div>
-       <font color="#e4dad1">
-        <div>
-         Interior design to the max with these unique and sparkly wallpapers. Included are a dark shaggy carpet, hexagonal wall tiles and painted gold stars ceiling decoration!
-        </div>
-        <div>
-        </div>
-       </font>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_wallpaper_detail_1080.jpg"/>
-     </div>
-     <div>
-      <div>
-       <br/>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="ParallelPlayerProcessingpart2">
-  <div class="section" like-handler="LikeBlogSection" like-id="84739" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Parallel Player Processing - part 2
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <i>
-       All images are clickable
-      </i>
-     </div>
-     <h2>
-      Threading Player Updates
-     </h2>
-     <div>
-      Back in
-      <a class="" href="https://rust.facepunch.com/news/jungle-update#ServerOptimizations" target="">
-       Jungle Update
-      </a>
-      blog, I wrote about experimenting with batched processing of players on our servers. To summarize, I talked about how we needed to restructure code and start doing more operations in batches instead of on individual basis, and I showcased how it allowed us to leverage Burst and parallel job execution to speed up NoClip checks on the server.
-      <br/>
-      <br/>
-     </div>
-     <div>
-      This update I'm taking it a step further - I've converted more parts of our player update code to batch/pipeline form, which allowed to clearly see dependencies between processing stages. This, in turn, confirmed which parts we can try to process in parallel on worker threads. As a result, we can now offload a bunch of player-related logic over to worker threads, speeding up the main thread:
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="slim" title="View of main thread and worker threads sharing work on a 30p server">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b0211b1/msedge_7zJqYvTvRj.png"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      Right now it's gated behind
-      <b>
-       UsePlayerUpdateJobs 2
-      </b>
-      server variable, as an experimental mode. We've been running this on our EU Staging Server for a couple weeks to confirm that things are stable - and so far it's holding, but I don't have clear guarantees on how it will scale on high-population servers. In theory, thanks to these points:
-     </div>
-     <div>
-      <ul>
-       <li>
-        Faster server occlusion (more on that below)
-       </li>
-       <li>
-        Avoiding redundant calculations of player state by using frame caches
-       </li>
-       <li>
-        Use of managed threads for work offloading (sending entity snapshots and destroy messages have been converted)
-       </li>
-      </ul>
-     </div>
-     <div>
-      I'm hoping that it'll allow the server to scale better with a higher player count and make player processing less of a bottleneck.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The plan is to roll it out gradually to release servers, while confirming server stability &amp; performance - so far it's been developed in a lightly stress tested EU Staging, so I'm missing real world data. After roll-out is successful, I'll be able to identify further bottlenecks and work on expanding parallel processing.
-     </div>
-     <h2>
-      Server Occlusion Optimizations
-     </h2>
-     <div>
-      As part of the above rewrite I took a look at server occlusion, as I noticed that it has been running too many checks per frame. In addition to other problems, this caused server occlusion to eat up to 8ms in some cases, like bellow:
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="slim" title="Capture from 350p server">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b0211b1/SdrcJ3I3ek.png"/>
-     </div>
-     <div>
-      Having to process 10k occlusion queries for 350 players seems to be excessive, even if it eventually boils down to only 500 paths to check.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      I've reworked the relevant code to benefit from the following improvements when
-      <b>
-       UsePlayerUpdateJobs 2
-      </b>
-      is enabled:
-     </div>
-     <div>
-      <ul>
-       <li>
-        We now deduplicate occlusion queries - if player A and player B want to check for visibility of each other, it's enough to just check A-&gt;B
-       </li>
-       <li>
-        We run occlusion queries in parallel
-       </li>
-       <li>
-        We cache results of occlusion queries for the duration of a frame, allowing us to skip them throughout the rest of the frame
-       </li>
-      </ul>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      I'm hoping that the gains will scale with the player count and become substantial once we're testing with 350+ players.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      Going Forward
-     </h2>
-     <div>
-      The rewrite of player update allows us to see more clearly how the execution and data flow, but it's lacking further optimizations(aware of 1 bottleneck) and tuning (controlling worker batch sizes). My plan is to use the new telemetry to guide where to focus efforts as I continue to expand UsePlayerUpdateJobs further. I currently don't see a specific end in sight, as the more is converted, the more opportunities to capitalize on data/execution patterns we get.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      If things go well for UsePlayerUpdateJobs 2 during this patch, it's likely the mode will be promoted to level 1, and a new experimental stage will begin.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="encryptionchangescontinued">
-  <div class="section" like-handler="LikeBlogSection" like-id="84743" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       encryption changes continued
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      As mentioned in
-      <a class="" href="https://rust.facepunch.com/news/harder-core#Serversecureencryptionchanges">
-       last patches devblog
-      </a>
-      , we are going ahead with requiring a minimum encryption level of
-      <b>
-       2
-      </b>
-      on servers that wish to be considered 'secure' and appear on the Rust Client server browser.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      As a reminder, encryption level 2 is the default configuration for Rust Dedicated Servers and as a result the vast majority of server owners do not need to take action. For those that do, you will need to update your
-      <b>
-       server.encryption
-      </b>
-      convar to
-      <b>
-       2
-      </b>
-      and restart your server.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Additionally, we are going ahead with the removal of the
-      <b>
-       server.secure
-      </b>
-      convar. As previously mentioned, any insecure servers will now need to pass the '
-      <b>
-       -insecure
-      </b>
-      ' parameter on server startup instead.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="SavetheDateTwitchDrops">
-  <div class="section" like-handler="LikeBlogSection" like-id="84749" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Save the Date - Twitch Drops
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <h2>
-      September 20th-30th
-     </h2>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b0311b1/generic%20twitch%20drop%20header.png"/>
-     </div>
-     <div>
-      <b>
-       Rust Kingdoms 3
-      </b>
-      returns bigger and better! Watch for socials to see the lineup and what drops you can collect!
-     </div>
-     <div>
-      <br/>
-      Head to
-      <a class="" href="https://twitch.facepunch.com/connect">
-       https://twitch.facepunch.com/connect
-      </a>
-      to sync your Twitch and Steam accounts.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="change-blog-container">
-  <div class="container">
-   <div class="changes-container" id="changelist">
-    <div class="changes-sidebar">
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Patch Name
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Maintenance
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Changelist Title
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Maintenance
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <a class="date" style="text-decoration: none;">
-       <span class="icon">
-        <i>
-         date_range
-        </i>
-       </span>
-       Thursday, September 4, 2025
-      </a>
-     </div>
-     <div class="sidebar-section">
-     </div>
-    </div>
-    <div class="changes-body">
-     <div class="changes-row features">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         add_circle
-        </i>
-       </span>
-       <h3>
-        Features
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Exhibit Decor DLC Pack
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Long Distance Gunshots
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Team Bag Labels
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Minicopter Damage Indicators
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Volumetric Clouds Enabled by Default
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row improvements">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         arrow_circle_up
-        </i>
-       </span>
-       <h3>
-        Improvements
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved new 'disconnect' box to support longer disconnect messages
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved how advanced christmas lights are deployed, they're now similar to the wire tool
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved ceiling light deploy guide
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved ceiling light physics, should swing more realistically
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved foliage displacement animation, and displacement now fades away when objects are removed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved mixing table overflow drop locations
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added error toast messages with failure reason when you are unable to pickup deployed items
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added error toast message if trying to reskin an item whilst a player is sitting on the item
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved drop position of overflow items for the mixing table
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved crafting menu search to work for dlc skins
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Shrunk the building blocked volume around the attack helicopter
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved storage monitor positions on barrels
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved sound timing of the animation when helping a wounded player with a med syringe
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Enabled volumetric clouds by default
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved XL picture frame deployment
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Replaced some static black barrels on the oil rigs to prevent confusing them for diesel collectables
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added convar for setting the code of any cctv camera with “global.setcctvcameracode”
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added convar for adding a cctv code to any computer station with “global.addcctvcode”
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added convar for removing a cctv code from any computer station with “global.removecctvcode”
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added convar for clearing all cctv codes from any computer station with “global.clearcctvcodes”
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          UsePlayerUpdateJobs gained a new mode, 2, which knows how to offload work to threads
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          For Modders - TextTable must now be explicitly pooled
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row fixed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         handyman
-        </i>
-       </span>
-       <h3>
-        Fixed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed user interface assets looking blurry when changing the texture quality option
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed horses ragdolling on planters and dead trees
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed social menu settings button not working
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed boots being in the wrong order in the skin viewer
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed double barrel sight UV issue in the skin viewer
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed wooden double door material in the skin viewer
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed skin viewer quality changing based on the texture quality setting
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed TMP_Text.FillCharacterVertexBuffers IndexOutOfRangeException error
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed cinematic gestures not showing in the gesture menu when using ShowAdminCinematicGesturesInBindings
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some localization inconsistencies
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Restored voice volume option slider range to 0-5
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed DDraw rendering over the main menu
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some items showing as marketable locked when they shouldn't
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed typos in tutorial and server browser
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed issue where character eyes could remain closed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed issue introduced in hardcore update which would cause tech trees to display incorrectly in some gamemodes
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed convar server.uselegacyworkbenchinteraction
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed frontier hatchet beads jittering and moving oddly
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed terrain clipping issues around military tunnel entrance
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed nametags not showing through glass
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed base health being wrong after a server restart if any max health modifiers are active
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed night vision goggles glowing at night even if they're disabled
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed tree marker colour's not being applied when set in the accessibility options
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to swing a torch underwater to prevent it from extinguishing.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being unable to place things on tugboat shelves
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Chickencoop receiving light whilst indoors
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved minute formatting in server restart toasts
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed reconnect button not working if the server you are reconnecting to is currently down
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fix 'Crafting Update' Loading Screen frequently appearing
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed explosion screen effect persisting when you respawn
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Tugboat and Transport Heli lights disappearing
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed not being able to place barricades on sand dunes at giant excavator
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed despawn times of some DLC items being shorter than their regular counterpart
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed contact menu screenshots being too dark
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to get overstacked items when gutting fish with harvesting tea
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reworded TC tool storage tooltip
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed tree marker color setting not applying when changed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to have a lit torch underwater by continuosly swinging
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed nametags not showing near terrain holes in monuments
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed the AK not having an empty mag sound
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed blackjack machine screen being blank
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed canyons being full of fog
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed other players being able to hear fall damage sound of an invis admin
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed item ownership getting applied when an invis admin opens a loot container
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed jackhammer sound persisting when the player disconnects
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Removed miscellaneous leftover debug console logs
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed players sometimes being in the swimming animation on excavator
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed small oil refinery having duplicated gibs
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed C4 with different frequencies not being stackable after disabling RF
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some commands that could reveal the map in hardcore
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed attack heli flares not working correctly
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed laser light end point always being red regardless of the beam color
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some issues with favoriting servers in the browser
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed not being able to remove locks from doors while they are open
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed sleeping players being invisible when respawning
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed visual artifact in sky when volumetric clouds were never enabled and sky rotation was applied
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 04 Sep 2025 02:00:00 Z</pubDate>
-    </item>
-    <item>
       <title>Friends with Benefits</title>
       <link>https://rust.facepunch.com/news/friends-with-benefits/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -5431,6 +3881,1556 @@ top we have the new navigation menu with all of the usual links just in a horizo
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 07 Aug 2025 01:45:00 Z</pubDate>
+    </item>
+    <item>
+      <title>Maintenance</title>
+      <link>https://rust.facepunch.com/news/maintenance/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
+  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
+   <source src="https://files.facepunch.com/lewis/1b0411b116/maintenance_hero%202.mp4" type="video/mp4"/>
+   Your browser does not support the video tag.
+  </video>
+ </div>
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <img alt="Maintenance" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b2811b1/maintenance_branding.png"/>
+    <p editname="Summary" type="text">
+     This month we bring you an update of fixes and improvements! Long distance gun sounds, team bag labels, player processing optimizations, Exhibit DLC Item Pack, &amp; more!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      04 September 2025
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="Maintenance">
+  <div class="section" like-handler="LikeBlogSection" like-id="84750" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Maintenance
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      This month’s update is a little lighter than recent, focused on tackling a number of long-standing bugs and improvements. We’ve been working through community feedback to smooth out some of the more persistent issues and make everyday gameplay feel that bit better. Normally, if bugs persist for several years, there’s usually a good reason for that, whether it’s being difficult to reproduce or requiring a lot of work to resolve.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/07/2025/6k50/rust_navalteaser_01.jpg"/>
+     </div>
+     <div>
+      <p data-end="368" data-start="113">
+       Looking ahead to October, we’re lining up some strong meta and balance changes. If you’ve got suggestions, don’t hesitate to share them with us across our socials, including
+       <a class="" href="https://discord.com/invite/rust">
+        Discord
+       </a>
+       , we’re always keeping an eye out and reading through what you send.
+      </p>
+      <p data-end="368" data-start="113">
+       November will bring the much-anticipated Naval update. This will introduce modular boats with cannons, of course, and much more. You’ll be able to customise your vessel, set sail across the high seas, explore new ocean-based monuments, and even discover smaller outlying islands beyond the horizon.
+      </p>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/104/09/2025/7U84/pinboard.png"/>
+     </div>
+     <div>
+      <p data-end="368" data-start="113">
+       In December, we'll be celebrating 12 years of Rust, what the heck. 12!
+       <br/>
+       <br/>
+       Additionally, we'll soon be announcing the
+       <a class="selected" href="https://store.steampowered.com/news/app/252490/view/800062851651732678">
+        Warhammer X Rust crossover DLC
+       </a>
+       .
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="LongDistanceGunshots">
+  <div class="section" like-handler="LikeBlogSection" like-id="84737" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Long Distance Gunshots
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Networking range in Rust is made up of grids. Players view the world a few grids at a time - you're unable to see outside of that.
+      <br/>
+      <br/>
+      As a result you've only been able to hear things like gunshots in grids you're registered to, this makes the world feel incredibly small and closed off. Some servers increase or decrease the grid size to lower network overhead. This unfortunately takes those gunshots with it, making the situation even worse.
+      <br/>
+      <br/>
+     </div>
+     <div>
+      We can now run gunshots at different distances to the network range: helping make Rust feel more alive and shaking up the meta by giving advantages/disadvantages to certain weapons.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ianhenderson/1b0111b1/Photos_p1CM7u1uEf.jpg"/>
+     </div>
+     <div>
+      The
+      <b>
+       old default
+      </b>
+      maximum a sound could travel was around
+      <b>
+       350 meters
+      </b>
+      . (the size of a default network grid) this was the same for all weapons, as explained above.
+     </div>
+     <div>
+      <br/>
+      The new values are as follows:
+      <br/>
+      <ul>
+       <li>
+        Pistols / SAR / SKS / SMGs / Shotguns -
+        <b>
+         400 meters
+        </b>
+       </li>
+       <li>
+        AK / LR -
+        <b>
+         500 meters
+        </b>
+       </li>
+       <li>
+        LMGs / Minigun / Long Distance Rifles (Bolt Action Rifle / L9) -
+        <b>
+         600 meters
+         <br/>
+        </b>
+       </li>
+      </ul>
+      It might only seem like 50 extra meters on the low end, but those 50 meters will be seeping into your neighboring grids (unlike before). Letting you hear more of the world around you.
+      <br/>
+      <br/>
+      These values also mean that players will now be able to hear you from much further away if you're choosing to use stronger weapons such as the AK or a Bolt Action Rifle.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Teambaglabels">
+  <div class="section" like-handler="LikeBlogSection" like-id="84738" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Team bag labels
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      It was hard to see what bags belonged to which team members, even if they named them correctly it could be a pain to figure out.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/09/2025/6v62/rust_sleeping_bag_name_1080_jpg.jpg"/>
+     </div>
+     <div>
+      Provided you now have Building Privilege and a Hammer out, you will now be able to see which bags are owned by which team members when looking at them.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="MinicopterDamageIndicators">
+  <div class="section" like-handler="LikeBlogSection" like-id="84746" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Minicopter Damage Indicators
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Visual and audio damage indicator effects have been added to the minicopter to provide clearer feedback on it's health status. As the minicopter takes damage there will be progressing effects, just like the other helicopters, with thresholds at 45% and 20% health remaining. Now if you see a mini leaving a raid trailing smoke and you can't hit the driver, you'll know to aim for the chassis!
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ianhenderson/1b0111b1/Photos_jlwD6kj4xc.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="FoliageDisplacementImprovements">
+  <div class="section" like-handler="LikeBlogSection" like-id="84747" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Foliage Displacement Improvements
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Foliage displacement has been improved to allow for smooth transitions. This includes when objects are removed and also makes displacement from moving sources like players look more realistic and natural.
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/dayaan/1b0211b1/rust_grass_displacement_16x9_h264.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="VolumetricCloudsEnabledbydefault">
+  <div class="section" like-handler="LikeBlogSection" like-id="84748" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Volumetric Clouds Enabled by default
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      With the last patch, we introduced new volumetric clouds as an alternative to the 2D clouds.  However, we put them under experimental settings and kept them disabled by default.
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/brianlach/2025/August/07_01-59-OddSpadefoot.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      With this patch, the volumetric clouds are now enabled by default, with the long-term goal being to completely replace the 2D clouds.  The setting for them has been moved under the normal graphics settings tab, and the quality levels are tied to graphics presets.  Additionally, the
+      <b>
+       graphics.vclouds
+      </b>
+      convar has been replaced by
+      <b>
+       graphics.volumetric_clouds
+      </b>
+      .
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="NotableChanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84745" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Notable Changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/elliot.h/1b0311b1/rust_automated_workshop_screenshot_COMBINED_1080_jpg.jpg"/>
+        <center>
+         <b>
+          Automated Workshop Screenshots
+         </b>
+        </center>
+        <center>
+         Workshop submissions using the in-client skin creator tool now automatically take screenshots that are included in the upload.
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/09/2025/6V87/rust_openeyes_jpg.png"/>
+        <center>
+         <b>
+          Players Eyes
+         </b>
+        </center>
+        <center>
+         For several years, a bug has caused players eyes to sometimes appear closed, this is now fixed!
+        </center>
+       </div>
+       <div class="columns is-multiline">
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/09/2025/6C15/rust_invis_sleeping_bag_1080_jpg.jpg"/>
+         <center>
+          <b>
+           Invisible Respawn
+          </b>
+         </center>
+         <center>
+          Fixed players being invisible when respawning, whilst asleep
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/09/2025/5M53/rust_c4_stacking_1080_jpg.jpg"/>
+         <center>
+          <b>
+           RF C4
+          </b>
+         </center>
+         <center>
+          Fixed C4 not being stackable after enabling RF
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/09/2025/5136/rust_rugs_delete_deployables_1080_jpg.jpg"/>
+         <center>
+          <b>
+           Tugboat Rug
+          </b>
+         </center>
+         <center>
+          Fixed rugs deleting deployables when picked up, if on a tugboat
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/cipeaX/2025/September/excavator_aerial.jpg"/>
+         <center>
+          <b>
+           Barricade placement
+          </b>
+         </center>
+         <center>
+          Fixed barricade deployment being blocked on sand dunes around giant excavator
+         </center>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero light" id="ExhibitDecorPackDLC">
+  <div class="section" like-handler="LikeBlogSection" like-id="84744" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Exhibit Decor Pack DLC
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       Taking the stage this month is the Exhibit Decor Pack, an illuminating collection of deployable items to glow up your base.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       The pack can be purchased in-game or from the
+       <a class="" href="https://rust.facepunch.com/store/decor/exhibit">
+        Rust Steam item store
+       </a>
+      </div>
+     </div>
+     <div>
+      <b>
+       <br/>
+      </b>
+     </div>
+     <div>
+      <div>
+       <b>
+        Bulb String Lights
+       </b>
+      </div>
+      <div>
+       Get that warm and fuzzy feeling with these decorative bulb string lights. Hosting a garden party or wiping a raiding party - it’ll look fabulous.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_bulb_string_lights_long_1080.jpg"/>
+     </div>
+     <div>
+      <div>
+       <b>
+        Clothing Mannequin
+       </b>
+      </div>
+     </div>
+     <div>
+      <div>
+       <font color="#e4dad1">
+        Goes by “Manny”. Dress him up in your favourite attire and pose him for style. He’ll even swap clothes with you if you want a quick wardrobe change.
+       </font>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_mannequin_clothes_1080.jpg"/>
+     </div>
+     <div>
+      <div>
+       <b>
+        Wall Cabinet
+       </b>
+      </div>
+      <div>
+       <font color="#e4dad1">
+        <div>
+         Place on the wall and store your smaller items inside or on the shelf below. Has 18 slots.
+        </div>
+       </font>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_wall_cabinet_1080.jpg"/>
+     </div>
+     <div>
+      <div>
+       <b>
+        Moveable Spotlights
+       </b>
+      </div>
+      <div>
+       Light-up the action with these moveable spotlights. Target them with the hammer and they’ll orient towards you! Comes both in wall and floor mountable varieties.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_tripod_spotlight_detail_1080.jpg"/>
+     </div>
+     <div>
+      <div>
+       <b>
+        Fairy Lights
+       </b>
+      </div>
+      <div>
+       <font color="#e4dad1">
+        <div>
+         Smaller and more twinkly than the Bulb String Lights, these Fairy Lights bring a touch of magic to the wasteland.
+        </div>
+       </font>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_fairy_lights_1080.jpg"/>
+     </div>
+     <div>
+      <div>
+       <b>
+        Fluorescent Strip Lights
+       </b>
+      </div>
+      <div>
+       Giving off a strong UV light, these strip lights will be a great addition to any grow-op. Comes both in wall and ceiling mountable varieties.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_flourescent_light_plant_1080.jpg"/>
+     </div>
+     <div>
+      <div>
+       <b>
+        Chandelier
+       </b>
+      </div>
+      <div>
+       Give a touch of elegance to your base with this adjustable Chandelier light. Raise and lower it to the perfect height. Time to fit a grand staircase in your 2x1.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_chandelier_1080.jpg"/>
+     </div>
+     <div>
+      <div>
+       <b>
+        Electric Table Lamp
+       </b>
+      </div>
+      <div>
+       <div>
+        <div>
+         Settle down for the long dark night with this cozy Electric Table Lamp. Maybe get a buddy to read you a story.
+        </div>
+        <div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_electric_table_lamp_central_1080.jpg"/>
+     </div>
+     <div>
+      <div>
+       <div>
+        <b>
+         Beanbag Chairs
+        </b>
+       </div>
+      </div>
+      <div>
+       <div>
+        Sit back and relax in these Beanbag Chairs. Comes in two varieties.
+       </div>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_beanbag_pose_1080.jpg"/>
+     </div>
+     <div>
+      <div>
+       <b>
+        Wallpapers
+       </b>
+      </div>
+      <div>
+       <font color="#e4dad1">
+        <div>
+         Interior design to the max with these unique and sparkly wallpapers. Included are a dark shaggy carpet, hexagonal wall tiles and painted gold stars ceiling decoration!
+        </div>
+        <div>
+        </div>
+       </font>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/September/rust_wallpaper_detail_1080.jpg"/>
+     </div>
+     <div>
+      <div>
+       <br/>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="ParallelPlayerProcessingpart2">
+  <div class="section" like-handler="LikeBlogSection" like-id="84739" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Parallel Player Processing - part 2
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <i>
+       All images are clickable
+      </i>
+     </div>
+     <h2>
+      Threading Player Updates
+     </h2>
+     <div>
+      Back in
+      <a class="" href="https://rust.facepunch.com/news/jungle-update#ServerOptimizations" target="">
+       Jungle Update
+      </a>
+      blog, I wrote about experimenting with batched processing of players on our servers. To summarize, I talked about how we needed to restructure code and start doing more operations in batches instead of on individual basis, and I showcased how it allowed us to leverage Burst and parallel job execution to speed up NoClip checks on the server.
+      <br/>
+      <br/>
+     </div>
+     <div>
+      This update I'm taking it a step further - I've converted more parts of our player update code to batch/pipeline form, which allowed to clearly see dependencies between processing stages. This, in turn, confirmed which parts we can try to process in parallel on worker threads. As a result, we can now offload a bunch of player-related logic over to worker threads, speeding up the main thread:
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="slim" title="View of main thread and worker threads sharing work on a 30p server">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b0211b1/msedge_7zJqYvTvRj.png"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      Right now it's gated behind
+      <b>
+       UsePlayerUpdateJobs 2
+      </b>
+      server variable, as an experimental mode. We've been running this on our EU Staging Server for a couple weeks to confirm that things are stable - and so far it's holding, but I don't have clear guarantees on how it will scale on high-population servers. In theory, thanks to these points:
+     </div>
+     <div>
+      <ul>
+       <li>
+        Faster server occlusion (more on that below)
+       </li>
+       <li>
+        Avoiding redundant calculations of player state by using frame caches
+       </li>
+       <li>
+        Use of managed threads for work offloading (sending entity snapshots and destroy messages have been converted)
+       </li>
+      </ul>
+     </div>
+     <div>
+      I'm hoping that it'll allow the server to scale better with a higher player count and make player processing less of a bottleneck.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The plan is to roll it out gradually to release servers, while confirming server stability &amp; performance - so far it's been developed in a lightly stress tested EU Staging, so I'm missing real world data. After roll-out is successful, I'll be able to identify further bottlenecks and work on expanding parallel processing.
+     </div>
+     <h2>
+      Server Occlusion Optimizations
+     </h2>
+     <div>
+      As part of the above rewrite I took a look at server occlusion, as I noticed that it has been running too many checks per frame. In addition to other problems, this caused server occlusion to eat up to 8ms in some cases, like bellow:
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="slim" title="Capture from 350p server">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b0211b1/SdrcJ3I3ek.png"/>
+     </div>
+     <div>
+      Having to process 10k occlusion queries for 350 players seems to be excessive, even if it eventually boils down to only 500 paths to check.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      I've reworked the relevant code to benefit from the following improvements when
+      <b>
+       UsePlayerUpdateJobs 2
+      </b>
+      is enabled:
+     </div>
+     <div>
+      <ul>
+       <li>
+        We now deduplicate occlusion queries - if player A and player B want to check for visibility of each other, it's enough to just check A-&gt;B
+       </li>
+       <li>
+        We run occlusion queries in parallel
+       </li>
+       <li>
+        We cache results of occlusion queries for the duration of a frame, allowing us to skip them throughout the rest of the frame
+       </li>
+      </ul>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      I'm hoping that the gains will scale with the player count and become substantial once we're testing with 350+ players.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      Going Forward
+     </h2>
+     <div>
+      The rewrite of player update allows us to see more clearly how the execution and data flow, but it's lacking further optimizations(aware of 1 bottleneck) and tuning (controlling worker batch sizes). My plan is to use the new telemetry to guide where to focus efforts as I continue to expand UsePlayerUpdateJobs further. I currently don't see a specific end in sight, as the more is converted, the more opportunities to capitalize on data/execution patterns we get.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      If things go well for UsePlayerUpdateJobs 2 during this patch, it's likely the mode will be promoted to level 1, and a new experimental stage will begin.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="encryptionchangescontinued">
+  <div class="section" like-handler="LikeBlogSection" like-id="84743" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       encryption changes continued
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      As mentioned in
+      <a class="" href="https://rust.facepunch.com/news/harder-core#Serversecureencryptionchanges">
+       last patches devblog
+      </a>
+      , we are going ahead with requiring a minimum encryption level of
+      <b>
+       2
+      </b>
+      on servers that wish to be considered 'secure' and appear on the Rust Client server browser.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      As a reminder, encryption level 2 is the default configuration for Rust Dedicated Servers and as a result the vast majority of server owners do not need to take action. For those that do, you will need to update your
+      <b>
+       server.encryption
+      </b>
+      convar to
+      <b>
+       2
+      </b>
+      and restart your server.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Additionally, we are going ahead with the removal of the
+      <b>
+       server.secure
+      </b>
+      convar. As previously mentioned, any insecure servers will now need to pass the '
+      <b>
+       -insecure
+      </b>
+      ' parameter on server startup instead.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="SavetheDateTwitchDrops">
+  <div class="section" like-handler="LikeBlogSection" like-id="84749" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Save the Date - Twitch Drops
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <h2>
+      September 20th-30th
+     </h2>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b0311b1/generic%20twitch%20drop%20header.png"/>
+     </div>
+     <div>
+      <b>
+       Rust Kingdoms 3
+      </b>
+      returns bigger and better! Watch for socials to see the lineup and what drops you can collect!
+     </div>
+     <div>
+      <br/>
+      Head to
+      <a class="" href="https://twitch.facepunch.com/connect">
+       https://twitch.facepunch.com/connect
+      </a>
+      to sync your Twitch and Steam accounts.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Maintenance
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Maintenance
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Thursday, September 4, 2025
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
+    </div>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Exhibit Decor DLC Pack
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Long Distance Gunshots
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Team Bag Labels
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Minicopter Damage Indicators
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Volumetric Clouds Enabled by Default
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved new 'disconnect' box to support longer disconnect messages
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved how advanced christmas lights are deployed, they're now similar to the wire tool
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved ceiling light deploy guide
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved ceiling light physics, should swing more realistically
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved foliage displacement animation, and displacement now fades away when objects are removed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved mixing table overflow drop locations
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added error toast messages with failure reason when you are unable to pickup deployed items
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added error toast message if trying to reskin an item whilst a player is sitting on the item
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved drop position of overflow items for the mixing table
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved crafting menu search to work for dlc skins
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Shrunk the building blocked volume around the attack helicopter
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved storage monitor positions on barrels
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved sound timing of the animation when helping a wounded player with a med syringe
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Enabled volumetric clouds by default
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved XL picture frame deployment
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Replaced some static black barrels on the oil rigs to prevent confusing them for diesel collectables
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added convar for setting the code of any cctv camera with “global.setcctvcameracode”
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added convar for adding a cctv code to any computer station with “global.addcctvcode”
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added convar for removing a cctv code from any computer station with “global.removecctvcode”
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added convar for clearing all cctv codes from any computer station with “global.clearcctvcodes”
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          UsePlayerUpdateJobs gained a new mode, 2, which knows how to offload work to threads
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          For Modders - TextTable must now be explicitly pooled
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed user interface assets looking blurry when changing the texture quality option
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed horses ragdolling on planters and dead trees
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed social menu settings button not working
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed boots being in the wrong order in the skin viewer
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed double barrel sight UV issue in the skin viewer
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed wooden double door material in the skin viewer
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed skin viewer quality changing based on the texture quality setting
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed TMP_Text.FillCharacterVertexBuffers IndexOutOfRangeException error
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed cinematic gestures not showing in the gesture menu when using ShowAdminCinematicGesturesInBindings
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some localization inconsistencies
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Restored voice volume option slider range to 0-5
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed DDraw rendering over the main menu
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some items showing as marketable locked when they shouldn't
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed typos in tutorial and server browser
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed issue where character eyes could remain closed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed issue introduced in hardcore update which would cause tech trees to display incorrectly in some gamemodes
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed convar server.uselegacyworkbenchinteraction
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed frontier hatchet beads jittering and moving oddly
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed terrain clipping issues around military tunnel entrance
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed nametags not showing through glass
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed base health being wrong after a server restart if any max health modifiers are active
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed night vision goggles glowing at night even if they're disabled
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed tree marker colour's not being applied when set in the accessibility options
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to swing a torch underwater to prevent it from extinguishing.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being unable to place things on tugboat shelves
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Chickencoop receiving light whilst indoors
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved minute formatting in server restart toasts
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed reconnect button not working if the server you are reconnecting to is currently down
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fix 'Crafting Update' Loading Screen frequently appearing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed explosion screen effect persisting when you respawn
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Tugboat and Transport Heli lights disappearing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed not being able to place barricades on sand dunes at giant excavator
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed despawn times of some DLC items being shorter than their regular counterpart
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed contact menu screenshots being too dark
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to get overstacked items when gutting fish with harvesting tea
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reworded TC tool storage tooltip
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed tree marker color setting not applying when changed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to have a lit torch underwater by continuosly swinging
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed nametags not showing near terrain holes in monuments
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the AK not having an empty mag sound
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed blackjack machine screen being blank
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed canyons being full of fog
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed other players being able to hear fall damage sound of an invis admin
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed item ownership getting applied when an invis admin opens a loot container
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed jackhammer sound persisting when the player disconnects
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Removed miscellaneous leftover debug console logs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed players sometimes being in the swimming animation on excavator
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed small oil refinery having duplicated gibs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed C4 with different frequencies not being stackable after disabling RF
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some commands that could reveal the map in hardcore
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed attack heli flares not working correctly
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed laser light end point always being red regardless of the beam color
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some issues with favoriting servers in the browser
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed not being able to remove locks from doors while they are open
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed sleeping players being invisible when respawning
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed visual artifact in sky when volumetric clouds were never enabled and sky rotation was applied
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 04 Sep 2025 02:00:00 Z</pubDate>
     </item>
     <item>
       <title>Nerfed, Buffed, Balanced?</title>
