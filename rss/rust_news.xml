@@ -418,6 +418,1873 @@
       <pubDate>Thu, 25 Sep 2025 13:00:00 Z</pubDate>
     </item>
     <item>
+      <title>Harder Core</title>
+      <link>https://rust.facepunch.com/news/harder-core/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <img alt="Harder Core" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b2011b110/hardercore_branding.png"/>
+    <p editname="Summary" type="text">
+     This month we bring you Hardcore game mode refresh, revamped menu, 65% improved load times, performance improvements, improved visuals and much more!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      07 August 2025
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="hardcorerefresh">
+  <div class="section" like-handler="LikeBlogSection" like-id="84709" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       hardcore refresh
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Hardcore mode is making a comeback this month, bringing with it some community requested changes and a few new tweaks we've been planning for a while.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/08/2025/0I40/GxcHCLJXIAAEZqX.jpg"/>
+     </div>
+     <div>
+      Our goal with game modes, such as Primitive and Hardcore, is to offer a fresh way to experience Rust, see how players respond, and try out different ideas. We don’t expect them to stay popular for long, usually just a couple of months. They’re not a major development focus or time sink, as most of the team is working on bigger features behind the scenes.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      We look forward to seeing your feedback. These game modes help guide our decision-making for the core Rust experience, so your input really does matter.
+      <br/>
+      <br/>
+      If Hardcore’s not your thing, don’t worry, there are plenty of other changes to check out in the blog below.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="HardcoreFogofwar">
+  <div class="section" like-handler="LikeBlogSection" like-id="84711" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Hardcore - Fog of war
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The fog of war system is back for the Hardcore game mode, exclusively, obscuring the map when you first spawn 
+and slowly revealing itself as you move around the world. This is now 
+integrated with the normal map system rather than a held item like it's 
+original version.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="true" playsinline="" src="https://files.facepunch.com/Alistair/105/08/2025/0f58/rust_fog_of_war_loop_16x9_h264.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+     </div>
+     <div>
+      Our goal with this mode is to heighten the inherent risk and reward gameplay in Rust, hopefully leading players to consider their next moves carefully as the consequences for dying can be significant.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Hardcorecompass">
+  <div class="section" like-handler="LikeBlogSection" like-id="84712" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Hardcore - compass
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/martynchapman/2025/July/rust_new_entity_hardcore_compass_01_1080.jpg"/>
+     </div>
+     <div>
+      As part of an effort to make navigation more interesting in Hardcore we have added the compass as a new handheld tool item.
+      <br/>
+      <br/>
+      In Hardcore mode your location on the map is now no longer displayed at all unless you have compass equipped in your belt. Once you have a compass in the belt, the player location is displayed without the direction indicator. The compass UI at the top of the screen is also completely removed, as it was in the previous Hardcore mode.
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/martynchapman/2025/August/rust_new_entity_hardcore_compass_utility_16x9_1080_h264.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <div>
+       Whilst the compass is available to use in all other gamemodes too, the 
+changes relating to the map and compass UI are limited to the Hardcore 
+gamemode only.
+       <br/>
+       <br/>
+       There is endless fun to be had in spinning around 
+in circles whilst holding the compass. I hope that it will also prove 
+valuable to all those who enjoy roleplaying as scurvy seadogs navigating
+ the high seas aboard boats.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/martynchapman/2025/July/rust_new_entity_hardcore_compass_02_1080.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="HardcoreWeaponammocraftingchanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84713" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Hardcore - Weapon &amp; ammo crafting changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       Firearms can no longer be crafted or researched at all. You'll now 
+be at the mercy of what loot you find in the world, although you can now
+ repair any weapon you find without needing to research it. We've also 
+increased the crafting costs of all ammunition by 5x.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       We hope these 
+changes will make you think twice before engaging and promote a more 
+thoughtful style of play.
+      </div>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="HardcoreRespawnchanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84714" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Hardcore - Respawn changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      On hardcore, Sleeping bag respawn cooldowns have been increased to 15 minutes, while beds will now be 10 minutes. Along with the weapon crafting changes this hopefully leads to a more complex thought process when deciding whether to attack other players.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2025/7S61/softcoreupdate_respawnchanges_04.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="HardcoreUpkeepchanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84715" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Hardcore Upkeep changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've doubled the upkeep cost in Hardcore mode. The goal here is to encourage tighter, more efficient base designs and reduce the number of massive, sprawling compounds that tend to dominate the map over time. With higher upkeep, players will need to think more strategically about how they build and maintain their bases, prioritising what's essential and trimming the excess.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/Alistair/102/04/2025/8Z54/softcoreUpdate_upkeeptax_05.jpg"/>
+     </div>
+     <div>
+      <div>
+       This change should help promote more frequent raiding, faster turnover of bases, and a more dynamic map overall. It also aligns with the core intent of Hardcore, leaner gameplay, higher stakes, and a tougher, more unforgiving survival loop. We'll be keeping an eye on how this plays out and adjusting if needed.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Menuredesign">
+  <div class="section" like-handler="LikeBlogSection" like-id="84716" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Menu re-design
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      This month, we've introduced a long overdue refresh for our menu. After several years of our existing menu being built upon we've decided to create a new experience built from the ground up. Allowing us to add new features in, better UX and a more modern appearance.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      On load to Rust post-patch you'll notice our shiny new interface. Across the 
+top we have the new navigation menu with all of the usual links just in a horizontal format. And along the bottom we have the social bar, the place you go to access your friends list, party system and send our message.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Sandwiched between those two is where we'll hold all of the pages, content, media and everything else.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       Overview Video
+      </b>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video controls="" playsinline="" src="https://files.facepunch.com/Alistair/107/08/2025/9T17/UI_Update_Montage_v2_1080_compressed.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+     </div>
+     <div>
+      <b>
+       <br/>
+      </b>
+     </div>
+     <div>
+      <b>
+       Home
+      </b>
+     </div>
+     <div>
+      Our new homepage design. Primarily more of the same from the last UI but an improved focus on the most recent patch. In the top left of the interface we now have a new call to action, the Twitch Drops tile. It'll be activated when we've published a new event either coming soon or currently in progress. Bottom left we have a curated list of heroes - whether that be weekly skins, featured DLCs or even a bit of information we want to share.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/08/2025/5U74/rust_home_update_1080.jpg"/>
+     </div>
+     <div class="autodiv">
+      In the top right we've added a new area for Quick Join, see your previously played servers quickly. If you want to jump straight back into the action you can connect from the homepage. No extra clicks required.
+     </div>
+     <div>
+      <b>
+       <br/>
+      </b>
+     </div>
+     <div>
+      <b>
+       Play
+      </b>
+     </div>
+     <div>
+      A refreshed look at the Play tab. We've introduced a horizontal tab menu for the server types, from Official all the way across to what your friends are playing. Down the left side of the UI we've got a filter menu, we've spent a bit of time tidying this area up so its a lot less overwhelming and gives you a quick glance at what filters and options you have toggled to tailor your server results.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/08/2025/8r89/rust_play_update_1080.jpg"/>
+     </div>
+     <div>
+      We've added a few new features: like sorting via  server modes, as well as the ability to see queue sizes before you join.
+     </div>
+     <div>
+      <b>
+       <br/>
+       Server Maps
+      </b>
+      <br/>
+     </div>
+     <div>
+      You can now preview a server map before you join. This lets you plan where you're going to put your base, make sure its got whatever biome you love and make plans before committing to a queue. This works for any servers with Rust+ support.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/08/2025/6b64/rust_map_preview_ui_1080.jpg"/>
+     </div>
+     <div>
+      <b>
+       Store
+      </b>
+     </div>
+     <div>
+      Featured, Limited and General stores all got a major overhaul. We fully rewrote the entire store system to improve the experience of viewing skins and packs. Within the Featured tab we'll have a curated list of items for sale as well as a block for the weekly skins.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/08/2025/4i53/rust_store_update_1080.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       Skin Viewer
+      </b>
+     </div>
+     <div>
+      On a few pages you'll notice we've added a new skin viewer. A new overlay where you can view skins from all angles. Rotate, pan and zoom to inspect skins to your hearts content. We've also put the same viewer into the Inventory page so you can see existing skins in all their glory.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/08/2025/3r27/rust_skin_viewer_ui_1080.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      <b>
+       <br/>
+      </b>
+     </div>
+     <div>
+      <b>
+       Inventory
+      </b>
+     </div>
+     <div>
+      The inventory has been tidied up, a new organised structure. Pressing on an item within your inventory will now open a new modal which will give you information about it, a 3D model viewer if available, market rates and even if you can break it down or not.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/08/2025/6642/rust_inventory_update_1080.jpg"/>
+     </div>
+     <div>
+      Likewise the crafting of items has also received the same modals to make everything consistent, cleaner and more usable.
+     </div>
+     <div>
+      <b>
+       <br/>
+      </b>
+     </div>
+     <div>
+      <b>
+       Settings
+      </b>
+     </div>
+     <div>
+      Settings also received a full overhaul. Options have been re-organized into categories and a search bar will let you filter all of the controls, highlighting the pages in which items match your query.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/08/2025/9l55/rust_settings_search_ui_1080.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       Gesture Wheel
+      </b>
+     </div>
+     <div>
+      The gesture menu got a full overhaul from the existing experience. You can now drag and drop items from the gesture bar on the right to the slots you want them to sit in. Whether you replace existing items, or into empty sockets you should be able to freely move items around quicker than ever before.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/08/2025/8h67/rust_gesture_wheel_ui_1080.jpg"/>
+     </div>
+     <div>
+      We've also introduced other gesture packs into the menu, allowing you to see what you own and what you don't own with the ability to quickly navigate to the pack on the store to learn more about it.
+     </div>
+     <div>
+      <b>
+       <br/>
+      </b>
+     </div>
+     <div>
+      <b>
+       <br/>
+      </b>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="LoadingOptimizations">
+  <div class="section" like-handler="LikeBlogSection" like-id="84717" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Loading Optimizations
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      You should now expect up to 65% quicker loading from desktop to loading into a server due to a big refactor of how we load assets. This optimization also enabled us to reduce our memory usage by 10-20%. Results will vary but everyone should see a boost!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The experimental option "Optimized Loading" has also been removed. This new optimization completely replaces that and cannot be toggled.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      These optimizations also apply to the Rust server.
+     </div>
+     <h2>
+      Technical Details
+     </h2>
+     <div>
+      Everyone who has played Rust before now would know that Asset Warmup takes so long. Even on a top end PC it can take at least a minute or two to complete on its own. This loading step is where we load all of our prefabs from disk and preprocess them to automatically fill in bits of information and remove unnecessary pieces for the client (or server). Loading the prefabs takes up most of the time here. If you had the experimental Optimized Loading option enabled it made them load quicker by having Unity load the prefabs asynchronously (and starts as soon as the menu is visible).
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Our new method of loading prefabs is to stick all of them into a couple scenes and then load the scenes. Apparently Unity is way faster at loading scenes than prefabs (who knew?). We can also load those scenes asynchronously - they're loading as soon as you're booted to the menu. Once they're loaded we hook them into our ResourceRef system (basically addressables but predates addressables) and then they can be used as normal prefabs everywhere.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The memory usage reductions come from not needing two copies of every prefab (the prefab asset + preprocessed copy) and doing a chunk of the preprocessing at build time. Both weren't possible before this optimization because modifying prefab assets during builds is unreliable and modifying prefab assets at runtime is unusually slow. Using scenes lets us stop using prefab assets as soon as they get instantiated into one of these scenes.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="NotableChanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84718" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Notable Changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/107/08/2025/2735/rust_minigun_turret_1080.jpg"/>
+        <center>
+         <b>
+          Minigun turret changes
+         </b>
+        </center>
+        <center>
+         Miniguns placed in Autoturrets and Attack Helicopters now spin up before shooting
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/105/08/2025/4Z49/rust_invis_overlay_1080.jpg"/>
+        <center>
+         <b>
+          Invisible indicator
+         </b>
+        </center>
+        <center>
+         Admins using the `debug.invis` command now have a visual indicator when invis is enabled
+        </center>
+       </div>
+       <div class="columns is-multiline">
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/105/08/2025/9p94/rust_god_ui_overlay_1080.jpg"/>
+         <center>
+          <b>
+           God indicator
+          </b>
+         </center>
+         <center>
+          Admins using the `global.god` (godmode) command now have a visual indicator when godmode is enabled
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/cipeaX/2025/August/rust_ui_map_marker_keybinds_1080.jpg"/>
+         <center>
+          <b>
+           Map marker keybinds
+          </b>
+         </center>
+         <center>
+          Two new keybinds can be set in the options, one to place a marker on your current position, and one to clear all map markers
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/107/08/2025/5L67/rust_dynamic_weapon_stats_1080.jpg"/>
+         <center>
+          <b>
+           Dynamic weapon stats
+          </b>
+         </center>
+         <center>
+          Weapon stats update when adding/removing attachments
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/107/08/2025/1E95/rust_server_restart_1080.jpg"/>
+         <center>
+          <b>
+           Server restart warnings
+          </b>
+         </center>
+         <center>
+          Server restart chat messages moved to toasts
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230706/tugboat_ocean.jpg"/>
+         <center>
+          <b>
+           Tugboat horn
+          </b>
+         </center>
+         <center>
+          Tugboat can now honk in the same way cars can
+         </center>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="MetalDetectorChanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84719" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Metal Detector Changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Metal detectors can now detect weapons dropped by other players. Whenever a player's backpack or dropped weapon despawns, it will now be buried for a day, allowing other players to find it using a metal detector.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240130/rust_metaldetector_01.jpg"/>
+     </div>
+     <div>
+      <div>
+       To keep things balanced, the chances of finding a weapon are relatively low, but they increase based on the number of weapons dropped. This means scavenging after a raid with a metal detector should still feel rewarding for players.
+      </div>
+      <div>
+       <br/>
+       The buried weapons are stored in a rough grid and have a chance of being buried, you won't be able to drop a weapon to hide it and return to the same spot and dig it back up. The buried weapons will also expire after 24 hours if they haven't been found.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       The weapons are also filtered so that you won't find something crazy underground but the majority of weapons should still be allowed.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="PilotPACKdlc">
+  <div class="section" like-handler="LikeBlogSection" like-id="84722" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Pilot PACK dlc
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      This month, we’re landing a new Hazmat pack based around an elite fighter pilot.
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="1656" frameborder="0" height="360" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/1q8zoJ23HZk?si=68fSQzqXFLD3dFC7&amp;start=1" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       The pack can be purchased in-game or from the
+       <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10328/" target="10328">
+        Rust Steam item store.
+       </a>
+      </div>
+     </div>
+     <div blocktype="code" class="edit-block" contenteditable="false" data-code="" data-language="csharp">
+     </div>
+     <div>
+      <b>
+       Pilot Suit
+      </b>
+     </div>
+     <div>
+      Touchdown in the turbulent world of Rust in this fighter pilot’s G-Suit. Whether sustaining high speed turns or dealing with rads, this suit has you covered.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/August/pilot_pack_media_suit_01b.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      <span>
+       <span>
+        <br/>
+       </span>
+      </span>
+     </div>
+     <div>
+      <div>
+       <b>
+        M15 Semi-Automatic Pistol
+       </b>
+      </div>
+     </div>
+     <div>
+      Only high-ranking personnel get to handle the M15. Put it to good use.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/August/pilot_pack_media_m15_01.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      <span>
+       <span>
+        <br/>
+       </span>
+      </span>
+     </div>
+     <div>
+      <div>
+       <b>
+        Flight Control Codelock
+       </b>
+      </div>
+     </div>
+     <div>
+      High-tech and guaranteed to keep the hostiles out.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/August/flight_control_codelock_2k.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <div>
+       <b>
+        Black Box wood storage box
+       </b>
+      </div>
+     </div>
+     <div>
+      There’s no chance of rescue, so salvage what you can and store it here.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/August/pilot_pack_media_blackbox_01c.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      <span>
+       <span>
+        <br/>
+       </span>
+      </span>
+     </div>
+     <div>
+      <div>
+       <b>
+        Salvaged Ejector Seat Chair
+       </b>
+      </div>
+     </div>
+     <div>
+      Pulled from the wreckage and repurposed as the coolest place to hang out after a hard day’s raiding. No longer ejects.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/August/pilot_pack_media_ejectorchair_01.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="VolumetricCloudsFogAtmosphericrevamp">
+  <div class="section" like-handler="LikeBlogSection" like-id="84732" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Volumetric Clouds, Fog, &amp; Atmospheric revamp
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      With this patch, Rust's atmospherics have received a facelift, including:
+     </div>
+     <div>
+      <ul>
+       <li>
+        New volumetric clouds.
+       </li>
+       <li>
+        New volumetric, biome-localized fog.
+       </li>
+      </ul>
+      <div>
+       The goal is to better support a wide variety of dynamic weather, which is something we struggled to do with the old tech.
+      </div>
+     </div>
+     <h2>
+      Volumetric Clouds
+     </h2>
+     <div>
+      Available under the Experimental options tab as a replacement for the 2D clouds, the volumetric clouds are fully 3D, move across the sky, morph into different shapes with weather, and interact naturally with lighting from the sky at all times of day.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      They can also be enabled through the console using graphics.vclouds 1 through 4, with 4 being the highest quality but most taxing on your GPU.
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="true" playsinline="" src="https://files.facepunch.com/brianlach/2025/August/07_01-59-OddSpadefoot.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      Volumetric fog
+     </h2>
+     <div>
+      This new fogging technique allows us to have different fog setups localized to each biome that remain spatially consistent.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Previously, we would adjust fog globally depending on which biome you were standing in, which was unnatural and provided an advantage to players standing outside of the biome.  Now, for example, you'll be able to see the haziness of the arctic biome as an outsider looking in.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Along with this, the volumetric nature of the fog presents cool visual improvements.  For example, it receives light from the sun and shadows from the surrounding environment, creating natural god rays and pretty sunsets.  The fog in each biome of also colored slightly differently to better match the environment.
+     </div>
+     <div>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="PaintingAutosave">
+  <div class="section" like-handler="LikeBlogSection" like-id="84733" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Painting Auto-save
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      For those marathon painters creating the next masterpiece of Rust's art history, we want to make sure you don't lose it all if you happen to starve to death before the final brush stroke. With this toggleable option checked your paintings will automatically sync with the server every 30 seconds, saving you from a complete restart.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/elliot.h/1b3111b1/4STMVtIbfa.png"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Foliageselfshadowing">
+  <div class="section" like-handler="LikeBlogSection" like-id="84734" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Foliage self-shadowing
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Foliage (trees, bushes) outside of shadow range will apply directional self-shadowing. This should improve visuals of distant foliage and reduce trees looking like they are glowing (especially at sunrise/set).
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/ashcook/1b0511b1/SHDOOFF%20BEFORE.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/ashcook/1b0511b1/SHDO%20AFTER.jpg"/>
+     </div>
+     <div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="BatchedProjectileUpdates">
+  <div class="section" like-handler="LikeBlogSection" like-id="84735" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Batched Projectile Updates
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Each time a bullet or thrown weapon moves around, the client would perform some physics raycasts to see what it had hit and process the results (damage, blood, sound, etc.), then the next projectile would do the same, then the next one, etc. This is pretty standard and works fine when you have a small number of projectiles, but can be a bit slow when you have a large number of projectiles in a densely packed area.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The projectiles have been rewritten to update as a single batched set, where the information on the physics queries they need to perform is gathered first and ran across all available job threads in parallel. Updating projectiles as a set like this also opened up a few new optimisation paths that we're now making use of.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      From our benchmarks we've seen that batched projectiles are generally
+      <b>
+       at least
+      </b>
+      twice as fast to compute as the old serial projectiles. You're not going to see your framerate double but things should be a little smoother when fights get intense.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Syringeanimationrework">
+  <div class="section" like-handler="LikeBlogSection" like-id="84710" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Syringe animation rework
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Quite a small change, but we've modified the syringe self injection animation to now apply the heal just as the syringe leaves the arm rather than slightly after. The animation was reworked so that the duration is no different to before, this is purely a visual change.
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" data-video="0" loop="" muted="" playsinline="" src="https://files.facepunch.com/16_14-08-PristineAlbatross/Medical_Syringe_BeforeAfter.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This should hopefully result in less accidentally cancelled heals.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Serversecureencryptionchanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84729" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Server secure/encryption changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Starting this patch, we've made some minor changes to how servers mark themselves as insecure as well as introduced an additional requirement a secure server needs to meet in order to appear on the Rust Client server browser.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      If you wish to run an insecure server you will now pass the '-insecure' parameter on startup rather than setting the server.secure convar to false. The convar still exists and server owners will see warnings on server startup if they are still using it, we are aiming to remove the convar entirely on the
+      <b>
+       4th September 2025
+      </b>
+      .
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      For existing secure servers, you now need to ensure your secure.encryption value is at least
+      <b>
+       1
+      </b>
+      to appear on the server browser in the Rust Client. We have plans to further increase this requirement to
+      <b>
+       2
+      </b>
+      on the
+      <b>
+       4th September 2025
+      </b>
+      . This is, and has been, the default configuration for Rust Dedicated Servers and as a result these changes only impact a minority of servers and most will not need to take any action.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="SkinsNormalMapFix">
+  <div class="section" like-handler="LikeBlogSection" like-id="84731" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Skins Normal Map Fix
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Unless you're a skins artist you probably won't have noticed, but we identified a bug in the client that caused normal maps to be updated in an incorrect configuration under certain circumstances when submitted via the Workshop.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The Workshop submission was fixed in a previous update but now the historically affected skins have also been fixed and should appear exactly how the creator intended!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/July/30_12-19-WingedQueenslandgrouper.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="homebrewed3tWITCHdROPS">
+  <div class="section" like-handler="LikeBlogSection" like-id="84723" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       home brewed 3 - tWITCH dROPS
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <h2>
+       Twitch Drops are back!
+      </h2>
+      <div>
+       <b>
+        August 7th - 17th!
+       </b>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       And from more of our favourite creators on the rise that you should definitely start to pay attention to!
+       <br/>
+       <br/>
+       Be sure to
+       <a class="selected" href="https://twitch.facepunch.com/" target="https://twitch.facepunch.com">
+        sync up
+       </a>
+       and claim your Drops after watching these fantastic creators on Twitch.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcook/1b0411b1/td_42-blog-image.jpg"/>
+     </div>
+     <div>
+      <h2>
+       <br/>
+      </h2>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="50offRustthisweek">
+  <div class="section" like-handler="LikeBlogSection" like-id="84730" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       50% off Rust this week
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Are you spending your holidays weary of raids? Do you need a friend to help defend your base? Well, Rust is 50% off on Steam for the weekend!
+      <br/>
+      <br/>
+      Gift it to a friend, or let them know they can get it
+      <a class="" href="https://store.steampowered.com/app/252490?utm_source=blog_campaign=scss25_medium=blog" target="https://store.steampowered.com/app/252490?utm_source=blog_campaign=scss25_medium=blog">
+       here
+      </a>
+      .
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcook/1b0511b1/Autumn-Sale%20-%2016x9.png"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Harder Core
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       August Release
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Thursday, August 7, 2025
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
+    </div>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Hardcore refresh
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New menu interface
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Volumetric clouds, fog, and atmospheric revamp
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Dropped weapons and weapons from de-spawned dead players can now be found with a metal detector
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added handheld compass item
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reworked syringe animation to apply heal as syringe leaves the arm
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Client projectiles update as a batch in parallel, significantly improving their performance
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admin command `debug.invis` now has a visual indicator
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Admin command `global.god` (godmode) now has a visual indicator
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New admin command `global.godforceoffoverlay` to force disable the `global.god` visual indicator
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Significantly improved loading times
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Optimized entity -&gt; item lookup code to reduce lag spike when opening the death screen
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Optimized nametag update code
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Flares now flicker less and will stop flickering entirely when the reduce flickering option is enabled
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          No build zones now have an indicator when approached at a height.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added new "BaseRaidBenchmark" benchmark
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced the performance impact of the UI
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced the performance impact of industrial conveyors
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Updated the tutorial to use the new foliage system, saves some memory when not in tutorial
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Heavy armor shows movement speed changes in the item inspection menu
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Swapped the movement penalties for the heavy chest and legs: 10% chest, 20% legs -&gt; 20% chest, 10% legs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added command `server.listplayerreportcounts` to view the amount of reports players have received on the server
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added player's EntityID to the `playerlist`, `status`, and 'players` console results
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added command `global.playerlistids` to list relevant ids for players on the server
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Scrap &amp; Attack Helicopters “damaged” fire effects no longer play while submerged
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added tugboat horn
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Optimized some inventory searching logic
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Spraycan no longer loses condition while using the admin infiniteammo command
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added new keybinds to mark the current position on the map and to clear all map markers
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Hitting static objects in safezones no longer mark the player as hostile
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Map automatically centres on player upon first time opening the map after logging into a server
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Research tables can now be picked up when theres scrap inside
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          The crafting menu now remembers your search after closing and opening
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved the MLRS target and fire interactions to prevent misclicks
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a visual warning when trying to load into a teamlimited server with a party that too big
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved positions of hoppers and storage monitors on barrels
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved deployable snapping for various items
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Greatly reduced the amount of log history kept in memory for servers
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added the setmaxhealth admin command
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Server now waits for the map file to finish uploading before allowing clients to connect
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved distant foliage visuals with directional self-shadowing
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Miniguns in Autoturrets and Attack Helicopters now spin up before shooting
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Small decor rocks are now pooled correctly to reduce GC allocation while moving around
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed bear pie not correctly reducing duration of other teas by half
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed not being able to spawn into a bag if player died while offline in a game mode (primitive/softcore/hardcore)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed edge case where running the tutorial would clear player history in Missions, allowing them to be run again
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the door in Fishing Village A being locked on first server boot
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed ladder on exterior of Lighthouse blocking movement into the Lighthouse
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed CinematicEntity.DemoHideObjects not working when loading multiple demos in a session
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Possibly fixed a rare error when ending a cassette recording
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Possibly fixed a rare server error when cooking food in a workbench
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed censorship cube still appearing when alt looking and the body is hidden
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a way for players to insert items into loot only containers
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed minigun spinning constantly in 3rd person until the player starts and stops it
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed server printing a dungeon error when booting into a game mode
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Acoustic Guitars generating incorrect icons (Workshop)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed first person camera animation applying incorrectly in Workshop editor
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed player nametags showing through thin floors/ceilings.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed oil refinery not producing heat.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed flashlight and laser attachment visuals being distorted when switching weapons.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed remotely controlled turret always missing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed floating geometry on LR300 skins when ironsights have been removed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a memory leak on the server when someone uses Rust+ to connect to remote cameras
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed attack helicopter headlights turning off occasionally when flying long distances
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          F7 report menu now hides SteamIDs in streamer mode
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed engine prop collider in powerplant monument
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Loop audio for powered water pump, water purifier, and fluid switch all now correctly affected by occlusion
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed amount to reload value when switching ammo types being wrong if ping was too high
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed typo in changelog for Primitive gamemode
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed tea timers becoming unreliable on high uptime servers
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to break vehicles using bar doors
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to destroy and pick up static monument bbqs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed stability number sometimes not showing up when looking at building blocks with a hammer
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an ancient rare bug that would make doors unable to be picked up until a lock is placed and removed from them
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed fps.limitinmenu capping fps while benchmarking
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed locker collider so deployable items (Candles, pumpkins etc) sit on top instead of floating above it
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed players getting kicked for flyhack when jumping on the outer parts of roof building blocks
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed GIB issues with the small planter, bathtub planter and wind turbine
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed coconut armor pieces not recycling into the same items as regular wood armor
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed another exploit allowing shelves to be floating midair
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed junkpile seaweed not moving correctly with the waves
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed windows of towers in airfield and launch site having no collision
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some visual flickering in the friend list UI
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed lights on tugboats disappearing while driving
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed not being able to scroll down through all the console commands auto completion list
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 07 Aug 2025 01:45:00 Z</pubDate>
+    </item>
+    <item>
       <title>community update 266</title>
       <link>https://rust.facepunch.com/news/community-update-266/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -3981,1873 +5848,6 @@
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 03 Jul 2025 07:00:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Harder Core</title>
-      <link>https://rust.facepunch.com/news/harder-core/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <img alt="Harder Core" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b2011b110/hardercore_branding.png"/>
-    <p editname="Summary" type="text">
-     This month we bring you Hardcore game mode refresh, revamped menu, 65% improved load times, performance improvements, improved visuals and much more!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      07 August 2025
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="hardcorerefresh">
-  <div class="section" like-handler="LikeBlogSection" like-id="84709" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       hardcore refresh
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Hardcore mode is making a comeback this month, bringing with it some community requested changes and a few new tweaks we've been planning for a while.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/08/2025/0I40/GxcHCLJXIAAEZqX.jpg"/>
-     </div>
-     <div>
-      Our goal with game modes, such as Primitive and Hardcore, is to offer a fresh way to experience Rust, see how players respond, and try out different ideas. We don’t expect them to stay popular for long, usually just a couple of months. They’re not a major development focus or time sink, as most of the team is working on bigger features behind the scenes.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      We look forward to seeing your feedback. These game modes help guide our decision-making for the core Rust experience, so your input really does matter.
-      <br/>
-      <br/>
-      If Hardcore’s not your thing, don’t worry, there are plenty of other changes to check out in the blog below.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="HardcoreFogofwar">
-  <div class="section" like-handler="LikeBlogSection" like-id="84711" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Hardcore - Fog of war
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The fog of war system is back for the Hardcore game mode, exclusively, obscuring the map when you first spawn 
-and slowly revealing itself as you move around the world. This is now 
-integrated with the normal map system rather than a held item like it's 
-original version.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="true" playsinline="" src="https://files.facepunch.com/Alistair/105/08/2025/0f58/rust_fog_of_war_loop_16x9_h264.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-     </div>
-     <div>
-      Our goal with this mode is to heighten the inherent risk and reward gameplay in Rust, hopefully leading players to consider their next moves carefully as the consequences for dying can be significant.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Hardcorecompass">
-  <div class="section" like-handler="LikeBlogSection" like-id="84712" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Hardcore - compass
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/martynchapman/2025/July/rust_new_entity_hardcore_compass_01_1080.jpg"/>
-     </div>
-     <div>
-      As part of an effort to make navigation more interesting in Hardcore we have added the compass as a new handheld tool item.
-      <br/>
-      <br/>
-      In Hardcore mode your location on the map is now no longer displayed at all unless you have compass equipped in your belt. Once you have a compass in the belt, the player location is displayed without the direction indicator. The compass UI at the top of the screen is also completely removed, as it was in the previous Hardcore mode.
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/martynchapman/2025/August/rust_new_entity_hardcore_compass_utility_16x9_1080_h264.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <div>
-       Whilst the compass is available to use in all other gamemodes too, the 
-changes relating to the map and compass UI are limited to the Hardcore 
-gamemode only.
-       <br/>
-       <br/>
-       There is endless fun to be had in spinning around 
-in circles whilst holding the compass. I hope that it will also prove 
-valuable to all those who enjoy roleplaying as scurvy seadogs navigating
- the high seas aboard boats.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/martynchapman/2025/July/rust_new_entity_hardcore_compass_02_1080.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="HardcoreWeaponammocraftingchanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84713" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Hardcore - Weapon &amp; ammo crafting changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       Firearms can no longer be crafted or researched at all. You'll now 
-be at the mercy of what loot you find in the world, although you can now
- repair any weapon you find without needing to research it. We've also 
-increased the crafting costs of all ammunition by 5x.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       We hope these 
-changes will make you think twice before engaging and promote a more 
-thoughtful style of play.
-      </div>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="HardcoreRespawnchanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84714" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Hardcore - Respawn changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      On hardcore, Sleeping bag respawn cooldowns have been increased to 15 minutes, while beds will now be 10 minutes. Along with the weapon crafting changes this hopefully leads to a more complex thought process when deciding whether to attack other players.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2025/7S61/softcoreupdate_respawnchanges_04.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="HardcoreUpkeepchanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84715" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Hardcore Upkeep changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've doubled the upkeep cost in Hardcore mode. The goal here is to encourage tighter, more efficient base designs and reduce the number of massive, sprawling compounds that tend to dominate the map over time. With higher upkeep, players will need to think more strategically about how they build and maintain their bases, prioritising what's essential and trimming the excess.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/Alistair/102/04/2025/8Z54/softcoreUpdate_upkeeptax_05.jpg"/>
-     </div>
-     <div>
-      <div>
-       This change should help promote more frequent raiding, faster turnover of bases, and a more dynamic map overall. It also aligns with the core intent of Hardcore, leaner gameplay, higher stakes, and a tougher, more unforgiving survival loop. We'll be keeping an eye on how this plays out and adjusting if needed.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Menuredesign">
-  <div class="section" like-handler="LikeBlogSection" like-id="84716" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Menu re-design
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month, we've introduced a long overdue refresh for our menu. After several years of our existing menu being built upon we've decided to create a new experience built from the ground up. Allowing us to add new features in, better UX and a more modern appearance.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      On load to Rust post-patch you'll notice our shiny new interface. Across the 
-top we have the new navigation menu with all of the usual links just in a horizontal format. And along the bottom we have the social bar, the place you go to access your friends list, party system and send our message.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Sandwiched between those two is where we'll hold all of the pages, content, media and everything else.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       Overview Video
-      </b>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video controls="" playsinline="" src="https://files.facepunch.com/Alistair/107/08/2025/9T17/UI_Update_Montage_v2_1080_compressed.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-     </div>
-     <div>
-      <b>
-       <br/>
-      </b>
-     </div>
-     <div>
-      <b>
-       Home
-      </b>
-     </div>
-     <div>
-      Our new homepage design. Primarily more of the same from the last UI but an improved focus on the most recent patch. In the top left of the interface we now have a new call to action, the Twitch Drops tile. It'll be activated when we've published a new event either coming soon or currently in progress. Bottom left we have a curated list of heroes - whether that be weekly skins, featured DLCs or even a bit of information we want to share.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/08/2025/5U74/rust_home_update_1080.jpg"/>
-     </div>
-     <div class="autodiv">
-      In the top right we've added a new area for Quick Join, see your previously played servers quickly. If you want to jump straight back into the action you can connect from the homepage. No extra clicks required.
-     </div>
-     <div>
-      <b>
-       <br/>
-      </b>
-     </div>
-     <div>
-      <b>
-       Play
-      </b>
-     </div>
-     <div>
-      A refreshed look at the Play tab. We've introduced a horizontal tab menu for the server types, from Official all the way across to what your friends are playing. Down the left side of the UI we've got a filter menu, we've spent a bit of time tidying this area up so its a lot less overwhelming and gives you a quick glance at what filters and options you have toggled to tailor your server results.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/08/2025/8r89/rust_play_update_1080.jpg"/>
-     </div>
-     <div>
-      We've added a few new features: like sorting via  server modes, as well as the ability to see queue sizes before you join.
-     </div>
-     <div>
-      <b>
-       <br/>
-       Server Maps
-      </b>
-      <br/>
-     </div>
-     <div>
-      You can now preview a server map before you join. This lets you plan where you're going to put your base, make sure its got whatever biome you love and make plans before committing to a queue. This works for any servers with Rust+ support.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/08/2025/6b64/rust_map_preview_ui_1080.jpg"/>
-     </div>
-     <div>
-      <b>
-       Store
-      </b>
-     </div>
-     <div>
-      Featured, Limited and General stores all got a major overhaul. We fully rewrote the entire store system to improve the experience of viewing skins and packs. Within the Featured tab we'll have a curated list of items for sale as well as a block for the weekly skins.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/08/2025/4i53/rust_store_update_1080.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       Skin Viewer
-      </b>
-     </div>
-     <div>
-      On a few pages you'll notice we've added a new skin viewer. A new overlay where you can view skins from all angles. Rotate, pan and zoom to inspect skins to your hearts content. We've also put the same viewer into the Inventory page so you can see existing skins in all their glory.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/08/2025/3r27/rust_skin_viewer_ui_1080.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      <b>
-       <br/>
-      </b>
-     </div>
-     <div>
-      <b>
-       Inventory
-      </b>
-     </div>
-     <div>
-      The inventory has been tidied up, a new organised structure. Pressing on an item within your inventory will now open a new modal which will give you information about it, a 3D model viewer if available, market rates and even if you can break it down or not.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/08/2025/6642/rust_inventory_update_1080.jpg"/>
-     </div>
-     <div>
-      Likewise the crafting of items has also received the same modals to make everything consistent, cleaner and more usable.
-     </div>
-     <div>
-      <b>
-       <br/>
-      </b>
-     </div>
-     <div>
-      <b>
-       Settings
-      </b>
-     </div>
-     <div>
-      Settings also received a full overhaul. Options have been re-organized into categories and a search bar will let you filter all of the controls, highlighting the pages in which items match your query.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/08/2025/9l55/rust_settings_search_ui_1080.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       Gesture Wheel
-      </b>
-     </div>
-     <div>
-      The gesture menu got a full overhaul from the existing experience. You can now drag and drop items from the gesture bar on the right to the slots you want them to sit in. Whether you replace existing items, or into empty sockets you should be able to freely move items around quicker than ever before.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/106/08/2025/8h67/rust_gesture_wheel_ui_1080.jpg"/>
-     </div>
-     <div>
-      We've also introduced other gesture packs into the menu, allowing you to see what you own and what you don't own with the ability to quickly navigate to the pack on the store to learn more about it.
-     </div>
-     <div>
-      <b>
-       <br/>
-      </b>
-     </div>
-     <div>
-      <b>
-       <br/>
-      </b>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="LoadingOptimizations">
-  <div class="section" like-handler="LikeBlogSection" like-id="84717" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Loading Optimizations
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      You should now expect up to 65% quicker loading from desktop to loading into a server due to a big refactor of how we load assets. This optimization also enabled us to reduce our memory usage by 10-20%. Results will vary but everyone should see a boost!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The experimental option "Optimized Loading" has also been removed. This new optimization completely replaces that and cannot be toggled.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      These optimizations also apply to the Rust server.
-     </div>
-     <h2>
-      Technical Details
-     </h2>
-     <div>
-      Everyone who has played Rust before now would know that Asset Warmup takes so long. Even on a top end PC it can take at least a minute or two to complete on its own. This loading step is where we load all of our prefabs from disk and preprocess them to automatically fill in bits of information and remove unnecessary pieces for the client (or server). Loading the prefabs takes up most of the time here. If you had the experimental Optimized Loading option enabled it made them load quicker by having Unity load the prefabs asynchronously (and starts as soon as the menu is visible).
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Our new method of loading prefabs is to stick all of them into a couple scenes and then load the scenes. Apparently Unity is way faster at loading scenes than prefabs (who knew?). We can also load those scenes asynchronously - they're loading as soon as you're booted to the menu. Once they're loaded we hook them into our ResourceRef system (basically addressables but predates addressables) and then they can be used as normal prefabs everywhere.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The memory usage reductions come from not needing two copies of every prefab (the prefab asset + preprocessed copy) and doing a chunk of the preprocessing at build time. Both weren't possible before this optimization because modifying prefab assets during builds is unreliable and modifying prefab assets at runtime is unusually slow. Using scenes lets us stop using prefab assets as soon as they get instantiated into one of these scenes.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="NotableChanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84718" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Notable Changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/107/08/2025/2735/rust_minigun_turret_1080.jpg"/>
-        <center>
-         <b>
-          Minigun turret changes
-         </b>
-        </center>
-        <center>
-         Miniguns placed in Autoturrets and Attack Helicopters now spin up before shooting
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/105/08/2025/4Z49/rust_invis_overlay_1080.jpg"/>
-        <center>
-         <b>
-          Invisible indicator
-         </b>
-        </center>
-        <center>
-         Admins using the `debug.invis` command now have a visual indicator when invis is enabled
-        </center>
-       </div>
-       <div class="columns is-multiline">
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/105/08/2025/9p94/rust_god_ui_overlay_1080.jpg"/>
-         <center>
-          <b>
-           God indicator
-          </b>
-         </center>
-         <center>
-          Admins using the `global.god` (godmode) command now have a visual indicator when godmode is enabled
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/cipeaX/2025/August/rust_ui_map_marker_keybinds_1080.jpg"/>
-         <center>
-          <b>
-           Map marker keybinds
-          </b>
-         </center>
-         <center>
-          Two new keybinds can be set in the options, one to place a marker on your current position, and one to clear all map markers
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/107/08/2025/5L67/rust_dynamic_weapon_stats_1080.jpg"/>
-         <center>
-          <b>
-           Dynamic weapon stats
-          </b>
-         </center>
-         <center>
-          Weapon stats update when adding/removing attachments
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/107/08/2025/1E95/rust_server_restart_1080.jpg"/>
-         <center>
-          <b>
-           Server restart warnings
-          </b>
-         </center>
-         <center>
-          Server restart chat messages moved to toasts
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230706/tugboat_ocean.jpg"/>
-         <center>
-          <b>
-           Tugboat horn
-          </b>
-         </center>
-         <center>
-          Tugboat can now honk in the same way cars can
-         </center>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="MetalDetectorChanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84719" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Metal Detector Changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Metal detectors can now detect weapons dropped by other players. Whenever a player's backpack or dropped weapon despawns, it will now be buried for a day, allowing other players to find it using a metal detector.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20240130/rust_metaldetector_01.jpg"/>
-     </div>
-     <div>
-      <div>
-       To keep things balanced, the chances of finding a weapon are relatively low, but they increase based on the number of weapons dropped. This means scavenging after a raid with a metal detector should still feel rewarding for players.
-      </div>
-      <div>
-       <br/>
-       The buried weapons are stored in a rough grid and have a chance of being buried, you won't be able to drop a weapon to hide it and return to the same spot and dig it back up. The buried weapons will also expire after 24 hours if they haven't been found.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       The weapons are also filtered so that you won't find something crazy underground but the majority of weapons should still be allowed.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="PilotPACKdlc">
-  <div class="section" like-handler="LikeBlogSection" like-id="84722" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Pilot PACK dlc
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month, we’re landing a new Hazmat pack based around an elite fighter pilot.
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="1656" frameborder="0" height="360" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/1q8zoJ23HZk?si=68fSQzqXFLD3dFC7&amp;start=1" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       The pack can be purchased in-game or from the
-       <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10328/" target="10328">
-        Rust Steam item store.
-       </a>
-      </div>
-     </div>
-     <div blocktype="code" class="edit-block" contenteditable="false" data-code="" data-language="csharp">
-     </div>
-     <div>
-      <b>
-       Pilot Suit
-      </b>
-     </div>
-     <div>
-      Touchdown in the turbulent world of Rust in this fighter pilot’s G-Suit. Whether sustaining high speed turns or dealing with rads, this suit has you covered.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/August/pilot_pack_media_suit_01b.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      <span>
-       <span>
-        <br/>
-       </span>
-      </span>
-     </div>
-     <div>
-      <div>
-       <b>
-        M15 Semi-Automatic Pistol
-       </b>
-      </div>
-     </div>
-     <div>
-      Only high-ranking personnel get to handle the M15. Put it to good use.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/August/pilot_pack_media_m15_01.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      <span>
-       <span>
-        <br/>
-       </span>
-      </span>
-     </div>
-     <div>
-      <div>
-       <b>
-        Flight Control Codelock
-       </b>
-      </div>
-     </div>
-     <div>
-      High-tech and guaranteed to keep the hostiles out.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/August/flight_control_codelock_2k.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <div>
-       <b>
-        Black Box wood storage box
-       </b>
-      </div>
-     </div>
-     <div>
-      There’s no chance of rescue, so salvage what you can and store it here.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/August/pilot_pack_media_blackbox_01c.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      <span>
-       <span>
-        <br/>
-       </span>
-      </span>
-     </div>
-     <div>
-      <div>
-       <b>
-        Salvaged Ejector Seat Chair
-       </b>
-      </div>
-     </div>
-     <div>
-      Pulled from the wreckage and repurposed as the coolest place to hang out after a hard day’s raiding. No longer ejects.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/August/pilot_pack_media_ejectorchair_01.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="VolumetricCloudsFogAtmosphericrevamp">
-  <div class="section" like-handler="LikeBlogSection" like-id="84732" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Volumetric Clouds, Fog, &amp; Atmospheric revamp
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      With this patch, Rust's atmospherics have received a facelift, including:
-     </div>
-     <div>
-      <ul>
-       <li>
-        New volumetric clouds.
-       </li>
-       <li>
-        New volumetric, biome-localized fog.
-       </li>
-      </ul>
-      <div>
-       The goal is to better support a wide variety of dynamic weather, which is something we struggled to do with the old tech.
-      </div>
-     </div>
-     <h2>
-      Volumetric Clouds
-     </h2>
-     <div>
-      Available under the Experimental options tab as a replacement for the 2D clouds, the volumetric clouds are fully 3D, move across the sky, morph into different shapes with weather, and interact naturally with lighting from the sky at all times of day.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      They can also be enabled through the console using graphics.vclouds 1 through 4, with 4 being the highest quality but most taxing on your GPU.
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="true" playsinline="" src="https://files.facepunch.com/brianlach/2025/August/07_01-59-OddSpadefoot.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      Volumetric fog
-     </h2>
-     <div>
-      This new fogging technique allows us to have different fog setups localized to each biome that remain spatially consistent.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Previously, we would adjust fog globally depending on which biome you were standing in, which was unnatural and provided an advantage to players standing outside of the biome.  Now, for example, you'll be able to see the haziness of the arctic biome as an outsider looking in.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Along with this, the volumetric nature of the fog presents cool visual improvements.  For example, it receives light from the sun and shadows from the surrounding environment, creating natural god rays and pretty sunsets.  The fog in each biome of also colored slightly differently to better match the environment.
-     </div>
-     <div>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="PaintingAutosave">
-  <div class="section" like-handler="LikeBlogSection" like-id="84733" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Painting Auto-save
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      For those marathon painters creating the next masterpiece of Rust's art history, we want to make sure you don't lose it all if you happen to starve to death before the final brush stroke. With this toggleable option checked your paintings will automatically sync with the server every 30 seconds, saving you from a complete restart.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/elliot.h/1b3111b1/4STMVtIbfa.png"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Foliageselfshadowing">
-  <div class="section" like-handler="LikeBlogSection" like-id="84734" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Foliage self-shadowing
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Foliage (trees, bushes) outside of shadow range will apply directional self-shadowing. This should improve visuals of distant foliage and reduce trees looking like they are glowing (especially at sunrise/set).
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/ashcook/1b0511b1/SHDOOFF%20BEFORE.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/ashcook/1b0511b1/SHDO%20AFTER.jpg"/>
-     </div>
-     <div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="BatchedProjectileUpdates">
-  <div class="section" like-handler="LikeBlogSection" like-id="84735" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Batched Projectile Updates
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Each time a bullet or thrown weapon moves around, the client would perform some physics raycasts to see what it had hit and process the results (damage, blood, sound, etc.), then the next projectile would do the same, then the next one, etc. This is pretty standard and works fine when you have a small number of projectiles, but can be a bit slow when you have a large number of projectiles in a densely packed area.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The projectiles have been rewritten to update as a single batched set, where the information on the physics queries they need to perform is gathered first and ran across all available job threads in parallel. Updating projectiles as a set like this also opened up a few new optimisation paths that we're now making use of.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      From our benchmarks we've seen that batched projectiles are generally
-      <b>
-       at least
-      </b>
-      twice as fast to compute as the old serial projectiles. You're not going to see your framerate double but things should be a little smoother when fights get intense.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Syringeanimationrework">
-  <div class="section" like-handler="LikeBlogSection" like-id="84710" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Syringe animation rework
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Quite a small change, but we've modified the syringe self injection animation to now apply the heal just as the syringe leaves the arm rather than slightly after. The animation was reworked so that the duration is no different to before, this is purely a visual change.
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" data-video="0" loop="" muted="" playsinline="" src="https://files.facepunch.com/16_14-08-PristineAlbatross/Medical_Syringe_BeforeAfter.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      This should hopefully result in less accidentally cancelled heals.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Serversecureencryptionchanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84729" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Server secure/encryption changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Starting this patch, we've made some minor changes to how servers mark themselves as insecure as well as introduced an additional requirement a secure server needs to meet in order to appear on the Rust Client server browser.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      If you wish to run an insecure server you will now pass the '-insecure' parameter on startup rather than setting the server.secure convar to false. The convar still exists and server owners will see warnings on server startup if they are still using it, we are aiming to remove the convar entirely on the
-      <b>
-       4th September 2025
-      </b>
-      .
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      For existing secure servers, you now need to ensure your secure.encryption value is at least
-      <b>
-       1
-      </b>
-      to appear on the server browser in the Rust Client. We have plans to further increase this requirement to
-      <b>
-       2
-      </b>
-      on the
-      <b>
-       4th September 2025
-      </b>
-      . This is, and has been, the default configuration for Rust Dedicated Servers and as a result these changes only impact a minority of servers and most will not need to take any action.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="SkinsNormalMapFix">
-  <div class="section" like-handler="LikeBlogSection" like-id="84731" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Skins Normal Map Fix
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Unless you're a skins artist you probably won't have noticed, but we identified a bug in the client that caused normal maps to be updated in an incorrect configuration under certain circumstances when submitted via the Workshop.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The Workshop submission was fixed in a previous update but now the historically affected skins have also been fixed and should appear exactly how the creator intended!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/mattisaac/2025/July/30_12-19-WingedQueenslandgrouper.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="homebrewed3tWITCHdROPS">
-  <div class="section" like-handler="LikeBlogSection" like-id="84723" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       home brewed 3 - tWITCH dROPS
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <h2>
-       Twitch Drops are back!
-      </h2>
-      <div>
-       <b>
-        August 7th - 17th!
-       </b>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       And from more of our favourite creators on the rise that you should definitely start to pay attention to!
-       <br/>
-       <br/>
-       Be sure to
-       <a class="selected" href="https://twitch.facepunch.com/" target="https://twitch.facepunch.com">
-        sync up
-       </a>
-       and claim your Drops after watching these fantastic creators on Twitch.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcook/1b0411b1/td_42-blog-image.jpg"/>
-     </div>
-     <div>
-      <h2>
-       <br/>
-      </h2>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="50offRustthisweek">
-  <div class="section" like-handler="LikeBlogSection" like-id="84730" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       50% off Rust this week
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Are you spending your holidays weary of raids? Do you need a friend to help defend your base? Well, Rust is 50% off on Steam for the weekend!
-      <br/>
-      <br/>
-      Gift it to a friend, or let them know they can get it
-      <a class="" href="https://store.steampowered.com/app/252490?utm_source=blog_campaign=scss25_medium=blog" target="https://store.steampowered.com/app/252490?utm_source=blog_campaign=scss25_medium=blog">
-       here
-      </a>
-      .
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcook/1b0511b1/Autumn-Sale%20-%2016x9.png"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="change-blog-container">
-  <div class="container">
-   <div class="changes-container" id="changelist">
-    <div class="changes-sidebar">
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Patch Name
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Harder Core
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Changelist Title
-      </span>
-      <a class="title" style="text-decoration: none;">
-       August Release
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <a class="date" style="text-decoration: none;">
-       <span class="icon">
-        <i>
-         date_range
-        </i>
-       </span>
-       Thursday, August 7, 2025
-      </a>
-     </div>
-     <div class="sidebar-section">
-     </div>
-    </div>
-    <div class="changes-body">
-     <div class="changes-row features">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         add_circle
-        </i>
-       </span>
-       <h3>
-        Features
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Hardcore refresh
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          New menu interface
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Volumetric clouds, fog, and atmospheric revamp
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Dropped weapons and weapons from de-spawned dead players can now be found with a metal detector
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added handheld compass item
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row improvements">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         arrow_circle_up
-        </i>
-       </span>
-       <h3>
-        Improvements
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reworked syringe animation to apply heal as syringe leaves the arm
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Client projectiles update as a batch in parallel, significantly improving their performance
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Admin command `debug.invis` now has a visual indicator
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Admin command `global.god` (godmode) now has a visual indicator
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          New admin command `global.godforceoffoverlay` to force disable the `global.god` visual indicator
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Significantly improved loading times
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Optimized entity -&gt; item lookup code to reduce lag spike when opening the death screen
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Optimized nametag update code
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Flares now flicker less and will stop flickering entirely when the reduce flickering option is enabled
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          No build zones now have an indicator when approached at a height.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added new "BaseRaidBenchmark" benchmark
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduced the performance impact of the UI
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduced the performance impact of industrial conveyors
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Updated the tutorial to use the new foliage system, saves some memory when not in tutorial
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Heavy armor shows movement speed changes in the item inspection menu
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Swapped the movement penalties for the heavy chest and legs: 10% chest, 20% legs -&gt; 20% chest, 10% legs
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added command `server.listplayerreportcounts` to view the amount of reports players have received on the server
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added player's EntityID to the `playerlist`, `status`, and 'players` console results
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added command `global.playerlistids` to list relevant ids for players on the server
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Scrap &amp; Attack Helicopters “damaged” fire effects no longer play while submerged
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added tugboat horn
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Optimized some inventory searching logic
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Spraycan no longer loses condition while using the admin infiniteammo command
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added new keybinds to mark the current position on the map and to clear all map markers
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Hitting static objects in safezones no longer mark the player as hostile
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Map automatically centres on player upon first time opening the map after logging into a server
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Research tables can now be picked up when theres scrap inside
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          The crafting menu now remembers your search after closing and opening
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved the MLRS target and fire interactions to prevent misclicks
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added a visual warning when trying to load into a teamlimited server with a party that too big
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved positions of hoppers and storage monitors on barrels
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved deployable snapping for various items
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Greatly reduced the amount of log history kept in memory for servers
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added the setmaxhealth admin command
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Server now waits for the map file to finish uploading before allowing clients to connect
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved distant foliage visuals with directional self-shadowing
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row fixed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         handyman
-        </i>
-       </span>
-       <h3>
-        Fixed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Miniguns in Autoturrets and Attack Helicopters now spin up before shooting
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Small decor rocks are now pooled correctly to reduce GC allocation while moving around
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed bear pie not correctly reducing duration of other teas by half
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed not being able to spawn into a bag if player died while offline in a game mode (primitive/softcore/hardcore)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed edge case where running the tutorial would clear player history in Missions, allowing them to be run again
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed the door in Fishing Village A being locked on first server boot
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed ladder on exterior of Lighthouse blocking movement into the Lighthouse
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed CinematicEntity.DemoHideObjects not working when loading multiple demos in a session
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Possibly fixed a rare error when ending a cassette recording
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Possibly fixed a rare server error when cooking food in a workbench
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed censorship cube still appearing when alt looking and the body is hidden
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a way for players to insert items into loot only containers
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed minigun spinning constantly in 3rd person until the player starts and stops it
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed server printing a dungeon error when booting into a game mode
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Acoustic Guitars generating incorrect icons (Workshop)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed first person camera animation applying incorrectly in Workshop editor
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed player nametags showing through thin floors/ceilings.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed oil refinery not producing heat.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed flashlight and laser attachment visuals being distorted when switching weapons.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed remotely controlled turret always missing
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed floating geometry on LR300 skins when ironsights have been removed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a memory leak on the server when someone uses Rust+ to connect to remote cameras
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed attack helicopter headlights turning off occasionally when flying long distances
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          F7 report menu now hides SteamIDs in streamer mode
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed engine prop collider in powerplant monument
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Loop audio for powered water pump, water purifier, and fluid switch all now correctly affected by occlusion
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed amount to reload value when switching ammo types being wrong if ping was too high
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed typo in changelog for Primitive gamemode
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed tea timers becoming unreliable on high uptime servers
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to break vehicles using bar doors
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to destroy and pick up static monument bbqs
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed stability number sometimes not showing up when looking at building blocks with a hammer
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an ancient rare bug that would make doors unable to be picked up until a lock is placed and removed from them
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed fps.limitinmenu capping fps while benchmarking
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed locker collider so deployable items (Candles, pumpkins etc) sit on top instead of floating above it
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed players getting kicked for flyhack when jumping on the outer parts of roof building blocks
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed GIB issues with the small planter, bathtub planter and wind turbine
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed coconut armor pieces not recycling into the same items as regular wood armor
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed another exploit allowing shelves to be floating midair
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed junkpile seaweed not moving correctly with the waves
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed windows of towers in airfield and launch site having no collision
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some visual flickering in the friend list UI
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed lights on tugboats disappearing while driving
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed not being able to scroll down through all the console commands auto completion list
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 07 Aug 2025 01:45:00 Z</pubDate>
     </item>
   </channel>
 </rss>
