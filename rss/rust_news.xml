@@ -1,6 +1,390 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>community update 266</title>
+      <link>https://rust.facepunch.com/news/community-update-266/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     community update 266
+    </h1>
+    <p editname="Summary" type="text">
+     Global Warfare is back!  Next Home-Brew announcement, Rust art, parasites, giant recyclers, and more!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      24 July 2025
+     </div>
+     <a class="tag community" href="?category=community">
+      Community
+     </a>
+    </div>
+    <div class="author">
+     <div class="card user-card">
+      <div class="image">
+       <img src="https://files.facepunch.com/web/avatar/80-173403938.png"/>
+      </div>
+      <div class="body">
+       <div class="title has-text-white">
+        Errn
+       </div>
+       <div class="position">
+        Community Manager
+       </div>
+       <div class="country">
+        United States
+       </div>
+       <div class="links">
+        <a class="button small" href="https://youtu.be/dQw4w9WgXcQ" icon="home">
+         web
+        </a>
+        <a class="button small" href="https://twitter.com/ErrnieGerrn" icon="chat">
+         twitter
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block" id="Fancyorbsglobalwarfareisback">
+  <div class="section" like-handler="LikeBlogSection" like-id="84708" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Fancyorb's global warfare is back!
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="3222" data-dashlane-rid="727de5904241d9cb" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/z7evTm1NDU4?si=usoVF8yJk86WD160" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+     </div>
+     <div>
+      <a class="" href="https://x.com/FancyOrb_/status/1937209012119802085">
+       FancyOrb's
+      </a>
+      Global Warfare 3 starts right now on Twitch!
+     </div>
+     <div>
+      <br/>
+      All your favorite creators, big and small, will have Twitch Drops enabled if they're
+      <a class="" href="https://www.twitch.tv/directory/category/rust">
+       streaming Rust
+      </a>
+      during the event!
+      <br/>
+      <p>
+       There will be one store item up where proceeds will go directly to
+       <a class="" href="https://www.hftd.org/">
+        Hope for the Day
+       </a>
+       mental health charity.  Please be aware this item will be account-bound once purchased.
+      </p>
+      <p>
+       If you would like to take part in the charity drive you can check out their
+       <a class="" href="https://tiltify.com/@fancyorb/global-warfare-3-event">
+        Tiltify page
+       </a>
+       !
+      </p>
+      <div>
+       Be sure to get synced at
+       <a class="selected" href="https://twitch.facepunch.com/connect">
+        https://twitch.facepunch.com/connect
+       </a>
+       to claim your skins!
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <a href="https://twitch.facepunch.com/">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/lewis/1b1511b115/td_41-blog-image.jpg"/>
+      </a>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      Global Warfare (Trout's Version)
+     </h2>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="3223" data-dashlane-rid="889afa9eff2c4bf3" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/YO-1KY81Hzs?si=9F34cWjEt9mTQT-W" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="RustPaintingTimelapse">
+  <div class="section" like-handler="LikeBlogSection" like-id="84724" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rust Painting Timelapse
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      You know we love a good art timelapse!
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Check out this incredibly detailed one from
+      <a class="" href="https://www.youtube.com/@Odob4n">
+       Odoban
+      </a>
+      .
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="2130" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/hr0i7MwYJhQ?si=hSk_lHrAYWIWRFam" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="EvilGenius">
+  <div class="section" like-handler="LikeBlogSection" like-id="84725" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Evil Genius
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <a class="" href="https://www.youtube.com/@ZChum">
+       Zchum
+      </a>
+      is at it again with his little conniving ways.  Building inconspicuous bait bases for the long con.
+     </div>
+     <h2>
+      Parasites 2 - Wallpaper Edition
+     </h2>
+     <div>
+      It's great.  Watch it.
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="2856" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/hUqNsBHZLs0?si=65P4Ht5Bm3MqwnKE" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="RecyclerBase">
+  <div class="section" like-handler="LikeBlogSection" like-id="84726" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Recycler Base
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Reddit user
+      <a class="" href="https://www.reddit.com/user/Botsworth1985">
+       Botsworth1985
+      </a>
+      shares with us their big-ass recycler base.  Looks impressive!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-alignment="default" data-gallery-style="default">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2311b1/big-ass-recycler-base-v0-5s0igv3fyc3f1.webp"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2311b1/big-ass-recycler-base-v0-n2trubhhyc3f1.webp"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2311b1/big-ass-recycler-base-v0-aqqozpiiyc3f1.webp"/>
+      </gallery>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="clipboard-read; clipboard-write" allowfullscreen="true" data-dashlane-frameid="2980" data-dashlane-rid="1b578420c986ca7b" height="240" sandbox="allow-scripts allow-same-origin allow-popups" scrolling="no" src="https://embed.reddit.com/r/playrust/comments/1kwtcgb/big_ass_recycler_base/?embed=true&amp;ref_source=embed&amp;ref=share&amp;utm_medium=widgets&amp;utm_source=embedv2&amp;utm_term=23&amp;theme=dark&amp;showmedia=false&amp;utm_name=post_embed&amp;embed_host_url=https%3A%2F%2Frust.facepunch.com%2Fnews%2Fcommunity-update-266" width="640px">
+      </iframe>
+      <script async="" charset="UTF-8" src="https://embed.reddit.com/widgets.js">
+      </script>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="IRLRustBase">
+  <div class="section" like-handler="LikeBlogSection" like-id="84727" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       IRL Rust Base
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <a class="" href="https://www.youtube.com/@sometimeslone">
+       Lone
+      </a>
+      has been adding to his arsenal over the last few months and has a full fledged IRL rust room now.  His attention to detail is great!
+      <br/>
+      <br/>
+      Full tour so far:
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="3080" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/F05Vs-eQDLA?si=JCVlhMMy5X5SjtdC" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+      He's got a full size automated auto turret
+      <a class="" href="https://www.youtube.com/shorts/NpmxkoHS3vg">
+       in the works
+      </a>
+      keep an eye out for that in the upcoming weeks.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="savethedatehomebrewed30">
+  <div class="section" like-handler="LikeBlogSection" like-id="84720" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       save the date - home brewed 3.0
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Here we go again!
+      <br/>
+      <br/>
+      We'll be bringing you even more Twitch Drops this August to support some incredible
+      <a class="" href="https://x.com/ErrnieGerrn/status/1947730510811193460">
+       rising stars
+      </a>
+      in the Rust community on Twitch and YouTube!
+      <br/>
+      <h2>
+       Starts August 7th 2025!
+      </h2>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2211b1/Round%2042%20-%20Homebrewed%203%20Social.png"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="Showmethestuff">
+  <div class="section" like-handler="LikeBlogSection" like-id="84728" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Show me the stuff!
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div style="outline: rgba(139, 195, 74, 0.3) dashed 1px;">
+       If you made something cool or saw something cool, reach out! Tag me on
+       <a class="selected" href="https://twitter.com/ErrnieGerrn">
+        X
+       </a>
+       or u/ErrnieGerrn
+       <a class="" href="https://www.reddit.com/r/playrust/" target="">
+        Reddit
+       </a>
+       .
+       <br/>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Cover image by
+       <a class="selected" href="https://x.com/KeykatVtuber">
+        KeyKat
+       </a>
+       !
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 24 Jul 2025 06:30:00 Z</pubDate>
+    </item>
+    <item>
       <title>COMMUNITY UPDATE 267</title>
       <link>https://rust.facepunch.com/news/community-update-267/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -416,390 +800,6 @@
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 25 Sep 2025 13:00:00 Z</pubDate>
-    </item>
-    <item>
-      <title>community update 266</title>
-      <link>https://rust.facepunch.com/news/community-update-266/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     community update 266
-    </h1>
-    <p editname="Summary" type="text">
-     Global Warfare is back!  Next Home-Brew announcement, Rust art, parasites, giant recyclers, and more!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      24 July 2025
-     </div>
-     <a class="tag community" href="?category=community">
-      Community
-     </a>
-    </div>
-    <div class="author">
-     <div class="card user-card">
-      <div class="image">
-       <img src="https://files.facepunch.com/web/avatar/80-173403938.png"/>
-      </div>
-      <div class="body">
-       <div class="title has-text-white">
-        Errn
-       </div>
-       <div class="position">
-        Community Manager
-       </div>
-       <div class="country">
-        United States
-       </div>
-       <div class="links">
-        <a class="button small" href="https://youtu.be/dQw4w9WgXcQ" icon="home">
-         web
-        </a>
-        <a class="button small" href="https://twitter.com/ErrnieGerrn" icon="chat">
-         twitter
-        </a>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block" id="Fancyorbsglobalwarfareisback">
-  <div class="section" like-handler="LikeBlogSection" like-id="84708" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Fancyorb's global warfare is back!
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="3222" data-dashlane-rid="727de5904241d9cb" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/z7evTm1NDU4?si=usoVF8yJk86WD160" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-     </div>
-     <div>
-      <a class="" href="https://x.com/FancyOrb_/status/1937209012119802085">
-       FancyOrb's
-      </a>
-      Global Warfare 3 starts right now on Twitch!
-     </div>
-     <div>
-      <br/>
-      All your favorite creators, big and small, will have Twitch Drops enabled if they're
-      <a class="" href="https://www.twitch.tv/directory/category/rust">
-       streaming Rust
-      </a>
-      during the event!
-      <br/>
-      <p>
-       There will be one store item up where proceeds will go directly to
-       <a class="" href="https://www.hftd.org/">
-        Hope for the Day
-       </a>
-       mental health charity.  Please be aware this item will be account-bound once purchased.
-      </p>
-      <p>
-       If you would like to take part in the charity drive you can check out their
-       <a class="" href="https://tiltify.com/@fancyorb/global-warfare-3-event">
-        Tiltify page
-       </a>
-       !
-      </p>
-      <div>
-       Be sure to get synced at
-       <a class="selected" href="https://twitch.facepunch.com/connect">
-        https://twitch.facepunch.com/connect
-       </a>
-       to claim your skins!
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <a href="https://twitch.facepunch.com/">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/lewis/1b1511b115/td_41-blog-image.jpg"/>
-      </a>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      Global Warfare (Trout's Version)
-     </h2>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="3223" data-dashlane-rid="889afa9eff2c4bf3" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/YO-1KY81Hzs?si=9F34cWjEt9mTQT-W" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="RustPaintingTimelapse">
-  <div class="section" like-handler="LikeBlogSection" like-id="84724" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Rust Painting Timelapse
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      You know we love a good art timelapse!
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Check out this incredibly detailed one from
-      <a class="" href="https://www.youtube.com/@Odob4n">
-       Odoban
-      </a>
-      .
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="2130" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/hr0i7MwYJhQ?si=hSk_lHrAYWIWRFam" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="EvilGenius">
-  <div class="section" like-handler="LikeBlogSection" like-id="84725" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Evil Genius
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <a class="" href="https://www.youtube.com/@ZChum">
-       Zchum
-      </a>
-      is at it again with his little conniving ways.  Building inconspicuous bait bases for the long con.
-     </div>
-     <h2>
-      Parasites 2 - Wallpaper Edition
-     </h2>
-     <div>
-      It's great.  Watch it.
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="2856" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/hUqNsBHZLs0?si=65P4Ht5Bm3MqwnKE" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="RecyclerBase">
-  <div class="section" like-handler="LikeBlogSection" like-id="84726" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Recycler Base
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Reddit user
-      <a class="" href="https://www.reddit.com/user/Botsworth1985">
-       Botsworth1985
-      </a>
-      shares with us their big-ass recycler base.  Looks impressive!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-alignment="default" data-gallery-style="default">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2311b1/big-ass-recycler-base-v0-5s0igv3fyc3f1.webp"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2311b1/big-ass-recycler-base-v0-n2trubhhyc3f1.webp"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2311b1/big-ass-recycler-base-v0-aqqozpiiyc3f1.webp"/>
-      </gallery>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="clipboard-read; clipboard-write" allowfullscreen="true" data-dashlane-frameid="2980" data-dashlane-rid="1b578420c986ca7b" height="240" sandbox="allow-scripts allow-same-origin allow-popups" scrolling="no" src="https://embed.reddit.com/r/playrust/comments/1kwtcgb/big_ass_recycler_base/?embed=true&amp;ref_source=embed&amp;ref=share&amp;utm_medium=widgets&amp;utm_source=embedv2&amp;utm_term=23&amp;theme=dark&amp;showmedia=false&amp;utm_name=post_embed&amp;embed_host_url=https%3A%2F%2Frust.facepunch.com%2Fnews%2Fcommunity-update-266" width="640px">
-      </iframe>
-      <script async="" charset="UTF-8" src="https://embed.reddit.com/widgets.js">
-      </script>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="IRLRustBase">
-  <div class="section" like-handler="LikeBlogSection" like-id="84727" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       IRL Rust Base
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <a class="" href="https://www.youtube.com/@sometimeslone">
-       Lone
-      </a>
-      has been adding to his arsenal over the last few months and has a full fledged IRL rust room now.  His attention to detail is great!
-      <br/>
-      <br/>
-      Full tour so far:
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="3080" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/F05Vs-eQDLA?si=JCVlhMMy5X5SjtdC" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-      He's got a full size automated auto turret
-      <a class="" href="https://www.youtube.com/shorts/NpmxkoHS3vg">
-       in the works
-      </a>
-      keep an eye out for that in the upcoming weeks.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="savethedatehomebrewed30">
-  <div class="section" like-handler="LikeBlogSection" like-id="84720" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       save the date - home brewed 3.0
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Here we go again!
-      <br/>
-      <br/>
-      We'll be bringing you even more Twitch Drops this August to support some incredible
-      <a class="" href="https://x.com/ErrnieGerrn/status/1947730510811193460">
-       rising stars
-      </a>
-      in the Rust community on Twitch and YouTube!
-      <br/>
-      <h2>
-       Starts August 7th 2025!
-      </h2>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2211b1/Round%2042%20-%20Homebrewed%203%20Social.png"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="Showmethestuff">
-  <div class="section" like-handler="LikeBlogSection" like-id="84728" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Show me the stuff!
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div style="outline: rgba(139, 195, 74, 0.3) dashed 1px;">
-       If you made something cool or saw something cool, reach out! Tag me on
-       <a class="selected" href="https://twitter.com/ErrnieGerrn">
-        X
-       </a>
-       or u/ErrnieGerrn
-       <a class="" href="https://www.reddit.com/r/playrust/" target="">
-        Reddit
-       </a>
-       .
-       <br/>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Cover image by
-       <a class="selected" href="https://x.com/KeykatVtuber">
-        KeyKat
-       </a>
-       !
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 24 Jul 2025 06:30:00 Z</pubDate>
     </item>
     <item>
       <title>Harder Core</title>
