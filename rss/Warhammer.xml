@@ -1,6 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Patch 10.3 is live</title>
+      <link>https://store.steampowered.com/news/app/2183900/view/507342099205586984</link>
+      <description><![CDATA[
+<style>
+        [data-focus-scheme="dark"] {
+            color-scheme: none;
+        }
+    </style>
+<div class="bb_h3">Dear players,</div><p class="bb_paragraph">Patch 10.3 has just been deployed. </p><p class="bb_paragraph">Please note that this update simply brings technical compatibility with the upcoming Demo starting October 16. 😌</p><p class="bb_paragraph"> </p><div class="bb_h2">Tech</div><ul class="bb_ul"><li><p class="bb_paragraph">added compatibility with the Demo version (to be released 16/10)</p></li></ul>]]></description>
+      <pubDate>Wed, 08 Oct 2025 09:57:13 +0000</pubDate>
+    </item>
+    <item>
       <title>Hotfix #79 - 1.9.3 - Patch Notes</title>
       <link>https://store.steampowered.com/news/app/1361210/view/499459531596630319</link>
       <description><![CDATA[
@@ -45,20 +57,8 @@
             color-scheme: none;
         }
     </style>
-<div class="bb_h2">Here's your brief, Space Marines.</div><p class="bb_paragraph"></p><p class="bb_paragraph">From October 2 to 16, team up with your fellow Space Marines to collectively bring down 400,000 Vortex Beasts.</p><p class="bb_paragraph">If you successfully complete your mission, you'll get the <b>Infiltrator Helmet for the Vanguard and Sniper classes</b>.</p><p class="bb_paragraph"> <img src="https://clan.fastly.steamstatic.com/images/43315296/dbefbefde264c7f09388fcbcb40401517b04bdbc.png"/></p>]]></description>
+<div class="bb_h2">Here's your brief, Space Marines.</div><p class="bb_paragraph"></p><p class="bb_paragraph">From October 2 to 16, team up with your fellow Space Marines to collectively bring down 400,000 Vortex Beasts.</p><p class="bb_paragraph">If you successfully complete your mission, you'll get the <b>Infiltrator Helmet for the Vanguard and Sniper classes</b>.</p><p class="bb_paragraph"> <img src="https://clan.akamai.steamstatic.com/images/43315296/dbefbefde264c7f09388fcbcb40401517b04bdbc.png"/></p>]]></description>
       <pubDate>Thu, 02 Oct 2025 13:16:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hotfix 1.4.1.270 is live!</title>
-      <link>https://store.steampowered.com/news/app/2186680/view/509592630758212767</link>
-      <description><![CDATA[
-<style>
-        [data-focus-scheme="dark"] {
-            color-scheme: none;
-        }
-    </style>
-With the huge 1.5 update rapidly approaching, we've found an opportunity to push some of the fixes for annoying issues forward, deploying them early. Enjoy!<br/><br/><ul class="bb_ul"><li> Having Familiars in your party no longer causes activation of stairways to fail in the Xenos Crypt in Act V;<br/></li><li> Fixed an endless combat turn loop in one of the encounters at Rykad Minoris; <br/></li><li> Heinrix's cloak could duplicate when equipping a new one - fixed;<br/></li><li> Cold Trader's Acumen now consistently gives double bonus to skills;<br/></li><li> Removed an error speaker case at the Freight Line dialogue;<br/></li><li> Incendia no longer scoops the brain of the condemned man if the Rogue Trader has already executed him;<br/></li><li> Clicking on an unreachable position now causes a warning message instead of sending the character to the nearest available location;<br/></li><li> Hot on the Trail ability now allows only one enemy to be Trailed at a time;<br/></li><li> Point of Curiosity now costs 2 AP instead of 1 AP;<br/></li><li> Fixed a case of Error Speaker in the dialogue with Chorda on Footfall;<br/></li><li> Mandrakes now correctly die after attempting their death-triggered attack;</li></ul>]]></description>
-      <pubDate>Wed, 01 Oct 2025 17:12:26 +0000</pubDate>
     </item>
   </channel>
 </rss>
