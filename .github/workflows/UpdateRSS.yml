@@ -2,7 +2,8 @@ name: RSS Feed Updater
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    #- cron: '0 */6 * * *'
+    - cron: '0 0 */2 * *'
   workflow_dispatch:
 
 jobs:
