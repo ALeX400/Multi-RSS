@@ -1,422 +1,6 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
-      <title>Rust x Warhammer 40,000 Pack</title>
-      <link>https://rust.facepunch.com/news/warhammer40000-pack/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
-  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
-   <source src="https://files.facepunch.com/lewis/1b2211b115/rust_warhammer_hero_video.mp4" type="video/mp4"/>
-   Your browser does not support the video tag.
-  </video>
- </div>
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <img alt="Rust x Warhammer 40,000 Pack" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b2211b115/rust_warhammer_branding.png"/>
-    <p editname="Summary" type="text">
-     The infamous Death Korps of Krieg march into Rust, bringing their grim, war-forged resolve to the island...
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      23 October 2025
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block" id="RustxWarhammer40000packlaunchtrailer">
-  <div class="section" like-handler="LikeBlogSection" like-id="84794" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Rust x Warhammer 40,000 pack - launch trailer
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="852" frameborder="0" height="415" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/nqY9K28y1E4?si=ERS2XYAxxqhTFqJl" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="thedeathkorpsofkriegDLCSkins">
-  <div class="section" like-handler="LikeBlogSection" like-id="84795" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       the death korps of krieg - DLC Skins
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The infamous Death Korps of Krieg march into Rust, bringing their grim, war-forged resolve to the island.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_dlc_warhammer_krieg_03.jpg"/>
-      </a>
-     </div>
-     <div>
-      This pack delivers battle-scarred war gear, inspired by one of Warhammer 40,000’s most fearless regiments.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_dlc_warhammer_krieg_01%20%281%29.jpg"/>
-      </a>
-     </div>
-     <div>
-      <span id="docs-internal-guid-9e688159-7fff-764d-7fcf-2f6dc4076cf1">
-       <p dir="ltr">
-        Gear up and march across the island clad in their signature gas-masked Hazmat suit. Shoulder your Death Korps of Krieg Backpack, designed with the rugged practicality of Astra Militarum kit. Unleash the roar of the Death Korps Chainsword and the thunder of the Krieg Shotgun, while the Death Korps Storage Containers transform your base into a fortified stronghold.
-        <br/>
-        <br/>
-        The Rust x Warhammer 40,000 pack, only
-        <a class="selected" href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
-         available on Steam
-        </a>
-       </p>
-      </span>
-      <span>
-       <br/>
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkrieghazmatsuit">
-  <div class="section" like-handler="LikeBlogSection" like-id="84796" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       death korps of krieg hazmat suit
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       A reskin of the Hazmat Suit with the classic Krieg gas mask and trench coat loo
-      </span>
-      <span>
-       k.
-       <br/>
-      </span>
-      <span id="docs-internal-guid-aa0e6586-7fff-9524-ec6b-365c8d1022a8">
-       You
-      </span>
-      will be able to apply this skin at a repair bench or when you craft the item in game.
-      <span>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_krieghazmat_02.jpg"/>
-      </a>
-     </div>
-     <div>
-      <span>
-       <br/>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_krieghazmat_03.jpg"/>
-      </a>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_krieghazmat_05.jpg"/>
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkriegbackpack">
-  <div class="section" like-handler="LikeBlogSection" like-id="84797" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       death korps of krieg backpack
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-0d6492ee-7fff-16be-2318-d2e4ac4c82d9">
-       <span>
-        The rugged field pack for the survivalist soldier.
-        <br/>
-        The Large Backpack (with the mug)
-       </span>
-      </span>
-      skin is available to apply at a repair bench or when you craft the item in game.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_backpack_01.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_backpack_02.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_backpack_03.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkriegchainsword">
-  <div class="section" like-handler="LikeBlogSection" like-id="84798" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       death korps of krieg chainsword
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-8e260e5d-7fff-9fab-4e0a-f8ab563c0447">
-       <span>
-        Fire up the Chainsword - a brutal chainsaw reskin.
-       </span>
-       <span>
-       </span>
-      </span>
-      <span id="docs-internal-guid-aa0e6586-7fff-9524-ec6b-365c8d1022a8" style="outline: rgba(139, 195, 74, 0.3) dashed 1px;">
-       You
-      </span>
-      will be able to apply this skin at a repair bench or when you craft the item in game.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/warhammer_krieg_DLC_chainsword_01.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/warhammer_krieg_DLC_chainsword_03.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/warhammer_krieg_DLC_chainsword_04.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkriegshotgun">
-  <div class="section" like-handler="LikeBlogSection" like-id="84799" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       death korps of krieg shotgun
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-aa0e6586-7fff-9524-ec6b-365c8d1022a8">
-       <span>
-        A grimdark firearm with real stopping power.
-        <br/>
-        <br/>
-        The Death Korps of Krieg Shotgun skin is applicable to the Pump Shotgun. You
-       </span>
-      </span>
-      will be able to apply this skin at a repair bench or when you craft the item in game.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_shotgun_04.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_shotgun_01.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_shotgun_03.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkriegstoragecontainers">
-  <div class="section" like-handler="LikeBlogSection" like-id="84800" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       death korps of krieg storage containers
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-524a96f0-7fff-7def-a30a-c45794cb49dd">
-       The final items in the Rust x Warhammer 40,000 Pack - t
-       <span>
-        wo Krieg-styled storage barrels
-       </span>
-       <span>
-        . A vertical and a horizontal variant.
-       </span>
-       These are skins for the storage barrel stand alone items.
-       <span>
-       </span>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_storage_04.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_storage_05.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_storage_06.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The Rust x Warhammer 40,000 pack, only
-      <a class="selected" href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
-       available on Steam
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="halloween2025">
-  <div class="section" like-handler="LikeBlogSection" like-id="84801" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       halloween 2025
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/ashcoook/1b2211b1/Rust%20x%20Halloween%202025_compressed.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      Happy Halloween!
-      <br/>
-      <br/>
-      This year, spooky season returns as d
-      <span>
-       arkness falls upon the island as monsters re-awaken from their slumber. The usual rifts open in random locations, leading to who-knows-where.
-       <br/>
-       As always, enter if you dare, but if you do, you better prepare!
-      </span>
-      <br/>
-      <br/>
-      <a class="" href="https://rust.facepunch.com/news/halloween24">
-       Learn more here.
-      </a>
-      <br/>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="Clocksgoback">
-  <div class="section" like-handler="LikeBlogSection" like-id="84802" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Clocks go back
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Attention server owners!
-      <br/>
-      <br/>
-      BST officially ends and we head back to GMT - the clocks back an hour early on Sunday morning!
-      <br/>
-      Patches will be brought forward an hour early than usual until other timezones observe the autumn clock change.
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/ashcoook/1b2211b1/media_6934ld6roeIgdhSAgyL2Sp.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 23 Oct 2025 05:59:00 Z</pubDate>
-    </item>
-    <item>
       <title>COMMUNITY UPDATE 267</title>
       <link>https://rust.facepunch.com/news/community-update-267/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -2382,6 +1966,422 @@
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 04 Sep 2025 02:00:00 Z</pubDate>
+    </item>
+    <item>
+      <title>Rust x Warhammer 40,000 Pack</title>
+      <link>https://rust.facepunch.com/news/warhammer40000-pack/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
+  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
+   <source src="https://files.facepunch.com/lewis/1b2211b115/rust_warhammer_hero_video.mp4" type="video/mp4"/>
+   Your browser does not support the video tag.
+  </video>
+ </div>
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <img alt="Rust x Warhammer 40,000 Pack" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b2211b115/rust_warhammer_branding.png"/>
+    <p editname="Summary" type="text">
+     The infamous Death Korps of Krieg march into Rust, bringing their grim, war-forged resolve to the island...
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      23 October 2025
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block" id="RustxWarhammer40000packlaunchtrailer">
+  <div class="section" like-handler="LikeBlogSection" like-id="84794" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rust x Warhammer 40,000 pack - launch trailer
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="852" frameborder="0" height="415" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/nqY9K28y1E4?si=ERS2XYAxxqhTFqJl" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="thedeathkorpsofkriegDLCSkins">
+  <div class="section" like-handler="LikeBlogSection" like-id="84795" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       the death korps of krieg - DLC Skins
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The infamous Death Korps of Krieg march into Rust, bringing their grim, war-forged resolve to the island.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_dlc_warhammer_krieg_03.jpg"/>
+      </a>
+     </div>
+     <div>
+      This pack delivers battle-scarred war gear, inspired by one of Warhammer 40,000’s most fearless regiments.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_dlc_warhammer_krieg_01%20%281%29.jpg"/>
+      </a>
+     </div>
+     <div>
+      <span id="docs-internal-guid-9e688159-7fff-764d-7fcf-2f6dc4076cf1">
+       <p dir="ltr">
+        Gear up and march across the island clad in their signature gas-masked Hazmat suit. Shoulder your Death Korps of Krieg Backpack, designed with the rugged practicality of Astra Militarum kit. Unleash the roar of the Death Korps Chainsword and the thunder of the Krieg Shotgun, while the Death Korps Storage Containers transform your base into a fortified stronghold.
+        <br/>
+        <br/>
+        The Rust x Warhammer 40,000 pack, only
+        <a class="selected" href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
+         available on Steam
+        </a>
+       </p>
+      </span>
+      <span>
+       <br/>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkrieghazmatsuit">
+  <div class="section" like-handler="LikeBlogSection" like-id="84796" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       death korps of krieg hazmat suit
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       A reskin of the Hazmat Suit with the classic Krieg gas mask and trench coat loo
+      </span>
+      <span>
+       k.
+       <br/>
+      </span>
+      <span id="docs-internal-guid-aa0e6586-7fff-9524-ec6b-365c8d1022a8">
+       You
+      </span>
+      will be able to apply this skin at a repair bench or when you craft the item in game.
+      <span>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_krieghazmat_02.jpg"/>
+      </a>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_krieghazmat_03.jpg"/>
+      </a>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_krieghazmat_05.jpg"/>
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkriegbackpack">
+  <div class="section" like-handler="LikeBlogSection" like-id="84797" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       death korps of krieg backpack
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-0d6492ee-7fff-16be-2318-d2e4ac4c82d9">
+       <span>
+        The rugged field pack for the survivalist soldier.
+        <br/>
+        The Large Backpack (with the mug)
+       </span>
+      </span>
+      skin is available to apply at a repair bench or when you craft the item in game.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_backpack_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_backpack_02.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_backpack_03.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkriegchainsword">
+  <div class="section" like-handler="LikeBlogSection" like-id="84798" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       death korps of krieg chainsword
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-8e260e5d-7fff-9fab-4e0a-f8ab563c0447">
+       <span>
+        Fire up the Chainsword - a brutal chainsaw reskin.
+       </span>
+       <span>
+       </span>
+      </span>
+      <span id="docs-internal-guid-aa0e6586-7fff-9524-ec6b-365c8d1022a8" style="outline: rgba(139, 195, 74, 0.3) dashed 1px;">
+       You
+      </span>
+      will be able to apply this skin at a repair bench or when you craft the item in game.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/warhammer_krieg_DLC_chainsword_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/warhammer_krieg_DLC_chainsword_03.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/warhammer_krieg_DLC_chainsword_04.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkriegshotgun">
+  <div class="section" like-handler="LikeBlogSection" like-id="84799" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       death korps of krieg shotgun
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-aa0e6586-7fff-9524-ec6b-365c8d1022a8">
+       <span>
+        A grimdark firearm with real stopping power.
+        <br/>
+        <br/>
+        The Death Korps of Krieg Shotgun skin is applicable to the Pump Shotgun. You
+       </span>
+      </span>
+      will be able to apply this skin at a repair bench or when you craft the item in game.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_shotgun_04.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_shotgun_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_shotgun_03.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkriegstoragecontainers">
+  <div class="section" like-handler="LikeBlogSection" like-id="84800" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       death korps of krieg storage containers
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-524a96f0-7fff-7def-a30a-c45794cb49dd">
+       The final items in the Rust x Warhammer 40,000 Pack - t
+       <span>
+        wo Krieg-styled storage barrels
+       </span>
+       <span>
+        . A vertical and a horizontal variant.
+       </span>
+       These are skins for the storage barrel stand alone items.
+       <span>
+       </span>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_storage_04.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_storage_05.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_storage_06.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The Rust x Warhammer 40,000 pack, only
+      <a class="selected" href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
+       available on Steam
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="halloween2025">
+  <div class="section" like-handler="LikeBlogSection" like-id="84801" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       halloween 2025
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/ashcoook/1b2211b1/Rust%20x%20Halloween%202025_compressed.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      Happy Halloween!
+      <br/>
+      <br/>
+      This year, spooky season returns as d
+      <span>
+       arkness falls upon the island as monsters re-awaken from their slumber. The usual rifts open in random locations, leading to who-knows-where.
+       <br/>
+       As always, enter if you dare, but if you do, you better prepare!
+      </span>
+      <br/>
+      <br/>
+      <a class="" href="https://rust.facepunch.com/news/halloween24">
+       Learn more here.
+      </a>
+      <br/>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Clocksgoback">
+  <div class="section" like-handler="LikeBlogSection" like-id="84802" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Clocks go back
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Attention server owners!
+      <br/>
+      <br/>
+      BST officially ends and we head back to GMT - the clocks back an hour early on Sunday morning!
+      <br/>
+      Patches will be brought forward an hour early than usual until other timezones observe the autumn clock change.
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/ashcoook/1b2211b1/media_6934ld6roeIgdhSAgyL2Sp.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 23 Oct 2025 05:59:00 Z</pubDate>
     </item>
     <item>
       <title>Meta Shift</title>
