@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
-      <title>BMW 3 Series E46 1.57 ATS</title>
-      <link>https://www.ets2world.com/bmw-3-series-e46-1-57-ats/</link>
-      <description><![CDATA[<article class="post-394940 post type-post status-publish format-standard has-post-thumbnail hentry category-ats-cars">
+      <title>Realistic Truck Physics Mod v9.1 ETS2</title>
+      <link>https://www.ets2world.com/realistic-truck-physics-mod-v9-1-ets2/</link>
+      <description><![CDATA[<article class="post-395360 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-other">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -23,13 +23,13 @@
    </span>
    |
    <span class="published">
-    November 30, 2025
+    December 2, 2025
    </span>
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="962" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/11/bmw-3-series-e46-1.57-ats-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/11/bmw-3-series-e46-1.57-ats-1.jpg 1920w, https://www.ets2world.com/wp-content/uploads/2025/11/bmw-3-series-e46-1.57-ats-1-300x150.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/11/bmw-3-series-e46-1.57-ats-1-1024x513.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/11/bmw-3-series-e46-1.57-ats-1-768x385.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/11/bmw-3-series-e46-1.57-ats-1-1536x770.jpg 1536w" width="1920"/>
-    <img alt="ATS Cars" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ats3.png"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="432" sizes="(max-width: 768px) 100vw, 768px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/realistic-truck-physics-mod-v9.1-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/12/realistic-truck-physics-mod-v9.1-ets2-1.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/12/realistic-truck-physics-mod-v9.1-ets2-1-300x169.jpg 300w" width="768"/>
+    <img alt="ETS2 Other" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
   <div class="clear">
@@ -43,29 +43,54 @@
     </center>
     <p>
      <strong>
-      BMW 3 Series E46 1.57 ATS
+      Realistic Truck Physics Mod v9.1 ETS2
      </strong>
     </p>
     <hr/>
     <p>
-     <strong>
-      Changelog
-     </strong>
+     Realistic suspension springing
      <br/>
-     Updated to 1.57
+     Realistic cab shaking
+     <br/>
+     Realistic braking simulation
+     <br/>
+     Adapted Active Roll Control(ARC) system
+     <br/>
+     Reduced roll angle
+     <br/>
+     Compatible with current ETS 2 trucks and most popular truck mods
     </p>
     <p>
      <strong>
-      Features
+      Required Configurations
      </strong>
      <br/>
-     HQ Model Ambient Occlusion Real Engine and Transmission Values Real Weight Values Realistic Sound different wheels
+     g_suspension_stiffness 0.85
+     <br/>
+     g_cabin_suspension_stiffness 1.0
+     <br/>
+     g_truck_stability 1.0
+     <br/>
+     g_trailer_stability 1.0
+     <br/>
+     Visit our website to learn how to apply configurations.
+    </p>
+    <p>
+     <strong>
+      Changelog v9.1:
+     </strong>
+     <br/>
+     – Now compatible with the 1.57 update.
+     <br/>
+     – Added support for the updated Scania R & S series.
+     <br/>
+     – Updated chassis definitions for all trucks.
     </p>
     <hr/>
     <strong>
      Credits:
     </strong>
-    Berkay Pekesen
+    Frkn64
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -88,7 +113,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/iydsagg6wggl/BMW_3_Series_E46_1.57.scs.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/t9rzb1im83zh/ETS2_RealisticTruckPhysics_9.1.scs.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
@@ -111,9 +136,9 @@
 <br><br><br>]]></description>
     </item>
     <item>
-      <title>Passengers Bus Mod V2.4 by Cristhian Cardoso 1.57.x ATS</title>
-      <link>https://www.ets2world.com/passengers-bus-mod-v2-4-by-cristhian-cardoso-1-57-x-ats/</link>
-      <description><![CDATA[<article class="post-394942 post type-post status-publish format-standard has-post-thumbnail hentry category-ats-cars">
+      <title>COOPAVEL VOLVO FH5 02 12 2025 v1.0 1.50 1.57 ETS2</title>
+      <link>https://www.ets2world.com/coopavel-volvo-fh5-02-12-2025-v1-0-1-50-1-57-ets2/</link>
+      <description><![CDATA[<article class="post-395341 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-skins">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -133,13 +158,13 @@
    </span>
    |
    <span class="published">
-    November 30, 2025
+    December 2, 2025
    </span>
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="1078" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/11/passengers-bus-mod-v2.4-by-cristhian-cardoso-1.57.x-ats-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/11/passengers-bus-mod-v2.4-by-cristhian-cardoso-1.57.x-ats-1.jpg 1920w, https://www.ets2world.com/wp-content/uploads/2025/11/passengers-bus-mod-v2.4-by-cristhian-cardoso-1.57.x-ats-1-300x168.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/11/passengers-bus-mod-v2.4-by-cristhian-cardoso-1.57.x-ats-1-1024x575.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/11/passengers-bus-mod-v2.4-by-cristhian-cardoso-1.57.x-ats-1-768x431.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/11/passengers-bus-mod-v2.4-by-cristhian-cardoso-1.57.x-ats-1-1536x862.jpg 1536w" width="1920"/>
-    <img alt="ATS Cars" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ats3.png"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="1080" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-1.jpg 1920w, https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-1-768x432.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-1-1536x864.jpg 1536w" width="1920"/>
+    <img alt="ETS2 Skins" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
   <div class="clear">
@@ -148,65 +173,42 @@
    <div class="entry-inner">
     <hr/>
     <center style="margin-top:15px;">
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-1-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-2-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-3.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-3-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-4.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-4-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-5.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-5-160x160.jpg" width="160"/>
+     </a>
     </center>
     <center>
     </center>
     <p>
      <strong>
-      Passengers Bus Mod V2.4 by Cristhian Cardoso 1.57.x ATS
+      COOPAVEL VOLVO FH5 02 12 2025 v1.0 1.50 1.57 ETS2
      </strong>
     </p>
     <hr/>
     <p>
-     <strong>
-      Features Passengers Mod:
-     </strong>
-     <br/>
-     Load/unload passengers at bus stops, terminals, or custom map locations
-     <br/>
-     Recommended to enable easy or automatic parking for smoother loading
-     <br/>
-     Compatible with various maps
-     <br/>
-     Works with all buses and cars
-     <br/>
-     Compatible with both ATS and ETS2
-     <br/>
-     Built as a trailer adaptation, so minor bugs may occur
-     <br/>
-     If a trailer spawns over passengers, use Camera 0 + Ctrl + F9 or F7 + Enter to despawn it
-     <br/>
-     Disable advanced trailer coupling in gameplay settings for better stability
+     COOPAVEL VOLVO FH5 BY RODONITCHO MODS 1.0 1.55 19 07 2025
     </p>
-    <p>
-     Changes in v2.4: Adapted to the latest game patch 1.57
-    </p>
-    <p>
-     <strong>
-      Important Notes & Warnings:
-     </strong>
-     <br/>
-     This mod is a trailer-based adaptation, so bugs may occur
-     <br/>
-     If passengers do not appear, advance time (sleep, F7 + Enter, or quick travel)
-     <br/>
-     Easy or automatic parking is recommended
-     <br/>
-     Standard bus stations on default maps do not support passengers without editing the map and prefab files
-     <br/>
-     Uploading modified prefabs/maps to Steam Workshop is not allowed
-     <br/>
-     If a trailer overlaps passengers, use Camera 0 + Ctrl + F9 or F7 + Enter to fix
-     <br/>
-     Multiplayer compatible – all convoy members must use the same mod version
-     <br/>
-     Note: Steam Workshop and Sharemods versions may differ
-    </p>
+    <div class="video-container">
+     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="281" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/33goeXz3Lhc?feature=oembed&wmode=opaque" title="030/04/0282/2025/4176 RODONITCHO MODS ETS2 1.54.1.0S COOPAVEL VOLVO FH5 1.0 1.54 09 04 2025" width="500">
+     </iframe>
+    </div>
     <hr/>
     <strong>
      Credits:
     </strong>
-    Cristhian Cardoso
+    RODONITCHO MODS
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -229,7 +231,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/37pdu4vkypv8/passengers-bus-mod-v2_4-by-cristhian-cardoso-1_57_x.rar.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/f80456g2q3n5/COOPAVEL_VOLVO_FH5_BY_RODONITCHO_MODS_1.0_1.50_1.57_02_12_2025.zip.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
@@ -252,9 +254,9 @@
 <br><br><br>]]></description>
     </item>
     <item>
-      <title>Freightshaker Coronado SD V2.2.1 ATS</title>
-      <link>https://www.ets2world.com/freightshaker-coronado-sd-v2-2-1-ats/</link>
-      <description><![CDATA[<article class="post-394938 post type-post status-publish format-standard has-post-thumbnail hentry category-ats-cars">
+      <title>FUELO.EU DIESEL PRICE 02 12 2025 v1.0 1.50 1.57 ETS2</title>
+      <link>https://www.ets2world.com/fuelo-eu-diesel-price-02-12-2025-v1-0-1-50-1-57-ets2/</link>
+      <description><![CDATA[<article class="post-395335 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-other">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -274,13 +276,13 @@
    </span>
    |
    <span class="published">
-    November 30, 2025
+    December 2, 2025
    </span>
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="544" sizes="(max-width: 1284px) 100vw, 1284px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/11/freightshaker-coronado-sd-v2.2.1-ats-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/11/freightshaker-coronado-sd-v2.2.1-ats-1.jpg 1284w, https://www.ets2world.com/wp-content/uploads/2025/11/freightshaker-coronado-sd-v2.2.1-ats-1-300x127.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/11/freightshaker-coronado-sd-v2.2.1-ats-1-1024x434.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/11/freightshaker-coronado-sd-v2.2.1-ats-1-768x325.jpg 768w" width="1284"/>
-    <img alt="ATS Cars" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ats3.png"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="1080" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-1.jpg 1920w, https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-1-768x432.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-1-1536x864.jpg 1536w" width="1920"/>
+    <img alt="ETS2 Other" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
   <div class="clear">
@@ -289,45 +291,94 @@
    <div class="entry-inner">
     <hr/>
     <center style="margin-top:15px;">
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-1-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-2-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-3.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-3-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-4.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-4-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-5.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-5-160x160.jpg" width="160"/>
+     </a>
     </center>
     <center>
     </center>
     <p>
      <strong>
-      Freightshaker Coronado SD V2.2.1 ATS
+      FUELO.EU DIESEL PRICE 02 12 2025 v1.0 1.50 1.57 ETS2
      </strong>
     </p>
     <hr/>
     <p>
-     <strong>
-      Changelog V2.2.1
-     </strong>
+     AUSTRIA 1,65
      <br/>
-     Compatible with 1.57
+     BELGIUM 1,80
+     <br/>
+     BOSNIA 1,24
+     <br/>
+     BULGARIA 1,28
+     <br/>
+     CROATIA 1,40
+     <br/>
+     CZECH REPUBLIC 1,46
+     <br/>
+     ESTONIA 1,47
+     <br/>
+     FRANCE 1,72
+     <br/>
+     GERMANY 1,65
+     <br/>
+     GREECE 1,56
+     <br/>
+     HUNGARY 1,57
+     <br/>
+     IRELAND 1,65
+     <br/>
+     ITALY 1,78
+     <br/>
+     LATVIA 1,53
+     <br/>
+     LITHUANIA 1,55
+     <br/>
+     MACEDONIA 1,12
+     <br/>
+     NETHERLANDS 1,95
+     <br/>
+     POLAND 1,48
+     <br/>
+     PORTUGAL 1,70
+     <br/>
+     ROMANIA 1,55
+     <br/>
+     SERBIA 1,72
+     <br/>
+     SLOVAKIA 1,51
+     <br/>
+     SLOVENIA 1,48
+     <br/>
+     SPAIN 1,51
+     <br/>
+     SWITZERLAND 1,98
+     <br/>
+     TURKEY 1,12
+     <br/>
+     UNITED KINGDOM 1,94
     </p>
-    <p>
-     <strong>
-      Mod includes
-     </strong>
-     <br/>
-     High-quality exterior model
-     <br/>
-     High-quality interior model
-     <br/>
-     4 Chassis
-     <br/>
-     3 Cabins
-     <br/>
-     0 colours of each interior element
-    </p>
-    <p>
-     Compatibility with SISL’s Mega Pack and DLC Cabin Accessories High-quality animated air/electricity cables 4k AO Full Standalone Full Lightmask Full animated interior including pedals, ignition key and etc. Transmissions (6-18 speed) Wheels pack included Lots of License Plates Original steering wheels + steering wheels from DLC Unique mod elements and many other options
-    </p>
+    <div class="video-container">
+     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="281" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/yB1kCuaWsxM?feature=oembed&wmode=opaque" title="019/05/0339/2025/4233 RODONITCHO MODS ETS2 1.55.0.14S FUELO.EU DIESEL PRICE 1.0 1.55 16 07 2025" width="500">
+     </iframe>
+    </div>
     <hr/>
     <strong>
      Credits:
     </strong>
-    Ruda
+    RODONITCHO MODS
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -350,7 +401,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/hkv48fag2qot/FREIGHTLINER_122SD_1.57.scs.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/r0g4zhankitx/FUELO.EU_DIESEL_PRICE_BY_RODONITCHO_MODS_1.0_1.50_1.57_02_12_2025.zip.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
@@ -373,9 +424,9 @@
 <br><br><br>]]></description>
     </item>
     <item>
-      <title>Renault Magnum Integral v7.0 1.57x ETS2</title>
-      <link>https://www.ets2world.com/renault-magnum-integral-v7-0-1-57x-ets2/</link>
-      <description><![CDATA[<article class="post-394934 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trucks">
+      <title>Baikal Map v2.0 ETS2</title>
+      <link>https://www.ets2world.com/baikal-map-v2-0-ets2/</link>
+      <description><![CDATA[<article class="post-395333 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -395,13 +446,13 @@
    </span>
    |
    <span class="published">
-    November 30, 2025
+    December 2, 2025
    </span>
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="844" sizes="(max-width: 1491px) 100vw, 1491px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/11/renault-magnum-integral-v7.0-1.57x-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/11/renault-magnum-integral-v7.0-1.57x-ets2-1.jpg 1491w, https://www.ets2world.com/wp-content/uploads/2025/11/renault-magnum-integral-v7.0-1.57x-ets2-1-300x170.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/11/renault-magnum-integral-v7.0-1.57x-ets2-1-1024x580.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/11/renault-magnum-integral-v7.0-1.57x-ets2-1-768x435.jpg 768w" width="1491"/>
-    <img alt="ETS2 Trucks" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="360" sizes="(max-width: 640px) 100vw, 640px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/baikal-map-v2.0-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/12/baikal-map-v2.0-ets2-1.jpg 640w, https://www.ets2world.com/wp-content/uploads/2025/12/baikal-map-v2.0-ets2-1-300x169.jpg 300w" width="640"/>
+    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
   <div class="clear">
@@ -410,88 +461,34 @@
    <div class="entry-inner">
     <hr/>
     <center style="margin-top:15px;">
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/11/renault-magnum-integral-v7.0-1.57x-ets2-1.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/11/renault-magnum-integral-v7.0-1.57x-ets2-1-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/11/renault-magnum-integral-v7.0-1.57x-ets2-2.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/11/renault-magnum-integral-v7.0-1.57x-ets2-2-160x160.jpg" width="160"/>
-     </a>
     </center>
     <center>
     </center>
     <p>
      <strong>
-      Renault Magnum Integral v7.0 1.57x ETS2
+      Baikal Map v2.0 ETS2
      </strong>
     </p>
     <hr/>
     <p>
-     <strong>
-      The truck includes:
-     </strong>
+     Baikal Map – Addon for trans siberian truckway
      <br/>
-     – Template (cab & license plate)
+     Required – Trans siberian truckway
      <br/>
-     – 2 steering wheels
-     <br/>
-     – Working window animation
-     <br/>
-     – Personal shadows
-     <br/>
-     – Tuning slots and parts
-     <br/>
-     – Skins
-     <br/>
-     – Full Standalone
-     <br/>
-     – Full Lightmask
-     <br/>
-     – Own Flarepack
-     <br/>
-     – 4×2 FT chassis (high and low)
-     <br/>
-     -Transmission options
-     <br/>
-     – Personal interiors
-     <br/>
-     – Cabin accessories
-     <br/>
-     – Truck Cables
+     Order map – higher Trans siberian truckway
     </p>
     <p>
      <strong>
-      Added:
+      Changelog 2.0
      </strong>
      <br/>
-     – Engine (390, 430, 470)
-     <br/>
-     – A shelf to the interior
-     <br/>
-     – More fog light options
-     <br/>
-     – Frame for headlights
-     <br/>
-     – The ability to change fuel tanks
-     <br/>
-     – New Skins
-     <br/>
-     – Angles Morts sticker
-     <br/>
-     – Possibility to remove the top of the rear fenders
-     <br/>
-     – New License Plate
-     <br/>
-     – Closed TIR
-     <br/>
-     – Gray plastic elements (bumper, cab, sideskirt)
-     <br/>
-     – Lightbar
+     Added – Tulun and adaptation to 1.57
     </p>
     <hr/>
     <strong>
      Credits:
     </strong>
-    ModsTrade
+    flomaster1213
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -514,7 +511,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/ei5wo8xhjsxm/Unzip_ModsTrade.zip.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/zgmp9jopfx1z/Baikal_Map.scs.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
@@ -537,9 +534,9 @@
 <br><br><br>]]></description>
     </item>
     <item>
-      <title>Magnum updates v22.3.7 ETS2</title>
-      <link>https://www.ets2world.com/magnum-updates-v22-3-7-ets2/</link>
-      <description><![CDATA[<article class="post-394930 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trucks">
+      <title>Slovensko+ v4.2 1.57 ETS2</title>
+      <link>https://www.ets2world.com/slovensko-v4-2-1-57-ets2-2/</link>
+      <description><![CDATA[<article class="post-395329 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -559,13 +556,13 @@
    </span>
    |
    <span class="published">
-    November 30, 2025
+    December 2, 2025
    </span>
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="768" sizes="(max-width: 1366px) 100vw, 1366px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/11/magnum-updates-v22.3.7-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/11/magnum-updates-v22.3.7-ets2-1.jpg 1366w, https://www.ets2world.com/wp-content/uploads/2025/11/magnum-updates-v22.3.7-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/11/magnum-updates-v22.3.7-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/11/magnum-updates-v22.3.7-ets2-1-768x432.jpg 768w" width="1366"/>
-    <img alt="ETS2 Trucks" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="788" sizes="(max-width: 1400px) 100vw, 1400px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-1.jpg 1400w, https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-1-768x432.jpg 768w" width="1400"/>
+    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
   <div class="clear">
@@ -574,40 +571,87 @@
    <div class="entry-inner">
     <hr/>
     <center style="margin-top:15px;">
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/11/magnum-updates-v22.3.7-ets2-1.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/11/magnum-updates-v22.3.7-ets2-1-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-1-160x160.jpg" width="160"/>
      </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/11/magnum-updates-v22.3.7-ets2-2.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/11/magnum-updates-v22.3.7-ets2-2-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-2-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-3.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-3-160x160.jpg" width="160"/>
      </a>
     </center>
     <center>
     </center>
     <p>
      <strong>
-      Magnum updates v22.3.7 ETS2
+      Slovensko+ v4.2 1.57 ETS2
      </strong>
     </p>
     <hr/>
     <p>
-     Standalone
+     <strong>
+      V4.2:
+     </strong>
      <br/>
-     Many different chassis
+     Compatibility for Euro Truck Simulator 2 v1.57,
      <br/>
-     Its engines
+     Compatibility for ProMods v2.77,
      <br/>
-     Lots of tuning and accessories
-     <br/>
-     Cable support
+     Fixed bugs.
     </p>
     <p>
-     Update for patch 1.57
+     <strong>
+      # UPDATE
+     </strong>
+     <br/>
+     Fixed terrain gaps near Banska Bystrica (re-download to apply changes.) optional update.
+     <br/>
+     Note: This version will NOT be compatible with Poland Rebuilding once it releases for 1.57 — I will release a separate version for PL Rebuilding Compatibility
+    </p>
+    <p>
+     <strong>
+      Description
+     </strong>
+     <br/>
+     This map reworks and refreshes the oldest parts of Slovakia.
+    </p>
+    <p>
+     <strong>
+      Cities:
+     </strong>
+     <br/>
+     1. Lovinobaňa
+     <br/>
+     2. Banská Bystrica (rework , v5.0)
+     <br/>
+     3. Ružomberok
+     <br/>
+     4. Čáry
+     <br/>
+     5. Kúty
+     <br/>
+     6. Trenčín (definition only, driveable in v6.0)
+     <br/>
+     7. Veľký Krtís
+     <br/>
+     8. Pôtor
+     <br/>
+     9. Plášťovce (definition only)
+     <br/>
+     10. Košice (reworked)
+     <br/>
+     11. Budča (v5.0) – W.I.P
+     <br/>
+     12. Poprad (v5.0) – W.I.P
+     <br/>
+     13. Vernár (v5.0) – W.I.P
     </p>
     <hr/>
     <strong>
      Credits:
     </strong>
-    Alex
+    AndrewS_
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -630,7 +674,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/hm1iuoxf70ey/magnum_updates_v22.3.7_by_knox_xss.rar.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/i5q6j9l3frsv/Slovensko_v4.2.scs.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
