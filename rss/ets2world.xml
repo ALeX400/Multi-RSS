@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
-      <title>Realistic Truck Physics Mod v9.1 ETS2</title>
-      <link>https://www.ets2world.com/realistic-truck-physics-mod-v9-1-ets2/</link>
-      <description><![CDATA[<article class="post-395360 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-other">
+      <title>Ultra Realistic Truck Physics &amp; Cabin Motion v2.1 ATS</title>
+      <link>https://www.ets2world.com/ultra-realistic-truck-physics-cabin-motion-v2-1-ats/</link>
+      <description><![CDATA[<article class="post-395661 post type-post status-publish format-standard has-post-thumbnail hentry category-ats-other">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -23,13 +23,13 @@
    </span>
    |
    <span class="published">
-    December 2, 2025
+    December 4, 2025
    </span>
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="432" sizes="(max-width: 768px) 100vw, 768px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/realistic-truck-physics-mod-v9.1-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/12/realistic-truck-physics-mod-v9.1-ets2-1.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/12/realistic-truck-physics-mod-v9.1-ets2-1-300x169.jpg 300w" width="768"/>
-    <img alt="ETS2 Other" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="675" sizes="(max-width: 1200px) 100vw, 1200px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/ultra-realistic-truck-physics-a-cabin-motion-v2.1-ats-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/12/ultra-realistic-truck-physics-a-cabin-motion-v2.1-ats-1.jpg 1200w, https://www.ets2world.com/wp-content/uploads/2025/12/ultra-realistic-truck-physics-a-cabin-motion-v2.1-ats-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/12/ultra-realistic-truck-physics-a-cabin-motion-v2.1-ats-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/12/ultra-realistic-truck-physics-a-cabin-motion-v2.1-ats-1-768x432.jpg 768w" width="1200"/>
+    <img alt="ATS Other" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ats3.png"/>
    </div>
   </center>
   <div class="clear">
@@ -43,54 +43,93 @@
     </center>
     <p>
      <strong>
-      Realistic Truck Physics Mod v9.1 ETS2
+      Ultra Realistic Truck Physics & Cabin Motion v2.1 ATS
      </strong>
     </p>
     <hr/>
     <p>
-     Realistic suspension springing
-     <br/>
-     Realistic cab shaking
-     <br/>
-     Realistic braking simulation
-     <br/>
-     Adapted Active Roll Control(ARC) system
-     <br/>
-     Reduced roll angle
-     <br/>
-     Compatible with current ETS 2 trucks and most popular truck mods
+     Experience a new level of realism in American Truck Simulator with a complete redesign of physics designed to ensure realistic truck behavior in both dry and wet conditions.
+    </p>
+    <p>
+     The ultra-realistic mod “Truck Physics and Cab Movement” is designed specifically for users of the keyboard, gamepad and steering wheel, providing unprecedented immersion, authentic handling and real truck dynamics in ATS.
     </p>
     <p>
      <strong>
-      Required Configurations
+      Features:
      </strong>
      <br/>
-     g_suspension_stiffness 0.85
+     – Fully supports all trucks
      <br/>
-     g_cabin_suspension_stiffness 1.0
+     – Realistic suspension stiffness and damping, adjusted to the precision of the air springs
      <br/>
-     g_truck_stability 1.0
+     – Natural swinging of the chassis, body roll and realistic braking torque
      <br/>
-     g_trailer_stability 1.0
+     – Physics of trailer bending by adjusting the resistance of the 5th wheel and the angle of rotation of the hinge
      <br/>
-     Visit our website to learn how to apply configurations.
+     – Improved characteristics of pitching, roll and bouncing of the cabin
+     <br/>
+     – Realistic wet traction and braking loss curves
+     <br/>
+     – Adaptive steering for all types of controllers: keyboard, gamepad, steering wheels
+     <br/>
+     – Accurate values of wheel and cab weight, clutch torque and inertia
+     <br/>
+     – Smooth running at highway speeds, careful turns at low speed, especially in cities and truck stops
     </p>
     <p>
      <strong>
-      Changelog v9.1:
+      Support for control devices
      </strong>
      <br/>
-     – Now compatible with the 1.57 update.
+     Keyboard: Linearized steering and damping with speed sensitivity
      <br/>
-     – Added support for the updated Scania R & S series.
+     Gamepad: Dynamic responsiveness and return to the center
      <br/>
-     – Updated chassis definitions for all trucks.
+     Steering wheel (G29, G923, T300, CSL DD):
+    </p>
+    <p>
+     – Realistic force feedback balancing and suspension feel
+    </p>
+    <p>
+     <strong>
+      Recommended Game Settings (ATS)
+     </strong>
+     <br/>
+     – Truck Stability: 0%
+     <br/>
+     – Trailer stability: 10-20%
+     <br/>
+     – Suspension stiffness: 25%
+     <br/>
+     – Cabin suspension: 30%
+     <br/>
+     – Braking intensity: 50%
+     <br/>
+     – THE ABS anti-lock braking system is ENABLED
+     <br/>
+     – Imitation of an uneven surface: 100%
+    </p>
+    <p>
+     Note: If these recommended settings listed above are not suitable for you, just adjust them to your liking.
+     <br/>
+     All recommended settings are included in the mod’s ReadMe file.
+    </p>
+    <p>
+     <strong>
+      Compatibility:
+     </strong>
+     <br/>
+     – ATS version: 1.57.x and ready for future use
+     <br/>
+     – Fully supports all trucks, including truck mods
+     <br/>
+     – 100% compatible with all mods that don’t have physics.
     </p>
     <hr/>
     <strong>
      Credits:
     </strong>
-    Frkn64
+    Kass
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -113,7 +152,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/t9rzb1im83zh/ETS2_RealisticTruckPhysics_9.1.scs.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/fbqf407lji3y/Smoke_in_my_Trucks.scs.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
@@ -136,9 +175,9 @@
 <br><br><br>]]></description>
     </item>
     <item>
-      <title>COOPAVEL VOLVO FH5 02 12 2025 v1.0 1.50 1.57 ETS2</title>
-      <link>https://www.ets2world.com/coopavel-volvo-fh5-02-12-2025-v1-0-1-50-1-57-ets2/</link>
-      <description><![CDATA[<article class="post-395341 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-skins">
+      <title>LIFTING AXES ETS2 04 12 2025 v1.0 1.50 1.57 ETS2</title>
+      <link>https://www.ets2world.com/lifting-axes-ets2-04-12-2025-v1-0-1-50-1-57-ets2/</link>
+      <description><![CDATA[<article class="post-395607 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-trailers">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -158,13 +197,13 @@
    </span>
    |
    <span class="published">
-    December 2, 2025
+    December 4, 2025
    </span>
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="1080" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-1.jpg 1920w, https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-1-768x432.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-1-1536x864.jpg 1536w" width="1920"/>
-    <img alt="ETS2 Skins" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="1080" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-1.jpg 1920w, https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-1-768x432.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-1-1536x864.jpg 1536w" width="1920"/>
+    <img alt="ETS2 Trailers" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
   <div class="clear">
@@ -173,35 +212,246 @@
    <div class="entry-inner">
     <hr/>
     <center style="margin-top:15px;">
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-1.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-1-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-1-160x160.jpg" width="160"/>
      </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-2.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-2-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-2-160x160.jpg" width="160"/>
      </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-3.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-3-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-3.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-3-160x160.jpg" width="160"/>
      </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-4.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-4-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-4.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-4-160x160.jpg" width="160"/>
      </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-5.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/coopavel-volvo-fh5-02-12-2025-v1.0-1.50-1.57-ets2-5-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-5.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-5-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-6.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-6-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-7.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-7-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-8.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-8-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-9.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-9-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-10.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-10-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-11.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-11-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-12.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-12-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-13.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-13-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-14.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-14-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-15.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-15-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-16.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-16-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-17.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-17-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-18.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-18-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-19.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-19-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-20.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-20-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-21.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-21-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-22.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-22-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-23.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-23-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-24.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-24-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-25.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-25-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-26.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-26-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-27.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-27-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-28.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-28-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-29.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-29-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-30.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-30-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-31.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-31-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-32.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-32-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-33.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-33-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-34.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-34-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-35.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-35-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-36.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-36-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-37.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-37-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-38.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-38-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-39.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-39-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-40.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-40-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-41.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-41-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-42.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-42-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-43.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-43-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-44.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-44-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-45.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-45-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-46.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-46-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-47.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-47-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-48.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-48-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-49.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-49-160x160.jpg" width="160"/>
+     </a>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-50.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/lifting-axes-ets2-04-12-2025-v1.0-1.50-1.57-ets2-50-160x160.jpg" width="160"/>
      </a>
     </center>
     <center>
     </center>
     <p>
      <strong>
-      COOPAVEL VOLVO FH5 02 12 2025 v1.0 1.50 1.57 ETS2
+      LIFTING AXES ETS2 04 12 2025 v1.0 1.50 1.57 ETS2
      </strong>
     </p>
     <hr/>
     <p>
-     COOPAVEL VOLVO FH5 BY RODONITCHO MODS 1.0 1.55 19 07 2025
+     THIS MOD DOESN’T NEED TO EXTRACT PUT IT AS YOU DOWNLOADED IT IN YOUR GAME’S MODS FOLDER
+     <br/>
+     THIS MOD ELIMINATES THE NEED FOR EXTRA AXLES, SAVING ON TIRES WHEN YOU DRIVE EMPTY AND MAKING THE USE OF MANY LOWERED AXLES UNNECESSARY
+     <br/>
+     COMPATIBLE TRAILERS IN THIS VERSION
+     <br/>
+     – FELDBINDER EUT
+     <br/>
+     – FELDBINDER KIP
+     <br/>
+     – FELDBINDER TSAADR
+     <br/>
+     – FELDBINDER TSALM
+     <br/>
+     – KASSBOHRER SBT
+     <br/>
+     – KASSBOHRER SCS
+     <br/>
+     – KASSBOHRER SCX
+     <br/>
+     – KASSBOHRER SHG
+     <br/>
+     – KASSBOHRER SLA
+     <br/>
+     – KASSBOHRER SLL
+     <br/>
+     – KASSBOHRER STC
+     <br/>
+     – KOGEL CARGO
+     <br/>
+     – KOGEL COOL
+     <br/>
+     – KOGEL KIPPER
+     <br/>
+     – KOGEL PORT
+     <br/>
+     – KRAKER WALKINGFLOOR
+     <br/>
+     – KRONE BOXLINER
+     <br/>
+     – KRONE COOLLINER
+     <br/>
+     – KRONE DRYLINER
+     <br/>
+     – KRONE PAPERLINER
+     <br/>
+     – KRONE PROFILINER
+     <br/>
+     – KRONE PROFILINERBM
+     <br/>
+     – KRONE PROFILINERHD
+     <br/>
+     – SCS BOX
+     <br/>
+     – SCS CHEMTANK
+     <br/>
+     – SCS DUMPER
+     <br/>
+     – SCS FLATBED
+     <br/>
+     – SCS FOODTANK
+     <br/>
+     – SCS FUELTANK
+     <br/>
+     – SCS GASTANK
+     <br/>
+     – SCS GOOSENECK
+     <br/>
+     – SCS LIVESTOCK
+     <br/>
+     – SCS LOG
+     <br/>
+     – SCS LOWBED
+     <br/>
+     – SCS LOWLOADER
+     <br/>
+     – SCS SILO
     </p>
     <div class="video-container">
-     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="281" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/33goeXz3Lhc?feature=oembed&wmode=opaque" title="030/04/0282/2025/4176 RODONITCHO MODS ETS2 1.54.1.0S COOPAVEL VOLVO FH5 1.0 1.54 09 04 2025" width="500">
+     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="281" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/M-ppYM_xQ0c?feature=oembed&wmode=opaque" title="023/11/0856/2025/4750 RODONITCHO MODS ETS2 1.57.0.58S LIFTING AXES ETS2 1.0 1.50 1.57 16 11 2025" width="500">
      </iframe>
     </div>
     <hr/>
@@ -231,7 +481,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/f80456g2q3n5/COOPAVEL_VOLVO_FH5_BY_RODONITCHO_MODS_1.0_1.50_1.57_02_12_2025.zip.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/0pyhewe453fl/LIFTING_AXES_ETS2_BY_RODONITCHO_MODS_1.0_1.50_1.57_04_12_2025.zip.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
@@ -254,9 +504,9 @@
 <br><br><br>]]></description>
     </item>
     <item>
-      <title>FUELO.EU DIESEL PRICE 02 12 2025 v1.0 1.50 1.57 ETS2</title>
-      <link>https://www.ets2world.com/fuelo-eu-diesel-price-02-12-2025-v1-0-1-50-1-57-ets2/</link>
-      <description><![CDATA[<article class="post-395335 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-other">
+      <title>Road to Caucasus + RusMap RC v1.8 ETS2</title>
+      <link>https://www.ets2world.com/road-to-caucasus-rusmap-rc-v1-8-ets2/</link>
+      <description><![CDATA[<article class="post-395605 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -276,12 +526,120 @@
    </span>
    |
    <span class="published">
-    December 2, 2025
+    December 4, 2025
    </span>
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="1080" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-1.jpg 1920w, https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-1-768x432.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-1-1536x864.jpg 1536w" width="1920"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="720" sizes="(max-width: 1280px) 100vw, 1280px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/road-to-caucasus-2B-rusmap-rc-v1.8-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/12/road-to-caucasus-2B-rusmap-rc-v1.8-ets2-1.jpg 1280w, https://www.ets2world.com/wp-content/uploads/2025/12/road-to-caucasus-2B-rusmap-rc-v1.8-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/12/road-to-caucasus-2B-rusmap-rc-v1.8-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/12/road-to-caucasus-2B-rusmap-rc-v1.8-ets2-1-768x432.jpg 768w" width="1280"/>
+    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+   </div>
+  </center>
+  <div class="clear">
+  </div>
+  <div class="entry themeform">
+   <div class="entry-inner">
+    <hr/>
+    <center style="margin-top:15px;">
+    </center>
+    <center>
+    </center>
+    <p>
+     <strong>
+      Road to Caucasus + RusMap RC v1.8 ETS2
+     </strong>
+    </p>
+    <hr/>
+    <p>
+     Introducing the RC mod: a road connection that integrates Road to Caucasus and RusMap maps in the Volgograd region.
+    </p>
+    <p>
+     <strong>
+      Version 1.8:
+     </strong>
+     <br/>
+     – The map is optimized for Euro Truck Simulator 2, version 1.57.
+     <br/>
+     – Fixed a significant number of bugs (author of fixes: Dz1rtys)
+    </p>
+    <hr/>
+    <strong>
+     Credits:
+    </strong>
+    MCY
+    <br/>
+    <p style="margin-bottom:3px;">
+    </p>
+    <hr/>
+    <hr>
+    <strong>
+     How to install ETS2 mods or ATS Mods
+    </strong>
+    <br/>
+    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
+    <hr>
+     <div>
+      <span style="font-size:15px; color: #f42d36;">
+       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
+      </span>
+     </div>
+     <hr/>
+     <center>
+     </center>
+     <p>
+      <center>
+       <div>
+        <a class="dmod" href="https://modsfile.com/y0r5zbgkm3u0/RTC_RusMap_RC_v.1.8.scs.html" rel="nofollow" target="_blank">
+         <strong>
+          DOWNLOAD MOD
+         </strong>
+        </a>
+       </div>
+      </center>
+     </p>
+     <center style="margin-top:35px;">
+     </center>
+     <nav class="pagination group">
+     </nav>
+    </hr>
+   </div>
+   <div class="clear">
+   </div>
+  </div>
+ </div>
+ <hr/>
+</article>
+<br><br><br>]]></description>
+    </item>
+    <item>
+      <title>DIESEL PRICE 04 12 2025 v1.0 1.50 1.57 ETS2</title>
+      <link>https://www.ets2world.com/diesel-price-04-12-2025-v1-0-1-50-1-57-ets2/</link>
+      <description><![CDATA[<article class="post-395598 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-other">
+ <div class="post-inner group">
+  <p class="post-byline">
+   <span class="vcard author">
+    <span class="fn">
+     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
+      <span style="color: #777;">
+       Euro Truck Simulator 2 Mods
+      </span>
+     </a>
+     |
+     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
+      <span style="color: #777;">
+       American Truck Simulator Mods
+      </span>
+     </a>
+    </span>
+   </span>
+   |
+   <span class="published">
+    December 4, 2025
+   </span>
+  </p>
+  <center>
+   <div class="thumbnail">
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="1080" sizes="(max-width: 1920px) 100vw, 1920px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/diesel-price-ets2-04-12-2025-v1.0-1.50-1.57-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/12/diesel-price-ets2-04-12-2025-v1.0-1.50-1.57-ets2-1.jpg 1920w, https://www.ets2world.com/wp-content/uploads/2025/12/diesel-price-ets2-04-12-2025-v1.0-1.50-1.57-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/12/diesel-price-ets2-04-12-2025-v1.0-1.50-1.57-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/12/diesel-price-ets2-04-12-2025-v1.0-1.50-1.57-ets2-1-768x432.jpg 768w, https://www.ets2world.com/wp-content/uploads/2025/12/diesel-price-ets2-04-12-2025-v1.0-1.50-1.57-ets2-1-1536x864.jpg 1536w" width="1920"/>
     <img alt="ETS2 Other" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
@@ -291,87 +649,105 @@
    <div class="entry-inner">
     <hr/>
     <center style="margin-top:15px;">
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-1.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-1-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/diesel-price-ets2-04-12-2025-v1.0-1.50-1.57-ets2-1.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/diesel-price-ets2-04-12-2025-v1.0-1.50-1.57-ets2-1-160x160.jpg" width="160"/>
      </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-2.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-2-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/diesel-price-ets2-04-12-2025-v1.0-1.50-1.57-ets2-2.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/diesel-price-ets2-04-12-2025-v1.0-1.50-1.57-ets2-2-160x160.jpg" width="160"/>
      </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-3.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-3-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/diesel-price-ets2-04-12-2025-v1.0-1.50-1.57-ets2-3.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/diesel-price-ets2-04-12-2025-v1.0-1.50-1.57-ets2-3-160x160.jpg" width="160"/>
      </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-4.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-4-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/diesel-price-ets2-04-12-2025-v1.0-1.50-1.57-ets2-4.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/diesel-price-ets2-04-12-2025-v1.0-1.50-1.57-ets2-4-160x160.jpg" width="160"/>
      </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-5.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/fuelo.eu-diesel-price-02-12-2025-v1.0-1.50-1.57-ets2-5-160x160.jpg" width="160"/>
+     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/diesel-price-ets2-04-12-2025-v1.0-1.50-1.57-ets2-5.jpg">
+      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/diesel-price-ets2-04-12-2025-v1.0-1.50-1.57-ets2-5-160x160.jpg" width="160"/>
      </a>
     </center>
     <center>
     </center>
     <p>
      <strong>
-      FUELO.EU DIESEL PRICE 02 12 2025 v1.0 1.50 1.57 ETS2
+      DIESEL PRICE 04 12 2025 v1.0 1.50 1.57 ETS2
      </strong>
     </p>
     <hr/>
     <p>
-     AUSTRIA 1,65
+     DIESEL PRICE ETS2 BY RODONITCHO MODS 1.0 1.50 1.57 04 12 2025
      <br/>
-     BELGIUM 1,80
+     ALBANIA 1,78
      <br/>
-     BOSNIA 1,24
+     AUSTRIA 1,56
      <br/>
-     BULGARIA 1,28
+     BELGIUM 1,64
      <br/>
-     CROATIA 1,40
+     BOSNIA 1,25
      <br/>
-     CZECH REPUBLIC 1,46
+     BULGARIA 1,25
      <br/>
-     ESTONIA 1,47
+     CROATIA 1,49
      <br/>
-     FRANCE 1,72
+     CZECH 1,43
      <br/>
-     GERMANY 1,65
+     DENMARK 1,89
      <br/>
-     GREECE 1,56
+     ESTONIA 1,52
      <br/>
-     HUNGARY 1,57
+     FINLAND 1,59
      <br/>
-     IRELAND 1,65
+     FRANCE 1,69
      <br/>
-     ITALY 1,78
+     GERMANY 1,64
      <br/>
-     LATVIA 1,53
+     GREECE 1,60
      <br/>
-     LITHUANIA 1,55
+     HUNGARY 1,56
+     <br/>
+     ITALY 1,71
+     <br/>
+     KOSOVO 1,48
+     <br/>
+     LATVIA 1,51
+     <br/>
+     LITHUANIA 1,57
+     <br/>
+     LUXEMBOURG 1,43
      <br/>
      MACEDONIA 1,12
      <br/>
-     NETHERLANDS 1,95
+     MONTENEGRO 1,38
+     <br/>
+     NETHERLANDS 1,80
+     <br/>
+     NORWAY 1,72
      <br/>
      POLAND 1,48
      <br/>
-     PORTUGAL 1,70
+     PORTUGAL 1,60
      <br/>
      ROMANIA 1,55
      <br/>
-     SERBIA 1,72
+     RUSSIA 0,83
+     <br/>
+     SERBIA 1,71
      <br/>
      SLOVAKIA 1,51
      <br/>
      SLOVENIA 1,48
      <br/>
-     SPAIN 1,51
+     SPAIN 1,43
      <br/>
-     SWITZERLAND 1,98
+     SWEDEN 1,55
      <br/>
-     TURKEY 1,12
+     SWITZERLAND 1,94
      <br/>
-     UNITED KINGDOM 1,94
+     TURKEY 1,15
+     <br/>
+     UK 1,66
     </p>
     <div class="video-container">
-     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="281" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/yB1kCuaWsxM?feature=oembed&wmode=opaque" title="019/05/0339/2025/4233 RODONITCHO MODS ETS2 1.55.0.14S FUELO.EU DIESEL PRICE 1.0 1.55 16 07 2025" width="500">
+     <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="281" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/RbM9xwBRELY?feature=oembed&wmode=opaque" title="008/05/0328/2025/4222 RODONITCHO MODS ETS2 1.55.0.14S DIESEL PRICE ETS2 1.0 1.55 29 06 2025" width="500">
      </iframe>
     </div>
     <hr/>
@@ -401,7 +777,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/r0g4zhankitx/FUELO.EU_DIESEL_PRICE_BY_RODONITCHO_MODS_1.0_1.50_1.57_02_12_2025.zip.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/hu5b9puezu7z/DIESEL_PRICE_ETS2_BY_RODONITCHO_MODS_1.0_1.50_1.57_04_12_2025.zip.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
@@ -424,9 +800,9 @@
 <br><br><br>]]></description>
     </item>
     <item>
-      <title>Baikal Map v2.0 ETS2</title>
-      <link>https://www.ets2world.com/baikal-map-v2-0-ets2/</link>
-      <description><![CDATA[<article class="post-395333 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
+      <title>Smoke in my Trucks v1.57 ETS2</title>
+      <link>https://www.ets2world.com/smoke-in-my-trucks-v1-57-ets2/</link>
+      <description><![CDATA[<article class="post-395595 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-other">
  <div class="post-inner group">
   <p class="post-byline">
    <span class="vcard author">
@@ -446,13 +822,13 @@
    </span>
    |
    <span class="published">
-    December 2, 2025
+    December 4, 2025
    </span>
   </p>
   <center>
    <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="360" sizes="(max-width: 640px) 100vw, 640px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/baikal-map-v2.0-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/12/baikal-map-v2.0-ets2-1.jpg 640w, https://www.ets2world.com/wp-content/uploads/2025/12/baikal-map-v2.0-ets2-1-300x169.jpg 300w" width="640"/>
-    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
+    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="449" sizes="(max-width: 800px) 100vw, 800px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/smoke-in-my-trucks-v1.57-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/12/smoke-in-my-trucks-v1.57-ets2-1.jpg 800w, https://www.ets2world.com/wp-content/uploads/2025/12/smoke-in-my-trucks-v1.57-ets2-1-300x168.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/12/smoke-in-my-trucks-v1.57-ets2-1-768x431.jpg 768w" width="800"/>
+    <img alt="ETS2 Other" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
    </div>
   </center>
   <div class="clear">
@@ -466,29 +842,41 @@
     </center>
     <p>
      <strong>
-      Baikal Map v2.0 ETS2
+      Smoke in my Trucks v1.57 ETS2
      </strong>
     </p>
     <hr/>
     <p>
-     Baikal Map – Addon for trans siberian truckway
-     <br/>
-     Required – Trans siberian truckway
-     <br/>
-     Order map – higher Trans siberian truckway
+     This mod continuously adds smoke to the exhausts of all original game trucks purchased from the Truck Dealers listed below:
     </p>
     <p>
-     <strong>
-      Changelog 2.0
-     </strong>
+     – DAF
      <br/>
-     Added – Tulun and adaptation to 1.57
+     – Iveco
+     <br/>
+     – MAN
+     <br/>
+     – Mercedes
+     <br/>
+     – Renault
+     <br/>
+     – Scania
+     <br/>
+     – Volvo
+    </p>
+    <p>
+     The smoke follows the original direction of exit of its exhausts.
+     <br/>
+     The smoke alters its trail as the trucks change their direction and speed.
+    </p>
+    <p>
+     Added support for Scania R and S
     </p>
     <hr/>
     <strong>
      Credits:
     </strong>
-    flomaster1213
+    Carlitos
     <br/>
     <p style="margin-bottom:3px;">
     </p>
@@ -511,170 +899,7 @@
      <p>
       <center>
        <div>
-        <a class="dmod" href="https://modsfile.com/zgmp9jopfx1z/Baikal_Map.scs.html" rel="nofollow" target="_blank">
-         <strong>
-          DOWNLOAD MOD
-         </strong>
-        </a>
-       </div>
-      </center>
-     </p>
-     <center style="margin-top:35px;">
-     </center>
-     <nav class="pagination group">
-     </nav>
-    </hr>
-   </div>
-   <div class="clear">
-   </div>
-  </div>
- </div>
- <hr/>
-</article>
-<br><br><br>]]></description>
-    </item>
-    <item>
-      <title>Slovensko+ v4.2 1.57 ETS2</title>
-      <link>https://www.ets2world.com/slovensko-v4-2-1-57-ets2-2/</link>
-      <description><![CDATA[<article class="post-395329 post type-post status-publish format-standard has-post-thumbnail hentry category-ets2-maps">
- <div class="post-inner group">
-  <p class="post-byline">
-   <span class="vcard author">
-    <span class="fn">
-     <a href="https://www.ets2world.com/" title="Euro Truck Simulator 2 Mods">
-      <span style="color: #777;">
-       Euro Truck Simulator 2 Mods
-      </span>
-     </a>
-     |
-     <a href="https://www.ets2world.com/category/american-truck-simulator-mods/" title="American Truck Simulator Mods">
-      <span style="color: #777;">
-       American Truck Simulator Mods
-      </span>
-     </a>
-    </span>
-   </span>
-   |
-   <span class="published">
-    December 2, 2025
-   </span>
-  </p>
-  <center>
-   <div class="thumbnail">
-    <img alt="" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" decoding="async" fetchpriority="high" height="788" sizes="(max-width: 1400px) 100vw, 1400px" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-1.jpg" srcset="https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-1.jpg 1400w, https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-1-300x169.jpg 300w, https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-1-1024x576.jpg 1024w, https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-1-768x432.jpg 768w" width="1400"/>
-    <img alt="ETS2 Maps" class="tinythumbicon" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2014/10/ets3.png"/>
-   </div>
-  </center>
-  <div class="clear">
-  </div>
-  <div class="entry themeform">
-   <div class="entry-inner">
-    <hr/>
-    <center style="margin-top:15px;">
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-1.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-1-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-2.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-2-160x160.jpg" width="160"/>
-     </a>
-     <a data-rel="lightbox" href="https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-3.jpg">
-      <img alt="" class="attachment-thumbnail size-thumbnail" decoding="async" height="160" loading="lazy" src="https://image-proxy-beta.vercel.app/proxy?url=https://www.ets2world.com/wp-content/uploads/2025/12/slovensko-2B-v4.2-1.57-ets2-3-160x160.jpg" width="160"/>
-     </a>
-    </center>
-    <center>
-    </center>
-    <p>
-     <strong>
-      Slovensko+ v4.2 1.57 ETS2
-     </strong>
-    </p>
-    <hr/>
-    <p>
-     <strong>
-      V4.2:
-     </strong>
-     <br/>
-     Compatibility for Euro Truck Simulator 2 v1.57,
-     <br/>
-     Compatibility for ProMods v2.77,
-     <br/>
-     Fixed bugs.
-    </p>
-    <p>
-     <strong>
-      # UPDATE
-     </strong>
-     <br/>
-     Fixed terrain gaps near Banska Bystrica (re-download to apply changes.) optional update.
-     <br/>
-     Note: This version will NOT be compatible with Poland Rebuilding once it releases for 1.57 — I will release a separate version for PL Rebuilding Compatibility
-    </p>
-    <p>
-     <strong>
-      Description
-     </strong>
-     <br/>
-     This map reworks and refreshes the oldest parts of Slovakia.
-    </p>
-    <p>
-     <strong>
-      Cities:
-     </strong>
-     <br/>
-     1. Lovinobaňa
-     <br/>
-     2. Banská Bystrica (rework , v5.0)
-     <br/>
-     3. Ružomberok
-     <br/>
-     4. Čáry
-     <br/>
-     5. Kúty
-     <br/>
-     6. Trenčín (definition only, driveable in v6.0)
-     <br/>
-     7. Veľký Krtís
-     <br/>
-     8. Pôtor
-     <br/>
-     9. Plášťovce (definition only)
-     <br/>
-     10. Košice (reworked)
-     <br/>
-     11. Budča (v5.0) – W.I.P
-     <br/>
-     12. Poprad (v5.0) – W.I.P
-     <br/>
-     13. Vernár (v5.0) – W.I.P
-    </p>
-    <hr/>
-    <strong>
-     Credits:
-    </strong>
-    AndrewS_
-    <br/>
-    <p style="margin-bottom:3px;">
-    </p>
-    <hr/>
-    <hr>
-    <strong>
-     How to install ETS2 mods or ATS Mods
-    </strong>
-    <br/>
-    In Euro Truck Simulator 2 it’s easy to install mods. You just need to download mod from here, copy/unzip files into: “My Documents\Euro Truck Simulator 2\mod” folder or if you play ATS please install mods to: “My Documents\American Truck Simulator\mod” folder. To unzip files you can use: WinRAR or 7zip. After that you need to activate the mods you want to use.
-    <hr>
-     <div>
-      <span style="font-size:15px; color: #f42d36;">
-       Report bugs in the comments and help modders improve this mod. Always check the comments, you can find a solution.
-      </span>
-     </div>
-     <hr/>
-     <center>
-     </center>
-     <p>
-      <center>
-       <div>
-        <a class="dmod" href="https://modsfile.com/i5q6j9l3frsv/Slovensko_v4.2.scs.html" rel="nofollow" target="_blank">
+        <a class="dmod" href="https://modsfile.com/eontwuu17uli/Smoke_in_my_Trucks.scs.html" rel="nofollow" target="_blank">
          <strong>
           DOWNLOAD MOD
          </strong>
