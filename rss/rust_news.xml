@@ -1,329 +1,6 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
-      <title>Getting It Right</title>
-      <link>https://rust.facepunch.com/news/getting-it-right/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <img alt="Getting It Right" class="hero_patch-branding" src="https://files.facepunch.com/Alistair/103/12/2025/1b11/not_naval_update-branding-updated.png"/>
-    <p editname="Summary" type="text">
-     We Bit Off More Than We Could Chew
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      03 December 2025
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-    <div class="author">
-     <div class="card user-card">
-      <div class="image">
-       <img src="https://files.facepunch.com/web/avatar/33-181859480.png"/>
-      </div>
-      <div class="body">
-       <div class="title has-text-white">
-        Alistair
-       </div>
-       <div class="position">
-        Chief Operations Officer
-       </div>
-       <div class="country">
-        UK
-       </div>
-       <div class="links">
-        <a class="button small" href="https://twitter.com/Alistair_McF" icon="chat">
-         twitter
-        </a>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="shipwrecked">
-  <div class="section" like-handler="LikeBlogSection" like-id="84866" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       shipwrecked
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       Today is not the update I wanted to ship.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       For almost 12 years we have managed to deliver weekly updates or, in more recent years, guaranteed monthly updates with meaningful changes. It has become part of Rust’s identity. Turning up, every month, without fail. Not today.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0311b1/dec2025_naval_update_deep_sea_barrier_3_1080.jpg"/>
-     </div>
-     <div>
-      We took on too much. The naval update is massive, lots of new systems, touching old ones, and the closer we got to patch release, the less confident and happy we were with the state of it. We could have pushed it out and crossed our fingers, hoping it behaved at scale, or we could pause, take a breath, and avoid shipping something that risks crippling servers during the busiest time of the year.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0311b1/dec2025_naval_update_ghost_ships_1_1080.jpg"/>
-     </div>
-     <div>
-      We do not want to drop server populations by 100 to 200 players or spend the holiday period firefighting performance and bugs. Rust is in a good state without the naval patch, we cannot justify risking stability for the sake of hitting a date.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      I feel like we have let you down by missing the update window we have never missed before, but we would feel worse shipping something half baked. We are proud of the pace we work at, delivering updates at a speed most studios can't or don't. But we also care about Rust being fun, stable and worth your time. The naval update deserves that level of polish..
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0311b1/rust_islands_28_1080.jpg"/>
-     </div>
-     <div>
-      So here is the plan. The naval patch is moving to February 5th. We will keep pushing on performance and polish, we will tighten everything up, and we will make sure that when it lands, it is solid and fun.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Some of the content and DLC originally planned for today will instead be included in the Christmas update on the 18th at 19:00 GMT. That update will now include a few extra bits that were meant to drop today.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0311b1/rust_lr300_spacedlc_1080_3_jpg.jpg"/>
-     </div>
-     <div>
-      Tomorrow’s update will be a straightforward wipe only. The patch will go live at the regular time of 19:00 GMT, Thursday 4th, and servers will wipe as usual.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      It has been a massive year for Rust, one of our biggest. From bringing
-      <a class="" href="https://rust.facepunch.com/news/primitive" target="https://rust.facepunch.com/news/primitive">
-       Primitive
-      </a>
-      at the start of the year, to the new
-      <a class="" href="https://rust.facepunch.com/news/jungle-update" target="https://rust.facepunch.com/news/jungle-update">
-       Jungle
-      </a>
-      biome, to sweeping meta changes, to backend improvements that most people will never see but everyone benefits from, the team has delivered patch after patch at a ridiculous pace. We are proud of what we have achieved this year and excited for what comes next.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/122/04/2025/6J27/jungleUpdate_biome_02.jpg"/>
-     </div>
-     <div>
-      Thank you for sticking with us, thank you for caring, and thank you for giving us the space to get this right. The naval update will be worth the wait, if you've not played Rust in the past few months, there is a ton of new content to use and explore.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The January update will include some light changes and a review of 2025, and a preview of what we've got planned in 2026.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="RustStaging">
-  <div class="section" like-handler="LikeBlogSection" like-id="84869" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Rust Staging
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The good news is, if you really want to try the naval content early, you can. Just be aware it comes with bugs, performance issues and all the rough edges we are still working through. We have fresh servers live on the Rust Staging branch that you can jump into.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0311b1/dec2025_naval_update_ghost_ships_2_1080.jpg"/>
-     </div>
-     <div>
-      If you want to help test, break things and give feedback, you are more than welcome. To learn how to get onto Rust Staging, check this out:
-      <a class="" href="https://rust.facepunch.com/staging" target="https://rust.facepunch.com/staging">
-       https://rust.facepunch.com/staging
-      </a>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0311b1/rust_floatingcity_wide_5_1080.jpg"/>
-     </div>
-     <div>
-      If demand exceeds current capacity, we'll be adding new servers.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="TwitchrivalsteambattleVI">
-  <div class="section" like-handler="LikeBlogSection" like-id="84867" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Twitch rivals - team battle VI
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       Twitch Rivals is back for one last competiton of the year - Team Battle VI is almost here!
-       <br/>
-       <br/>
-      </div>
-      <div>
-       Starting Monday 8th of December and finishing Friday 12th, 150 creators from around the world will compete in the 6th iteration of the yearly global Rust PvP competitive event, with a prize pool of
-       <b>
-        $100,000
-       </b>
-       !
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/12/2025/4336/RivalsVI.jpg"/>
-     </div>
-     <div>
-      <div>
-       Last year's event saw even more incredible displays of skill, planning, and of course some luck, from some rather understated and established creators alike!
-      </div>
-      <div>
-       <br/>
-       Be sure to tune in every day at 2000 GMT / 1500 EST to watch as tensions rise and the teams find their feet while they gather their resources, build to protect themselves, then raid, loot, and fight it out to be crowned victorious!
-      </div>
-      <div>
-       <br/>
-       Full schedule and teams list from Twitch
-       <a class="selected" href="https://schedule.twitchrivals.com/events/rust-team-battle-vi-rNrkV" target="https://schedule.twitchrivals.com/events/rust-team-battle-vi-rNrkV">
-        here
-       </a>
-       .
-       <br/>
-       <br/>
-       As usual, there are some incredibly cool and unique Twitch Drops available to collect by watching the event, and by tuning in to the official competition
-       <a class="selected" href="https://www.twitch.tv/twitchrivals" target="https://www.twitch.tv/twitchrivals">
-        broadcast from Twitch Rivals
-       </a>
-       .
-      </div>
-     </div>
-     <div>
-      Sync your accounts and find links to all channels at
-      <a class="selected" href="https://twitch.facepunch.com/" target="https://twitch.facepunch.com/">
-       twitch.facepunch.com
-      </a>
-      .
-      <br/>
-      <br/>
-      And don't forget, there are generic Twitch themed Drops that you can grab by
-      <a class="" href="https://www.twitch.tv/directory/category/rust" target="https://www.twitch.tv/directory/category/rust">
-       watching your favourite
-      </a>
-      creator on Twitch not participating in the event too!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/Errn/1b0311b1/td_45-blog-image.jpg"/>
-     </div>
-     <div>
-      <br/>
-      As always, we'd like to thank
-      <a class="" href="https://rustoria.co/" target="https://rustoria.co/">
-       Rustoria
-      </a>
-      for working with us and Twitch to make this event possible.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Christmas2025">
-  <div class="section" like-handler="LikeBlogSection" like-id="84868" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Christmas 2025
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Thursday 18th of December sees the return of our annual Christmas event!
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20211215/xmas_town.jpg"/>
-     </div>
-     <div>
-      <div>
-       We'll release a mandatory update at 19:00 GMT on December 18th to enable this year's festivities, no wipe, no progress will be lost.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Wed, 03 Dec 2025 20:56:00 Z</pubDate>
-    </item>
-    <item>
       <title>Silent Night, Violent Night</title>
       <link>https://rust.facepunch.com/news/merry-rustmas-25/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -1081,6 +758,745 @@
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 18 Dec 2025 09:52:00 Z</pubDate>
+    </item>
+    <item>
+      <title>Getting It Right</title>
+      <link>https://rust.facepunch.com/news/getting-it-right/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <img alt="Getting It Right" class="hero_patch-branding" src="https://files.facepunch.com/Alistair/103/12/2025/1b11/not_naval_update-branding-updated.png"/>
+    <p editname="Summary" type="text">
+     We Bit Off More Than We Could Chew
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      03 December 2025
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+    <div class="author">
+     <div class="card user-card">
+      <div class="image">
+       <img src="https://files.facepunch.com/web/avatar/33-181859480.png"/>
+      </div>
+      <div class="body">
+       <div class="title has-text-white">
+        Alistair
+       </div>
+       <div class="position">
+        Chief Operations Officer
+       </div>
+       <div class="country">
+        UK
+       </div>
+       <div class="links">
+        <a class="button small" href="https://twitter.com/Alistair_McF" icon="chat">
+         twitter
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="shipwrecked">
+  <div class="section" like-handler="LikeBlogSection" like-id="84866" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       shipwrecked
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       Today is not the update I wanted to ship.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       For almost 12 years we have managed to deliver weekly updates or, in more recent years, guaranteed monthly updates with meaningful changes. It has become part of Rust’s identity. Turning up, every month, without fail. Not today.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0311b1/dec2025_naval_update_deep_sea_barrier_3_1080.jpg"/>
+     </div>
+     <div>
+      We took on too much. The naval update is massive, lots of new systems, touching old ones, and the closer we got to patch release, the less confident and happy we were with the state of it. We could have pushed it out and crossed our fingers, hoping it behaved at scale, or we could pause, take a breath, and avoid shipping something that risks crippling servers during the busiest time of the year.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0311b1/dec2025_naval_update_ghost_ships_1_1080.jpg"/>
+     </div>
+     <div>
+      We do not want to drop server populations by 100 to 200 players or spend the holiday period firefighting performance and bugs. Rust is in a good state without the naval patch, we cannot justify risking stability for the sake of hitting a date.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      I feel like we have let you down by missing the update window we have never missed before, but we would feel worse shipping something half baked. We are proud of the pace we work at, delivering updates at a speed most studios can't or don't. But we also care about Rust being fun, stable and worth your time. The naval update deserves that level of polish..
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0311b1/rust_islands_28_1080.jpg"/>
+     </div>
+     <div>
+      So here is the plan. The naval patch is moving to February 5th. We will keep pushing on performance and polish, we will tighten everything up, and we will make sure that when it lands, it is solid and fun.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Some of the content and DLC originally planned for today will instead be included in the Christmas update on the 18th at 19:00 GMT. That update will now include a few extra bits that were meant to drop today.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0311b1/rust_lr300_spacedlc_1080_3_jpg.jpg"/>
+     </div>
+     <div>
+      Tomorrow’s update will be a straightforward wipe only. The patch will go live at the regular time of 19:00 GMT, Thursday 4th, and servers will wipe as usual.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      It has been a massive year for Rust, one of our biggest. From bringing
+      <a class="" href="https://rust.facepunch.com/news/primitive" target="https://rust.facepunch.com/news/primitive">
+       Primitive
+      </a>
+      at the start of the year, to the new
+      <a class="" href="https://rust.facepunch.com/news/jungle-update" target="https://rust.facepunch.com/news/jungle-update">
+       Jungle
+      </a>
+      biome, to sweeping meta changes, to backend improvements that most people will never see but everyone benefits from, the team has delivered patch after patch at a ridiculous pace. We are proud of what we have achieved this year and excited for what comes next.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/122/04/2025/6J27/jungleUpdate_biome_02.jpg"/>
+     </div>
+     <div>
+      Thank you for sticking with us, thank you for caring, and thank you for giving us the space to get this right. The naval update will be worth the wait, if you've not played Rust in the past few months, there is a ton of new content to use and explore.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The January update will include some light changes and a review of 2025, and a preview of what we've got planned in 2026.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="RustStaging">
+  <div class="section" like-handler="LikeBlogSection" like-id="84869" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rust Staging
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The good news is, if you really want to try the naval content early, you can. Just be aware it comes with bugs, performance issues and all the rough edges we are still working through. We have fresh servers live on the Rust Staging branch that you can jump into.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0311b1/dec2025_naval_update_ghost_ships_2_1080.jpg"/>
+     </div>
+     <div>
+      If you want to help test, break things and give feedback, you are more than welcome. To learn how to get onto Rust Staging, check this out:
+      <a class="" href="https://rust.facepunch.com/staging" target="https://rust.facepunch.com/staging">
+       https://rust.facepunch.com/staging
+      </a>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0311b1/rust_floatingcity_wide_5_1080.jpg"/>
+     </div>
+     <div>
+      If demand exceeds current capacity, we'll be adding new servers.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="TwitchrivalsteambattleVI">
+  <div class="section" like-handler="LikeBlogSection" like-id="84867" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Twitch rivals - team battle VI
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       Twitch Rivals is back for one last competiton of the year - Team Battle VI is almost here!
+       <br/>
+       <br/>
+      </div>
+      <div>
+       Starting Monday 8th of December and finishing Friday 12th, 150 creators from around the world will compete in the 6th iteration of the yearly global Rust PvP competitive event, with a prize pool of
+       <b>
+        $100,000
+       </b>
+       !
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/103/12/2025/4336/RivalsVI.jpg"/>
+     </div>
+     <div>
+      <div>
+       Last year's event saw even more incredible displays of skill, planning, and of course some luck, from some rather understated and established creators alike!
+      </div>
+      <div>
+       <br/>
+       Be sure to tune in every day at 2000 GMT / 1500 EST to watch as tensions rise and the teams find their feet while they gather their resources, build to protect themselves, then raid, loot, and fight it out to be crowned victorious!
+      </div>
+      <div>
+       <br/>
+       Full schedule and teams list from Twitch
+       <a class="selected" href="https://schedule.twitchrivals.com/events/rust-team-battle-vi-rNrkV" target="https://schedule.twitchrivals.com/events/rust-team-battle-vi-rNrkV">
+        here
+       </a>
+       .
+       <br/>
+       <br/>
+       As usual, there are some incredibly cool and unique Twitch Drops available to collect by watching the event, and by tuning in to the official competition
+       <a class="selected" href="https://www.twitch.tv/twitchrivals" target="https://www.twitch.tv/twitchrivals">
+        broadcast from Twitch Rivals
+       </a>
+       .
+      </div>
+     </div>
+     <div>
+      Sync your accounts and find links to all channels at
+      <a class="selected" href="https://twitch.facepunch.com/" target="https://twitch.facepunch.com/">
+       twitch.facepunch.com
+      </a>
+      .
+      <br/>
+      <br/>
+      And don't forget, there are generic Twitch themed Drops that you can grab by
+      <a class="" href="https://www.twitch.tv/directory/category/rust" target="https://www.twitch.tv/directory/category/rust">
+       watching your favourite
+      </a>
+      creator on Twitch not participating in the event too!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/Errn/1b0311b1/td_45-blog-image.jpg"/>
+     </div>
+     <div>
+      <br/>
+      As always, we'd like to thank
+      <a class="" href="https://rustoria.co/" target="https://rustoria.co/">
+       Rustoria
+      </a>
+      for working with us and Twitch to make this event possible.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Christmas2025">
+  <div class="section" like-handler="LikeBlogSection" like-id="84868" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Christmas 2025
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Thursday 18th of December sees the return of our annual Christmas event!
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20211215/xmas_town.jpg"/>
+     </div>
+     <div>
+      <div>
+       We'll release a mandatory update at 19:00 GMT on December 18th to enable this year's festivities, no wipe, no progress will be lost.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Wed, 03 Dec 2025 20:56:00 Z</pubDate>
+    </item>
+    <item>
+      <title>Rust x Warhammer 40,000 Pack</title>
+      <link>https://rust.facepunch.com/news/warhammer40000-pack/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
+  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
+   <source src="https://files.facepunch.com/lewis/1b2211b115/rust_warhammer_hero_video.mp4" type="video/mp4"/>
+   Your browser does not support the video tag.
+  </video>
+ </div>
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <img alt="Rust x Warhammer 40,000 Pack" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b2211b115/rust_warhammer_branding.png"/>
+    <p editname="Summary" type="text">
+     The infamous Death Korps of Krieg march into Rust, bringing their grim, war-forged resolve to the island...
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      23 October 2025
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block" id="RustxWarhammer40000packlaunchtrailer">
+  <div class="section" like-handler="LikeBlogSection" like-id="84794" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rust x Warhammer 40,000 pack - launch trailer
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="852" frameborder="0" height="415" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/nqY9K28y1E4?si=ERS2XYAxxqhTFqJl" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="thedeathkorpsofkriegDLCSkins">
+  <div class="section" like-handler="LikeBlogSection" like-id="84795" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       the death korps of krieg - DLC Skins
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The infamous Death Korps of Krieg march into Rust, bringing their grim, war-forged resolve to the island.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_dlc_warhammer_krieg_03.jpg"/>
+      </a>
+     </div>
+     <div>
+      This pack delivers battle-scarred war gear, inspired by one of Warhammer 40,000’s most fearless regiments.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_dlc_warhammer_krieg_01%20%281%29.jpg"/>
+      </a>
+     </div>
+     <div>
+      <span id="docs-internal-guid-9e688159-7fff-764d-7fcf-2f6dc4076cf1">
+       <p dir="ltr">
+        Gear up and march across the island clad in their signature gas-masked Hazmat suit. Shoulder your Death Korps of Krieg Backpack, designed with the rugged practicality of Astra Militarum kit. Unleash the roar of the Death Korps Chainsword and the thunder of the Krieg Shotgun, while the Death Korps Storage Containers transform your base into a fortified stronghold.
+        <br/>
+        <br/>
+        The Rust x Warhammer 40,000 pack, only
+        <a class="selected" href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
+         available on Steam
+        </a>
+       </p>
+      </span>
+      <span>
+       <br/>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkrieghazmatsuit">
+  <div class="section" like-handler="LikeBlogSection" like-id="84796" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       death korps of krieg hazmat suit
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       A reskin of the Hazmat Suit with the classic Krieg gas mask and trench coat loo
+      </span>
+      <span>
+       k.
+       <br/>
+      </span>
+      <span id="docs-internal-guid-aa0e6586-7fff-9524-ec6b-365c8d1022a8">
+       You
+      </span>
+      will be able to apply this skin at a repair bench or when you craft the item in game.
+      <span>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_krieghazmat_02.jpg"/>
+      </a>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_krieghazmat_03.jpg"/>
+      </a>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_krieghazmat_05.jpg"/>
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkriegbackpack">
+  <div class="section" like-handler="LikeBlogSection" like-id="84797" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       death korps of krieg backpack
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-0d6492ee-7fff-16be-2318-d2e4ac4c82d9">
+       <span>
+        The rugged field pack for the survivalist soldier.
+        <br/>
+        The Large Backpack (with the mug)
+       </span>
+      </span>
+      skin is available to apply at a repair bench or when you craft the item in game.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_backpack_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_backpack_02.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_backpack_03.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkriegchainsword">
+  <div class="section" like-handler="LikeBlogSection" like-id="84798" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       death korps of krieg chainsword
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-8e260e5d-7fff-9fab-4e0a-f8ab563c0447">
+       <span>
+        Fire up the Chainsword - a brutal chainsaw reskin.
+       </span>
+       <span>
+       </span>
+      </span>
+      <span id="docs-internal-guid-aa0e6586-7fff-9524-ec6b-365c8d1022a8" style="outline: rgba(139, 195, 74, 0.3) dashed 1px;">
+       You
+      </span>
+      will be able to apply this skin at a repair bench or when you craft the item in game.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/warhammer_krieg_DLC_chainsword_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/warhammer_krieg_DLC_chainsword_03.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/warhammer_krieg_DLC_chainsword_04.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkriegshotgun">
+  <div class="section" like-handler="LikeBlogSection" like-id="84799" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       death korps of krieg shotgun
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-aa0e6586-7fff-9524-ec6b-365c8d1022a8">
+       <span>
+        A grimdark firearm with real stopping power.
+        <br/>
+        <br/>
+        The Death Korps of Krieg Shotgun skin is applicable to the Pump Shotgun. You
+       </span>
+      </span>
+      will be able to apply this skin at a repair bench or when you craft the item in game.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_shotgun_04.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_shotgun_01.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_shotgun_03.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkriegstoragecontainers">
+  <div class="section" like-handler="LikeBlogSection" like-id="84800" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       death korps of krieg storage containers
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-524a96f0-7fff-7def-a30a-c45794cb49dd">
+       The final items in the Rust x Warhammer 40,000 Pack - t
+       <span>
+        wo Krieg-styled storage barrels
+       </span>
+       <span>
+        . A vertical and a horizontal variant.
+       </span>
+       These are skins for the storage barrel stand alone items.
+       <span>
+       </span>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_storage_04.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_storage_05.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_storage_06.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The Rust x Warhammer 40,000 pack, only
+      <a class="selected" href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
+       available on Steam
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="halloween2025">
+  <div class="section" like-handler="LikeBlogSection" like-id="84801" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       halloween 2025
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/ashcoook/1b2211b1/Rust%20x%20Halloween%202025_compressed.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      Happy Halloween!
+      <br/>
+      <br/>
+      This year, spooky season returns as d
+      <span>
+       arkness falls upon the island as monsters re-awaken from their slumber. The usual rifts open in random locations, leading to who-knows-where.
+       <br/>
+       As always, enter if you dare, but if you do, you better prepare!
+      </span>
+      <br/>
+      <br/>
+      <a class="" href="https://rust.facepunch.com/news/halloween24">
+       Learn more here.
+      </a>
+      <br/>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Clocksgoback">
+  <div class="section" like-handler="LikeBlogSection" like-id="84802" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Clocks go back
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Attention server owners!
+      <br/>
+      <br/>
+      BST officially ends and we head back to GMT - the clocks back an hour early on Sunday morning!
+      <br/>
+      Patches will be brought forward an hour early than usual until other timezones observe the autumn clock change.
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/ashcoook/1b2211b1/media_6934ld6roeIgdhSAgyL2Sp.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 23 Oct 2025 05:59:00 Z</pubDate>
     </item>
     <item>
       <title>Pivot Or Die</title>
@@ -3321,422 +3737,6 @@
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 06 Nov 2025 07:00:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Rust x Warhammer 40,000 Pack</title>
-      <link>https://rust.facepunch.com/news/warhammer40000-pack/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
-  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
-   <source src="https://files.facepunch.com/lewis/1b2211b115/rust_warhammer_hero_video.mp4" type="video/mp4"/>
-   Your browser does not support the video tag.
-  </video>
- </div>
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <img alt="Rust x Warhammer 40,000 Pack" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b2211b115/rust_warhammer_branding.png"/>
-    <p editname="Summary" type="text">
-     The infamous Death Korps of Krieg march into Rust, bringing their grim, war-forged resolve to the island...
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      23 October 2025
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block" id="RustxWarhammer40000packlaunchtrailer">
-  <div class="section" like-handler="LikeBlogSection" like-id="84794" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Rust x Warhammer 40,000 pack - launch trailer
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="852" frameborder="0" height="415" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/nqY9K28y1E4?si=ERS2XYAxxqhTFqJl" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="thedeathkorpsofkriegDLCSkins">
-  <div class="section" like-handler="LikeBlogSection" like-id="84795" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       the death korps of krieg - DLC Skins
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The infamous Death Korps of Krieg march into Rust, bringing their grim, war-forged resolve to the island.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_dlc_warhammer_krieg_03.jpg"/>
-      </a>
-     </div>
-     <div>
-      This pack delivers battle-scarred war gear, inspired by one of Warhammer 40,000’s most fearless regiments.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_dlc_warhammer_krieg_01%20%281%29.jpg"/>
-      </a>
-     </div>
-     <div>
-      <span id="docs-internal-guid-9e688159-7fff-764d-7fcf-2f6dc4076cf1">
-       <p dir="ltr">
-        Gear up and march across the island clad in their signature gas-masked Hazmat suit. Shoulder your Death Korps of Krieg Backpack, designed with the rugged practicality of Astra Militarum kit. Unleash the roar of the Death Korps Chainsword and the thunder of the Krieg Shotgun, while the Death Korps Storage Containers transform your base into a fortified stronghold.
-        <br/>
-        <br/>
-        The Rust x Warhammer 40,000 pack, only
-        <a class="selected" href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
-         available on Steam
-        </a>
-       </p>
-      </span>
-      <span>
-       <br/>
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkrieghazmatsuit">
-  <div class="section" like-handler="LikeBlogSection" like-id="84796" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       death korps of krieg hazmat suit
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span>
-       A reskin of the Hazmat Suit with the classic Krieg gas mask and trench coat loo
-      </span>
-      <span>
-       k.
-       <br/>
-      </span>
-      <span id="docs-internal-guid-aa0e6586-7fff-9524-ec6b-365c8d1022a8">
-       You
-      </span>
-      will be able to apply this skin at a repair bench or when you craft the item in game.
-      <span>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_krieghazmat_02.jpg"/>
-      </a>
-     </div>
-     <div>
-      <span>
-       <br/>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_krieghazmat_03.jpg"/>
-      </a>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <a href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_krieghazmat_05.jpg"/>
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkriegbackpack">
-  <div class="section" like-handler="LikeBlogSection" like-id="84797" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       death korps of krieg backpack
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-0d6492ee-7fff-16be-2318-d2e4ac4c82d9">
-       <span>
-        The rugged field pack for the survivalist soldier.
-        <br/>
-        The Large Backpack (with the mug)
-       </span>
-      </span>
-      skin is available to apply at a repair bench or when you craft the item in game.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_backpack_01.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_backpack_02.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_backpack_03.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkriegchainsword">
-  <div class="section" like-handler="LikeBlogSection" like-id="84798" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       death korps of krieg chainsword
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-8e260e5d-7fff-9fab-4e0a-f8ab563c0447">
-       <span>
-        Fire up the Chainsword - a brutal chainsaw reskin.
-       </span>
-       <span>
-       </span>
-      </span>
-      <span id="docs-internal-guid-aa0e6586-7fff-9524-ec6b-365c8d1022a8" style="outline: rgba(139, 195, 74, 0.3) dashed 1px;">
-       You
-      </span>
-      will be able to apply this skin at a repair bench or when you craft the item in game.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/warhammer_krieg_DLC_chainsword_01.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/warhammer_krieg_DLC_chainsword_03.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/warhammer_krieg_DLC_chainsword_04.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkriegshotgun">
-  <div class="section" like-handler="LikeBlogSection" like-id="84799" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       death korps of krieg shotgun
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-aa0e6586-7fff-9524-ec6b-365c8d1022a8">
-       <span>
-        A grimdark firearm with real stopping power.
-        <br/>
-        <br/>
-        The Death Korps of Krieg Shotgun skin is applicable to the Pump Shotgun. You
-       </span>
-      </span>
-      will be able to apply this skin at a repair bench or when you craft the item in game.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_shotgun_04.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_shotgun_01.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_shotgun_03.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="deathkorpsofkriegstoragecontainers">
-  <div class="section" like-handler="LikeBlogSection" like-id="84800" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       death korps of krieg storage containers
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-524a96f0-7fff-7def-a30a-c45794cb49dd">
-       The final items in the Rust x Warhammer 40,000 Pack - t
-       <span>
-        wo Krieg-styled storage barrels
-       </span>
-       <span>
-        . A vertical and a horizontal variant.
-       </span>
-       These are skins for the storage barrel stand alone items.
-       <span>
-       </span>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_storage_04.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_storage_05.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1011b1/rust_warhammer_DLC_storage_06.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The Rust x Warhammer 40,000 pack, only
-      <a class="selected" href="https://store.steampowered.com/app/3891560/Rust__Warhammer_40000_Pack/">
-       available on Steam
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="halloween2025">
-  <div class="section" like-handler="LikeBlogSection" like-id="84801" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       halloween 2025
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/ashcoook/1b2211b1/Rust%20x%20Halloween%202025_compressed.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      Happy Halloween!
-      <br/>
-      <br/>
-      This year, spooky season returns as d
-      <span>
-       arkness falls upon the island as monsters re-awaken from their slumber. The usual rifts open in random locations, leading to who-knows-where.
-       <br/>
-       As always, enter if you dare, but if you do, you better prepare!
-      </span>
-      <br/>
-      <br/>
-      <a class="" href="https://rust.facepunch.com/news/halloween24">
-       Learn more here.
-      </a>
-      <br/>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="Clocksgoback">
-  <div class="section" like-handler="LikeBlogSection" like-id="84802" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Clocks go back
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Attention server owners!
-      <br/>
-      <br/>
-      BST officially ends and we head back to GMT - the clocks back an hour early on Sunday morning!
-      <br/>
-      Patches will be brought forward an hour early than usual until other timezones observe the autumn clock change.
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/ashcoook/1b2211b1/media_6934ld6roeIgdhSAgyL2Sp.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 23 Oct 2025 05:59:00 Z</pubDate>
     </item>
     <item>
       <title>Meta Shift</title>
