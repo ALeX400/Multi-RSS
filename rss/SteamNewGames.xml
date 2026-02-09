@@ -1,6 +1,577 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Omelet You Cook</title>
+      <link>https://store.steampowered.com/app/3205380/Omelet_You_Cook/</link>
+      <description><![CDATA[<style>
+            .sys_req_container {
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 10px;
+            }
+            .sys_req_left_col, .sys_req_right_col {
+                flex: 1;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+            .sys_req_left_col {
+                border-right: 1px solid #ccc;
+            }
+            .sys_req_right_col {
+                border-left: 1px solid #ccc;
+            }
+            .ipsQuote_citation, .ipsSpoiler_header {
+                display: flex;
+                justify-content: center;
+            }
+            .ipsSpoiler_header [data-action='toggleSpoiler'] {
+                margin-top: 1px;
+            }
+            [dir='ltr'] .ipsQuote, [dir='ltr'] .ipsSpoiler, [dir='ltr'] .ipsStyle_spoiler {
+                border-width: 0 4px 0 4px;
+            }
+            </style>
+    <div class="details_block" id="genresAndManufacturer">
+ <b>
+  Title:
+ </b>
+ Omelet You Cook
+ <br/>
+ <b>
+  Genre:
+ </b>
+ <span data-panel='{"flow-children":"row"}'>
+  <a>
+   Action
+  </a>
+  ,
+  <a>
+   Casual
+  </a>
+  ,
+  <a>
+   Indie
+  </a>
+  ,
+  <a>
+   Strategy
+  </a>
+ </span>
+ <br/>
+ <div class="dev_row">
+  <b>
+   Developer:
+  </b>
+  <a>
+   Dan Schumacher
+  </a>
+  ,
+  <a>
+   Hjalte Tagmose
+  </a>
+ </div>
+ <div class="dev_row">
+  <b>
+   Publisher:
+  </b>
+  <a>
+   SchuBox Games
+  </a>
+ </div>
+ <b>
+  Release Date:
+ </b>
+ Feb 8, 2026
+ <br/>
+ <b>
+  Early Access Release Date:
+ </b>
+ Jun 7, 2025
+ <br/>
+</div>
+<br/>
+<br/>
+<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/3205380/" width="850">
+</iframe>
+<br/>
+<br/>
+<div class="game_area_description" id="game_area_description">
+ <h2>
+  About This Game
+ </h2>
+ <p class="bb_paragraph">
+  <strong>
+   Omelet You Cook
+  </strong>
+  is a cozy chaotic roguelike where your cooking skills are put to the test!
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="270" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3205380/extras/a220c76fb9ea436fb3c9a5d2c1a2bc45.poster.avif?t=1770575276" width="960">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3205380/extras/a220c76fb9ea436fb3c9a5d2c1a2bc45.webm?t=1770575276" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3205380/extras/a220c76fb9ea436fb3c9a5d2c1a2bc45.mp4?t=1770575276" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  Create the perfect omelet by combining ingredients to meet the demands of quirky customers. Each round brings new hazards, restrictions, and ever-increasing score thresholds that will push your culinary creativity to its limits.
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" crossorigin="anonymous" height="270" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3205380/extras/8ae1b9ea4dbe77707344b3a2e5ce3894.poster.avif?t=1770575276" width="900">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3205380/extras/8ae1b9ea4dbe77707344b3a2e5ce3894.webm?t=1770575276" type="video/webm; codecs=vp9"/>
+   </video>
+  </span>
+  Every customer has a distinct personality and unique tastes, so you’ll need to stay versatile and adjust your recipes on the fly. One minute you're crafting a classic bell pepper and bacon omelet, and the next you're tossing in donuts, pickles and pineapple. Keep your cool and keep those omelets coming!
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3205380/extras_big/e09f8f5696938603ffe748cfa5daf427.avif?t=1770575276" height="488" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3205380/extras/e09f8f5696938603ffe748cfa5daf427.avif" width="800"/>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  Omelet You Cook is created by two indie devs and draws inspiration from beloved arcade roguelikes like
+  <i>
+   Balatro
+  </i>
+  ,
+  <i>
+   Luck Be a Landlord
+  </i>
+  , and
+  <i>
+   Ballionaire
+  </i>
+  .
+ </p>
+ <h2 class="bb_tag">
+  Feature List:
+ </h2>
+ <ul class="bb_ul">
+  <li>
+   <p class="bb_paragraph">
+    🐔 70+ customers that shake up every run
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    🥓 140+ delicious (and sometimes ridiculous) ingredients
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    🧂 90+ synergy-enabling helpers
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    🧀 A shop to expand your culinary arsenal
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    🥑 Unlockable ingredients
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    🌶️ 5 difficulties to progress through
+   </p>
+  </li>
+  <li>
+   <p class="bb_paragraph">
+    🥗 13 pantries with different starting ingredient combinations
+   </p>
+   <p class="bb_paragraph">
+    <span class="bb_img_ctn">
+     <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3205380/extras_big/8214371f31c2bd4376878478d86795fb.avif?t=1770575276" height="147" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3205380/extras/8214371f31c2bd4376878478d86795fb.avif" width="800"/>
+    </span>
+   </p>
+  </li>
+ </ul>
+ <p class="bb_paragraph">
+  Think you’ve got what it takes to become an overworked cafeteria worker? Alright then;
+  <strong>
+   Omelet You Cook
+  </strong>
+  .
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" height="2150" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3205380/extras/a49e9eb8949e3a28239f12788ac43ad3.avif" width="1474"/>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+ </p>
+</div>
+Descrierea conținutului pentru adulți indisponibilă.
+<br/>
+<br/>
+<center>
+ <h2>
+  System Requirements
+ </h2>
+</center>
+<div class="ipsSpoiler_contents ipsClearfix">
+ <div class="ipsSpoiler" data-ipsspoiler="">
+  <div class="ipsSpoiler_contents ipsClearfix">
+   <center>
+    <h3>
+     Windows
+    </h3>
+   </center>
+   <div class="sys_req_container">
+    <div class="sys_req_full">
+     <ul>
+      <strong>
+       Minimum:
+      </strong>
+      <br/>
+      <ul class="bb_ul">
+       <li>
+        <strong>
+         OS *:
+        </strong>
+        Windows 7 or above
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Processor:
+        </strong>
+        i3 or equivalent
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Graphics:
+        </strong>
+        GPU with at least 2 GB of VRAM
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Storage:
+        </strong>
+        51 MB available space
+       </li>
+      </ul>
+     </ul>
+    </div>
+    <div class="sys_req_note">
+     <strong>
+      *
+     </strong>
+     Starting January 1st, 2024, the Steam Client will only support Windows 10 and later versions.
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<br/>
+<br/>
+<center>]]></description>
+    </item>
+    <item>
+      <title>Creature Kitchen</title>
+      <link>https://store.steampowered.com/app/3097300/Creature_Kitchen/</link>
+      <description><![CDATA[<style>
+            .sys_req_container {
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 10px;
+            }
+            .sys_req_left_col, .sys_req_right_col {
+                flex: 1;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+            .sys_req_left_col {
+                border-right: 1px solid #ccc;
+            }
+            .sys_req_right_col {
+                border-left: 1px solid #ccc;
+            }
+            .ipsQuote_citation, .ipsSpoiler_header {
+                display: flex;
+                justify-content: center;
+            }
+            .ipsSpoiler_header [data-action='toggleSpoiler'] {
+                margin-top: 1px;
+            }
+            [dir='ltr'] .ipsQuote, [dir='ltr'] .ipsSpoiler, [dir='ltr'] .ipsStyle_spoiler {
+                border-width: 0 4px 0 4px;
+            }
+            </style>
+    <div class="details_block" id="genresAndManufacturer">
+ <b>
+  Title:
+ </b>
+ Creature Kitchen
+ <br/>
+ <b>
+  Genre:
+ </b>
+ <span data-panel='{"flow-children":"row"}'>
+  <a>
+   Casual
+  </a>
+  ,
+  <a>
+   Indie
+  </a>
+  ,
+  <a>
+   Simulation
+  </a>
+ </span>
+ <br/>
+ <div class="dev_row">
+  <b>
+   Developer:
+  </b>
+  <a>
+   The Rat Zone
+  </a>
+ </div>
+ <div class="dev_row">
+  <b>
+   Publisher:
+  </b>
+  <a>
+   The Rat Zone
+  </a>
+ </div>
+ <div class="dev_row">
+  <b>
+   Franchise:
+  </b>
+  <a>
+   The Rat Zone Collection
+  </a>
+ </div>
+ <b>
+  Release Date:
+ </b>
+ Feb 6, 2026
+ <br/>
+</div>
+<br/>
+<br/>
+<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/3097300/" width="850">
+</iframe>
+<br/>
+<br/>
+<div class="game_area_description" id="game_area_description">
+ <h2>
+  About This Game
+ </h2>
+ Creaking footsteps in vacant rooms... Voices whispering beyond the trees...
+ <br/>
+ <br/>
+ Befriend your local wildlife and feed them their favorite snacks in this creepy-cozy cooking simulator! There's a strange house to search, a forest to explore, and plenty of stomachs to fill. Go ahead and set the radio to play some tunes and get comfy, the witching hour has begun.
+ <br/>
+ <br/>
+ <span class="bb_img_ctn">
+  <video autoplay="" class="bb_img" crossorigin="anonymous" height="256" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3097300/extras/b4a3e92178176bbd25d4017356321eae.poster.avif?t=1770407965" width="600">
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3097300/extras/b4a3e92178176bbd25d4017356321eae.webm?t=1770407965" type="video/webm; codecs=vp9"/>
+  </video>
+ </span>
+ <h2 class="bb_tag">
+  MEET NEW FRIENDS
+ </h2>
+ <strong>
+  Find and feed creatures of all shapes and sizes.
+ </strong>
+ Some will take food right out of your hands! Others may need some encouragement...
+ <br>
+  <br>
+   <span class="bb_img_ctn">
+    <video autoplay="" class="bb_img" crossorigin="anonymous" height="256" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3097300/extras/e5aae48a0f1cf3fb4634184287ef2de5.poster.avif?t=1770407965" width="600">
+     <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3097300/extras/e5aae48a0f1cf3fb4634184287ef2de5.webm?t=1770407965" type="video/webm; codecs=vp9"/>
+    </video>
+   </span>
+   <h2 class="bb_tag">
+    BECOME A SNACK MASTER
+   </h2>
+   <strong>
+    Chop, mix, and fry ingredients to create over 40 unique recipes.
+   </strong>
+   Get creative to suit each critter's tastes.
+   <br>
+    <br>
+     <span class="bb_img_ctn">
+      <video autoplay="" class="bb_img" crossorigin="anonymous" height="256" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3097300/extras/ac2c116ea0d4c36c4d6193b895af17cc.poster.avif?t=1770407965" width="600">
+       <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3097300/extras/ac2c116ea0d4c36c4d6193b895af17cc.webm?t=1770407965" type="video/webm; codecs=vp9"/>
+      </video>
+     </span>
+     <h2 class="bb_tag">
+      TAKE A LOOK AROUND
+     </h2>
+     <strong>
+      Explore a mysterious house and woods to uncover their secrets.
+     </strong>
+     Check every nook and cranny for ingredients and recipes to expand your culinary skills.
+     <br/>
+     <br/>
+     <span class="bb_img_ctn">
+      <video autoplay="" class="bb_img" crossorigin="anonymous" height="256" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3097300/extras/bbbe0d1ceb0e9f4987c34455f8711061.poster.avif?t=1770407965" width="600">
+       <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3097300/extras/bbbe0d1ceb0e9f4987c34455f8711061.webm?t=1770407965" type="video/webm; codecs=vp9"/>
+      </video>
+     </span>
+     <h2 class="bb_tag">
+      SAY CHEESE
+     </h2>
+     <p class="bb_paragraph">
+      <strong>
+       Snap photos of your friends.
+      </strong>
+      Fill out a photo album and make good memories.
+      <br/>
+      <br/>
+      <span class="bb_img_ctn">
+       <video autoplay="" class="bb_img" crossorigin="anonymous" height="256" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3097300/extras/d56271f59b0df4e3e2dc3d4a2b9af205.poster.avif?t=1770407965" width="600">
+        <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3097300/extras/d56271f59b0df4e3e2dc3d4a2b9af205.webm?t=1770407965" type="video/webm; codecs=vp9"/>
+       </video>
+      </span>
+      <h2 class="bb_tag">
+       WELCOME BACK, 2000s
+      </h2>
+      <strong>
+       <i>
+        Creature Kitchen
+       </i>
+       is a snack-sized atmospheric experience
+      </strong>
+      . Get immersed in early 2000s graphics while vibing to an original soundtrack.
+     </p>
+    </br>
+   </br>
+  </br>
+ </br>
+</div>
+Descrierea conținutului pentru adulți indisponibilă.
+<br/>
+<br/>
+<center>
+ <h2>
+  System Requirements
+ </h2>
+</center>
+<div class="ipsSpoiler_contents ipsClearfix">
+ <div class="ipsSpoiler" data-ipsspoiler="">
+  <div class="ipsSpoiler_contents ipsClearfix">
+   <center>
+    <h3>
+     Windows
+    </h3>
+   </center>
+   <div class="sys_req_container">
+    <div class="sys_req_left_col">
+     <ul>
+      <strong>
+       Minimum:
+      </strong>
+      <br/>
+      <ul class="bb_ul">
+       <li>
+        Requires a 64-bit processor and operating system
+        <br/>
+       </li>
+       <li>
+        <strong>
+         OS:
+        </strong>
+        Windows 10/11
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Processor:
+        </strong>
+        Intel Core i7-4790
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Memory:
+        </strong>
+        3 GB RAM
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Graphics:
+        </strong>
+        Nvidia GTX 960
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Storage:
+        </strong>
+        920 MB available space
+       </li>
+      </ul>
+     </ul>
+    </div>
+    <div class="sys_req_right_col">
+     <ul>
+      <strong>
+       Recommended:
+      </strong>
+      <br/>
+      <ul class="bb_ul">
+       <li>
+        Requires a 64-bit processor and operating system
+        <br/>
+       </li>
+       <li>
+        <strong>
+         OS:
+        </strong>
+        Windows 10/11
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Processor:
+        </strong>
+        Intel Core i7-7700
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Memory:
+        </strong>
+        4 GB RAM
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Graphics:
+        </strong>
+        Nvidia GTX 1060
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Storage:
+        </strong>
+        1 GB available space
+       </li>
+      </ul>
+     </ul>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<br/>
+<br/>
+<center>]]></description>
+    </item>
+    <item>
       <title>HumanitZ</title>
       <link>https://store.steampowered.com/app/1766060/HumanitZ/</link>
       <description><![CDATA[<style>
@@ -1031,684 +1602,6 @@ Descrierea conținutului pentru adulți indisponibilă.
        </li>
       </ul>
      </ul>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<br/>
-<br/>
-<center>]]></description>
-    </item>
-    <item>
-      <title>MY HERO ACADEMIA: All’s Justice</title>
-      <link>https://store.steampowered.com/app/2362050/MY_HERO_ACADEMIA_Alls_Justice/</link>
-      <description><![CDATA[<style>
-            .sys_req_container {
-                display: flex;
-                flex-wrap: wrap;
-                margin-bottom: 10px;
-            }
-            .sys_req_left_col, .sys_req_right_col {
-                flex: 1;
-                padding: 10px;
-                box-sizing: border-box;
-            }
-            .sys_req_left_col {
-                border-right: 1px solid #ccc;
-            }
-            .sys_req_right_col {
-                border-left: 1px solid #ccc;
-            }
-            .ipsQuote_citation, .ipsSpoiler_header {
-                display: flex;
-                justify-content: center;
-            }
-            .ipsSpoiler_header [data-action='toggleSpoiler'] {
-                margin-top: 1px;
-            }
-            [dir='ltr'] .ipsQuote, [dir='ltr'] .ipsSpoiler, [dir='ltr'] .ipsStyle_spoiler {
-                border-width: 0 4px 0 4px;
-            }
-            </style>
-    <div class="details_block" id="genresAndManufacturer">
- <b>
-  Title:
- </b>
- MY HERO ACADEMIA: All’s Justice
- <br/>
- <b>
-  Genre:
- </b>
- <span data-panel='{"flow-children":"row"}'>
-  <a>
-   Action
-  </a>
- </span>
- <br/>
- <div class="dev_row">
-  <b>
-   Developer:
-  </b>
-  <a>
-   Byking Inc.
-  </a>
- </div>
- <div class="dev_row">
-  <b>
-   Publisher:
-  </b>
-  <a>
-   Bandai Namco Entertainment Inc.
-  </a>
- </div>
- <div class="dev_row">
-  <b>
-   Franchise:
-  </b>
-  <a>
-   Bandai Namco Entertainment Inc.
-  </a>
- </div>
- <b>
-  Release Date:
- </b>
- Feb 5, 2026
- <br/>
-</div>
-<br/>
-<br/>
-<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/2362050/" width="850">
-</iframe>
-<br/>
-<br/>
-<div class="game_area_description" id="game_area_description">
- <h2>
-  About This Game
- </h2>
- SMASH through your enemies in MY HERO ACADEMIA: All's Justice! Take control of spectacular 3v3 battles, and experience U.A. High hero training and the climatic Final War!
- <br/>
- <br/>
- Dive into a variety of game modes, including "Team Up Mission" where you'll experience hero life as a U.A. High 1-A student in a Virtual Space, "Story Mode" where you can relive the Final War storyline, "Archives Battle Mode" where you can experience past iconic battles, and more!
- <br/>
- <br/>
- MY HERO ACADEMIA: All's Justice is the super-powered 3D arena fighter where your favorite characters from the My Hero Academia franchise appear in their latest and most powerful forms, framed within a Refined Battle System.
- <br>
-  <br>
-   A DAY IN THE LIFE OF A HERO
-   <br>
-    <span class="bb_img_ctn">
-     <video autoplay="" class="bb_img" height="172" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2362050/extras/a626f8bb174ea9c75cec076a2aef50c0.poster.avif?t=1770332929" width="600">
-      <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2362050/extras/a626f8bb174ea9c75cec076a2aef50c0.webm?t=1770332929" type="video/webm; codecs=vp9"/>
-      <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2362050/extras/a626f8bb174ea9c75cec076a2aef50c0.mp4?t=1770332929" type="video/mp4"/>
-     </video>
-    </span>
-    <br>
-     Step into the shoes of Deku and Class 1-A students in "Team Up Mission" and tackle training exercises in a Virtual Space! In this original game scenario, form a team with Class 1-A students as your allies and complete various missions and triumph over Villains in an exclusive map!
-     <br/>
-     <br/>
-     Jump into "Archives Battle" to experience iconic battles across the full story of My Hero Academia and "Hero's Diary" to see never-before-seen character moments! The two modes will be unlocked by completing Team Up Missions.
-     <br/>
-     <br/>
-     RELIVE THE FINAL WAR STORYLINE
-     <br/>
-     <span class="bb_img_ctn">
-      <video autoplay="" class="bb_img" height="172" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2362050/extras/6b2763aac06d6620357d9a7adcfc1c3c.poster.avif?t=1770332929" width="600">
-       <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2362050/extras/6b2763aac06d6620357d9a7adcfc1c3c.webm?t=1770332929" type="video/webm; codecs=vp9"/>
-       <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2362050/extras/6b2763aac06d6620357d9a7adcfc1c3c.mp4?t=1770332929" type="video/mp4"/>
-      </video>
-     </span>
-     <br/>
-     Experience the final battle of MY HERO ACADEMIA from a new perspective in MY HERO ACADEMIA: All’s Justice’s story mode. Re-live Bakugo’s fearless stand against All For One, experience Deku’s heroic struggle to bring justice and redemption to his fated foe, and more in a unique and cinematic take on the climactic clash of MY HERO ACADEMIA.
-     <br/>
-     <br/>
-     THE LARGEST MY HERO ACADEMIA ROSTER
-     <br/>
-     <span class="bb_img_ctn">
-      <video autoplay="" class="bb_img" height="172" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2362050/extras/82b8d8c2a84095a1d772ff271144058e.poster.avif?t=1770332929" width="600">
-       <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2362050/extras/82b8d8c2a84095a1d772ff271144058e.webm?t=1770332929" type="video/webm; codecs=vp9"/>
-       <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2362050/extras/82b8d8c2a84095a1d772ff271144058e.mp4?t=1770332929" type="video/mp4"/>
-      </video>
-     </span>
-     <br/>
-     Heroes and Villains collide in the gigantic roster of My Hero Academia characters! Play your favorite U.A. Students, including all of Class 1-A, Pro Heroes like Mirko and Best Jeanist, and Villains such as All For One, Shigaraki, and Dabi from across the full story of My Hero Academia, including their final and full-powered versions!
-     <br/>
-     <br/>
-     UNLEASH YOUR QUIRKS AND POTENTIAL IN FAST-PACED STRATEGIC BATTLES
-     <br/>
-     <span class="bb_img_ctn">
-      <video autoplay="" class="bb_img" height="172" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2362050/extras/d01eef2a097612c7951d884dffb498e6.poster.avif?t=1770332929" width="600">
-       <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2362050/extras/d01eef2a097612c7951d884dffb498e6.webm?t=1770332929" type="video/webm; codecs=vp9"/>
-       <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2362050/extras/d01eef2a097612c7951d884dffb498e6.mp4?t=1770332929" type="video/mp4"/>
-      </video>
-     </span>
-     <br/>
-     Take control of your favorite U.A. Students, Pro Heroes, and Villains, and utilize their unique Quirks to pummel, blast, and trick your foes.
-     <br/>
-     Unleash each character's Quirk like never before by activating “Rising”, which allows attack power, movement speed, and Quirk actions all enhanced.
-     <br/>
-     Mix and match your team's Quirks to find synergies and add depth to your tactics and strategies. Chain combos while switching characters to seize victory!
-    </br>
-   </br>
-  </br>
- </br>
-</div>
-<div class="game_area_description" id="game_area_content_descriptors">
- <h2>
-  Mature Content Description
- </h2>
- <p>
-  The developers describe the content like this:
- </p>
- <p>
-  <i>
-   This title features fantasy violence, blood, mild cursing, and revealing outfits.
-  </i>
- </p>
-</div>
-<br/>
-<br/>
-<center>
- <h2>
-  System Requirements
- </h2>
-</center>
-<div class="ipsSpoiler_contents ipsClearfix">
- <div class="ipsSpoiler" data-ipsspoiler="">
-  <div class="ipsSpoiler_contents ipsClearfix">
-   <center>
-    <h3>
-     Windows
-    </h3>
-   </center>
-   <div class="sys_req_container">
-    <div class="sys_req_left_col">
-     <ul>
-      <strong>
-       Minimum:
-      </strong>
-      <br/>
-      <ul class="bb_ul">
-       <li>
-        Requires a 64-bit processor and operating system
-        <br/>
-       </li>
-       <li>
-        <strong>
-         OS:
-        </strong>
-        Windows 11
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Processor:
-        </strong>
-        Intel i5-10600K (4.1 GHz) / AMD Ryzen 5 3600 XT (3.8 GHz)
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Memory:
-        </strong>
-        8 GB RAM
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Graphics:
-        </strong>
-        NVIDIA GTX 1660 Ti (6 GB) / AMD Radeon RX 5600 XT (6 GB)
-        <br/>
-       </li>
-       <li>
-        <strong>
-         DirectX:
-        </strong>
-        Version 12
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Storage:
-        </strong>
-        20 GB available space
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Additional Notes:
-        </strong>
-        Estimated performance: 1080p/60fps with graphics settings at "Low". Framerate might drop in graphics-intensive scenes.
-       </li>
-      </ul>
-     </ul>
-    </div>
-    <div class="sys_req_right_col">
-     <ul>
-      <strong>
-       Recommended:
-      </strong>
-      <br/>
-      <ul class="bb_ul">
-       <li>
-        Requires a 64-bit processor and operating system
-        <br/>
-       </li>
-       <li>
-        <strong>
-         OS:
-        </strong>
-        Windows 11
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Processor:
-        </strong>
-        Intel i7-9700 (3.0 GHz) / AMD Ryzen 7-3700X (3.6 GHz)
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Memory:
-        </strong>
-        16 GB RAM
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Graphics:
-        </strong>
-        NVIDIA RTX 2070 (8 GB) / AMD RX 5700 XT (8 GB)
-        <br/>
-       </li>
-       <li>
-        <strong>
-         DirectX:
-        </strong>
-        Version 12
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Storage:
-        </strong>
-        20 GB available space
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Additional Notes:
-        </strong>
-        Estimated performance: 1080p/60fps with graphics settings at "High". Framerate might drop in graphics-intensive scenes. Windows 10 (Version 1809 or later) and a 4GB VRAM GPU (graphics board or video card) are required for DirectX 12 API.
-       </li>
-      </ul>
-     </ul>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<br/>
-<br/>
-<center>]]></description>
-    </item>
-    <item>
-      <title>Jackal</title>
-      <link>https://store.steampowered.com/app/3124230/Jackal/</link>
-      <description><![CDATA[<style>
-            .sys_req_container {
-                display: flex;
-                flex-wrap: wrap;
-                margin-bottom: 10px;
-            }
-            .sys_req_left_col, .sys_req_right_col {
-                flex: 1;
-                padding: 10px;
-                box-sizing: border-box;
-            }
-            .sys_req_left_col {
-                border-right: 1px solid #ccc;
-            }
-            .sys_req_right_col {
-                border-left: 1px solid #ccc;
-            }
-            .ipsQuote_citation, .ipsSpoiler_header {
-                display: flex;
-                justify-content: center;
-            }
-            .ipsSpoiler_header [data-action='toggleSpoiler'] {
-                margin-top: 1px;
-            }
-            [dir='ltr'] .ipsQuote, [dir='ltr'] .ipsSpoiler, [dir='ltr'] .ipsStyle_spoiler {
-                border-width: 0 4px 0 4px;
-            }
-            </style>
-    <div class="details_block" id="genresAndManufacturer">
- <b>
-  Title:
- </b>
- Jackal
- <br/>
- <b>
-  Genre:
- </b>
- <span data-panel='{"flow-children":"row"}'>
-  <a>
-   Action
-  </a>
-  ,
-  <a>
-   Indie
-  </a>
- </span>
- <br/>
- <div class="dev_row">
-  <b>
-   Developer:
-  </b>
-  <a>
-   Transhuman Design
-  </a>
- </div>
- <div class="dev_row">
-  <b>
-   Publisher:
-  </b>
-  <a>
-   Transhuman Design
-  </a>
- </div>
- <b>
-  Release Date:
- </b>
- Feb 5, 2026
- <br/>
-</div>
-<br/>
-<br/>
-<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/3124230/" width="850">
-</iframe>
-<br/>
-<br/>
-<div class="game_area_description" id="game_area_description">
- <h2>
-  About This Game
- </h2>
- <h2 class="bb_tag" style="text-align: center">
-  <strong>
-   You're a coked-up force of nature loose in Sin City's underbelly.
-  </strong>
- </h2>
- <p class="bb_paragraph">
-  No stealth. No hiding. Just a superhuman wrecking ball obliterating entire crime families. Loot their vaults. Claim their dames.
- </p>
- <p class="bb_paragraph">
-  The mob built Vegas.
-  <strong>
-   You'll rip it apart.
-  </strong>
- </p>
- <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="532" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124230/extras/214a2b422b944b37d6f312667f3e67ea.poster.avif?t=1770321213" width="1170">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124230/extras/214a2b422b944b37d6f312667f3e67ea.webm?t=1770321213" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124230/extras/214a2b422b944b37d6f312667f3e67ea.mp4?t=1770321213" type="video/mp4"/>
-   </video>
-  </span>
- </p>
- <p class="bb_paragraph">
- </p>
- <h2 class="bb_tag" style="text-align: center">
-  <strong>
-   From sofas to shotguns - everything is lethal
-  </strong>
- </h2>
- <p class="bb_paragraph">
-  Become a coked-up John Wick who can turn Vegas into a stage for improvised carnage.
- </p>
- <p class="bb_paragraph">
-  <br/>
-  <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="532" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124230/extras/5c7adcd2fae112148932bf9bf3bc672d.poster.avif?t=1770321213" width="1170">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124230/extras/5c7adcd2fae112148932bf9bf3bc672d.webm?t=1770321213" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124230/extras/5c7adcd2fae112148932bf9bf3bc672d.mp4?t=1770321213" type="video/mp4"/>
-   </video>
-  </span>
- </p>
- <p class="bb_paragraph">
-  <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="532" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124230/extras/b50d8bb7a6201b82c969e64736140093.poster.avif?t=1770321213" width="1170">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124230/extras/b50d8bb7a6201b82c969e64736140093.webm?t=1770321213" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124230/extras/b50d8bb7a6201b82c969e64736140093.mp4?t=1770321213" type="video/mp4"/>
-   </video>
-  </span>
- </p>
- <p class="bb_paragraph">
- </p>
- <h2 class="bb_tag" style="text-align: center">
-  <strong>
-   Every finisher a brushstroke.
-  </strong>
-  <strong>
-   Every room a spectacle of carnage.
-  </strong>
- </h2>
- <h2 class="bb_tag" style="text-align: center">
- </h2>
- <p class="bb_paragraph">
-  Faster than thought. Stronger than any wiseguy with a gun. Reloading just slows you down.
- </p>
- <p class="bb_paragraph">
-  Become
-  <strong>
-   unstoppable
-  </strong>
-  . Unkillable. Undisputed.
- </p>
- <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="532" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124230/extras/6cccf74c377e61e98f7996876f7612a7.poster.avif?t=1770321213" width="1170">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124230/extras/6cccf74c377e61e98f7996876f7612a7.webm?t=1770321213" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124230/extras/6cccf74c377e61e98f7996876f7612a7.mp4?t=1770321213" type="video/mp4"/>
-   </video>
-  </span>
- </p>
- <p class="bb_paragraph">
- </p>
- <h2 class="bb_tag" style="text-align: center">
-  <strong>
-   No two massacres are alike
-  </strong>
- </h2>
- <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  Each raid is different with:
- </p>
- <ul class="bb_ul">
-  <li>
-   <p class="bb_paragraph">
-    unlockable drug superpowers
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    randomly generated rooms
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    stackable gameplay mutators
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    an arsenal of brutal finishers
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    variety of enemy types
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    iconic Las Vegas locations
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    iconic 70s weapons
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    weaponized items fueling endless creative violence
-   </p>
-   <p class="bb_paragraph">
-   </p>
-  </li>
- </ul>
- <p class="bb_paragraph">
-  <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="354" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124230/extras/dcfbd5687c77bf3724d902e9f4f9a061.poster.avif?t=1770321213" width="780">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124230/extras/dcfbd5687c77bf3724d902e9f4f9a061.webm?t=1770321213" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124230/extras/dcfbd5687c77bf3724d902e9f4f9a061.mp4?t=1770321213" type="video/mp4"/>
-   </video>
-  </span>
- </p>
- <h2 class="bb_tag" style="text-align: center">
-  <strong>
-   Goodfellas on mescaline. When gangster classics take acid
-  </strong>
- </h2>
- <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  Go back to a time of smoke-choked rooms, acid-laced jazz, and when immorality was still in style.
- </p>
- <p class="bb_paragraph">
-  Immerse in a psychedelic noir story where a hitman and his supernatural associate navigate a 1970s mob filled Vegas where every housecleaning job bleeds into the next and reality's just another bad trip.
- </p>
- <p class="bb_paragraph">
-  Buy the ticket, take the ride.
- </p>
- <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="532" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124230/extras/2e53c33b91ae57c623d5873d19f6f2fb.poster.avif?t=1770321213" width="1170">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124230/extras/2e53c33b91ae57c623d5873d19f6f2fb.webm?t=1770321213" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3124230/extras/2e53c33b91ae57c623d5873d19f6f2fb.mp4?t=1770321213" type="video/mp4"/>
-   </video>
-  </span>
- </p>
- <p class="bb_paragraph">
- </p>
- <ul class="bb_ul">
-  <li>
-   <p class="bb_paragraph">
-    <strong>
-     <i>
-      With the voice of Matthew Curtis ('I Am Your Beast')
-     </i>
-    </strong>
-   </p>
-  </li>
- </ul>
- <ul class="bb_ul">
-  <li>
-   <p class="bb_paragraph">
-    <i>
-     <strong>
-      Created by Michał Marcinkowski ('Soldat', 'Maniac', 'Butcher')
-     </strong>
-    </i>
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    <strong>
-     <i>
-      Inspired by 'Hotline Miami', 'OTXO', 'I Am Your Beast', 'John Wick', 'Pulp Fiction', 'Fear and Loathing In Vegas', 'Goodfellas', 'Cowboy Bebop'
-     </i>
-    </strong>
-   </p>
-  </li>
- </ul>
-</div>
-<div class="game_area_description" id="game_area_content_descriptors">
- <h2>
-  Mature Content Description
- </h2>
- <p>
-  The developers describe the content like this:
- </p>
- <p>
-  <i>
-   The game has adult themes like crime and drug use but it is meant as satire and hyperbole. By following the story it will be evident the game doesn't glorify those themes.
-  </i>
- </p>
-</div>
-<br/>
-<br/>
-<center>
- <h2>
-  System Requirements
- </h2>
-</center>
-<div class="ipsSpoiler_contents ipsClearfix">
- <div class="ipsSpoiler" data-ipsspoiler="">
-  <div class="ipsSpoiler_contents ipsClearfix">
-   <center>
-    <h3>
-     Windows
-    </h3>
-   </center>
-   <div class="ipsSpoiler_contents ipsClearfix">
-    <div class="ipsSpoiler" data-ipsspoiler="">
-     <div class="ipsSpoiler_contents ipsClearfix">
-      <div class="sys_req_container">
-       <div class="sys_req_note">
-        <strong>
-         *
-        </strong>
-        Starting January 1st, 2024, the Steam Client will only support Windows 10 and later versions.
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-   <center>
-    <h3>
-     MacOS
-    </h3>
-   </center>
-   <div class="ipsSpoiler_contents ipsClearfix">
-    <div class="ipsSpoiler" data-ipsspoiler="">
-     <div class="ipsSpoiler_contents ipsClearfix">
-      <div class="sys_req_container">
-      </div>
-     </div>
-    </div>
-   </div>
-   <center>
-    <h3>
-     Linux
-    </h3>
-   </center>
-   <div class="ipsSpoiler_contents ipsClearfix">
-    <div class="ipsSpoiler" data-ipsspoiler="">
-     <div class="ipsSpoiler_contents ipsClearfix">
-      <div class="sys_req_container">
-      </div>
-     </div>
     </div>
    </div>
   </div>
