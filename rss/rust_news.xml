@@ -782,6 +782,765 @@
       <pubDate>Thu, 22 Jan 2026 18:01:00 Z</pubDate>
     </item>
     <item>
+      <title>Silent Night, Violent Night</title>
+      <link>https://rust.facepunch.com/news/merry-rustmas-25/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
+  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
+   <source src="https://files.facepunch.com/lewis/1b0411b1/rust_christmas_update_bg.mp4" type="video/mp4"/>
+   Your browser does not support the video tag.
+  </video>
+ </div>
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <img alt="Silent Night, Violent Night" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b0411b1/rust_seasons_beating-logo.png"/>
+    <p editname="Summary" type="text">
+     It's that wonderful time of the year again - our Christmas event is (s)now live, Rustmas Winter Drop Fest is here!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      18 December 2025
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="happyholidays">
+  <div class="section" like-handler="LikeBlogSection" like-id="84879" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       happy holidays!
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      From everyone at Facepunch, we'd like to wish you a Merry Christmas and a Happy New Year!
+      <br/>
+      <br/>
+      The Christmas Event is once again live!
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/118/12/2025/4c10/xmas2025_Rustmas_sled_race_xmas_1_1080.jpg"/>
+     </div>
+     <div>
+      <div>
+       If you're new to the island, here's what you can expect:
+      </div>
+      <br/>
+      As you play, you will start to hear the distinct sound of jingle bells. As soon as you do, leave the warm comfort of your base and start looking for your gifts!
+      <br/>
+      <ul>
+       <li>
+        Two gifts are spawned per player, in a radius of about 40m from you.
+       </li>
+       <li>
+        Run up and bash open your present to receive your Christmas gift.
+       </li>
+       <li>
+        They come in three sizes: small, medium, and large. But if you have enough small presents stashed, you can 'trade up' to a medium or large gift.
+       </li>
+       <li>
+        The contents of each present varies, but you'll find a mix of resources, weapons, and Christmas candy.
+       </li>
+      </ul>
+      <div>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1311b1/xmas2020_santasleigh.jpg"/>
+     </div>
+     <div>
+      This year, you'll still be able to find Santa hats and reindeer antlers, both of which can be worn and provide a decent amount of protection. And the lickable candy cane club is back! As well as two types of stockings.
+      <br/>
+      <br/>
+      If you hang a stocking inside your base when the jingle bells ring, the stocking will fill up with loot whether you've been good or not - no coal here!
+      <br/>
+      <br/>
+      The larger stocking has a higher chance for better items and both last around 5-10 refills.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/118/12/2025/5p99/xmas2025_xmas_tree_trap_1_1080.jpg"/>
+     </div>
+     <div>
+      The advent calendar also returns and is a craftable deployable, available to everyone during the Christmas event.
+      <br/>
+      <br/>
+      Once placed, you can claim an in-game surprise once every in-real-life day from the 16th of December.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1311b1/xmas_adventcalendar.jpg"/>
+     </div>
+     <div>
+      <div>
+       The Christmas event ends on January 1st @ 19:00GMT / 14:00EST
+      </div>
+      <div>
+       <br/>
+       Make it a December to remember!
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="XmasWAllpapersDLCs">
+  <div class="section" like-handler="LikeBlogSection" like-id="84845" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Xmas WAllpapers DLCs
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-64672223-7fff-4c5e-5b37-eacd00e28913">
+       <span>
+        Unrolling to the
+        <a class="selected" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
+         limited store
+        </a>
+        this month are three festive wallpapers, specially designed to bring peace and joy to you and the grub just outside your door.
+       </span>
+      </span>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+     </div>
+     <div>
+      <span>
+       There’s one wallpaper each for floors, ceilings and walls.
+      </span>
+     </div>
+     <h2>
+      Wall - Assorted Giftwrap
+     </h2>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/117/12/2025/2A17/rust_christmas_wallpaper_3_4k.jpg"/>
+     </div>
+     <div>
+      <h2>
+       Floor - Red Festive Floor Tiles
+      </h2>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/117/12/2025/6M77/rust_christmas_floor_4_1080.jpg"/>
+     </div>
+     <div>
+      <span id="docs-internal-guid-72a7cc04-7fff-a495-3513-f6cbc70776b2">
+       <div>
+        <div>
+        </div>
+       </div>
+       <div>
+        <span>
+         <span id="docs-internal-guid-50ef9f82-7fff-bda2-ea03-4cda92ce4095">
+          <h2>
+           Ceiling - Moulded Plaster
+          </h2>
+         </span>
+        </span>
+       </div>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/117/12/2025/3I63/rust_christmas_ceiling_2_1080.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/117/12/2025/2x84/rust_christmas_ceiling_3_1080.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      <p>
+       This one sparkles!
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Rustmasstore">
+  <div class="section" like-handler="LikeBlogSection" like-id="84880" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rustmas store
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      As well as the new festive wallpapers, this year, we have brought back some items from previous festive periods for players to enjoy again - all now purchasable from the
+      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
+       Rust Item Store
+      </a>
+      .
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10171/">
+         <img src="https://files.facepunch.com/Alistair/12/16/8188o1/xmas.lightstring.advanced.png"/>
+         <center>
+          <b>
+           Deluxe Christmas Lights
+          </b>
+         </center>
+        </a>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10158/">
+         <img src="https://files.facepunch.com/Alistair/12/16/4B60I1/snowmachine.png"/>
+         <center>
+          <b>
+           Snow Machine
+          </b>
+         </center>
+        </a>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10148/">
+         <img src="https://files.facepunch.com/Alistair/12/16/6n76p1/snowman.png"/>
+         <center>
+          <b>
+           Snowman
+          </b>
+         </center>
+        </a>
+       </div>
+       <div class="columns is-multiline">
+       </div>
+      </div>
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10151/">
+         <img src="https://files.facepunch.com/Alistair/12/16/0j91W1/xmas.door.garland.png"/>
+         <center>
+          <b>
+           Festive Garlands Pack
+           <br/>
+          </b>
+         </center>
+        </a>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10149/">
+         <img src="https://files.facepunch.com/Alistair/12/16/9t36A1/xmasdoorwreath.png"/>
+         <center>
+          <b>
+           Christmas Door Wreath
+          </b>
+         </center>
+        </a>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10172/">
+         <img src="https://files.facepunch.com/Alistair/12/17/5o48V1/santabeard.png"/>
+         <center>
+          <b>
+           Santa Beard
+          </b>
+         </center>
+        </a>
+       </div>
+      </div>
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10188/">
+         <img src="https://files.facepunch.com/Alistair/12/16/2A70T1/360fx360f.png"/>
+         <center>
+          <b>
+           Neon sign pack
+          </b>
+         </center>
+        </a>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10203/">
+         <img src="https://files.facepunch.com/Alistair/12/16/5z93I1/attire.snowman.helmet.png"/>
+         <center>
+          <b>
+           Snowman Hat
+          </b>
+         </center>
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Rustmasdropsontwitchandkick">
+  <div class="section" like-handler="LikeBlogSection" like-id="84855" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rustmas drops on twitch and kick
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Have you been naughty or nice this year?
+      <br/>
+      <br/>
+      Well, it doesn't matter because as part of our ongoing commitment to creators, we're pleased to unveil Drops on Rustmas - on both Twitch and KICK!
+      <br/>
+      <br/>
+      <span>
+       December 18th - January 1st w
+      </span>
+      <span>
+       ill see
+      </span>
+      <span>
+       4 Category wide drops!
+      </span>
+      <br/>
+      <br/>
+      <b>
+       TWITCH DROPS
+      </b>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0811b1/twitch-drops-45_rustmas_blog.jpg"/>
+     </div>
+     <div>
+      <b>
+       KICK DROPS
+      </b>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0811b1/KICK_2-blog-image.jpg"/>
+     </div>
+     <div>
+      <p data-pm-slice="1 3 []">
+       All you need to do is check out anyone streaming Rust this festive period, and you can bag yourself some sweet Christmas themed Twitch/Kick Drops to make sure you and your base look festive this December and January.
+      </p>
+      <p data-pm-slice="1 3 []">
+       Rustmas on Twitch and Kick starts now and
+       <b>
+        ends 7PM GMT /
+       </b>
+       <b>
+        2PM EST on January 1st.
+       </b>
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="RustxCanbebackpackCharms">
+  <div class="section" like-handler="LikeBlogSection" like-id="84851" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rust x Can be - backpack &amp; Charms
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <p data-path-to-node="21">
+       What happens when you mix the brutal world of Rust with a heritage brand?
+       <br/>
+       <br/>
+       You get the ultimate loot bag.
+       <br/>
+       <br/>
+       We are proud to announce our collaboration with
+       <b>
+        <a class="" href="https://can.be/">
+         Can Be
+        </a>
+       </b>
+       . Bringing their expertise in high-quality craftsmanship and attention to detail to Rust, Can Be has taken our standard-issue in-game Military backpack and crafted it into a tangible, premium accessory.
+       <br/>
+      </p>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1611b1/Split-Image-16-9.jpg"/>
+     </div>
+     <div>
+      It captures the DIY, scavenged aesthetic of Rust while providing the durability and practicality you expect from a premium brand. It’s not just a collectable - it’s designed to be used.
+      <br/>
+      <br/>
+      Perfect for carrying your laptop and gym gear through the elements, or if you really want to stay on brand - your rock and your torch.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1611b1/Rust-Large-Backpack-Vanilla-Default-Transparent.webp"/>
+     </div>
+     <div>
+      <span>
+       The Rust x Can Be Large Backpack launches in two colourways -
+      </span>
+      Vanilla Khaki Camo and
+      <span>
+       <div>
+        Black Digital Camo, available exclusively through the Can Be website.
+       </div>
+       <br/>
+       There's also an optional collection of interchangeable Velcro patches available separately for easy customization of your backpack.
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1611b1/Rust-Large-Backpack-Black-Patches.jpg"/>
+     </div>
+     <div>
+      <p>
+       And last but not least, each physical backpack order comes with a set of unique digital items once shipped. These are new, in-game weapon charms – uniting the tangible and virtual world together.
+       <br/>
+       A subtle but unmistakable way to personalize your weapon in game.
+       <br/>
+       <br/>
+       Just don't get too distracted by your charm during a gunfight - it might cost you your 2x2.
+      </p>
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/ashcoook/1b1711b1/blog_rust_charms_v2_16x9_h264.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <a class="" href="https://can.be/ ">
+       Pre-orders are now live
+      </a>
+      , with orders shipping in the summer of 2026.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="RustmasBaseDecoratingcontest">
+  <div class="section" like-handler="LikeBlogSection" like-id="84883" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rustmas Base Decorating contest
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       <div>
+        We are excited to announce that the annual Rustmas Base Decorating Competition is back for 2025's festive period!
+        <br/>
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        We're looking for the best Christmassy base that Rust has ever seen!
+       </div>
+      </div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/errn/2025/12/rustmas2025.jpg"/>
+     </div>
+     <div>
+      <div>
+       <div>
+       </div>
+      </div>
+      <div>
+      </div>
+      <div>
+       <h2>
+       </h2>
+       <h2>
+        Winner
+        <br/>
+       </h2>
+       <div>
+        £120 worth of skins of their choosing, and two Rust DLC/Items.
+       </div>
+       <h2>
+        Runner up
+       </h2>
+       <div>
+        £75 worth of skins of their choosing, and one Rust DLC/Item.
+       </div>
+       <h2>
+        How To Submit
+       </h2>
+       <div>
+        Once you’ve completed decorating your base, be sure to take 3-4 screenshots or a video walkthrough (MTV Cribs style) and upload them to X/Twitter. Tag us (
+        <a class="" href="https://x.com/playrust">
+         @playrust
+        </a>
+        ) and use the hashtag
+        <a class="selected" href="https://x.com/hashtag/Rustmas2025" target="https://x.com/hashtag/Rustmas2025">
+         #Rustmas2025
+        </a>
+        in your post!
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        The winner and runner up will be announced from
+        <a class="" href="https://x.com/playrust">
+         Rust's Official X account
+        </a>
+        on January 12th.
+        <br/>
+       </div>
+       <div>
+        <br/>
+       </div>
+       <div>
+        Please make sure you are following the Rust X/Twitter account so we can DM you if you win.
+        <br/>
+        <i>
+         If we do not get a response within 1 week of the winner announcement, a new winner will be chosen.
+        </i>
+       </div>
+       <h2>
+        Evaluation
+       </h2>
+       <div>
+        <div class="autodiv">
+         Submissions will be judged based on the following:
+        </div>
+       </div>
+       <div class="autodiv">
+        <ul>
+         <li>
+          Creativity
+         </li>
+         <li>
+          Design
+         </li>
+        </ul>
+       </div>
+       <div class="autodiv">
+        Judging will be performed by Facepunch Staff.
+        <br/>
+       </div>
+       <div class="autodiv">
+        <br/>
+       </div>
+       <div class="autodiv">
+        Bonus points if you remove the UI and your graphics are set higher than 1 :)
+        <br/>
+       </div>
+       <h2>
+        Terms
+       </h2>
+       <div>
+        <i>
+         This competition is run by Facepunch Studios LTD. The competition
+         <b>
+          ends on January 1st 2026 23:59UTC
+         </b>
+         . No more than three entries per person. The winner and runner-up will be selected based on which Facepunch thinks is the most original/creative and any decisions Facepunch makes will be final. The winner and runner up must claim their prizes within one month of the closing date (which Facepunch may exchange for an alternative of the same or greater value). Our terms of service apply to any content you make for the competition: https://facepunch.com/legal. Winning entries must pick items from the Rust marketplace with market value.
+        </i>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="SteamawardsfinalistsLaboroflove">
+  <div class="section" like-handler="LikeBlogSection" like-id="84884" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Steam awards finalists - Labor of love
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1811b1/Rust%20x%20Labor%20of%20Love%20-%20Final%20Round%20_%20Compressed.jpg"/>
+     </div>
+     <div>
+      We're through to the final round!
+      <br/>
+      <br/>
+      But in case you're new here, over the years, Rust has undergone some huge changes - including graphic, physics, and engine updates and rebuilds, all because we’ve wanted to make Rust what it is, and what it could be.
+      <br/>
+      <br/>
+      We're guided by the community, and agile enough to deliver or pivot when we need to, month after month.
+      <br/>
+      <br/>
+      And this year - Rust's 12th year - we've added a new biome, new animals, new vehicles, weapons, and so much more. As well as third party collabs, drops on Kick, more events on Twitch, raising money for Charity, and so much more!
+     </div>
+     <div>
+      <br/>
+      To be a finalist is an achievement in itself, but we need the community to help us win it.
+      <br/>
+      <h2>
+       <font color="#e4dad1" face="Bebas Neue, sans-serif">
+        If you think Rust deserves it, give RUST your
+        <a class="" href="https://store.steampowered.com/steamawards/2025">
+         vote in the 'Labor of Love' category on steam!
+        </a>
+       </font>
+      </h2>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="steamwintersale">
+  <div class="section" like-handler="LikeBlogSection" like-id="84872" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       steam winter sale
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The Steam Winter Sale is now live!
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0811b1/Winter-Sale%20-%2016x9.png"/>
+     </div>
+     <div>
+      Enjoy
+      <a class="" href="https://store.steampowered.com/app/252490?utm_source=blog_campaign=sws25_">
+       50% off Rust
+      </a>
+      and the Instruments, Sunburn, and Voice Props DLC packs from now until January 5th 2026!
+      <br/>
+      <br/>
+      Now is the perfect time to bolster your clan and gift Rust to a friend.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Upcomingdates">
+  <div class="section" like-handler="LikeBlogSection" like-id="84870" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Upcoming dates
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Rust's Staging Branch will wipe as usual over the festive season, meaning if you haven't yet jumped into the preview of February's update, you can access the Deep Sea content early!
+     </div>
+     <div>
+      <ul>
+       <li>
+        Staging Branch wipes on December 25th
+       </li>
+       <li>
+        January Patch + wipe released on January 1st @ 1900GMT
+       </li>
+      </ul>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0311b1/rust_deepseamap_1080_3_jpg.jpg"/>
+     </div>
+     <div>
+      <p class="subtitle">
+       The Staging Branch in Rust is a separate version of Rust where new updates and features are tested before being released to the main game. It’s essentially the experimental build, allowing us to identify bugs, balance changes, and performance issues with help from players who opt in.
+       <br/>
+       <br/>
+       You can learn more about it
+       <a class="selected" href="https://rust.facepunch.com/staging" target="https://rust.facepunch.com/staging">
+        here
+       </a>
+       .
+      </p>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0311b1/dec2025_naval_update_deep_sea_barrier_3_1080.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 18 Dec 2025 09:52:00 Z</pubDate>
+    </item>
+    <item>
       <title>Naval Update</title>
       <link>https://rust.facepunch.com/news/naval/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -3964,765 +4723,6 @@ using(ServerProfiler.RecordScopeIfSlow("IndustrialQueue",
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 05 Feb 2026 06:24:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Silent Night, Violent Night</title>
-      <link>https://rust.facepunch.com/news/merry-rustmas-25/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
-  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
-   <source src="https://files.facepunch.com/lewis/1b0411b1/rust_christmas_update_bg.mp4" type="video/mp4"/>
-   Your browser does not support the video tag.
-  </video>
- </div>
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <img alt="Silent Night, Violent Night" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b0411b1/rust_seasons_beating-logo.png"/>
-    <p editname="Summary" type="text">
-     It's that wonderful time of the year again - our Christmas event is (s)now live, Rustmas Winter Drop Fest is here!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      18 December 2025
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="happyholidays">
-  <div class="section" like-handler="LikeBlogSection" like-id="84879" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       happy holidays!
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      From everyone at Facepunch, we'd like to wish you a Merry Christmas and a Happy New Year!
-      <br/>
-      <br/>
-      The Christmas Event is once again live!
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/118/12/2025/4c10/xmas2025_Rustmas_sled_race_xmas_1_1080.jpg"/>
-     </div>
-     <div>
-      <div>
-       If you're new to the island, here's what you can expect:
-      </div>
-      <br/>
-      As you play, you will start to hear the distinct sound of jingle bells. As soon as you do, leave the warm comfort of your base and start looking for your gifts!
-      <br/>
-      <ul>
-       <li>
-        Two gifts are spawned per player, in a radius of about 40m from you.
-       </li>
-       <li>
-        Run up and bash open your present to receive your Christmas gift.
-       </li>
-       <li>
-        They come in three sizes: small, medium, and large. But if you have enough small presents stashed, you can 'trade up' to a medium or large gift.
-       </li>
-       <li>
-        The contents of each present varies, but you'll find a mix of resources, weapons, and Christmas candy.
-       </li>
-      </ul>
-      <div>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1311b1/xmas2020_santasleigh.jpg"/>
-     </div>
-     <div>
-      This year, you'll still be able to find Santa hats and reindeer antlers, both of which can be worn and provide a decent amount of protection. And the lickable candy cane club is back! As well as two types of stockings.
-      <br/>
-      <br/>
-      If you hang a stocking inside your base when the jingle bells ring, the stocking will fill up with loot whether you've been good or not - no coal here!
-      <br/>
-      <br/>
-      The larger stocking has a higher chance for better items and both last around 5-10 refills.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/118/12/2025/5p99/xmas2025_xmas_tree_trap_1_1080.jpg"/>
-     </div>
-     <div>
-      The advent calendar also returns and is a craftable deployable, available to everyone during the Christmas event.
-      <br/>
-      <br/>
-      Once placed, you can claim an in-game surprise once every in-real-life day from the 16th of December.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1311b1/xmas_adventcalendar.jpg"/>
-     </div>
-     <div>
-      <div>
-       The Christmas event ends on January 1st @ 19:00GMT / 14:00EST
-      </div>
-      <div>
-       <br/>
-       Make it a December to remember!
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="XmasWAllpapersDLCs">
-  <div class="section" like-handler="LikeBlogSection" like-id="84845" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Xmas WAllpapers DLCs
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-64672223-7fff-4c5e-5b37-eacd00e28913">
-       <span>
-        Unrolling to the
-        <a class="selected" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
-         limited store
-        </a>
-        this month are three festive wallpapers, specially designed to bring peace and joy to you and the grub just outside your door.
-       </span>
-      </span>
-     </div>
-     <div>
-      <span>
-       <br/>
-      </span>
-     </div>
-     <div>
-      <span>
-       There’s one wallpaper each for floors, ceilings and walls.
-      </span>
-     </div>
-     <h2>
-      Wall - Assorted Giftwrap
-     </h2>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/117/12/2025/2A17/rust_christmas_wallpaper_3_4k.jpg"/>
-     </div>
-     <div>
-      <h2>
-       Floor - Red Festive Floor Tiles
-      </h2>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/117/12/2025/6M77/rust_christmas_floor_4_1080.jpg"/>
-     </div>
-     <div>
-      <span id="docs-internal-guid-72a7cc04-7fff-a495-3513-f6cbc70776b2">
-       <div>
-        <div>
-        </div>
-       </div>
-       <div>
-        <span>
-         <span id="docs-internal-guid-50ef9f82-7fff-bda2-ea03-4cda92ce4095">
-          <h2>
-           Ceiling - Moulded Plaster
-          </h2>
-         </span>
-        </span>
-       </div>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/117/12/2025/3I63/rust_christmas_ceiling_2_1080.jpg"/>
-     </div>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/117/12/2025/2x84/rust_christmas_ceiling_3_1080.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      <p>
-       This one sparkles!
-      </p>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="Rustmasstore">
-  <div class="section" like-handler="LikeBlogSection" like-id="84880" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Rustmas store
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      As well as the new festive wallpapers, this year, we have brought back some items from previous festive periods for players to enjoy again - all now purchasable from the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
-       Rust Item Store
-      </a>
-      .
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10171/">
-         <img src="https://files.facepunch.com/Alistair/12/16/8188o1/xmas.lightstring.advanced.png"/>
-         <center>
-          <b>
-           Deluxe Christmas Lights
-          </b>
-         </center>
-        </a>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10158/">
-         <img src="https://files.facepunch.com/Alistair/12/16/4B60I1/snowmachine.png"/>
-         <center>
-          <b>
-           Snow Machine
-          </b>
-         </center>
-        </a>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10148/">
-         <img src="https://files.facepunch.com/Alistair/12/16/6n76p1/snowman.png"/>
-         <center>
-          <b>
-           Snowman
-          </b>
-         </center>
-        </a>
-       </div>
-       <div class="columns is-multiline">
-       </div>
-      </div>
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10151/">
-         <img src="https://files.facepunch.com/Alistair/12/16/0j91W1/xmas.door.garland.png"/>
-         <center>
-          <b>
-           Festive Garlands Pack
-           <br/>
-          </b>
-         </center>
-        </a>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10149/">
-         <img src="https://files.facepunch.com/Alistair/12/16/9t36A1/xmasdoorwreath.png"/>
-         <center>
-          <b>
-           Christmas Door Wreath
-          </b>
-         </center>
-        </a>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10172/">
-         <img src="https://files.facepunch.com/Alistair/12/17/5o48V1/santabeard.png"/>
-         <center>
-          <b>
-           Santa Beard
-          </b>
-         </center>
-        </a>
-       </div>
-      </div>
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10188/">
-         <img src="https://files.facepunch.com/Alistair/12/16/2A70T1/360fx360f.png"/>
-         <center>
-          <b>
-           Neon sign pack
-          </b>
-         </center>
-        </a>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10203/">
-         <img src="https://files.facepunch.com/Alistair/12/16/5z93I1/attire.snowman.helmet.png"/>
-         <center>
-          <b>
-           Snowman Hat
-          </b>
-         </center>
-        </a>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="Rustmasdropsontwitchandkick">
-  <div class="section" like-handler="LikeBlogSection" like-id="84855" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Rustmas drops on twitch and kick
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Have you been naughty or nice this year?
-      <br/>
-      <br/>
-      Well, it doesn't matter because as part of our ongoing commitment to creators, we're pleased to unveil Drops on Rustmas - on both Twitch and KICK!
-      <br/>
-      <br/>
-      <span>
-       December 18th - January 1st w
-      </span>
-      <span>
-       ill see
-      </span>
-      <span>
-       4 Category wide drops!
-      </span>
-      <br/>
-      <br/>
-      <b>
-       TWITCH DROPS
-      </b>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0811b1/twitch-drops-45_rustmas_blog.jpg"/>
-     </div>
-     <div>
-      <b>
-       KICK DROPS
-      </b>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0811b1/KICK_2-blog-image.jpg"/>
-     </div>
-     <div>
-      <p data-pm-slice="1 3 []">
-       All you need to do is check out anyone streaming Rust this festive period, and you can bag yourself some sweet Christmas themed Twitch/Kick Drops to make sure you and your base look festive this December and January.
-      </p>
-      <p data-pm-slice="1 3 []">
-       Rustmas on Twitch and Kick starts now and
-       <b>
-        ends 7PM GMT /
-       </b>
-       <b>
-        2PM EST on January 1st.
-       </b>
-      </p>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="RustxCanbebackpackCharms">
-  <div class="section" like-handler="LikeBlogSection" like-id="84851" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Rust x Can be - backpack &amp; Charms
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <p data-path-to-node="21">
-       What happens when you mix the brutal world of Rust with a heritage brand?
-       <br/>
-       <br/>
-       You get the ultimate loot bag.
-       <br/>
-       <br/>
-       We are proud to announce our collaboration with
-       <b>
-        <a class="" href="https://can.be/">
-         Can Be
-        </a>
-       </b>
-       . Bringing their expertise in high-quality craftsmanship and attention to detail to Rust, Can Be has taken our standard-issue in-game Military backpack and crafted it into a tangible, premium accessory.
-       <br/>
-      </p>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1611b1/Split-Image-16-9.jpg"/>
-     </div>
-     <div>
-      It captures the DIY, scavenged aesthetic of Rust while providing the durability and practicality you expect from a premium brand. It’s not just a collectable - it’s designed to be used.
-      <br/>
-      <br/>
-      Perfect for carrying your laptop and gym gear through the elements, or if you really want to stay on brand - your rock and your torch.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1611b1/Rust-Large-Backpack-Vanilla-Default-Transparent.webp"/>
-     </div>
-     <div>
-      <span>
-       The Rust x Can Be Large Backpack launches in two colourways -
-      </span>
-      Vanilla Khaki Camo and
-      <span>
-       <div>
-        Black Digital Camo, available exclusively through the Can Be website.
-       </div>
-       <br/>
-       There's also an optional collection of interchangeable Velcro patches available separately for easy customization of your backpack.
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1611b1/Rust-Large-Backpack-Black-Patches.jpg"/>
-     </div>
-     <div>
-      <p>
-       And last but not least, each physical backpack order comes with a set of unique digital items once shipped. These are new, in-game weapon charms – uniting the tangible and virtual world together.
-       <br/>
-       A subtle but unmistakable way to personalize your weapon in game.
-       <br/>
-       <br/>
-       Just don't get too distracted by your charm during a gunfight - it might cost you your 2x2.
-      </p>
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/ashcoook/1b1711b1/blog_rust_charms_v2_16x9_h264.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <a class="" href="https://can.be/ ">
-       Pre-orders are now live
-      </a>
-      , with orders shipping in the summer of 2026.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="RustmasBaseDecoratingcontest">
-  <div class="section" like-handler="LikeBlogSection" like-id="84883" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Rustmas Base Decorating contest
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       <div>
-        We are excited to announce that the annual Rustmas Base Decorating Competition is back for 2025's festive period!
-        <br/>
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        We're looking for the best Christmassy base that Rust has ever seen!
-       </div>
-      </div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/errn/2025/12/rustmas2025.jpg"/>
-     </div>
-     <div>
-      <div>
-       <div>
-       </div>
-      </div>
-      <div>
-      </div>
-      <div>
-       <h2>
-       </h2>
-       <h2>
-        Winner
-        <br/>
-       </h2>
-       <div>
-        £120 worth of skins of their choosing, and two Rust DLC/Items.
-       </div>
-       <h2>
-        Runner up
-       </h2>
-       <div>
-        £75 worth of skins of their choosing, and one Rust DLC/Item.
-       </div>
-       <h2>
-        How To Submit
-       </h2>
-       <div>
-        Once you’ve completed decorating your base, be sure to take 3-4 screenshots or a video walkthrough (MTV Cribs style) and upload them to X/Twitter. Tag us (
-        <a class="" href="https://x.com/playrust">
-         @playrust
-        </a>
-        ) and use the hashtag
-        <a class="selected" href="https://x.com/hashtag/Rustmas2025" target="https://x.com/hashtag/Rustmas2025">
-         #Rustmas2025
-        </a>
-        in your post!
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        The winner and runner up will be announced from
-        <a class="" href="https://x.com/playrust">
-         Rust's Official X account
-        </a>
-        on January 12th.
-        <br/>
-       </div>
-       <div>
-        <br/>
-       </div>
-       <div>
-        Please make sure you are following the Rust X/Twitter account so we can DM you if you win.
-        <br/>
-        <i>
-         If we do not get a response within 1 week of the winner announcement, a new winner will be chosen.
-        </i>
-       </div>
-       <h2>
-        Evaluation
-       </h2>
-       <div>
-        <div class="autodiv">
-         Submissions will be judged based on the following:
-        </div>
-       </div>
-       <div class="autodiv">
-        <ul>
-         <li>
-          Creativity
-         </li>
-         <li>
-          Design
-         </li>
-        </ul>
-       </div>
-       <div class="autodiv">
-        Judging will be performed by Facepunch Staff.
-        <br/>
-       </div>
-       <div class="autodiv">
-        <br/>
-       </div>
-       <div class="autodiv">
-        Bonus points if you remove the UI and your graphics are set higher than 1 :)
-        <br/>
-       </div>
-       <h2>
-        Terms
-       </h2>
-       <div>
-        <i>
-         This competition is run by Facepunch Studios LTD. The competition
-         <b>
-          ends on January 1st 2026 23:59UTC
-         </b>
-         . No more than three entries per person. The winner and runner-up will be selected based on which Facepunch thinks is the most original/creative and any decisions Facepunch makes will be final. The winner and runner up must claim their prizes within one month of the closing date (which Facepunch may exchange for an alternative of the same or greater value). Our terms of service apply to any content you make for the competition: https://facepunch.com/legal. Winning entries must pick items from the Rust marketplace with market value.
-        </i>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="SteamawardsfinalistsLaboroflove">
-  <div class="section" like-handler="LikeBlogSection" like-id="84884" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Steam awards finalists - Labor of love
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1811b1/Rust%20x%20Labor%20of%20Love%20-%20Final%20Round%20_%20Compressed.jpg"/>
-     </div>
-     <div>
-      We're through to the final round!
-      <br/>
-      <br/>
-      But in case you're new here, over the years, Rust has undergone some huge changes - including graphic, physics, and engine updates and rebuilds, all because we’ve wanted to make Rust what it is, and what it could be.
-      <br/>
-      <br/>
-      We're guided by the community, and agile enough to deliver or pivot when we need to, month after month.
-      <br/>
-      <br/>
-      And this year - Rust's 12th year - we've added a new biome, new animals, new vehicles, weapons, and so much more. As well as third party collabs, drops on Kick, more events on Twitch, raising money for Charity, and so much more!
-     </div>
-     <div>
-      <br/>
-      To be a finalist is an achievement in itself, but we need the community to help us win it.
-      <br/>
-      <h2>
-       <font color="#e4dad1" face="Bebas Neue, sans-serif">
-        If you think Rust deserves it, give RUST your
-        <a class="" href="https://store.steampowered.com/steamawards/2025">
-         vote in the 'Labor of Love' category on steam!
-        </a>
-       </font>
-      </h2>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="steamwintersale">
-  <div class="section" like-handler="LikeBlogSection" like-id="84872" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       steam winter sale
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The Steam Winter Sale is now live!
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0811b1/Winter-Sale%20-%2016x9.png"/>
-     </div>
-     <div>
-      Enjoy
-      <a class="" href="https://store.steampowered.com/app/252490?utm_source=blog_campaign=sws25_">
-       50% off Rust
-      </a>
-      and the Instruments, Sunburn, and Voice Props DLC packs from now until January 5th 2026!
-      <br/>
-      <br/>
-      Now is the perfect time to bolster your clan and gift Rust to a friend.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="Upcomingdates">
-  <div class="section" like-handler="LikeBlogSection" like-id="84870" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Upcoming dates
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Rust's Staging Branch will wipe as usual over the festive season, meaning if you haven't yet jumped into the preview of February's update, you can access the Deep Sea content early!
-     </div>
-     <div>
-      <ul>
-       <li>
-        Staging Branch wipes on December 25th
-       </li>
-       <li>
-        January Patch + wipe released on January 1st @ 1900GMT
-       </li>
-      </ul>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0311b1/rust_deepseamap_1080_3_jpg.jpg"/>
-     </div>
-     <div>
-      <p class="subtitle">
-       The Staging Branch in Rust is a separate version of Rust where new updates and features are tested before being released to the main game. It’s essentially the experimental build, allowing us to identify bugs, balance changes, and performance issues with help from players who opt in.
-       <br/>
-       <br/>
-       You can learn more about it
-       <a class="selected" href="https://rust.facepunch.com/staging" target="https://rust.facepunch.com/staging">
-        here
-       </a>
-       .
-      </p>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0311b1/dec2025_naval_update_deep_sea_barrier_3_1080.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 18 Dec 2025 09:52:00 Z</pubDate>
     </item>
     <item>
       <title>Surviving 12 Years</title>
