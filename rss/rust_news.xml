@@ -1,354 +1,6 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
-      <title>lunar new year 2026</title>
-      <link>https://rust.facepunch.com/news/lunar-new-year-2026/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
-  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
-   <source src="https://files.facepunch.com/lewis/1b2611b1/lny2026_bloghero.mp4" type="video/mp4"/>
-   Your browser does not support the video tag.
-  </video>
- </div>
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <img alt="lunar new year 2026" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b2611b1/lny_branding_updated2.png"/>
-    <p editname="Summary" type="text">
-     2026's Lunar New Year celebrations have begun! Celebrate the occasion by honouring the Year of the Horse with the Ornate Horse Mask, Horse Armour, and more.
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      17 February 2026
-     </div>
-     <a class="tag" href="/news/?category=">
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="Lunarnewyear">
-  <div class="section" like-handler="LikeBlogSection" like-id="84925" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Lunar new year
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-0569d153-7fff-f0cc-7a81-55d04ceb9922">
-       <p dir="ltr">
-        <span>
-         Happy Lunar New Year to the Rust community!
-         <br/>
-         <br/>
-         2026 marks the Year of the Horse. This Chinese Zodiac sign embodies resilience, speed and intelligence, which combined with the Fire element symbolizing energy, passion and ambition might make for an action-packed year!
-         <br/>
-        </span>
-        <br/>
-        To help you get off to a flying start, we’ve packed the store with a mix of new and returning Lunar New Year-themed items.
-       </p>
-       <div>
-        <span>
-        </span>
-       </div>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/LNY_heroimage_01.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="HorseMask">
-  <div class="section" like-handler="LikeBlogSection" like-id="84926" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Horse Mask
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-50afa167-7fff-a9a3-71f4-1134c6341ced">
-       <span>
-        Celebrate the Year of the Horse with Rust’s new Horse Mask! This cultured collectable features hand-sculpted materials and an ornate design.
-       </span>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsemask_4_1080_jpg.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsemask_1_1080_jpg.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The Horse Mask can be purchased on the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10356/" target="">
-       Rust Item Store
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Horsearmor">
-  <div class="section" like-handler="LikeBlogSection" like-id="84927" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Horse armor
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-27e01b62-7fff-4a84-8821-0f94e70fd189">
-       <p dir="ltr">
-        <span>
-         Elegant yet powerful, this Lunar New Year Horse Armour will strike fear into the heart of many a naked.
-        </span>
-       </p>
-       <div>
-        <span>
-        </span>
-       </div>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsearmor_5_1080_jpg.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsearmor_2_1080_jpg.jpg"/>
-     </div>
-     <div>
-      The Lunar New Year Horse Armour can be purchased on the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10357/">
-       Rust Item Store
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="SillyHorseMask">
-  <div class="section" like-handler="LikeBlogSection" like-id="84928" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Silly Horse Mask
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-c7711d44-7fff-6466-2c92-5c551894eac9">
-       <span>
-        We had to. Comes in three unique variations. One has a horn.
-       </span>
-      </span>
-     </div>
-     <div>
-      <span>
-       <span>
-        <br/>
-       </span>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0611b1/lny_2026_silly_horse_mask_1920x1024.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_silly_horse_mask_8_1080.jpg"/>
-     </div>
-     <div>
-      The Silly Horse Mask can also be purchased on the
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10358/">
-       Rust Item Store
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="lunarstore">
-  <div class="section" like-handler="LikeBlogSection" like-id="84929" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       lunar store
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      In addition, we’ve added items back from previous Lunar New Years celebrations to the Steam item store. The wall Divider Pack, Wallpaper Pack, and the Chinese Lantern are all now available with links to all of the items below, as well as the Lunar Spear and Dragon Rocket Launcher skins:
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1711b1/image.png"/>
-        <center>
-         <b>
-          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10283/">
-           Wall Divider Pack
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1711b1/10280.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10280/">
-           Lunar New Year Wallpaper Pack
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/2019/02/1b0711b1/ChineseLantern.icon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10162/">
-           Chinese Lantern
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/4w37/spear.cny.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10235/">
-           Lunar Spear
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/2x24/rocket.launcher.dragon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10236/">
-           Rocket Launcher
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/firework_roman_volcano_pack.icon.png"/>
-        <center>
-         <b>
-          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10176/">
-           Small Firework Pack
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/boomerpack.icon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10175/">
-           Large Firework Pack
-          </a>
-         </b>
-        </center>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="50offrust">
-  <div class="section" like-handler="LikeBlogSection" like-id="84918" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       50% off rust
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      To celebrate The Year of the Horse, Rust is now 50% off on
-      <a class="selected" href="https://store.steampowered.com/app/252490?utm_source=b_campaign=lny">
-       Steam
-      </a>
-      !
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b1311b1/Screenshot%202026-02-13%20100258.png"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Tue, 17 Feb 2026 18:55:00 Z</pubDate>
-    </item>
-    <item>
       <title>Community Update 268</title>
       <link>https://rust.facepunch.com/news/community-update-268/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -1539,6 +1191,354 @@
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 18 Dec 2025 09:52:00 Z</pubDate>
+    </item>
+    <item>
+      <title>lunar new year 2026</title>
+      <link>https://rust.facepunch.com/news/lunar-new-year-2026/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
+  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
+   <source src="https://files.facepunch.com/lewis/1b2611b1/lny2026_bloghero.mp4" type="video/mp4"/>
+   Your browser does not support the video tag.
+  </video>
+ </div>
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <img alt="lunar new year 2026" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b2611b1/lny_branding_updated2.png"/>
+    <p editname="Summary" type="text">
+     2026's Lunar New Year celebrations have begun! Celebrate the occasion by honouring the Year of the Horse with the Ornate Horse Mask, Horse Armour, and more.
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      17 February 2026
+     </div>
+     <a class="tag" href="/news/?category=">
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="Lunarnewyear">
+  <div class="section" like-handler="LikeBlogSection" like-id="84925" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Lunar new year
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-0569d153-7fff-f0cc-7a81-55d04ceb9922">
+       <p dir="ltr">
+        <span>
+         Happy Lunar New Year to the Rust community!
+         <br/>
+         <br/>
+         2026 marks the Year of the Horse. This Chinese Zodiac sign embodies resilience, speed and intelligence, which combined with the Fire element symbolizing energy, passion and ambition might make for an action-packed year!
+         <br/>
+        </span>
+        <br/>
+        To help you get off to a flying start, we’ve packed the store with a mix of new and returning Lunar New Year-themed items.
+       </p>
+       <div>
+        <span>
+        </span>
+       </div>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/LNY_heroimage_01.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="HorseMask">
+  <div class="section" like-handler="LikeBlogSection" like-id="84926" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Horse Mask
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-50afa167-7fff-a9a3-71f4-1134c6341ced">
+       <span>
+        Celebrate the Year of the Horse with Rust’s new Horse Mask! This cultured collectable features hand-sculpted materials and an ornate design.
+       </span>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsemask_4_1080_jpg.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsemask_1_1080_jpg.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The Horse Mask can be purchased on the
+      <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10356/" target="">
+       Rust Item Store
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Horsearmor">
+  <div class="section" like-handler="LikeBlogSection" like-id="84927" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Horse armor
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-27e01b62-7fff-4a84-8821-0f94e70fd189">
+       <p dir="ltr">
+        <span>
+         Elegant yet powerful, this Lunar New Year Horse Armour will strike fear into the heart of many a naked.
+        </span>
+       </p>
+       <div>
+        <span>
+        </span>
+       </div>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsearmor_5_1080_jpg.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsearmor_2_1080_jpg.jpg"/>
+     </div>
+     <div>
+      The Lunar New Year Horse Armour can be purchased on the
+      <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10357/">
+       Rust Item Store
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="SillyHorseMask">
+  <div class="section" like-handler="LikeBlogSection" like-id="84928" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Silly Horse Mask
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-c7711d44-7fff-6466-2c92-5c551894eac9">
+       <span>
+        We had to. Comes in three unique variations. One has a horn.
+       </span>
+      </span>
+     </div>
+     <div>
+      <span>
+       <span>
+        <br/>
+       </span>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0611b1/lny_2026_silly_horse_mask_1920x1024.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_silly_horse_mask_8_1080.jpg"/>
+     </div>
+     <div>
+      The Silly Horse Mask can also be purchased on the
+      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10358/">
+       Rust Item Store
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="lunarstore">
+  <div class="section" like-handler="LikeBlogSection" like-id="84929" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       lunar store
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      In addition, we’ve added items back from previous Lunar New Years celebrations to the Steam item store. The wall Divider Pack, Wallpaper Pack, and the Chinese Lantern are all now available with links to all of the items below, as well as the Lunar Spear and Dragon Rocket Launcher skins:
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1711b1/image.png"/>
+        <center>
+         <b>
+          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10283/">
+           Wall Divider Pack
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1711b1/10280.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10280/">
+           Lunar New Year Wallpaper Pack
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/2019/02/1b0711b1/ChineseLantern.icon.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10162/">
+           Chinese Lantern
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/4w37/spear.cny.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10235/">
+           Lunar Spear
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/2x24/rocket.launcher.dragon.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10236/">
+           Rocket Launcher
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/firework_roman_volcano_pack.icon.png"/>
+        <center>
+         <b>
+          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10176/">
+           Small Firework Pack
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/boomerpack.icon.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10175/">
+           Large Firework Pack
+          </a>
+         </b>
+        </center>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="50offrust">
+  <div class="section" like-handler="LikeBlogSection" like-id="84918" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       50% off rust
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      To celebrate The Year of the Horse, Rust is now 50% off on
+      <a class="selected" href="https://store.steampowered.com/app/252490?utm_source=b_campaign=lny">
+       Steam
+      </a>
+      !
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b1311b1/Screenshot%202026-02-13%20100258.png"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Tue, 17 Feb 2026 18:55:00 Z</pubDate>
     </item>
     <item>
       <title>Naval Update</title>
