@@ -1,787 +1,6 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
-      <title>Community Update 268</title>
-      <link>https://rust.facepunch.com/news/community-update-268/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <h1 editname="Title" type="text">
-     Community Update 268
-    </h1>
-    <p editname="Summary" type="text">
-     Naval Staging bits, Twitch Drops, a Father Son Duo, Rustmas recaps, sneaky C4, and more!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      22 January 2026
-     </div>
-     <a class="tag community" href="/news/?category=community">
-      COMMUNITY
-     </a>
-    </div>
-    <div class="author">
-     <div class="card user-card">
-      <div class="image">
-       <img src="https://files.facepunch.com/web/avatar/80-173403938.png"/>
-      </div>
-      <div class="body">
-       <div class="title has-text-white">
-        Errn
-       </div>
-       <div class="position">
-        Community Manager
-       </div>
-       <div class="country">
-        United States
-       </div>
-       <div class="links">
-        <a class="button small" href="https://youtu.be/dQw4w9WgXcQ" icon="home">
-         web
-        </a>
-        <a class="button small" href="https://twitter.com/ErrnieGerrn" icon="chat">
-         twitter
-        </a>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block" id="IncomingNavalupdateStaging">
-  <div class="section" like-handler="LikeBlogSection" like-id="84903" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Incoming Naval update - Staging
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      In the event you've been living under a rock the Naval Update is coming with the February wipe!
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/Errn/1b2011b1/staging.png"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      We're encouraging anyone with the extra time and passion for its success to go play a bit of the
-      <a class="" href="https://rust.facepunch.com/staging">
-       staging branch
-      </a>
-      (beta) between now and then.  Your feedback is valuable to us and you can submit that feedback using the F7 reporting system built into the game!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      To access Staging, simply download it from your Steam library!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="RustmasBasedecorationwinners">
-  <div class="section" like-handler="LikeBlogSection" like-id="84904" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Rustmas Base decoration winners
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Over Christmas break we ran a Rustmas Base Decoration contest where players have a chance to win a bunch of cosmetic skin bundles.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2111b1/rustmas.jpg"/>
-     </div>
-     <div>
-      Happy to present our two winners!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      First place
-     </h2>
-     <div>
-      <div class="css-175oi2r r-1awozwy r-18u37iz r-1wbh5a2 r-dnmrzs">
-       <div class="css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-37j5jr r-a023e6 r-rjixqe r-b88u0q r-1awozwy r-6koalj r-1udh08x r-3s2u2q r-1ddef8g" dir="ltr">
-        <span class="css-1jxf684 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3">
-         <span class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3">
-          <a class="css-175oi2r r-1wbh5a2 r-dnmrzs r-1ny4l3l r-1loqt21 selected" href="https://x.com/Kayli_jbasemom/status/2005374520748872029" role="link">
-           Kayli_j
-          </a>
-         </span>
-        </span>
-        with a village that span across and entire mountain range.
-       </div>
-      </div>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="default">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2111b1/kayli%201.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2111b1/Kayli%202.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2111b1/kayli%203.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2111b1/Kayli%204.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      Full tour on her Youtube:
-      <br/>
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="687" data-dashlane-rid="0b580945365e2c20" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/iIyHg_RP0DM?si=CQpO5YSw2zOXNoV0" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-     </div>
-     <h2>
-      Second Place
-     </h2>
-     <div>
-      <a class="" href="https://x.com/Modukes__/status/2005632543316705571">
-       MAK
-      </a>
-      with his snow globe dome!
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2111b1/MAK%201.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2111b1/MAK%202.jpg"/>
-     </div>
-     <div>
-      There's a
-      <a class="" href="https://x.com/Modukes__/status/2005632543316705571/video/1">
-       video
-      </a>
-      tour in his X post that I'm unable to embed if you want to check it out!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Congratulations to both!  Well done!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="rust12ArtofRust">
-  <div class="section" like-handler="LikeBlogSection" like-id="84905" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       rust 12 - Art of Rust
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The Art of Rust community have out done themselves once a again. They have a custom server where people from the community can decorate their own plots.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      They put together a tour for us and dedicated some of it to Rust's 12th Birthday.  They had concerts, fireworks, and much more.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      This is mostly going to be a photo dump and in no way could I ever capture how beautiful and heartwarming these scenes were using still photos, but being there was absolutely magical.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      I did manage to clip some of the opening concert (thanks Oriwell!) before the tour started though.  Its not very edited sorry not sorry.
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="177" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/RFMAdPppadY?si=JfAM8KeHgS8e6Dlq" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-     <div>
-      Here's a hefty photo dump.  If you're reading this on Steam go to the web blog for more!
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery>
-       <img src="https://files.facepunch.com/Errn/1b2211b1/RustClient_dse7ylg8FL.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b2211b1/RustClient_uGORPWN5Ef.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b2211b1/RustClient_Ya3iLkiMSj.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b2211b1/20251228150843_1.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b2211b1/20251228151003_1.jpg"/>
-      </gallery>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="smallgrid">
-       <img src="https://files.facepunch.com/Errn/1b2211b1/RustClient_qhzmZshmSR.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b2211b1/RustClient_xTAIU5G1zt.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b2211b1/RustClient_v5bSHQnQ2V.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b2211b1/RustClient_Igd3y5XUin.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b2211b1/RustClient_GP1VjP8srT.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b2211b1/RustClient_qMPFUcCzlV.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b2211b1/20251228153415_1.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b2211b1/20251228162644_1.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b2211b1/20251228160759_1.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b2211b1/20251228165621_1.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b2211b1/20251228165405_1.jpg"/>
-       <img src="https://files.facepunch.com/Errn/1b2211b1/20251228153619_1.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      So much time and effort went into this tour and it shows.  Thank you Art of Rust!  Love you guys!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="Fathersonduo">
-  <div class="section" like-handler="LikeBlogSection" like-id="84906" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Father son duo
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Beastmode recently started a
-      <a class="" href="https://www.youtube.com/@BeastModeRust">
-       second channel
-      </a>
-      to dedicate to some quality Rust content!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      His very first upload happened to be with his dad, who coincidentally is also pretty well-versed in Rust too.
-      <br/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      They make a great duo and this video really plays into that.  Check it out!
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="2694" data-dashlane-rid="26c168daa2f17fb2" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/P0buB-DHfmw?si=lSsmqyabRc6s9fJY" title="YouTube video player" width="560">
-      </iframe>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="savethedateTwitchdrops">
-  <div class="section" like-handler="LikeBlogSection" like-id="84907" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       save the date - Twitch drops
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Ok, break's over!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       February 5th-15th | Homebrew 4
-      </b>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
-      <img src="https://files.facepunch.com/Errn/1b2111b1/homebrew4.png"/>
-     </div>
-     <div>
-      10 Exclusives from the Twitch Roster and 4 General drops from the Youtube scene.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Stay tuned to our socials for the full list!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="RemoteC4">
-  <div class="section" like-handler="LikeBlogSection" like-id="84909" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Remote C4
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Just going to leave this here...
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <iframe allowfullscreen="true" data-dashlane-frameid="808" data-dashlane-rid="5d1664d209f0dab1" frameborder="0" height="420" scrolling="no" src="https://clips.twitch.tv/embed?clip=HardBlightedSandpiperOSkomodo-VWFe2OsFt55X-oU6&amp;parent=rust.facepunch.com" width="620">
-      </iframe>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block" id="ShowMeTheStuff">
-  <div class="section" like-handler="LikeBlogSection" like-id="84910" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Show Me The Stuff!
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       If you made something cool or saw something cool, reach out! Tag me on
-       <a class="selected" href="https://twitter.com/ErrnieGerrn">
-        X
-       </a>
-       or u/ErrnieGerrn
-       <a class="" href="https://www.reddit.com/r/playrust/" target="">
-        Reddit
-       </a>
-       .
-       <br/>
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Cover image by GreenMan from the
-       <a class="" href="https://x.com/Art_of_Rust">
-        Art of Rust
-       </a>
-       community!
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 22 Jan 2026 18:01:00 Z</pubDate>
-    </item>
-    <item>
-      <title>lunar new year 2026</title>
-      <link>https://rust.facepunch.com/news/lunar-new-year-2026/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
-  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
-   <source src="https://files.facepunch.com/lewis/1b2611b1/lny2026_bloghero.mp4" type="video/mp4"/>
-   Your browser does not support the video tag.
-  </video>
- </div>
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <img alt="lunar new year 2026" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b2611b1/lny_branding_updated2.png"/>
-    <p editname="Summary" type="text">
-     2026's Lunar New Year celebrations have begun! Celebrate the occasion by honouring the Year of the Horse with the Ornate Horse Mask, Horse Armour, and more.
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      17 February 2026
-     </div>
-     <a class="tag" href="/news/?category=">
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="Lunarnewyear">
-  <div class="section" like-handler="LikeBlogSection" like-id="84925" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Lunar new year
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-0569d153-7fff-f0cc-7a81-55d04ceb9922">
-       <p dir="ltr">
-        <span>
-         Happy Lunar New Year to the Rust community!
-         <br/>
-         <br/>
-         2026 marks the Year of the Horse. This Chinese Zodiac sign embodies resilience, speed and intelligence, which combined with the Fire element symbolizing energy, passion and ambition might make for an action-packed year!
-         <br/>
-        </span>
-        <br/>
-        To help you get off to a flying start, we’ve packed the store with a mix of new and returning Lunar New Year-themed items.
-       </p>
-       <div>
-        <span>
-        </span>
-       </div>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/LNY_heroimage_01.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="HorseMask">
-  <div class="section" like-handler="LikeBlogSection" like-id="84926" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Horse Mask
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-50afa167-7fff-a9a3-71f4-1134c6341ced">
-       <span>
-        Celebrate the Year of the Horse with Rust’s new Horse Mask! This cultured collectable features hand-sculpted materials and an ornate design.
-       </span>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsemask_4_1080_jpg.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsemask_1_1080_jpg.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The Horse Mask can be purchased on the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10356/" target="">
-       Rust Item Store
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Horsearmor">
-  <div class="section" like-handler="LikeBlogSection" like-id="84927" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Horse armor
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-27e01b62-7fff-4a84-8821-0f94e70fd189">
-       <p dir="ltr">
-        <span>
-         Elegant yet powerful, this Lunar New Year Horse Armour will strike fear into the heart of many a naked.
-        </span>
-       </p>
-       <div>
-        <span>
-        </span>
-       </div>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsearmor_5_1080_jpg.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsearmor_2_1080_jpg.jpg"/>
-     </div>
-     <div>
-      The Lunar New Year Horse Armour can be purchased on the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10357/">
-       Rust Item Store
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="SillyHorseMask">
-  <div class="section" like-handler="LikeBlogSection" like-id="84928" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Silly Horse Mask
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-c7711d44-7fff-6466-2c92-5c551894eac9">
-       <span>
-        We had to. Comes in three unique variations. One has a horn.
-       </span>
-      </span>
-     </div>
-     <div>
-      <span>
-       <span>
-        <br/>
-       </span>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0611b1/lny_2026_silly_horse_mask_1920x1024.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_silly_horse_mask_8_1080.jpg"/>
-     </div>
-     <div>
-      The Silly Horse Mask can also be purchased on the
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10358/">
-       Rust Item Store
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="lunarstore">
-  <div class="section" like-handler="LikeBlogSection" like-id="84929" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       lunar store
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      In addition, we’ve added items back from previous Lunar New Years celebrations to the Steam item store. The wall Divider Pack, Wallpaper Pack, and the Chinese Lantern are all now available with links to all of the items below, as well as the Lunar Spear and Dragon Rocket Launcher skins:
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1711b1/image.png"/>
-        <center>
-         <b>
-          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10283/">
-           Wall Divider Pack
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1711b1/10280.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10280/">
-           Lunar New Year Wallpaper Pack
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/2019/02/1b0711b1/ChineseLantern.icon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10162/">
-           Chinese Lantern
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/4w37/spear.cny.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10235/">
-           Lunar Spear
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/2x24/rocket.launcher.dragon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10236/">
-           Rocket Launcher
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/firework_roman_volcano_pack.icon.png"/>
-        <center>
-         <b>
-          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10176/">
-           Small Firework Pack
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/boomerpack.icon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10175/">
-           Large Firework Pack
-          </a>
-         </b>
-        </center>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="50offrust">
-  <div class="section" like-handler="LikeBlogSection" like-id="84918" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       50% off rust
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      To celebrate The Year of the Horse, Rust is now 50% off on
-      <a class="selected" href="https://store.steampowered.com/app/252490?utm_source=b_campaign=lny">
-       Steam
-      </a>
-      !
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b1311b1/Screenshot%202026-02-13%20100258.png"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Tue, 17 Feb 2026 18:55:00 Z</pubDate>
-    </item>
-    <item>
       <title>Shipshape</title>
       <link>https://rust.facepunch.com/news/shipshape/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -6066,6 +5285,439 @@ using(ServerProfiler.RecordScopeIfSlow("IndustrialQueue",
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 05 Feb 2026 06:24:00 Z</pubDate>
+    </item>
+    <item>
+      <title>Community Update 268</title>
+      <link>https://rust.facepunch.com/news/community-update-268/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <h1 editname="Title" type="text">
+     Community Update 268
+    </h1>
+    <p editname="Summary" type="text">
+     Naval Staging bits, Twitch Drops, a Father Son Duo, Rustmas recaps, sneaky C4, and more!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      22 January 2026
+     </div>
+     <a class="tag community" href="/news/?category=community">
+      COMMUNITY
+     </a>
+    </div>
+    <div class="author">
+     <div class="card user-card">
+      <div class="image">
+       <img src="https://files.facepunch.com/web/avatar/80-173403938.png"/>
+      </div>
+      <div class="body">
+       <div class="title has-text-white">
+        Errn
+       </div>
+       <div class="position">
+        Community Manager
+       </div>
+       <div class="country">
+        United States
+       </div>
+       <div class="links">
+        <a class="button small" href="https://youtu.be/dQw4w9WgXcQ" icon="home">
+         web
+        </a>
+        <a class="button small" href="https://twitter.com/ErrnieGerrn" icon="chat">
+         twitter
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block" id="IncomingNavalupdateStaging">
+  <div class="section" like-handler="LikeBlogSection" like-id="84903" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Incoming Naval update - Staging
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      In the event you've been living under a rock the Naval Update is coming with the February wipe!
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/Errn/1b2011b1/staging.png"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      We're encouraging anyone with the extra time and passion for its success to go play a bit of the
+      <a class="" href="https://rust.facepunch.com/staging">
+       staging branch
+      </a>
+      (beta) between now and then.  Your feedback is valuable to us and you can submit that feedback using the F7 reporting system built into the game!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      To access Staging, simply download it from your Steam library!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="RustmasBasedecorationwinners">
+  <div class="section" like-handler="LikeBlogSection" like-id="84904" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rustmas Base decoration winners
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Over Christmas break we ran a Rustmas Base Decoration contest where players have a chance to win a bunch of cosmetic skin bundles.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2111b1/rustmas.jpg"/>
+     </div>
+     <div>
+      Happy to present our two winners!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      First place
+     </h2>
+     <div>
+      <div class="css-175oi2r r-1awozwy r-18u37iz r-1wbh5a2 r-dnmrzs">
+       <div class="css-146c3p1 r-bcqeeo r-1ttztb7 r-qvutc0 r-37j5jr r-a023e6 r-rjixqe r-b88u0q r-1awozwy r-6koalj r-1udh08x r-3s2u2q r-1ddef8g" dir="ltr">
+        <span class="css-1jxf684 r-dnmrzs r-1udh08x r-1udbk01 r-3s2u2q r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3">
+         <span class="css-1jxf684 r-bcqeeo r-1ttztb7 r-qvutc0 r-poiln3">
+          <a class="css-175oi2r r-1wbh5a2 r-dnmrzs r-1ny4l3l r-1loqt21 selected" href="https://x.com/Kayli_jbasemom/status/2005374520748872029" role="link">
+           Kayli_j
+          </a>
+         </span>
+        </span>
+        with a village that span across and entire mountain range.
+       </div>
+      </div>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="default">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2111b1/kayli%201.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2111b1/Kayli%202.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2111b1/kayli%203.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2111b1/Kayli%204.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      Full tour on her Youtube:
+      <br/>
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="687" data-dashlane-rid="0b580945365e2c20" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/iIyHg_RP0DM?si=CQpO5YSw2zOXNoV0" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+     </div>
+     <h2>
+      Second Place
+     </h2>
+     <div>
+      <a class="" href="https://x.com/Modukes__/status/2005632543316705571">
+       MAK
+      </a>
+      with his snow globe dome!
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2111b1/MAK%201.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Errn/1b2111b1/MAK%202.jpg"/>
+     </div>
+     <div>
+      There's a
+      <a class="" href="https://x.com/Modukes__/status/2005632543316705571/video/1">
+       video
+      </a>
+      tour in his X post that I'm unable to embed if you want to check it out!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Congratulations to both!  Well done!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="rust12ArtofRust">
+  <div class="section" like-handler="LikeBlogSection" like-id="84905" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       rust 12 - Art of Rust
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The Art of Rust community have out done themselves once a again. They have a custom server where people from the community can decorate their own plots.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      They put together a tour for us and dedicated some of it to Rust's 12th Birthday.  They had concerts, fireworks, and much more.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This is mostly going to be a photo dump and in no way could I ever capture how beautiful and heartwarming these scenes were using still photos, but being there was absolutely magical.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      I did manage to clip some of the opening concert (thanks Oriwell!) before the tour started though.  Its not very edited sorry not sorry.
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="177" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/RFMAdPppadY?si=JfAM8KeHgS8e6Dlq" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+      Here's a hefty photo dump.  If you're reading this on Steam go to the web blog for more!
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery>
+       <img src="https://files.facepunch.com/Errn/1b2211b1/RustClient_dse7ylg8FL.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b2211b1/RustClient_uGORPWN5Ef.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b2211b1/RustClient_Ya3iLkiMSj.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b2211b1/20251228150843_1.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b2211b1/20251228151003_1.jpg"/>
+      </gallery>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="smallgrid">
+       <img src="https://files.facepunch.com/Errn/1b2211b1/RustClient_qhzmZshmSR.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b2211b1/RustClient_xTAIU5G1zt.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b2211b1/RustClient_v5bSHQnQ2V.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b2211b1/RustClient_Igd3y5XUin.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b2211b1/RustClient_GP1VjP8srT.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b2211b1/RustClient_qMPFUcCzlV.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b2211b1/20251228153415_1.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b2211b1/20251228162644_1.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b2211b1/20251228160759_1.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b2211b1/20251228165621_1.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b2211b1/20251228165405_1.jpg"/>
+       <img src="https://files.facepunch.com/Errn/1b2211b1/20251228153619_1.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      So much time and effort went into this tour and it shows.  Thank you Art of Rust!  Love you guys!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="Fathersonduo">
+  <div class="section" like-handler="LikeBlogSection" like-id="84906" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Father son duo
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Beastmode recently started a
+      <a class="" href="https://www.youtube.com/@BeastModeRust">
+       second channel
+      </a>
+      to dedicate to some quality Rust content!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      His very first upload happened to be with his dad, who coincidentally is also pretty well-versed in Rust too.
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      They make a great duo and this video really plays into that.  Check it out!
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="2694" data-dashlane-rid="26c168daa2f17fb2" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/P0buB-DHfmw?si=lSsmqyabRc6s9fJY" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="savethedateTwitchdrops">
+  <div class="section" like-handler="LikeBlogSection" like-id="84907" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       save the date - Twitch drops
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Ok, break's over!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       February 5th-15th | Homebrew 4
+      </b>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
+      <img src="https://files.facepunch.com/Errn/1b2111b1/homebrew4.png"/>
+     </div>
+     <div>
+      10 Exclusives from the Twitch Roster and 4 General drops from the Youtube scene.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Stay tuned to our socials for the full list!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="RemoteC4">
+  <div class="section" like-handler="LikeBlogSection" like-id="84909" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Remote C4
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Just going to leave this here...
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allowfullscreen="true" data-dashlane-frameid="808" data-dashlane-rid="5d1664d209f0dab1" frameborder="0" height="420" scrolling="no" src="https://clips.twitch.tv/embed?clip=HardBlightedSandpiperOSkomodo-VWFe2OsFt55X-oU6&amp;parent=rust.facepunch.com" width="620">
+      </iframe>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block" id="ShowMeTheStuff">
+  <div class="section" like-handler="LikeBlogSection" like-id="84910" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Show Me The Stuff!
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       If you made something cool or saw something cool, reach out! Tag me on
+       <a class="selected" href="https://twitter.com/ErrnieGerrn">
+        X
+       </a>
+       or u/ErrnieGerrn
+       <a class="" href="https://www.reddit.com/r/playrust/" target="">
+        Reddit
+       </a>
+       .
+       <br/>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Cover image by GreenMan from the
+       <a class="" href="https://x.com/Art_of_Rust">
+        Art of Rust
+       </a>
+       community!
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 22 Jan 2026 18:01:00 Z</pubDate>
     </item>
     <item>
       <title>Surviving 12 Years</title>
@@ -14738,6 +14390,354 @@ using(ServerProfiler.RecordScopeIfSlow("IndustrialQueue",
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 01 Jan 2026 12:29:00 Z</pubDate>
+    </item>
+    <item>
+      <title>lunar new year 2026</title>
+      <link>https://rust.facepunch.com/news/lunar-new-year-2026/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
+  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
+   <source src="https://files.facepunch.com/lewis/1b2611b1/lny2026_bloghero.mp4" type="video/mp4"/>
+   Your browser does not support the video tag.
+  </video>
+ </div>
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <img alt="lunar new year 2026" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b2611b1/lny_branding_updated2.png"/>
+    <p editname="Summary" type="text">
+     2026's Lunar New Year celebrations have begun! Celebrate the occasion by honouring the Year of the Horse with the Ornate Horse Mask, Horse Armour, and more.
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      17 February 2026
+     </div>
+     <a class="tag" href="/news/?category=">
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero" id="Lunarnewyear">
+  <div class="section" like-handler="LikeBlogSection" like-id="84925" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Lunar new year
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-0569d153-7fff-f0cc-7a81-55d04ceb9922">
+       <p dir="ltr">
+        <span>
+         Happy Lunar New Year to the Rust community!
+         <br/>
+         <br/>
+         2026 marks the Year of the Horse. This Chinese Zodiac sign embodies resilience, speed and intelligence, which combined with the Fire element symbolizing energy, passion and ambition might make for an action-packed year!
+         <br/>
+        </span>
+        <br/>
+        To help you get off to a flying start, we’ve packed the store with a mix of new and returning Lunar New Year-themed items.
+       </p>
+       <div>
+        <span>
+        </span>
+       </div>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/LNY_heroimage_01.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="HorseMask">
+  <div class="section" like-handler="LikeBlogSection" like-id="84926" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Horse Mask
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-50afa167-7fff-a9a3-71f4-1134c6341ced">
+       <span>
+        Celebrate the Year of the Horse with Rust’s new Horse Mask! This cultured collectable features hand-sculpted materials and an ornate design.
+       </span>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsemask_4_1080_jpg.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsemask_1_1080_jpg.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      The Horse Mask can be purchased on the
+      <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10356/" target="">
+       Rust Item Store
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Horsearmor">
+  <div class="section" like-handler="LikeBlogSection" like-id="84927" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Horse armor
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-27e01b62-7fff-4a84-8821-0f94e70fd189">
+       <p dir="ltr">
+        <span>
+         Elegant yet powerful, this Lunar New Year Horse Armour will strike fear into the heart of many a naked.
+        </span>
+       </p>
+       <div>
+        <span>
+        </span>
+       </div>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsearmor_5_1080_jpg.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsearmor_2_1080_jpg.jpg"/>
+     </div>
+     <div>
+      The Lunar New Year Horse Armour can be purchased on the
+      <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10357/">
+       Rust Item Store
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="SillyHorseMask">
+  <div class="section" like-handler="LikeBlogSection" like-id="84928" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Silly Horse Mask
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-c7711d44-7fff-6466-2c92-5c551894eac9">
+       <span>
+        We had to. Comes in three unique variations. One has a horn.
+       </span>
+      </span>
+     </div>
+     <div>
+      <span>
+       <span>
+        <br/>
+       </span>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0611b1/lny_2026_silly_horse_mask_1920x1024.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_silly_horse_mask_8_1080.jpg"/>
+     </div>
+     <div>
+      The Silly Horse Mask can also be purchased on the
+      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10358/">
+       Rust Item Store
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="lunarstore">
+  <div class="section" like-handler="LikeBlogSection" like-id="84929" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       lunar store
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      In addition, we’ve added items back from previous Lunar New Years celebrations to the Steam item store. The wall Divider Pack, Wallpaper Pack, and the Chinese Lantern are all now available with links to all of the items below, as well as the Lunar Spear and Dragon Rocket Launcher skins:
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1711b1/image.png"/>
+        <center>
+         <b>
+          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10283/">
+           Wall Divider Pack
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1711b1/10280.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10280/">
+           Lunar New Year Wallpaper Pack
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-4">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/2019/02/1b0711b1/ChineseLantern.icon.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10162/">
+           Chinese Lantern
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/4w37/spear.cny.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10235/">
+           Lunar Spear
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/2x24/rocket.launcher.dragon.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10236/">
+           Rocket Launcher
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/firework_roman_volcano_pack.icon.png"/>
+        <center>
+         <b>
+          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10176/">
+           Small Firework Pack
+          </a>
+         </b>
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/boomerpack.icon.png"/>
+        <center>
+         <b>
+          <a href="https://store.steampowered.com/itemstore/252490/detail/10175/">
+           Large Firework Pack
+          </a>
+         </b>
+        </center>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="50offrust">
+  <div class="section" like-handler="LikeBlogSection" like-id="84918" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       50% off rust
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      To celebrate The Year of the Horse, Rust is now 50% off on
+      <a class="selected" href="https://store.steampowered.com/app/252490?utm_source=b_campaign=lny">
+       Steam
+      </a>
+      !
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b1311b1/Screenshot%202026-02-13%20100258.png"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Tue, 17 Feb 2026 18:55:00 Z</pubDate>
     </item>
   </channel>
 </rss>
