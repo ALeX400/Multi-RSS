@@ -1,6 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <item>
+      <title>Patch 1.11.3 - Patch Notes</title>
+      <link>https://store.steampowered.com/news/app/1361210/view/519742398769660235</link>
+      <description><![CDATA[
+<style>
+        [data-focus-scheme="dark"] {
+            color-scheme: none;
+        }
+    </style>
+<p class="bb_paragraph"></p><p class="bb_paragraph"><img src="https://clan.akamai.steamstatic.com/images/38365286/c596f7946d885d9c2ac1273825a8aedf1a599fcf.png"/></p><p class="bb_paragraph"></p><div class="bb_h1">Warband!</div><p class="bb_paragraph"></p><p class="bb_paragraph">This patch comes with a couple of bug and crash fixes. We are continuing to work on solving the rest of the known issues list for the next patches.</p><p class="bb_paragraph"></p><p class="bb_paragraph"><b>Patch 1.11.3</b> is now being rolled out on all platforms, and while you wait for it to download you can read the notes below!</p><p class="bb_paragraph"><img src="https://clan.akamai.steamstatic.com/images/38365286/e700de79b8874e18ab7140f6074ba98f94e5b7ee.png"/></p><div class="bb_h1">Bug Fixes</div><ul class="bb_ul"><li><p class="bb_paragraph">Fixed an issue that was causing enemies to spawn too early at the start of some missions.</p></li><li><p class="bb_paragraph">Fixed a crash that could happen when a large amount of enemies spawned with additional visual effects added to them.</p></li><li><p class="bb_paragraph">Fixed a crash that could happen while being inside the tornado on Expeditions.</p></li><li><p class="bb_paragraph">Added extra checks to prevent successful Expeditions missions to sometimes register as failures.</p></li></ul><div class="bb_h1">Known Issues</div><ul class="bb_ul"><li><p class="bb_paragraph">When hot-joining an expedition, players might enter the mission as dead if it happened while the existing players were leaving a Sanctuary. </p></li><li><p class="bb_paragraph">Players can use some of the new grenades while inside a Sanctuary. Please be nice to the locals.</p></li><li><p class="bb_paragraph">Some of the new items found in Sanctuaries can’t be tagged.</p></li><li><p class="bb_paragraph">Some textures can bug out when playing on AMD GPUs.</p></li><li><p class="bb_paragraph">Players can hot-join private matches if they enter matchmaking through Quickplay. Fix worked on and coming in future hotfix.</p></li><li><p class="bb_paragraph">\[Xbox Only] Some level and enemy textures can take a while to load, leaving a low-quality texture visible until it finishes loading.</p></li><li><p class="bb_paragraph">We are investigating increased GPU crash rate related to reenabling of FSR frame gen on AMD Radeon RX 9xxx gen.</p></li></ul><p class="bb_paragraph"><img src="https://clan.akamai.steamstatic.com/images/38365286/e700de79b8874e18ab7140f6074ba98f94e5b7ee.png"/></p><p class="bb_paragraph">That’s all for today! </p><p class="bb_paragraph"></p><p class="bb_paragraph">We’ll see you on the Mourningstar. </p><p class="bb_paragraph">– The Darktide Team</p><p class="bb_paragraph"></p>]]></description>
+      <pubDate>Mon, 30 Mar 2026 08:58:18 +0000</pubDate>
+    </item>
+    <item>
       <title>Dev Blog - Expeditions Visual Design &amp; Environment</title>
       <link>https://store.steampowered.com/news/app/1361210/view/497223585377552711</link>
       <description><![CDATA[
@@ -57,23 +69,6 @@ Greetings!<br/> <br/>The Steam Spring Sale is in bloom! From today until 26th of
 X Facebook Instagram Discord [url=https://bsky.app/profile/totalwar.bsky.social 
  style=button]Bluesky[/url]</div>]]></description>
       <pubDate>Thu, 19 Mar 2026 18:02:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Steam Spring Sale NOW ON!</title>
-      <link>https://store.steampowered.com/news/app/1142710/view/490468185936495130</link>
-      <description><![CDATA[
-<style>
-        [data-focus-scheme="dark"] {
-            color-scheme: none;
-        }
-    </style>
-Greetings!<br/> <br/>The Steam Spring Sale is in bloom! From today until 26th of March, you can grab up to 80% off a selection of Total War titles that are guaranteed to put a spring in your step. (sorry)<br/> <br/>
-<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/1142710/" width="850"></iframe>
-<br/>https://store.steampowered.com/app/779340/Total_War_THREE_KINGDOMS/<br/>https://store.steampowered.com/app/201270/Total_War_SHOGUN_2/<br/> <br/>👉 Check out all the deals here 👈<br/> <br/><div class="bb_code"><div class="bb_h3">🕙 Sale ends 26th March @ 10AM PDT/6PM GMT</div></div> <br/>— The <i>Total War</i> Team<br/> <br/><div class="bb_code">For the latest news and announcements, don't forget to visit our official social channels.
-
-X Facebook Instagram Discord [url=https://bsky.app/profile/totalwar.bsky.social 
- style=button]Bluesky[/url]</div>]]></description>
-      <pubDate>Thu, 19 Mar 2026 18:02:14 +0000</pubDate>
     </item>
   </channel>
 </rss>
