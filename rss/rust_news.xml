@@ -3966,6 +3966,2108 @@ using(ServerProfiler.RecordScopeIfSlow("IndustrialQueue",
       <pubDate>Thu, 05 Feb 2026 06:24:00 Z</pubDate>
     </item>
     <item>
+      <title>Shipshape</title>
+      <link>https://rust.facepunch.com/news/shipshape/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
+  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
+   <source src="https://files.facepunch.com/lewis/1b0211b1/rust_shipshape_hero.mp4" type="video/mp4"/>
+   Your browser does not support the video tag.
+  </video>
+ </div>
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <img alt="Shipshape" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b0211b1/shipshape_brand.png"/>
+    <p editname="Summary" type="text">
+     This month's update brings massive improvements to how you live, build, and fight on water and in The Deep Sea. As well as extended daytime, balances, fixes, and quality of life improvements.
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      05 March 2026
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero dark" id="Extendeddaytime">
+  <div class="section" like-handler="LikeBlogSection" like-id="84943" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Extended daytime
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      This month we've extended the amount of time each day has sunlight by around 20 minutes. The duration of night is unchanged (around 10 minutes).
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/27_08-06-RosyAidi/Environment_1_1080.jpg"/>
+     </div>
+     <div>
+      This should hopefully allow for more time for daylight activities while still keeping nighttime tactics viable.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="boatbuildingimprovementsFixes">
+  <div class="section" like-handler="LikeBlogSection" like-id="84934" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       boat building improvements &amp; Fixes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       There have been a ton of small fixes and improvements to player boats and boat building this month. I want to a highlight a few of the more common complaints that have been addressed here in this section.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Boat building blocks can now be rotated and demolished at any time in edit mode - they are no longer subject to the usual 5 minute timer.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/rust_boat_building_deepsea_2_1080.jpg"/>
+     </div>
+     <div>
+      <div style="outline: rgba(139, 195, 74, 0.3) dashed 1px;">
+       The tiny dive site buoys that would bring your full size boat to a complete halt have now been addressed. You may now sail freely!
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       The very annoying issue with sails randomly being destroyed has also been fixed. This was caused by a sail being rotated after initial placement, which sometimes led to them being placed off the edge of a boat. When you then picked something up nearby, the groundwatch triggered and the sails got destroyed. Not any more!
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/ashcoook/1b0411b1/rust_jan2026_boat_deployables_steering_wheel_3_1080.jpg"/>
+     </div>
+     <div>
+      <div>
+       Finally, the Deploy &amp; Edit steering wheel option will now always show, even if the current location is unsuitable. An error toast will be displayed if you try to use it, informing you that you cannot edit in this location. There are many reasons why deploy &amp; edit can be unavailable and most of the time the reason is explained, but this one was missing - which led to a lot of confusion previously. Hopefully this will help clear things up!
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Head to the change list for the full details!
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Deepseachanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84935" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Deep sea changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We made a number of balancing changes and improvements to the Deep Sea.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/dec2025_naval_update_deep_sea_barrier_3_1080.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Loot now respawns slowly over time. The initial loot fill when the Deep Sea opens has been decreased to around 70% of what it was.
+       </li>
+       <li>
+        The side of the map it spawns on is now random after each opening.
+       </li>
+       <li>
+        The deep sea will no longer open right after the server wipes.
+       </li>
+       <li>
+        You can’t go there using RHIBs now.
+       </li>
+       <li>
+        A notification sound will play when the deep sea opens.
+       </li>
+      </ul>
+     </div>
+     <div>
+      <div>
+       All these changes can be configured via new convars.
+      </div>
+      <div>
+       <br/>
+      </div>
+     </div>
+     <div>
+      We’ve also increased the network range from 300 to 620 metres in the Deep Sea, so you can spot ships from much further away. We can’t afford to do that on the mainland because of player and entity density, but out at sea we have enough performance headroom to support it.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/rust_deepsea_render_distance_1080_jpg.jpg"/>
+     </div>
+     <div>
+      Thanks to everyone for sharing their thoughts about their experience with the Deep Sea since its release.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Cannonhitmovementpenalty">
+  <div class="section" like-handler="LikeBlogSection" like-id="84951" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Cannon hit movement penalty
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've added a movement penalty for player built boats that are hit by cannons. Repeated hits can reduce a ship's movement speed to 30% of its maximum speed. We'll keep an eye on how this plays out, but our hope is that this leads to more interesting ship to ship combat as well as some more boarding action.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/02_20-46-VastSardine/rust_jan2026_boat_deployables_cannon_4_1080.jpg"/>
+     </div>
+     <div>
+      We've also buffed the player protection while mounted to cannons so players shouldn't be as vulnerable while using them.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="ElectrictyindustrialandwaterIOOnboats">
+  <div class="section" like-handler="LikeBlogSection" like-id="84932" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Electricty, industrial, and water IO On boats
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      You can now use electricity, industrial and water IO items on boats.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/danieltyler/1b0511b1/march2026_naval_cleanup_boat_IO_1_1080.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div>
+      Almost all the items are available. Some of them are more involved to support than others, for performance or various other reasons. Some of them are blocked purely for gameplay balance concerns.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/march2026_naval_cleanup_boat_IO_2_1080.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/march2026_naval_cleanup_boat_IO_4_1080.jpg"/>
+     </div>
+     <div>
+      <br/>
+      Blocked items:
+     </div>
+     <div>
+      <ul>
+       <li>
+        Auto turret
+       </li>
+       <li>
+        SAM site
+       </li>
+       <li>
+        Windmill
+       </li>
+       <li>
+        CCTV cameras
+       </li>
+       <li>
+        Seismic sensor
+       </li>
+       <li>
+        Hanging lights
+       </li>
+       <li>
+        Door controller, hopper
+       </li>
+      </ul>
+      <div>
+       All subject to change in the future!
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Wallpaperonboats">
+  <div class="section" like-handler="LikeBlogSection" like-id="84933" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Wallpaper on boats
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      You can now use wallpaper on boats, the same way as in your base.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/ashcoook/1b0411b1/rust_boat_wallpaper_deepsea_1_1080.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="destructibleboatwrecks">
+  <div class="section" like-handler="LikeBlogSection" like-id="84936" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       destructible boat wrecks
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Sunken player-built boats can now be damaged block by block, allowing for exploration and loot recovery.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/rust_sunk_boats_1080_jpg.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="playerbuiltboatdecaychanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84940" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       player built boat decay changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      I've made some changes to decay rates, based on player feedback.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <div>
+       Decay delay has been doubled from 12 hours to 24 hours and decay duration has been reduced from 18 hours to 12 hours.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/ashcoook/1b0411b1/rust_sinking_boat_3_1080_jpg.jpg"/>
+     </div>
+     <div>
+      This will mean players can stay offline for longer without their boat decaying, but abandoned boats will decay quicker.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      As a reminder, a player boat is only classed as used when it receiving steering wheel input.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="StorageBoxPackDLC">
+  <div class="section" like-handler="LikeBlogSection" like-id="84941" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Storage Box Pack DLC
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-ffc51d96-7fff-899f-6c96-adb287367992">
+       <p dir="ltr">
+        <span id="docs-internal-guid-e870edf1-7fff-bf17-d784-d708728c1b67">
+         <span>
+          Shipping this month is the Storage Box Pack, a packed-out collection of 16 uniquely designed and labelled skins for the Large Wood Box. Featuring bespoke and beautiful designs for Ammo, Armor, Charcoal, Clothing, Components, Explosives, Food, Guns, Meds, Metal, Ore, Scrap, Stone, Sulfur, Tools and Wood.
+         </span>
+        </span>
+       </p>
+       <div>
+        <span>
+        </span>
+       </div>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/feb2026_rust_storage_boxset_DLC_hero_01_landscape_1080.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-alignment="default" data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_explosives_02.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/rust_charcoal_box_1_1080.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_sulfur_02.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_metal_02.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/rust_meds_box_3_1080.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/rust_comps_box_2_1080.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_ammo_03.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_stone_03.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_wood_03.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_clothing_02.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_guns_01.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_armour_01.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_tools_02.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_scrap_03.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_wood_01.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/rust_food_box_2_1080.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      <span id="docs-internal-guid-083afecd-7fff-cb40-7cbb-a3ee5415a740">
+       <p dir="ltr">
+        <span>
+         Get them boxed up from the in-game store or from the
+        </span>
+        <span>
+         <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10435/">
+          Rust item store!
+         </a>
+        </span>
+       </p>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="DeployableSnappingonboats">
+  <div class="section" like-handler="LikeBlogSection" like-id="84942" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Deployable Snapping on boats
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      You can now use deployable snapping on player built boats!
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/march2026_naval_cleanup_boat_deployable_snapping_1_1080.jpg"/>
+     </div>
+     <div>
+      This works as you'd expect. Hold a relevant deployable and left shift whilst on a player boat. This works for the exact same set of deployables as it does on land.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/march2026_naval_cleanup_boat_deployable_snapping_2_1080.jpg"/>
+     </div>
+     <div>
+      <br/>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="PlayerboatAImsway">
+  <div class="section" like-handler="LikeBlogSection" like-id="84944" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Player boat AIm sway
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've added a moderate amount of ADS aim sway while on player built boats, scaled by the speed of the boat. Ideally this encourages the use of cannons over traditional weapons, but doesn't entirely rule out some poorly aimed rockets and AK spray.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/rust_boat_firing_deepsea_3_1080%20%281%29.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="PaintingLineTool">
+  <div class="section" like-handler="LikeBlogSection" like-id="84948" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Painting Line Tool
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Just like the line tool from back in the day, but updated for modern day Rust standards. You can now draw lines while painting by holding shift and dragging a click to paint a line!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      While there's nothing more beautiful to us than the freehand drawing that took seconds to make, we think this tool could benefit the people who really go all out in making masterpieces.
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/ashcoook/1b0411b1/COMPRESSED_rust_line_painting_16x9_h264.mp4">
+       <source src="https://files.facepunch.com/elliot.h/1b0311b1/Unity_LZVKXpyqEa.mp4" type="video/mp4"/>
+      </video>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Deepseaboatbuilding">
+  <div class="section" like-handler="LikeBlogSection" like-id="84949" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Deep sea boat building
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've added a static Boat Building Station to every Deep Sea island, allowing you to make repairs and modifications while at sea.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/rust_boat_building_deepsea_1_1080%20%281%29.jpg"/>
+     </div>
+     <div>
+      These static stations also have a slight magnet force that pulls your ship in as long as it's powered down and nearby, making it easier to dock.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Navalscientistimprovements">
+  <div class="section" like-handler="LikeBlogSection" like-id="84950" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Naval scientist improvements
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We made it so that naval scientists
+      <b>
+       can't see through the smoke
+      </b>
+      from smoke grenades anymore.
+     </div>
+     <div>
+      If this works well we'll port the same soft occlusion tech to prevent them from seeing through bushes, which would be extra nice for the junkpile scientist once he gets the new AI.
+      <br/>
+      <br/>
+      <div style="min-height: 16px; outline: rgba(139, 195, 74, 0.3) dashed 1px;">
+       There's been a bug in Rust since the very beginnings where the hazmat would give
+       <b>
+        no protection
+       </b>
+       against scientists or turrets. Turned out a lot of other armors actually performed worse than expected.
+      </div>
+      <div style="min-height: 16px;">
+       We updated the formula but only for naval scientists for now, as rebalancing turret damage is a gigantic can of worms.
+      </div>
+      <div style="min-height: 16px;">
+       <i>
+        tldr: Against naval scientist hazmat goes from 5% to 30% protection, and fullmetal from 25% to 50%
+       </i>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/maverick/1b0411b1/rust_scientist_smoke_1080_jpg.jpg"/>
+     </div>
+     <div>
+      Naval scientists missed a lot but had high damage.
+     </div>
+     <div>
+      We changed it so that they
+      <b>
+       miss less but have lower damage
+      </b>
+      .
+     </div>
+     <div>
+      What this means is that you'll have more time to see your health ticking down and get in cover, as opposed to big chunks of health disappearing intermittently.
+      <br/>
+      <br/>
+      Unlike regular scientists naval scientists did not have
+      <b>
+       flashlight and lasersights
+      </b>
+      . We gave them some so it'll be easier to fight them at night.
+      <br/>
+      <br/>
+      There were a lot of rough corners to the scientists
+      <b>
+       reactions to sniping from extreme distance
+      </b>
+      .
+     </div>
+     <div>
+      They will be more responsive now, and will reposition if they hear bullets coming from other angles.
+     </div>
+     <div>
+      Previously at long range they would only reposition if they were hit or saw you flank them.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      We'll keep monitoring the naval scientists performance and gameplay wise, before we start porting their AI to the scientists at other monuments.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="AnticheatTPM20andSecureBootEnforcement">
+  <div class="section" like-handler="LikeBlogSection" like-id="84954" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Anticheat: TPM 2.0 and Secure Boot Enforcement
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <h2>
+      SERVER owners
+     </h2>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Servers can now opt-in to requiring TPM and Secure Boot enabled for players to connect to them. This allows EAC to work better but not all players have it set up. Over 80% of players have TPM hardware already but just under 60% of players have Secure Boot enabled right now.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Servers that require TPM and Secure Boot for all players will have the Secure tag shown on the server browser. Clicking on a server with additional requirements will show you what is required and if it is supported on your system.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      We will be enforcing this on a few Facepunch servers for the initial test period.  Community servers will be able to enforce this at-will.  Just look for the "
+      <b>
+       Secure
+      </b>
+      " tag in the server browser.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      To require TPM and Secure Boot for all players and get the Secure tag you can enable the
+      <i>
+       <span>
+        server
+       </span>
+       .useServerWideRequiredSystemConfig
+      </i>
+      convar.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Additionally, we are working on backend systems to require TPM, Secure Boot, and more for individual accounts. Servers can opt-in to enforcing these per-player requirements by enabling the
+      <i>
+       <span>
+        server
+       </span>
+       <span>
+        .
+       </span>
+       <span>
+        usePerPlayerRequiredSystemConfig
+       </span>
+      </i>
+      convar. Note that this will not apply the Secure tag to your server - that will only show if it is enforced for all players.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Please note, the following Facepunch servers are testing Secure:
+      <br/>
+      <div>
+       <ul>
+        <li>
+         EU 3
+        </li>
+        <li>
+         EU East 3
+        </li>
+        <li>
+         EU 14
+        </li>
+        <li>
+         EU Large 2
+        </li>
+        <li>
+         US West 3
+        </li>
+        <li>
+         US East 3
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      PLAYERS
+     </h2>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Players can check to see if their PC is compatible by running a couple of Windows commands.  If you have a PC from the last ~8 years It's likely your PC is already running it or equipped to run it.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <a class="" href="https://support.facepunchstudios.com/hc/en-us/articles/34396134943389-How-to-Turn-On-TPM-Secure-Boot">
+       Here's a guide
+      </a>
+      on how to check for and/or enable TPM/Secure Boot on your PC.  It's good to familiarize yourself with it, as many games are already enforcing this.  Our end goal is to make it global in the future.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      We will communicate more about this timeline in future devblogs.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="ShadowSettingsRework">
+  <div class="section" like-handler="LikeBlogSection" like-id="84952" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Shadow Settings Rework
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The Shadow settings have been reworked to be part of a Shadow Quality preset setting that can be found under the Graphics Quality section of the Graphics menu. We no longer have a specific section under the Graphics tab for Shadow Settings, as it's no longer needed.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2025/1B08/softcore_deployablecorpses_01.jpg"/>
+     </div>
+     <div>
+      The Max Shadow Lights setting has been moved to the Rendering section of the Graphics menu, as we still wanted this to be separate from the new presets. Max Shadow Lights has also had its minimum value changed to 1 to prevent light-leaking issues.
+     </div>
+     <div>
+      <br/>
+      This has been done to allow us to have more control over the performance and visual balance of the shadow settings, while making it easier for players to configure.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Removed64kColliderLimit">
+  <div class="section" like-handler="LikeBlogSection" like-id="84946" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Removed 64k Collider Limit
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The physics library that Unity uses, PhysX, has always had a limitation that only around 64,000 colliders are allowed to be within a broadphase cell, the entire world is split into 256 of these cells (16x16).As the world got a lot bigger with the naval update the size of these cells also had to increase, meaning a lot more colliders per cell.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/paddy/20250203/medieval_catapult_02.jpg"/>
+     </div>
+     <div>
+      As we now use a custom version of Unity, using a custom version of PhysX, for both the server and client, we have more control over limitations like this.
+     </div>
+     <div>
+      <br/>
+      There is now effectively no limit to the number of colliders that are allowed in each broadphase cell. There is a theoretical limit of around 4 billion colliders per cell, but you would hit performance bottlenecks long before that.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Missionserverperformanceimprovements">
+  <div class="section" like-handler="LikeBlogSection" like-id="84953" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Mission server performance improvements
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Alongside the new missions introduced with the naval update was a bunch of general misc changes to how missions function on the backend and code cleanup in an effort to make missions easier for us to work with and fix some longstanding issues with them.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      One of those longstanding issues was a problem with how we would find which missions are valid and able to be accepted by players. We need to have this information on hand for each player whenever they open their map due to the mission provider map markers showing how many missions are available and where, and to have the correct dialogue options show up when we go to talk with these mission provider NPC's.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/martynchapman/2026/March/04_11-53-HeftyAddax.png"/>
+     </div>
+     <div>
+      <div>
+       The problem with how this worked before was that we would have the client try to figure out what missions are available for the mission map markers and dialogue options, with the server then checking if a mission is definitely valid for that player when a player tries to accept and start a mission.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       This led to scenarios where there could be discrepancies between what the client and server see as a valid mission for that player, due to the client not having access to all the same information that the server has. Where there was a discrepancy, a client could see inaccurate mission map markers and could try to select dialogue options to start missions but would then be booted out the conversation without understanding why.
+      </div>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/martynchapman/2026/March/04_12-09-DarkslateblueStud.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <div>
+       The idea to fix this was to consolidate this mission validation 
+work to run on the server. To be smart and performant about it, we now 
+have a mission validation "work queue" (a pattern we use to load-balance
+ tasks across frames instead of running many tasks in one frame, to 
+avoid frametime spikes).
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       The work queue figures out which missions could
+ potentially be accepted by anyone on the server (do the required 
+entities exist, is there a valid spawn point for an entity which the 
+mission spawns, etc), so all players are able to pull from the same 
+information here rather than having a different work queue run for each 
+player. This work queue attempts to run any time a player needs to know 
+what missions are valid, but with a fixed cooldown. If the work queue is
+ in cooldown, then the player which requested an update instead receives
+ the last calculated valid states for each mission.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       After
+ releasing the naval update, we were seeing that this new work queue was
+ too expensive. We were also seeing some expensive RPC frametime spikes 
+when players go to talk to NPC's (when a player talks to an NPC, the 
+server performs a complete revalidation of that NPC's missions and 
+checks that specific players mission prerequisites, so that they have 
+the most up to date information to display the correct dialogue 
+options). Data from our EU Staging server shows that the work queue was 
+second place in terms of time spent executing (data captured across 7 
+days after the naval staging wipe). It was also accounting for up to 6% of our total frametime.
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/martynchapman/2026/March/03_19-35-GummyHammerheadbird.png"/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/martynchapman/2026/March/03_15-38-LumberingHoverfly.png"/>
+     </div>
+     <div>
+      Profiling this showed that the most expensive part of the work queue was for trying to generate points for missions which create generate random positions in specific biome/topology areas of the map, with one position generation taking in the range of 5-6ms.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      To summarise, part of that process would iterate over thousands of potential areas of the map, before passing these initially found potential areas to a second filter, pulling randomly until we find one which we can generate a valid position from. This is something which would have always been problematic every time we started one of those types of missions, but was only exposed in this way because we moved the work to run in a work queue, and more frequently than before as we are now polling the mission regularly rather than only when a player tries to start that mission.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/dashfiles/bbcad332-86c5-44ed-819a-a82743a657df/image.png"/>
+     </div>
+     <div>
+      Put simply, the optimisation was to instead of always iterating through thousands of areas, pull all these potential areas into a basic indexed data structure once as part of the servers bootstrap process, and when we need a position pull randomly from that preallocated data structure until we find a valid area. In testing, this showed at worst case we would test a few hundred areas instead of always at least a few thousand.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Profiling after this change shows that the cost of the task is now down to around 0.15-0.275ms, bringing down the total cost of the work queue (across all frames) down from around 20ms to 1.5ms. Our EU Staging performance data across 7 days after the change shows that the work queue has now fallen right down the list of total time spent executing, and is now accounting for only up to 0.15% of total frametime. The change also resolved the lag spikes created from talking to mission provider NPC's.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/martynchapman/2026/March/03_19-12-AptKilldeer.png"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/martynchapman/2026/March/03_16-39-ColorfulNene.png"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/martynchapman/2026/March/03_17-03-OverdueChanticleer.png"/>
+     </div>
+     <div>
+      This was a slightly lengthier writeup but I hope it gave some insight as to the context for this specific problem, and how these problems come up and how we resolve them. It is also a good example of a problematic system which can end up being in a game for years, but is only exposed because we happen to try to utilise it in a different way from before.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Collidercounts">
+  <div class="section" like-handler="LikeBlogSection" like-id="84945" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Collider counts
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      To help ease the burden on the phsyics system this month I've taken a look at some of the worst offending parts of our game in terms of collider counts. These are important - we want accurate colliders for a variety of gameplay reasons, but the quantity and detail level of the colliders can be a drain on server performance, memory use and contributed to the 64k limit mentioned above.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      After receiving some helpful breakdowns from a few community servers I made some specific changes that should help our most collider heavy environments.
+     </div>
+     <div>
+      <ul>
+       <li>
+        Vine swinging trees use 6-9 less colliders (depending on which variation is spawned)
+       </li>
+       <li>
+        Collectable plants in the world (Hemp, Wheat, Pumpkins, berries, etc) no longer have a collider on the server, just the client. It's needed on the client to allow the player to interact with them, but not needed on the server.
+       </li>
+       <li>
+        Plants growing in planters have also had the server colliders removed. Sprinklers, heaters and environmental factors are calculated by the planter rather than every individual plant, so this should have no gameplay changes.
+       </li>
+      </ul>
+      <div>
+       The first point should make the Jungle biome a lot less collider heavy, while the other two points will help across the whole map as well as in heavy farming bases.
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="WindowsMIDIupdates">
+  <div class="section" like-handler="LikeBlogSection" like-id="84955" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Windows MIDI updates
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've discovered in the last week that Windows is rolling out a new MIDI interface that seems to be incompatible with the implementation in Rust. This is sometimes resulting in a constant increase of virtual MIDI devices that degrades client performance over time.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      We would recommend disabling these commands if you are on the latest Windows updates and have used MIDI commands in Rust in the past:
+      <b>
+       midiconvar.enabled
+      </b>
+      and
+      <b>
+       global.processmidiinput
+      </b>
+      .
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/instruments_junkyard_drum_kit.jpg"/>
+     </div>
+     <div>
+      This will unfortunately
+      <b>
+       stop devices like MIDI instruments
+      </b>
+      and Stream Decks working with Rust. We are investigating a fix as a priority as we use these tools internally quite a bit.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="newworkshopskinnableBBQ">
+  <div class="section" like-handler="LikeBlogSection" like-id="84937" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       new workshop skinnable: BBQ
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-1fd7365c-7fff-898d-4717-e4156b55d7ae">
+       <p dir="ltr">
+        <span>
+         This month’s workshop skinnable is the Barbeque
+        </span>
+       </p>
+       <p dir="ltr">
+        <span>
+         Put another human meat on the barbie with this popular request from the skinning community. The possibilities are endless!
+        </span>
+       </p>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b2411b1/24_13-06-HatefulJoey.jpg"/>
+     </div>
+     <div>
+      <p dir="ltr">
+       <span>
+        To make your own BBQ skin, head over to the in-game workshop and locate the Barbeque deployable item. From there, you can download the model file and add your own materials.
+       </span>
+      </p>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="rust2026Roadmap">
+  <div class="section" like-handler="LikeBlogSection" like-id="84930" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       rust 2026 Roadmap
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The journey for Rust doesn’t stop here.
+      <br/>
+      <br/>
+      Rust is evolving throughout 2026, with new challenges and changes on the horizon. Here's a current snapshot of this year's roadmap.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/image%20%283%29.png"/>
+     </div>
+     <div>
+      <p>
+       It's also viewable here where it will be updated as we progress through the year's patches:
+      </p>
+      <a class="selected" href="https://rust.facepunch.com/roadmap" target="_blank">
+       https://rust.facepunch.
+       <wbr/>
+       com/roadmap
+      </a>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="TheArtofRustartbook">
+  <div class="section" like-handler="LikeBlogSection" like-id="84931" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       The Art of Rust - art book
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Launching this month is The Art of Rust. A book takes you behind the scenes with a curated collection of concept art, early explorations, environment designs, and visual development that helped define Rust’s unmistakable style.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://www.darkhorse.com/books/3009-843/art-of-rust-hc/">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/rust_book_2.jpg"/>
+      </a>
+     </div>
+     <div>
+      From the first sketches of iconic monuments to the detailed artwork behind your favourite loot, this is a deep dive into the creative process that built the world you’ve survived in for years.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://www.darkhorse.com/books/3009-843/art-of-rust-hc/">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/rust_ali_book_3.jpg"/>
+      </a>
+     </div>
+     <div>
+      Whether you’re a long-time player, a creator, or someone who appreciates game art,
+      <span data-end="896" data-start="877">
+       The Art of Rust
+      </span>
+      captures 12 years of visual evolution in one beautifully crafted, hardback book.
+      <br/>
+      <br/>
+      Get yours
+      <a class="selected" href="https://www.darkhorse.com/books/3009-843/art-of-rust-hc/" target="https://www.darkhorse.com/books/3009-843/art-of-rust-hc/">
+       here
+      </a>
+      .
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Shipshape
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Naval Cleanup
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Thursday, March 5, 2026
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
+    </div>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Increased day time
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Electricity, industrial and water IO items deployable on boats
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Wallpaper on player boats
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added boat building stations to Deep Sea Islands
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added some aim sway when aiming weapons on moving boats
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Painting Line Tool
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improve deep sea spawning performance
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved water junkpile spawning performance
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Increased network range in the deep sea (300m to 640m)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Deep sea is now closed when the server just wiped
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved wanted posters performance
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved toast messages performance
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved wallpaper performance
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved player boat drag-by-angle calculations
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved visuals when shooting cannons
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Cannons now provide some protection to the player
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          If a player cannot spawn on the default spawn beach they will now spawn at a Fishing Village or Harbor
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Planter interact options are now always visible but disabled
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improves sail placement guide, now goes yellow if the sail being placed will block another
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved performance of UsePlayerUpdateJobs 2 by fixing duplication of entity snapshots
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved performance of GamePhysics.TraceSpheres, GamePhysics.TraceSpheresUnordered, GamePhysics.VerifySpheres (scales better than serial counterparts around 32 queries)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Sunken player boats are now destructible
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Cannon hits will now slow down boats
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Player boat decay delay increased. Decay duration decreased
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Player boat blocks can be rotated or demolished at any time in edit mode. Removed the timer
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Unified health display for player boats so the behaviour is more consistent across all the parts
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          More feedback for "Deploy &amp; Edit" option when it is unavailable due to location
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved clarity for icons of AND, OR and XOR IO switches
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added particle controls to skin workshop, only BBQ currently supported
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added animator controls to skin workshop, only BBQ currently supported
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added painting menu rotation visualizer tool, with toggle to disable
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reworked redundant painting reset rotation button to "flatten" rotation, preserving roll and panning only.
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Saving signs with "Hide Signs" option enabled will pop up a confirmation warning that you might be overwriting existing artwork
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added ConVar for painting autosave timer configuration “client.autosavepaintinginterval &lt;timer&gt;”
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added ConVar to support brush sizes greater than 100 “paint.maxbrushsize &lt;number&gt;”
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Optimised mission WorldPositionGenerator, in turn improving performance of UpdateMissionValidStateWorkQueue and talking to mission provider NPC's
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          UpdateMissionValidStateWorkQueue now keeps a record of the last time it validated each mission to avoid revalidating missions if still in cooldown
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Exposed ServerVar's for 'missionValidStateWorkQueueCooldown' and 'missionPerValidStateCooldown' to customise how often the UpdateMissionValidStateWorkQueue should run tasks, tradeoff with accuracy of available mission map markers on clients
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added ServerVar's 'resetmissions' and 'resetmissions_all' to reset missions progress for a target player or all players, leaving rest of playerstate intact
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Updated deploy animations for building planner and wallpaper tool
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Paintball overalls item icon now updates with the currently applied colour
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Server runtime_profiling gathers more stats from various job queues
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed UIDeepSeaPortalMarker NRE
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed demo.browser command not working since the new main menu
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Swedish language not selectable in the option menu
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Restored the warning popup when logging off from a safe zone
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to deploy signs on door placed on boats
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed demo recorder menu missing texts
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed rugs and bear rugs placeable on cargo and harbour bridge
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed game tip never showing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed bulb string light rotation issue when deployed on ceilings and floors
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed deploy interaction not showing up on string lights sometimes
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed auto turrets not targeting players when close to doors sometimes
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some performance issues when playing the video in the settings menu
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed gibs missing textures for some skinned deployables
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed boats becoming bricked when sleeping in storm conditions
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some player clipping issues with water junkpiles
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed aim jitter when reloading and firing cannons at high ping
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved memory usage of tropical and tutorial islands, saves 130mb on client and server
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an edge case that would prevent sleeping players from getting killed in safe zones after a server restart
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed UI spacing issue when snapshotting a container with less than 5 items for sorting
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Skinned entities will now always despawn after the same amount of time as their base item when dropped
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed not being able to mount the new AI on Oil Rigs to Trophies
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an entity leak when saving server state - persistent items are no longer saved if part of transient item container
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed ~40 cases of server pool leaks
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed bot IDs being incorrectly reused when loading a save
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed TriggerParent volumes sometimes sleeping when it shouldn't
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a thread race condition in GamePhysics.SortDeferred
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed perfsnapshot/_stream crashing if ran again while snapshot is being exported (now warns that it's busy)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Worked around perfsnapshot/_stream failing to export due to system memory stats being corrupted (disabled mem stats gathering)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed C4 issues with Boat Building Stations
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed getting stuck in the Boat Building Station umbrella
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed player boats getting stuck on dive site buoys
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed boat stairs having the incorrect protection properties
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed deployables on upside down boats
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an issue where boat building stations could get locked in cooldown mode during a save
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Boat Building Station and player boats not having ownerid set correctly
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed sails that have been rotated after placement sometimes getting destroyed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the incorrect icon being shown for the "Rotate" sail option
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being able to briefly edit a sinking boat
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed immortal entities showing health information
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Large Oil Rig vent openings causing projectile invalids
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Large Oil Rig confusing black barrel props to instead be yellow/red
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed mannequins displaying the wrong paintball overalls colour
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a null reference exception which could occur when quickly swapping between paintball guns
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Paintball guns in turrets now deal extra damage to players wearing paintball overalls
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Paintball guns in turrets now retain their last applied colour
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Paintball impact effects now ignore max spawn distance if instigated by the local player (same as other impact effects)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Server memory optimisations relating to projectiles
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          UpdateMissionValidStateWorkQueue no longer validates tutorial missions
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed mission map markers initially not being visible when first opening the map
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed wolves not incrementing towards the Wildlife Cull mission
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Gone Killing mission now fails if the deep sea closes
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Beep in the Deep mission progress becoming stuck if player disconnects after finding but not opening the treasure chest
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Storage Monitor and Hopper draw distances being too far
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a multitude of items partially deployable in walls
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some missing currency symbol in the store
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed owned items still showing up at the top of the limited and featured store when featured
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed limited store countdown showing "Refreshed in 6 days" when the skins are late
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed "Placing through walls" error popping up when you're placing doors sometimes, when you're clearly not placing them through walls
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed BBQ and garage door gibs not being skinned
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed performance issues with the video tooltips in the settings menu
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row removed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         remove_circle
+        </i>
+       </span>
+       <h3>
+        Removed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Removed obsolete Facepunch.Pool APIs (GetList, FreeList, FreeListAndItems, ClearList, FreeMemoryStream)
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row known-issues">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         error
+        </i>
+       </span>
+       <h3>
+        Known Issues
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          MIDI support appears to be broken on Windows 11 24h2 and 25h2
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 05 Mar 2026 18:50:00 Z</pubDate>
+    </item>
+    <item>
       <title>Spring Clean</title>
       <link>https://rust.facepunch.com/news/spring-clean/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -6193,2108 +8295,6 @@ using(ServerProfiler.RecordScopeIfSlow("IndustrialQueue",
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 02 Apr 2026 18:59:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Shipshape</title>
-      <link>https://rust.facepunch.com/news/shipshape/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
-  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
-   <source src="https://files.facepunch.com/lewis/1b0211b1/rust_shipshape_hero.mp4" type="video/mp4"/>
-   Your browser does not support the video tag.
-  </video>
- </div>
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <img alt="Shipshape" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b0211b1/shipshape_brand.png"/>
-    <p editname="Summary" type="text">
-     This month's update brings massive improvements to how you live, build, and fight on water and in The Deep Sea. As well as extended daytime, balances, fixes, and quality of life improvements.
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      05 March 2026
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero dark" id="Extendeddaytime">
-  <div class="section" like-handler="LikeBlogSection" like-id="84943" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Extended daytime
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      This month we've extended the amount of time each day has sunlight by around 20 minutes. The duration of night is unchanged (around 10 minutes).
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/27_08-06-RosyAidi/Environment_1_1080.jpg"/>
-     </div>
-     <div>
-      This should hopefully allow for more time for daylight activities while still keeping nighttime tactics viable.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="boatbuildingimprovementsFixes">
-  <div class="section" like-handler="LikeBlogSection" like-id="84934" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       boat building improvements &amp; Fixes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <div>
-       There have been a ton of small fixes and improvements to player boats and boat building this month. I want to a highlight a few of the more common complaints that have been addressed here in this section.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Boat building blocks can now be rotated and demolished at any time in edit mode - they are no longer subject to the usual 5 minute timer.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/rust_boat_building_deepsea_2_1080.jpg"/>
-     </div>
-     <div>
-      <div style="outline: rgba(139, 195, 74, 0.3) dashed 1px;">
-       The tiny dive site buoys that would bring your full size boat to a complete halt have now been addressed. You may now sail freely!
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       The very annoying issue with sails randomly being destroyed has also been fixed. This was caused by a sail being rotated after initial placement, which sometimes led to them being placed off the edge of a boat. When you then picked something up nearby, the groundwatch triggered and the sails got destroyed. Not any more!
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/ashcoook/1b0411b1/rust_jan2026_boat_deployables_steering_wheel_3_1080.jpg"/>
-     </div>
-     <div>
-      <div>
-       Finally, the Deploy &amp; Edit steering wheel option will now always show, even if the current location is unsuitable. An error toast will be displayed if you try to use it, informing you that you cannot edit in this location. There are many reasons why deploy &amp; edit can be unavailable and most of the time the reason is explained, but this one was missing - which led to a lot of confusion previously. Hopefully this will help clear things up!
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       Head to the change list for the full details!
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="Deepseachanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84935" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Deep sea changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We made a number of balancing changes and improvements to the Deep Sea.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/dec2025_naval_update_deep_sea_barrier_3_1080.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <ul>
-       <li>
-        Loot now respawns slowly over time. The initial loot fill when the Deep Sea opens has been decreased to around 70% of what it was.
-       </li>
-       <li>
-        The side of the map it spawns on is now random after each opening.
-       </li>
-       <li>
-        The deep sea will no longer open right after the server wipes.
-       </li>
-       <li>
-        You can’t go there using RHIBs now.
-       </li>
-       <li>
-        A notification sound will play when the deep sea opens.
-       </li>
-      </ul>
-     </div>
-     <div>
-      <div>
-       All these changes can be configured via new convars.
-      </div>
-      <div>
-       <br/>
-      </div>
-     </div>
-     <div>
-      We’ve also increased the network range from 300 to 620 metres in the Deep Sea, so you can spot ships from much further away. We can’t afford to do that on the mainland because of player and entity density, but out at sea we have enough performance headroom to support it.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/rust_deepsea_render_distance_1080_jpg.jpg"/>
-     </div>
-     <div>
-      Thanks to everyone for sharing their thoughts about their experience with the Deep Sea since its release.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="Cannonhitmovementpenalty">
-  <div class="section" like-handler="LikeBlogSection" like-id="84951" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Cannon hit movement penalty
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've added a movement penalty for player built boats that are hit by cannons. Repeated hits can reduce a ship's movement speed to 30% of its maximum speed. We'll keep an eye on how this plays out, but our hope is that this leads to more interesting ship to ship combat as well as some more boarding action.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/02_20-46-VastSardine/rust_jan2026_boat_deployables_cannon_4_1080.jpg"/>
-     </div>
-     <div>
-      We've also buffed the player protection while mounted to cannons so players shouldn't be as vulnerable while using them.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="ElectrictyindustrialandwaterIOOnboats">
-  <div class="section" like-handler="LikeBlogSection" like-id="84932" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Electricty, industrial, and water IO On boats
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      You can now use electricity, industrial and water IO items on boats.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/danieltyler/1b0511b1/march2026_naval_cleanup_boat_IO_1_1080.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      Almost all the items are available. Some of them are more involved to support than others, for performance or various other reasons. Some of them are blocked purely for gameplay balance concerns.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/march2026_naval_cleanup_boat_IO_2_1080.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/march2026_naval_cleanup_boat_IO_4_1080.jpg"/>
-     </div>
-     <div>
-      <br/>
-      Blocked items:
-     </div>
-     <div>
-      <ul>
-       <li>
-        Auto turret
-       </li>
-       <li>
-        SAM site
-       </li>
-       <li>
-        Windmill
-       </li>
-       <li>
-        CCTV cameras
-       </li>
-       <li>
-        Seismic sensor
-       </li>
-       <li>
-        Hanging lights
-       </li>
-       <li>
-        Door controller, hopper
-       </li>
-      </ul>
-      <div>
-       All subject to change in the future!
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="Wallpaperonboats">
-  <div class="section" like-handler="LikeBlogSection" like-id="84933" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Wallpaper on boats
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      You can now use wallpaper on boats, the same way as in your base.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/ashcoook/1b0411b1/rust_boat_wallpaper_deepsea_1_1080.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="destructibleboatwrecks">
-  <div class="section" like-handler="LikeBlogSection" like-id="84936" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       destructible boat wrecks
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Sunken player-built boats can now be damaged block by block, allowing for exploration and loot recovery.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/rust_sunk_boats_1080_jpg.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="playerbuiltboatdecaychanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84940" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       player built boat decay changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      I've made some changes to decay rates, based on player feedback.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <div>
-       Decay delay has been doubled from 12 hours to 24 hours and decay duration has been reduced from 18 hours to 12 hours.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/ashcoook/1b0411b1/rust_sinking_boat_3_1080_jpg.jpg"/>
-     </div>
-     <div>
-      This will mean players can stay offline for longer without their boat decaying, but abandoned boats will decay quicker.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      As a reminder, a player boat is only classed as used when it receiving steering wheel input.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="StorageBoxPackDLC">
-  <div class="section" like-handler="LikeBlogSection" like-id="84941" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Storage Box Pack DLC
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-ffc51d96-7fff-899f-6c96-adb287367992">
-       <p dir="ltr">
-        <span id="docs-internal-guid-e870edf1-7fff-bf17-d784-d708728c1b67">
-         <span>
-          Shipping this month is the Storage Box Pack, a packed-out collection of 16 uniquely designed and labelled skins for the Large Wood Box. Featuring bespoke and beautiful designs for Ammo, Armor, Charcoal, Clothing, Components, Explosives, Food, Guns, Meds, Metal, Ore, Scrap, Stone, Sulfur, Tools and Wood.
-         </span>
-        </span>
-       </p>
-       <div>
-        <span>
-        </span>
-       </div>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/feb2026_rust_storage_boxset_DLC_hero_01_landscape_1080.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
-      <gallery data-gallery-alignment="default" data-gallery-style="medium">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_explosives_02.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/rust_charcoal_box_1_1080.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_sulfur_02.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_metal_02.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/rust_meds_box_3_1080.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/rust_comps_box_2_1080.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_ammo_03.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_stone_03.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_wood_03.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_clothing_02.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_guns_01.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_armour_01.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_tools_02.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_scrap_03.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/marchDLC_largebox_wood_01.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0211b1/rust_food_box_2_1080.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      <span id="docs-internal-guid-083afecd-7fff-cb40-7cbb-a3ee5415a740">
-       <p dir="ltr">
-        <span>
-         Get them boxed up from the in-game store or from the
-        </span>
-        <span>
-         <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10435/">
-          Rust item store!
-         </a>
-        </span>
-       </p>
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="DeployableSnappingonboats">
-  <div class="section" like-handler="LikeBlogSection" like-id="84942" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Deployable Snapping on boats
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      You can now use deployable snapping on player built boats!
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/march2026_naval_cleanup_boat_deployable_snapping_1_1080.jpg"/>
-     </div>
-     <div>
-      This works as you'd expect. Hold a relevant deployable and left shift whilst on a player boat. This works for the exact same set of deployables as it does on land.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/march2026_naval_cleanup_boat_deployable_snapping_2_1080.jpg"/>
-     </div>
-     <div>
-      <br/>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="PlayerboatAImsway">
-  <div class="section" like-handler="LikeBlogSection" like-id="84944" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Player boat AIm sway
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've added a moderate amount of ADS aim sway while on player built boats, scaled by the speed of the boat. Ideally this encourages the use of cannons over traditional weapons, but doesn't entirely rule out some poorly aimed rockets and AK spray.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/rust_boat_firing_deepsea_3_1080%20%281%29.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="PaintingLineTool">
-  <div class="section" like-handler="LikeBlogSection" like-id="84948" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Painting Line Tool
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Just like the line tool from back in the day, but updated for modern day Rust standards. You can now draw lines while painting by holding shift and dragging a click to paint a line!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      While there's nothing more beautiful to us than the freehand drawing that took seconds to make, we think this tool could benefit the people who really go all out in making masterpieces.
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/ashcoook/1b0411b1/COMPRESSED_rust_line_painting_16x9_h264.mp4">
-       <source src="https://files.facepunch.com/elliot.h/1b0311b1/Unity_LZVKXpyqEa.mp4" type="video/mp4"/>
-      </video>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="Deepseaboatbuilding">
-  <div class="section" like-handler="LikeBlogSection" like-id="84949" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Deep sea boat building
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've added a static Boat Building Station to every Deep Sea island, allowing you to make repairs and modifications while at sea.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/rust_boat_building_deepsea_1_1080%20%281%29.jpg"/>
-     </div>
-     <div>
-      These static stations also have a slight magnet force that pulls your ship in as long as it's powered down and nearby, making it easier to dock.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="Navalscientistimprovements">
-  <div class="section" like-handler="LikeBlogSection" like-id="84950" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Naval scientist improvements
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We made it so that naval scientists
-      <b>
-       can't see through the smoke
-      </b>
-      from smoke grenades anymore.
-     </div>
-     <div>
-      If this works well we'll port the same soft occlusion tech to prevent them from seeing through bushes, which would be extra nice for the junkpile scientist once he gets the new AI.
-      <br/>
-      <br/>
-      <div style="min-height: 16px; outline: rgba(139, 195, 74, 0.3) dashed 1px;">
-       There's been a bug in Rust since the very beginnings where the hazmat would give
-       <b>
-        no protection
-       </b>
-       against scientists or turrets. Turned out a lot of other armors actually performed worse than expected.
-      </div>
-      <div style="min-height: 16px;">
-       We updated the formula but only for naval scientists for now, as rebalancing turret damage is a gigantic can of worms.
-      </div>
-      <div style="min-height: 16px;">
-       <i>
-        tldr: Against naval scientist hazmat goes from 5% to 30% protection, and fullmetal from 25% to 50%
-       </i>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/maverick/1b0411b1/rust_scientist_smoke_1080_jpg.jpg"/>
-     </div>
-     <div>
-      Naval scientists missed a lot but had high damage.
-     </div>
-     <div>
-      We changed it so that they
-      <b>
-       miss less but have lower damage
-      </b>
-      .
-     </div>
-     <div>
-      What this means is that you'll have more time to see your health ticking down and get in cover, as opposed to big chunks of health disappearing intermittently.
-      <br/>
-      <br/>
-      Unlike regular scientists naval scientists did not have
-      <b>
-       flashlight and lasersights
-      </b>
-      . We gave them some so it'll be easier to fight them at night.
-      <br/>
-      <br/>
-      There were a lot of rough corners to the scientists
-      <b>
-       reactions to sniping from extreme distance
-      </b>
-      .
-     </div>
-     <div>
-      They will be more responsive now, and will reposition if they hear bullets coming from other angles.
-     </div>
-     <div>
-      Previously at long range they would only reposition if they were hit or saw you flank them.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      We'll keep monitoring the naval scientists performance and gameplay wise, before we start porting their AI to the scientists at other monuments.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="AnticheatTPM20andSecureBootEnforcement">
-  <div class="section" like-handler="LikeBlogSection" like-id="84954" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Anticheat: TPM 2.0 and Secure Boot Enforcement
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <h2>
-      SERVER owners
-     </h2>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Servers can now opt-in to requiring TPM and Secure Boot enabled for players to connect to them. This allows EAC to work better but not all players have it set up. Over 80% of players have TPM hardware already but just under 60% of players have Secure Boot enabled right now.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Servers that require TPM and Secure Boot for all players will have the Secure tag shown on the server browser. Clicking on a server with additional requirements will show you what is required and if it is supported on your system.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      We will be enforcing this on a few Facepunch servers for the initial test period.  Community servers will be able to enforce this at-will.  Just look for the "
-      <b>
-       Secure
-      </b>
-      " tag in the server browser.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      To require TPM and Secure Boot for all players and get the Secure tag you can enable the
-      <i>
-       <span>
-        server
-       </span>
-       .useServerWideRequiredSystemConfig
-      </i>
-      convar.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Additionally, we are working on backend systems to require TPM, Secure Boot, and more for individual accounts. Servers can opt-in to enforcing these per-player requirements by enabling the
-      <i>
-       <span>
-        server
-       </span>
-       <span>
-        .
-       </span>
-       <span>
-        usePerPlayerRequiredSystemConfig
-       </span>
-      </i>
-      convar. Note that this will not apply the Secure tag to your server - that will only show if it is enforced for all players.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Please note, the following Facepunch servers are testing Secure:
-      <br/>
-      <div>
-       <ul>
-        <li>
-         EU 3
-        </li>
-        <li>
-         EU East 3
-        </li>
-        <li>
-         EU 14
-        </li>
-        <li>
-         EU Large 2
-        </li>
-        <li>
-         US West 3
-        </li>
-        <li>
-         US East 3
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      PLAYERS
-     </h2>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Players can check to see if their PC is compatible by running a couple of Windows commands.  If you have a PC from the last ~8 years It's likely your PC is already running it or equipped to run it.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <a class="" href="https://support.facepunchstudios.com/hc/en-us/articles/34396134943389-How-to-Turn-On-TPM-Secure-Boot">
-       Here's a guide
-      </a>
-      on how to check for and/or enable TPM/Secure Boot on your PC.  It's good to familiarize yourself with it, as many games are already enforcing this.  Our end goal is to make it global in the future.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      We will communicate more about this timeline in future devblogs.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="ShadowSettingsRework">
-  <div class="section" like-handler="LikeBlogSection" like-id="84952" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Shadow Settings Rework
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The Shadow settings have been reworked to be part of a Shadow Quality preset setting that can be found under the Graphics Quality section of the Graphics menu. We no longer have a specific section under the Graphics tab for Shadow Settings, as it's no longer needed.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2025/1B08/softcore_deployablecorpses_01.jpg"/>
-     </div>
-     <div>
-      The Max Shadow Lights setting has been moved to the Rendering section of the Graphics menu, as we still wanted this to be separate from the new presets. Max Shadow Lights has also had its minimum value changed to 1 to prevent light-leaking issues.
-     </div>
-     <div>
-      <br/>
-      This has been done to allow us to have more control over the performance and visual balance of the shadow settings, while making it easier for players to configure.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="Removed64kColliderLimit">
-  <div class="section" like-handler="LikeBlogSection" like-id="84946" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Removed 64k Collider Limit
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The physics library that Unity uses, PhysX, has always had a limitation that only around 64,000 colliders are allowed to be within a broadphase cell, the entire world is split into 256 of these cells (16x16).As the world got a lot bigger with the naval update the size of these cells also had to increase, meaning a lot more colliders per cell.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/paddy/20250203/medieval_catapult_02.jpg"/>
-     </div>
-     <div>
-      As we now use a custom version of Unity, using a custom version of PhysX, for both the server and client, we have more control over limitations like this.
-     </div>
-     <div>
-      <br/>
-      There is now effectively no limit to the number of colliders that are allowed in each broadphase cell. There is a theoretical limit of around 4 billion colliders per cell, but you would hit performance bottlenecks long before that.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="Missionserverperformanceimprovements">
-  <div class="section" like-handler="LikeBlogSection" like-id="84953" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Mission server performance improvements
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Alongside the new missions introduced with the naval update was a bunch of general misc changes to how missions function on the backend and code cleanup in an effort to make missions easier for us to work with and fix some longstanding issues with them.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      One of those longstanding issues was a problem with how we would find which missions are valid and able to be accepted by players. We need to have this information on hand for each player whenever they open their map due to the mission provider map markers showing how many missions are available and where, and to have the correct dialogue options show up when we go to talk with these mission provider NPC's.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/martynchapman/2026/March/04_11-53-HeftyAddax.png"/>
-     </div>
-     <div>
-      <div>
-       The problem with how this worked before was that we would have the client try to figure out what missions are available for the mission map markers and dialogue options, with the server then checking if a mission is definitely valid for that player when a player tries to accept and start a mission.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       This led to scenarios where there could be discrepancies between what the client and server see as a valid mission for that player, due to the client not having access to all the same information that the server has. Where there was a discrepancy, a client could see inaccurate mission map markers and could try to select dialogue options to start missions but would then be booted out the conversation without understanding why.
-      </div>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/martynchapman/2026/March/04_12-09-DarkslateblueStud.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <div>
-       The idea to fix this was to consolidate this mission validation 
-work to run on the server. To be smart and performant about it, we now 
-have a mission validation "work queue" (a pattern we use to load-balance
- tasks across frames instead of running many tasks in one frame, to 
-avoid frametime spikes).
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       The work queue figures out which missions could
- potentially be accepted by anyone on the server (do the required 
-entities exist, is there a valid spawn point for an entity which the 
-mission spawns, etc), so all players are able to pull from the same 
-information here rather than having a different work queue run for each 
-player. This work queue attempts to run any time a player needs to know 
-what missions are valid, but with a fixed cooldown. If the work queue is
- in cooldown, then the player which requested an update instead receives
- the last calculated valid states for each mission.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       After
- releasing the naval update, we were seeing that this new work queue was
- too expensive. We were also seeing some expensive RPC frametime spikes 
-when players go to talk to NPC's (when a player talks to an NPC, the 
-server performs a complete revalidation of that NPC's missions and 
-checks that specific players mission prerequisites, so that they have 
-the most up to date information to display the correct dialogue 
-options). Data from our EU Staging server shows that the work queue was 
-second place in terms of time spent executing (data captured across 7 
-days after the naval staging wipe). It was also accounting for up to 6% of our total frametime.
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/martynchapman/2026/March/03_19-35-GummyHammerheadbird.png"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/martynchapman/2026/March/03_15-38-LumberingHoverfly.png"/>
-     </div>
-     <div>
-      Profiling this showed that the most expensive part of the work queue was for trying to generate points for missions which create generate random positions in specific biome/topology areas of the map, with one position generation taking in the range of 5-6ms.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      To summarise, part of that process would iterate over thousands of potential areas of the map, before passing these initially found potential areas to a second filter, pulling randomly until we find one which we can generate a valid position from. This is something which would have always been problematic every time we started one of those types of missions, but was only exposed in this way because we moved the work to run in a work queue, and more frequently than before as we are now polling the mission regularly rather than only when a player tries to start that mission.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/dashfiles/bbcad332-86c5-44ed-819a-a82743a657df/image.png"/>
-     </div>
-     <div>
-      Put simply, the optimisation was to instead of always iterating through thousands of areas, pull all these potential areas into a basic indexed data structure once as part of the servers bootstrap process, and when we need a position pull randomly from that preallocated data structure until we find a valid area. In testing, this showed at worst case we would test a few hundred areas instead of always at least a few thousand.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Profiling after this change shows that the cost of the task is now down to around 0.15-0.275ms, bringing down the total cost of the work queue (across all frames) down from around 20ms to 1.5ms. Our EU Staging performance data across 7 days after the change shows that the work queue has now fallen right down the list of total time spent executing, and is now accounting for only up to 0.15% of total frametime. The change also resolved the lag spikes created from talking to mission provider NPC's.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/martynchapman/2026/March/03_19-12-AptKilldeer.png"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/martynchapman/2026/March/03_16-39-ColorfulNene.png"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/martynchapman/2026/March/03_17-03-OverdueChanticleer.png"/>
-     </div>
-     <div>
-      This was a slightly lengthier writeup but I hope it gave some insight as to the context for this specific problem, and how these problems come up and how we resolve them. It is also a good example of a problematic system which can end up being in a game for years, but is only exposed because we happen to try to utilise it in a different way from before.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="Collidercounts">
-  <div class="section" like-handler="LikeBlogSection" like-id="84945" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Collider counts
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      To help ease the burden on the phsyics system this month I've taken a look at some of the worst offending parts of our game in terms of collider counts. These are important - we want accurate colliders for a variety of gameplay reasons, but the quantity and detail level of the colliders can be a drain on server performance, memory use and contributed to the 64k limit mentioned above.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      After receiving some helpful breakdowns from a few community servers I made some specific changes that should help our most collider heavy environments.
-     </div>
-     <div>
-      <ul>
-       <li>
-        Vine swinging trees use 6-9 less colliders (depending on which variation is spawned)
-       </li>
-       <li>
-        Collectable plants in the world (Hemp, Wheat, Pumpkins, berries, etc) no longer have a collider on the server, just the client. It's needed on the client to allow the player to interact with them, but not needed on the server.
-       </li>
-       <li>
-        Plants growing in planters have also had the server colliders removed. Sprinklers, heaters and environmental factors are calculated by the planter rather than every individual plant, so this should have no gameplay changes.
-       </li>
-      </ul>
-      <div>
-       The first point should make the Jungle biome a lot less collider heavy, while the other two points will help across the whole map as well as in heavy farming bases.
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="WindowsMIDIupdates">
-  <div class="section" like-handler="LikeBlogSection" like-id="84955" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Windows MIDI updates
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've discovered in the last week that Windows is rolling out a new MIDI interface that seems to be incompatible with the implementation in Rust. This is sometimes resulting in a constant increase of virtual MIDI devices that degrades client performance over time.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      We would recommend disabling these commands if you are on the latest Windows updates and have used MIDI commands in Rust in the past:
-      <b>
-       midiconvar.enabled
-      </b>
-      and
-      <b>
-       global.processmidiinput
-      </b>
-      .
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/instruments_junkyard_drum_kit.jpg"/>
-     </div>
-     <div>
-      This will unfortunately
-      <b>
-       stop devices like MIDI instruments
-      </b>
-      and Stream Decks working with Rust. We are investigating a fix as a priority as we use these tools internally quite a bit.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="newworkshopskinnableBBQ">
-  <div class="section" like-handler="LikeBlogSection" like-id="84937" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       new workshop skinnable: BBQ
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-1fd7365c-7fff-898d-4717-e4156b55d7ae">
-       <p dir="ltr">
-        <span>
-         This month’s workshop skinnable is the Barbeque
-        </span>
-       </p>
-       <p dir="ltr">
-        <span>
-         Put another human meat on the barbie with this popular request from the skinning community. The possibilities are endless!
-        </span>
-       </p>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b2411b1/24_13-06-HatefulJoey.jpg"/>
-     </div>
-     <div>
-      <p dir="ltr">
-       <span>
-        To make your own BBQ skin, head over to the in-game workshop and locate the Barbeque deployable item. From there, you can download the model file and add your own materials.
-       </span>
-      </p>
-     </div>
-     <div>
-      <span>
-       <br/>
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="rust2026Roadmap">
-  <div class="section" like-handler="LikeBlogSection" like-id="84930" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       rust 2026 Roadmap
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The journey for Rust doesn’t stop here.
-      <br/>
-      <br/>
-      Rust is evolving throughout 2026, with new challenges and changes on the horizon. Here's a current snapshot of this year's roadmap.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/image%20%283%29.png"/>
-     </div>
-     <div>
-      <p>
-       It's also viewable here where it will be updated as we progress through the year's patches:
-      </p>
-      <a class="selected" href="https://rust.facepunch.com/roadmap" target="_blank">
-       https://rust.facepunch.
-       <wbr/>
-       com/roadmap
-      </a>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="TheArtofRustartbook">
-  <div class="section" like-handler="LikeBlogSection" like-id="84931" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       The Art of Rust - art book
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Launching this month is The Art of Rust. A book takes you behind the scenes with a curated collection of concept art, early explorations, environment designs, and visual development that helped define Rust’s unmistakable style.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://www.darkhorse.com/books/3009-843/art-of-rust-hc/">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/rust_book_2.jpg"/>
-      </a>
-     </div>
-     <div>
-      From the first sketches of iconic monuments to the detailed artwork behind your favourite loot, this is a deep dive into the creative process that built the world you’ve survived in for years.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <a href="https://www.darkhorse.com/books/3009-843/art-of-rust-hc/">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0411b1/rust_ali_book_3.jpg"/>
-      </a>
-     </div>
-     <div>
-      Whether you’re a long-time player, a creator, or someone who appreciates game art,
-      <span data-end="896" data-start="877">
-       The Art of Rust
-      </span>
-      captures 12 years of visual evolution in one beautifully crafted, hardback book.
-      <br/>
-      <br/>
-      Get yours
-      <a class="selected" href="https://www.darkhorse.com/books/3009-843/art-of-rust-hc/" target="https://www.darkhorse.com/books/3009-843/art-of-rust-hc/">
-       here
-      </a>
-      .
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="change-blog-container">
-  <div class="container">
-   <div class="changes-container" id="changelist">
-    <div class="changes-sidebar">
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Patch Name
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Shipshape
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Changelist Title
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Naval Cleanup
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <a class="date" style="text-decoration: none;">
-       <span class="icon">
-        <i>
-         date_range
-        </i>
-       </span>
-       Thursday, March 5, 2026
-      </a>
-     </div>
-     <div class="sidebar-section">
-     </div>
-    </div>
-    <div class="changes-body">
-     <div class="changes-row features">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         add_circle
-        </i>
-       </span>
-       <h3>
-        Features
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Increased day time
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Electricity, industrial and water IO items deployable on boats
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Wallpaper on player boats
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added boat building stations to Deep Sea Islands
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added some aim sway when aiming weapons on moving boats
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Painting Line Tool
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row improvements">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         arrow_circle_up
-        </i>
-       </span>
-       <h3>
-        Improvements
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improve deep sea spawning performance
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved water junkpile spawning performance
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Increased network range in the deep sea (300m to 640m)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Deep sea is now closed when the server just wiped
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved wanted posters performance
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved toast messages performance
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved wallpaper performance
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved player boat drag-by-angle calculations
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved visuals when shooting cannons
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Cannons now provide some protection to the player
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          If a player cannot spawn on the default spawn beach they will now spawn at a Fishing Village or Harbor
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Planter interact options are now always visible but disabled
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improves sail placement guide, now goes yellow if the sail being placed will block another
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved performance of UsePlayerUpdateJobs 2 by fixing duplication of entity snapshots
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved performance of GamePhysics.TraceSpheres, GamePhysics.TraceSpheresUnordered, GamePhysics.VerifySpheres (scales better than serial counterparts around 32 queries)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Sunken player boats are now destructible
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Cannon hits will now slow down boats
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Player boat decay delay increased. Decay duration decreased
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Player boat blocks can be rotated or demolished at any time in edit mode. Removed the timer
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Unified health display for player boats so the behaviour is more consistent across all the parts
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          More feedback for "Deploy &amp; Edit" option when it is unavailable due to location
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved clarity for icons of AND, OR and XOR IO switches
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added particle controls to skin workshop, only BBQ currently supported
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added animator controls to skin workshop, only BBQ currently supported
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added painting menu rotation visualizer tool, with toggle to disable
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reworked redundant painting reset rotation button to "flatten" rotation, preserving roll and panning only.
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Saving signs with "Hide Signs" option enabled will pop up a confirmation warning that you might be overwriting existing artwork
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added ConVar for painting autosave timer configuration “client.autosavepaintinginterval &lt;timer&gt;”
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added ConVar to support brush sizes greater than 100 “paint.maxbrushsize &lt;number&gt;”
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Optimised mission WorldPositionGenerator, in turn improving performance of UpdateMissionValidStateWorkQueue and talking to mission provider NPC's
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          UpdateMissionValidStateWorkQueue now keeps a record of the last time it validated each mission to avoid revalidating missions if still in cooldown
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Exposed ServerVar's for 'missionValidStateWorkQueueCooldown' and 'missionPerValidStateCooldown' to customise how often the UpdateMissionValidStateWorkQueue should run tasks, tradeoff with accuracy of available mission map markers on clients
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added ServerVar's 'resetmissions' and 'resetmissions_all' to reset missions progress for a target player or all players, leaving rest of playerstate intact
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Updated deploy animations for building planner and wallpaper tool
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Paintball overalls item icon now updates with the currently applied colour
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Server runtime_profiling gathers more stats from various job queues
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row fixed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         handyman
-        </i>
-       </span>
-       <h3>
-        Fixed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed UIDeepSeaPortalMarker NRE
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed demo.browser command not working since the new main menu
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Swedish language not selectable in the option menu
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Restored the warning popup when logging off from a safe zone
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to deploy signs on door placed on boats
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed demo recorder menu missing texts
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed rugs and bear rugs placeable on cargo and harbour bridge
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed game tip never showing
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed bulb string light rotation issue when deployed on ceilings and floors
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed deploy interaction not showing up on string lights sometimes
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed auto turrets not targeting players when close to doors sometimes
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some performance issues when playing the video in the settings menu
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed gibs missing textures for some skinned deployables
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed boats becoming bricked when sleeping in storm conditions
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some player clipping issues with water junkpiles
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed aim jitter when reloading and firing cannons at high ping
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved memory usage of tropical and tutorial islands, saves 130mb on client and server
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an edge case that would prevent sleeping players from getting killed in safe zones after a server restart
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed UI spacing issue when snapshotting a container with less than 5 items for sorting
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Skinned entities will now always despawn after the same amount of time as their base item when dropped
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed not being able to mount the new AI on Oil Rigs to Trophies
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an entity leak when saving server state - persistent items are no longer saved if part of transient item container
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed ~40 cases of server pool leaks
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed bot IDs being incorrectly reused when loading a save
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed TriggerParent volumes sometimes sleeping when it shouldn't
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a thread race condition in GamePhysics.SortDeferred
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed perfsnapshot/_stream crashing if ran again while snapshot is being exported (now warns that it's busy)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Worked around perfsnapshot/_stream failing to export due to system memory stats being corrupted (disabled mem stats gathering)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed C4 issues with Boat Building Stations
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed getting stuck in the Boat Building Station umbrella
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed player boats getting stuck on dive site buoys
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed boat stairs having the incorrect protection properties
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed deployables on upside down boats
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an issue where boat building stations could get locked in cooldown mode during a save
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Boat Building Station and player boats not having ownerid set correctly
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed sails that have been rotated after placement sometimes getting destroyed
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed the incorrect icon being shown for the "Rotate" sail option
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being able to briefly edit a sinking boat
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed immortal entities showing health information
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Large Oil Rig vent openings causing projectile invalids
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Large Oil Rig confusing black barrel props to instead be yellow/red
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed mannequins displaying the wrong paintball overalls colour
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a null reference exception which could occur when quickly swapping between paintball guns
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Paintball guns in turrets now deal extra damage to players wearing paintball overalls
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Paintball guns in turrets now retain their last applied colour
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Paintball impact effects now ignore max spawn distance if instigated by the local player (same as other impact effects)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Server memory optimisations relating to projectiles
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          UpdateMissionValidStateWorkQueue no longer validates tutorial missions
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed mission map markers initially not being visible when first opening the map
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed wolves not incrementing towards the Wildlife Cull mission
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Gone Killing mission now fails if the deep sea closes
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Beep in the Deep mission progress becoming stuck if player disconnects after finding but not opening the treasure chest
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Storage Monitor and Hopper draw distances being too far
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a multitude of items partially deployable in walls
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some missing currency symbol in the store
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed owned items still showing up at the top of the limited and featured store when featured
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed limited store countdown showing "Refreshed in 6 days" when the skins are late
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed "Placing through walls" error popping up when you're placing doors sometimes, when you're clearly not placing them through walls
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed BBQ and garage door gibs not being skinned
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed performance issues with the video tooltips in the settings menu
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row removed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         remove_circle
-        </i>
-       </span>
-       <h3>
-        Removed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Removed obsolete Facepunch.Pool APIs (GetList, FreeList, FreeListAndItems, ClearList, FreeMemoryStream)
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row known-issues">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         error
-        </i>
-       </span>
-       <h3>
-        Known Issues
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          MIDI support appears to be broken on Windows 11 24h2 and 25h2
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 05 Mar 2026 18:50:00 Z</pubDate>
     </item>
   </channel>
 </rss>
