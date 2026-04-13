@@ -782,6 +782,2235 @@
       <pubDate>Tue, 17 Feb 2026 18:55:00 Z</pubDate>
     </item>
     <item>
+      <title>Spring Clean</title>
+      <link>https://rust.facepunch.com/news/spring-clean/</link>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
+  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
+   <source src="https://files.facepunch.com/Flavien/spring_clean-blogheader2.mp4" type="video/mp4"/>
+   Your browser does not support the video tag.
+  </video>
+ </div>
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <img alt="Spring Clean" class="hero_patch-branding" src="https://files.facepunch.com/Flavien/rust-spring-clean-branding.png"/>
+    <p editname="Summary" type="text">
+     This month's update brings you TWO new items - the Armoured Ladder Hatch and Water Wheel, additionally loads of QOL improvements, bug fixes, better performance and much more!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      02 April 2026
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block sectionstyle-hero dark" id="newitemArmouredLadderHatch">
+  <div class="section" like-handler="LikeBlogSection" like-id="84986" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       new item: Armoured Ladder Hatch
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The Armoured Ladder Hatch is a new top-tier construction. A direct upgrade from the Metal Ladder Hatch, the Armoured Ladder Hatch is built for players who want maximum durability on their vertical access points.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0111b1/apr2026_armoured_ladder_hatch_1_1080.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0111b1/apr2026_armoured_ladder_hatch_2_1080.jpg"/>
+     </div>
+     <div>
+      Unlocked at Tier 3, it’s available in both square and triangle variants, slots straight into existing frames.
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="newitemWaterWheel">
+  <div class="section" like-handler="LikeBlogSection" like-id="84979" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       new item: Water Wheel
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div class="autodiv">
+      Renewable energy is the best energy.
+      <br/>
+      You liked wind and solar? Now it's time for another classic, Hydro!
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/ashcoook/1b3111b1/apr2026_waterwheel_ambient_02.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      Water wheels can be placed in rivers to passively generate electricity from the water flowing along its base. When placed in the ocean they do generate some charge, but more inconsistently as the tides change. Either way you will need to make sure that the waterflow coming in is not blocked by anything!
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/april2026_waterwheel_02.jpg"/>
+     </div>
+     <div>
+      The wheels can also be used as giant hamster wheels if you want to hop in and convert some calories into power. And before you ask, yes you can force handcuffed players into them.
+      <br/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/april2026_waterwheel_04.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="techtreemultiunlocking">
+  <div class="section" like-handler="LikeBlogSection" like-id="84973" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       tech tree multi-unlocking
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The tech tree unlocking process received a long-overdue upgrade this month!
+      <br/>
+      <br/>
+     </div>
+     <div>
+      Instead of painfully having to select and unlock each item as you go down the tree, you are now able to select any node you want and will be shown a preview path that leads to the desired item. Pressing the unlock button then automatically unlocks the whole path at once, playing a satisfying animation.
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/cipeaX/2026/March/apr2026_rust_tech_tree_%2Cmulti-unlocking_1440_h264.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+     </div>
+     <div>
+      New sound effects have also been added, the unlock animation was improved and the tree is now centered when zooming in and out - interacting with this UI should feel a lot better overall.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/cipeaX/2026/March/apr2026_tech_tree_multi-unlocking_3_4K.jpg"/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="NotableChanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="84985" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Notable Changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0111b1/rust_chainsaw_1_4k.jpg"/>
+        <center>
+         <b>
+          Chainsaw Frenzy
+         </b>
+        </center>
+        <center>
+         Chainsaw now always hits the X when farming trees
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0111b1/apr2026_watchtower_01.jpg"/>
+        <center>
+         <b>
+          Watchtowers
+         </b>
+        </center>
+        <center>
+         Watchtowers can no longer be spam placed next to each other
+        </center>
+       </div>
+       <div class="columns is-multiline">
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230530/sleepingbags_limit.jpg"/>
+         <center>
+          <b>
+           Sleepy Junkpiles
+          </b>
+         </center>
+         <center>
+          Fixed junkpiles spawning on sleeping bags
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0111b1/rust_counter_1_4k.jpg"/>
+         <center>
+          <b>
+           IO counter
+          </b>
+         </center>
+         <center>
+          Can now set the reset value of the IO counter
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0111b1/rust_deepsea_sleeping_bag_4k%20%281%29.jpg"/>
+         <center>
+          <b>
+           Deep Sea Sleeping Bags
+          </b>
+         </center>
+         <center>
+          Added a visual indicator to distinguish between sleeping bags in the deep sea on death screen
+         </center>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Extendedplantripeness">
+  <div class="section" like-handler="LikeBlogSection" like-id="84967" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Extended plant ripeness
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've increased the time plants are in their "ripe" stage to 24 hours (was 14). This should hopefully be less punishing for players who can't log back on to harvest their plants more than once per day.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/30_09-47-InfiniteAnchovy/rust_farming_3_1080.jpg"/>
+     </div>
+     <div>
+      Note that the growable flowers were already at 28 hours so they are unchanged.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Shieldcollisionchange">
+  <div class="section" like-handler="LikeBlogSection" like-id="84968" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Shield collision change
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've noted the new meta around shields becoming a bit too popular over the last month. Ideally shields are a powerful defensive tool but they come at the cost of reducing your offensive capabilities.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250203/rust_shields_01.jpg"/>
+     </div>
+     <div>
+      To better fit that direction we're now switching the hitbox based on whether you are actively holding up the shield. When idle the shield uses a smaller square hitbox and it will use the current larger hitbox while it is being held up.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      We've also fixed a bug that resulted in additional recoil being applied when shooting at a shield, this was only meant to be applied when attacking a shield with a melee weapon.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="ColouredButtons">
+  <div class="section" like-handler="LikeBlogSection" like-id="84976" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Coloured Buttons
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We saw a cool community concept for coloured buttons and decided to implement it as a part of this patch, the functionality is really similar to wires with a similar colour set - the only difference being that red is the default colour for buttons to match how they previously looked.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/april2026_colouredbuttons_01.jpg"/>
+     </div>
+     <div>
+      The more technical and cooler side of this is that we previously didn't support nested radial menus, the new coloured buttons are the first to support them and should allow for more complex nested menus in the future.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/april2026_colouredbuttons_03.jpg"/>
+     </div>
+     <div>
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="customchatchanneltagcolours">
+  <div class="section" like-handler="LikeBlogSection" like-id="84956" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       custom chat channel tag colours
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      After a recent request, I've added some extra colour pickers to the accessibility options.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/rust_chat_tag_colours_1080.jpg"/>
+     </div>
+     <div>
+      These allow you to change the colour of the tags for Discord DMs, team chat, cards chat, etc.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/rust_chat_tag_colours_2_1080.jpg"/>
+     </div>
+     <div>
+      Hopefully this makes things a bit clearer!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="lighttoggleradialmenu">
+  <div class="section" like-handler="LikeBlogSection" like-id="84957" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       light toggle radial menu
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The old ToggleLight feature/bind has had a major upgrade this month!
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/ashcoook/1b3111b1/apr2026_light_toggle_radial_1_1080.jpg"/>
+     </div>
+     <div>
+      <p data-end="374" data-start="87" style="outline: rgba(139, 195, 74, 0.3) dashed 1px;">
+       <strong data-end="128" data-start="102" style="outline: rgba(139, 195, 74, 0.3) dashed 1px;">
+        “Light Toggle Radial”
+       </strong>
+       has been added to the controls menu as a replacement for the previous togglelight bind, and will use the same default/current bind.
+      </p>
+      <ul data-end="618" data-start="376">
+       <li data-end="483" data-section-id="jefo2f" data-start="376">
+        <strong data-end="385" data-start="378">
+         Tap
+        </strong>
+        the keybind to retain the original behaviour: all equipped light sources toggle simultaneously.
+       </li>
+       <li data-end="618" data-section-id="ccvde2" data-start="484">
+        <strong data-end="494" data-start="486">
+         Hold
+        </strong>
+        the keybind to open a radial menu (when multiple light sources are equipped), allowing you to toggle each one individually.
+       </li>
+      </ul>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/ashcoook/1b3111b1/apr2026_light_toggle_radial_3_1080.jpg"/>
+     </div>
+     <div>
+      <p data-end="374" data-start="87">
+       This is especially useful in situations where you don’t want everything toggled at once - for example, when using night vision goggles alongside a weapon-mounted flashlight.
+       <br/>
+       <br/>
+       There's potential to expand this feature into a more generic "item state toggle" feature  in the future, that could also toggle things such as weapon fire mode.
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="OverfishingFishingintheDeepSea">
+  <div class="section" like-handler="LikeBlogSection" like-id="84978" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Overfishing &amp; Fishing in the Deep Sea
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Fishing inside your base or botting the fishing minigame doesn't align with the true spirit of fishing. To get the best catches you should be hunting down secluded spots and casting your line there. Plus, if you want to do things passively, fishing traps exist for a reason.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/elliot.h/1b3011b1/rust_deepsea_fishing_2_1080.jpg"/>
+     </div>
+     <div>
+      So we've added an overfishing mechanic. If a certain amount of fish have been caught in the vicinity within a certain time span, the area becomes "overfished". In overfished areas, only junk will come up from cast lines. The area will repopulate after it has time to refresh, and fishing can resume then.
+      <br/>
+      <br/>
+     </div>
+     <div>
+      There are plenty of ConVars for community servers to tweak the mechanic to their liking (including disabling it completely) so don't worry about it being forced. Additionally, overfishing has no impact on the fish traps as the primary intent for the feature is to mitigate in-base afk fish farming.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/rust_deepsea_fishing_MATTFIX_1080.jpg"/>
+     </div>
+     <div>
+      To balance this out, fishing in the Deep Sea is getting a buff! You can no longer catch Herrings or Anchovies in the deep sea, which means the loot pool has been concentrated towards higher-value catches.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="BunnyCostume">
+  <div class="section" like-handler="LikeBlogSection" like-id="84970" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Bunny Costume
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-3345000d-7fff-5711-27b9-f217e23ae0db">
+       <span>
+        This year we’ve somehow created an even more silly costume to terrorise the nakeds with, the Bunny Costume.
+       </span>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b2411b1/24_14-14-CoralNandoo.jpg"/>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b2411b1/24_14-14-WanHornet.jpg"/>
+     </div>
+     <div>
+      <span id="docs-internal-guid-68bd7fe0-7fff-7afc-488e-c6ae448c02fc">
+       <p dir="ltr">
+        <span>
+         Coming in three cute and cracked varieties so you can dress for any occasion.
+        </span>
+       </p>
+       <br/>
+       <span>
+        The Bunny Costume is only available for a limited time on the
+       </span>
+       <span>
+        <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited" target="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
+         Rust Steam item store
+        </a>
+       </span>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ExcavatorRustigéEgg">
+  <div class="section" like-handler="LikeBlogSection" like-id="84971" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Excavator Rustigé Egg
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-8a375d01-7fff-2f7f-1fde-84738ad49737">
+       <p dir="ltr">
+        <span>
+         Bringing in a little decorum this Easter, we have the latest Rustigé Egg coming in exquisite amethyst and gold. Open it up to reveal an eggcellent mini Excavator scene and a unique tune.
+        </span>
+       </p>
+       <div>
+        <span>
+        </span>
+       </div>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b2011b1/april2026_rustigeegg_04.jpg"/>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="">
+       <source src="https://files.facepunch.com/matti/1b2511b1/easter_rustigeegg_loop_webm.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      Available for a limited time on the
+      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited" target="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
+       Rust Steam item store
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="easter2026">
+  <div class="section" like-handler="LikeBlogSection" like-id="84959" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       easter 2026
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Happy Easter! Easter Egg Hunt is back today until the 16th of April and there's a whole range of fun items now available too!
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/04/14/269931/hunt.jpg"/>
+     </div>
+     <div>
+      If you don't make the podium, that's okay. The painted eggs you collect can be upgraded to Bronze eggs once you collect 10. If you collect 10 bronze eggs then you can upgrade to a silver egg, eventually all the way to gold!
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/rust_easter_screenshot_2%20%281%29.jpg"/>
+     </div>
+     <div>
+      <div>
+       There are various items available to help you during your hunt - the Easter Basket will allow instant pickup of eggs and the Bunny Onesie and Ears will provide you with an advantage via Egg Vision.
+      </div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      Easter Store Items
+     </h2>
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10179/">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/helkus/1b0811b1/nest.hat.icon.png"/>
+        </a>
+        <center>
+         <a href="https://store.steampowered.com/itemstore/252490/detail/10179/">
+         </a>
+         <a href="https://store.steampowered.com/itemstore/252490/detail/10179/">
+          <b>
+           Egg Hat
+          </b>
+         </a>
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10193/">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/03/31/1e9841/hat.bunnyhat.png"/>
+        </a>
+        <center>
+         <a href="https://store.steampowered.com/itemstore/252490/detail/10193/">
+         </a>
+         <a href="https://store.steampowered.com/itemstore/252490/detail/10193/">
+          <b>
+           Bunny Hat
+          </b>
+         </a>
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490/detail/10208/">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/jacob/1b2111b1/attire.egg.suit.png"/>
+        </a>
+        <center>
+         <a href="https://store.steampowered.com/itemstore/252490/detail/10208/">
+         </a>
+         <a href="https://store.steampowered.com/itemstore/252490/detail/10208/">
+          <b>
+           Egg Costume
+          </b>
+         </a>
+        </center>
+       </div>
+      </div>
+      <div class="columns is-multiline">
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2026/5a53/chicken.costume.png"/>
+        </a>
+        <center>
+         <a href="https://store.steampowered.com/itemstore/252490">
+         </a>
+         <a href="https://store.steampowered.com/itemstore/252490">
+          <b>
+           Chicken Costume
+          </b>
+         </a>
+        </center>
+       </div>
+       <div class="column is-4">
+        <a href="https://store.steampowered.com/itemstore/252490">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2026/9C65/horse.costume.png"/>
+        </a>
+        <center>
+         <a href="https://store.steampowered.com/itemstore/252490">
+         </a>
+         <a href="https://store.steampowered.com/itemstore/252490">
+          <b>
+           Horse Costume
+          </b>
+         </a>
+        </center>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="EasterWallpapers">
+  <div class="section" like-handler="LikeBlogSection" like-id="84972" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Easter Wallpapers
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-891efa35-7fff-ffdd-d5d9-278b2208fbaf">
+       <span>
+        What better way to spring clean your base this year than applying these fresh new individual wallpapers for your walls and floors.
+       </span>
+      </span>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="default">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b2311b1/rust_wicker_wallpaper_7_1080%20%281%29.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b2311b1/rust_grass_flooring_2_1080.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b2511b1/rust_egg_wallpaper_9.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      Available as individual limited wallpapers on the
+      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited" target="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
+       Rust Steam item store
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="PerformanceUsePlayerUpdateJobsUpgrade">
+  <div class="section" like-handler="LikeBlogSection" like-id="84966" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Performance: UsePlayerUpdateJobs Upgrade
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <h2>
+      UsePlayerUpdateJobs 2 on By Default
+     </h2>
+     <div>
+      Since rolling out march's Shipshape update, we have enabled
+      <b>
+       UsePlayerUpdateJobs 2
+      </b>
+      on all our servers and it's been a smooth ride, most of the time. It revealed a couple bugs with the demo system, but those have been fixed. And it's been helping our servers - you can see where we've switched one of our servers:
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b2511b1/QwiMvKwruw.png"/>
+     </div>
+     <div>
+      As a result, I'm changing the servervar to be set to 2 by default. For a short while the 0 and 1 modes will still be available, but I'm planning to rip out support for them - if your server has custom mods that target player update loop, you should look to upgrade those.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      UsePlayerUpdateJobs 3 - new experimental level
+     </h2>
+     <div>
+      The above image shows the performance gain on a fresh-ish server, but as the world grows old it starts to slow down and bottlenecks become worse. Here's an example of a server mid-way through update cycle with 360 players:
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b2511b1/1GMD9twG9U.png"/>
+     </div>
+     <div>
+      There are a number of issues highlighted above in the ~20ms section:
+     </div>
+     <div>
+      <ul>
+       <li>
+        The areas marked with 1 and 2 are running serial code. For 1(2.3ms) it's running our server side antihack logic, for 2(3.8ms) it's updating player's network streaming
+       </li>
+       <li>
+        For number 3 - we spend 0.3ms because one of async tasks doesn't finish early
+       </li>
+       <li>
+        For number 4 - our use of C# asyncs is leading to allocations, so our optims have a tax
+       </li>
+      </ul>
+      <div>
+       Problems 2 and 4 are related - to fix problem 2, we would use more asyncs, but that would cause more allocations, inflating problem 4.
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       To deal with this, we started rolling out our fork of
+       <a class="" href="https://github.com/Facepunch/UniTask">
+        UniTask
+       </a>
+       , a framework for cheaper creation of tasks. In Jobs 3 mode, all task creation code has been converted to UniTasks instead of C# Tasks to eliminate related allocations, we converted more of antihack to Burst Jobs and parallelized player network streaming logic further.
+      </div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      We're currently trialling it out internally, but it's publicly available for experimenting. I'll be keeping an eye out on feedback.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="PerformanceNewTerrainRenderer">
+  <div class="section" like-handler="LikeBlogSection" like-id="84981" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Performance: New Terrain Renderer
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Continuing moving to a more GPU driven rendering pipeline we are rolling out our own terrain rendering system (no longer using Unity's). Everything should look broadly the same visually but a lot of the work has moved to the GPU. The new terrain has massively reduced drawcalls and more aggressive culling. This results in an overall gain in CPU performance.
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/dayaan/1b3011b1/Unity_qztkfwUOg7.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <b>
+       Performance Details
+      </b>
+     </div>
+     <div>
+      Terrain can be situational but for a performance snapshot example I'll take a profile on top of this hill:
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none" title="Terrain profile reference image">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/dayaan/1b3111b1/Screenshot%202026-03-30%20191157.jpg"/>
+     </div>
+     <div class="autodiv">
+      I can compare the metrics by turning new terrain on/off:
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none" title="New Terrain vs Unity Terrain">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/dayaan/1b3011b1/Terrain_On_Off.png"/>
+     </div>
+     <div>
+      <b>
+       Rendering metrics
+      </b>
+     </div>
+     <div>
+      Drawcall reduction: ~1000 (2.71k -&gt; 1.07k)
+     </div>
+     <div>
+      Shadowcaster reduction: ~550
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       CPU main thread
+      </b>
+     </div>
+     <div>
+      Unity's terrain CPU update completely removed: ~0.25ms gain
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/dayaan/1b3111b1/Screenshot%202026-03-30%20210638.jpg"/>
+     </div>
+     <div>
+      The combined reduction in drawcalls and terrain.CullAllTerrains update result in a median:
+      <b>
+       ~0.65ms
+      </b>
+      gain.
+     </div>
+     <div>
+      The numbers will vary (and can sometimes be even better) but overall you should see decent improvement in CPU times.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       GPU performance
+      </b>
+     </div>
+     <div>
+      While most of the work has moved to the GPU, the improved culling and terrain rendering technique has minimised any overhead. In tests GPU performance has remained similar.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="PerformanceServerMeshStripping">
+  <div class="section" like-handler="LikeBlogSection" like-id="84962" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Performance: Server Mesh Stripping
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      As part of our standard build process for the dedicated server, we have always stripped out Textures (since the server does no rendering) but Meshes have always been included. This is usually wasteful - the majority of meshes are only ever used for rendering and are not needed on the server. These meshes are loaded by default, and take up memory which is critical on the server. They also waste space on disk which is less important, but still worth improving.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This month, we are now removing most meshes from the server build unless they are required for a collider. Our initial tests showed that this has saved around 600mb of memory at runtime and 2.7GB of space on disk. We're reasonably sure we haven't inadvertently removed any meshes that are required by the server, but if you encounter any missing collisions that worked last month please let us know.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="PerformanceImprovedNetworkGroups">
+  <div class="section" like-handler="LikeBlogSection" like-id="84975" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Performance: Improved Network Groups
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      I've made some improvements to our network group code, which handles area of interest management, to better optimize what is networked from the server to clients.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Before this change, the server networked everything in a large square around the player. A square is simple but not ideal because it networks much further towards the corners vs. the center of the edges. After this change, the server now networks everything in a large, blocky circle around the player.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Next up, I added the ability to use different network ranges for different entities. This allows us to only network smaller entities (decor, dropped items, etc.) when you're closer to them, and allows us to network larger entities (vehicles) further away. We've tweaked the network ranges of a few entities to start with and will explore more going forward.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="hotairballoonaltimeter">
+  <div class="section" like-handler="LikeBlogSection" like-id="84958" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       hot air balloon altimeter
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      To make it clearer that altitude affects direction, we've added an altimeter to the Hot Air Balloon!
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/apr2026_altimeter_02.jpg"/>
+     </div>
+     <div>
+      It's positioned right where you need it - next to the Windsock and the Burn Control Button.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/apr2026_altimeter_01.jpg"/>
+     </div>
+     <div>
+      This should help explain the correlation and make it a bit easier to get ballooning!
+      <br/>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Salvagedaxeremake">
+  <div class="section" like-handler="LikeBlogSection" like-id="84960" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Salvaged axe remake
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      After 12 years, this month the Salvaged Axe has been given a new face lift. A well and truly deserved update to this staple tool.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/alfiebirch/1b1911b1/april2026_salvagedaxe_01.jpg"/>
+     </div>
+     <div>
+      Featuring a new high resolution model and textures, as well as a brand new set of animations to match the updated model.
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" loop="" muted="" playsinline="" src="https://files.facepunch.com/alfiebirch/1b0111b1/apr2026_salvagedaxe_montage_01.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="medicalsyringeremake">
+  <div class="section" like-handler="LikeBlogSection" like-id="84965" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       medical syringe remake
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Another asset receiving a facelift is the trusty medical syringe!
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/aprilupdate2026_medsyringe_03.jpg"/>
+     </div>
+     <div>
+      It was starting to show its age at 12 years old, so in this update we've upgraded it to includes a new high-resolution model, updated textures, and a brand-new set of animations.
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/ashcoook/1b3111b1/apr2026_medsyringe_001_h264.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      Restoring health in an emergency situation has never looked so good!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="NewWorkshopSkinnableSalvagedAxe">
+  <div class="section" like-handler="LikeBlogSection" like-id="84969" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       New Workshop Skinnable: Salvaged Axe
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-c6eb721b-7fff-2193-ae3d-66d0f778b2ef">
+       <p dir="ltr">
+        <span>
+         This month’s workshop skinnable is the Salvaged Axe.
+         <br/>
+        </span>
+        <br/>
+        This weapon just received an awesome visual upgrade which makes us especially excited to see what the community will create with it!
+       </p>
+       <div>
+       </div>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1911b1/april2026_salvagedaxe_03.jpg"/>
+     </div>
+     <div>
+      <span id="docs-internal-guid-21849690-7fff-80e5-7083-fa65dd598592">
+       <p dir="ltr">
+        <span>
+         To make your own Salvaged Axe skin, head over to the in-game workshop and locate the Salvaged Axe weapon item. From there, you can download the model file and add your own materials.
+        </span>
+       </p>
+       <div>
+        <span>
+         <br/>
+        </span>
+       </div>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="UpdatedF1ConsoleUI">
+  <div class="section" like-handler="LikeBlogSection" like-id="84977" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Updated F1 Console UI
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've completely re-designed and rebuilt the F1 menu. All tabs have been improved, packed with new features and nice QOLs.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Here is a non-exhaustive list of the notable improvements.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       Console
+      </b>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/101/04/2026/1384/rust_console_UI_console_3_4k.jpg"/>
+     </div>
+     <div>
+      <ul>
+       <li>
+        A command list screen has been added, showing all the available commands
+       </li>
+       <li>
+        For admins, auto completion now works with server convars
+       </li>
+       <li>
+        CTRL + Scrollwheel will increase/decrease the text size
+       </li>
+       <li>
+        All the missing convar descriptions have been generated using AI. You'll see (Generated) in front as a warning, we figured AI descriptions are better than no descriptions.
+       </li>
+      </ul>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/101/04/2026/1x62/rust_console_UI_console_4k.jpg"/>
+      </gallery>
+     </div>
+     <div>
+     </div>
+     <div>
+      <b>
+       Items/Vehicles
+      </b>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/101/04/2026/3U37/rust_console_UI_items_2_4k.jpg"/>
+     </div>
+     <div>
+      <ul>
+       <li>
+        You can now favourite items and find them in a dedicated tab
+       </li>
+       <li>
+        We've also added a "Recents" tabs
+       </li>
+       <li>
+        CTRL + Scrollwheel will increase/decrease the item size
+       </li>
+       <li>
+        Keyboard controls have been added
+       </li>
+      </ul>
+     </div>
+     <div>
+      <b>
+       Server
+      </b>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/101/04/2026/3596/rust_console_UI_server_1_4k.jpg"/>
+     </div>
+     <div>
+      <ul>
+       <li>
+        Added player positions and team ID
+       </li>
+       <li>
+        Added teleport and mute buttons
+       </li>
+       <li>
+        Added a UGC filtering panel
+       </li>
+      </ul>
+      <div>
+       <b>
+        Copy pastes (new)
+       </b>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/101/04/2026/5v08/rust_console_UI_copypastes_1_4k.jpg"/>
+     </div>
+     <div>
+      <div>
+       This tab lets you manage and use your copy paste files. Note: hold CTRL and click on a file to add a screenshot (or update it).
+      </div>
+      <div>
+       <b>
+        <br/>
+       </b>
+      </div>
+      <div>
+       <b>
+        Loadouts (new)
+       </b>
+      </div>
+      <div>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/101/04/2026/3396/rust_console_UI_loadouts_1_4k.jpg"/>
+     </div>
+     <div>
+      An easier way to access the loadouts available on the server. Lets you create new ones from your inventory.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Note: you can still access the old F1 menu using
+      <b>
+       client.legacyconsoletoggle
+      </b>
+      . This will be removed in the coming months.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ANTICHEATUpdateonSecureServerstpm20secureboot">
+  <div class="section" like-handler="LikeBlogSection" like-id="84984" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       ANTICHEAT: Update on Secure Servers (tpm 2.0 + secure boot)
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <a class="selected" href="https://rust.facepunch.com/news/shipshape#AnticheatTPM20andSecureBootEnforcement" target="">
+       Last month, we introduced secure servers with TPM 2.0 and Secure Boot requirements
+      </a>
+      , and while we're still in the process of evaluating, we do have some details to share.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      To cut to the chase, we have seen a measurable reduction in cheaters across our new secure servers, with approximately 1-in-63 players being cheaters vs 1-in-42 players on a regular server. The impact has not been as considerable in comparison to when we introduced
+      <a class="" href="https://rust.facepunch.com/news/premium-servers#PremiumServerLaunch">
+       premium servers
+      </a>
+      last year, but we are pleased with the initial results. You may be wondering, why is the impact less than premium servers? Currently we believe it's two primary factors.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       Rollout
+      </b>
+     </div>
+     <div>
+      When we launched premium servers, we introduced 20 new servers to support the rollout. This represented a significant portion of the Facepunch server ecosystem, which still holds up today with around 25% of Facepunch server players being premium users.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      For reasons we'll talk more about below, for secure servers we kept to a smaller pool of 6 servers, as a result it's not the perfect representation of the playerbase and cheaterbase and brings into question statistical reliability when analysing.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <b>
+       Adoption &amp; Features
+      </b>
+     </div>
+     <div>
+      Our biggest hurdle with fast-tracking the rollout of secure servers is feature adoption, currently we require players to have TPM and Secure Boot enabled, features that only
+      <b>
+       ~60%
+      </b>
+      of players have enabled!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      While our goal is to create a secure environment for players with as little cheater disruption as possible, we also don't want to alienate players from the game entirely, a tricky balancing act.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      As mentioned in the last devblog, if your hardware supports it we strongly encourage you follow
+      <a class="" href="https://support.facepunchstudios.com/hc/en-us/articles/34396134943389-How-to-Turn-On-TPM-Secure-Boot">
+       this support article
+      </a>
+      and enable those features, the more players that adopt, the more secure we can make Rust.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="Demoshotdubbing">
+  <div class="section" like-handler="LikeBlogSection" like-id="84974" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Demo shot dubbing
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've added a new feature to our demo/cinematic tools this month that allows more iteration and control over shots produced in our demo editor.
+      <br/>
+      <br/>
+      Once you've recorded a shot you can now open a new editing interface that will allow you to selectively modify elements of the shot.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/ashcoook/1b3111b1/apr2026_demo_shot_overdubber_2_1080.jpg"/>
+     </div>
+     <div>
+      This includes the position/rotation of the camera, Field of View and Depth of Field settings. Once you've selected the elements you want to modify, the shot will now play with a 3 second cooldown and you will have control over those elements only (eg. if you edit just FoV the camera will move and rotate on it's own).
+     </div>
+     <div>
+      <br/>
+      This allows you to layer your work instead of having to get everything correct in a single take. Got a complex shot with camera positioning and zooming? Just do the camera movement and then apply the zoom afterwards.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="RustpacketRelay">
+  <div class="section" like-handler="LikeBlogSection" like-id="84982" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rust packet Relay
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've started exploring tools to help server owners.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      RustRelay is a system baked into the networking layer that forwards all outbound packets from the Rust server to a recipient of your choice via websocket.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This is the first part of our plan to implement a 3D real-time and historical server render application in the web browser. Think demos but outside of the game!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      In this release RustRelay will be enablable on servers via the following command line arguments:
+     </div>
+     <div blocktype="code" class="edit-block" contenteditable="false" data-code='-relayenabled #Enables the RustRelay server
+-relayurl "https://example.com" #Url of the recipient websocket server
+-relaytoken "&lt;TOKEN&gt;" #Token of your choice to be passed as Bearer HTTP Authorization header' data-language="csharp">
+      -relayenabled #Enables the RustRelay server
+      <br/>
+      -relayurl "https://example.com" #Url of the recipient websocket server
+      <br/>
+      -relaytoken "&lt;TOKEN&gt;" #Token of your choice to be passed as Bearer HTTP Authorization header
+     </div>
+     <div>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      With the above 3 command args supplied (all required!) the Rust server will now start relaying outbound packets to your server, you can do what ever you'd like with them! Maybe a cute collage?
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      If you don't know what any of this means, maybe this feature isn't for you. But trust, it's gonna be cool!
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Spring Clean
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       April Quickfire
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Thursday, April 2, 2026
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
+    </div>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Armored Ladder Hatches
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New Water Wheel Deployable
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Tech tree multi-unlocking
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Overfishing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Demo dubbing system
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New F1 menu
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Coloured buttons
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Light toggle radial menu
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Hot air balloon altimeter
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Removed mesh assets from server that aren’t used, saves memory and disk space
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Adjusted hitbox of shields while they are idle
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved performance of player animation updates over the network (bandwidth reduction)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can now mouse over empty slots on the engine UI to see the names of missing car parts
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced physics overhead of checking for player distances to AI zones
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Salvaged Axe Remake including new textures, new model and new animations
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Medical syringe remake including new textures, new model and new animations
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Skin viewer resolution is now matching the resolution set in the graphics settings
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Can now set the reset value of the IO counter
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Chat channel tag colours can now be set in the accessibility settings
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Watchtowers can no longer be spam placed next to each other
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added teleportboat2marker, teleportboatpos and teleportboat2grid commands
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Chainsaw now always hits the X when farming trees
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added convars for server owners to configure RCON / Rust+ connection limits
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved network groups to support increased/decreased network ranges for certain entities
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Entities are now networked in a circle around players instead of a square
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved underground tunnels network culling
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved compression on .map files
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Trying to loot other players in safe zones now shows a popup
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a button to mute players in the admin server tab
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added AI generated descriptions for missing console command descriptions
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved tech tree animations and sounds
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Console autocomplete now shows server commands, to admins
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved dropped item clipping behaviour on boats
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Increased plant ripeness from 14h to 24h
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Further server optimisations for WorldPositionGenerator, in turn speeding up some slow occurrences of the UpdateMissionValidStateWorkQueue
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added 'ESPCanvas.ShowVoip' convar to display an icon on players who are using in-game voice chat whilst the ESPCanvas is active
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added 'global.spectatebots' convar to be able to spectate bots spawned via the 'spawn player' command
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Upon spectating a player their SteamID will now be displayed alongside their display name in the chat window
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added new game setting under UI→Misc to modify preferences for monument/world notification messages and sounds. Convar is 'ui.worldnotifications'
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a visual indicator to distinguish between sleeping bags in the deep sea / mainland when on the death screen
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          [Optim] UsePlayerUpdateJobs ServerVar now recognized level 3 - use of UniTask and parallization of AntiHack + Network Streaming update
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          [Optim] We no longer flush network queue per player when streaming out the network grid
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          [Optim] InvokeHandler preserves scattering of invokes after a lag spike, which maintains it's load balancing state
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          [Optim] Object Work Queues now dynamically increase their minimum capacity to reduce average allocation count (can use debug.printqueues to monitor capacity)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          [Optim] Building and shooting should have less allocations
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          [Optim] Lazy Network.Group internals are lazy allocated, reducing memory consumption
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Combat Knife and Sunken Combat Knife orientation on single weapon racks as  well as their projectile rotation axis
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Storage Box DLC Food Box missing softcore mode corpse prefab
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Door Knocker deploy guides having incorrect rotations
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a case where opening doors with explosives attached would allow explosives to travel through walls
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed easter eggs in demos not bouncing up and down
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed slight extra recoil when shooting a shield (still applies for melee weapons)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Square ladder hatches are now flush with the floor
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some visual props disappearing when on a moving Train Caboose (also Nexus ferry)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a rare error when wiping the deep sea due to the planters on the Floating City
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a case where Industrial Conveyors with a minimum filter would still transfer items if other items were passing their filter
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed MIDI compatibility with latest Windows update
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Possible fix for delayed voice chat during long play sessions or large player numbers
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed igniter working with 1 power instead of the required 2
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed wire tool invalidating connection when clearing a wire while having a pending wire (regression from last month)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed compression artifacts on item icons
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed battering ram being deployable onto boat building station netting
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed water junk piles spawning too close to water monuments
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed junkpiles spawning on sleeping bags
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Clan map name tags now respect clannametagcolour
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed boat deployable sound loops getting cleared
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed freshly wiped servers always starting out raining
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a travelling vendor server error
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed fog being too intense when viewing cctv cameras
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a cassette error when spectating
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed shutter frames making sound when painting on them
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed not being able to loot bags of destroyed containers in safe zones
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an exploit allowing players to teleport into boats
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed deep pits in monuments causing a black screen effect on some maps
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed bunny ears and bunny onesie not showing up in conveyor filters
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an exploit allowing researching of blueprints in the tutorial
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed shotgun traps and flame turrets working underwater on sunk boats
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an issue with fog of war maps uncovering small strips at the map edges
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the flame on oil rigs having its smoke offset
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed only a single row of items loading in the main menu inventory until scrolling
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed rubberbanding after respawning in a camper van
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed getting kicked for RPC flooding when looking at IO handles in certain situations
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the first sleeping bag placed by a player not having a cooldown
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a pooling issue causing windows to sometimes have random textures or icons painted on them
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being unable to purchase items from boat shopkeepers on floating cities via their vending machine style interface
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed paintball pellets fired from turrets sometimes being the wrong colour
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Players inside the deep sea will no longer be notified of world events happening outside the deep sea
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed not being able to open chat whilst spectating in 3rd person
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed vitals UI not updating whilst spectating in 3rd person
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Spectating a player that disconnects now always keeps camera in their location
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed ServerProfiler getting stuck in a loop on Linux servers (March hotfix)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fix NRE in Server Occlusion logic when player enters a null network group (March hotfix)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fix players not moving in demos on servers running UsePlayerUpdateJobs 2 or higher
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fix for 3p camera not working in demos
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row removed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         remove_circle
+        </i>
+       </span>
+       <h3>
+        Removed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Server convar 'global.legacymonumentnotifications' and client convar 'ui.monumentnotificationtoasts'
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <pubDate>Thu, 02 Apr 2026 18:59:00 Z</pubDate>
+    </item>
+    <item>
       <title>Shipshape</title>
       <link>https://rust.facepunch.com/news/shipshape/</link>
       <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
@@ -6066,2235 +8295,6 @@ using(ServerProfiler.RecordScopeIfSlow("IndustrialQueue",
 <center>
 </center><center>]]></description>
       <pubDate>Thu, 05 Feb 2026 06:24:00 Z</pubDate>
-    </item>
-    <item>
-      <title>Spring Clean</title>
-      <link>https://rust.facepunch.com/news/spring-clean/</link>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
-  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
-   <source src="https://files.facepunch.com/Flavien/spring_clean-blogheader2.mp4" type="video/mp4"/>
-   Your browser does not support the video tag.
-  </video>
- </div>
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <img alt="Spring Clean" class="hero_patch-branding" src="https://files.facepunch.com/Flavien/rust-spring-clean-branding.png"/>
-    <p editname="Summary" type="text">
-     This month's update brings you TWO new items - the Armoured Ladder Hatch and Water Wheel, additionally loads of QOL improvements, bug fixes, better performance and much more!
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      02 April 2026
-     </div>
-     <a class="tag devblog" style="text-decoration: none;">
-      DEVBLOG
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero dark" id="newitemArmouredLadderHatch">
-  <div class="section" like-handler="LikeBlogSection" like-id="84986" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       new item: Armoured Ladder Hatch
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The Armoured Ladder Hatch is a new top-tier construction. A direct upgrade from the Metal Ladder Hatch, the Armoured Ladder Hatch is built for players who want maximum durability on their vertical access points.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0111b1/apr2026_armoured_ladder_hatch_1_1080.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0111b1/apr2026_armoured_ladder_hatch_2_1080.jpg"/>
-     </div>
-     <div>
-      Unlocked at Tier 3, it’s available in both square and triangle variants, slots straight into existing frames.
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="newitemWaterWheel">
-  <div class="section" like-handler="LikeBlogSection" like-id="84979" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       new item: Water Wheel
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div class="autodiv">
-      Renewable energy is the best energy.
-      <br/>
-      You liked wind and solar? Now it's time for another classic, Hydro!
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/ashcoook/1b3111b1/apr2026_waterwheel_ambient_02.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      Water wheels can be placed in rivers to passively generate electricity from the water flowing along its base. When placed in the ocean they do generate some charge, but more inconsistently as the tides change. Either way you will need to make sure that the waterflow coming in is not blocked by anything!
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/april2026_waterwheel_02.jpg"/>
-     </div>
-     <div>
-      The wheels can also be used as giant hamster wheels if you want to hop in and convert some calories into power. And before you ask, yes you can force handcuffed players into them.
-      <br/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/april2026_waterwheel_04.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="techtreemultiunlocking">
-  <div class="section" like-handler="LikeBlogSection" like-id="84973" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       tech tree multi-unlocking
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The tech tree unlocking process received a long-overdue upgrade this month!
-      <br/>
-      <br/>
-     </div>
-     <div>
-      Instead of painfully having to select and unlock each item as you go down the tree, you are now able to select any node you want and will be shown a preview path that leads to the desired item. Pressing the unlock button then automatically unlocks the whole path at once, playing a satisfying animation.
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/cipeaX/2026/March/apr2026_rust_tech_tree_%2Cmulti-unlocking_1440_h264.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-     </div>
-     <div>
-      New sound effects have also been added, the unlock animation was improved and the tree is now centered when zooming in and out - interacting with this UI should feel a lot better overall.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/cipeaX/2026/March/apr2026_tech_tree_multi-unlocking_3_4K.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="NotableChanges">
-  <div class="section" like-handler="LikeBlogSection" like-id="84985" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Notable Changes
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0111b1/rust_chainsaw_1_4k.jpg"/>
-        <center>
-         <b>
-          Chainsaw Frenzy
-         </b>
-        </center>
-        <center>
-         Chainsaw now always hits the X when farming trees
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0111b1/apr2026_watchtower_01.jpg"/>
-        <center>
-         <b>
-          Watchtowers
-         </b>
-        </center>
-        <center>
-         Watchtowers can no longer be spam placed next to each other
-        </center>
-       </div>
-       <div class="columns is-multiline">
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20230530/sleepingbags_limit.jpg"/>
-         <center>
-          <b>
-           Sleepy Junkpiles
-          </b>
-         </center>
-         <center>
-          Fixed junkpiles spawning on sleeping bags
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0111b1/rust_counter_1_4k.jpg"/>
-         <center>
-          <b>
-           IO counter
-          </b>
-         </center>
-         <center>
-          Can now set the reset value of the IO counter
-         </center>
-        </div>
-        <div class="column is-6">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b0111b1/rust_deepsea_sleeping_bag_4k%20%281%29.jpg"/>
-         <center>
-          <b>
-           Deep Sea Sleeping Bags
-          </b>
-         </center>
-         <center>
-          Added a visual indicator to distinguish between sleeping bags in the deep sea on death screen
-         </center>
-        </div>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="Extendedplantripeness">
-  <div class="section" like-handler="LikeBlogSection" like-id="84967" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Extended plant ripeness
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've increased the time plants are in their "ripe" stage to 24 hours (was 14). This should hopefully be less punishing for players who can't log back on to harvest their plants more than once per day.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/30_09-47-InfiniteAnchovy/rust_farming_3_1080.jpg"/>
-     </div>
-     <div>
-      Note that the growable flowers were already at 28 hours so they are unchanged.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="Shieldcollisionchange">
-  <div class="section" like-handler="LikeBlogSection" like-id="84968" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Shield collision change
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've noted the new meta around shields becoming a bit too popular over the last month. Ideally shields are a powerful defensive tool but they come at the cost of reducing your offensive capabilities.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/paddy/20250203/rust_shields_01.jpg"/>
-     </div>
-     <div>
-      To better fit that direction we're now switching the hitbox based on whether you are actively holding up the shield. When idle the shield uses a smaller square hitbox and it will use the current larger hitbox while it is being held up.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      We've also fixed a bug that resulted in additional recoil being applied when shooting at a shield, this was only meant to be applied when attacking a shield with a melee weapon.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="ColouredButtons">
-  <div class="section" like-handler="LikeBlogSection" like-id="84976" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Coloured Buttons
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We saw a cool community concept for coloured buttons and decided to implement it as a part of this patch, the functionality is really similar to wires with a similar colour set - the only difference being that red is the default colour for buttons to match how they previously looked.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/april2026_colouredbuttons_01.jpg"/>
-     </div>
-     <div>
-      The more technical and cooler side of this is that we previously didn't support nested radial menus, the new coloured buttons are the first to support them and should allow for more complex nested menus in the future.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/april2026_colouredbuttons_03.jpg"/>
-     </div>
-     <div>
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="customchatchanneltagcolours">
-  <div class="section" like-handler="LikeBlogSection" like-id="84956" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       custom chat channel tag colours
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      After a recent request, I've added some extra colour pickers to the accessibility options.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/rust_chat_tag_colours_1080.jpg"/>
-     </div>
-     <div>
-      These allow you to change the colour of the tags for Discord DMs, team chat, cards chat, etc.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/rust_chat_tag_colours_2_1080.jpg"/>
-     </div>
-     <div>
-      Hopefully this makes things a bit clearer!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="lighttoggleradialmenu">
-  <div class="section" like-handler="LikeBlogSection" like-id="84957" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       light toggle radial menu
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      The old ToggleLight feature/bind has had a major upgrade this month!
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/ashcoook/1b3111b1/apr2026_light_toggle_radial_1_1080.jpg"/>
-     </div>
-     <div>
-      <p data-end="374" data-start="87" style="outline: rgba(139, 195, 74, 0.3) dashed 1px;">
-       <strong data-end="128" data-start="102" style="outline: rgba(139, 195, 74, 0.3) dashed 1px;">
-        “Light Toggle Radial”
-       </strong>
-       has been added to the controls menu as a replacement for the previous togglelight bind, and will use the same default/current bind.
-      </p>
-      <ul data-end="618" data-start="376">
-       <li data-end="483" data-section-id="jefo2f" data-start="376">
-        <strong data-end="385" data-start="378">
-         Tap
-        </strong>
-        the keybind to retain the original behaviour: all equipped light sources toggle simultaneously.
-       </li>
-       <li data-end="618" data-section-id="ccvde2" data-start="484">
-        <strong data-end="494" data-start="486">
-         Hold
-        </strong>
-        the keybind to open a radial menu (when multiple light sources are equipped), allowing you to toggle each one individually.
-       </li>
-      </ul>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/ashcoook/1b3111b1/apr2026_light_toggle_radial_3_1080.jpg"/>
-     </div>
-     <div>
-      <p data-end="374" data-start="87">
-       This is especially useful in situations where you don’t want everything toggled at once - for example, when using night vision goggles alongside a weapon-mounted flashlight.
-       <br/>
-       <br/>
-       There's potential to expand this feature into a more generic "item state toggle" feature  in the future, that could also toggle things such as weapon fire mode.
-      </p>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="OverfishingFishingintheDeepSea">
-  <div class="section" like-handler="LikeBlogSection" like-id="84978" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Overfishing &amp; Fishing in the Deep Sea
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Fishing inside your base or botting the fishing minigame doesn't align with the true spirit of fishing. To get the best catches you should be hunting down secluded spots and casting your line there. Plus, if you want to do things passively, fishing traps exist for a reason.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/elliot.h/1b3011b1/rust_deepsea_fishing_2_1080.jpg"/>
-     </div>
-     <div>
-      So we've added an overfishing mechanic. If a certain amount of fish have been caught in the vicinity within a certain time span, the area becomes "overfished". In overfished areas, only junk will come up from cast lines. The area will repopulate after it has time to refresh, and fishing can resume then.
-      <br/>
-      <br/>
-     </div>
-     <div>
-      There are plenty of ConVars for community servers to tweak the mechanic to their liking (including disabling it completely) so don't worry about it being forced. Additionally, overfishing has no impact on the fish traps as the primary intent for the feature is to mitigate in-base afk fish farming.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/rust_deepsea_fishing_MATTFIX_1080.jpg"/>
-     </div>
-     <div>
-      To balance this out, fishing in the Deep Sea is getting a buff! You can no longer catch Herrings or Anchovies in the deep sea, which means the loot pool has been concentrated towards higher-value catches.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="BunnyCostume">
-  <div class="section" like-handler="LikeBlogSection" like-id="84970" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Bunny Costume
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-3345000d-7fff-5711-27b9-f217e23ae0db">
-       <span>
-        This year we’ve somehow created an even more silly costume to terrorise the nakeds with, the Bunny Costume.
-       </span>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b2411b1/24_14-14-CoralNandoo.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b2411b1/24_14-14-WanHornet.jpg"/>
-     </div>
-     <div>
-      <span id="docs-internal-guid-68bd7fe0-7fff-7afc-488e-c6ae448c02fc">
-       <p dir="ltr">
-        <span>
-         Coming in three cute and cracked varieties so you can dress for any occasion.
-        </span>
-       </p>
-       <br/>
-       <span>
-        The Bunny Costume is only available for a limited time on the
-       </span>
-       <span>
-        <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited" target="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
-         Rust Steam item store
-        </a>
-       </span>
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="ExcavatorRustigéEgg">
-  <div class="section" like-handler="LikeBlogSection" like-id="84971" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Excavator Rustigé Egg
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-8a375d01-7fff-2f7f-1fde-84738ad49737">
-       <p dir="ltr">
-        <span>
-         Bringing in a little decorum this Easter, we have the latest Rustigé Egg coming in exquisite amethyst and gold. Open it up to reveal an eggcellent mini Excavator scene and a unique tune.
-        </span>
-       </p>
-       <div>
-        <span>
-        </span>
-       </div>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b2011b1/april2026_rustigeegg_04.jpg"/>
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="">
-       <source src="https://files.facepunch.com/matti/1b2511b1/easter_rustigeegg_loop_webm.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      Available for a limited time on the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited" target="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
-       Rust Steam item store
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="easter2026">
-  <div class="section" like-handler="LikeBlogSection" like-id="84959" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       easter 2026
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Happy Easter! Easter Egg Hunt is back today until the 16th of April and there's a whole range of fun items now available too!
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/04/14/269931/hunt.jpg"/>
-     </div>
-     <div>
-      If you don't make the podium, that's okay. The painted eggs you collect can be upgraded to Bronze eggs once you collect 10. If you collect 10 bronze eggs then you can upgrade to a silver egg, eventually all the way to gold!
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/rust_easter_screenshot_2%20%281%29.jpg"/>
-     </div>
-     <div>
-      <div>
-       There are various items available to help you during your hunt - the Easter Basket will allow instant pickup of eggs and the Bunny Onesie and Ears will provide you with an advantage via Egg Vision.
-      </div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      Easter Store Items
-     </h2>
-     <div blocktype="html" class="edit-block selected" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10179/">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/helkus/1b0811b1/nest.hat.icon.png"/>
-        </a>
-        <center>
-         <a href="https://store.steampowered.com/itemstore/252490/detail/10179/">
-         </a>
-         <a href="https://store.steampowered.com/itemstore/252490/detail/10179/">
-          <b>
-           Egg Hat
-          </b>
-         </a>
-        </center>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10193/">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/03/31/1e9841/hat.bunnyhat.png"/>
-        </a>
-        <center>
-         <a href="https://store.steampowered.com/itemstore/252490/detail/10193/">
-         </a>
-         <a href="https://store.steampowered.com/itemstore/252490/detail/10193/">
-          <b>
-           Bunny Hat
-          </b>
-         </a>
-        </center>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490/detail/10208/">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/jacob/1b2111b1/attire.egg.suit.png"/>
-        </a>
-        <center>
-         <a href="https://store.steampowered.com/itemstore/252490/detail/10208/">
-         </a>
-         <a href="https://store.steampowered.com/itemstore/252490/detail/10208/">
-          <b>
-           Egg Costume
-          </b>
-         </a>
-        </center>
-       </div>
-      </div>
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2026/5a53/chicken.costume.png"/>
-        </a>
-        <center>
-         <a href="https://store.steampowered.com/itemstore/252490">
-         </a>
-         <a href="https://store.steampowered.com/itemstore/252490">
-          <b>
-           Chicken Costume
-          </b>
-         </a>
-        </center>
-       </div>
-       <div class="column is-4">
-        <a href="https://store.steampowered.com/itemstore/252490">
-         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/04/2026/9C65/horse.costume.png"/>
-        </a>
-        <center>
-         <a href="https://store.steampowered.com/itemstore/252490">
-         </a>
-         <a href="https://store.steampowered.com/itemstore/252490">
-          <b>
-           Horse Costume
-          </b>
-         </a>
-        </center>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="EasterWallpapers">
-  <div class="section" like-handler="LikeBlogSection" like-id="84972" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Easter Wallpapers
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-891efa35-7fff-ffdd-d5d9-278b2208fbaf">
-       <span>
-        What better way to spring clean your base this year than applying these fresh new individual wallpapers for your walls and floors.
-       </span>
-      </span>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery data-gallery-style="default">
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b2311b1/rust_wicker_wallpaper_7_1080%20%281%29.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b2311b1/rust_grass_flooring_2_1080.jpg"/>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b2511b1/rust_egg_wallpaper_9.jpg"/>
-      </gallery>
-     </div>
-     <div>
-      Available as individual limited wallpapers on the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited" target="https://store.steampowered.com/itemstore/252490/browse/?filter=Limited">
-       Rust Steam item store
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="PerformanceUsePlayerUpdateJobsUpgrade">
-  <div class="section" like-handler="LikeBlogSection" like-id="84966" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Performance: UsePlayerUpdateJobs Upgrade
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <h2>
-      UsePlayerUpdateJobs 2 on By Default
-     </h2>
-     <div>
-      Since rolling out march's Shipshape update, we have enabled
-      <b>
-       UsePlayerUpdateJobs 2
-      </b>
-      on all our servers and it's been a smooth ride, most of the time. It revealed a couple bugs with the demo system, but those have been fixed. And it's been helping our servers - you can see where we've switched one of our servers:
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b2511b1/QwiMvKwruw.png"/>
-     </div>
-     <div>
-      As a result, I'm changing the servervar to be set to 2 by default. For a short while the 0 and 1 modes will still be available, but I'm planning to rip out support for them - if your server has custom mods that target player update loop, you should look to upgrade those.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <h2>
-      UsePlayerUpdateJobs 3 - new experimental level
-     </h2>
-     <div>
-      The above image shows the performance gain on a fresh-ish server, but as the world grows old it starts to slow down and bottlenecks become worse. Here's an example of a server mid-way through update cycle with 360 players:
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b2511b1/1GMD9twG9U.png"/>
-     </div>
-     <div>
-      There are a number of issues highlighted above in the ~20ms section:
-     </div>
-     <div>
-      <ul>
-       <li>
-        The areas marked with 1 and 2 are running serial code. For 1(2.3ms) it's running our server side antihack logic, for 2(3.8ms) it's updating player's network streaming
-       </li>
-       <li>
-        For number 3 - we spend 0.3ms because one of async tasks doesn't finish early
-       </li>
-       <li>
-        For number 4 - our use of C# asyncs is leading to allocations, so our optims have a tax
-       </li>
-      </ul>
-      <div>
-       Problems 2 and 4 are related - to fix problem 2, we would use more asyncs, but that would cause more allocations, inflating problem 4.
-      </div>
-      <div>
-       <br/>
-      </div>
-      <div>
-       To deal with this, we started rolling out our fork of
-       <a class="" href="https://github.com/Facepunch/UniTask">
-        UniTask
-       </a>
-       , a framework for cheaper creation of tasks. In Jobs 3 mode, all task creation code has been converted to UniTasks instead of C# Tasks to eliminate related allocations, we converted more of antihack to Burst Jobs and parallelized player network streaming logic further.
-      </div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      We're currently trialling it out internally, but it's publicly available for experimenting. I'll be keeping an eye out on feedback.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="PerformanceNewTerrainRenderer">
-  <div class="section" like-handler="LikeBlogSection" like-id="84981" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Performance: New Terrain Renderer
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Continuing moving to a more GPU driven rendering pipeline we are rolling out our own terrain rendering system (no longer using Unity's). Everything should look broadly the same visually but a lot of the work has moved to the GPU. The new terrain has massively reduced drawcalls and more aggressive culling. This results in an overall gain in CPU performance.
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/dayaan/1b3011b1/Unity_qztkfwUOg7.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      <b>
-       Performance Details
-      </b>
-     </div>
-     <div>
-      Terrain can be situational but for a performance snapshot example I'll take a profile on top of this hill:
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none" title="Terrain profile reference image">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/dayaan/1b3111b1/Screenshot%202026-03-30%20191157.jpg"/>
-     </div>
-     <div class="autodiv">
-      I can compare the metrics by turning new terrain on/off:
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none" title="New Terrain vs Unity Terrain">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/dayaan/1b3011b1/Terrain_On_Off.png"/>
-     </div>
-     <div>
-      <b>
-       Rendering metrics
-      </b>
-     </div>
-     <div>
-      Drawcall reduction: ~1000 (2.71k -&gt; 1.07k)
-     </div>
-     <div>
-      Shadowcaster reduction: ~550
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       CPU main thread
-      </b>
-     </div>
-     <div>
-      Unity's terrain CPU update completely removed: ~0.25ms gain
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/dayaan/1b3111b1/Screenshot%202026-03-30%20210638.jpg"/>
-     </div>
-     <div>
-      The combined reduction in drawcalls and terrain.CullAllTerrains update result in a median:
-      <b>
-       ~0.65ms
-      </b>
-      gain.
-     </div>
-     <div>
-      The numbers will vary (and can sometimes be even better) but overall you should see decent improvement in CPU times.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       GPU performance
-      </b>
-     </div>
-     <div>
-      While most of the work has moved to the GPU, the improved culling and terrain rendering technique has minimised any overhead. In tests GPU performance has remained similar.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="PerformanceServerMeshStripping">
-  <div class="section" like-handler="LikeBlogSection" like-id="84962" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Performance: Server Mesh Stripping
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      As part of our standard build process for the dedicated server, we have always stripped out Textures (since the server does no rendering) but Meshes have always been included. This is usually wasteful - the majority of meshes are only ever used for rendering and are not needed on the server. These meshes are loaded by default, and take up memory which is critical on the server. They also waste space on disk which is less important, but still worth improving.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      This month, we are now removing most meshes from the server build unless they are required for a collider. Our initial tests showed that this has saved around 600mb of memory at runtime and 2.7GB of space on disk. We're reasonably sure we haven't inadvertently removed any meshes that are required by the server, but if you encounter any missing collisions that worked last month please let us know.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="PerformanceImprovedNetworkGroups">
-  <div class="section" like-handler="LikeBlogSection" like-id="84975" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Performance: Improved Network Groups
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      I've made some improvements to our network group code, which handles area of interest management, to better optimize what is networked from the server to clients.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Before this change, the server networked everything in a large square around the player. A square is simple but not ideal because it networks much further towards the corners vs. the center of the edges. After this change, the server now networks everything in a large, blocky circle around the player.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Next up, I added the ability to use different network ranges for different entities. This allows us to only network smaller entities (decor, dropped items, etc.) when you're closer to them, and allows us to network larger entities (vehicles) further away. We've tweaked the network ranges of a few entities to start with and will explore more going forward.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="hotairballoonaltimeter">
-  <div class="section" like-handler="LikeBlogSection" like-id="84958" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       hot air balloon altimeter
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      To make it clearer that altitude affects direction, we've added an altimeter to the Hot Air Balloon!
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/apr2026_altimeter_02.jpg"/>
-     </div>
-     <div>
-      It's positioned right where you need it - next to the Windsock and the Burn Control Button.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/apr2026_altimeter_01.jpg"/>
-     </div>
-     <div>
-      This should help explain the correlation and make it a bit easier to get ballooning!
-      <br/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Salvagedaxeremake">
-  <div class="section" like-handler="LikeBlogSection" like-id="84960" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Salvaged axe remake
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      After 12 years, this month the Salvaged Axe has been given a new face lift. A well and truly deserved update to this staple tool.
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/alfiebirch/1b1911b1/april2026_salvagedaxe_01.jpg"/>
-     </div>
-     <div>
-      Featuring a new high resolution model and textures, as well as a brand new set of animations to match the updated model.
-     </div>
-     <div blocktype="video" class="edit-block selected" contenteditable="false">
-      <video autoplay="" loop="" muted="" playsinline="" src="https://files.facepunch.com/alfiebirch/1b0111b1/apr2026_salvagedaxe_montage_01.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="medicalsyringeremake">
-  <div class="section" like-handler="LikeBlogSection" like-id="84965" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       medical syringe remake
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Another asset receiving a facelift is the trusty medical syringe!
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b3111b1/aprilupdate2026_medsyringe_03.jpg"/>
-     </div>
-     <div>
-      It was starting to show its age at 12 years old, so in this update we've upgraded it to includes a new high-resolution model, updated textures, and a brand-new set of animations.
-     </div>
-     <div blocktype="video" class="edit-block" contenteditable="false">
-      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/ashcoook/1b3111b1/apr2026_medsyringe_001_h264.mp4">
-       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
-      </video>
-     </div>
-     <div>
-      Restoring health in an emergency situation has never looked so good!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="NewWorkshopSkinnableSalvagedAxe">
-  <div class="section" like-handler="LikeBlogSection" like-id="84969" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       New Workshop Skinnable: Salvaged Axe
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-c6eb721b-7fff-2193-ae3d-66d0f778b2ef">
-       <p dir="ltr">
-        <span>
-         This month’s workshop skinnable is the Salvaged Axe.
-         <br/>
-        </span>
-        <br/>
-        This weapon just received an awesome visual upgrade which makes us especially excited to see what the community will create with it!
-       </p>
-       <div>
-       </div>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1911b1/april2026_salvagedaxe_03.jpg"/>
-     </div>
-     <div>
-      <span id="docs-internal-guid-21849690-7fff-80e5-7083-fa65dd598592">
-       <p dir="ltr">
-        <span>
-         To make your own Salvaged Axe skin, head over to the in-game workshop and locate the Salvaged Axe weapon item. From there, you can download the model file and add your own materials.
-        </span>
-       </p>
-       <div>
-        <span>
-         <br/>
-        </span>
-       </div>
-      </span>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="UpdatedF1ConsoleUI">
-  <div class="section" like-handler="LikeBlogSection" like-id="84977" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Updated F1 Console UI
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've completely re-designed and rebuilt the F1 menu. All tabs have been improved, packed with new features and nice QOLs.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Here is a non-exhaustive list of the notable improvements.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       Console
-      </b>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/101/04/2026/1384/rust_console_UI_console_3_4k.jpg"/>
-     </div>
-     <div>
-      <ul>
-       <li>
-        A command list screen has been added, showing all the available commands
-       </li>
-       <li>
-        For admins, auto completion now works with server convars
-       </li>
-       <li>
-        CTRL + Scrollwheel will increase/decrease the text size
-       </li>
-       <li>
-        All the missing convar descriptions have been generated using AI. You'll see (Generated) in front as a warning, we figured AI descriptions are better than no descriptions.
-       </li>
-      </ul>
-     </div>
-     <div blocktype="gallery" class="edit-block" contenteditable="false">
-      <gallery>
-       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/101/04/2026/1x62/rust_console_UI_console_4k.jpg"/>
-      </gallery>
-     </div>
-     <div>
-     </div>
-     <div>
-      <b>
-       Items/Vehicles
-      </b>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/101/04/2026/3U37/rust_console_UI_items_2_4k.jpg"/>
-     </div>
-     <div>
-      <ul>
-       <li>
-        You can now favourite items and find them in a dedicated tab
-       </li>
-       <li>
-        We've also added a "Recents" tabs
-       </li>
-       <li>
-        CTRL + Scrollwheel will increase/decrease the item size
-       </li>
-       <li>
-        Keyboard controls have been added
-       </li>
-      </ul>
-     </div>
-     <div>
-      <b>
-       Server
-      </b>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/101/04/2026/3596/rust_console_UI_server_1_4k.jpg"/>
-     </div>
-     <div>
-      <ul>
-       <li>
-        Added player positions and team ID
-       </li>
-       <li>
-        Added teleport and mute buttons
-       </li>
-       <li>
-        Added a UGC filtering panel
-       </li>
-      </ul>
-      <div>
-       <b>
-        Copy pastes (new)
-       </b>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/101/04/2026/5v08/rust_console_UI_copypastes_1_4k.jpg"/>
-     </div>
-     <div>
-      <div>
-       This tab lets you manage and use your copy paste files. Note: hold CTRL and click on a file to add a screenshot (or update it).
-      </div>
-      <div>
-       <b>
-        <br/>
-       </b>
-      </div>
-      <div>
-       <b>
-        Loadouts (new)
-       </b>
-      </div>
-      <div>
-      </div>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="fullwidth">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/101/04/2026/3396/rust_console_UI_loadouts_1_4k.jpg"/>
-     </div>
-     <div>
-      An easier way to access the loadouts available on the server. Lets you create new ones from your inventory.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      Note: you can still access the old F1 menu using
-      <b>
-       client.legacyconsoletoggle
-      </b>
-      . This will be removed in the coming months.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="ANTICHEATUpdateonSecureServerstpm20secureboot">
-  <div class="section" like-handler="LikeBlogSection" like-id="84984" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       ANTICHEAT: Update on Secure Servers (tpm 2.0 + secure boot)
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <a class="selected" href="https://rust.facepunch.com/news/shipshape#AnticheatTPM20andSecureBootEnforcement" target="">
-       Last month, we introduced secure servers with TPM 2.0 and Secure Boot requirements
-      </a>
-      , and while we're still in the process of evaluating, we do have some details to share.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      To cut to the chase, we have seen a measurable reduction in cheaters across our new secure servers, with approximately 1-in-63 players being cheaters vs 1-in-42 players on a regular server. The impact has not been as considerable in comparison to when we introduced
-      <a class="" href="https://rust.facepunch.com/news/premium-servers#PremiumServerLaunch">
-       premium servers
-      </a>
-      last year, but we are pleased with the initial results. You may be wondering, why is the impact less than premium servers? Currently we believe it's two primary factors.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       Rollout
-      </b>
-     </div>
-     <div>
-      When we launched premium servers, we introduced 20 new servers to support the rollout. This represented a significant portion of the Facepunch server ecosystem, which still holds up today with around 25% of Facepunch server players being premium users.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      For reasons we'll talk more about below, for secure servers we kept to a smaller pool of 6 servers, as a result it's not the perfect representation of the playerbase and cheaterbase and brings into question statistical reliability when analysing.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      <b>
-       Adoption &amp; Features
-      </b>
-     </div>
-     <div>
-      Our biggest hurdle with fast-tracking the rollout of secure servers is feature adoption, currently we require players to have TPM and Secure Boot enabled, features that only
-      <b>
-       ~60%
-      </b>
-      of players have enabled!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      While our goal is to create a secure environment for players with as little cheater disruption as possible, we also don't want to alienate players from the game entirely, a tricky balancing act.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      As mentioned in the last devblog, if your hardware supports it we strongly encourage you follow
-      <a class="" href="https://support.facepunchstudios.com/hc/en-us/articles/34396134943389-How-to-Turn-On-TPM-Secure-Boot">
-       this support article
-      </a>
-      and enable those features, the more players that adopt, the more secure we can make Rust.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Demoshotdubbing">
-  <div class="section" like-handler="LikeBlogSection" like-id="84974" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Demo shot dubbing
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've added a new feature to our demo/cinematic tools this month that allows more iteration and control over shots produced in our demo editor.
-      <br/>
-      <br/>
-      Once you've recorded a shot you can now open a new editing interface that will allow you to selectively modify elements of the shot.
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img src="https://files.facepunch.com/ashcoook/1b3111b1/apr2026_demo_shot_overdubber_2_1080.jpg"/>
-     </div>
-     <div>
-      This includes the position/rotation of the camera, Field of View and Depth of Field settings. Once you've selected the elements you want to modify, the shot will now play with a 3 second cooldown and you will have control over those elements only (eg. if you edit just FoV the camera will move and rotate on it's own).
-     </div>
-     <div>
-      <br/>
-      This allows you to layer your work instead of having to get everything correct in a single take. Got a complex shot with camera positioning and zooming? Just do the camera movement and then apply the zoom afterwards.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="RustpacketRelay">
-  <div class="section" like-handler="LikeBlogSection" like-id="84982" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Rust packet Relay
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      We've started exploring tools to help server owners.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      RustRelay is a system baked into the networking layer that forwards all outbound packets from the Rust server to a recipient of your choice via websocket.
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      This is the first part of our plan to implement a 3D real-time and historical server render application in the web browser. Think demos but outside of the game!
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      In this release RustRelay will be enablable on servers via the following command line arguments:
-     </div>
-     <div blocktype="code" class="edit-block" contenteditable="false" data-code='-relayenabled #Enables the RustRelay server
--relayurl "https://example.com" #Url of the recipient websocket server
--relaytoken "&lt;TOKEN&gt;" #Token of your choice to be passed as Bearer HTTP Authorization header' data-language="csharp">
-      -relayenabled #Enables the RustRelay server
-      <br/>
-      -relayurl "https://example.com" #Url of the recipient websocket server
-      <br/>
-      -relaytoken "&lt;TOKEN&gt;" #Token of your choice to be passed as Bearer HTTP Authorization header
-     </div>
-     <div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      With the above 3 command args supplied (all required!) the Rust server will now start relaying outbound packets to your server, you can do what ever you'd like with them! Maybe a cute collage?
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      If you don't know what any of this means, maybe this feature isn't for you. But trust, it's gonna be cool!
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="change-blog-container">
-  <div class="container">
-   <div class="changes-container" id="changelist">
-    <div class="changes-sidebar">
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Patch Name
-      </span>
-      <a class="title" style="text-decoration: none;">
-       Spring Clean
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <span class="subtitle">
-       Changelist Title
-      </span>
-      <a class="title" style="text-decoration: none;">
-       April Quickfire
-      </a>
-     </div>
-     <div class="sidebar-section">
-      <a class="date" style="text-decoration: none;">
-       <span class="icon">
-        <i>
-         date_range
-        </i>
-       </span>
-       Thursday, April 2, 2026
-      </a>
-     </div>
-     <div class="sidebar-section">
-     </div>
-    </div>
-    <div class="changes-body">
-     <div class="changes-row features">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         add_circle
-        </i>
-       </span>
-       <h3>
-        Features
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Armored Ladder Hatches
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          New Water Wheel Deployable
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Tech tree multi-unlocking
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Overfishing
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Demo dubbing system
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          New F1 menu
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Coloured buttons
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Light toggle radial menu
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Hot air balloon altimeter
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row improvements">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         arrow_circle_up
-        </i>
-       </span>
-       <h3>
-        Improvements
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Removed mesh assets from server that aren’t used, saves memory and disk space
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Adjusted hitbox of shields while they are idle
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved performance of player animation updates over the network (bandwidth reduction)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can now mouse over empty slots on the engine UI to see the names of missing car parts
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Reduced physics overhead of checking for player distances to AI zones
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Salvaged Axe Remake including new textures, new model and new animations
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Medical syringe remake including new textures, new model and new animations
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Skin viewer resolution is now matching the resolution set in the graphics settings
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Can now set the reset value of the IO counter
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Chat channel tag colours can now be set in the accessibility settings
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Watchtowers can no longer be spam placed next to each other
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added teleportboat2marker, teleportboatpos and teleportboat2grid commands
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Chainsaw now always hits the X when farming trees
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added convars for server owners to configure RCON / Rust+ connection limits
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved network groups to support increased/decreased network ranges for certain entities
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Entities are now networked in a circle around players instead of a square
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved underground tunnels network culling
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved compression on .map files
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Trying to loot other players in safe zones now shows a popup
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added a button to mute players in the admin server tab
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added AI generated descriptions for missing console command descriptions
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved tech tree animations and sounds
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Console autocomplete now shows server commands, to admins
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Improved dropped item clipping behaviour on boats
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Increased plant ripeness from 14h to 24h
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Further server optimisations for WorldPositionGenerator, in turn speeding up some slow occurrences of the UpdateMissionValidStateWorkQueue
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added 'ESPCanvas.ShowVoip' convar to display an icon on players who are using in-game voice chat whilst the ESPCanvas is active
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added 'global.spectatebots' convar to be able to spectate bots spawned via the 'spawn player' command
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Upon spectating a player their SteamID will now be displayed alongside their display name in the chat window
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added new game setting under UI→Misc to modify preferences for monument/world notification messages and sounds. Convar is 'ui.worldnotifications'
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Added a visual indicator to distinguish between sleeping bags in the deep sea / mainland when on the death screen
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          [Optim] UsePlayerUpdateJobs ServerVar now recognized level 3 - use of UniTask and parallization of AntiHack + Network Streaming update
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          [Optim] We no longer flush network queue per player when streaming out the network grid
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          [Optim] InvokeHandler preserves scattering of invokes after a lag spike, which maintains it's load balancing state
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          [Optim] Object Work Queues now dynamically increase their minimum capacity to reduce average allocation count (can use debug.printqueues to monitor capacity)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          [Optim] Building and shooting should have less allocations
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          [Optim] Lazy Network.Group internals are lazy allocated, reducing memory consumption
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row fixed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         handyman
-        </i>
-       </span>
-       <h3>
-        Fixed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Combat Knife and Sunken Combat Knife orientation on single weapon racks as  well as their projectile rotation axis
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Storage Box DLC Food Box missing softcore mode corpse prefab
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed Door Knocker deploy guides having incorrect rotations
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a case where opening doors with explosives attached would allow explosives to travel through walls
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed easter eggs in demos not bouncing up and down
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed slight extra recoil when shooting a shield (still applies for melee weapons)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Square ladder hatches are now flush with the floor
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed some visual props disappearing when on a moving Train Caboose (also Nexus ferry)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a rare error when wiping the deep sea due to the planters on the Floating City
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a case where Industrial Conveyors with a minimum filter would still transfer items if other items were passing their filter
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed MIDI compatibility with latest Windows update
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Possible fix for delayed voice chat during long play sessions or large player numbers
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed igniter working with 1 power instead of the required 2
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed wire tool invalidating connection when clearing a wire while having a pending wire (regression from last month)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed compression artifacts on item icons
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed battering ram being deployable onto boat building station netting
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed water junk piles spawning too close to water monuments
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed junkpiles spawning on sleeping bags
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Clan map name tags now respect clannametagcolour
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed boat deployable sound loops getting cleared
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed freshly wiped servers always starting out raining
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a travelling vendor server error
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed fog being too intense when viewing cctv cameras
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a cassette error when spectating
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed shutter frames making sound when painting on them
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed not being able to loot bags of destroyed containers in safe zones
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an exploit allowing players to teleport into boats
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed deep pits in monuments causing a black screen effect on some maps
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed bunny ears and bunny onesie not showing up in conveyor filters
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an exploit allowing researching of blueprints in the tutorial
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed shotgun traps and flame turrets working underwater on sunk boats
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed an issue with fog of war maps uncovering small strips at the map edges
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed the flame on oil rigs having its smoke offset
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed only a single row of items loading in the main menu inventory until scrolling
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed rubberbanding after respawning in a camper van
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed getting kicked for RPC flooding when looking at IO handles in certain situations
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed the first sleeping bag placed by a player not having a cooldown
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed a pooling issue causing windows to sometimes have random textures or icons painted on them
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed being unable to purchase items from boat shopkeepers on floating cities via their vending machine style interface
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed paintball pellets fired from turrets sometimes being the wrong colour
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Players inside the deep sea will no longer be notified of world events happening outside the deep sea
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed not being able to open chat whilst spectating in 3rd person
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed vitals UI not updating whilst spectating in 3rd person
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Spectating a player that disconnects now always keeps camera in their location
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fixed ServerProfiler getting stuck in a loop on Linux servers (March hotfix)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fix NRE in Server Occlusion logic when player enters a null network group (March hotfix)
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fix players not moving in demos on servers running UsePlayerUpdateJobs 2 or higher
-         </div>
-        </li>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Fix for 3p camera not working in demos
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-     <div class="changes-row removed">
-      <div class="changes-row-header">
-       <span class="icon">
-        <i>
-         remove_circle
-        </i>
-       </span>
-       <h3>
-        Removed
-       </h3>
-      </div>
-      <div class="changes-row-body">
-       <ul>
-        <li>
-         <span>
-          •
-         </span>
-         <div class="entry">
-          Server convar 'global.legacymonumentnotifications' and client convar 'ui.monumentnotificationtoasts'
-         </div>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <pubDate>Thu, 02 Apr 2026 18:59:00 Z</pubDate>
     </item>
   </channel>
 </rss>
