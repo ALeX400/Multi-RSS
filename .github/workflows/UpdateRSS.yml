@@ -24,9 +24,12 @@ jobs:
     - name: Run main RSS update script
       run: python main.py
 
-    - name: Commit and push if there are changes in the RSS directory
+    - name: Rebuild file cache index
+      run: python update_index.py
+
+    - name: Commit and push if there are generated changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
-        git diff --quiet && git diff --staged --quiet || (git commit -m "Automatically updated RSS feeds" && git pull --rebase && git push)
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Automatically updated RSS feeds and file cache" && git pull --rebase && git push)
