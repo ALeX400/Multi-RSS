@@ -4,7 +4,14 @@ import re
 from xml.etree import ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+}
+
 def clean_content(content, image_url):
+    if not content:
+        return ""
+
     # Parse the content with BeautifulSoup
     soup = BeautifulSoup(content, 'html.parser')
 
@@ -37,20 +44,38 @@ def clean_content(content, image_url):
 
 def fetch_article_data(item):
     try:
-        title = item.find('title').text
-        link = item.find('link').text
-        description = item.find('{http://purl.org/rss/1.0/modules/content/}encoded').text
+        title_node = item.find('title')
+        link_node = item.find('link')
+        pub_date_node = item.find('pubDate')
+
+        # ProSport feeds currently expose article content in <description> and not always in content:encoded.
+        encoded_node = item.find('{http://purl.org/rss/1.0/modules/content/}encoded')
+        description_node = item.find('description')
+
+        title = title_node.text.strip() if title_node is not None and title_node.text else "No title"
+        link = link_node.text.strip() if link_node is not None and link_node.text else ""
+        pub_date = pub_date_node.text.strip() if pub_date_node is not None and pub_date_node.text else ""
+
+        raw_description = ""
+        if encoded_node is not None and encoded_node.text:
+            raw_description = encoded_node.text
+        elif description_node is not None and description_node.text:
+            raw_description = description_node.text
+
+        if not link:
+            return None
 
         # Get the image URL from the <enclosure> element
         enclosure = item.find('enclosure')
         image_url = enclosure.get('url') if enclosure is not None else None
         
-        description = clean_content(description, image_url)
+        description = clean_content(raw_description, image_url)
 
         return {
             "title": title,
             "link": link,
-            "description": description
+            "description": description,
+            "pubDate": pub_date
         }
     except Exception as e:
         print(f"Failed to fetch article data: {e}")
@@ -58,7 +83,7 @@ def fetch_article_data(item):
 
 def scrape_prosport_articles(url):
     try:
-        response = requests.get(url)
+        response = requests.get(url, headers=HEADERS, timeout=20)
         response.raise_for_status()
         
         root = ET.fromstring(response.content)

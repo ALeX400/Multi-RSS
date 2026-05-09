@@ -56,4 +56,11 @@ env.bak/
 .mypy_cache/
 
 # rss #
-rss/index.md
+rss/
+
+# Local tests/scratch #
+Tests/
+
+# Temporary local scripts/files #
+.tmp*
+*.tmp

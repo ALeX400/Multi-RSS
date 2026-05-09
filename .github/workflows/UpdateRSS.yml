@@ -19,7 +19,7 @@ jobs:
         python-version: '3.x'
 
     - name: Install dependencies
-      run: pip install requests beautifulsoup4 lxml json5
+      run: pip install requests beautifulsoup4 lxml json5 curl_cffi
 
     - name: Run main RSS update script
       run: python main.py

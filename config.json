@@ -41,6 +41,11 @@
 			"script": "pattern_rust_facepunch.py",
 			"FileName": "rust_news.xml"
 		},
+		"GameMaps L4D2 Files": {
+			"url": "https://www.gamemaps.com/l4d2/files",
+			"script": "pattern_gamemaps_l4d2.py",
+			"FileName": "GameMaps_L4D2.xml"
+		},
 		"Free-Steam-Keys": {
 			"url": "https://www.freesteamkeys.com/keys-available/feed",
 			"script": "pattern_freesteamkeys.py",
