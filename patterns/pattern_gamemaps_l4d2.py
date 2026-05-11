@@ -13,7 +13,6 @@ except Exception:  # pragma: no cover - fallback only when curl_cffi is unavaila
 
 BASE_SITE = "https://www.gamemaps.com"
 LISTING_PATH = "/l4d2/files"
-DOWNLOAD_ENDPOINT = "/downloads/download"
 MAX_ITEMS = 5
 LISTING_SCAN_LIMIT = 40
 REQUEST_TIMEOUT = 30
@@ -267,53 +266,6 @@ def extract_description_html(detail_soup, fallback_text):
     return description_html, unique_preserve_order(workshop_links), description_plain_text
 
 
-def extract_download_link(session, detail_soup, details_url):
-    form = detail_soup.select_one(f'form[action="{DOWNLOAD_ENDPOINT}"]')
-    if not form:
-        form = detail_soup.select_one('form[action="/downloads/download"]')
-    if not form:
-        return ""
-
-    file_id_input = form.select_one('input[name="ids[]"]')
-    file_id = file_id_input.get("value", "").strip() if file_id_input else ""
-    if not file_id:
-        return ""
-
-    payload = {
-        "ids[]": file_id,
-        "noqueue": "true",
-        "direct": "true",
-    }
-    headers = {
-        "Accept": "*/*",
-        "Accept-Language": "en-US,en;q=0.9,ro;q=0.8",
-        "Content-Type": "application/x-www-form-urlencoded",
-        "Origin": BASE_SITE,
-        "Referer": details_url,
-    }
-
-    try:
-        response = session.post(
-            absolute_url(DOWNLOAD_ENDPOINT),
-            headers=headers,
-            data=payload,
-            allow_redirects=False,
-            timeout=REQUEST_TIMEOUT,
-        )
-    except Exception:
-        return ""
-
-    location = response.headers.get("location", "")
-    if location:
-        return absolute_url(location)
-
-    response_url = getattr(response, "url", "")
-    if response_url and "downloads/download" not in response_url:
-        return response_url
-
-    return ""
-
-
 def extract_media_urls(detail_soup):
     candidates = []
 
@@ -341,13 +293,13 @@ def build_gallery_id(details_url):
     return "gm-gallery-default"
 
 
-def build_action_buttons(download_url, workshop_links):
+def build_action_buttons(article_url, workshop_links):
     buttons = []
 
-    if download_url:
-        href = escape(download_url, quote=True)
+    if article_url:
+        href = escape(article_url, quote=True)
         buttons.append(
-            f'<a class="gm-btn gm-btn-download" href="{href}" target="_blank" rel="nofollow noopener noreferrer">Direct Download</a>'
+            f'<a class="gm-btn gm-btn-article" href="{href}" target="_blank" rel="nofollow noopener noreferrer">View Article</a>'
         )
 
     for index, link in enumerate(workshop_links[:2], start=1):
@@ -577,7 +529,7 @@ def set_style():
             font-size: 14px;
         }
 
-        .gm-btn-download {
+        .gm-btn-article {
             background: #1d9f61;
         }
 
@@ -770,8 +722,8 @@ def set_style():
     """
 
 
-def build_description_payload(description_html, download_url, workshop_links, media_urls, gallery_id):
-    actions_html = build_action_buttons(download_url, workshop_links)
+def build_description_payload(description_html, article_url, workshop_links, media_urls, gallery_id):
+    actions_html = build_action_buttons(article_url, workshop_links)
     media_html = build_media_block(media_urls, gallery_id)
 
     return f"""
@@ -804,13 +756,12 @@ def fetch_article_data(session, listing_entry, list_url):
     if not has_only_standard_scripts_article(title, listing_entry["teaser"], description_plain_text):
         return None
 
-    download_url = extract_download_link(session, detail_soup, details_url)
     media_urls = extract_media_urls(detail_soup)
     gallery_id = build_gallery_id(details_url)
 
     full_description = build_description_payload(
         description_html=description_html,
-        download_url=download_url,
+        article_url=details_url,
         workshop_links=workshop_links,
         media_urls=media_urls,
         gallery_id=gallery_id,
