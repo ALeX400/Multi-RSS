@@ -5,7 +5,4199 @@
     <description>RSS feed for Rust News.</description>
     <language>en-US</language>
     <generator>Multi-RSS</generator>
-    <lastBuildDate>Wed, 01 Jul 2026 00:55:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 00:42:25 +0000</lastBuildDate>
+    <item>
+      <title>Common Ground</title>
+      <link>https://rust.facepunch.com/news/common-ground/</link>
+      <guid>https://rust.facepunch.com/news/common-ground/</guid>
+      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
+  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
+   <source src="https://files.facepunch.com/lewis/1b2611b1/Common%20Grounds%20-%20Blog.mp4" type="video/mp4"/>
+   Your browser does not support the video tag.
+  </video>
+ </div>
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <img alt="Common Ground" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b2611b1/common_grounds-branding.png"/>
+    <p editname="Summary" type="text">
+     This month's update features a New Monument: The Apartment Complex, Rentable Shops,  a New Clan System &amp; Table, plus QoL changes and much more!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      02 July 2026
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block" id="">
+  <div class="section" like-handler="LikeBlogSection" like-id="85048" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       ⠀
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <br/>
+     </div>
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="1276" data-dashlane-rid="7d7e026e87920c8e" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Q9BpyXSjrac?si=3U1czlRhDOaZhV5u" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Apartmentcomplex">
+  <div class="section" like-handler="LikeBlogSection" like-id="85044" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Apartment complex
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The apartment complex is a new monument that allows players getting started with a wipe to find a place to call home. Simply talk to the receptionist in the lobby to get started and rent a room.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b0111b1/rust_apartment_complex_1080-7.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-style="smallgrid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/07/2026/7f63/rust_apartment_complex_1080-14.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/07/2026/4k84/rust_apartment_complex_1080-15.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      There are options for every budget, from the basement to the penthouse. Different room types come with different perks, like more storage, furnaces and more.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b3011b1/july2026_apartment_hallways_03.jpg"/>
+     </div>
+     <div>
+      Once you've rented a room you'll need to insert scrap into the slot next to your door, otherwise you'll be evicted and all of your possessions will be seized.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b3011b1/july2026_apartmentmedium_01%20%281%29.jpg"/>
+     </div>
+     <div>
+      <p>
+       There is a master key available somewhere on the island - find it and you can unlock access to any occupied room in the apartments for 5 minutes.
+      </p>
+      <p>
+       <br/>
+       Need a hint as to what room to burgle? There might be a guard in the basement who has more information.
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="RentableShops">
+  <div class="section" like-handler="LikeBlogSection" like-id="85038" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rentable Shops
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The new apartment complex monument features a small marketplace of shops. Each shop can be purchased and run by players, allowing you to sell your wares to the residents of the apartment building.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b3011b1/rust_market_8_1080.jpg"/>
+     </div>
+     <div>
+      <p>
+       To get started, simply approach the shop and interact with the contract hanging out front, and you'll get a breakdown of how much it costs. This includes a non-refundable upfront scrap fee as well as a per-hour (real-time) scrap cost. You will need at least 12 hours of rent available to open the store.
+      </p>
+      <p>
+       Once open, you can modify the sale listings and adjust stock levels like any other Vending Machine. These shops cannot be accessed by drone, but you can modify the sign above the shop to add some personal flair.
+      </p>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b3011b1/rust_market_UI_3_1080.jpg"/>
+     </div>
+     <div>
+      <p>
+       All of the shops already taken? After a shop has been open for 6 hours, you may take it over, but you will pay x2 on both the upfront scrap cost and per-hour rent. This will continue to escalate (3x, 4x, etc) if someone else takes over the shop after 6 hours until eventually someone runs out of rent and the shop (and cost multiplier) resets.
+      </p>
+      <p>
+       If a shop is taken over or closes and it has your belongings in its inventory, you may return to the shop to retrieve them. Just interact with the shop to pick up your items. These items will only last 24 hours though, so be quick!
+      </p>
+      <p>
+       Be warned, the master key can also be used on these stores so your items could be stolen if you try and store valuable goods.
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Softcoreupdates">
+  <div class="section" like-handler="LikeBlogSection" like-id="85040" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Softcore updates
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       We've made some new changes to the Softcore game mode.
+      </span>
+     </div>
+     <h2>
+      Accelerated Progression
+     </h2>
+     <div>
+      There's now a
+      <b>
+       2x multiplier
+      </b>
+      on resource gather amounts. This works pretty much as you'd be used to on modded servers, giving you extra ore, wood, food and animal loot.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/ianhenderson/1b0211b1/july2026_softcore_treecut_02.jpg"/>
+     </div>
+     <div>
+      <h2>
+      </h2>
+      <h2>
+       RAID WINDOWs
+      </h2>
+      <div>
+       <font color="#bab1a8" face="Open Sans, sans-serif">
+        It's hard to handle raids for more casual players. To combat this, we've created pre-defined time windows where you are allowed to raid each other. By default, raids can only happen between the hours of
+       </font>
+       <b>
+        6 PM - 9 PM
+       </b>
+       <span>
+        . This is set via your server's local time, so it's the same time zone for everyone. E.g. 6 PM local time no matter where you are. During a Raid Window, everything is fair game, it's regular rust.
+       </span>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b0111b1/rust_softcore_raiding_UI_2_1080.jpg"/>
+     </div>
+     <div>
+      Outside of those times, Tool Cupboards 'project' the raid blocking system, so you need to be inside a TC radius to be protected outside of the window. During this time, building blocks and doors cannot be raided: walls, floors, roofs, doors, ladder hatches, etc. Deployables can still be attacked, as can a Tool Cupboard (if it's lying unprotected).
+     </div>
+     <div>
+      <font color="#bab1a8" face="Open Sans, sans-serif">
+       <span>
+        <br/>
+       </span>
+      </font>
+     </div>
+     <div>
+      <font color="#bab1a8" face="Open Sans, sans-serif">
+       <span>
+        <div>
+         A Tool Cupboard must be at least 1 hour old to be able to block raids. This means a young TC can be raided regardless of whether the raid window is on or not. Helping prevent misuse of the system.
+        </div>
+        <div>
+         <br/>
+        </div>
+        <div>
+         Server Owners have been given a bunch of ConVars to tweak this.
+        </div>
+       </span>
+      </font>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ClanSystem">
+  <div class="section" like-handler="LikeBlogSection" like-id="85046" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Clan System
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Clans are a more advanced version of teams where you can have more members with different roles/permissions. There is a separate clan chat channel and announcement/MoTD text for communicating with clan members.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/Alistair/102/07/2026/6V08/rust_clan_table_3_1080.jpg"/>
+     </div>
+     <div>
+      Clans can be created and managed at Clan Tables.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/Alistair/102/07/2026/8T27/rust_clan_table_2_1080.jpg"/>
+     </div>
+     <div>
+      You can now see clan names on player nameplates. You'll also see your clan members' locations on the map if they're nearby.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/Alistair/102/07/2026/3363/rust_clan_UI_3_1080.jpg"/>
+     </div>
+     <div>
+      The clan system is disabled in hardcore mode.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Playeranimationsprintingwithrifles">
+  <div class="section" like-handler="LikeBlogSection" like-id="85034" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Player animation - sprinting with rifles
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      As mentioned last month, we're starting to use a
+      <a class="" href="https://rust.facepunch.com/news/built-different#Improvedanimationsystems">
+       new set of animation tools
+      </a>
+      to improve the player animator. This month we're rolling out new sprinting animations while holding most two handed projectile weapons/rifles.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/24_11-17-GreenThoroughbred/rust_gun_run_oldxnew_16x9.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      The player now pops their right arm up and lets the sprinting animation take over the rest of the body, looking much more responsive and less robotic.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="PlayerAnimationOnehandedmeleeweapons">
+  <div class="section" like-handler="LikeBlogSection" like-id="85039" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Player Animation - One handed melee weapons
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/kaantasan/1b0111b1/rust_hetchet_anim_comp_1.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <p>
+       We've extended last month's Torch animation system to support one handed melee weapons. We're just testing this out on the vanilla Hatchet for now, but once we're happy with the results we'll roll this out to other melee weapons. This allows for nicer movement while holding a weapon while still allowing two handed animations like throwing to play as expected.
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="GlowingWallpaperPack">
+  <div class="section" like-handler="LikeBlogSection" like-id="85043" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Glowing Wallpaper Pack
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-46e88fd5-7fff-1698-3d4d-1b5ba7d2759a">
+       <p dir="ltr">
+        <span>
+         This month, we’re introducing the Glowing Wallpaper Pack.
+        </span>
+       </p>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0111b1/Jul2026_Glowing_Wallpaper_DLC_Hero_1_1080.jpg"/>
+     </div>
+     <div>
+      <span id="docs-internal-guid-c97f0eb9-7fff-3be9-14ac-73a951abc1df">
+       <p dir="ltr">
+        <span>
+         Brighten up your base with this collection of 27 wall, floor, and ceiling wallpapers. Featuring luminous neon, glowing graffiti, foxfire fungi, and more. Whether you’re building the coziest crib or an industrial powerhouse, this pack has something for everyone.
+        </span>
+       </p>
+       <p dir="ltr">
+        <span>
+         These wallpapers look great in the day, but are even more special when the lights go out.
+        </span>
+       </p>
+      </span>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="rows">
+       <img src="https://files.facepunch.com/matti/1b0111b1/glowing_wallpaper_pack_blog_08b.jpg"/>
+       <img src="https://files.facepunch.com/matti/1b0111b1/glowing_wallpaper_pack_blog_02.jpg"/>
+       <img src="https://files.facepunch.com/matti/1b0111b1/glowing_wallpaper_pack_blog_04.jpg"/>
+       <img src="https://files.facepunch.com/matti/1b0111b1/glowing_wallpaper_pack_blog_05.jpg"/>
+       <img src="https://files.facepunch.com/matti/1b0111b1/glowing_wallpaper_pack_blog_03.jpg"/>
+       <img src="https://files.facepunch.com/matti/1b0111b1/glowing_wallpaper_pack_blog_07b.jpg"/>
+       <img src="https://files.facepunch.com/matti/1b0111b1/glowing_wallpaper_pack_blog_06b.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      <div>
+      </div>
+      <div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Included in the Glowing Wallpaper Pack:
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Walls
+      </div>
+      <div>
+       <ul>
+        <li>
+         Stars And Planets
+        </li>
+        <li>
+         Mushrooms
+        </li>
+        <li>
+         Firearms
+        </li>
+        <li>
+         Explosions
+        </li>
+        <li>
+         Graffiti Murals (3 variants)
+        </li>
+        <li>
+         Neon Shapes (3 variants)
+        </li>
+        <li>
+         Foxfire Fungi
+        </li>
+       </ul>
+      </div>
+      <div>
+       Ceilings
+      </div>
+      <div>
+       <ul>
+        <li>
+         Glow In The Dark Stars
+        </li>
+        <li>
+         Fireflies
+        </li>
+        <li>
+         Graffiti Murals (4 variants)
+        </li>
+        <li>
+         Foxfire Fungi
+        </li>
+       </ul>
+      </div>
+      <div>
+       Floors
+      </div>
+      <div>
+       <ul>
+        <li>
+         Directional Graffiti (6 variants)
+        </li>
+        <li>
+         Glow In The Dark Carpet (3 variants)
+        </li>
+       </ul>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       The Glowing Wallpaper Pack can be purchased in-game or from the
+       <a class="" href="https://rust.facepunch.com/store/pack/glowingwallpaperpack">
+        Rust Steam item store
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="UsePlayerJobsChanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="85045" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       UsePlayerJobs Changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <h2>
+      Jobs 3 is now default, Jobs 2 to be removed
+     </h2>
+     <div>
+      This month we've added a couple more changes/improvements to
+      <b>
+       Jobs 3
+      </b>
+      code and we've had the it active on our servers for half of the month and things looked stable. We've also done a bit of a rewrite how we pass around server player state, which will force server mods to update their code as well. This makes it the perfect time for us to promote it to default, as it would enable us to clean up a bit more code and simplify things.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This means
+      <b>
+       Jobs 2
+      </b>
+      mode will become deprecated and will be removed in August - one will still be able to set it to 2, but it will run mode 3 underneath.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      As Jobs 3 has been modified over multiple months, here's the full list of improvements that comes with it:
+     </div>
+     <div>
+      <ul>
+       <li>
+        Use of UniTask library to avoid allocations from multithreading code
+       </li>
+       <li>
+        Speeds up per frame player snapshot sending by using new fuzzy pool and removing buffer preallocation
+       </li>
+       <li>
+        Runs portions of player network subscription updates in parallel
+       </li>
+       <li>
+        Schedules EAC and Analytics tasks earlier to avoid main thread waiting on them
+       </li>
+       <li>
+        Parallelized remaining server Anti Hack logic
+       </li>
+      </ul>
+      <div>
+      </div>
+      <div>
+      </div>
+      <div>
+      </div>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="smallgrid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b0111b1/paintdotnet_MmM7jy94Uc.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b0111b1/msedge_lV0AukOR2u.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b0111b1/paintdotnet_Loobakh4Mx.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b0111b1/paintdotnet_HvJuMT4H8w.png"/>
+      </gallery>
+     </div>
+     <h2>
+      New Jobs 4 level
+     </h2>
+     <div>
+      We've also started to explore
+      <b>
+       Jobs 4
+      </b>
+      optimizations - our first contribution to it is parallelization of server occlusion pair gathering. We're also going to be looking what kind of more risky or breaking changes to make, so it'll likely be a couple months before Jobs 4 will have enough substance to ship it.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="NotableChanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="85047" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Notable Changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/07/2026/3w80/grayout.png"/>
+        <center>
+         <b>
+          Picked Skin Grey Out
+         </b>
+        </center>
+        <center>
+         Picked Skin is now Greyed Out
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/07/2026/8i34/rust_nov2025update_minifridge_02.jpg"/>
+        <center>
+         <b>
+          Auto Sorted
+         </b>
+        </center>
+        <center>
+         Vending machines and fridges now support storage adaptor auto-sorting
+        </center>
+       </div>
+       <div class="columns is-multiline">
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/07/2026/9r34/hogger.png"/>
+         <center>
+          <b>
+           Inventory Player Model
+          </b>
+         </center>
+         <center>
+          Player model quality now changes within the inventory to yield better performance
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/104/06/2026/4g60/june2026_playerupdate_02.jpg"/>
+         <center>
+          <b>
+           Footstep  Frequency
+          </b>
+         </center>
+         <center>
+          Adjusted the footstep frequency to be closer to the old player rig
+         </center>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="bearsforabetterworldcharity2026">
+  <div class="section" like-handler="LikeBlogSection" like-id="85027" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       bears for a better world - charity 2026
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-144a94f1-7fff-5bab-48c7-726000df3cfe">
+       <p>
+        <span>
+         Get ready to cuddle up with a bear that’s not only adorable but also changing lives!
+         <br/>
+        </span>
+        Starting July 2nd, Rust will host a massive charity drive to raise money for two incredible causes:
+        <a class="" href="https://www.cancerresearchuk.org/get-involved">
+         Cancer Research UK
+        </a>
+        and
+        <a class="" href="https://ronaldmcdonaldhouse.org.uk/">
+         Ronald McDonald House UK
+        </a>
+        .
+        <br/>
+        <br/>
+        Rust is also partnering with some of the biggest names in the Rust community!
+        <span>
+         Throughout the drive, partnered creators will be hosting their own fundraising streams, with free Twitch
+        </span>
+        <span>
+         Drops to also help raise awareness of the charities and allow players to show even more support.
+        </span>
+       </p>
+       <p>
+        We even have a
+        <a class="" href="https://tiltify.com/@facepunch/auctions/plushie-bear-campaign">
+         Charity Auction
+        </a>
+        ! Want a signed Displate poster?  Or to design your own Rust Skin?  Go check it out!
+       </p>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b2911b1/rust_charity_plushies_smallgroup_4_1080.jpg"/>
+     </div>
+     <div>
+      <span id="docs-internal-guid-503cd39b-7fff-fde5-3f39-43e01afd7864">
+       <span>
+        100% of sale proceeds after Steam fees and tax from the sale of these charity bears will be donated, helping support Cancer Research UK's critical work in funding cancer research and saving lives,
+       </span>
+       <span>
+        and also supporting Ronald McDonald House UK to provide free accommodation and support to families with children in hospital. Every purchase will make a difference.
+       </span>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1811b1/rust_charity_plushies_cancer_1_4k.jpg"/>
+     </div>
+     <div>
+      <span id="docs-internal-guid-b1b89d49-7fff-7537-2aa3-3a5982daa9c3">
+       <p dir="ltr">
+        <span>
+         These one-of-a-kind charity bears are available through Rust’s in-game item store, and players can choose from two cute, quirky, and (actually) glowing but true-to-Rust designs which represent your contribution to supporting families in need and funding groundbreaking cancer research.
+        </span>
+        Every bear purchased is a symbol of the community coming together to create a lasting impact beyond the game.
+       </p>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1811b1/rust_charity_plushies_ronald_hazzy_hold_4k.jpg"/>
+     </div>
+     <div>
+      <span id="docs-internal-guid-81f6c808-7fff-dffa-2a25-a6be18f6f68b">
+       Starting July 2nd, players can purchase these bears, but the clock is ticking as they are only available for a limited time.
+      </span>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+      <span id="docs-internal-guid-81f6c808-7fff-dffa-2a25-a6be18f6f68b">
+       Whether you’re surviving the wilds of Rust or just want to spread some good vibes in your base, these bears are a perfect way to help others while you play.
+      </span>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Charity Bear Plushies can be bought
+      <a class="" href="https://store.steampowered.com/itemstore/252490/">
+       here
+      </a>
+      !
+     </div>
+     <div>
+      <br/>
+      You can donate directly to the charities through Rust's drive
+      <a class="" href="https://twitch.facepunch.com/">
+       here
+      </a>
+      .
+     </div>
+     <div>
+      <br/>
+      And you can see creators and drive progress
+      <a class="selected" href="https://tiltify.com/tif/facepunch-studios">
+       here
+      </a>
+      .
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      Twitch Drops!
+     </h2>
+     <div>
+      Also starting July 2nd - we will have 5 drops you can earn watching any Rust stream on Twitch!
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://twitch.facepunch.com/">
+       <img src="https://files.facepunch.com/Errn/1b0111b1/Rust%20x%20Bears%20for%20a%20Better%20World%20-%20Values.jpg"/>
+      </a>
+     </div>
+     <div>
+      Over the course of the next few weeks you can help unlock more drops as we meet donation goal milestones!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Sync your Steam and Twitch accounts to claim your drops!
+      <a class="" href="https://twitch.facepunch.com/">
+       https://twitch.facepunch.com/
+      </a>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      If you're a content creator or a community group and you want to help fundraise with us you can make your own Tiltify team
+      <a class="" href="https://start.tiltify.com/?supportingFactId=5cf75471-1792-483e-a0d0-65cd1da57dd8">
+       here
+      </a>
+      !  Just select the Quick start option and publish your team page!  Your teams progress will go towards the main campaign.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="DemoCompatibilitylayer">
+  <div class="section" like-handler="LikeBlogSection" like-id="85033" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Demo Compatibility layer
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Every Rust update has the ability to break older demos. On our end its incredibly simple to do so, more than it should be. To this end: I've introduced a compatibility layer into the demo system. This layer will try and get old demos working on your new Rust version.
+      <br/>
+      <br/>
+      When opening an old demo you will be asked if you want to use the compatibility layer (should it be applicable). When enabled the layer will attempt to remap changed item names to what they used to be in order to get the demo to run. It's important to note that this is only likely to work provided the demo has been taken within the last few months, the older it is, the less likely it is to work.
+      <br/>
+      <br/>
+      The one catch is that this system wont work for demos taken on older Rust builds than now. Eg: this layer only works for demos taken from now onwards. Demos taken on older builds of rust don't have the information required to be able to turn on this layer
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="newworkshopskinnablemetalshopfront">
+  <div class="section" like-handler="LikeBlogSection" like-id="85042" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       new workshop skinnable: metal shop front
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-492d1fdc-7fff-0669-24aa-fbfeb5754ffb">
+       <p dir="ltr">
+        <span>
+         This month’s workshop skinnable is the Metal Shopfront.
+        </span>
+       </p>
+       <p dir="ltr">
+        <span>
+         Supporting customisation on both the front and back, you can finally sell your collection of severed wolf heads on brand. We’re looking forward to seeing some incredible submissions by the community.
+        </span>
+       </p>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b0111b1/Jul2026_Skinnable_Metal_Shopfront_4_1080.jpg"/>
+     </div>
+     <div>
+      <span id="docs-internal-guid-b7256588-7fff-515a-1689-56e16802c6f7">
+       <p dir="ltr">
+        <span>
+         To make your own Metal Shopfront skin, head over to the in-game workshop and locate the Metal Shopfront deployable item. From there, you can download the model file and add your own materials.
+        </span>
+       </p>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="RUSTXCANBEBACKPACKANDWEAPONCHARMS">
+  <div class="section" like-handler="LikeBlogSection" like-id="85041" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       RUST X CAN BE - BACKPACK AND WEAPON CHARMS
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The Rust x Can Be backpack will begin shipping this month.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/lewis/1b3011b1/Rust%20x%20Canbe%20Backpack.jpg"/>
+     </div>
+     <div>
+      Every backpack purchase includes exclusive free in-game weapon charms.
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/kaantasan/1b0111b1/rust_charms_blog_loop_h264.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <h2>
+      What are Weapon charms?
+     </h2>
+     <div>
+      Weapon Charms are fun cosmetic weapon accessories that can be attached to almost any ranged weapon. There are over 55 ranged weapons that currently support Charms with more to be added as we continue to develop Rust.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      To add a charm to your ranged weapon simply open up the inventory, select the weapon and use the Change Accessory button to select from available charms. You can set the charm during the crafting phase, or when dropped into a repair bench. There is no crafting cost. You can even do this with looted ranged weapons that have charms already affixed. The selected charm is tied to the individual weapon, so if you pick up someone else's weapon with a charm attached it will still be there unless you remove or change it.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Weapon Charms are viewable both in first and third person, so other players will be able to see your selected accessory.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Check out the full collection over on the Can Be
+      <a class="" href="https://can.be/collabs/rust-x-can-be">
+       store
+      </a>
+      .
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Rustxmanatarmsirlautoturret">
+  <div class="section" like-handler="LikeBlogSection" like-id="85029" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rust x man at arms - irl auto turret
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've teamed up with the talented ASH Entertainment and The Baltimore Knife &amp; Sword Crew behind the YouTube series, Man at Arms, to bring to life one of Rust's most iconic items: the Auto Turret.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="4879" data-dashlane-rid="b1360adf81236389" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ffOj11WXj8Y" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+     </div>
+     <div>
+      <span id="docs-internal-guid-af5015cc-7fff-1f26-5f06-3997eb43ed01">
+       <p>
+        The team of expert fabricators and blacksmiths set out to recreate a 1:1 replication of the infamous base and safezone protecting Turret, with auto-tracking and a bespoke gun slot with firing mechanisms!
+       </p>
+       <div>
+       </div>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1811b1/ManAtArms_Rust_AutoTurret_Preview-2.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2611b1/5.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2611b1/7.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2611b1/13.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2611b1/10.png"/>
+      </gallery>
+     </div>
+     <div>
+      This custom, one-of-a-kind build was exclusively created for Facepunch.
+     </div>
+     <div>
+      Check out the full build over on the
+      <a class="" href="https://www.youtube.com/@AweMe">
+       Man at Arms channel
+      </a>
+      now.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="discordorbs">
+  <div class="section" like-handler="LikeBlogSection" like-id="85036" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       discord orbs
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       <span>
+        Purchase official Rust items in the Discord Shop and earn Discord Orbs.
+       </span>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b2611b1/rust%20x%20discord%20-%20orbs%20announcement%2016x9.png"/>
+     </div>
+     <div>
+      <span>
+       Orbs can be used on eligible items in the
+      </span>
+      <a class="" href="https://discord.com/channels/560127830160048128/game-shop">
+       Discord Shop
+      </a>
+      <span>
+       . Offer ends 16th July!
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Common Ground
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Common Ground
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Thursday, July 2, 2026
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
+    </div>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Apartment Complex Monument
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Rentable Stores
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added an experimental shadow caching mode for improved shadow rendering performance
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          (Softcore) Added 2x gathering rate
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          (Softcore) Added raid windows
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a demo compatibility layer
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New sprinting animation system while holding rifles
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Hunting Trophies can now show player skins
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Demo cfg files will now be rerun whenever the demo is restarted
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New animation controller for vanilla hatchet
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Removed texture projectors that could be causing performance loss
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Optimized weapon rack config scripts to use PrefabAttribute
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a new way of setting entity flags within a disposable scope to discourage invoking multiple unnecessary entity snapshot sends
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Replaced usages of deprecated ‘FindObjectsOfType’ with faster unsorted ‘FindObjectsByType’
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced persistent server heap memory usage of missions WorldPositionGenerator and sped up initial and subsequent execution time runs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Turrets attached with a gun that only uses burst-fire (M16A2) will now also use burst-fire
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a screen explaining what's Softcore
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved main menu notifications
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Computer station UI is now scaled by the UI scale convar
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a new setting to control the quality of the player preview in the inventory
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Set UsePlayerUpdateJobs 3 as default
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Removed allocations from PlayerVoice processing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduce how much player's server state we cache every frame
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Cleaned up a bunch of allocations (~15 sources, mostly more invokes)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduce drawcalls by about 15-20% when rendering meshes with both occlusion and batching setups
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Opening the demo browser will now automatically refresh the list
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Vending machines, fridges, and wall cabinets now support storage adaptor sorting
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a better error message when placement is blocked by industrial piping
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reskinning / crafting UI will now visually highlight the currently applied skin
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Possibly fixed case where voice chat would get more delayed over long play sessions
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some leg jittering when holding a torch on horseback
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some issues with cinematic_play and cinematic_stop commands
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Abyss torch not using new animation logic as other torches
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Wanted Poster text disappearing when entering/leaving the deep sea
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the player briefly standing when rapidly switching between items while sitting
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some clipping issues with the new player models in some Modular Car seats
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some body parts sometimes culling too early while they are still in view, particularly on ragdolls
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed phones not attaching to the hand properly while in use
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Ladder Hatch unlocking after learning the Elevator blueprint
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Remove client.SetPlayerSeed convar (duplicate of client.playerseed command)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed case where sometimes reskinning the riot helmet would leave some parts on the prior skin
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the shield power bar staying visible if disconnecting while the shield was held
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed motorbike player model hit reaction animations playing too often
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed case where the female breast censorship effect would sometimes appear even if clothing was worn
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Possibly fixed a rare occlusion culling error
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          (Softcore) Fixed skins of torches and rocks being included in reclaim terminal
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed LR300 space skin ammo display count being initially invisible
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed held entities potentially being visible whilst performing gestures when they are supposed to be hidden
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed stale NPC conversations being active when disconnecting and reconnecting to another server
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed hatch on the ladder hatch not rendering shadows with ‘graphics.aggressiveShadowLod’ enabled
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed M16A2 viewmodel animation issues when firing at low FPS
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed incorrect move/drop sound effects for ballistic leg armour
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed store's cart button drawn on top of friend list
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed painting binds not working in the painting menu
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed F1 console input field losing focus when connecting/disconnecting
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed wires attached to doors not following the doors correctly when it opens
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed blurry wires on moving boats with motion blur enabled
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed console input field text vanishing after pasting a long string
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed console logs using UTC time instead of local time
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed contact menu default mugshot resolution
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed fuel tanks not being connectable together
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed not being able to place wallpaper on finished boats
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed escape not closing the console when mounted to a computer station
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed painting mode not switching back to brush after picking a color at low FPS
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed friend list missing context menu
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed IO entities getting free power after being reskinned
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed stacked steam items showing as one single item in the steam inv menu
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed building errors/toast messages not showing up when a teammate is holding a planner, when building preview is enabled
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed electric heater appearing ON after leaving and re entering network range
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed industrial lights not lighting the player boats
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed drone controls not being keyboard layout aware
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed workshop file dialog still using the old input system
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed player dying instantly when touching a cactus while mounting a horse
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed battering ram middle wheels rotating backwards
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed needing cloth in your inventory to reskin wallpapers (reskin is free)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an NRE when closing the checkout result page too quickly
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed DPV fuel bar text regression
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fuzzy Pool no longer gets stuck spilling objects after a heavy multithreading contention
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some of player's server cached state being potentially out of sync for 1 frame after applying network positions from client(ex: IsSwimming)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed deep sea potentially using overworld heightmap for swimming checks and ocean wave simulation
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed NRE when 2 player spectate a player being kicked/banned
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed bots/sleepers potentially being network streamed out when cargoship moves
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed ballistic armor and bowless crossbow drop/pickup sounds being audible from far away
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed admin-only mannequin suit being invisible
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a server warning related to corpse buoyancy
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the bowless crossbow animation looking odd when firing in quick succession
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a case where streamer mode would not hide your own player name
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the flash of the instant camera being offset
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an issue with reskinning barrels giving you the wrong item
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an issue where the Frontier Decor barrels were not deployable in to shelves and half-height shelves
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the purchase amount not clamping correctly when buying from a vending machine
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the vending machine stats page sometimes updating / closing when it wasn't supposed to
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a random green light in the middle of radtown
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some lights in ferry terminal having oversized collision
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed scientists chasing players into the water on the deep sea islands
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed abandoned military base sometimes having a building clipped inside a silo
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some hair styles clipping with helmets
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed small gaps appearing in the deep sea island terrain on low object quality
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the belt animation on quarries playing too fast
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a texture issue on quarries, with low object quality
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed rich text rendering in various UI elements
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed text written on photographs not saving
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed streamer mode not applying to the chat messages when spawning items as an admin
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed vending machine IO slot displaying "short cicruit" warning when selling skins seperately was enabled
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed wanted posters deploy guide not matching their actual size when placed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the ingame video player not working since the Unity upgrade
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed certain characters creating new lines in chat to create spam
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed military silencer not spawning in loot
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a case where unloadable traincars would stay locked when unloading
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the splash sound when jumping into water not playing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the auto turret cover being invisible when viewing turret skins in the skin viewer
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being unable to invite players to a party in the ingame friends list
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the industrial garage door destroying vehicles when closing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed radtown buildings turning invisible when viewed from very far away
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed industrial shelves missing from conveyor filters
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed certain lights killing fps near the world origin on custom maps
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an issue with invalid projectiles when mounting to a boat
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed player voices glitching out when heard through a computer station / CCTV
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an issue with shields when using an attack heli turret
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed deployable snapping being inconsistent and often not working
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row removed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         remove_circle
+        </i>
+       </span>
+       <h3>
+        Removed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Removed all obsolete and generic versions of BaseEntity.ClientRPC, ClientRPCEx, ClientRPCPlayer, ServerRPC and ServerRPCList calls - switch to existing methods or write your own via *RPCStart-&gt;*RPCWrite-&gt;*RPCSend
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Removed Full Server Demo support (not related to recording normal player demos on the server)
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></description>
+      <content:encoded><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
+<div class="blog-hero">
+ <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
+  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
+   <source src="https://files.facepunch.com/lewis/1b2611b1/Common%20Grounds%20-%20Blog.mp4" type="video/mp4"/>
+   Your browser does not support the video tag.
+  </video>
+ </div>
+ <div class="container" targetobject="blog">
+  <div class="blog-hero-body">
+   <div class="body-info">
+    <img alt="Common Ground" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b2611b1/common_grounds-branding.png"/>
+    <p editname="Summary" type="text">
+     This month's update features a New Monument: The Apartment Complex, Rentable Shops,  a New Clan System &amp; Table, plus QoL changes and much more!
+    </p>
+    <div class="tags">
+     <div class="tag secondary">
+      02 July 2026
+     </div>
+     <a class="tag devblog" style="text-decoration: none;">
+      DEVBLOG
+     </a>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<style>
+ .blog .news-section-block.sectionstyle-hero .content {
+            background-color: inherit;
+            padding: 2rem;
+        }
+        div.blog .section {
+            padding: 16px;
+            margin-bottom: 1rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        .blog-hero {
+            background-color: inherit;
+            padding: calc(8rem + 100px) 0 8rem 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            min-height: 50vh;
+        }
+        .change-blog-container {
+            background-color: inherit;
+            width: 100%;
+        }
+        h1,h2,h3,h4,h5 {
+            font-family: inherit;
+            font-weight: inherit;
+            color: inherit;
+        }
+        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 500;
+            color: #e4dad1;
+        }
+        .sectionstyle-hero {
+            min-height: 0;
+        }
+</style>
+<div class="blog">
+ <div class="news-section-block" id="">
+  <div class="section" like-handler="LikeBlogSection" like-id="85048" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       ⠀
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <br/>
+     </div>
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="1276" data-dashlane-rid="7d7e026e87920c8e" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/Q9BpyXSjrac?si=3U1czlRhDOaZhV5u" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Apartmentcomplex">
+  <div class="section" like-handler="LikeBlogSection" like-id="85044" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Apartment complex
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The apartment complex is a new monument that allows players getting started with a wipe to find a place to call home. Simply talk to the receptionist in the lobby to get started and rent a room.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b0111b1/rust_apartment_complex_1080-7.jpg"/>
+     </div>
+     <div>
+     </div>
+     <div blocktype="gallery" class="edit-block selected" contenteditable="false">
+      <gallery data-gallery-style="smallgrid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/07/2026/7f63/rust_apartment_complex_1080-14.jpg"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/07/2026/4k84/rust_apartment_complex_1080-15.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      There are options for every budget, from the basement to the penthouse. Different room types come with different perks, like more storage, furnaces and more.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b3011b1/july2026_apartment_hallways_03.jpg"/>
+     </div>
+     <div>
+      Once you've rented a room you'll need to insert scrap into the slot next to your door, otherwise you'll be evicted and all of your possessions will be seized.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b3011b1/july2026_apartmentmedium_01%20%281%29.jpg"/>
+     </div>
+     <div>
+      <p>
+       There is a master key available somewhere on the island - find it and you can unlock access to any occupied room in the apartments for 5 minutes.
+      </p>
+      <p>
+       <br/>
+       Need a hint as to what room to burgle? There might be a guard in the basement who has more information.
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="RentableShops">
+  <div class="section" like-handler="LikeBlogSection" like-id="85038" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rentable Shops
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The new apartment complex monument features a small marketplace of shops. Each shop can be purchased and run by players, allowing you to sell your wares to the residents of the apartment building.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b3011b1/rust_market_8_1080.jpg"/>
+     </div>
+     <div>
+      <p>
+       To get started, simply approach the shop and interact with the contract hanging out front, and you'll get a breakdown of how much it costs. This includes a non-refundable upfront scrap fee as well as a per-hour (real-time) scrap cost. You will need at least 12 hours of rent available to open the store.
+      </p>
+      <p>
+       Once open, you can modify the sale listings and adjust stock levels like any other Vending Machine. These shops cannot be accessed by drone, but you can modify the sign above the shop to add some personal flair.
+      </p>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b3011b1/rust_market_UI_3_1080.jpg"/>
+     </div>
+     <div>
+      <p>
+       All of the shops already taken? After a shop has been open for 6 hours, you may take it over, but you will pay x2 on both the upfront scrap cost and per-hour rent. This will continue to escalate (3x, 4x, etc) if someone else takes over the shop after 6 hours until eventually someone runs out of rent and the shop (and cost multiplier) resets.
+      </p>
+      <p>
+       If a shop is taken over or closes and it has your belongings in its inventory, you may return to the shop to retrieve them. Just interact with the shop to pick up your items. These items will only last 24 hours though, so be quick!
+      </p>
+      <p>
+       Be warned, the master key can also be used on these stores so your items could be stolen if you try and store valuable goods.
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Softcoreupdates">
+  <div class="section" like-handler="LikeBlogSection" like-id="85040" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Softcore updates
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span>
+       We've made some new changes to the Softcore game mode.
+      </span>
+     </div>
+     <h2>
+      Accelerated Progression
+     </h2>
+     <div>
+      There's now a
+      <b>
+       2x multiplier
+      </b>
+      on resource gather amounts. This works pretty much as you'd be used to on modded servers, giving you extra ore, wood, food and animal loot.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/ianhenderson/1b0211b1/july2026_softcore_treecut_02.jpg"/>
+     </div>
+     <div>
+      <h2>
+      </h2>
+      <h2>
+       RAID WINDOWs
+      </h2>
+      <div>
+       <font color="#bab1a8" face="Open Sans, sans-serif">
+        It's hard to handle raids for more casual players. To combat this, we've created pre-defined time windows where you are allowed to raid each other. By default, raids can only happen between the hours of
+       </font>
+       <b>
+        6 PM - 9 PM
+       </b>
+       <span>
+        . This is set via your server's local time, so it's the same time zone for everyone. E.g. 6 PM local time no matter where you are. During a Raid Window, everything is fair game, it's regular rust.
+       </span>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b0111b1/rust_softcore_raiding_UI_2_1080.jpg"/>
+     </div>
+     <div>
+      Outside of those times, Tool Cupboards 'project' the raid blocking system, so you need to be inside a TC radius to be protected outside of the window. During this time, building blocks and doors cannot be raided: walls, floors, roofs, doors, ladder hatches, etc. Deployables can still be attacked, as can a Tool Cupboard (if it's lying unprotected).
+     </div>
+     <div>
+      <font color="#bab1a8" face="Open Sans, sans-serif">
+       <span>
+        <br/>
+       </span>
+      </font>
+     </div>
+     <div>
+      <font color="#bab1a8" face="Open Sans, sans-serif">
+       <span>
+        <div>
+         A Tool Cupboard must be at least 1 hour old to be able to block raids. This means a young TC can be raided regardless of whether the raid window is on or not. Helping prevent misuse of the system.
+        </div>
+        <div>
+         <br/>
+        </div>
+        <div>
+         Server Owners have been given a bunch of ConVars to tweak this.
+        </div>
+       </span>
+      </font>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="ClanSystem">
+  <div class="section" like-handler="LikeBlogSection" like-id="85046" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Clan System
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Clans are a more advanced version of teams where you can have more members with different roles/permissions. There is a separate clan chat channel and announcement/MoTD text for communicating with clan members.
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/Alistair/102/07/2026/6V08/rust_clan_table_3_1080.jpg"/>
+     </div>
+     <div>
+      Clans can be created and managed at Clan Tables.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/Alistair/102/07/2026/8T27/rust_clan_table_2_1080.jpg"/>
+     </div>
+     <div>
+      You can now see clan names on player nameplates. You'll also see your clan members' locations on the map if they're nearby.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img src="https://files.facepunch.com/Alistair/102/07/2026/3363/rust_clan_UI_3_1080.jpg"/>
+     </div>
+     <div>
+      The clan system is disabled in hardcore mode.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Playeranimationsprintingwithrifles">
+  <div class="section" like-handler="LikeBlogSection" like-id="85034" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Player animation - sprinting with rifles
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      As mentioned last month, we're starting to use a
+      <a class="" href="https://rust.facepunch.com/news/built-different#Improvedanimationsystems">
+       new set of animation tools
+      </a>
+      to improve the player animator. This month we're rolling out new sprinting animations while holding most two handed projectile weapons/rifles.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="video" class="edit-block selected" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/24_11-17-GreenThoroughbred/rust_gun_run_oldxnew_16x9.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      The player now pops their right arm up and lets the sprinting animation take over the rest of the body, looking much more responsive and less robotic.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="PlayerAnimationOnehandedmeleeweapons">
+  <div class="section" like-handler="LikeBlogSection" like-id="85039" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Player Animation - One handed melee weapons
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/kaantasan/1b0111b1/rust_hetchet_anim_comp_1.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <div>
+      <p>
+       We've extended last month's Torch animation system to support one handed melee weapons. We're just testing this out on the vanilla Hatchet for now, but once we're happy with the results we'll roll this out to other melee weapons. This allows for nicer movement while holding a weapon while still allowing two handed animations like throwing to play as expected.
+      </p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="GlowingWallpaperPack">
+  <div class="section" like-handler="LikeBlogSection" like-id="85043" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Glowing Wallpaper Pack
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-46e88fd5-7fff-1698-3d4d-1b5ba7d2759a">
+       <p dir="ltr">
+        <span>
+         This month, we’re introducing the Glowing Wallpaper Pack.
+        </span>
+       </p>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0111b1/Jul2026_Glowing_Wallpaper_DLC_Hero_1_1080.jpg"/>
+     </div>
+     <div>
+      <span id="docs-internal-guid-c97f0eb9-7fff-3be9-14ac-73a951abc1df">
+       <p dir="ltr">
+        <span>
+         Brighten up your base with this collection of 27 wall, floor, and ceiling wallpapers. Featuring luminous neon, glowing graffiti, foxfire fungi, and more. Whether you’re building the coziest crib or an industrial powerhouse, this pack has something for everyone.
+        </span>
+       </p>
+       <p dir="ltr">
+        <span>
+         These wallpapers look great in the day, but are even more special when the lights go out.
+        </span>
+       </p>
+      </span>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="rows">
+       <img src="https://files.facepunch.com/matti/1b0111b1/glowing_wallpaper_pack_blog_08b.jpg"/>
+       <img src="https://files.facepunch.com/matti/1b0111b1/glowing_wallpaper_pack_blog_02.jpg"/>
+       <img src="https://files.facepunch.com/matti/1b0111b1/glowing_wallpaper_pack_blog_04.jpg"/>
+       <img src="https://files.facepunch.com/matti/1b0111b1/glowing_wallpaper_pack_blog_05.jpg"/>
+       <img src="https://files.facepunch.com/matti/1b0111b1/glowing_wallpaper_pack_blog_03.jpg"/>
+       <img src="https://files.facepunch.com/matti/1b0111b1/glowing_wallpaper_pack_blog_07b.jpg"/>
+       <img src="https://files.facepunch.com/matti/1b0111b1/glowing_wallpaper_pack_blog_06b.jpg"/>
+      </gallery>
+     </div>
+     <div>
+      <div>
+      </div>
+      <div>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Included in the Glowing Wallpaper Pack:
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       Walls
+      </div>
+      <div>
+       <ul>
+        <li>
+         Stars And Planets
+        </li>
+        <li>
+         Mushrooms
+        </li>
+        <li>
+         Firearms
+        </li>
+        <li>
+         Explosions
+        </li>
+        <li>
+         Graffiti Murals (3 variants)
+        </li>
+        <li>
+         Neon Shapes (3 variants)
+        </li>
+        <li>
+         Foxfire Fungi
+        </li>
+       </ul>
+      </div>
+      <div>
+       Ceilings
+      </div>
+      <div>
+       <ul>
+        <li>
+         Glow In The Dark Stars
+        </li>
+        <li>
+         Fireflies
+        </li>
+        <li>
+         Graffiti Murals (4 variants)
+        </li>
+        <li>
+         Foxfire Fungi
+        </li>
+       </ul>
+      </div>
+      <div>
+       Floors
+      </div>
+      <div>
+       <ul>
+        <li>
+         Directional Graffiti (6 variants)
+        </li>
+        <li>
+         Glow In The Dark Carpet (3 variants)
+        </li>
+       </ul>
+      </div>
+      <div>
+       <br/>
+      </div>
+      <div>
+       The Glowing Wallpaper Pack can be purchased in-game or from the
+       <a class="" href="https://rust.facepunch.com/store/pack/glowingwallpaperpack">
+        Rust Steam item store
+       </a>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="UsePlayerJobsChanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="85045" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       UsePlayerJobs Changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <h2>
+      Jobs 3 is now default, Jobs 2 to be removed
+     </h2>
+     <div>
+      This month we've added a couple more changes/improvements to
+      <b>
+       Jobs 3
+      </b>
+      code and we've had the it active on our servers for half of the month and things looked stable. We've also done a bit of a rewrite how we pass around server player state, which will force server mods to update their code as well. This makes it the perfect time for us to promote it to default, as it would enable us to clean up a bit more code and simplify things.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      This means
+      <b>
+       Jobs 2
+      </b>
+      mode will become deprecated and will be removed in August - one will still be able to set it to 2, but it will run mode 3 underneath.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      As Jobs 3 has been modified over multiple months, here's the full list of improvements that comes with it:
+     </div>
+     <div>
+      <ul>
+       <li>
+        Use of UniTask library to avoid allocations from multithreading code
+       </li>
+       <li>
+        Speeds up per frame player snapshot sending by using new fuzzy pool and removing buffer preallocation
+       </li>
+       <li>
+        Runs portions of player network subscription updates in parallel
+       </li>
+       <li>
+        Schedules EAC and Analytics tasks earlier to avoid main thread waiting on them
+       </li>
+       <li>
+        Parallelized remaining server Anti Hack logic
+       </li>
+      </ul>
+      <div>
+      </div>
+      <div>
+      </div>
+      <div>
+      </div>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="smallgrid">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b0111b1/paintdotnet_MmM7jy94Uc.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b0111b1/msedge_lV0AukOR2u.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b0111b1/paintdotnet_Loobakh4Mx.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/danielprihodko/1b0111b1/paintdotnet_HvJuMT4H8w.png"/>
+      </gallery>
+     </div>
+     <h2>
+      New Jobs 4 level
+     </h2>
+     <div>
+      We've also started to explore
+      <b>
+       Jobs 4
+      </b>
+      optimizations - our first contribution to it is parallelization of server occlusion pair gathering. We're also going to be looking what kind of more risky or breaking changes to make, so it'll likely be a couple months before Jobs 4 will have enough substance to ship it.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero" id="NotableChanges">
+  <div class="section" like-handler="LikeBlogSection" like-id="85047" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Notable Changes
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div blocktype="html" class="edit-block selected" contenteditable="false">
+      <div class="columns is-multiline">
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/07/2026/3w80/grayout.png"/>
+        <center>
+         <b>
+          Picked Skin Grey Out
+         </b>
+        </center>
+        <center>
+         Picked Skin is now Greyed Out
+        </center>
+       </div>
+       <div class="column is-6">
+        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/07/2026/8i34/rust_nov2025update_minifridge_02.jpg"/>
+        <center>
+         <b>
+          Auto Sorted
+         </b>
+        </center>
+        <center>
+         Vending machines and fridges now support storage adaptor auto-sorting
+        </center>
+       </div>
+       <div class="columns is-multiline">
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/102/07/2026/9r34/hogger.png"/>
+         <center>
+          <b>
+           Inventory Player Model
+          </b>
+         </center>
+         <center>
+          Player model quality now changes within the inventory to yield better performance
+         </center>
+        </div>
+        <div class="column is-6">
+         <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/104/06/2026/4g60/june2026_playerupdate_02.jpg"/>
+         <center>
+          <b>
+           Footstep  Frequency
+          </b>
+         </center>
+         <center>
+          Adjusted the footstep frequency to be closer to the old player rig
+         </center>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="bearsforabetterworldcharity2026">
+  <div class="section" like-handler="LikeBlogSection" like-id="85027" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       bears for a better world - charity 2026
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-144a94f1-7fff-5bab-48c7-726000df3cfe">
+       <p>
+        <span>
+         Get ready to cuddle up with a bear that’s not only adorable but also changing lives!
+         <br/>
+        </span>
+        Starting July 2nd, Rust will host a massive charity drive to raise money for two incredible causes:
+        <a class="" href="https://www.cancerresearchuk.org/get-involved">
+         Cancer Research UK
+        </a>
+        and
+        <a class="" href="https://ronaldmcdonaldhouse.org.uk/">
+         Ronald McDonald House UK
+        </a>
+        .
+        <br/>
+        <br/>
+        Rust is also partnering with some of the biggest names in the Rust community!
+        <span>
+         Throughout the drive, partnered creators will be hosting their own fundraising streams, with free Twitch
+        </span>
+        <span>
+         Drops to also help raise awareness of the charities and allow players to show even more support.
+        </span>
+       </p>
+       <p>
+        We even have a
+        <a class="" href="https://tiltify.com/@facepunch/auctions/plushie-bear-campaign">
+         Charity Auction
+        </a>
+        ! Want a signed Displate poster?  Or to design your own Rust Skin?  Go check it out!
+       </p>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b2911b1/rust_charity_plushies_smallgroup_4_1080.jpg"/>
+     </div>
+     <div>
+      <span id="docs-internal-guid-503cd39b-7fff-fde5-3f39-43e01afd7864">
+       <span>
+        100% of sale proceeds after Steam fees and tax from the sale of these charity bears will be donated, helping support Cancer Research UK's critical work in funding cancer research and saving lives,
+       </span>
+       <span>
+        and also supporting Ronald McDonald House UK to provide free accommodation and support to families with children in hospital. Every purchase will make a difference.
+       </span>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1811b1/rust_charity_plushies_cancer_1_4k.jpg"/>
+     </div>
+     <div>
+      <span id="docs-internal-guid-b1b89d49-7fff-7537-2aa3-3a5982daa9c3">
+       <p dir="ltr">
+        <span>
+         These one-of-a-kind charity bears are available through Rust’s in-game item store, and players can choose from two cute, quirky, and (actually) glowing but true-to-Rust designs which represent your contribution to supporting families in need and funding groundbreaking cancer research.
+        </span>
+        Every bear purchased is a symbol of the community coming together to create a lasting impact beyond the game.
+       </p>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1811b1/rust_charity_plushies_ronald_hazzy_hold_4k.jpg"/>
+     </div>
+     <div>
+      <span id="docs-internal-guid-81f6c808-7fff-dffa-2a25-a6be18f6f68b">
+       Starting July 2nd, players can purchase these bears, but the clock is ticking as they are only available for a limited time.
+      </span>
+     </div>
+     <div>
+      <span>
+       <br/>
+      </span>
+      <span id="docs-internal-guid-81f6c808-7fff-dffa-2a25-a6be18f6f68b">
+       Whether you’re surviving the wilds of Rust or just want to spread some good vibes in your base, these bears are a perfect way to help others while you play.
+      </span>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Charity Bear Plushies can be bought
+      <a class="" href="https://store.steampowered.com/itemstore/252490/">
+       here
+      </a>
+      !
+     </div>
+     <div>
+      <br/>
+      You can donate directly to the charities through Rust's drive
+      <a class="" href="https://twitch.facepunch.com/">
+       here
+      </a>
+      .
+     </div>
+     <div>
+      <br/>
+      And you can see creators and drive progress
+      <a class="selected" href="https://tiltify.com/tif/facepunch-studios">
+       here
+      </a>
+      .
+     </div>
+     <div>
+      <br/>
+     </div>
+     <h2>
+      Twitch Drops!
+     </h2>
+     <div>
+      Also starting July 2nd - we will have 5 drops you can earn watching any Rust stream on Twitch!
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <a href="https://twitch.facepunch.com/">
+       <img src="https://files.facepunch.com/Errn/1b0111b1/Rust%20x%20Bears%20for%20a%20Better%20World%20-%20Values.jpg"/>
+      </a>
+     </div>
+     <div>
+      Over the course of the next few weeks you can help unlock more drops as we meet donation goal milestones!
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Sync your Steam and Twitch accounts to claim your drops!
+      <a class="" href="https://twitch.facepunch.com/">
+       https://twitch.facepunch.com/
+      </a>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      If you're a content creator or a community group and you want to help fundraise with us you can make your own Tiltify team
+      <a class="" href="https://start.tiltify.com/?supportingFactId=5cf75471-1792-483e-a0d0-65cd1da57dd8">
+       here
+      </a>
+      !  Just select the Quick start option and publish your team page!  Your teams progress will go towards the main campaign.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="DemoCompatibilitylayer">
+  <div class="section" like-handler="LikeBlogSection" like-id="85033" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Demo Compatibility layer
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      Every Rust update has the ability to break older demos. On our end its incredibly simple to do so, more than it should be. To this end: I've introduced a compatibility layer into the demo system. This layer will try and get old demos working on your new Rust version.
+      <br/>
+      <br/>
+      When opening an old demo you will be asked if you want to use the compatibility layer (should it be applicable). When enabled the layer will attempt to remap changed item names to what they used to be in order to get the demo to run. It's important to note that this is only likely to work provided the demo has been taken within the last few months, the older it is, the less likely it is to work.
+      <br/>
+      <br/>
+      The one catch is that this system wont work for demos taken on older Rust builds than now. Eg: this layer only works for demos taken from now onwards. Demos taken on older builds of rust don't have the information required to be able to turn on this layer
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="newworkshopskinnablemetalshopfront">
+  <div class="section" like-handler="LikeBlogSection" like-id="85042" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       new workshop skinnable: metal shop front
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <span id="docs-internal-guid-492d1fdc-7fff-0669-24aa-fbfeb5754ffb">
+       <p dir="ltr">
+        <span>
+         This month’s workshop skinnable is the Metal Shopfront.
+        </span>
+       </p>
+       <p dir="ltr">
+        <span>
+         Supporting customisation on both the front and back, you can finally sell your collection of severed wolf heads on brand. We’re looking forward to seeing some incredible submissions by the community.
+        </span>
+       </p>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b0111b1/Jul2026_Skinnable_Metal_Shopfront_4_1080.jpg"/>
+     </div>
+     <div>
+      <span id="docs-internal-guid-b7256588-7fff-515a-1689-56e16802c6f7">
+       <p dir="ltr">
+        <span>
+         To make your own Metal Shopfront skin, head over to the in-game workshop and locate the Metal Shopfront deployable item. From there, you can download the model file and add your own materials.
+        </span>
+       </p>
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="RUSTXCANBEBACKPACKANDWEAPONCHARMS">
+  <div class="section" like-handler="LikeBlogSection" like-id="85041" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       RUST X CAN BE - BACKPACK AND WEAPON CHARMS
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      The Rust x Can Be backpack will begin shipping this month.
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/lewis/1b3011b1/Rust%20x%20Canbe%20Backpack.jpg"/>
+     </div>
+     <div>
+      Every backpack purchase includes exclusive free in-game weapon charms.
+     </div>
+     <div blocktype="video" class="edit-block" contenteditable="false">
+      <video autoplay="" class="lightbox-thumbnail" loop="" muted="" playsinline="" src="https://files.facepunch.com/kaantasan/1b0111b1/rust_charms_blog_loop_h264.mp4">
+       <source src="https://files.facepunch.com/garry/08ad9e5a-f7f3-4e54-bd6e-b23434ba4f5e.mp4" type="video/mp4"/>
+      </video>
+     </div>
+     <h2>
+      What are Weapon charms?
+     </h2>
+     <div>
+      Weapon Charms are fun cosmetic weapon accessories that can be attached to almost any ranged weapon. There are over 55 ranged weapons that currently support Charms with more to be added as we continue to develop Rust.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      To add a charm to your ranged weapon simply open up the inventory, select the weapon and use the Change Accessory button to select from available charms. You can set the charm during the crafting phase, or when dropped into a repair bench. There is no crafting cost. You can even do this with looted ranged weapons that have charms already affixed. The selected charm is tied to the individual weapon, so if you pick up someone else's weapon with a charm attached it will still be there unless you remove or change it.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Weapon Charms are viewable both in first and third person, so other players will be able to see your selected accessory.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div>
+      Check out the full collection over on the Can Be
+      <a class="" href="https://can.be/collabs/rust-x-can-be">
+       store
+      </a>
+      .
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="Rustxmanatarmsirlautoturret">
+  <div class="section" like-handler="LikeBlogSection" like-id="85029" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       Rust x man at arms - irl auto turret
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      We've teamed up with the talented ASH Entertainment and The Baltimore Knife &amp; Sword Crew behind the YouTube series, Man at Arms, to bring to life one of Rust's most iconic items: the Auto Turret.
+     </div>
+     <div>
+      <br/>
+     </div>
+     <div blocktype="html" class="edit-block" contenteditable="false">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="4879" data-dashlane-rid="b1360adf81236389" frameborder="0" height="420" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ffOj11WXj8Y" title="YouTube video player" width="560">
+      </iframe>
+     </div>
+     <div>
+     </div>
+     <div>
+      <span id="docs-internal-guid-af5015cc-7fff-1f26-5f06-3997eb43ed01">
+       <p>
+        The team of expert fabricators and blacksmiths set out to recreate a 1:1 replication of the infamous base and safezone protecting Turret, with auto-tracking and a bespoke gun slot with firing mechanisms!
+       </p>
+       <div>
+       </div>
+      </span>
+     </div>
+     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1811b1/ManAtArms_Rust_AutoTurret_Preview-2.jpg"/>
+     </div>
+     <div blocktype="gallery" class="edit-block" contenteditable="false">
+      <gallery data-gallery-style="medium">
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2611b1/5.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2611b1/7.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2611b1/13.png"/>
+       <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b2611b1/10.png"/>
+      </gallery>
+     </div>
+     <div>
+      This custom, one-of-a-kind build was exclusively created for Facepunch.
+     </div>
+     <div>
+      Check out the full build over on the
+      <a class="" href="https://www.youtube.com/@AweMe">
+       Man at Arms channel
+      </a>
+      now.
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="news-section-block sectionstyle-hero dark" id="discordorbs">
+  <div class="section" like-handler="LikeBlogSection" like-id="85036" targetobject="section">
+   <div class="inner">
+    <div class="section-header">
+     <a class="editmode-link" style="text-decoration: none;">
+      <div class="title" editname="Title" type="text">
+       discord orbs
+      </div>
+     </a>
+    </div>
+    <div class="content" editname="Contents" using-lightbox="">
+     <div>
+      <div>
+       <span>
+        Purchase official Rust items in the Discord Shop and earn Discord Orbs.
+       </span>
+      </div>
+     </div>
+     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
+      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b2611b1/rust%20x%20discord%20-%20orbs%20announcement%2016x9.png"/>
+     </div>
+     <div>
+      <span>
+       Orbs can be used on eligible items in the
+      </span>
+      <a class="" href="https://discord.com/channels/560127830160048128/game-shop">
+       Discord Shop
+      </a>
+      <span>
+       . Offer ends 16th July!
+      </span>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="change-blog-container">
+  <div class="container">
+   <div class="changes-container" id="changelist">
+    <div class="changes-sidebar">
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Patch Name
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Common Ground
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <span class="subtitle">
+       Changelist Title
+      </span>
+      <a class="title" style="text-decoration: none;">
+       Common Ground
+      </a>
+     </div>
+     <div class="sidebar-section">
+      <a class="date" style="text-decoration: none;">
+       <span class="icon">
+        <i>
+         date_range
+        </i>
+       </span>
+       Thursday, July 2, 2026
+      </a>
+     </div>
+     <div class="sidebar-section">
+     </div>
+    </div>
+    <div class="changes-body">
+     <div class="changes-row features">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         add_circle
+        </i>
+       </span>
+       <h3>
+        Features
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Apartment Complex Monument
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Rentable Stores
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added an experimental shadow caching mode for improved shadow rendering performance
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          (Softcore) Added 2x gathering rate
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          (Softcore) Added raid windows
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a demo compatibility layer
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row improvements">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         arrow_circle_up
+        </i>
+       </span>
+       <h3>
+        Improvements
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New sprinting animation system while holding rifles
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Hunting Trophies can now show player skins
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Demo cfg files will now be rerun whenever the demo is restarted
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          New animation controller for vanilla hatchet
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Removed texture projectors that could be causing performance loss
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Optimized weapon rack config scripts to use PrefabAttribute
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a new way of setting entity flags within a disposable scope to discourage invoking multiple unnecessary entity snapshot sends
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Replaced usages of deprecated ‘FindObjectsOfType’ with faster unsorted ‘FindObjectsByType’
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduced persistent server heap memory usage of missions WorldPositionGenerator and sped up initial and subsequent execution time runs
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Turrets attached with a gun that only uses burst-fire (M16A2) will now also use burst-fire
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a screen explaining what's Softcore
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Improved main menu notifications
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Computer station UI is now scaled by the UI scale convar
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a new setting to control the quality of the player preview in the inventory
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Set UsePlayerUpdateJobs 3 as default
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Removed allocations from PlayerVoice processing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduce how much player's server state we cache every frame
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Cleaned up a bunch of allocations (~15 sources, mostly more invokes)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reduce drawcalls by about 15-20% when rendering meshes with both occlusion and batching setups
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Opening the demo browser will now automatically refresh the list
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Vending machines, fridges, and wall cabinets now support storage adaptor sorting
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Added a better error message when placement is blocked by industrial piping
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Reskinning / crafting UI will now visually highlight the currently applied skin
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row fixed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         handyman
+        </i>
+       </span>
+       <h3>
+        Fixed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Possibly fixed case where voice chat would get more delayed over long play sessions
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some leg jittering when holding a torch on horseback
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some issues with cinematic_play and cinematic_stop commands
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Abyss torch not using new animation logic as other torches
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Wanted Poster text disappearing when entering/leaving the deep sea
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the player briefly standing when rapidly switching between items while sitting
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some clipping issues with the new player models in some Modular Car seats
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some body parts sometimes culling too early while they are still in view, particularly on ragdolls
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed phones not attaching to the hand properly while in use
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed Ladder Hatch unlocking after learning the Elevator blueprint
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Remove client.SetPlayerSeed convar (duplicate of client.playerseed command)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed case where sometimes reskinning the riot helmet would leave some parts on the prior skin
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the shield power bar staying visible if disconnecting while the shield was held
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed motorbike player model hit reaction animations playing too often
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed case where the female breast censorship effect would sometimes appear even if clothing was worn
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Possibly fixed a rare occlusion culling error
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          (Softcore) Fixed skins of torches and rocks being included in reclaim terminal
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed LR300 space skin ammo display count being initially invisible
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed held entities potentially being visible whilst performing gestures when they are supposed to be hidden
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed stale NPC conversations being active when disconnecting and reconnecting to another server
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed hatch on the ladder hatch not rendering shadows with ‘graphics.aggressiveShadowLod’ enabled
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed M16A2 viewmodel animation issues when firing at low FPS
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed incorrect move/drop sound effects for ballistic leg armour
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed store's cart button drawn on top of friend list
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed painting binds not working in the painting menu
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed F1 console input field losing focus when connecting/disconnecting
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed wires attached to doors not following the doors correctly when it opens
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed blurry wires on moving boats with motion blur enabled
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed console input field text vanishing after pasting a long string
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed console logs using UTC time instead of local time
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed contact menu default mugshot resolution
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed fuel tanks not being connectable together
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed not being able to place wallpaper on finished boats
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed escape not closing the console when mounted to a computer station
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed painting mode not switching back to brush after picking a color at low FPS
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed friend list missing context menu
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed IO entities getting free power after being reskinned
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed stacked steam items showing as one single item in the steam inv menu
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed building errors/toast messages not showing up when a teammate is holding a planner, when building preview is enabled
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed electric heater appearing ON after leaving and re entering network range
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed industrial lights not lighting the player boats
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed drone controls not being keyboard layout aware
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed workshop file dialog still using the old input system
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed player dying instantly when touching a cactus while mounting a horse
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed battering ram middle wheels rotating backwards
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed needing cloth in your inventory to reskin wallpapers (reskin is free)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an NRE when closing the checkout result page too quickly
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed DPV fuel bar text regression
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fuzzy Pool no longer gets stuck spilling objects after a heavy multithreading contention
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some of player's server cached state being potentially out of sync for 1 frame after applying network positions from client(ex: IsSwimming)
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed deep sea potentially using overworld heightmap for swimming checks and ocean wave simulation
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed NRE when 2 player spectate a player being kicked/banned
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed bots/sleepers potentially being network streamed out when cargoship moves
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed ballistic armor and bowless crossbow drop/pickup sounds being audible from far away
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed admin-only mannequin suit being invisible
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a server warning related to corpse buoyancy
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the bowless crossbow animation looking odd when firing in quick succession
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a case where streamer mode would not hide your own player name
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the flash of the instant camera being offset
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an issue with reskinning barrels giving you the wrong item
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an issue where the Frontier Decor barrels were not deployable in to shelves and half-height shelves
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the purchase amount not clamping correctly when buying from a vending machine
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the vending machine stats page sometimes updating / closing when it wasn't supposed to
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a random green light in the middle of radtown
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some lights in ferry terminal having oversized collision
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed scientists chasing players into the water on the deep sea islands
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed abandoned military base sometimes having a building clipped inside a silo
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed some hair styles clipping with helmets
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed small gaps appearing in the deep sea island terrain on low object quality
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the belt animation on quarries playing too fast
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a texture issue on quarries, with low object quality
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed rich text rendering in various UI elements
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed text written on photographs not saving
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed streamer mode not applying to the chat messages when spawning items as an admin
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed vending machine IO slot displaying "short cicruit" warning when selling skins seperately was enabled
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed wanted posters deploy guide not matching their actual size when placed
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the ingame video player not working since the Unity upgrade
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed certain characters creating new lines in chat to create spam
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed military silencer not spawning in loot
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed a case where unloadable traincars would stay locked when unloading
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the splash sound when jumping into water not playing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the auto turret cover being invisible when viewing turret skins in the skin viewer
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed being unable to invite players to a party in the ingame friends list
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed the industrial garage door destroying vehicles when closing
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed radtown buildings turning invisible when viewed from very far away
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed industrial shelves missing from conveyor filters
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed certain lights killing fps near the world origin on custom maps
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an issue with invalid projectiles when mounting to a boat
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed player voices glitching out when heard through a computer station / CCTV
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed an issue with shields when using an attack heli turret
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Fixed deployable snapping being inconsistent and often not working
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+     <div class="changes-row removed">
+      <div class="changes-row-header">
+       <span class="icon">
+        <i>
+         remove_circle
+        </i>
+       </span>
+       <h3>
+        Removed
+       </h3>
+      </div>
+      <div class="changes-row-body">
+       <ul>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Removed all obsolete and generic versions of BaseEntity.ClientRPC, ClientRPCEx, ClientRPCPlayer, ServerRPC and ServerRPCList calls - switch to existing methods or write your own via *RPCStart-&gt;*RPCWrite-&gt;*RPCSend
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Removed Full Server Demo support (not related to recording normal player demos on the server)
+         </div>
+        </li>
+       </ul>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<center>
+</center><center>]]></content:encoded>
+      <pubDate>Thu, 02 Jul 2026 19:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Built Different</title>
       <link>https://rust.facepunch.com/news/built-different/</link>
@@ -90,11 +4282,9 @@
     <div class="content" editname="Contents" using-lightbox="">
      <div blocktype="html" class="edit-block selected" contenteditable="false">
       <div class="youtube-container">
-       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="1181" data-dashlane-rid="f34b35234aeb2ad5" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/_D9HEFkHCdo?si=q4Bb_YgmimDmJdyQ" title="YouTube video player" width="560">
+       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="6008" data-dashlane-rid="a89eb76829db25e6" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/_D9HEFkHCdo?si=q4Bb_YgmimDmJdyQ" title="YouTube video player" width="560">
        </iframe>
       </div>
-     </div>
-     <div>
      </div>
     </div>
    </div>
@@ -2130,11 +6320,9 @@
     <div class="content" editname="Contents" using-lightbox="">
      <div blocktype="html" class="edit-block selected" contenteditable="false">
       <div class="youtube-container">
-       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="1181" data-dashlane-rid="f34b35234aeb2ad5" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/_D9HEFkHCdo?si=q4Bb_YgmimDmJdyQ" title="YouTube video player" width="560">
+       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" data-dashlane-frameid="6008" data-dashlane-rid="a89eb76829db25e6" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/_D9HEFkHCdo?si=q4Bb_YgmimDmJdyQ" title="YouTube video player" width="560">
        </iframe>
       </div>
-     </div>
-     <div>
      </div>
     </div>
    </div>
@@ -16515,698 +20703,6 @@ days after the naval staging wipe). It was also accounting for up to 6% of our t
 <center>
 </center><center>]]></content:encoded>
       <pubDate>Thu, 05 Mar 2026 18:50:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>lunar new year 2026</title>
-      <link>https://rust.facepunch.com/news/lunar-new-year-2026/</link>
-      <guid>https://rust.facepunch.com/news/lunar-new-year-2026/</guid>
-      <description><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
-  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
-   <source src="https://files.facepunch.com/lewis/1b2611b1/lny2026_bloghero.mp4" type="video/mp4"/>
-   Your browser does not support the video tag.
-  </video>
- </div>
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <img alt="lunar new year 2026" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b2611b1/lny_branding_updated2.png"/>
-    <p editname="Summary" type="text">
-     2026's Lunar New Year celebrations have begun! Celebrate the occasion by honouring the Year of the Horse with the Ornate Horse Mask, Horse Armour, and more.
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      17 February 2026
-     </div>
-     <a class="tag" href="/news/?category=">
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="Lunarnewyear">
-  <div class="section" like-handler="LikeBlogSection" like-id="84925" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Lunar new year
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-0569d153-7fff-f0cc-7a81-55d04ceb9922">
-       <p dir="ltr">
-        <span>
-         Happy Lunar New Year to the Rust community!
-         <br/>
-         <br/>
-         2026 marks the Year of the Horse. This Chinese Zodiac sign embodies resilience, speed and intelligence, which combined with the Fire element symbolizing energy, passion and ambition might make for an action-packed year!
-         <br/>
-        </span>
-        <br/>
-        To help you get off to a flying start, we’ve packed the store with a mix of new and returning Lunar New Year-themed items.
-       </p>
-       <div>
-        <span>
-        </span>
-       </div>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/LNY_heroimage_01.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="HorseMask">
-  <div class="section" like-handler="LikeBlogSection" like-id="84926" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Horse Mask
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-50afa167-7fff-a9a3-71f4-1134c6341ced">
-       <span>
-        Celebrate the Year of the Horse with Rust’s new Horse Mask! This cultured collectable features hand-sculpted materials and an ornate design.
-       </span>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsemask_4_1080_jpg.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsemask_1_1080_jpg.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The Horse Mask can be purchased on the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10356/" target="">
-       Rust Item Store
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Horsearmor">
-  <div class="section" like-handler="LikeBlogSection" like-id="84927" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Horse armor
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-27e01b62-7fff-4a84-8821-0f94e70fd189">
-       <p dir="ltr">
-        <span>
-         Elegant yet powerful, this Lunar New Year Horse Armour will strike fear into the heart of many a naked.
-        </span>
-       </p>
-       <div>
-        <span>
-        </span>
-       </div>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsearmor_5_1080_jpg.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsearmor_2_1080_jpg.jpg"/>
-     </div>
-     <div>
-      The Lunar New Year Horse Armour can be purchased on the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10357/">
-       Rust Item Store
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="SillyHorseMask">
-  <div class="section" like-handler="LikeBlogSection" like-id="84928" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Silly Horse Mask
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-c7711d44-7fff-6466-2c92-5c551894eac9">
-       <span>
-        We had to. Comes in three unique variations. One has a horn.
-       </span>
-      </span>
-     </div>
-     <div>
-      <span>
-       <span>
-        <br/>
-       </span>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0611b1/lny_2026_silly_horse_mask_1920x1024.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_silly_horse_mask_8_1080.jpg"/>
-     </div>
-     <div>
-      The Silly Horse Mask can also be purchased on the
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10358/">
-       Rust Item Store
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="lunarstore">
-  <div class="section" like-handler="LikeBlogSection" like-id="84929" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       lunar store
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      In addition, we’ve added items back from previous Lunar New Years celebrations to the Steam item store. The wall Divider Pack, Wallpaper Pack, and the Chinese Lantern are all now available with links to all of the items below, as well as the Lunar Spear and Dragon Rocket Launcher skins:
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1711b1/image.png"/>
-        <center>
-         <b>
-          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10283/">
-           Wall Divider Pack
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1711b1/10280.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10280/">
-           Lunar New Year Wallpaper Pack
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/2019/02/1b0711b1/ChineseLantern.icon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10162/">
-           Chinese Lantern
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/4w37/spear.cny.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10235/">
-           Lunar Spear
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/2x24/rocket.launcher.dragon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10236/">
-           Rocket Launcher
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/firework_roman_volcano_pack.icon.png"/>
-        <center>
-         <b>
-          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10176/">
-           Small Firework Pack
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/boomerpack.icon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10175/">
-           Large Firework Pack
-          </a>
-         </b>
-        </center>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="50offrust">
-  <div class="section" like-handler="LikeBlogSection" like-id="84918" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       50% off rust
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      To celebrate The Year of the Horse, Rust is now 50% off on
-      <a class="selected" href="https://store.steampowered.com/app/252490?utm_source=b_campaign=lny">
-       Steam
-      </a>
-      !
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b1311b1/Screenshot%202026-02-13%20100258.png"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></description>
-      <content:encoded><![CDATA[<link href="https://rust.facepunch.com/styles.min.css" rel="stylesheet"/>
-<div class="blog-hero">
- <div class="hero-video transition-header" style="opacity: 1; filter: blur(0px);">
-  <video autoplay="" class="blog-hero-video transition-header" loop="" muted="" playsinline="">
-   <source src="https://files.facepunch.com/lewis/1b2611b1/lny2026_bloghero.mp4" type="video/mp4"/>
-   Your browser does not support the video tag.
-  </video>
- </div>
- <div class="container" targetobject="blog">
-  <div class="blog-hero-body">
-   <div class="body-info">
-    <img alt="lunar new year 2026" class="hero_patch-branding" src="https://files.facepunch.com/lewis/1b2611b1/lny_branding_updated2.png"/>
-    <p editname="Summary" type="text">
-     2026's Lunar New Year celebrations have begun! Celebrate the occasion by honouring the Year of the Horse with the Ornate Horse Mask, Horse Armour, and more.
-    </p>
-    <div class="tags">
-     <div class="tag secondary">
-      17 February 2026
-     </div>
-     <a class="tag" href="/news/?category=">
-     </a>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<style>
- .blog .news-section-block.sectionstyle-hero .content {
-            background-color: inherit;
-            padding: 2rem;
-        }
-        div.blog .section {
-            padding: 16px;
-            margin-bottom: 1rem;
-            max-width: 800px;
-            margin: auto;
-        }
-        .blog-hero {
-            background-color: inherit;
-            padding: calc(8rem + 100px) 0 8rem 0;
-            position: relative;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            min-height: 50vh;
-        }
-        .change-blog-container {
-            background-color: inherit;
-            width: 100%;
-        }
-        h1,h2,h3,h4,h5 {
-            font-family: inherit;
-            font-weight: inherit;
-            color: inherit;
-        }
-        .body-info h1,.body-info h2,.body-info h3,.body-info h4,.body-info h5 {
-            font-family: "Bebas Neue", sans-serif;
-            font-weight: 500;
-            color: #e4dad1;
-        }
-        .sectionstyle-hero {
-            min-height: 0;
-        }
-</style>
-<div class="blog">
- <div class="news-section-block sectionstyle-hero" id="Lunarnewyear">
-  <div class="section" like-handler="LikeBlogSection" like-id="84925" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Lunar new year
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-0569d153-7fff-f0cc-7a81-55d04ceb9922">
-       <p dir="ltr">
-        <span>
-         Happy Lunar New Year to the Rust community!
-         <br/>
-         <br/>
-         2026 marks the Year of the Horse. This Chinese Zodiac sign embodies resilience, speed and intelligence, which combined with the Fire element symbolizing energy, passion and ambition might make for an action-packed year!
-         <br/>
-        </span>
-        <br/>
-        To help you get off to a flying start, we’ve packed the store with a mix of new and returning Lunar New Year-themed items.
-       </p>
-       <div>
-        <span>
-        </span>
-       </div>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/LNY_heroimage_01.jpg"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="HorseMask">
-  <div class="section" like-handler="LikeBlogSection" like-id="84926" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Horse Mask
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-50afa167-7fff-a9a3-71f4-1134c6341ced">
-       <span>
-        Celebrate the Year of the Horse with Rust’s new Horse Mask! This cultured collectable features hand-sculpted materials and an ornate design.
-       </span>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsemask_4_1080_jpg.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsemask_1_1080_jpg.jpg"/>
-     </div>
-     <div>
-     </div>
-     <div>
-      <br/>
-     </div>
-     <div>
-      The Horse Mask can be purchased on the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10356/" target="">
-       Rust Item Store
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="Horsearmor">
-  <div class="section" like-handler="LikeBlogSection" like-id="84927" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Horse armor
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-27e01b62-7fff-4a84-8821-0f94e70fd189">
-       <p dir="ltr">
-        <span>
-         Elegant yet powerful, this Lunar New Year Horse Armour will strike fear into the heart of many a naked.
-        </span>
-       </p>
-       <div>
-        <span>
-        </span>
-       </div>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsearmor_5_1080_jpg.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_horsearmor_2_1080_jpg.jpg"/>
-     </div>
-     <div>
-      The Lunar New Year Horse Armour can be purchased on the
-      <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10357/">
-       Rust Item Store
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero" id="SillyHorseMask">
-  <div class="section" like-handler="LikeBlogSection" like-id="84928" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       Silly Horse Mask
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      <span id="docs-internal-guid-c7711d44-7fff-6466-2c92-5c551894eac9">
-       <span>
-        We had to. Comes in three unique variations. One has a horn.
-       </span>
-      </span>
-     </div>
-     <div>
-      <span>
-       <span>
-        <br/>
-       </span>
-      </span>
-     </div>
-     <div blocktype="image" class="edit-block" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b0611b1/lny_2026_silly_horse_mask_1920x1024.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/matti/1b1011b1/rust_silly_horse_mask_8_1080.jpg"/>
-     </div>
-     <div>
-      The Silly Horse Mask can also be purchased on the
-      <a class="selected" href="https://store.steampowered.com/itemstore/252490/detail/10358/">
-       Rust Item Store
-      </a>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="lunarstore">
-  <div class="section" like-handler="LikeBlogSection" like-id="84929" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       lunar store
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      In addition, we’ve added items back from previous Lunar New Years celebrations to the Steam item store. The wall Divider Pack, Wallpaper Pack, and the Chinese Lantern are all now available with links to all of the items below, as well as the Lunar Spear and Dragon Rocket Launcher skins:
-     </div>
-     <div blocktype="html" class="edit-block" contenteditable="false">
-      <div class="columns is-multiline">
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1711b1/image.png"/>
-        <center>
-         <b>
-          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10283/">
-           Wall Divider Pack
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/ashcoook/1b1711b1/10280.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10280/">
-           Lunar New Year Wallpaper Pack
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-4">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/2019/02/1b0711b1/ChineseLantern.icon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10162/">
-           Chinese Lantern
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/4w37/spear.cny.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10235/">
-           Lunar Spear
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/Alistair/120/01/2025/2x24/rocket.launcher.dragon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10236/">
-           Rocket Launcher
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/firework_roman_volcano_pack.icon.png"/>
-        <center>
-         <b>
-          <a class="" href="https://store.steampowered.com/itemstore/252490/detail/10176/">
-           Small Firework Pack
-          </a>
-         </b>
-        </center>
-       </div>
-       <div class="column is-6">
-        <img class="lightbox-thumbnail" src="https://files.facepunch.com/helk/1b2311b1/boomerpack.icon.png"/>
-        <center>
-         <b>
-          <a href="https://store.steampowered.com/itemstore/252490/detail/10175/">
-           Large Firework Pack
-          </a>
-         </b>
-        </center>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="50offrust">
-  <div class="section" like-handler="LikeBlogSection" like-id="84918" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       50% off rust
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      To celebrate The Year of the Horse, Rust is now 50% off on
-      <a class="selected" href="https://store.steampowered.com/app/252490?utm_source=b_campaign=lny">
-       Steam
-      </a>
-      !
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/kaantasan/1b1311b1/Screenshot%202026-02-13%20100258.png"/>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<center>
-</center><center>]]></content:encoded>
-      <pubDate>Tue, 17 Feb 2026 18:55:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
