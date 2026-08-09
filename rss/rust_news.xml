@@ -5,7 +5,7 @@
     <description>RSS feed for Rust News.</description>
     <language>en-US</language>
     <generator>Multi-RSS</generator>
-    <lastBuildDate>Fri, 07 Aug 2026 01:16:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2026 00:20:23 +0000</lastBuildDate>
     <item>
       <title>Power Trip</title>
       <link>https://rust.facepunch.com/news/power-trip/</link>
@@ -2265,6 +2265,14 @@
          </span>
          <div class="entry">
           Removed UsePlayerUpdateJobs 2 mode, Jobs 3 is now default
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Stopped sending vending machine and event map markers (cargo, helis, travelling vendor) to Rust+
          </div>
         </li>
        </ul>
@@ -4532,6 +4540,14 @@
          </span>
          <div class="entry">
           Removed UsePlayerUpdateJobs 2 mode, Jobs 3 is now default
+         </div>
+        </li>
+        <li>
+         <span>
+          •
+         </span>
+         <div class="entry">
+          Stopped sending vending machine and event map markers (cargo, helis, travelling vendor) to Rust+
          </div>
         </li>
        </ul>
