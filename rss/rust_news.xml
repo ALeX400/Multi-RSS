@@ -5,7 +5,7 @@
     <description>RSS feed for Rust News.</description>
     <language>en-US</language>
     <generator>Multi-RSS</generator>
-    <lastBuildDate>Mon, 17 Aug 2026 00:13:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 00:13:41 +0000</lastBuildDate>
     <item>
       <title>Power Trip</title>
       <link>https://rust.facepunch.com/news/power-trip/</link>
@@ -818,33 +818,6 @@
      </div>
      <div class="autodiv">
       It now has a fully functional view model and animations, so the experience of cracking open your neighbour's apartment can feel even better.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="arrowrevamp">
-  <div class="section" like-handler="LikeBlogSection" like-id="85067" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       arrow revamp
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Arrows have had a facelift. Wooden arrows have now been updated to have more visual interest (complete with new fletching) and to feel more "RUST".
-      <p data-end="474" data-start="333">
-       Under the hood, it's been a fiddly one, as each existing weapon contained the arrow mesh directly, so updated rigs and prefabs were required.
-      </p>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/lewist/2026/July/arrow_refresh-2.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/lewist/2026/July/arrow_refresh-4.jpg"/>
      </div>
     </div>
    </div>
@@ -3093,33 +3066,6 @@
      </div>
      <div class="autodiv">
       It now has a fully functional view model and animations, so the experience of cracking open your neighbour's apartment can feel even better.
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
- <div class="news-section-block sectionstyle-hero dark" id="arrowrevamp">
-  <div class="section" like-handler="LikeBlogSection" like-id="85067" targetobject="section">
-   <div class="inner">
-    <div class="section-header">
-     <a class="editmode-link" style="text-decoration: none;">
-      <div class="title" editname="Title" type="text">
-       arrow revamp
-      </div>
-     </a>
-    </div>
-    <div class="content" editname="Contents" using-lightbox="">
-     <div>
-      Arrows have had a facelift. Wooden arrows have now been updated to have more visual interest (complete with new fletching) and to feel more "RUST".
-      <p data-end="474" data-start="333">
-       Under the hood, it's been a fiddly one, as each existing weapon contained the arrow mesh directly, so updated rigs and prefabs were required.
-      </p>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/lewist/2026/July/arrow_refresh-2.jpg"/>
-     </div>
-     <div blocktype="image" class="edit-block selected" contenteditable="false" data-image-style="none">
-      <img class="lightbox-thumbnail" src="https://files.facepunch.com/lewist/2026/July/arrow_refresh-4.jpg"/>
      </div>
     </div>
    </div>
