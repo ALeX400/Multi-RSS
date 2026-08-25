@@ -5,1583 +5,7 @@
     <description>RSS feed for GameMaps L4D2 Files.</description>
     <language>en-US</language>
     <generator>Multi-RSS</generator>
-    <lastBuildDate>Sun, 23 Aug 2026 00:14:57 +0000</lastBuildDate>
-    <item>
-      <title>[ Mod ] World War 2 Weapons Pack 3</title>
-      <link>https://www.gamemaps.com/details/31485</link>
-      <guid>https://www.gamemaps.com/details/31485</guid>
-      <description><![CDATA[
-    
-    <style>
-        .gmLightboxOpen {
-            overflow: hidden;
-        }
-
-        .gm-actions {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            margin: 0 0 12px 0;
-        }
-
-        .gm-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 38px;
-            padding: 8px 14px;
-            border-radius: 8px;
-            text-decoration: none;
-            color: #ffffff;
-            font-weight: 600;
-            font-size: 14px;
-        }
-
-        .gm-btn-article {
-            background: #1d9f61;
-        }
-
-        .gm-btn-steam {
-            background: #1d5fb5;
-        }
-
-        .gm-media-label {
-            margin: 6px 0 8px 0;
-            font-size: 14px;
-            font-weight: 600;
-            letter-spacing: .2px;
-        }
-
-        .cleanSpoilerGallery {
-            margin: 14px 0;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header {
-            padding: 11px 14px;
-            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
-            border: 1px solid rgba(255,255,255,.08);
-            border-bottom: 0;
-            border-radius: 10px 10px 0 0;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header span {
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .2px;
-            color: #e8e8e8;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_contents {
-            padding: 12px;
-            background: rgba(255,255,255,.035);
-            border: 1px solid rgba(255,255,255,.08);
-            border-radius: 0 0 10px 10px;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryGrid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            align-items: flex-start;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem {
-            display: inline-block;
-            overflow: hidden;
-            border-radius: 8px;
-            background: #111;
-            border: 1px solid rgba(255,255,255,.07);
-            width: 188px;
-            text-decoration: none;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem img {
-            width: 100%;
-            height: 112px;
-            object-fit: cover;
-            display: block;
-            border-radius: 8px;
-            transition: transform .25s ease, filter .25s ease;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
-            transform: scale(1.025);
-            filter: brightness(1.06);
-        }
-
-        .gm-description-text {
-            white-space: pre-wrap;
-            line-height: 1.6;
-            font-size: 15px;
-        }
-
-        .gm-description-text a {
-            color: #1d5fb5;
-            text-decoration: underline;
-        }
-
-        .gm-description-text a.gm-inline-steam {
-            display: inline-block;
-            margin-top: 6px;
-            padding: 3px 8px;
-            border-radius: 6px;
-            border: 1px solid #1d5fb5;
-            text-decoration: none;
-        }
-
-        .gmLightbox {
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, .86);
-            display: none;
-            align-items: center;
-            justify-content: center;
-            z-index: 2147483640;
-            padding: 20px;
-        }
-
-        .gmLightbox.is-open {
-            display: flex;
-        }
-
-        .gmLightboxImage {
-            max-width: min(92vw, 1500px);
-            max-height: 84vh;
-            border-radius: 8px;
-            object-fit: contain;
-            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
-        }
-
-        .gmLightboxBtn {
-            position: fixed;
-            border: 0;
-            background: rgba(22, 22, 22, .75);
-            color: #fff;
-            cursor: pointer;
-            border-radius: 8px;
-            font-size: 22px;
-            line-height: 1;
-            padding: 10px 12px;
-        }
-
-        .gmLightboxClose {
-            top: 16px;
-            right: 16px;
-            font-size: 28px;
-            padding: 8px 12px;
-        }
-
-        .gmLightboxPrev {
-            left: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxNext {
-            right: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxCounter {
-            position: fixed;
-            bottom: 16px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: #fff;
-            background: rgba(18, 18, 18, .72);
-            border-radius: 999px;
-            padding: 6px 12px;
-            font-size: 12px;
-        }
-
-        @media (max-width: 640px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: calc(50% - 5px);
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 105px;
-            }
-
-            .gm-btn {
-                width: 100%;
-            }
-
-            .gmLightboxPrev,
-            .gmLightboxNext {
-                font-size: 18px;
-                padding: 8px 10px;
-            }
-        }
-
-        @media (max-width: 420px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: 100%;
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 150px;
-            }
-        }
-    </style>
-    
-    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/31485" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
-    
-    <div class="gm-media-label">Media</div>
-    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
-        <div class="ipsSpoiler_header">
-            <span>Media gallery</span>
-        </div>
-        <div class="ipsSpoiler_contents ipsClearfix">
-            <div class="spoilerGalleryGrid">
-                
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_2_weapons_pack_2_31485_0.jpg?1717836687"
-               data-gm-gallery="gm-gallery-31485"
-               data-gm-index="0"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-31485"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_2_weapons_pack_2_31485_0.jpg?1717836687" alt="GameMaps media 1" loading="lazy">
-            </a>
-            
-            </div>
-        </div>
-    </div>
-
-    <div class="gmLightbox" data-gm-lightbox="gm-gallery-31485" hidden>
-        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
-        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
-        <img class="gmLightboxImage" src="" alt="">
-        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
-        <div class="gmLightboxCounter">1 / 1</div>
-    </div>
-
-    
-    <script>
-    (function () {
-        if (window.__gmGalleryInitialized) {
-            return;
-        }
-        window.__gmGalleryInitialized = true;
-
-        function getOpenModal() {
-            return document.querySelector('.gmLightbox.is-open');
-        }
-
-        function getGalleryLinks(group) {
-            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
-            return allLinks.filter(function (link) {
-                return link.getAttribute('data-gm-gallery') === group;
-            });
-        }
-
-        function closeModal(modal) {
-            if (!modal) {
-                return;
-            }
-            modal.classList.remove('is-open');
-            modal.setAttribute('hidden', 'hidden');
-            var image = modal.querySelector('.gmLightboxImage');
-            if (image) {
-                image.removeAttribute('src');
-            }
-            document.documentElement.classList.remove('gmLightboxOpen');
-        }
-
-        function renderModal(modal) {
-            var links = modal.__gmLinks || [];
-            if (!links.length) {
-                return;
-            }
-
-            var index = modal.__gmIndex || 0;
-            if (index < 0) {
-                index = links.length - 1;
-            }
-            if (index >= links.length) {
-                index = 0;
-            }
-
-            modal.__gmIndex = index;
-            var activeLink = links[index];
-            var image = modal.querySelector('.gmLightboxImage');
-            var thumb = activeLink.querySelector('img');
-            var counter = modal.querySelector('.gmLightboxCounter');
-
-            if (image) {
-                image.setAttribute('src', activeLink.getAttribute('href'));
-                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
-            }
-
-            if (counter) {
-                counter.textContent = (index + 1) + ' / ' + links.length;
-            }
-        }
-
-        function openModal(modal, links, startIndex) {
-            if (!modal || !links.length) {
-                return;
-            }
-            modal.__gmLinks = links;
-            modal.__gmIndex = startIndex;
-            renderModal(modal);
-            modal.removeAttribute('hidden');
-            modal.classList.add('is-open');
-            document.documentElement.classList.add('gmLightboxOpen');
-        }
-
-        function stepModal(modal, delta) {
-            if (!modal) {
-                return;
-            }
-            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
-            renderModal(modal);
-        }
-
-        document.addEventListener('click', function (event) {
-            var galleryItem = event.target.closest('a[data-gm-gallery]');
-            if (galleryItem) {
-                var group = galleryItem.getAttribute('data-gm-gallery');
-                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
-                var links = getGalleryLinks(group);
-                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
-                if (modal && links.length) {
-                    event.preventDefault();
-                    openModal(modal, links, startIndex);
-                }
-                return;
-            }
-
-            var closeButton = event.target.closest('.gmLightboxClose');
-            if (closeButton) {
-                closeModal(closeButton.closest('.gmLightbox'));
-                return;
-            }
-
-            var prevButton = event.target.closest('.gmLightboxPrev');
-            if (prevButton) {
-                stepModal(prevButton.closest('.gmLightbox'), -1);
-                return;
-            }
-
-            var nextButton = event.target.closest('.gmLightboxNext');
-            if (nextButton) {
-                stepModal(nextButton.closest('.gmLightbox'), 1);
-                return;
-            }
-
-            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
-            if (openModalElement) {
-                closeModal(openModalElement);
-            }
-        });
-
-        document.addEventListener('keydown', function (event) {
-            var modal = getOpenModal();
-            if (!modal) {
-                return;
-            }
-
-            if (event.key === 'Escape') {
-                closeModal(modal);
-            } else if (event.key === 'ArrowLeft') {
-                stepModal(modal, -1);
-            } else if (event.key === 'ArrowRight') {
-                stepModal(modal, 1);
-            }
-        });
-    })();
-    </script>
-    
-    
-    <div class="gm-description-text">Left 4 Dead 2 World War 2 Weapons Pack 2</div>
-    ]]></description>
-      <content:encoded><![CDATA[
-    
-    <style>
-        .gmLightboxOpen {
-            overflow: hidden;
-        }
-
-        .gm-actions {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            margin: 0 0 12px 0;
-        }
-
-        .gm-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 38px;
-            padding: 8px 14px;
-            border-radius: 8px;
-            text-decoration: none;
-            color: #ffffff;
-            font-weight: 600;
-            font-size: 14px;
-        }
-
-        .gm-btn-article {
-            background: #1d9f61;
-        }
-
-        .gm-btn-steam {
-            background: #1d5fb5;
-        }
-
-        .gm-media-label {
-            margin: 6px 0 8px 0;
-            font-size: 14px;
-            font-weight: 600;
-            letter-spacing: .2px;
-        }
-
-        .cleanSpoilerGallery {
-            margin: 14px 0;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header {
-            padding: 11px 14px;
-            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
-            border: 1px solid rgba(255,255,255,.08);
-            border-bottom: 0;
-            border-radius: 10px 10px 0 0;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header span {
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .2px;
-            color: #e8e8e8;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_contents {
-            padding: 12px;
-            background: rgba(255,255,255,.035);
-            border: 1px solid rgba(255,255,255,.08);
-            border-radius: 0 0 10px 10px;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryGrid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            align-items: flex-start;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem {
-            display: inline-block;
-            overflow: hidden;
-            border-radius: 8px;
-            background: #111;
-            border: 1px solid rgba(255,255,255,.07);
-            width: 188px;
-            text-decoration: none;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem img {
-            width: 100%;
-            height: 112px;
-            object-fit: cover;
-            display: block;
-            border-radius: 8px;
-            transition: transform .25s ease, filter .25s ease;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
-            transform: scale(1.025);
-            filter: brightness(1.06);
-        }
-
-        .gm-description-text {
-            white-space: pre-wrap;
-            line-height: 1.6;
-            font-size: 15px;
-        }
-
-        .gm-description-text a {
-            color: #1d5fb5;
-            text-decoration: underline;
-        }
-
-        .gm-description-text a.gm-inline-steam {
-            display: inline-block;
-            margin-top: 6px;
-            padding: 3px 8px;
-            border-radius: 6px;
-            border: 1px solid #1d5fb5;
-            text-decoration: none;
-        }
-
-        .gmLightbox {
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, .86);
-            display: none;
-            align-items: center;
-            justify-content: center;
-            z-index: 2147483640;
-            padding: 20px;
-        }
-
-        .gmLightbox.is-open {
-            display: flex;
-        }
-
-        .gmLightboxImage {
-            max-width: min(92vw, 1500px);
-            max-height: 84vh;
-            border-radius: 8px;
-            object-fit: contain;
-            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
-        }
-
-        .gmLightboxBtn {
-            position: fixed;
-            border: 0;
-            background: rgba(22, 22, 22, .75);
-            color: #fff;
-            cursor: pointer;
-            border-radius: 8px;
-            font-size: 22px;
-            line-height: 1;
-            padding: 10px 12px;
-        }
-
-        .gmLightboxClose {
-            top: 16px;
-            right: 16px;
-            font-size: 28px;
-            padding: 8px 12px;
-        }
-
-        .gmLightboxPrev {
-            left: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxNext {
-            right: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxCounter {
-            position: fixed;
-            bottom: 16px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: #fff;
-            background: rgba(18, 18, 18, .72);
-            border-radius: 999px;
-            padding: 6px 12px;
-            font-size: 12px;
-        }
-
-        @media (max-width: 640px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: calc(50% - 5px);
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 105px;
-            }
-
-            .gm-btn {
-                width: 100%;
-            }
-
-            .gmLightboxPrev,
-            .gmLightboxNext {
-                font-size: 18px;
-                padding: 8px 10px;
-            }
-        }
-
-        @media (max-width: 420px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: 100%;
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 150px;
-            }
-        }
-    </style>
-    
-    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/31485" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
-    
-    <div class="gm-media-label">Media</div>
-    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
-        <div class="ipsSpoiler_header">
-            <span>Media gallery</span>
-        </div>
-        <div class="ipsSpoiler_contents ipsClearfix">
-            <div class="spoilerGalleryGrid">
-                
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_2_weapons_pack_2_31485_0.jpg?1717836687"
-               data-gm-gallery="gm-gallery-31485"
-               data-gm-index="0"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-31485"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_2_weapons_pack_2_31485_0.jpg?1717836687" alt="GameMaps media 1" loading="lazy">
-            </a>
-            
-            </div>
-        </div>
-    </div>
-
-    <div class="gmLightbox" data-gm-lightbox="gm-gallery-31485" hidden>
-        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
-        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
-        <img class="gmLightboxImage" src="" alt="">
-        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
-        <div class="gmLightboxCounter">1 / 1</div>
-    </div>
-
-    
-    <script>
-    (function () {
-        if (window.__gmGalleryInitialized) {
-            return;
-        }
-        window.__gmGalleryInitialized = true;
-
-        function getOpenModal() {
-            return document.querySelector('.gmLightbox.is-open');
-        }
-
-        function getGalleryLinks(group) {
-            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
-            return allLinks.filter(function (link) {
-                return link.getAttribute('data-gm-gallery') === group;
-            });
-        }
-
-        function closeModal(modal) {
-            if (!modal) {
-                return;
-            }
-            modal.classList.remove('is-open');
-            modal.setAttribute('hidden', 'hidden');
-            var image = modal.querySelector('.gmLightboxImage');
-            if (image) {
-                image.removeAttribute('src');
-            }
-            document.documentElement.classList.remove('gmLightboxOpen');
-        }
-
-        function renderModal(modal) {
-            var links = modal.__gmLinks || [];
-            if (!links.length) {
-                return;
-            }
-
-            var index = modal.__gmIndex || 0;
-            if (index < 0) {
-                index = links.length - 1;
-            }
-            if (index >= links.length) {
-                index = 0;
-            }
-
-            modal.__gmIndex = index;
-            var activeLink = links[index];
-            var image = modal.querySelector('.gmLightboxImage');
-            var thumb = activeLink.querySelector('img');
-            var counter = modal.querySelector('.gmLightboxCounter');
-
-            if (image) {
-                image.setAttribute('src', activeLink.getAttribute('href'));
-                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
-            }
-
-            if (counter) {
-                counter.textContent = (index + 1) + ' / ' + links.length;
-            }
-        }
-
-        function openModal(modal, links, startIndex) {
-            if (!modal || !links.length) {
-                return;
-            }
-            modal.__gmLinks = links;
-            modal.__gmIndex = startIndex;
-            renderModal(modal);
-            modal.removeAttribute('hidden');
-            modal.classList.add('is-open');
-            document.documentElement.classList.add('gmLightboxOpen');
-        }
-
-        function stepModal(modal, delta) {
-            if (!modal) {
-                return;
-            }
-            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
-            renderModal(modal);
-        }
-
-        document.addEventListener('click', function (event) {
-            var galleryItem = event.target.closest('a[data-gm-gallery]');
-            if (galleryItem) {
-                var group = galleryItem.getAttribute('data-gm-gallery');
-                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
-                var links = getGalleryLinks(group);
-                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
-                if (modal && links.length) {
-                    event.preventDefault();
-                    openModal(modal, links, startIndex);
-                }
-                return;
-            }
-
-            var closeButton = event.target.closest('.gmLightboxClose');
-            if (closeButton) {
-                closeModal(closeButton.closest('.gmLightbox'));
-                return;
-            }
-
-            var prevButton = event.target.closest('.gmLightboxPrev');
-            if (prevButton) {
-                stepModal(prevButton.closest('.gmLightbox'), -1);
-                return;
-            }
-
-            var nextButton = event.target.closest('.gmLightboxNext');
-            if (nextButton) {
-                stepModal(nextButton.closest('.gmLightbox'), 1);
-                return;
-            }
-
-            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
-            if (openModalElement) {
-                closeModal(openModalElement);
-            }
-        });
-
-        document.addEventListener('keydown', function (event) {
-            var modal = getOpenModal();
-            if (!modal) {
-                return;
-            }
-
-            if (event.key === 'Escape') {
-                closeModal(modal);
-            } else if (event.key === 'ArrowLeft') {
-                stepModal(modal, -1);
-            } else if (event.key === 'ArrowRight') {
-                stepModal(modal, 1);
-            }
-        });
-    })();
-    </script>
-    
-    
-    <div class="gm-description-text">Left 4 Dead 2 World War 2 Weapons Pack 2</div>
-    ]]></content:encoded>
-      <pubDate>Fri, 21 Aug 2026 14:00:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>[ Mod ] World War 2 Weapons Pack 2</title>
-      <link>https://www.gamemaps.com/details/31484</link>
-      <guid>https://www.gamemaps.com/details/31484</guid>
-      <description><![CDATA[
-    
-    <style>
-        .gmLightboxOpen {
-            overflow: hidden;
-        }
-
-        .gm-actions {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            margin: 0 0 12px 0;
-        }
-
-        .gm-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 38px;
-            padding: 8px 14px;
-            border-radius: 8px;
-            text-decoration: none;
-            color: #ffffff;
-            font-weight: 600;
-            font-size: 14px;
-        }
-
-        .gm-btn-article {
-            background: #1d9f61;
-        }
-
-        .gm-btn-steam {
-            background: #1d5fb5;
-        }
-
-        .gm-media-label {
-            margin: 6px 0 8px 0;
-            font-size: 14px;
-            font-weight: 600;
-            letter-spacing: .2px;
-        }
-
-        .cleanSpoilerGallery {
-            margin: 14px 0;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header {
-            padding: 11px 14px;
-            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
-            border: 1px solid rgba(255,255,255,.08);
-            border-bottom: 0;
-            border-radius: 10px 10px 0 0;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header span {
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .2px;
-            color: #e8e8e8;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_contents {
-            padding: 12px;
-            background: rgba(255,255,255,.035);
-            border: 1px solid rgba(255,255,255,.08);
-            border-radius: 0 0 10px 10px;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryGrid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            align-items: flex-start;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem {
-            display: inline-block;
-            overflow: hidden;
-            border-radius: 8px;
-            background: #111;
-            border: 1px solid rgba(255,255,255,.07);
-            width: 188px;
-            text-decoration: none;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem img {
-            width: 100%;
-            height: 112px;
-            object-fit: cover;
-            display: block;
-            border-radius: 8px;
-            transition: transform .25s ease, filter .25s ease;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
-            transform: scale(1.025);
-            filter: brightness(1.06);
-        }
-
-        .gm-description-text {
-            white-space: pre-wrap;
-            line-height: 1.6;
-            font-size: 15px;
-        }
-
-        .gm-description-text a {
-            color: #1d5fb5;
-            text-decoration: underline;
-        }
-
-        .gm-description-text a.gm-inline-steam {
-            display: inline-block;
-            margin-top: 6px;
-            padding: 3px 8px;
-            border-radius: 6px;
-            border: 1px solid #1d5fb5;
-            text-decoration: none;
-        }
-
-        .gmLightbox {
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, .86);
-            display: none;
-            align-items: center;
-            justify-content: center;
-            z-index: 2147483640;
-            padding: 20px;
-        }
-
-        .gmLightbox.is-open {
-            display: flex;
-        }
-
-        .gmLightboxImage {
-            max-width: min(92vw, 1500px);
-            max-height: 84vh;
-            border-radius: 8px;
-            object-fit: contain;
-            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
-        }
-
-        .gmLightboxBtn {
-            position: fixed;
-            border: 0;
-            background: rgba(22, 22, 22, .75);
-            color: #fff;
-            cursor: pointer;
-            border-radius: 8px;
-            font-size: 22px;
-            line-height: 1;
-            padding: 10px 12px;
-        }
-
-        .gmLightboxClose {
-            top: 16px;
-            right: 16px;
-            font-size: 28px;
-            padding: 8px 12px;
-        }
-
-        .gmLightboxPrev {
-            left: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxNext {
-            right: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxCounter {
-            position: fixed;
-            bottom: 16px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: #fff;
-            background: rgba(18, 18, 18, .72);
-            border-radius: 999px;
-            padding: 6px 12px;
-            font-size: 12px;
-        }
-
-        @media (max-width: 640px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: calc(50% - 5px);
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 105px;
-            }
-
-            .gm-btn {
-                width: 100%;
-            }
-
-            .gmLightboxPrev,
-            .gmLightboxNext {
-                font-size: 18px;
-                padding: 8px 10px;
-            }
-        }
-
-        @media (max-width: 420px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: 100%;
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 150px;
-            }
-        }
-    </style>
-    
-    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/31484" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
-    
-    <div class="gm-media-label">Media</div>
-    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
-        <div class="ipsSpoiler_header">
-            <span>Media gallery</span>
-        </div>
-        <div class="ipsSpoiler_contents ipsClearfix">
-            <div class="spoilerGalleryGrid">
-                
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/left_4_dead_2_world_war_2_weapons_pack_31484_0.jpg?1717784475"
-               data-gm-gallery="gm-gallery-31484"
-               data-gm-index="0"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-31484"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/left_4_dead_2_world_war_2_weapons_pack_31484_0.jpg?1717784475" alt="GameMaps media 1" loading="lazy">
-            </a>
-            
-            </div>
-        </div>
-    </div>
-
-    <div class="gmLightbox" data-gm-lightbox="gm-gallery-31484" hidden>
-        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
-        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
-        <img class="gmLightboxImage" src="" alt="">
-        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
-        <div class="gmLightboxCounter">1 / 1</div>
-    </div>
-
-    
-    <script>
-    (function () {
-        if (window.__gmGalleryInitialized) {
-            return;
-        }
-        window.__gmGalleryInitialized = true;
-
-        function getOpenModal() {
-            return document.querySelector('.gmLightbox.is-open');
-        }
-
-        function getGalleryLinks(group) {
-            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
-            return allLinks.filter(function (link) {
-                return link.getAttribute('data-gm-gallery') === group;
-            });
-        }
-
-        function closeModal(modal) {
-            if (!modal) {
-                return;
-            }
-            modal.classList.remove('is-open');
-            modal.setAttribute('hidden', 'hidden');
-            var image = modal.querySelector('.gmLightboxImage');
-            if (image) {
-                image.removeAttribute('src');
-            }
-            document.documentElement.classList.remove('gmLightboxOpen');
-        }
-
-        function renderModal(modal) {
-            var links = modal.__gmLinks || [];
-            if (!links.length) {
-                return;
-            }
-
-            var index = modal.__gmIndex || 0;
-            if (index < 0) {
-                index = links.length - 1;
-            }
-            if (index >= links.length) {
-                index = 0;
-            }
-
-            modal.__gmIndex = index;
-            var activeLink = links[index];
-            var image = modal.querySelector('.gmLightboxImage');
-            var thumb = activeLink.querySelector('img');
-            var counter = modal.querySelector('.gmLightboxCounter');
-
-            if (image) {
-                image.setAttribute('src', activeLink.getAttribute('href'));
-                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
-            }
-
-            if (counter) {
-                counter.textContent = (index + 1) + ' / ' + links.length;
-            }
-        }
-
-        function openModal(modal, links, startIndex) {
-            if (!modal || !links.length) {
-                return;
-            }
-            modal.__gmLinks = links;
-            modal.__gmIndex = startIndex;
-            renderModal(modal);
-            modal.removeAttribute('hidden');
-            modal.classList.add('is-open');
-            document.documentElement.classList.add('gmLightboxOpen');
-        }
-
-        function stepModal(modal, delta) {
-            if (!modal) {
-                return;
-            }
-            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
-            renderModal(modal);
-        }
-
-        document.addEventListener('click', function (event) {
-            var galleryItem = event.target.closest('a[data-gm-gallery]');
-            if (galleryItem) {
-                var group = galleryItem.getAttribute('data-gm-gallery');
-                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
-                var links = getGalleryLinks(group);
-                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
-                if (modal && links.length) {
-                    event.preventDefault();
-                    openModal(modal, links, startIndex);
-                }
-                return;
-            }
-
-            var closeButton = event.target.closest('.gmLightboxClose');
-            if (closeButton) {
-                closeModal(closeButton.closest('.gmLightbox'));
-                return;
-            }
-
-            var prevButton = event.target.closest('.gmLightboxPrev');
-            if (prevButton) {
-                stepModal(prevButton.closest('.gmLightbox'), -1);
-                return;
-            }
-
-            var nextButton = event.target.closest('.gmLightboxNext');
-            if (nextButton) {
-                stepModal(nextButton.closest('.gmLightbox'), 1);
-                return;
-            }
-
-            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
-            if (openModalElement) {
-                closeModal(openModalElement);
-            }
-        });
-
-        document.addEventListener('keydown', function (event) {
-            var modal = getOpenModal();
-            if (!modal) {
-                return;
-            }
-
-            if (event.key === 'Escape') {
-                closeModal(modal);
-            } else if (event.key === 'ArrowLeft') {
-                stepModal(modal, -1);
-            } else if (event.key === 'ArrowRight') {
-                stepModal(modal, 1);
-            }
-        });
-    })();
-    </script>
-    
-    
-    <div class="gm-description-text">Left 4 Dead 2 World War 2 Weapons Pack</div>
-    ]]></description>
-      <content:encoded><![CDATA[
-    
-    <style>
-        .gmLightboxOpen {
-            overflow: hidden;
-        }
-
-        .gm-actions {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            margin: 0 0 12px 0;
-        }
-
-        .gm-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 38px;
-            padding: 8px 14px;
-            border-radius: 8px;
-            text-decoration: none;
-            color: #ffffff;
-            font-weight: 600;
-            font-size: 14px;
-        }
-
-        .gm-btn-article {
-            background: #1d9f61;
-        }
-
-        .gm-btn-steam {
-            background: #1d5fb5;
-        }
-
-        .gm-media-label {
-            margin: 6px 0 8px 0;
-            font-size: 14px;
-            font-weight: 600;
-            letter-spacing: .2px;
-        }
-
-        .cleanSpoilerGallery {
-            margin: 14px 0;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header {
-            padding: 11px 14px;
-            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
-            border: 1px solid rgba(255,255,255,.08);
-            border-bottom: 0;
-            border-radius: 10px 10px 0 0;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header span {
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .2px;
-            color: #e8e8e8;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_contents {
-            padding: 12px;
-            background: rgba(255,255,255,.035);
-            border: 1px solid rgba(255,255,255,.08);
-            border-radius: 0 0 10px 10px;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryGrid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            align-items: flex-start;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem {
-            display: inline-block;
-            overflow: hidden;
-            border-radius: 8px;
-            background: #111;
-            border: 1px solid rgba(255,255,255,.07);
-            width: 188px;
-            text-decoration: none;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem img {
-            width: 100%;
-            height: 112px;
-            object-fit: cover;
-            display: block;
-            border-radius: 8px;
-            transition: transform .25s ease, filter .25s ease;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
-            transform: scale(1.025);
-            filter: brightness(1.06);
-        }
-
-        .gm-description-text {
-            white-space: pre-wrap;
-            line-height: 1.6;
-            font-size: 15px;
-        }
-
-        .gm-description-text a {
-            color: #1d5fb5;
-            text-decoration: underline;
-        }
-
-        .gm-description-text a.gm-inline-steam {
-            display: inline-block;
-            margin-top: 6px;
-            padding: 3px 8px;
-            border-radius: 6px;
-            border: 1px solid #1d5fb5;
-            text-decoration: none;
-        }
-
-        .gmLightbox {
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, .86);
-            display: none;
-            align-items: center;
-            justify-content: center;
-            z-index: 2147483640;
-            padding: 20px;
-        }
-
-        .gmLightbox.is-open {
-            display: flex;
-        }
-
-        .gmLightboxImage {
-            max-width: min(92vw, 1500px);
-            max-height: 84vh;
-            border-radius: 8px;
-            object-fit: contain;
-            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
-        }
-
-        .gmLightboxBtn {
-            position: fixed;
-            border: 0;
-            background: rgba(22, 22, 22, .75);
-            color: #fff;
-            cursor: pointer;
-            border-radius: 8px;
-            font-size: 22px;
-            line-height: 1;
-            padding: 10px 12px;
-        }
-
-        .gmLightboxClose {
-            top: 16px;
-            right: 16px;
-            font-size: 28px;
-            padding: 8px 12px;
-        }
-
-        .gmLightboxPrev {
-            left: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxNext {
-            right: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxCounter {
-            position: fixed;
-            bottom: 16px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: #fff;
-            background: rgba(18, 18, 18, .72);
-            border-radius: 999px;
-            padding: 6px 12px;
-            font-size: 12px;
-        }
-
-        @media (max-width: 640px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: calc(50% - 5px);
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 105px;
-            }
-
-            .gm-btn {
-                width: 100%;
-            }
-
-            .gmLightboxPrev,
-            .gmLightboxNext {
-                font-size: 18px;
-                padding: 8px 10px;
-            }
-        }
-
-        @media (max-width: 420px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: 100%;
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 150px;
-            }
-        }
-    </style>
-    
-    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/31484" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
-    
-    <div class="gm-media-label">Media</div>
-    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
-        <div class="ipsSpoiler_header">
-            <span>Media gallery</span>
-        </div>
-        <div class="ipsSpoiler_contents ipsClearfix">
-            <div class="spoilerGalleryGrid">
-                
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/left_4_dead_2_world_war_2_weapons_pack_31484_0.jpg?1717784475"
-               data-gm-gallery="gm-gallery-31484"
-               data-gm-index="0"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-31484"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/left_4_dead_2_world_war_2_weapons_pack_31484_0.jpg?1717784475" alt="GameMaps media 1" loading="lazy">
-            </a>
-            
-            </div>
-        </div>
-    </div>
-
-    <div class="gmLightbox" data-gm-lightbox="gm-gallery-31484" hidden>
-        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
-        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
-        <img class="gmLightboxImage" src="" alt="">
-        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
-        <div class="gmLightboxCounter">1 / 1</div>
-    </div>
-
-    
-    <script>
-    (function () {
-        if (window.__gmGalleryInitialized) {
-            return;
-        }
-        window.__gmGalleryInitialized = true;
-
-        function getOpenModal() {
-            return document.querySelector('.gmLightbox.is-open');
-        }
-
-        function getGalleryLinks(group) {
-            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
-            return allLinks.filter(function (link) {
-                return link.getAttribute('data-gm-gallery') === group;
-            });
-        }
-
-        function closeModal(modal) {
-            if (!modal) {
-                return;
-            }
-            modal.classList.remove('is-open');
-            modal.setAttribute('hidden', 'hidden');
-            var image = modal.querySelector('.gmLightboxImage');
-            if (image) {
-                image.removeAttribute('src');
-            }
-            document.documentElement.classList.remove('gmLightboxOpen');
-        }
-
-        function renderModal(modal) {
-            var links = modal.__gmLinks || [];
-            if (!links.length) {
-                return;
-            }
-
-            var index = modal.__gmIndex || 0;
-            if (index < 0) {
-                index = links.length - 1;
-            }
-            if (index >= links.length) {
-                index = 0;
-            }
-
-            modal.__gmIndex = index;
-            var activeLink = links[index];
-            var image = modal.querySelector('.gmLightboxImage');
-            var thumb = activeLink.querySelector('img');
-            var counter = modal.querySelector('.gmLightboxCounter');
-
-            if (image) {
-                image.setAttribute('src', activeLink.getAttribute('href'));
-                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
-            }
-
-            if (counter) {
-                counter.textContent = (index + 1) + ' / ' + links.length;
-            }
-        }
-
-        function openModal(modal, links, startIndex) {
-            if (!modal || !links.length) {
-                return;
-            }
-            modal.__gmLinks = links;
-            modal.__gmIndex = startIndex;
-            renderModal(modal);
-            modal.removeAttribute('hidden');
-            modal.classList.add('is-open');
-            document.documentElement.classList.add('gmLightboxOpen');
-        }
-
-        function stepModal(modal, delta) {
-            if (!modal) {
-                return;
-            }
-            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
-            renderModal(modal);
-        }
-
-        document.addEventListener('click', function (event) {
-            var galleryItem = event.target.closest('a[data-gm-gallery]');
-            if (galleryItem) {
-                var group = galleryItem.getAttribute('data-gm-gallery');
-                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
-                var links = getGalleryLinks(group);
-                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
-                if (modal && links.length) {
-                    event.preventDefault();
-                    openModal(modal, links, startIndex);
-                }
-                return;
-            }
-
-            var closeButton = event.target.closest('.gmLightboxClose');
-            if (closeButton) {
-                closeModal(closeButton.closest('.gmLightbox'));
-                return;
-            }
-
-            var prevButton = event.target.closest('.gmLightboxPrev');
-            if (prevButton) {
-                stepModal(prevButton.closest('.gmLightbox'), -1);
-                return;
-            }
-
-            var nextButton = event.target.closest('.gmLightboxNext');
-            if (nextButton) {
-                stepModal(nextButton.closest('.gmLightbox'), 1);
-                return;
-            }
-
-            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
-            if (openModalElement) {
-                closeModal(openModalElement);
-            }
-        });
-
-        document.addEventListener('keydown', function (event) {
-            var modal = getOpenModal();
-            if (!modal) {
-                return;
-            }
-
-            if (event.key === 'Escape') {
-                closeModal(modal);
-            } else if (event.key === 'ArrowLeft') {
-                stepModal(modal, -1);
-            } else if (event.key === 'ArrowRight') {
-                stepModal(modal, 1);
-            }
-        });
-    })();
-    </script>
-    
-    
-    <div class="gm-description-text">Left 4 Dead 2 World War 2 Weapons Pack</div>
-    ]]></content:encoded>
-      <pubDate>Fri, 21 Aug 2026 10:44:08 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 25 Aug 2026 00:14:24 +0000</lastBuildDate>
     <item>
       <title>[ Mod ] World War 1 Weapons Pack 2</title>
       <link>https://www.gamemaps.com/details/31483</link>
@@ -1815,25 +239,36 @@
             <div class="spoilerGalleryGrid">
                 
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_0.jpg?1717781717"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_0.jpg?1787608737"
                data-gm-gallery="gm-gallery-31483"
                data-gm-index="0"
                data-ipslightbox
                data-ipslightbox-group="gm-gallery-31483"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_0.jpg?1717781717" alt="GameMaps media 1" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_0.jpg?1787608737" alt="GameMaps media 1" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_1.jpg?1719872516"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_1.jpg?1787608741"
                data-gm-gallery="gm-gallery-31483"
                data-gm-index="1"
                data-ipslightbox
                data-ipslightbox-group="gm-gallery-31483"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_1.jpg?1719872516" alt="GameMaps media 2" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_1.jpg?1787608741" alt="GameMaps media 2" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_2.jpg?1787608744"
+               data-gm-gallery="gm-gallery-31483"
+               data-gm-index="2"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-31483"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_2.jpg?1787608744" alt="GameMaps media 3" loading="lazy">
             </a>
             
             </div>
@@ -1845,7 +280,7 @@
         <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
         <img class="gmLightboxImage" src="" alt="">
         <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
-        <div class="gmLightboxCounter">1 / 2</div>
+        <div class="gmLightboxCounter">1 / 3</div>
     </div>
 
     
@@ -1986,7 +421,7 @@
     </script>
     
     
-    <div class="gm-description-text">Left 4 Dead 2 World War 1 Weapons Pack 2</div>
+    <div class="gm-description-text">Left 4 Dead 2 World War 1 Weapons Pack 2 Added Lewis aircraft gun</div>
     ]]></description>
       <content:encoded><![CDATA[
     
@@ -2217,25 +652,36 @@
             <div class="spoilerGalleryGrid">
                 
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_0.jpg?1717781717"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_0.jpg?1787608737"
                data-gm-gallery="gm-gallery-31483"
                data-gm-index="0"
                data-ipslightbox
                data-ipslightbox-group="gm-gallery-31483"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_0.jpg?1717781717" alt="GameMaps media 1" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_0.jpg?1787608737" alt="GameMaps media 1" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_1.jpg?1719872516"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_1.jpg?1787608741"
                data-gm-gallery="gm-gallery-31483"
                data-gm-index="1"
                data-ipslightbox
                data-ipslightbox-group="gm-gallery-31483"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_1.jpg?1719872516" alt="GameMaps media 2" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_1.jpg?1787608741" alt="GameMaps media 2" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_2.jpg?1787608744"
+               data-gm-gallery="gm-gallery-31483"
+               data-gm-index="2"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-31483"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_2_31483_2.jpg?1787608744" alt="GameMaps media 3" loading="lazy">
             </a>
             
             </div>
@@ -2247,7 +693,7 @@
         <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
         <img class="gmLightboxImage" src="" alt="">
         <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
-        <div class="gmLightboxCounter">1 / 2</div>
+        <div class="gmLightboxCounter">1 / 3</div>
     </div>
 
     
@@ -2388,9 +834,9 @@
     </script>
     
     
-    <div class="gm-description-text">Left 4 Dead 2 World War 1 Weapons Pack 2</div>
+    <div class="gm-description-text">Left 4 Dead 2 World War 1 Weapons Pack 2 Added Lewis aircraft gun</div>
     ]]></content:encoded>
-      <pubDate>Fri, 21 Aug 2026 07:48:25 +0000</pubDate>
+      <pubDate>Mon, 24 Aug 2026 22:15:09 +0000</pubDate>
     </item>
     <item>
       <title>[ Mod ] World War 1 Weapons Pack</title>
@@ -2625,25 +1071,36 @@
             <div class="spoilerGalleryGrid">
                 
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_0.jpg?1719872439"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_0.jpg?1787603670"
                data-gm-gallery="gm-gallery-31482"
                data-gm-index="0"
                data-ipslightbox
                data-ipslightbox-group="gm-gallery-31482"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_0.jpg?1719872439" alt="GameMaps media 1" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_0.jpg?1787603670" alt="GameMaps media 1" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_1.jpg?1719872443"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_1.jpg?1787603677"
                data-gm-gallery="gm-gallery-31482"
                data-gm-index="1"
                data-ipslightbox
                data-ipslightbox-group="gm-gallery-31482"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_1.jpg?1719872443" alt="GameMaps media 2" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_1.jpg?1787603677" alt="GameMaps media 2" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_2.jpg?1787603683"
+               data-gm-gallery="gm-gallery-31482"
+               data-gm-index="2"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-31482"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_2.jpg?1787603683" alt="GameMaps media 3" loading="lazy">
             </a>
             
             </div>
@@ -2655,7 +1112,7 @@
         <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
         <img class="gmLightboxImage" src="" alt="">
         <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
-        <div class="gmLightboxCounter">1 / 2</div>
+        <div class="gmLightboxCounter">1 / 3</div>
     </div>
 
     
@@ -2796,7 +1253,7 @@
     </script>
     
     
-    <div class="gm-description-text">Left 4 Dead 2 World War 1 Weapons Pack</div>
+    <div class="gm-description-text">Left 4 Dead 2 World War 1 Weapons Pack Added Winchester M1917 Burton Light Machine Rifle and Cei-Rigotti M1899 Carbine</div>
     ]]></description>
       <content:encoded><![CDATA[
     
@@ -3027,25 +1484,36 @@
             <div class="spoilerGalleryGrid">
                 
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_0.jpg?1719872439"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_0.jpg?1787603670"
                data-gm-gallery="gm-gallery-31482"
                data-gm-index="0"
                data-ipslightbox
                data-ipslightbox-group="gm-gallery-31482"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_0.jpg?1719872439" alt="GameMaps media 1" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_0.jpg?1787603670" alt="GameMaps media 1" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_1.jpg?1719872443"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_1.jpg?1787603677"
                data-gm-gallery="gm-gallery-31482"
                data-gm-index="1"
                data-ipslightbox
                data-ipslightbox-group="gm-gallery-31482"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_1.jpg?1719872443" alt="GameMaps media 2" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_1.jpg?1787603677" alt="GameMaps media 2" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_2.jpg?1787603683"
+               data-gm-gallery="gm-gallery-31482"
+               data-gm-index="2"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-31482"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_1_weapons_pack_31482_2.jpg?1787603683" alt="GameMaps media 3" loading="lazy">
             </a>
             
             </div>
@@ -3057,7 +1525,7 @@
         <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
         <img class="gmLightboxImage" src="" alt="">
         <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
-        <div class="gmLightboxCounter">1 / 2</div>
+        <div class="gmLightboxCounter">1 / 3</div>
     </div>
 
     
@@ -3198,14 +1666,14 @@
     </script>
     
     
-    <div class="gm-description-text">Left 4 Dead 2 World War 1 Weapons Pack</div>
+    <div class="gm-description-text">Left 4 Dead 2 World War 1 Weapons Pack Added Winchester M1917 Burton Light Machine Rifle and Cei-Rigotti M1899 Carbine</div>
     ]]></content:encoded>
-      <pubDate>Thu, 20 Aug 2026 21:07:17 +0000</pubDate>
+      <pubDate>Mon, 24 Aug 2026 21:02:04 +0000</pubDate>
     </item>
     <item>
-      <title>[ Mod ] [FN: Rearousal] Chiku (Rochelle)</title>
-      <link>https://www.gamemaps.com/details/36372</link>
-      <guid>https://www.gamemaps.com/details/36372</guid>
+      <title>[ Mod ] World War 2 Weapons Pack</title>
+      <link>https://www.gamemaps.com/details/36382</link>
+      <guid>https://www.gamemaps.com/details/36382</guid>
       <description><![CDATA[
     
     <style>
@@ -3424,7 +1892,7 @@
         }
     </style>
     
-    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36372" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
+    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36382" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
     
     <div class="gm-media-label">Media</div>
     <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
@@ -3435,92 +1903,48 @@
             <div class="spoilerGalleryGrid">
                 
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_0.jpg?1787239164"
-               data-gm-gallery="gm-gallery-36372"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_2_weapons_pack_36382_0.jpg?1787515034"
+               data-gm-gallery="gm-gallery-36382"
                data-gm-index="0"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36372"
+               data-ipslightbox-group="gm-gallery-36382"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_0.jpg?1787239164" alt="GameMaps media 1" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_2_weapons_pack_36382_0.jpg?1787515034" alt="GameMaps media 1" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_1.jpg?1787239164"
-               data-gm-gallery="gm-gallery-36372"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_2_weapons_pack_36382_1.jpg?1787515035"
+               data-gm-gallery="gm-gallery-36382"
                data-gm-index="1"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36372"
+               data-ipslightbox-group="gm-gallery-36382"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_1.jpg?1787239164" alt="GameMaps media 2" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_2_weapons_pack_36382_1.jpg?1787515035" alt="GameMaps media 2" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_2.jpg?1787239164"
-               data-gm-gallery="gm-gallery-36372"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_2_weapons_pack_36382_2.jpg?1787515035"
+               data-gm-gallery="gm-gallery-36382"
                data-gm-index="2"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36372"
+               data-ipslightbox-group="gm-gallery-36382"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_2.jpg?1787239164" alt="GameMaps media 3" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_3.jpg?1787239164"
-               data-gm-gallery="gm-gallery-36372"
-               data-gm-index="3"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36372"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_3.jpg?1787239164" alt="GameMaps media 4" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_4.jpg?1787239164"
-               data-gm-gallery="gm-gallery-36372"
-               data-gm-index="4"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36372"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_4.jpg?1787239164" alt="GameMaps media 5" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_5.jpg?1787239164"
-               data-gm-gallery="gm-gallery-36372"
-               data-gm-index="5"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36372"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_5.jpg?1787239164" alt="GameMaps media 6" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_6.jpg?1787239164"
-               data-gm-gallery="gm-gallery-36372"
-               data-gm-index="6"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36372"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_6.jpg?1787239164" alt="GameMaps media 7" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_2_weapons_pack_36382_2.jpg?1787515035" alt="GameMaps media 3" loading="lazy">
             </a>
             
             </div>
         </div>
     </div>
 
-    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36372" hidden>
+    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36382" hidden>
         <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
         <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
         <img class="gmLightboxImage" src="" alt="">
         <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
-        <div class="gmLightboxCounter">1 / 7</div>
+        <div class="gmLightboxCounter">1 / 3</div>
     </div>
 
     
@@ -3661,29 +2085,7 @@
     </script>
     
     
-    <div class="gm-description-text">&quot;Welcome to Fazclaire&#x27;s!
-
-You&#x27;ve found the social hall! Too much dancing? Here you can either stuff your face at Chiku&#x27;s (With our hilarious robotic assistant!) or throw a pint down with Fexa at her Yarrbarr if you have the guts!
-
-Fazclaire ENT is not liable for missing person or death. Adults only. Please drink and party responsibly.&quot;
-
-I’d like to clarify that I did not create the mod and the model port myself. The model port and the VGUI icons (Lobby, Panel, and Incap) were created by another person who preferred to remain anonymous. This was a commissioned mod, which he kindly helped with the port of the model and the creation of the icons for said commission, also he gave me permission to upload the mod to the Steam Workshop so it can be shared with everyone. I want to give him my sincere thanks for his work.
-
-Also, in case you wonder what&#x27;s up with the name of FN: Rearousal (Fazclaire&#x27;s Nightclub: The Rearousal), It&#x27;s the official name that CryptiaCurves gave for the redesigned version of her Fazclaire&#x27;s Nightclub models.
-
-Features:
-- World Model
-- FP Arms
-- Facial Flexes
-- Jiggle Bones
-- Bile Texture
-- Custom HUD
-- Custom Attachments
-
-Original model by: CryptiaCurves
-You can buy the models at cryptiacurves.itch.io
-
-If you find problems in the mod, feel free to tell me about them in the comments.</div>
+    <div class="gm-description-text">Left 4 Dead 2 World War 2 Weapons Pack Added BAR 1918A2 50-round anti-aircraft (AA) magazine</div>
     ]]></description>
       <content:encoded><![CDATA[
     
@@ -3903,7 +2305,7 @@ If you find problems in the mod, feel free to tell me about them in the comments
         }
     </style>
     
-    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36372" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
+    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36382" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
     
     <div class="gm-media-label">Media</div>
     <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
@@ -3914,92 +2316,48 @@ If you find problems in the mod, feel free to tell me about them in the comments
             <div class="spoilerGalleryGrid">
                 
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_0.jpg?1787239164"
-               data-gm-gallery="gm-gallery-36372"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_2_weapons_pack_36382_0.jpg?1787515034"
+               data-gm-gallery="gm-gallery-36382"
                data-gm-index="0"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36372"
+               data-ipslightbox-group="gm-gallery-36382"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_0.jpg?1787239164" alt="GameMaps media 1" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_2_weapons_pack_36382_0.jpg?1787515034" alt="GameMaps media 1" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_1.jpg?1787239164"
-               data-gm-gallery="gm-gallery-36372"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_2_weapons_pack_36382_1.jpg?1787515035"
+               data-gm-gallery="gm-gallery-36382"
                data-gm-index="1"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36372"
+               data-ipslightbox-group="gm-gallery-36382"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_1.jpg?1787239164" alt="GameMaps media 2" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_2_weapons_pack_36382_1.jpg?1787515035" alt="GameMaps media 2" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_2.jpg?1787239164"
-               data-gm-gallery="gm-gallery-36372"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_2_weapons_pack_36382_2.jpg?1787515035"
+               data-gm-gallery="gm-gallery-36382"
                data-gm-index="2"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36372"
+               data-ipslightbox-group="gm-gallery-36382"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_2.jpg?1787239164" alt="GameMaps media 3" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_3.jpg?1787239164"
-               data-gm-gallery="gm-gallery-36372"
-               data-gm-index="3"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36372"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_3.jpg?1787239164" alt="GameMaps media 4" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_4.jpg?1787239164"
-               data-gm-gallery="gm-gallery-36372"
-               data-gm-index="4"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36372"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_4.jpg?1787239164" alt="GameMaps media 5" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_5.jpg?1787239164"
-               data-gm-gallery="gm-gallery-36372"
-               data-gm-index="5"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36372"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_5.jpg?1787239164" alt="GameMaps media 6" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_6.jpg?1787239164"
-               data-gm-gallery="gm-gallery-36372"
-               data-gm-index="6"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36372"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/_fn__rearousal__chiku__rochelle__36372_6.jpg?1787239164" alt="GameMaps media 7" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/world_war_2_weapons_pack_36382_2.jpg?1787515035" alt="GameMaps media 3" loading="lazy">
             </a>
             
             </div>
         </div>
     </div>
 
-    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36372" hidden>
+    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36382" hidden>
         <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
         <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
         <img class="gmLightboxImage" src="" alt="">
         <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
-        <div class="gmLightboxCounter">1 / 7</div>
+        <div class="gmLightboxCounter">1 / 3</div>
     </div>
 
     
@@ -4140,31 +2498,1863 @@ If you find problems in the mod, feel free to tell me about them in the comments
     </script>
     
     
-    <div class="gm-description-text">&quot;Welcome to Fazclaire&#x27;s!
-
-You&#x27;ve found the social hall! Too much dancing? Here you can either stuff your face at Chiku&#x27;s (With our hilarious robotic assistant!) or throw a pint down with Fexa at her Yarrbarr if you have the guts!
-
-Fazclaire ENT is not liable for missing person or death. Adults only. Please drink and party responsibly.&quot;
-
-I’d like to clarify that I did not create the mod and the model port myself. The model port and the VGUI icons (Lobby, Panel, and Incap) were created by another person who preferred to remain anonymous. This was a commissioned mod, which he kindly helped with the port of the model and the creation of the icons for said commission, also he gave me permission to upload the mod to the Steam Workshop so it can be shared with everyone. I want to give him my sincere thanks for his work.
-
-Also, in case you wonder what&#x27;s up with the name of FN: Rearousal (Fazclaire&#x27;s Nightclub: The Rearousal), It&#x27;s the official name that CryptiaCurves gave for the redesigned version of her Fazclaire&#x27;s Nightclub models.
-
-Features:
-- World Model
-- FP Arms
-- Facial Flexes
-- Jiggle Bones
-- Bile Texture
-- Custom HUD
-- Custom Attachments
-
-Original model by: CryptiaCurves
-You can buy the models at cryptiacurves.itch.io
-
-If you find problems in the mod, feel free to tell me about them in the comments.</div>
+    <div class="gm-description-text">Left 4 Dead 2 World War 2 Weapons Pack Added BAR 1918A2 50-round anti-aircraft (AA) magazine</div>
     ]]></content:encoded>
-      <pubDate>Thu, 20 Aug 2026 15:20:10 +0000</pubDate>
+      <pubDate>Mon, 24 Aug 2026 19:25:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>[ 5 Maps ] Lima Infection Legacy</title>
+      <link>https://www.gamemaps.com/details/36284</link>
+      <guid>https://www.gamemaps.com/details/36284</guid>
+      <description><![CDATA[
+    
+    <style>
+        .gmLightboxOpen {
+            overflow: hidden;
+        }
+
+        .gm-actions {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin: 0 0 12px 0;
+        }
+
+        .gm-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 38px;
+            padding: 8px 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .gm-btn-article {
+            background: #1d9f61;
+        }
+
+        .gm-btn-steam {
+            background: #1d5fb5;
+        }
+
+        .gm-media-label {
+            margin: 6px 0 8px 0;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: .2px;
+        }
+
+        .cleanSpoilerGallery {
+            margin: 14px 0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header {
+            padding: 11px 14px;
+            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
+            border: 1px solid rgba(255,255,255,.08);
+            border-bottom: 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header span {
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .2px;
+            color: #e8e8e8;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_contents {
+            padding: 12px;
+            background: rgba(255,255,255,.035);
+            border: 1px solid rgba(255,255,255,.08);
+            border-radius: 0 0 10px 10px;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryGrid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: flex-start;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem {
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 8px;
+            background: #111;
+            border: 1px solid rgba(255,255,255,.07);
+            width: 188px;
+            text-decoration: none;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem img {
+            width: 100%;
+            height: 112px;
+            object-fit: cover;
+            display: block;
+            border-radius: 8px;
+            transition: transform .25s ease, filter .25s ease;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
+            transform: scale(1.025);
+            filter: brightness(1.06);
+        }
+
+        .gm-description-text {
+            white-space: pre-wrap;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        .gm-description-text a {
+            color: #1d5fb5;
+            text-decoration: underline;
+        }
+
+        .gm-description-text a.gm-inline-steam {
+            display: inline-block;
+            margin-top: 6px;
+            padding: 3px 8px;
+            border-radius: 6px;
+            border: 1px solid #1d5fb5;
+            text-decoration: none;
+        }
+
+        .gmLightbox {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, .86);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 2147483640;
+            padding: 20px;
+        }
+
+        .gmLightbox.is-open {
+            display: flex;
+        }
+
+        .gmLightboxImage {
+            max-width: min(92vw, 1500px);
+            max-height: 84vh;
+            border-radius: 8px;
+            object-fit: contain;
+            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
+        }
+
+        .gmLightboxBtn {
+            position: fixed;
+            border: 0;
+            background: rgba(22, 22, 22, .75);
+            color: #fff;
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 22px;
+            line-height: 1;
+            padding: 10px 12px;
+        }
+
+        .gmLightboxClose {
+            top: 16px;
+            right: 16px;
+            font-size: 28px;
+            padding: 8px 12px;
+        }
+
+        .gmLightboxPrev {
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxNext {
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxCounter {
+            position: fixed;
+            bottom: 16px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            background: rgba(18, 18, 18, .72);
+            border-radius: 999px;
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        @media (max-width: 640px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: calc(50% - 5px);
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 105px;
+            }
+
+            .gm-btn {
+                width: 100%;
+            }
+
+            .gmLightboxPrev,
+            .gmLightboxNext {
+                font-size: 18px;
+                padding: 8px 10px;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: 100%;
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 150px;
+            }
+        }
+    </style>
+    
+    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36284" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
+    
+    <div class="gm-media-label">Media</div>
+    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
+        <div class="ipsSpoiler_header">
+            <span>Media gallery</span>
+        </div>
+        <div class="ipsSpoiler_contents ipsClearfix">
+            <div class="spoilerGalleryGrid">
+                
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_0.jpg?1785279143"
+               data-gm-gallery="gm-gallery-36284"
+               data-gm-index="0"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36284"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_0.jpg?1785279143" alt="GameMaps media 1" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_1.jpg?1785279143"
+               data-gm-gallery="gm-gallery-36284"
+               data-gm-index="1"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36284"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_1.jpg?1785279143" alt="GameMaps media 2" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_2.jpg?1785279143"
+               data-gm-gallery="gm-gallery-36284"
+               data-gm-index="2"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36284"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_2.jpg?1785279143" alt="GameMaps media 3" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_3.jpg?1785279143"
+               data-gm-gallery="gm-gallery-36284"
+               data-gm-index="3"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36284"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_3.jpg?1785279143" alt="GameMaps media 4" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_4.jpg?1785279143"
+               data-gm-gallery="gm-gallery-36284"
+               data-gm-index="4"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36284"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_4.jpg?1785279143" alt="GameMaps media 5" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_5.jpg?1785279143"
+               data-gm-gallery="gm-gallery-36284"
+               data-gm-index="5"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36284"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_5.jpg?1785279143" alt="GameMaps media 6" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_6.jpg?1785279143"
+               data-gm-gallery="gm-gallery-36284"
+               data-gm-index="6"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36284"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_6.jpg?1785279143" alt="GameMaps media 7" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_7.jpg?1785279143"
+               data-gm-gallery="gm-gallery-36284"
+               data-gm-index="7"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36284"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_7.jpg?1785279143" alt="GameMaps media 8" loading="lazy">
+            </a>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36284" hidden>
+        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
+        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
+        <img class="gmLightboxImage" src="" alt="">
+        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
+        <div class="gmLightboxCounter">1 / 8</div>
+    </div>
+
+    
+    <script>
+    (function () {
+        if (window.__gmGalleryInitialized) {
+            return;
+        }
+        window.__gmGalleryInitialized = true;
+
+        function getOpenModal() {
+            return document.querySelector('.gmLightbox.is-open');
+        }
+
+        function getGalleryLinks(group) {
+            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
+            return allLinks.filter(function (link) {
+                return link.getAttribute('data-gm-gallery') === group;
+            });
+        }
+
+        function closeModal(modal) {
+            if (!modal) {
+                return;
+            }
+            modal.classList.remove('is-open');
+            modal.setAttribute('hidden', 'hidden');
+            var image = modal.querySelector('.gmLightboxImage');
+            if (image) {
+                image.removeAttribute('src');
+            }
+            document.documentElement.classList.remove('gmLightboxOpen');
+        }
+
+        function renderModal(modal) {
+            var links = modal.__gmLinks || [];
+            if (!links.length) {
+                return;
+            }
+
+            var index = modal.__gmIndex || 0;
+            if (index < 0) {
+                index = links.length - 1;
+            }
+            if (index >= links.length) {
+                index = 0;
+            }
+
+            modal.__gmIndex = index;
+            var activeLink = links[index];
+            var image = modal.querySelector('.gmLightboxImage');
+            var thumb = activeLink.querySelector('img');
+            var counter = modal.querySelector('.gmLightboxCounter');
+
+            if (image) {
+                image.setAttribute('src', activeLink.getAttribute('href'));
+                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
+            }
+
+            if (counter) {
+                counter.textContent = (index + 1) + ' / ' + links.length;
+            }
+        }
+
+        function openModal(modal, links, startIndex) {
+            if (!modal || !links.length) {
+                return;
+            }
+            modal.__gmLinks = links;
+            modal.__gmIndex = startIndex;
+            renderModal(modal);
+            modal.removeAttribute('hidden');
+            modal.classList.add('is-open');
+            document.documentElement.classList.add('gmLightboxOpen');
+        }
+
+        function stepModal(modal, delta) {
+            if (!modal) {
+                return;
+            }
+            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
+            renderModal(modal);
+        }
+
+        document.addEventListener('click', function (event) {
+            var galleryItem = event.target.closest('a[data-gm-gallery]');
+            if (galleryItem) {
+                var group = galleryItem.getAttribute('data-gm-gallery');
+                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
+                var links = getGalleryLinks(group);
+                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
+                if (modal && links.length) {
+                    event.preventDefault();
+                    openModal(modal, links, startIndex);
+                }
+                return;
+            }
+
+            var closeButton = event.target.closest('.gmLightboxClose');
+            if (closeButton) {
+                closeModal(closeButton.closest('.gmLightbox'));
+                return;
+            }
+
+            var prevButton = event.target.closest('.gmLightboxPrev');
+            if (prevButton) {
+                stepModal(prevButton.closest('.gmLightbox'), -1);
+                return;
+            }
+
+            var nextButton = event.target.closest('.gmLightboxNext');
+            if (nextButton) {
+                stepModal(nextButton.closest('.gmLightbox'), 1);
+                return;
+            }
+
+            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
+            if (openModalElement) {
+                closeModal(openModalElement);
+            }
+        });
+
+        document.addEventListener('keydown', function (event) {
+            var modal = getOpenModal();
+            if (!modal) {
+                return;
+            }
+
+            if (event.key === 'Escape') {
+                closeModal(modal);
+            } else if (event.key === 'ArrowLeft') {
+                stepModal(modal, -1);
+            } else if (event.key === 'ArrowRight') {
+                stepModal(modal, 1);
+            }
+        });
+    })();
+    </script>
+    
+    
+    <div class="gm-description-text">Description
+
+Lima Infection is a custom campaign for Left 4 Dead 2 set in a post-apocalyptic version of Lima, Peru.
+
+Explore streets, parks, shopping centers, and iconic locations of the capital city while fighting through relentless infected hordes and discovering a story inspired by Peruvian culture.
+
+This is the Legacy version of Lima Infection, originally released in 2025. It is being uploaded separately from the Steam Workshop release for players who wish to preserve and play the original version of the campaign.
+
+Additional Contributors
+
+Roku — Level design.
+Cesar Mallqui — Writing and reference photography.
+Johan Yuffre — Marketing and visual design.
+Diir.lain — 3D art.
+Auralis — Music.
+Nothara — Music.
+Benjamin Guillen — Music.
+Leydi Butron — Voice acting.
+Franco Arrieta — Voice acting.
+Diego Paucar — Voice acting.
+Carlos Jara (Charlie Leng) — Voice acting.
+Follow Games — Testing and bug fixing.
+Chaos Kansei — Testing and bug fixing.
+Jean Carlos Luna — Testing and bug fixing.
+SrLobito — Testing and bug fixing.
+inflencr.pe — Special thanks.
+Diego Castañeda — Special thanks.
+
+Compatibility
+
+This campaign may conflict with other map or visual addons that modify the same resources. Disable conflicting addons before playing.
+
+Usage and Permissions
+
+Redistribution, modification, extraction, or use of this content in other projects is not permitted without prior authorization from its authors.
+
+Copyright
+
+© 2026 Amauta Collective. Original resources created for this project belong to their respective authors and contributors.
+
+Left 4 Dead 2 and its related characters and trademarks belong to Valve Corporation. This is an unofficial community-created project and is not affiliated with or endorsed by Valve.</div>
+    ]]></description>
+      <content:encoded><![CDATA[
+    
+    <style>
+        .gmLightboxOpen {
+            overflow: hidden;
+        }
+
+        .gm-actions {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin: 0 0 12px 0;
+        }
+
+        .gm-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 38px;
+            padding: 8px 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .gm-btn-article {
+            background: #1d9f61;
+        }
+
+        .gm-btn-steam {
+            background: #1d5fb5;
+        }
+
+        .gm-media-label {
+            margin: 6px 0 8px 0;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: .2px;
+        }
+
+        .cleanSpoilerGallery {
+            margin: 14px 0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header {
+            padding: 11px 14px;
+            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
+            border: 1px solid rgba(255,255,255,.08);
+            border-bottom: 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header span {
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .2px;
+            color: #e8e8e8;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_contents {
+            padding: 12px;
+            background: rgba(255,255,255,.035);
+            border: 1px solid rgba(255,255,255,.08);
+            border-radius: 0 0 10px 10px;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryGrid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: flex-start;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem {
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 8px;
+            background: #111;
+            border: 1px solid rgba(255,255,255,.07);
+            width: 188px;
+            text-decoration: none;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem img {
+            width: 100%;
+            height: 112px;
+            object-fit: cover;
+            display: block;
+            border-radius: 8px;
+            transition: transform .25s ease, filter .25s ease;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
+            transform: scale(1.025);
+            filter: brightness(1.06);
+        }
+
+        .gm-description-text {
+            white-space: pre-wrap;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        .gm-description-text a {
+            color: #1d5fb5;
+            text-decoration: underline;
+        }
+
+        .gm-description-text a.gm-inline-steam {
+            display: inline-block;
+            margin-top: 6px;
+            padding: 3px 8px;
+            border-radius: 6px;
+            border: 1px solid #1d5fb5;
+            text-decoration: none;
+        }
+
+        .gmLightbox {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, .86);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 2147483640;
+            padding: 20px;
+        }
+
+        .gmLightbox.is-open {
+            display: flex;
+        }
+
+        .gmLightboxImage {
+            max-width: min(92vw, 1500px);
+            max-height: 84vh;
+            border-radius: 8px;
+            object-fit: contain;
+            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
+        }
+
+        .gmLightboxBtn {
+            position: fixed;
+            border: 0;
+            background: rgba(22, 22, 22, .75);
+            color: #fff;
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 22px;
+            line-height: 1;
+            padding: 10px 12px;
+        }
+
+        .gmLightboxClose {
+            top: 16px;
+            right: 16px;
+            font-size: 28px;
+            padding: 8px 12px;
+        }
+
+        .gmLightboxPrev {
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxNext {
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxCounter {
+            position: fixed;
+            bottom: 16px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            background: rgba(18, 18, 18, .72);
+            border-radius: 999px;
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        @media (max-width: 640px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: calc(50% - 5px);
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 105px;
+            }
+
+            .gm-btn {
+                width: 100%;
+            }
+
+            .gmLightboxPrev,
+            .gmLightboxNext {
+                font-size: 18px;
+                padding: 8px 10px;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: 100%;
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 150px;
+            }
+        }
+    </style>
+    
+    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36284" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
+    
+    <div class="gm-media-label">Media</div>
+    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
+        <div class="ipsSpoiler_header">
+            <span>Media gallery</span>
+        </div>
+        <div class="ipsSpoiler_contents ipsClearfix">
+            <div class="spoilerGalleryGrid">
+                
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_0.jpg?1785279143"
+               data-gm-gallery="gm-gallery-36284"
+               data-gm-index="0"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36284"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_0.jpg?1785279143" alt="GameMaps media 1" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_1.jpg?1785279143"
+               data-gm-gallery="gm-gallery-36284"
+               data-gm-index="1"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36284"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_1.jpg?1785279143" alt="GameMaps media 2" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_2.jpg?1785279143"
+               data-gm-gallery="gm-gallery-36284"
+               data-gm-index="2"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36284"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_2.jpg?1785279143" alt="GameMaps media 3" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_3.jpg?1785279143"
+               data-gm-gallery="gm-gallery-36284"
+               data-gm-index="3"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36284"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_3.jpg?1785279143" alt="GameMaps media 4" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_4.jpg?1785279143"
+               data-gm-gallery="gm-gallery-36284"
+               data-gm-index="4"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36284"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_4.jpg?1785279143" alt="GameMaps media 5" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_5.jpg?1785279143"
+               data-gm-gallery="gm-gallery-36284"
+               data-gm-index="5"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36284"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_5.jpg?1785279143" alt="GameMaps media 6" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_6.jpg?1785279143"
+               data-gm-gallery="gm-gallery-36284"
+               data-gm-index="6"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36284"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_6.jpg?1785279143" alt="GameMaps media 7" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_7.jpg?1785279143"
+               data-gm-gallery="gm-gallery-36284"
+               data-gm-index="7"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36284"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lima_infection_legacy_36284_7.jpg?1785279143" alt="GameMaps media 8" loading="lazy">
+            </a>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36284" hidden>
+        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
+        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
+        <img class="gmLightboxImage" src="" alt="">
+        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
+        <div class="gmLightboxCounter">1 / 8</div>
+    </div>
+
+    
+    <script>
+    (function () {
+        if (window.__gmGalleryInitialized) {
+            return;
+        }
+        window.__gmGalleryInitialized = true;
+
+        function getOpenModal() {
+            return document.querySelector('.gmLightbox.is-open');
+        }
+
+        function getGalleryLinks(group) {
+            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
+            return allLinks.filter(function (link) {
+                return link.getAttribute('data-gm-gallery') === group;
+            });
+        }
+
+        function closeModal(modal) {
+            if (!modal) {
+                return;
+            }
+            modal.classList.remove('is-open');
+            modal.setAttribute('hidden', 'hidden');
+            var image = modal.querySelector('.gmLightboxImage');
+            if (image) {
+                image.removeAttribute('src');
+            }
+            document.documentElement.classList.remove('gmLightboxOpen');
+        }
+
+        function renderModal(modal) {
+            var links = modal.__gmLinks || [];
+            if (!links.length) {
+                return;
+            }
+
+            var index = modal.__gmIndex || 0;
+            if (index < 0) {
+                index = links.length - 1;
+            }
+            if (index >= links.length) {
+                index = 0;
+            }
+
+            modal.__gmIndex = index;
+            var activeLink = links[index];
+            var image = modal.querySelector('.gmLightboxImage');
+            var thumb = activeLink.querySelector('img');
+            var counter = modal.querySelector('.gmLightboxCounter');
+
+            if (image) {
+                image.setAttribute('src', activeLink.getAttribute('href'));
+                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
+            }
+
+            if (counter) {
+                counter.textContent = (index + 1) + ' / ' + links.length;
+            }
+        }
+
+        function openModal(modal, links, startIndex) {
+            if (!modal || !links.length) {
+                return;
+            }
+            modal.__gmLinks = links;
+            modal.__gmIndex = startIndex;
+            renderModal(modal);
+            modal.removeAttribute('hidden');
+            modal.classList.add('is-open');
+            document.documentElement.classList.add('gmLightboxOpen');
+        }
+
+        function stepModal(modal, delta) {
+            if (!modal) {
+                return;
+            }
+            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
+            renderModal(modal);
+        }
+
+        document.addEventListener('click', function (event) {
+            var galleryItem = event.target.closest('a[data-gm-gallery]');
+            if (galleryItem) {
+                var group = galleryItem.getAttribute('data-gm-gallery');
+                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
+                var links = getGalleryLinks(group);
+                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
+                if (modal && links.length) {
+                    event.preventDefault();
+                    openModal(modal, links, startIndex);
+                }
+                return;
+            }
+
+            var closeButton = event.target.closest('.gmLightboxClose');
+            if (closeButton) {
+                closeModal(closeButton.closest('.gmLightbox'));
+                return;
+            }
+
+            var prevButton = event.target.closest('.gmLightboxPrev');
+            if (prevButton) {
+                stepModal(prevButton.closest('.gmLightbox'), -1);
+                return;
+            }
+
+            var nextButton = event.target.closest('.gmLightboxNext');
+            if (nextButton) {
+                stepModal(nextButton.closest('.gmLightbox'), 1);
+                return;
+            }
+
+            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
+            if (openModalElement) {
+                closeModal(openModalElement);
+            }
+        });
+
+        document.addEventListener('keydown', function (event) {
+            var modal = getOpenModal();
+            if (!modal) {
+                return;
+            }
+
+            if (event.key === 'Escape') {
+                closeModal(modal);
+            } else if (event.key === 'ArrowLeft') {
+                stepModal(modal, -1);
+            } else if (event.key === 'ArrowRight') {
+                stepModal(modal, 1);
+            }
+        });
+    })();
+    </script>
+    
+    
+    <div class="gm-description-text">Description
+
+Lima Infection is a custom campaign for Left 4 Dead 2 set in a post-apocalyptic version of Lima, Peru.
+
+Explore streets, parks, shopping centers, and iconic locations of the capital city while fighting through relentless infected hordes and discovering a story inspired by Peruvian culture.
+
+This is the Legacy version of Lima Infection, originally released in 2025. It is being uploaded separately from the Steam Workshop release for players who wish to preserve and play the original version of the campaign.
+
+Additional Contributors
+
+Roku — Level design.
+Cesar Mallqui — Writing and reference photography.
+Johan Yuffre — Marketing and visual design.
+Diir.lain — 3D art.
+Auralis — Music.
+Nothara — Music.
+Benjamin Guillen — Music.
+Leydi Butron — Voice acting.
+Franco Arrieta — Voice acting.
+Diego Paucar — Voice acting.
+Carlos Jara (Charlie Leng) — Voice acting.
+Follow Games — Testing and bug fixing.
+Chaos Kansei — Testing and bug fixing.
+Jean Carlos Luna — Testing and bug fixing.
+SrLobito — Testing and bug fixing.
+inflencr.pe — Special thanks.
+Diego Castañeda — Special thanks.
+
+Compatibility
+
+This campaign may conflict with other map or visual addons that modify the same resources. Disable conflicting addons before playing.
+
+Usage and Permissions
+
+Redistribution, modification, extraction, or use of this content in other projects is not permitted without prior authorization from its authors.
+
+Copyright
+
+© 2026 Amauta Collective. Original resources created for this project belong to their respective authors and contributors.
+
+Left 4 Dead 2 and its related characters and trademarks belong to Valve Corporation. This is an unofficial community-created project and is not affiliated with or endorsed by Valve.</div>
+    ]]></content:encoded>
+      <pubDate>Mon, 24 Aug 2026 19:02:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>[ Mod ] Cold War Weapons Pack</title>
+      <link>https://www.gamemaps.com/details/36383</link>
+      <guid>https://www.gamemaps.com/details/36383</guid>
+      <description><![CDATA[
+    
+    <style>
+        .gmLightboxOpen {
+            overflow: hidden;
+        }
+
+        .gm-actions {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin: 0 0 12px 0;
+        }
+
+        .gm-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 38px;
+            padding: 8px 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .gm-btn-article {
+            background: #1d9f61;
+        }
+
+        .gm-btn-steam {
+            background: #1d5fb5;
+        }
+
+        .gm-media-label {
+            margin: 6px 0 8px 0;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: .2px;
+        }
+
+        .cleanSpoilerGallery {
+            margin: 14px 0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header {
+            padding: 11px 14px;
+            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
+            border: 1px solid rgba(255,255,255,.08);
+            border-bottom: 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header span {
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .2px;
+            color: #e8e8e8;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_contents {
+            padding: 12px;
+            background: rgba(255,255,255,.035);
+            border: 1px solid rgba(255,255,255,.08);
+            border-radius: 0 0 10px 10px;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryGrid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: flex-start;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem {
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 8px;
+            background: #111;
+            border: 1px solid rgba(255,255,255,.07);
+            width: 188px;
+            text-decoration: none;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem img {
+            width: 100%;
+            height: 112px;
+            object-fit: cover;
+            display: block;
+            border-radius: 8px;
+            transition: transform .25s ease, filter .25s ease;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
+            transform: scale(1.025);
+            filter: brightness(1.06);
+        }
+
+        .gm-description-text {
+            white-space: pre-wrap;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        .gm-description-text a {
+            color: #1d5fb5;
+            text-decoration: underline;
+        }
+
+        .gm-description-text a.gm-inline-steam {
+            display: inline-block;
+            margin-top: 6px;
+            padding: 3px 8px;
+            border-radius: 6px;
+            border: 1px solid #1d5fb5;
+            text-decoration: none;
+        }
+
+        .gmLightbox {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, .86);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 2147483640;
+            padding: 20px;
+        }
+
+        .gmLightbox.is-open {
+            display: flex;
+        }
+
+        .gmLightboxImage {
+            max-width: min(92vw, 1500px);
+            max-height: 84vh;
+            border-radius: 8px;
+            object-fit: contain;
+            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
+        }
+
+        .gmLightboxBtn {
+            position: fixed;
+            border: 0;
+            background: rgba(22, 22, 22, .75);
+            color: #fff;
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 22px;
+            line-height: 1;
+            padding: 10px 12px;
+        }
+
+        .gmLightboxClose {
+            top: 16px;
+            right: 16px;
+            font-size: 28px;
+            padding: 8px 12px;
+        }
+
+        .gmLightboxPrev {
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxNext {
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxCounter {
+            position: fixed;
+            bottom: 16px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            background: rgba(18, 18, 18, .72);
+            border-radius: 999px;
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        @media (max-width: 640px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: calc(50% - 5px);
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 105px;
+            }
+
+            .gm-btn {
+                width: 100%;
+            }
+
+            .gmLightboxPrev,
+            .gmLightboxNext {
+                font-size: 18px;
+                padding: 8px 10px;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: 100%;
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 150px;
+            }
+        }
+    </style>
+    
+    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36383" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
+    
+    <div class="gm-media-label">Media</div>
+    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
+        <div class="ipsSpoiler_header">
+            <span>Media gallery</span>
+        </div>
+        <div class="ipsSpoiler_contents ipsClearfix">
+            <div class="spoilerGalleryGrid">
+                
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/cold_war_weapons_pack_36383_0.jpg?1787517875"
+               data-gm-gallery="gm-gallery-36383"
+               data-gm-index="0"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36383"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/cold_war_weapons_pack_36383_0.jpg?1787517875" alt="GameMaps media 1" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/cold_war_weapons_pack_36383_1.jpg?1787517875"
+               data-gm-gallery="gm-gallery-36383"
+               data-gm-index="1"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36383"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/cold_war_weapons_pack_36383_1.jpg?1787517875" alt="GameMaps media 2" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/cold_war_weapons_pack_36383_2.jpg?1787517875"
+               data-gm-gallery="gm-gallery-36383"
+               data-gm-index="2"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36383"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/cold_war_weapons_pack_36383_2.jpg?1787517875" alt="GameMaps media 3" loading="lazy">
+            </a>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36383" hidden>
+        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
+        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
+        <img class="gmLightboxImage" src="" alt="">
+        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
+        <div class="gmLightboxCounter">1 / 3</div>
+    </div>
+
+    
+    <script>
+    (function () {
+        if (window.__gmGalleryInitialized) {
+            return;
+        }
+        window.__gmGalleryInitialized = true;
+
+        function getOpenModal() {
+            return document.querySelector('.gmLightbox.is-open');
+        }
+
+        function getGalleryLinks(group) {
+            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
+            return allLinks.filter(function (link) {
+                return link.getAttribute('data-gm-gallery') === group;
+            });
+        }
+
+        function closeModal(modal) {
+            if (!modal) {
+                return;
+            }
+            modal.classList.remove('is-open');
+            modal.setAttribute('hidden', 'hidden');
+            var image = modal.querySelector('.gmLightboxImage');
+            if (image) {
+                image.removeAttribute('src');
+            }
+            document.documentElement.classList.remove('gmLightboxOpen');
+        }
+
+        function renderModal(modal) {
+            var links = modal.__gmLinks || [];
+            if (!links.length) {
+                return;
+            }
+
+            var index = modal.__gmIndex || 0;
+            if (index < 0) {
+                index = links.length - 1;
+            }
+            if (index >= links.length) {
+                index = 0;
+            }
+
+            modal.__gmIndex = index;
+            var activeLink = links[index];
+            var image = modal.querySelector('.gmLightboxImage');
+            var thumb = activeLink.querySelector('img');
+            var counter = modal.querySelector('.gmLightboxCounter');
+
+            if (image) {
+                image.setAttribute('src', activeLink.getAttribute('href'));
+                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
+            }
+
+            if (counter) {
+                counter.textContent = (index + 1) + ' / ' + links.length;
+            }
+        }
+
+        function openModal(modal, links, startIndex) {
+            if (!modal || !links.length) {
+                return;
+            }
+            modal.__gmLinks = links;
+            modal.__gmIndex = startIndex;
+            renderModal(modal);
+            modal.removeAttribute('hidden');
+            modal.classList.add('is-open');
+            document.documentElement.classList.add('gmLightboxOpen');
+        }
+
+        function stepModal(modal, delta) {
+            if (!modal) {
+                return;
+            }
+            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
+            renderModal(modal);
+        }
+
+        document.addEventListener('click', function (event) {
+            var galleryItem = event.target.closest('a[data-gm-gallery]');
+            if (galleryItem) {
+                var group = galleryItem.getAttribute('data-gm-gallery');
+                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
+                var links = getGalleryLinks(group);
+                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
+                if (modal && links.length) {
+                    event.preventDefault();
+                    openModal(modal, links, startIndex);
+                }
+                return;
+            }
+
+            var closeButton = event.target.closest('.gmLightboxClose');
+            if (closeButton) {
+                closeModal(closeButton.closest('.gmLightbox'));
+                return;
+            }
+
+            var prevButton = event.target.closest('.gmLightboxPrev');
+            if (prevButton) {
+                stepModal(prevButton.closest('.gmLightbox'), -1);
+                return;
+            }
+
+            var nextButton = event.target.closest('.gmLightboxNext');
+            if (nextButton) {
+                stepModal(nextButton.closest('.gmLightbox'), 1);
+                return;
+            }
+
+            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
+            if (openModalElement) {
+                closeModal(openModalElement);
+            }
+        });
+
+        document.addEventListener('keydown', function (event) {
+            var modal = getOpenModal();
+            if (!modal) {
+                return;
+            }
+
+            if (event.key === 'Escape') {
+                closeModal(modal);
+            } else if (event.key === 'ArrowLeft') {
+                stepModal(modal, -1);
+            } else if (event.key === 'ArrowRight') {
+                stepModal(modal, 1);
+            }
+        });
+    })();
+    </script>
+    
+    
+    <div class="gm-description-text">Left 4 Dead 2 Cold War Weapons Pack Added Colt M-605B</div>
+    ]]></description>
+      <content:encoded><![CDATA[
+    
+    <style>
+        .gmLightboxOpen {
+            overflow: hidden;
+        }
+
+        .gm-actions {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin: 0 0 12px 0;
+        }
+
+        .gm-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 38px;
+            padding: 8px 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .gm-btn-article {
+            background: #1d9f61;
+        }
+
+        .gm-btn-steam {
+            background: #1d5fb5;
+        }
+
+        .gm-media-label {
+            margin: 6px 0 8px 0;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: .2px;
+        }
+
+        .cleanSpoilerGallery {
+            margin: 14px 0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header {
+            padding: 11px 14px;
+            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
+            border: 1px solid rgba(255,255,255,.08);
+            border-bottom: 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header span {
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .2px;
+            color: #e8e8e8;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_contents {
+            padding: 12px;
+            background: rgba(255,255,255,.035);
+            border: 1px solid rgba(255,255,255,.08);
+            border-radius: 0 0 10px 10px;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryGrid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: flex-start;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem {
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 8px;
+            background: #111;
+            border: 1px solid rgba(255,255,255,.07);
+            width: 188px;
+            text-decoration: none;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem img {
+            width: 100%;
+            height: 112px;
+            object-fit: cover;
+            display: block;
+            border-radius: 8px;
+            transition: transform .25s ease, filter .25s ease;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
+            transform: scale(1.025);
+            filter: brightness(1.06);
+        }
+
+        .gm-description-text {
+            white-space: pre-wrap;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        .gm-description-text a {
+            color: #1d5fb5;
+            text-decoration: underline;
+        }
+
+        .gm-description-text a.gm-inline-steam {
+            display: inline-block;
+            margin-top: 6px;
+            padding: 3px 8px;
+            border-radius: 6px;
+            border: 1px solid #1d5fb5;
+            text-decoration: none;
+        }
+
+        .gmLightbox {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, .86);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 2147483640;
+            padding: 20px;
+        }
+
+        .gmLightbox.is-open {
+            display: flex;
+        }
+
+        .gmLightboxImage {
+            max-width: min(92vw, 1500px);
+            max-height: 84vh;
+            border-radius: 8px;
+            object-fit: contain;
+            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
+        }
+
+        .gmLightboxBtn {
+            position: fixed;
+            border: 0;
+            background: rgba(22, 22, 22, .75);
+            color: #fff;
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 22px;
+            line-height: 1;
+            padding: 10px 12px;
+        }
+
+        .gmLightboxClose {
+            top: 16px;
+            right: 16px;
+            font-size: 28px;
+            padding: 8px 12px;
+        }
+
+        .gmLightboxPrev {
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxNext {
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxCounter {
+            position: fixed;
+            bottom: 16px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            background: rgba(18, 18, 18, .72);
+            border-radius: 999px;
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        @media (max-width: 640px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: calc(50% - 5px);
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 105px;
+            }
+
+            .gm-btn {
+                width: 100%;
+            }
+
+            .gmLightboxPrev,
+            .gmLightboxNext {
+                font-size: 18px;
+                padding: 8px 10px;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: 100%;
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 150px;
+            }
+        }
+    </style>
+    
+    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36383" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
+    
+    <div class="gm-media-label">Media</div>
+    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
+        <div class="ipsSpoiler_header">
+            <span>Media gallery</span>
+        </div>
+        <div class="ipsSpoiler_contents ipsClearfix">
+            <div class="spoilerGalleryGrid">
+                
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/cold_war_weapons_pack_36383_0.jpg?1787517875"
+               data-gm-gallery="gm-gallery-36383"
+               data-gm-index="0"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36383"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/cold_war_weapons_pack_36383_0.jpg?1787517875" alt="GameMaps media 1" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/cold_war_weapons_pack_36383_1.jpg?1787517875"
+               data-gm-gallery="gm-gallery-36383"
+               data-gm-index="1"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36383"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/cold_war_weapons_pack_36383_1.jpg?1787517875" alt="GameMaps media 2" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/cold_war_weapons_pack_36383_2.jpg?1787517875"
+               data-gm-gallery="gm-gallery-36383"
+               data-gm-index="2"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36383"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/cold_war_weapons_pack_36383_2.jpg?1787517875" alt="GameMaps media 3" loading="lazy">
+            </a>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36383" hidden>
+        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
+        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
+        <img class="gmLightboxImage" src="" alt="">
+        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
+        <div class="gmLightboxCounter">1 / 3</div>
+    </div>
+
+    
+    <script>
+    (function () {
+        if (window.__gmGalleryInitialized) {
+            return;
+        }
+        window.__gmGalleryInitialized = true;
+
+        function getOpenModal() {
+            return document.querySelector('.gmLightbox.is-open');
+        }
+
+        function getGalleryLinks(group) {
+            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
+            return allLinks.filter(function (link) {
+                return link.getAttribute('data-gm-gallery') === group;
+            });
+        }
+
+        function closeModal(modal) {
+            if (!modal) {
+                return;
+            }
+            modal.classList.remove('is-open');
+            modal.setAttribute('hidden', 'hidden');
+            var image = modal.querySelector('.gmLightboxImage');
+            if (image) {
+                image.removeAttribute('src');
+            }
+            document.documentElement.classList.remove('gmLightboxOpen');
+        }
+
+        function renderModal(modal) {
+            var links = modal.__gmLinks || [];
+            if (!links.length) {
+                return;
+            }
+
+            var index = modal.__gmIndex || 0;
+            if (index < 0) {
+                index = links.length - 1;
+            }
+            if (index >= links.length) {
+                index = 0;
+            }
+
+            modal.__gmIndex = index;
+            var activeLink = links[index];
+            var image = modal.querySelector('.gmLightboxImage');
+            var thumb = activeLink.querySelector('img');
+            var counter = modal.querySelector('.gmLightboxCounter');
+
+            if (image) {
+                image.setAttribute('src', activeLink.getAttribute('href'));
+                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
+            }
+
+            if (counter) {
+                counter.textContent = (index + 1) + ' / ' + links.length;
+            }
+        }
+
+        function openModal(modal, links, startIndex) {
+            if (!modal || !links.length) {
+                return;
+            }
+            modal.__gmLinks = links;
+            modal.__gmIndex = startIndex;
+            renderModal(modal);
+            modal.removeAttribute('hidden');
+            modal.classList.add('is-open');
+            document.documentElement.classList.add('gmLightboxOpen');
+        }
+
+        function stepModal(modal, delta) {
+            if (!modal) {
+                return;
+            }
+            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
+            renderModal(modal);
+        }
+
+        document.addEventListener('click', function (event) {
+            var galleryItem = event.target.closest('a[data-gm-gallery]');
+            if (galleryItem) {
+                var group = galleryItem.getAttribute('data-gm-gallery');
+                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
+                var links = getGalleryLinks(group);
+                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
+                if (modal && links.length) {
+                    event.preventDefault();
+                    openModal(modal, links, startIndex);
+                }
+                return;
+            }
+
+            var closeButton = event.target.closest('.gmLightboxClose');
+            if (closeButton) {
+                closeModal(closeButton.closest('.gmLightbox'));
+                return;
+            }
+
+            var prevButton = event.target.closest('.gmLightboxPrev');
+            if (prevButton) {
+                stepModal(prevButton.closest('.gmLightbox'), -1);
+                return;
+            }
+
+            var nextButton = event.target.closest('.gmLightboxNext');
+            if (nextButton) {
+                stepModal(nextButton.closest('.gmLightbox'), 1);
+                return;
+            }
+
+            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
+            if (openModalElement) {
+                closeModal(openModalElement);
+            }
+        });
+
+        document.addEventListener('keydown', function (event) {
+            var modal = getOpenModal();
+            if (!modal) {
+                return;
+            }
+
+            if (event.key === 'Escape') {
+                closeModal(modal);
+            } else if (event.key === 'ArrowLeft') {
+                stepModal(modal, -1);
+            } else if (event.key === 'ArrowRight') {
+                stepModal(modal, 1);
+            }
+        });
+    })();
+    </script>
+    
+    
+    <div class="gm-description-text">Left 4 Dead 2 Cold War Weapons Pack Added Colt M-605B</div>
+    ]]></content:encoded>
+      <pubDate>Sun, 23 Aug 2026 21:03:47 +0000</pubDate>
     </item>
   </channel>
 </rss>
