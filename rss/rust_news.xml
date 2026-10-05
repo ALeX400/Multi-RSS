@@ -5,7 +5,7 @@
     <description>RSS feed for Rust News.</description>
     <language>en-US</language>
     <generator>Multi-RSS</generator>
-    <lastBuildDate>Sat, 03 Oct 2026 00:31:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 00:37:29 +0000</lastBuildDate>
     <item>
       <title>Livestock Update</title>
       <link>https://rust.facepunch.com/news/livestock/</link>
@@ -1516,7 +1516,7 @@
           •
          </span>
          <div class="entry">
-          Armor plates on the attack heli now fall off in random order instead of being predictable
+          Armor plates on the attack heli now fall off according to the side that got shot instead of in a fixed order
          </div>
         </li>
         <li>
@@ -3667,7 +3667,7 @@
           •
          </span>
          <div class="entry">
-          Armor plates on the attack heli now fall off in random order instead of being predictable
+          Armor plates on the attack heli now fall off according to the side that got shot instead of in a fixed order
          </div>
         </li>
         <li>

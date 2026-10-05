@@ -5,11 +5,11 @@
     <description>RSS feed for GameMaps L4D2 Files.</description>
     <language>en-US</language>
     <generator>Multi-RSS</generator>
-    <lastBuildDate>Sat, 03 Oct 2026 00:31:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 00:37:35 +0000</lastBuildDate>
     <item>
-      <title>[ Mod ] Modern Warfare 4 Collection</title>
-      <link>https://www.gamemaps.com/details/36510</link>
-      <guid>https://www.gamemaps.com/details/36510</guid>
+      <title>[ Map ] The Last Bullfight</title>
+      <link>https://www.gamemaps.com/details/36598</link>
+      <guid>https://www.gamemaps.com/details/36598</guid>
       <description><![CDATA[
     
     <style>
@@ -228,7 +228,7 @@
         }
     </style>
     
-    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36510" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
+    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36598" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
     
     <div class="gm-media-label">Media</div>
     <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
@@ -239,2686 +239,98 @@
             <div class="spoilerGalleryGrid">
                 
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/modern_warfare_4_collection_36510_0.jpg?1789811179"
-               data-gm-gallery="gm-gallery-36510"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_0.jpg?1791080430"
+               data-gm-gallery="gm-gallery-36598"
                data-gm-index="0"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36510"
+               data-ipslightbox-group="gm-gallery-36598"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/modern_warfare_4_collection_36510_0.jpg?1789811179" alt="GameMaps media 1" loading="lazy">
-            </a>
-            
-            </div>
-        </div>
-    </div>
-
-    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36510" hidden>
-        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
-        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
-        <img class="gmLightboxImage" src="" alt="">
-        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
-        <div class="gmLightboxCounter">1 / 1</div>
-    </div>
-
-    
-    <script>
-    (function () {
-        if (window.__gmGalleryInitialized) {
-            return;
-        }
-        window.__gmGalleryInitialized = true;
-
-        function getOpenModal() {
-            return document.querySelector('.gmLightbox.is-open');
-        }
-
-        function getGalleryLinks(group) {
-            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
-            return allLinks.filter(function (link) {
-                return link.getAttribute('data-gm-gallery') === group;
-            });
-        }
-
-        function closeModal(modal) {
-            if (!modal) {
-                return;
-            }
-            modal.classList.remove('is-open');
-            modal.setAttribute('hidden', 'hidden');
-            var image = modal.querySelector('.gmLightboxImage');
-            if (image) {
-                image.removeAttribute('src');
-            }
-            document.documentElement.classList.remove('gmLightboxOpen');
-        }
-
-        function renderModal(modal) {
-            var links = modal.__gmLinks || [];
-            if (!links.length) {
-                return;
-            }
-
-            var index = modal.__gmIndex || 0;
-            if (index < 0) {
-                index = links.length - 1;
-            }
-            if (index >= links.length) {
-                index = 0;
-            }
-
-            modal.__gmIndex = index;
-            var activeLink = links[index];
-            var image = modal.querySelector('.gmLightboxImage');
-            var thumb = activeLink.querySelector('img');
-            var counter = modal.querySelector('.gmLightboxCounter');
-
-            if (image) {
-                image.setAttribute('src', activeLink.getAttribute('href'));
-                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
-            }
-
-            if (counter) {
-                counter.textContent = (index + 1) + ' / ' + links.length;
-            }
-        }
-
-        function openModal(modal, links, startIndex) {
-            if (!modal || !links.length) {
-                return;
-            }
-            modal.__gmLinks = links;
-            modal.__gmIndex = startIndex;
-            renderModal(modal);
-            modal.removeAttribute('hidden');
-            modal.classList.add('is-open');
-            document.documentElement.classList.add('gmLightboxOpen');
-        }
-
-        function stepModal(modal, delta) {
-            if (!modal) {
-                return;
-            }
-            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
-            renderModal(modal);
-        }
-
-        document.addEventListener('click', function (event) {
-            var galleryItem = event.target.closest('a[data-gm-gallery]');
-            if (galleryItem) {
-                var group = galleryItem.getAttribute('data-gm-gallery');
-                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
-                var links = getGalleryLinks(group);
-                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
-                if (modal && links.length) {
-                    event.preventDefault();
-                    openModal(modal, links, startIndex);
-                }
-                return;
-            }
-
-            var closeButton = event.target.closest('.gmLightboxClose');
-            if (closeButton) {
-                closeModal(closeButton.closest('.gmLightbox'));
-                return;
-            }
-
-            var prevButton = event.target.closest('.gmLightboxPrev');
-            if (prevButton) {
-                stepModal(prevButton.closest('.gmLightbox'), -1);
-                return;
-            }
-
-            var nextButton = event.target.closest('.gmLightboxNext');
-            if (nextButton) {
-                stepModal(nextButton.closest('.gmLightbox'), 1);
-                return;
-            }
-
-            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
-            if (openModalElement) {
-                closeModal(openModalElement);
-            }
-        });
-
-        document.addEventListener('keydown', function (event) {
-            var modal = getOpenModal();
-            if (!modal) {
-                return;
-            }
-
-            if (event.key === 'Escape') {
-                closeModal(modal);
-            } else if (event.key === 'ArrowLeft') {
-                stepModal(modal, -1);
-            } else if (event.key === 'ArrowRight') {
-                stepModal(modal, 1);
-            }
-        });
-    })();
-    </script>
-    
-    
-    <div class="gm-description-text">This is my own Mod Collection called &quot;Modern Warfare 4&quot;! It includes: 8 Weapons in One Pack. :) + One Bullet Reload Plugin is Required.
-
-Credit:
-
-Call of Duty - Activision</div>
-    ]]></description>
-      <content:encoded><![CDATA[
-    
-    <style>
-        .gmLightboxOpen {
-            overflow: hidden;
-        }
-
-        .gm-actions {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            margin: 0 0 12px 0;
-        }
-
-        .gm-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 38px;
-            padding: 8px 14px;
-            border-radius: 8px;
-            text-decoration: none;
-            color: #ffffff;
-            font-weight: 600;
-            font-size: 14px;
-        }
-
-        .gm-btn-article {
-            background: #1d9f61;
-        }
-
-        .gm-btn-steam {
-            background: #1d5fb5;
-        }
-
-        .gm-media-label {
-            margin: 6px 0 8px 0;
-            font-size: 14px;
-            font-weight: 600;
-            letter-spacing: .2px;
-        }
-
-        .cleanSpoilerGallery {
-            margin: 14px 0;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header {
-            padding: 11px 14px;
-            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
-            border: 1px solid rgba(255,255,255,.08);
-            border-bottom: 0;
-            border-radius: 10px 10px 0 0;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header span {
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .2px;
-            color: #e8e8e8;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_contents {
-            padding: 12px;
-            background: rgba(255,255,255,.035);
-            border: 1px solid rgba(255,255,255,.08);
-            border-radius: 0 0 10px 10px;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryGrid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            align-items: flex-start;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem {
-            display: inline-block;
-            overflow: hidden;
-            border-radius: 8px;
-            background: #111;
-            border: 1px solid rgba(255,255,255,.07);
-            width: 188px;
-            text-decoration: none;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem img {
-            width: 100%;
-            height: 112px;
-            object-fit: cover;
-            display: block;
-            border-radius: 8px;
-            transition: transform .25s ease, filter .25s ease;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
-            transform: scale(1.025);
-            filter: brightness(1.06);
-        }
-
-        .gm-description-text {
-            white-space: pre-wrap;
-            line-height: 1.6;
-            font-size: 15px;
-        }
-
-        .gm-description-text a {
-            color: #1d5fb5;
-            text-decoration: underline;
-        }
-
-        .gm-description-text a.gm-inline-steam {
-            display: inline-block;
-            margin-top: 6px;
-            padding: 3px 8px;
-            border-radius: 6px;
-            border: 1px solid #1d5fb5;
-            text-decoration: none;
-        }
-
-        .gmLightbox {
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, .86);
-            display: none;
-            align-items: center;
-            justify-content: center;
-            z-index: 2147483640;
-            padding: 20px;
-        }
-
-        .gmLightbox.is-open {
-            display: flex;
-        }
-
-        .gmLightboxImage {
-            max-width: min(92vw, 1500px);
-            max-height: 84vh;
-            border-radius: 8px;
-            object-fit: contain;
-            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
-        }
-
-        .gmLightboxBtn {
-            position: fixed;
-            border: 0;
-            background: rgba(22, 22, 22, .75);
-            color: #fff;
-            cursor: pointer;
-            border-radius: 8px;
-            font-size: 22px;
-            line-height: 1;
-            padding: 10px 12px;
-        }
-
-        .gmLightboxClose {
-            top: 16px;
-            right: 16px;
-            font-size: 28px;
-            padding: 8px 12px;
-        }
-
-        .gmLightboxPrev {
-            left: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxNext {
-            right: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxCounter {
-            position: fixed;
-            bottom: 16px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: #fff;
-            background: rgba(18, 18, 18, .72);
-            border-radius: 999px;
-            padding: 6px 12px;
-            font-size: 12px;
-        }
-
-        @media (max-width: 640px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: calc(50% - 5px);
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 105px;
-            }
-
-            .gm-btn {
-                width: 100%;
-            }
-
-            .gmLightboxPrev,
-            .gmLightboxNext {
-                font-size: 18px;
-                padding: 8px 10px;
-            }
-        }
-
-        @media (max-width: 420px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: 100%;
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 150px;
-            }
-        }
-    </style>
-    
-    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36510" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
-    
-    <div class="gm-media-label">Media</div>
-    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
-        <div class="ipsSpoiler_header">
-            <span>Media gallery</span>
-        </div>
-        <div class="ipsSpoiler_contents ipsClearfix">
-            <div class="spoilerGalleryGrid">
-                
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/modern_warfare_4_collection_36510_0.jpg?1789811179"
-               data-gm-gallery="gm-gallery-36510"
-               data-gm-index="0"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36510"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/modern_warfare_4_collection_36510_0.jpg?1789811179" alt="GameMaps media 1" loading="lazy">
-            </a>
-            
-            </div>
-        </div>
-    </div>
-
-    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36510" hidden>
-        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
-        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
-        <img class="gmLightboxImage" src="" alt="">
-        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
-        <div class="gmLightboxCounter">1 / 1</div>
-    </div>
-
-    
-    <script>
-    (function () {
-        if (window.__gmGalleryInitialized) {
-            return;
-        }
-        window.__gmGalleryInitialized = true;
-
-        function getOpenModal() {
-            return document.querySelector('.gmLightbox.is-open');
-        }
-
-        function getGalleryLinks(group) {
-            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
-            return allLinks.filter(function (link) {
-                return link.getAttribute('data-gm-gallery') === group;
-            });
-        }
-
-        function closeModal(modal) {
-            if (!modal) {
-                return;
-            }
-            modal.classList.remove('is-open');
-            modal.setAttribute('hidden', 'hidden');
-            var image = modal.querySelector('.gmLightboxImage');
-            if (image) {
-                image.removeAttribute('src');
-            }
-            document.documentElement.classList.remove('gmLightboxOpen');
-        }
-
-        function renderModal(modal) {
-            var links = modal.__gmLinks || [];
-            if (!links.length) {
-                return;
-            }
-
-            var index = modal.__gmIndex || 0;
-            if (index < 0) {
-                index = links.length - 1;
-            }
-            if (index >= links.length) {
-                index = 0;
-            }
-
-            modal.__gmIndex = index;
-            var activeLink = links[index];
-            var image = modal.querySelector('.gmLightboxImage');
-            var thumb = activeLink.querySelector('img');
-            var counter = modal.querySelector('.gmLightboxCounter');
-
-            if (image) {
-                image.setAttribute('src', activeLink.getAttribute('href'));
-                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
-            }
-
-            if (counter) {
-                counter.textContent = (index + 1) + ' / ' + links.length;
-            }
-        }
-
-        function openModal(modal, links, startIndex) {
-            if (!modal || !links.length) {
-                return;
-            }
-            modal.__gmLinks = links;
-            modal.__gmIndex = startIndex;
-            renderModal(modal);
-            modal.removeAttribute('hidden');
-            modal.classList.add('is-open');
-            document.documentElement.classList.add('gmLightboxOpen');
-        }
-
-        function stepModal(modal, delta) {
-            if (!modal) {
-                return;
-            }
-            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
-            renderModal(modal);
-        }
-
-        document.addEventListener('click', function (event) {
-            var galleryItem = event.target.closest('a[data-gm-gallery]');
-            if (galleryItem) {
-                var group = galleryItem.getAttribute('data-gm-gallery');
-                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
-                var links = getGalleryLinks(group);
-                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
-                if (modal && links.length) {
-                    event.preventDefault();
-                    openModal(modal, links, startIndex);
-                }
-                return;
-            }
-
-            var closeButton = event.target.closest('.gmLightboxClose');
-            if (closeButton) {
-                closeModal(closeButton.closest('.gmLightbox'));
-                return;
-            }
-
-            var prevButton = event.target.closest('.gmLightboxPrev');
-            if (prevButton) {
-                stepModal(prevButton.closest('.gmLightbox'), -1);
-                return;
-            }
-
-            var nextButton = event.target.closest('.gmLightboxNext');
-            if (nextButton) {
-                stepModal(nextButton.closest('.gmLightbox'), 1);
-                return;
-            }
-
-            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
-            if (openModalElement) {
-                closeModal(openModalElement);
-            }
-        });
-
-        document.addEventListener('keydown', function (event) {
-            var modal = getOpenModal();
-            if (!modal) {
-                return;
-            }
-
-            if (event.key === 'Escape') {
-                closeModal(modal);
-            } else if (event.key === 'ArrowLeft') {
-                stepModal(modal, -1);
-            } else if (event.key === 'ArrowRight') {
-                stepModal(modal, 1);
-            }
-        });
-    })();
-    </script>
-    
-    
-    <div class="gm-description-text">This is my own Mod Collection called &quot;Modern Warfare 4&quot;! It includes: 8 Weapons in One Pack. :) + One Bullet Reload Plugin is Required.
-
-Credit:
-
-Call of Duty - Activision</div>
-    ]]></content:encoded>
-      <pubDate>Fri, 02 Oct 2026 16:04:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>[ 8 Maps ] Lingshan-Guangxi V 3.1</title>
-      <link>https://www.gamemaps.com/details/34721</link>
-      <guid>https://www.gamemaps.com/details/34721</guid>
-      <description><![CDATA[
-    
-    <style>
-        .gmLightboxOpen {
-            overflow: hidden;
-        }
-
-        .gm-actions {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            margin: 0 0 12px 0;
-        }
-
-        .gm-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 38px;
-            padding: 8px 14px;
-            border-radius: 8px;
-            text-decoration: none;
-            color: #ffffff;
-            font-weight: 600;
-            font-size: 14px;
-        }
-
-        .gm-btn-article {
-            background: #1d9f61;
-        }
-
-        .gm-btn-steam {
-            background: #1d5fb5;
-        }
-
-        .gm-media-label {
-            margin: 6px 0 8px 0;
-            font-size: 14px;
-            font-weight: 600;
-            letter-spacing: .2px;
-        }
-
-        .cleanSpoilerGallery {
-            margin: 14px 0;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header {
-            padding: 11px 14px;
-            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
-            border: 1px solid rgba(255,255,255,.08);
-            border-bottom: 0;
-            border-radius: 10px 10px 0 0;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header span {
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .2px;
-            color: #e8e8e8;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_contents {
-            padding: 12px;
-            background: rgba(255,255,255,.035);
-            border: 1px solid rgba(255,255,255,.08);
-            border-radius: 0 0 10px 10px;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryGrid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            align-items: flex-start;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem {
-            display: inline-block;
-            overflow: hidden;
-            border-radius: 8px;
-            background: #111;
-            border: 1px solid rgba(255,255,255,.07);
-            width: 188px;
-            text-decoration: none;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem img {
-            width: 100%;
-            height: 112px;
-            object-fit: cover;
-            display: block;
-            border-radius: 8px;
-            transition: transform .25s ease, filter .25s ease;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
-            transform: scale(1.025);
-            filter: brightness(1.06);
-        }
-
-        .gm-description-text {
-            white-space: pre-wrap;
-            line-height: 1.6;
-            font-size: 15px;
-        }
-
-        .gm-description-text a {
-            color: #1d5fb5;
-            text-decoration: underline;
-        }
-
-        .gm-description-text a.gm-inline-steam {
-            display: inline-block;
-            margin-top: 6px;
-            padding: 3px 8px;
-            border-radius: 6px;
-            border: 1px solid #1d5fb5;
-            text-decoration: none;
-        }
-
-        .gmLightbox {
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, .86);
-            display: none;
-            align-items: center;
-            justify-content: center;
-            z-index: 2147483640;
-            padding: 20px;
-        }
-
-        .gmLightbox.is-open {
-            display: flex;
-        }
-
-        .gmLightboxImage {
-            max-width: min(92vw, 1500px);
-            max-height: 84vh;
-            border-radius: 8px;
-            object-fit: contain;
-            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
-        }
-
-        .gmLightboxBtn {
-            position: fixed;
-            border: 0;
-            background: rgba(22, 22, 22, .75);
-            color: #fff;
-            cursor: pointer;
-            border-radius: 8px;
-            font-size: 22px;
-            line-height: 1;
-            padding: 10px 12px;
-        }
-
-        .gmLightboxClose {
-            top: 16px;
-            right: 16px;
-            font-size: 28px;
-            padding: 8px 12px;
-        }
-
-        .gmLightboxPrev {
-            left: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxNext {
-            right: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxCounter {
-            position: fixed;
-            bottom: 16px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: #fff;
-            background: rgba(18, 18, 18, .72);
-            border-radius: 999px;
-            padding: 6px 12px;
-            font-size: 12px;
-        }
-
-        @media (max-width: 640px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: calc(50% - 5px);
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 105px;
-            }
-
-            .gm-btn {
-                width: 100%;
-            }
-
-            .gmLightboxPrev,
-            .gmLightboxNext {
-                font-size: 18px;
-                padding: 8px 10px;
-            }
-        }
-
-        @media (max-width: 420px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: 100%;
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 150px;
-            }
-        }
-    </style>
-    
-    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/34721" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
-    
-    <div class="gm-media-label">Media</div>
-    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
-        <div class="ipsSpoiler_header">
-            <span>Media gallery</span>
-        </div>
-        <div class="ipsSpoiler_contents ipsClearfix">
-            <div class="spoilerGalleryGrid">
-                
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/lingshan-guangxi_v2_0_34721_0.jpg?1760184674"
-               data-gm-gallery="gm-gallery-34721"
-               data-gm-index="0"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-34721"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lingshan-guangxi_v2_0_34721_0.jpg?1760184674" alt="GameMaps media 1" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_0.jpg?1791080430" alt="GameMaps media 1" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/lingshan-guangxi_v2_0_34721_1.jpg?1760184674"
-               data-gm-gallery="gm-gallery-34721"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_1.jpg?1791080430"
+               data-gm-gallery="gm-gallery-36598"
                data-gm-index="1"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-34721"
+               data-ipslightbox-group="gm-gallery-36598"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lingshan-guangxi_v2_0_34721_1.jpg?1760184674" alt="GameMaps media 2" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_1.jpg?1791080430" alt="GameMaps media 2" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://img.youtube.com/vi/F9twdj-WBAY/mqdefault.jpg"
-               data-gm-gallery="gm-gallery-34721"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_2.jpg?1791080430"
+               data-gm-gallery="gm-gallery-36598"
                data-gm-index="2"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-34721"
+               data-ipslightbox-group="gm-gallery-36598"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://img.youtube.com/vi/F9twdj-WBAY/mqdefault.jpg" alt="GameMaps media 3" loading="lazy">
-            </a>
-            
-            </div>
-        </div>
-    </div>
-
-    <div class="gmLightbox" data-gm-lightbox="gm-gallery-34721" hidden>
-        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
-        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
-        <img class="gmLightboxImage" src="" alt="">
-        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
-        <div class="gmLightboxCounter">1 / 3</div>
-    </div>
-
-    
-    <script>
-    (function () {
-        if (window.__gmGalleryInitialized) {
-            return;
-        }
-        window.__gmGalleryInitialized = true;
-
-        function getOpenModal() {
-            return document.querySelector('.gmLightbox.is-open');
-        }
-
-        function getGalleryLinks(group) {
-            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
-            return allLinks.filter(function (link) {
-                return link.getAttribute('data-gm-gallery') === group;
-            });
-        }
-
-        function closeModal(modal) {
-            if (!modal) {
-                return;
-            }
-            modal.classList.remove('is-open');
-            modal.setAttribute('hidden', 'hidden');
-            var image = modal.querySelector('.gmLightboxImage');
-            if (image) {
-                image.removeAttribute('src');
-            }
-            document.documentElement.classList.remove('gmLightboxOpen');
-        }
-
-        function renderModal(modal) {
-            var links = modal.__gmLinks || [];
-            if (!links.length) {
-                return;
-            }
-
-            var index = modal.__gmIndex || 0;
-            if (index < 0) {
-                index = links.length - 1;
-            }
-            if (index >= links.length) {
-                index = 0;
-            }
-
-            modal.__gmIndex = index;
-            var activeLink = links[index];
-            var image = modal.querySelector('.gmLightboxImage');
-            var thumb = activeLink.querySelector('img');
-            var counter = modal.querySelector('.gmLightboxCounter');
-
-            if (image) {
-                image.setAttribute('src', activeLink.getAttribute('href'));
-                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
-            }
-
-            if (counter) {
-                counter.textContent = (index + 1) + ' / ' + links.length;
-            }
-        }
-
-        function openModal(modal, links, startIndex) {
-            if (!modal || !links.length) {
-                return;
-            }
-            modal.__gmLinks = links;
-            modal.__gmIndex = startIndex;
-            renderModal(modal);
-            modal.removeAttribute('hidden');
-            modal.classList.add('is-open');
-            document.documentElement.classList.add('gmLightboxOpen');
-        }
-
-        function stepModal(modal, delta) {
-            if (!modal) {
-                return;
-            }
-            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
-            renderModal(modal);
-        }
-
-        document.addEventListener('click', function (event) {
-            var galleryItem = event.target.closest('a[data-gm-gallery]');
-            if (galleryItem) {
-                var group = galleryItem.getAttribute('data-gm-gallery');
-                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
-                var links = getGalleryLinks(group);
-                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
-                if (modal && links.length) {
-                    event.preventDefault();
-                    openModal(modal, links, startIndex);
-                }
-                return;
-            }
-
-            var closeButton = event.target.closest('.gmLightboxClose');
-            if (closeButton) {
-                closeModal(closeButton.closest('.gmLightbox'));
-                return;
-            }
-
-            var prevButton = event.target.closest('.gmLightboxPrev');
-            if (prevButton) {
-                stepModal(prevButton.closest('.gmLightbox'), -1);
-                return;
-            }
-
-            var nextButton = event.target.closest('.gmLightboxNext');
-            if (nextButton) {
-                stepModal(nextButton.closest('.gmLightbox'), 1);
-                return;
-            }
-
-            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
-            if (openModalElement) {
-                closeModal(openModalElement);
-            }
-        });
-
-        document.addEventListener('keydown', function (event) {
-            var modal = getOpenModal();
-            if (!modal) {
-                return;
-            }
-
-            if (event.key === 'Escape') {
-                closeModal(modal);
-            } else if (event.key === 'ArrowLeft') {
-                stepModal(modal, -1);
-            } else if (event.key === 'ArrowRight') {
-                stepModal(modal, 1);
-            }
-        });
-    })();
-    </script>
-    
-    
-    <div class="gm-description-text">My English is not good, so I have to use a translation software. Please forgive me.
-
--------------------------------------------- Plot Introduction -------------------------------------------------
-
-When the zombie epidemic swept the world, the ancient city of Lingshan in southern China was also not spared. Under the overwhelming attack of the zombie tide, various areas in the suburbs successively fell. In such a critical moment, to have a chance of survival, one must venture to the evacuation point - Liufeng Mountain. The road to the evacuation point is fraught with dangers. Survivors must take up weapons and use their unwavering will to break through the siege!
-
---------------------------------------------- Author&#x27;s Note ------------------------------------------------
-
-Thank you for subscribing!
-This is my first official campaign map. It took nearly two years from conception to completion. In the early development stage, a test version map was released, but the response was not satisfactory. The map design problems were very serious. After the test version, the entire test version process was reset for a year, and I refreshed the entire test version process and supplemented the subsequent levels. The new version of the map is more exquisite than the test version, with more mechanisms and a longer process. If you encounter any problems during gameplay, you can come to me for feedback. I will do my best to solve them.
-
---------------------------------------------- Map Features ------------------------------------------------
-
-* A large number of Chinese-style elements made by self-made textures
-* A large number of self-built solid-built models
-* Maps with a lot of effort spent on shaping
-* Some items can be picked up
-* Except for a few routes that use original scenes, the rest are all taken from real-life Guangxi Zhuang Autonomous Region&#x27;s Lingshan City&#x27;s Lingcheng
-* 8 chapters with all self-made levels
-
---------------------------------------------- Map Construction Code ------------------------------------------------
-
-M1_LS_FSL_LFSWJ
-M2_LS_FJL_LFSWJ
-M3_LS_ZSXML_LFSWJ
-M4_LS_XML_LFSWJ
-M6_LS_RMGC_LFSWJ
-M7_LS_HXQ_LFSWJ
-M8_LS_LFSJQ_LFSWJ
-M9_LS_LFSJQ_CXF_LFSWJ</div>
-    ]]></description>
-      <content:encoded><![CDATA[
-    
-    <style>
-        .gmLightboxOpen {
-            overflow: hidden;
-        }
-
-        .gm-actions {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            margin: 0 0 12px 0;
-        }
-
-        .gm-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 38px;
-            padding: 8px 14px;
-            border-radius: 8px;
-            text-decoration: none;
-            color: #ffffff;
-            font-weight: 600;
-            font-size: 14px;
-        }
-
-        .gm-btn-article {
-            background: #1d9f61;
-        }
-
-        .gm-btn-steam {
-            background: #1d5fb5;
-        }
-
-        .gm-media-label {
-            margin: 6px 0 8px 0;
-            font-size: 14px;
-            font-weight: 600;
-            letter-spacing: .2px;
-        }
-
-        .cleanSpoilerGallery {
-            margin: 14px 0;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header {
-            padding: 11px 14px;
-            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
-            border: 1px solid rgba(255,255,255,.08);
-            border-bottom: 0;
-            border-radius: 10px 10px 0 0;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header span {
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .2px;
-            color: #e8e8e8;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_contents {
-            padding: 12px;
-            background: rgba(255,255,255,.035);
-            border: 1px solid rgba(255,255,255,.08);
-            border-radius: 0 0 10px 10px;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryGrid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            align-items: flex-start;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem {
-            display: inline-block;
-            overflow: hidden;
-            border-radius: 8px;
-            background: #111;
-            border: 1px solid rgba(255,255,255,.07);
-            width: 188px;
-            text-decoration: none;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem img {
-            width: 100%;
-            height: 112px;
-            object-fit: cover;
-            display: block;
-            border-radius: 8px;
-            transition: transform .25s ease, filter .25s ease;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
-            transform: scale(1.025);
-            filter: brightness(1.06);
-        }
-
-        .gm-description-text {
-            white-space: pre-wrap;
-            line-height: 1.6;
-            font-size: 15px;
-        }
-
-        .gm-description-text a {
-            color: #1d5fb5;
-            text-decoration: underline;
-        }
-
-        .gm-description-text a.gm-inline-steam {
-            display: inline-block;
-            margin-top: 6px;
-            padding: 3px 8px;
-            border-radius: 6px;
-            border: 1px solid #1d5fb5;
-            text-decoration: none;
-        }
-
-        .gmLightbox {
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, .86);
-            display: none;
-            align-items: center;
-            justify-content: center;
-            z-index: 2147483640;
-            padding: 20px;
-        }
-
-        .gmLightbox.is-open {
-            display: flex;
-        }
-
-        .gmLightboxImage {
-            max-width: min(92vw, 1500px);
-            max-height: 84vh;
-            border-radius: 8px;
-            object-fit: contain;
-            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
-        }
-
-        .gmLightboxBtn {
-            position: fixed;
-            border: 0;
-            background: rgba(22, 22, 22, .75);
-            color: #fff;
-            cursor: pointer;
-            border-radius: 8px;
-            font-size: 22px;
-            line-height: 1;
-            padding: 10px 12px;
-        }
-
-        .gmLightboxClose {
-            top: 16px;
-            right: 16px;
-            font-size: 28px;
-            padding: 8px 12px;
-        }
-
-        .gmLightboxPrev {
-            left: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxNext {
-            right: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxCounter {
-            position: fixed;
-            bottom: 16px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: #fff;
-            background: rgba(18, 18, 18, .72);
-            border-radius: 999px;
-            padding: 6px 12px;
-            font-size: 12px;
-        }
-
-        @media (max-width: 640px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: calc(50% - 5px);
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 105px;
-            }
-
-            .gm-btn {
-                width: 100%;
-            }
-
-            .gmLightboxPrev,
-            .gmLightboxNext {
-                font-size: 18px;
-                padding: 8px 10px;
-            }
-        }
-
-        @media (max-width: 420px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: 100%;
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 150px;
-            }
-        }
-    </style>
-    
-    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/34721" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
-    
-    <div class="gm-media-label">Media</div>
-    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
-        <div class="ipsSpoiler_header">
-            <span>Media gallery</span>
-        </div>
-        <div class="ipsSpoiler_contents ipsClearfix">
-            <div class="spoilerGalleryGrid">
-                
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/lingshan-guangxi_v2_0_34721_0.jpg?1760184674"
-               data-gm-gallery="gm-gallery-34721"
-               data-gm-index="0"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-34721"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lingshan-guangxi_v2_0_34721_0.jpg?1760184674" alt="GameMaps media 1" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_2.jpg?1791080430" alt="GameMaps media 3" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/lingshan-guangxi_v2_0_34721_1.jpg?1760184674"
-               data-gm-gallery="gm-gallery-34721"
-               data-gm-index="1"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-34721"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/lingshan-guangxi_v2_0_34721_1.jpg?1760184674" alt="GameMaps media 2" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://img.youtube.com/vi/F9twdj-WBAY/mqdefault.jpg"
-               data-gm-gallery="gm-gallery-34721"
-               data-gm-index="2"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-34721"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://img.youtube.com/vi/F9twdj-WBAY/mqdefault.jpg" alt="GameMaps media 3" loading="lazy">
-            </a>
-            
-            </div>
-        </div>
-    </div>
-
-    <div class="gmLightbox" data-gm-lightbox="gm-gallery-34721" hidden>
-        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
-        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
-        <img class="gmLightboxImage" src="" alt="">
-        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
-        <div class="gmLightboxCounter">1 / 3</div>
-    </div>
-
-    
-    <script>
-    (function () {
-        if (window.__gmGalleryInitialized) {
-            return;
-        }
-        window.__gmGalleryInitialized = true;
-
-        function getOpenModal() {
-            return document.querySelector('.gmLightbox.is-open');
-        }
-
-        function getGalleryLinks(group) {
-            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
-            return allLinks.filter(function (link) {
-                return link.getAttribute('data-gm-gallery') === group;
-            });
-        }
-
-        function closeModal(modal) {
-            if (!modal) {
-                return;
-            }
-            modal.classList.remove('is-open');
-            modal.setAttribute('hidden', 'hidden');
-            var image = modal.querySelector('.gmLightboxImage');
-            if (image) {
-                image.removeAttribute('src');
-            }
-            document.documentElement.classList.remove('gmLightboxOpen');
-        }
-
-        function renderModal(modal) {
-            var links = modal.__gmLinks || [];
-            if (!links.length) {
-                return;
-            }
-
-            var index = modal.__gmIndex || 0;
-            if (index < 0) {
-                index = links.length - 1;
-            }
-            if (index >= links.length) {
-                index = 0;
-            }
-
-            modal.__gmIndex = index;
-            var activeLink = links[index];
-            var image = modal.querySelector('.gmLightboxImage');
-            var thumb = activeLink.querySelector('img');
-            var counter = modal.querySelector('.gmLightboxCounter');
-
-            if (image) {
-                image.setAttribute('src', activeLink.getAttribute('href'));
-                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
-            }
-
-            if (counter) {
-                counter.textContent = (index + 1) + ' / ' + links.length;
-            }
-        }
-
-        function openModal(modal, links, startIndex) {
-            if (!modal || !links.length) {
-                return;
-            }
-            modal.__gmLinks = links;
-            modal.__gmIndex = startIndex;
-            renderModal(modal);
-            modal.removeAttribute('hidden');
-            modal.classList.add('is-open');
-            document.documentElement.classList.add('gmLightboxOpen');
-        }
-
-        function stepModal(modal, delta) {
-            if (!modal) {
-                return;
-            }
-            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
-            renderModal(modal);
-        }
-
-        document.addEventListener('click', function (event) {
-            var galleryItem = event.target.closest('a[data-gm-gallery]');
-            if (galleryItem) {
-                var group = galleryItem.getAttribute('data-gm-gallery');
-                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
-                var links = getGalleryLinks(group);
-                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
-                if (modal && links.length) {
-                    event.preventDefault();
-                    openModal(modal, links, startIndex);
-                }
-                return;
-            }
-
-            var closeButton = event.target.closest('.gmLightboxClose');
-            if (closeButton) {
-                closeModal(closeButton.closest('.gmLightbox'));
-                return;
-            }
-
-            var prevButton = event.target.closest('.gmLightboxPrev');
-            if (prevButton) {
-                stepModal(prevButton.closest('.gmLightbox'), -1);
-                return;
-            }
-
-            var nextButton = event.target.closest('.gmLightboxNext');
-            if (nextButton) {
-                stepModal(nextButton.closest('.gmLightbox'), 1);
-                return;
-            }
-
-            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
-            if (openModalElement) {
-                closeModal(openModalElement);
-            }
-        });
-
-        document.addEventListener('keydown', function (event) {
-            var modal = getOpenModal();
-            if (!modal) {
-                return;
-            }
-
-            if (event.key === 'Escape') {
-                closeModal(modal);
-            } else if (event.key === 'ArrowLeft') {
-                stepModal(modal, -1);
-            } else if (event.key === 'ArrowRight') {
-                stepModal(modal, 1);
-            }
-        });
-    })();
-    </script>
-    
-    
-    <div class="gm-description-text">My English is not good, so I have to use a translation software. Please forgive me.
-
--------------------------------------------- Plot Introduction -------------------------------------------------
-
-When the zombie epidemic swept the world, the ancient city of Lingshan in southern China was also not spared. Under the overwhelming attack of the zombie tide, various areas in the suburbs successively fell. In such a critical moment, to have a chance of survival, one must venture to the evacuation point - Liufeng Mountain. The road to the evacuation point is fraught with dangers. Survivors must take up weapons and use their unwavering will to break through the siege!
-
---------------------------------------------- Author&#x27;s Note ------------------------------------------------
-
-Thank you for subscribing!
-This is my first official campaign map. It took nearly two years from conception to completion. In the early development stage, a test version map was released, but the response was not satisfactory. The map design problems were very serious. After the test version, the entire test version process was reset for a year, and I refreshed the entire test version process and supplemented the subsequent levels. The new version of the map is more exquisite than the test version, with more mechanisms and a longer process. If you encounter any problems during gameplay, you can come to me for feedback. I will do my best to solve them.
-
---------------------------------------------- Map Features ------------------------------------------------
-
-* A large number of Chinese-style elements made by self-made textures
-* A large number of self-built solid-built models
-* Maps with a lot of effort spent on shaping
-* Some items can be picked up
-* Except for a few routes that use original scenes, the rest are all taken from real-life Guangxi Zhuang Autonomous Region&#x27;s Lingshan City&#x27;s Lingcheng
-* 8 chapters with all self-made levels
-
---------------------------------------------- Map Construction Code ------------------------------------------------
-
-M1_LS_FSL_LFSWJ
-M2_LS_FJL_LFSWJ
-M3_LS_ZSXML_LFSWJ
-M4_LS_XML_LFSWJ
-M6_LS_RMGC_LFSWJ
-M7_LS_HXQ_LFSWJ
-M8_LS_LFSJQ_LFSWJ
-M9_LS_LFSJQ_CXF_LFSWJ</div>
-    ]]></content:encoded>
-      <pubDate>Fri, 02 Oct 2026 15:01:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>[ Map ] Naruto (Coop Map)</title>
-      <link>https://www.gamemaps.com/details/33657</link>
-      <guid>https://www.gamemaps.com/details/33657</guid>
-      <description><![CDATA[
-    
-    <style>
-        .gmLightboxOpen {
-            overflow: hidden;
-        }
-
-        .gm-actions {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            margin: 0 0 12px 0;
-        }
-
-        .gm-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 38px;
-            padding: 8px 14px;
-            border-radius: 8px;
-            text-decoration: none;
-            color: #ffffff;
-            font-weight: 600;
-            font-size: 14px;
-        }
-
-        .gm-btn-article {
-            background: #1d9f61;
-        }
-
-        .gm-btn-steam {
-            background: #1d5fb5;
-        }
-
-        .gm-media-label {
-            margin: 6px 0 8px 0;
-            font-size: 14px;
-            font-weight: 600;
-            letter-spacing: .2px;
-        }
-
-        .cleanSpoilerGallery {
-            margin: 14px 0;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header {
-            padding: 11px 14px;
-            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
-            border: 1px solid rgba(255,255,255,.08);
-            border-bottom: 0;
-            border-radius: 10px 10px 0 0;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header span {
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .2px;
-            color: #e8e8e8;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_contents {
-            padding: 12px;
-            background: rgba(255,255,255,.035);
-            border: 1px solid rgba(255,255,255,.08);
-            border-radius: 0 0 10px 10px;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryGrid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            align-items: flex-start;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem {
-            display: inline-block;
-            overflow: hidden;
-            border-radius: 8px;
-            background: #111;
-            border: 1px solid rgba(255,255,255,.07);
-            width: 188px;
-            text-decoration: none;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem img {
-            width: 100%;
-            height: 112px;
-            object-fit: cover;
-            display: block;
-            border-radius: 8px;
-            transition: transform .25s ease, filter .25s ease;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
-            transform: scale(1.025);
-            filter: brightness(1.06);
-        }
-
-        .gm-description-text {
-            white-space: pre-wrap;
-            line-height: 1.6;
-            font-size: 15px;
-        }
-
-        .gm-description-text a {
-            color: #1d5fb5;
-            text-decoration: underline;
-        }
-
-        .gm-description-text a.gm-inline-steam {
-            display: inline-block;
-            margin-top: 6px;
-            padding: 3px 8px;
-            border-radius: 6px;
-            border: 1px solid #1d5fb5;
-            text-decoration: none;
-        }
-
-        .gmLightbox {
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, .86);
-            display: none;
-            align-items: center;
-            justify-content: center;
-            z-index: 2147483640;
-            padding: 20px;
-        }
-
-        .gmLightbox.is-open {
-            display: flex;
-        }
-
-        .gmLightboxImage {
-            max-width: min(92vw, 1500px);
-            max-height: 84vh;
-            border-radius: 8px;
-            object-fit: contain;
-            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
-        }
-
-        .gmLightboxBtn {
-            position: fixed;
-            border: 0;
-            background: rgba(22, 22, 22, .75);
-            color: #fff;
-            cursor: pointer;
-            border-radius: 8px;
-            font-size: 22px;
-            line-height: 1;
-            padding: 10px 12px;
-        }
-
-        .gmLightboxClose {
-            top: 16px;
-            right: 16px;
-            font-size: 28px;
-            padding: 8px 12px;
-        }
-
-        .gmLightboxPrev {
-            left: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxNext {
-            right: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxCounter {
-            position: fixed;
-            bottom: 16px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: #fff;
-            background: rgba(18, 18, 18, .72);
-            border-radius: 999px;
-            padding: 6px 12px;
-            font-size: 12px;
-        }
-
-        @media (max-width: 640px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: calc(50% - 5px);
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 105px;
-            }
-
-            .gm-btn {
-                width: 100%;
-            }
-
-            .gmLightboxPrev,
-            .gmLightboxNext {
-                font-size: 18px;
-                padding: 8px 10px;
-            }
-        }
-
-        @media (max-width: 420px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: 100%;
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 150px;
-            }
-        }
-    </style>
-    
-    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/33657" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
-    
-    <div class="gm-media-label">Media</div>
-    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
-        <div class="ipsSpoiler_header">
-            <span>Media gallery</span>
-        </div>
-        <div class="ipsSpoiler_contents ipsClearfix">
-            <div class="spoilerGalleryGrid">
-                
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_0.jpg?1749630687"
-               data-gm-gallery="gm-gallery-33657"
-               data-gm-index="0"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-33657"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_0.jpg?1749630687" alt="GameMaps media 1" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_1.jpg?1749630687"
-               data-gm-gallery="gm-gallery-33657"
-               data-gm-index="1"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-33657"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_1.jpg?1749630687" alt="GameMaps media 2" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_2.jpg?1749630687"
-               data-gm-gallery="gm-gallery-33657"
-               data-gm-index="2"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-33657"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_2.jpg?1749630687" alt="GameMaps media 3" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_3.jpg?1749630687"
-               data-gm-gallery="gm-gallery-33657"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_3.jpg?1791080430"
+               data-gm-gallery="gm-gallery-36598"
                data-gm-index="3"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-33657"
+               data-ipslightbox-group="gm-gallery-36598"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_3.jpg?1749630687" alt="GameMaps media 4" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_3.jpg?1791080430" alt="GameMaps media 4" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_5.jpg?1749630688"
-               data-gm-gallery="gm-gallery-33657"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_4.jpg?1791080430"
+               data-gm-gallery="gm-gallery-36598"
                data-gm-index="4"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-33657"
+               data-ipslightbox-group="gm-gallery-36598"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_5.jpg?1749630688" alt="GameMaps media 5" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_4.jpg?1791080430" alt="GameMaps media 5" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__coop_map__33657_0.jpg?1790873385"
-               data-gm-gallery="gm-gallery-33657"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_5.jpg?1791080431"
+               data-gm-gallery="gm-gallery-36598"
                data-gm-index="5"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-33657"
+               data-ipslightbox-group="gm-gallery-36598"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__coop_map__33657_0.jpg?1790873385" alt="GameMaps media 6" loading="lazy">
-            </a>
-            
-            </div>
-        </div>
-    </div>
-
-    <div class="gmLightbox" data-gm-lightbox="gm-gallery-33657" hidden>
-        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
-        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
-        <img class="gmLightboxImage" src="" alt="">
-        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
-        <div class="gmLightboxCounter">1 / 6</div>
-    </div>
-
-    
-    <script>
-    (function () {
-        if (window.__gmGalleryInitialized) {
-            return;
-        }
-        window.__gmGalleryInitialized = true;
-
-        function getOpenModal() {
-            return document.querySelector('.gmLightbox.is-open');
-        }
-
-        function getGalleryLinks(group) {
-            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
-            return allLinks.filter(function (link) {
-                return link.getAttribute('data-gm-gallery') === group;
-            });
-        }
-
-        function closeModal(modal) {
-            if (!modal) {
-                return;
-            }
-            modal.classList.remove('is-open');
-            modal.setAttribute('hidden', 'hidden');
-            var image = modal.querySelector('.gmLightboxImage');
-            if (image) {
-                image.removeAttribute('src');
-            }
-            document.documentElement.classList.remove('gmLightboxOpen');
-        }
-
-        function renderModal(modal) {
-            var links = modal.__gmLinks || [];
-            if (!links.length) {
-                return;
-            }
-
-            var index = modal.__gmIndex || 0;
-            if (index < 0) {
-                index = links.length - 1;
-            }
-            if (index >= links.length) {
-                index = 0;
-            }
-
-            modal.__gmIndex = index;
-            var activeLink = links[index];
-            var image = modal.querySelector('.gmLightboxImage');
-            var thumb = activeLink.querySelector('img');
-            var counter = modal.querySelector('.gmLightboxCounter');
-
-            if (image) {
-                image.setAttribute('src', activeLink.getAttribute('href'));
-                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
-            }
-
-            if (counter) {
-                counter.textContent = (index + 1) + ' / ' + links.length;
-            }
-        }
-
-        function openModal(modal, links, startIndex) {
-            if (!modal || !links.length) {
-                return;
-            }
-            modal.__gmLinks = links;
-            modal.__gmIndex = startIndex;
-            renderModal(modal);
-            modal.removeAttribute('hidden');
-            modal.classList.add('is-open');
-            document.documentElement.classList.add('gmLightboxOpen');
-        }
-
-        function stepModal(modal, delta) {
-            if (!modal) {
-                return;
-            }
-            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
-            renderModal(modal);
-        }
-
-        document.addEventListener('click', function (event) {
-            var galleryItem = event.target.closest('a[data-gm-gallery]');
-            if (galleryItem) {
-                var group = galleryItem.getAttribute('data-gm-gallery');
-                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
-                var links = getGalleryLinks(group);
-                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
-                if (modal && links.length) {
-                    event.preventDefault();
-                    openModal(modal, links, startIndex);
-                }
-                return;
-            }
-
-            var closeButton = event.target.closest('.gmLightboxClose');
-            if (closeButton) {
-                closeModal(closeButton.closest('.gmLightbox'));
-                return;
-            }
-
-            var prevButton = event.target.closest('.gmLightboxPrev');
-            if (prevButton) {
-                stepModal(prevButton.closest('.gmLightbox'), -1);
-                return;
-            }
-
-            var nextButton = event.target.closest('.gmLightboxNext');
-            if (nextButton) {
-                stepModal(nextButton.closest('.gmLightbox'), 1);
-                return;
-            }
-
-            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
-            if (openModalElement) {
-                closeModal(openModalElement);
-            }
-        });
-
-        document.addEventListener('keydown', function (event) {
-            var modal = getOpenModal();
-            if (!modal) {
-                return;
-            }
-
-            if (event.key === 'Escape') {
-                closeModal(modal);
-            } else if (event.key === 'ArrowLeft') {
-                stepModal(modal, -1);
-            } else if (event.key === 'ArrowRight') {
-                stepModal(modal, 1);
-            }
-        });
-    })();
-    </script>
-    
-    
-    <div class="gm-description-text">Original map by CriSsys / Ported by A-BsoL
-
-Zombie escape map ported from Counter-Strike Source</div>
-    ]]></description>
-      <content:encoded><![CDATA[
-    
-    <style>
-        .gmLightboxOpen {
-            overflow: hidden;
-        }
-
-        .gm-actions {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            margin: 0 0 12px 0;
-        }
-
-        .gm-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 38px;
-            padding: 8px 14px;
-            border-radius: 8px;
-            text-decoration: none;
-            color: #ffffff;
-            font-weight: 600;
-            font-size: 14px;
-        }
-
-        .gm-btn-article {
-            background: #1d9f61;
-        }
-
-        .gm-btn-steam {
-            background: #1d5fb5;
-        }
-
-        .gm-media-label {
-            margin: 6px 0 8px 0;
-            font-size: 14px;
-            font-weight: 600;
-            letter-spacing: .2px;
-        }
-
-        .cleanSpoilerGallery {
-            margin: 14px 0;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header {
-            padding: 11px 14px;
-            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
-            border: 1px solid rgba(255,255,255,.08);
-            border-bottom: 0;
-            border-radius: 10px 10px 0 0;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header span {
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .2px;
-            color: #e8e8e8;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_contents {
-            padding: 12px;
-            background: rgba(255,255,255,.035);
-            border: 1px solid rgba(255,255,255,.08);
-            border-radius: 0 0 10px 10px;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryGrid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            align-items: flex-start;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem {
-            display: inline-block;
-            overflow: hidden;
-            border-radius: 8px;
-            background: #111;
-            border: 1px solid rgba(255,255,255,.07);
-            width: 188px;
-            text-decoration: none;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem img {
-            width: 100%;
-            height: 112px;
-            object-fit: cover;
-            display: block;
-            border-radius: 8px;
-            transition: transform .25s ease, filter .25s ease;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
-            transform: scale(1.025);
-            filter: brightness(1.06);
-        }
-
-        .gm-description-text {
-            white-space: pre-wrap;
-            line-height: 1.6;
-            font-size: 15px;
-        }
-
-        .gm-description-text a {
-            color: #1d5fb5;
-            text-decoration: underline;
-        }
-
-        .gm-description-text a.gm-inline-steam {
-            display: inline-block;
-            margin-top: 6px;
-            padding: 3px 8px;
-            border-radius: 6px;
-            border: 1px solid #1d5fb5;
-            text-decoration: none;
-        }
-
-        .gmLightbox {
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, .86);
-            display: none;
-            align-items: center;
-            justify-content: center;
-            z-index: 2147483640;
-            padding: 20px;
-        }
-
-        .gmLightbox.is-open {
-            display: flex;
-        }
-
-        .gmLightboxImage {
-            max-width: min(92vw, 1500px);
-            max-height: 84vh;
-            border-radius: 8px;
-            object-fit: contain;
-            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
-        }
-
-        .gmLightboxBtn {
-            position: fixed;
-            border: 0;
-            background: rgba(22, 22, 22, .75);
-            color: #fff;
-            cursor: pointer;
-            border-radius: 8px;
-            font-size: 22px;
-            line-height: 1;
-            padding: 10px 12px;
-        }
-
-        .gmLightboxClose {
-            top: 16px;
-            right: 16px;
-            font-size: 28px;
-            padding: 8px 12px;
-        }
-
-        .gmLightboxPrev {
-            left: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxNext {
-            right: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxCounter {
-            position: fixed;
-            bottom: 16px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: #fff;
-            background: rgba(18, 18, 18, .72);
-            border-radius: 999px;
-            padding: 6px 12px;
-            font-size: 12px;
-        }
-
-        @media (max-width: 640px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: calc(50% - 5px);
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 105px;
-            }
-
-            .gm-btn {
-                width: 100%;
-            }
-
-            .gmLightboxPrev,
-            .gmLightboxNext {
-                font-size: 18px;
-                padding: 8px 10px;
-            }
-        }
-
-        @media (max-width: 420px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: 100%;
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 150px;
-            }
-        }
-    </style>
-    
-    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/33657" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
-    
-    <div class="gm-media-label">Media</div>
-    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
-        <div class="ipsSpoiler_header">
-            <span>Media gallery</span>
-        </div>
-        <div class="ipsSpoiler_contents ipsClearfix">
-            <div class="spoilerGalleryGrid">
-                
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_0.jpg?1749630687"
-               data-gm-gallery="gm-gallery-33657"
-               data-gm-index="0"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-33657"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_0.jpg?1749630687" alt="GameMaps media 1" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_5.jpg?1791080431" alt="GameMaps media 6" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_1.jpg?1749630687"
-               data-gm-gallery="gm-gallery-33657"
-               data-gm-index="1"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-33657"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_1.jpg?1749630687" alt="GameMaps media 2" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_2.jpg?1749630687"
-               data-gm-gallery="gm-gallery-33657"
-               data-gm-index="2"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-33657"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_2.jpg?1749630687" alt="GameMaps media 3" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_3.jpg?1749630687"
-               data-gm-gallery="gm-gallery-33657"
-               data-gm-index="3"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-33657"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_3.jpg?1749630687" alt="GameMaps media 4" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_5.jpg?1749630688"
-               data-gm-gallery="gm-gallery-33657"
-               data-gm-index="4"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-33657"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__ze_css_port__33657_5.jpg?1749630688" alt="GameMaps media 5" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__coop_map__33657_0.jpg?1790873385"
-               data-gm-gallery="gm-gallery-33657"
-               data-gm-index="5"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-33657"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/naruto__coop_map__33657_0.jpg?1790873385" alt="GameMaps media 6" loading="lazy">
-            </a>
-            
-            </div>
-        </div>
-    </div>
-
-    <div class="gmLightbox" data-gm-lightbox="gm-gallery-33657" hidden>
-        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
-        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
-        <img class="gmLightboxImage" src="" alt="">
-        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
-        <div class="gmLightboxCounter">1 / 6</div>
-    </div>
-
-    
-    <script>
-    (function () {
-        if (window.__gmGalleryInitialized) {
-            return;
-        }
-        window.__gmGalleryInitialized = true;
-
-        function getOpenModal() {
-            return document.querySelector('.gmLightbox.is-open');
-        }
-
-        function getGalleryLinks(group) {
-            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
-            return allLinks.filter(function (link) {
-                return link.getAttribute('data-gm-gallery') === group;
-            });
-        }
-
-        function closeModal(modal) {
-            if (!modal) {
-                return;
-            }
-            modal.classList.remove('is-open');
-            modal.setAttribute('hidden', 'hidden');
-            var image = modal.querySelector('.gmLightboxImage');
-            if (image) {
-                image.removeAttribute('src');
-            }
-            document.documentElement.classList.remove('gmLightboxOpen');
-        }
-
-        function renderModal(modal) {
-            var links = modal.__gmLinks || [];
-            if (!links.length) {
-                return;
-            }
-
-            var index = modal.__gmIndex || 0;
-            if (index < 0) {
-                index = links.length - 1;
-            }
-            if (index >= links.length) {
-                index = 0;
-            }
-
-            modal.__gmIndex = index;
-            var activeLink = links[index];
-            var image = modal.querySelector('.gmLightboxImage');
-            var thumb = activeLink.querySelector('img');
-            var counter = modal.querySelector('.gmLightboxCounter');
-
-            if (image) {
-                image.setAttribute('src', activeLink.getAttribute('href'));
-                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
-            }
-
-            if (counter) {
-                counter.textContent = (index + 1) + ' / ' + links.length;
-            }
-        }
-
-        function openModal(modal, links, startIndex) {
-            if (!modal || !links.length) {
-                return;
-            }
-            modal.__gmLinks = links;
-            modal.__gmIndex = startIndex;
-            renderModal(modal);
-            modal.removeAttribute('hidden');
-            modal.classList.add('is-open');
-            document.documentElement.classList.add('gmLightboxOpen');
-        }
-
-        function stepModal(modal, delta) {
-            if (!modal) {
-                return;
-            }
-            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
-            renderModal(modal);
-        }
-
-        document.addEventListener('click', function (event) {
-            var galleryItem = event.target.closest('a[data-gm-gallery]');
-            if (galleryItem) {
-                var group = galleryItem.getAttribute('data-gm-gallery');
-                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
-                var links = getGalleryLinks(group);
-                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
-                if (modal && links.length) {
-                    event.preventDefault();
-                    openModal(modal, links, startIndex);
-                }
-                return;
-            }
-
-            var closeButton = event.target.closest('.gmLightboxClose');
-            if (closeButton) {
-                closeModal(closeButton.closest('.gmLightbox'));
-                return;
-            }
-
-            var prevButton = event.target.closest('.gmLightboxPrev');
-            if (prevButton) {
-                stepModal(prevButton.closest('.gmLightbox'), -1);
-                return;
-            }
-
-            var nextButton = event.target.closest('.gmLightboxNext');
-            if (nextButton) {
-                stepModal(nextButton.closest('.gmLightbox'), 1);
-                return;
-            }
-
-            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
-            if (openModalElement) {
-                closeModal(openModalElement);
-            }
-        });
-
-        document.addEventListener('keydown', function (event) {
-            var modal = getOpenModal();
-            if (!modal) {
-                return;
-            }
-
-            if (event.key === 'Escape') {
-                closeModal(modal);
-            } else if (event.key === 'ArrowLeft') {
-                stepModal(modal, -1);
-            } else if (event.key === 'ArrowRight') {
-                stepModal(modal, 1);
-            }
-        });
-    })();
-    </script>
-    
-    
-    <div class="gm-description-text">Original map by CriSsys / Ported by A-BsoL
-
-Zombie escape map ported from Counter-Strike Source</div>
-    ]]></content:encoded>
-      <pubDate>Thu, 01 Oct 2026 17:07:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>[ 6 Maps ] NIGHTMARE HOUSE 2 UNOFFICIAL PORT</title>
-      <link>https://www.gamemaps.com/details/36586</link>
-      <guid>https://www.gamemaps.com/details/36586</guid>
-      <description><![CDATA[
-    
-    <style>
-        .gmLightboxOpen {
-            overflow: hidden;
-        }
-
-        .gm-actions {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            margin: 0 0 12px 0;
-        }
-
-        .gm-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            min-height: 38px;
-            padding: 8px 14px;
-            border-radius: 8px;
-            text-decoration: none;
-            color: #ffffff;
-            font-weight: 600;
-            font-size: 14px;
-        }
-
-        .gm-btn-article {
-            background: #1d9f61;
-        }
-
-        .gm-btn-steam {
-            background: #1d5fb5;
-        }
-
-        .gm-media-label {
-            margin: 6px 0 8px 0;
-            font-size: 14px;
-            font-weight: 600;
-            letter-spacing: .2px;
-        }
-
-        .cleanSpoilerGallery {
-            margin: 14px 0;
-            border-radius: 10px;
-            overflow: hidden;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header {
-            padding: 11px 14px;
-            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
-            border: 1px solid rgba(255,255,255,.08);
-            border-bottom: 0;
-            border-radius: 10px 10px 0 0;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_header span {
-            font-size: 13px;
-            font-weight: 600;
-            letter-spacing: .2px;
-            color: #e8e8e8;
-        }
-
-        .cleanSpoilerGallery .ipsSpoiler_contents {
-            padding: 12px;
-            background: rgba(255,255,255,.035);
-            border: 1px solid rgba(255,255,255,.08);
-            border-radius: 0 0 10px 10px;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryGrid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            align-items: flex-start;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem {
-            display: inline-block;
-            overflow: hidden;
-            border-radius: 8px;
-            background: #111;
-            border: 1px solid rgba(255,255,255,.07);
-            width: 188px;
-            text-decoration: none;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem img {
-            width: 100%;
-            height: 112px;
-            object-fit: cover;
-            display: block;
-            border-radius: 8px;
-            transition: transform .25s ease, filter .25s ease;
-        }
-
-        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
-            transform: scale(1.025);
-            filter: brightness(1.06);
-        }
-
-        .gm-description-text {
-            white-space: pre-wrap;
-            line-height: 1.6;
-            font-size: 15px;
-        }
-
-        .gm-description-text a {
-            color: #1d5fb5;
-            text-decoration: underline;
-        }
-
-        .gm-description-text a.gm-inline-steam {
-            display: inline-block;
-            margin-top: 6px;
-            padding: 3px 8px;
-            border-radius: 6px;
-            border: 1px solid #1d5fb5;
-            text-decoration: none;
-        }
-
-        .gmLightbox {
-            position: fixed;
-            inset: 0;
-            background: rgba(0, 0, 0, .86);
-            display: none;
-            align-items: center;
-            justify-content: center;
-            z-index: 2147483640;
-            padding: 20px;
-        }
-
-        .gmLightbox.is-open {
-            display: flex;
-        }
-
-        .gmLightboxImage {
-            max-width: min(92vw, 1500px);
-            max-height: 84vh;
-            border-radius: 8px;
-            object-fit: contain;
-            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
-        }
-
-        .gmLightboxBtn {
-            position: fixed;
-            border: 0;
-            background: rgba(22, 22, 22, .75);
-            color: #fff;
-            cursor: pointer;
-            border-radius: 8px;
-            font-size: 22px;
-            line-height: 1;
-            padding: 10px 12px;
-        }
-
-        .gmLightboxClose {
-            top: 16px;
-            right: 16px;
-            font-size: 28px;
-            padding: 8px 12px;
-        }
-
-        .gmLightboxPrev {
-            left: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxNext {
-            right: 16px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        .gmLightboxCounter {
-            position: fixed;
-            bottom: 16px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: #fff;
-            background: rgba(18, 18, 18, .72);
-            border-radius: 999px;
-            padding: 6px 12px;
-            font-size: 12px;
-        }
-
-        @media (max-width: 640px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: calc(50% - 5px);
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 105px;
-            }
-
-            .gm-btn {
-                width: 100%;
-            }
-
-            .gmLightboxPrev,
-            .gmLightboxNext {
-                font-size: 18px;
-                padding: 8px 10px;
-            }
-        }
-
-        @media (max-width: 420px) {
-            .cleanSpoilerGallery .spoilerGalleryItem {
-                width: 100%;
-            }
-
-            .cleanSpoilerGallery .spoilerGalleryItem img {
-                height: 150px;
-            }
-        }
-    </style>
-    
-    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36586" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
-    
-    <div class="gm-media-label">Media</div>
-    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
-        <div class="ipsSpoiler_header">
-            <span>Media gallery</span>
-        </div>
-        <div class="ipsSpoiler_contents ipsClearfix">
-            <div class="spoilerGalleryGrid">
-                
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_0.jpg?1790819646"
-               data-gm-gallery="gm-gallery-36586"
-               data-gm-index="0"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36586"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_0.jpg?1790819646" alt="GameMaps media 1" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_1.jpg?1790819656"
-               data-gm-gallery="gm-gallery-36586"
-               data-gm-index="1"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36586"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_1.jpg?1790819656" alt="GameMaps media 2" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_2.jpg?1790819969"
-               data-gm-gallery="gm-gallery-36586"
-               data-gm-index="2"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36586"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_2.jpg?1790819969" alt="GameMaps media 3" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_3.jpg?1790819991"
-               data-gm-gallery="gm-gallery-36586"
-               data-gm-index="3"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36586"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_3.jpg?1790819991" alt="GameMaps media 4" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_4.jpg?1790820001"
-               data-gm-gallery="gm-gallery-36586"
-               data-gm-index="4"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36586"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_4.jpg?1790820001" alt="GameMaps media 5" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_5.jpg?1790820014"
-               data-gm-gallery="gm-gallery-36586"
-               data-gm-index="5"
-               data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36586"
-               target="_blank"
-               rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_5.jpg?1790820014" alt="GameMaps media 6" loading="lazy">
-            </a>
-            
-            <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_6.jpg?1790820018"
-               data-gm-gallery="gm-gallery-36586"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_6.jpg?1791080431"
+               data-gm-gallery="gm-gallery-36598"
                data-gm-index="6"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36586"
+               data-ipslightbox-group="gm-gallery-36598"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_6.jpg?1790820018" alt="GameMaps media 7" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_6.jpg?1791080431" alt="GameMaps media 7" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_7.jpg?1790820501"
-               data-gm-gallery="gm-gallery-36586"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_7.jpg?1791080431"
+               data-gm-gallery="gm-gallery-36598"
                data-gm-index="7"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36586"
+               data-ipslightbox-group="gm-gallery-36598"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_7.jpg?1790820501" alt="GameMaps media 8" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_7.jpg?1791080431" alt="GameMaps media 8" loading="lazy">
             </a>
             
             </div>
         </div>
     </div>
 
-    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36586" hidden>
+    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36598" hidden>
         <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
         <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
         <img class="gmLightboxImage" src="" alt="">
@@ -3064,7 +476,44 @@ Zombie escape map ported from Counter-Strike Source</div>
     </script>
     
     
-    <div class="gm-description-text">Nightmare House 2 is an acclaimed psychological horror campaign adapted for Left 4 Dead 2. You wake up inside a mysterious, eerie psychiatric hospital, guided by an unknown voice that knows you only as &quot;Patient 42.&quot; Fight your way through dark corridors and face constant jump scares in an atmosphere of pure terror, where the line between reality and nightmare blurs.</div>
+    <div class="gm-description-text">⚠️ Important: This add-on only supports Survival and Versus Survival. It is not a campaign and does not support other game modes.
+
+Description
+
+In a Lima where people had begun to grow accustomed to living alongside the infection, a group of renegades, military deserters, politicians, and wealthy individuals turned the historic Plaza de Acho into the setting for a brutal underground spectacle, forcing people to fight infected in order to survive.
+
+The spectacle came to an end when an uncontrolled horde overran the arena and killed everyone inside. Now, the bullring remains abandoned, filled with corpses, scattered supplies, and traces of what happened there.
+
+The Last Bullfight is a Survival map for Left 4 Dead 2 inspired by the historic Plaza de Toros de Acho in Lima, Peru.
+
+The Survivors must withstand waves of infected inside the bullring, recreated with a nighttime atmosphere, custom lighting, custom infected, new content, and environments inspired by the real location.
+
+Developed by the independent Peruvian studio Galy Studio, the project aims to deliver an intense and localized Survival experience inspired by Peru.
+
+Additional Contributors
+
+Teph Castro &quot;tephrda&quot; — Level Design.
+Johan Yuffre — Visual Design and Promotion.
+Diir.lain — Modeling and Textures.
+Follow Games — Testing and Bug Fixing.
+Mallquiphotography — Testing and Bug Fixing.
+Chaos Kansei — Testing and Bug Fixing.
+Jean Carlos Luna (Tomatuv Games) — Testing and Bug Fixing.
+AstorMilanese — Low Poly Reflector.
+jQueary — Bell.
+Yorktown Font - Typographer Mediengestaltung — Typography Design.
+
+Special thanks to everyone who contributed during the development, testing, and release of the project.
+
+Usage and Permissions
+
+Redistribution, republication, extraction, modification, or incorporation of this content into other projects is not permitted without prior authorization from its authors.
+
+To request permission, create a translation, or use any resource from the mod, please contact the responsible author or team directly.
+
+Copyright
+
+© 2026 Galy Studio. Original resources created specifically for this project belong to their respective authors and contributors.</div>
     ]]></description>
       <content:encoded><![CDATA[
     
@@ -3284,7 +733,7 @@ Zombie escape map ported from Counter-Strike Source</div>
         }
     </style>
     
-    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36586" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
+    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36598" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
     
     <div class="gm-media-label">Media</div>
     <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
@@ -3295,98 +744,98 @@ Zombie escape map ported from Counter-Strike Source</div>
             <div class="spoilerGalleryGrid">
                 
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_0.jpg?1790819646"
-               data-gm-gallery="gm-gallery-36586"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_0.jpg?1791080430"
+               data-gm-gallery="gm-gallery-36598"
                data-gm-index="0"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36586"
+               data-ipslightbox-group="gm-gallery-36598"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_0.jpg?1790819646" alt="GameMaps media 1" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_0.jpg?1791080430" alt="GameMaps media 1" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_1.jpg?1790819656"
-               data-gm-gallery="gm-gallery-36586"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_1.jpg?1791080430"
+               data-gm-gallery="gm-gallery-36598"
                data-gm-index="1"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36586"
+               data-ipslightbox-group="gm-gallery-36598"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_1.jpg?1790819656" alt="GameMaps media 2" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_1.jpg?1791080430" alt="GameMaps media 2" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_2.jpg?1790819969"
-               data-gm-gallery="gm-gallery-36586"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_2.jpg?1791080430"
+               data-gm-gallery="gm-gallery-36598"
                data-gm-index="2"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36586"
+               data-ipslightbox-group="gm-gallery-36598"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_2.jpg?1790819969" alt="GameMaps media 3" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_2.jpg?1791080430" alt="GameMaps media 3" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_3.jpg?1790819991"
-               data-gm-gallery="gm-gallery-36586"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_3.jpg?1791080430"
+               data-gm-gallery="gm-gallery-36598"
                data-gm-index="3"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36586"
+               data-ipslightbox-group="gm-gallery-36598"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_3.jpg?1790819991" alt="GameMaps media 4" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_3.jpg?1791080430" alt="GameMaps media 4" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_4.jpg?1790820001"
-               data-gm-gallery="gm-gallery-36586"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_4.jpg?1791080430"
+               data-gm-gallery="gm-gallery-36598"
                data-gm-index="4"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36586"
+               data-ipslightbox-group="gm-gallery-36598"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_4.jpg?1790820001" alt="GameMaps media 5" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_4.jpg?1791080430" alt="GameMaps media 5" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_5.jpg?1790820014"
-               data-gm-gallery="gm-gallery-36586"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_5.jpg?1791080431"
+               data-gm-gallery="gm-gallery-36598"
                data-gm-index="5"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36586"
+               data-ipslightbox-group="gm-gallery-36598"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_5.jpg?1790820014" alt="GameMaps media 6" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_5.jpg?1791080431" alt="GameMaps media 6" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_6.jpg?1790820018"
-               data-gm-gallery="gm-gallery-36586"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_6.jpg?1791080431"
+               data-gm-gallery="gm-gallery-36598"
                data-gm-index="6"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36586"
+               data-ipslightbox-group="gm-gallery-36598"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_6.jpg?1790820018" alt="GameMaps media 7" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_6.jpg?1791080431" alt="GameMaps media 7" loading="lazy">
             </a>
             
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_7.jpg?1790820501"
-               data-gm-gallery="gm-gallery-36586"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_7.jpg?1791080431"
+               data-gm-gallery="gm-gallery-36598"
                data-gm-index="7"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36586"
+               data-ipslightbox-group="gm-gallery-36598"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/nightmare_house_2_unofficial_port_36586_7.jpg?1790820501" alt="GameMaps media 8" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/the_last_bullfight_36598_7.jpg?1791080431" alt="GameMaps media 8" loading="lazy">
             </a>
             
             </div>
         </div>
     </div>
 
-    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36586" hidden>
+    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36598" hidden>
         <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
         <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
         <img class="gmLightboxImage" src="" alt="">
@@ -3532,14 +981,51 @@ Zombie escape map ported from Counter-Strike Source</div>
     </script>
     
     
-    <div class="gm-description-text">Nightmare House 2 is an acclaimed psychological horror campaign adapted for Left 4 Dead 2. You wake up inside a mysterious, eerie psychiatric hospital, guided by an unknown voice that knows you only as &quot;Patient 42.&quot; Fight your way through dark corridors and face constant jump scares in an atmosphere of pure terror, where the line between reality and nightmare blurs.</div>
+    <div class="gm-description-text">⚠️ Important: This add-on only supports Survival and Versus Survival. It is not a campaign and does not support other game modes.
+
+Description
+
+In a Lima where people had begun to grow accustomed to living alongside the infection, a group of renegades, military deserters, politicians, and wealthy individuals turned the historic Plaza de Acho into the setting for a brutal underground spectacle, forcing people to fight infected in order to survive.
+
+The spectacle came to an end when an uncontrolled horde overran the arena and killed everyone inside. Now, the bullring remains abandoned, filled with corpses, scattered supplies, and traces of what happened there.
+
+The Last Bullfight is a Survival map for Left 4 Dead 2 inspired by the historic Plaza de Toros de Acho in Lima, Peru.
+
+The Survivors must withstand waves of infected inside the bullring, recreated with a nighttime atmosphere, custom lighting, custom infected, new content, and environments inspired by the real location.
+
+Developed by the independent Peruvian studio Galy Studio, the project aims to deliver an intense and localized Survival experience inspired by Peru.
+
+Additional Contributors
+
+Teph Castro &quot;tephrda&quot; — Level Design.
+Johan Yuffre — Visual Design and Promotion.
+Diir.lain — Modeling and Textures.
+Follow Games — Testing and Bug Fixing.
+Mallquiphotography — Testing and Bug Fixing.
+Chaos Kansei — Testing and Bug Fixing.
+Jean Carlos Luna (Tomatuv Games) — Testing and Bug Fixing.
+AstorMilanese — Low Poly Reflector.
+jQueary — Bell.
+Yorktown Font - Typographer Mediengestaltung — Typography Design.
+
+Special thanks to everyone who contributed during the development, testing, and release of the project.
+
+Usage and Permissions
+
+Redistribution, republication, extraction, modification, or incorporation of this content into other projects is not permitted without prior authorization from its authors.
+
+To request permission, create a translation, or use any resource from the mod, please contact the responsible author or team directly.
+
+Copyright
+
+© 2026 Galy Studio. Original resources created specifically for this project belong to their respective authors and contributors.</div>
     ]]></content:encoded>
-      <pubDate>Thu, 01 Oct 2026 01:38:59 +0000</pubDate>
+      <pubDate>Mon, 05 Oct 2026 00:06:39 +0000</pubDate>
     </item>
     <item>
-      <title>[ Mod ] GTA V Speeding Car Ambience</title>
-      <link>https://www.gamemaps.com/details/36587</link>
-      <guid>https://www.gamemaps.com/details/36587</guid>
+      <title>[ Map ] MY MOD COMBINATIONS</title>
+      <link>https://www.gamemaps.com/details/36590</link>
+      <guid>https://www.gamemaps.com/details/36590</guid>
       <description><![CDATA[
     
     <style>
@@ -3758,7 +1244,7 @@ Zombie escape map ported from Counter-Strike Source</div>
         }
     </style>
     
-    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36587" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
+    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36590" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
     
     <div class="gm-media-label">Media</div>
     <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
@@ -3769,21 +1255,21 @@ Zombie escape map ported from Counter-Strike Source</div>
             <div class="spoilerGalleryGrid">
                 
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/gta_v_speeding_car_ambience_36587_0.jpg?1790782423"
-               data-gm-gallery="gm-gallery-36587"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/my_mod_combinations_36590_0.jpg?1790960314"
+               data-gm-gallery="gm-gallery-36590"
                data-gm-index="0"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36587"
+               data-ipslightbox-group="gm-gallery-36590"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/gta_v_speeding_car_ambience_36587_0.jpg?1790782423" alt="GameMaps media 1" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/my_mod_combinations_36590_0.jpg?1790960314" alt="GameMaps media 1" loading="lazy">
             </a>
             
             </div>
         </div>
     </div>
 
-    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36587" hidden>
+    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36590" hidden>
         <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
         <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
         <img class="gmLightboxImage" src="" alt="">
@@ -3929,33 +1415,12 @@ Zombie escape map ported from Counter-Strike Source</div>
     </script>
     
     
-    <div class="gm-description-text">If you have played GTA V for more then atleast 50-100 hours, you 100% know that quite often you&#x27;ll hear the sound of a speeding car in the distance, and I decided to add it into l4d because I think it fits the creepy atmosphere of l4d honestly, that&#x27;s my opinion, what you most likely didn&#x27;t know is the sound in GTA actually changes depending on where you are on the map, so if your in the city it&#x27;ll sound loud and kinda muffled fsr, and out north towards paleto bay it sounds
-quite quieter and more clear, and I made the loud and muffled one play in maps that are more of a big city that are more likely to be closer to where a speeding car would be, and maps that are more of a smalltown play the quiet and clear one, lemme be more specific:
+    <div class="gm-description-text">This is My Combination Mod:
 
-Loud &amp; Muffled:
-
-The Passing C1-C2
-Hard Rain
-No Mercy
-Crash Course
-Dead Air
-
-Quiet &amp; Clear:
-
-Dead Center
-The Passing C3
-Dark Carnival
-Swamp Fever
-The Parish
-Cold Stream
-Death Toll
-Blood Harvest
-The Sacrifice
-The Last Stand
-
-You also may notice that on Hard Rain the sound is a bit louder then usual, Especially if you muted the sound of the storm, but I adjusted the volumes to fit the ambience so it&#x27;s not too quiet, And if you think I should change something lemme know in a comment and I&#x27;ll let you know
-
-Note: You&#x27;ll still here the audio play even if you get my add-on that mutes ambience, I recommend leaving ambience unmuted</div>
+MAP
+GUN
+SURVIVOR
+(RESIDENT EVIL THEME)</div>
     ]]></description>
       <content:encoded><![CDATA[
     
@@ -4175,7 +1640,7 @@ Note: You&#x27;ll still here the audio play even if you get my add-on that mutes
         }
     </style>
     
-    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36587" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
+    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36590" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
     
     <div class="gm-media-label">Media</div>
     <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
@@ -4186,21 +1651,21 @@ Note: You&#x27;ll still here the audio play even if you get my add-on that mutes
             <div class="spoilerGalleryGrid">
                 
             <a class="spoilerGalleryItem"
-               href="https://www.gamemaps.com/img/addons/l4d2/ss/gta_v_speeding_car_ambience_36587_0.jpg?1790782423"
-               data-gm-gallery="gm-gallery-36587"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/my_mod_combinations_36590_0.jpg?1790960314"
+               data-gm-gallery="gm-gallery-36590"
                data-gm-index="0"
                data-ipslightbox
-               data-ipslightbox-group="gm-gallery-36587"
+               data-ipslightbox-group="gm-gallery-36590"
                target="_blank"
                rel="noopener noreferrer">
-                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/gta_v_speeding_car_ambience_36587_0.jpg?1790782423" alt="GameMaps media 1" loading="lazy">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/my_mod_combinations_36590_0.jpg?1790960314" alt="GameMaps media 1" loading="lazy">
             </a>
             
             </div>
         </div>
     </div>
 
-    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36587" hidden>
+    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36590" hidden>
         <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
         <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
         <img class="gmLightboxImage" src="" alt="">
@@ -4346,35 +1811,2442 @@ Note: You&#x27;ll still here the audio play even if you get my add-on that mutes
     </script>
     
     
-    <div class="gm-description-text">If you have played GTA V for more then atleast 50-100 hours, you 100% know that quite often you&#x27;ll hear the sound of a speeding car in the distance, and I decided to add it into l4d because I think it fits the creepy atmosphere of l4d honestly, that&#x27;s my opinion, what you most likely didn&#x27;t know is the sound in GTA actually changes depending on where you are on the map, so if your in the city it&#x27;ll sound loud and kinda muffled fsr, and out north towards paleto bay it sounds
-quite quieter and more clear, and I made the loud and muffled one play in maps that are more of a big city that are more likely to be closer to where a speeding car would be, and maps that are more of a smalltown play the quiet and clear one, lemme be more specific:
+    <div class="gm-description-text">This is My Combination Mod:
 
-Loud &amp; Muffled:
-
-The Passing C1-C2
-Hard Rain
-No Mercy
-Crash Course
-Dead Air
-
-Quiet &amp; Clear:
-
-Dead Center
-The Passing C3
-Dark Carnival
-Swamp Fever
-The Parish
-Cold Stream
-Death Toll
-Blood Harvest
-The Sacrifice
-The Last Stand
-
-You also may notice that on Hard Rain the sound is a bit louder then usual, Especially if you muted the sound of the storm, but I adjusted the volumes to fit the ambience so it&#x27;s not too quiet, And if you think I should change something lemme know in a comment and I&#x27;ll let you know
-
-Note: You&#x27;ll still here the audio play even if you get my add-on that mutes ambience, I recommend leaving ambience unmuted</div>
+MAP
+GUN
+SURVIVOR
+(RESIDENT EVIL THEME)</div>
     ]]></content:encoded>
-      <pubDate>Wed, 30 Sep 2026 15:35:45 +0000</pubDate>
+      <pubDate>Sun, 04 Oct 2026 07:50:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>[ Mod ] Adrenaline Shot Typo And Alpha Channel Fix</title>
+      <link>https://www.gamemaps.com/details/35582</link>
+      <guid>https://www.gamemaps.com/details/35582</guid>
+      <description><![CDATA[
+    
+    <style>
+        .gmLightboxOpen {
+            overflow: hidden;
+        }
+
+        .gm-actions {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin: 0 0 12px 0;
+        }
+
+        .gm-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 38px;
+            padding: 8px 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .gm-btn-article {
+            background: #1d9f61;
+        }
+
+        .gm-btn-steam {
+            background: #1d5fb5;
+        }
+
+        .gm-media-label {
+            margin: 6px 0 8px 0;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: .2px;
+        }
+
+        .cleanSpoilerGallery {
+            margin: 14px 0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header {
+            padding: 11px 14px;
+            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
+            border: 1px solid rgba(255,255,255,.08);
+            border-bottom: 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header span {
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .2px;
+            color: #e8e8e8;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_contents {
+            padding: 12px;
+            background: rgba(255,255,255,.035);
+            border: 1px solid rgba(255,255,255,.08);
+            border-radius: 0 0 10px 10px;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryGrid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: flex-start;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem {
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 8px;
+            background: #111;
+            border: 1px solid rgba(255,255,255,.07);
+            width: 188px;
+            text-decoration: none;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem img {
+            width: 100%;
+            height: 112px;
+            object-fit: cover;
+            display: block;
+            border-radius: 8px;
+            transition: transform .25s ease, filter .25s ease;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
+            transform: scale(1.025);
+            filter: brightness(1.06);
+        }
+
+        .gm-description-text {
+            white-space: pre-wrap;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        .gm-description-text a {
+            color: #1d5fb5;
+            text-decoration: underline;
+        }
+
+        .gm-description-text a.gm-inline-steam {
+            display: inline-block;
+            margin-top: 6px;
+            padding: 3px 8px;
+            border-radius: 6px;
+            border: 1px solid #1d5fb5;
+            text-decoration: none;
+        }
+
+        .gmLightbox {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, .86);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 2147483640;
+            padding: 20px;
+        }
+
+        .gmLightbox.is-open {
+            display: flex;
+        }
+
+        .gmLightboxImage {
+            max-width: min(92vw, 1500px);
+            max-height: 84vh;
+            border-radius: 8px;
+            object-fit: contain;
+            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
+        }
+
+        .gmLightboxBtn {
+            position: fixed;
+            border: 0;
+            background: rgba(22, 22, 22, .75);
+            color: #fff;
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 22px;
+            line-height: 1;
+            padding: 10px 12px;
+        }
+
+        .gmLightboxClose {
+            top: 16px;
+            right: 16px;
+            font-size: 28px;
+            padding: 8px 12px;
+        }
+
+        .gmLightboxPrev {
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxNext {
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxCounter {
+            position: fixed;
+            bottom: 16px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            background: rgba(18, 18, 18, .72);
+            border-radius: 999px;
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        @media (max-width: 640px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: calc(50% - 5px);
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 105px;
+            }
+
+            .gm-btn {
+                width: 100%;
+            }
+
+            .gmLightboxPrev,
+            .gmLightboxNext {
+                font-size: 18px;
+                padding: 8px 10px;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: 100%;
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 150px;
+            }
+        }
+    </style>
+    
+    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/35582" target="_blank" rel="nofollow noopener noreferrer">View Article</a><a class="gm-btn gm-btn-steam" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3698304592" target="_blank" rel="nofollow noopener noreferrer">Steam Workshop</a></div>
+    
+    <div class="gm-media-label">Media</div>
+    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
+        <div class="ipsSpoiler_header">
+            <span>Media gallery</span>
+        </div>
+        <div class="ipsSpoiler_contents ipsClearfix">
+            <div class="spoilerGalleryGrid">
+                
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/adrenaline_shot_typo_fix_35582_0.jpg?1775195862"
+               data-gm-gallery="gm-gallery-35582"
+               data-gm-index="0"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-35582"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/adrenaline_shot_typo_fix_35582_0.jpg?1775195862" alt="GameMaps media 1" loading="lazy">
+            </a>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="gmLightbox" data-gm-lightbox="gm-gallery-35582" hidden>
+        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
+        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
+        <img class="gmLightboxImage" src="" alt="">
+        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
+        <div class="gmLightboxCounter">1 / 1</div>
+    </div>
+
+    
+    <script>
+    (function () {
+        if (window.__gmGalleryInitialized) {
+            return;
+        }
+        window.__gmGalleryInitialized = true;
+
+        function getOpenModal() {
+            return document.querySelector('.gmLightbox.is-open');
+        }
+
+        function getGalleryLinks(group) {
+            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
+            return allLinks.filter(function (link) {
+                return link.getAttribute('data-gm-gallery') === group;
+            });
+        }
+
+        function closeModal(modal) {
+            if (!modal) {
+                return;
+            }
+            modal.classList.remove('is-open');
+            modal.setAttribute('hidden', 'hidden');
+            var image = modal.querySelector('.gmLightboxImage');
+            if (image) {
+                image.removeAttribute('src');
+            }
+            document.documentElement.classList.remove('gmLightboxOpen');
+        }
+
+        function renderModal(modal) {
+            var links = modal.__gmLinks || [];
+            if (!links.length) {
+                return;
+            }
+
+            var index = modal.__gmIndex || 0;
+            if (index < 0) {
+                index = links.length - 1;
+            }
+            if (index >= links.length) {
+                index = 0;
+            }
+
+            modal.__gmIndex = index;
+            var activeLink = links[index];
+            var image = modal.querySelector('.gmLightboxImage');
+            var thumb = activeLink.querySelector('img');
+            var counter = modal.querySelector('.gmLightboxCounter');
+
+            if (image) {
+                image.setAttribute('src', activeLink.getAttribute('href'));
+                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
+            }
+
+            if (counter) {
+                counter.textContent = (index + 1) + ' / ' + links.length;
+            }
+        }
+
+        function openModal(modal, links, startIndex) {
+            if (!modal || !links.length) {
+                return;
+            }
+            modal.__gmLinks = links;
+            modal.__gmIndex = startIndex;
+            renderModal(modal);
+            modal.removeAttribute('hidden');
+            modal.classList.add('is-open');
+            document.documentElement.classList.add('gmLightboxOpen');
+        }
+
+        function stepModal(modal, delta) {
+            if (!modal) {
+                return;
+            }
+            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
+            renderModal(modal);
+        }
+
+        document.addEventListener('click', function (event) {
+            var galleryItem = event.target.closest('a[data-gm-gallery]');
+            if (galleryItem) {
+                var group = galleryItem.getAttribute('data-gm-gallery');
+                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
+                var links = getGalleryLinks(group);
+                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
+                if (modal && links.length) {
+                    event.preventDefault();
+                    openModal(modal, links, startIndex);
+                }
+                return;
+            }
+
+            var closeButton = event.target.closest('.gmLightboxClose');
+            if (closeButton) {
+                closeModal(closeButton.closest('.gmLightbox'));
+                return;
+            }
+
+            var prevButton = event.target.closest('.gmLightboxPrev');
+            if (prevButton) {
+                stepModal(prevButton.closest('.gmLightbox'), -1);
+                return;
+            }
+
+            var nextButton = event.target.closest('.gmLightboxNext');
+            if (nextButton) {
+                stepModal(nextButton.closest('.gmLightbox'), 1);
+                return;
+            }
+
+            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
+            if (openModalElement) {
+                closeModal(openModalElement);
+            }
+        });
+
+        document.addEventListener('keydown', function (event) {
+            var modal = getOpenModal();
+            if (!modal) {
+                return;
+            }
+
+            if (event.key === 'Escape') {
+                closeModal(modal);
+            } else if (event.key === 'ArrowLeft') {
+                stepModal(modal, -1);
+            } else if (event.key === 'ArrowRight') {
+                stepModal(modal, 1);
+            }
+        });
+    })();
+    </script>
+    
+    
+    <div class="gm-description-text">This fixes the typo in the Adrenaline label and modifies the VMTs to restore the alpha channel, making the game finally playable.
+
+Alternate file sources:
+
+Steam Workshop</div>
+    ]]></description>
+      <content:encoded><![CDATA[
+    
+    <style>
+        .gmLightboxOpen {
+            overflow: hidden;
+        }
+
+        .gm-actions {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin: 0 0 12px 0;
+        }
+
+        .gm-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 38px;
+            padding: 8px 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .gm-btn-article {
+            background: #1d9f61;
+        }
+
+        .gm-btn-steam {
+            background: #1d5fb5;
+        }
+
+        .gm-media-label {
+            margin: 6px 0 8px 0;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: .2px;
+        }
+
+        .cleanSpoilerGallery {
+            margin: 14px 0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header {
+            padding: 11px 14px;
+            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
+            border: 1px solid rgba(255,255,255,.08);
+            border-bottom: 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header span {
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .2px;
+            color: #e8e8e8;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_contents {
+            padding: 12px;
+            background: rgba(255,255,255,.035);
+            border: 1px solid rgba(255,255,255,.08);
+            border-radius: 0 0 10px 10px;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryGrid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: flex-start;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem {
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 8px;
+            background: #111;
+            border: 1px solid rgba(255,255,255,.07);
+            width: 188px;
+            text-decoration: none;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem img {
+            width: 100%;
+            height: 112px;
+            object-fit: cover;
+            display: block;
+            border-radius: 8px;
+            transition: transform .25s ease, filter .25s ease;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
+            transform: scale(1.025);
+            filter: brightness(1.06);
+        }
+
+        .gm-description-text {
+            white-space: pre-wrap;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        .gm-description-text a {
+            color: #1d5fb5;
+            text-decoration: underline;
+        }
+
+        .gm-description-text a.gm-inline-steam {
+            display: inline-block;
+            margin-top: 6px;
+            padding: 3px 8px;
+            border-radius: 6px;
+            border: 1px solid #1d5fb5;
+            text-decoration: none;
+        }
+
+        .gmLightbox {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, .86);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 2147483640;
+            padding: 20px;
+        }
+
+        .gmLightbox.is-open {
+            display: flex;
+        }
+
+        .gmLightboxImage {
+            max-width: min(92vw, 1500px);
+            max-height: 84vh;
+            border-radius: 8px;
+            object-fit: contain;
+            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
+        }
+
+        .gmLightboxBtn {
+            position: fixed;
+            border: 0;
+            background: rgba(22, 22, 22, .75);
+            color: #fff;
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 22px;
+            line-height: 1;
+            padding: 10px 12px;
+        }
+
+        .gmLightboxClose {
+            top: 16px;
+            right: 16px;
+            font-size: 28px;
+            padding: 8px 12px;
+        }
+
+        .gmLightboxPrev {
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxNext {
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxCounter {
+            position: fixed;
+            bottom: 16px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            background: rgba(18, 18, 18, .72);
+            border-radius: 999px;
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        @media (max-width: 640px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: calc(50% - 5px);
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 105px;
+            }
+
+            .gm-btn {
+                width: 100%;
+            }
+
+            .gmLightboxPrev,
+            .gmLightboxNext {
+                font-size: 18px;
+                padding: 8px 10px;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: 100%;
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 150px;
+            }
+        }
+    </style>
+    
+    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/35582" target="_blank" rel="nofollow noopener noreferrer">View Article</a><a class="gm-btn gm-btn-steam" href="https://steamcommunity.com/sharedfiles/filedetails/?id=3698304592" target="_blank" rel="nofollow noopener noreferrer">Steam Workshop</a></div>
+    
+    <div class="gm-media-label">Media</div>
+    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
+        <div class="ipsSpoiler_header">
+            <span>Media gallery</span>
+        </div>
+        <div class="ipsSpoiler_contents ipsClearfix">
+            <div class="spoilerGalleryGrid">
+                
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/adrenaline_shot_typo_fix_35582_0.jpg?1775195862"
+               data-gm-gallery="gm-gallery-35582"
+               data-gm-index="0"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-35582"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/adrenaline_shot_typo_fix_35582_0.jpg?1775195862" alt="GameMaps media 1" loading="lazy">
+            </a>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="gmLightbox" data-gm-lightbox="gm-gallery-35582" hidden>
+        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
+        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
+        <img class="gmLightboxImage" src="" alt="">
+        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
+        <div class="gmLightboxCounter">1 / 1</div>
+    </div>
+
+    
+    <script>
+    (function () {
+        if (window.__gmGalleryInitialized) {
+            return;
+        }
+        window.__gmGalleryInitialized = true;
+
+        function getOpenModal() {
+            return document.querySelector('.gmLightbox.is-open');
+        }
+
+        function getGalleryLinks(group) {
+            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
+            return allLinks.filter(function (link) {
+                return link.getAttribute('data-gm-gallery') === group;
+            });
+        }
+
+        function closeModal(modal) {
+            if (!modal) {
+                return;
+            }
+            modal.classList.remove('is-open');
+            modal.setAttribute('hidden', 'hidden');
+            var image = modal.querySelector('.gmLightboxImage');
+            if (image) {
+                image.removeAttribute('src');
+            }
+            document.documentElement.classList.remove('gmLightboxOpen');
+        }
+
+        function renderModal(modal) {
+            var links = modal.__gmLinks || [];
+            if (!links.length) {
+                return;
+            }
+
+            var index = modal.__gmIndex || 0;
+            if (index < 0) {
+                index = links.length - 1;
+            }
+            if (index >= links.length) {
+                index = 0;
+            }
+
+            modal.__gmIndex = index;
+            var activeLink = links[index];
+            var image = modal.querySelector('.gmLightboxImage');
+            var thumb = activeLink.querySelector('img');
+            var counter = modal.querySelector('.gmLightboxCounter');
+
+            if (image) {
+                image.setAttribute('src', activeLink.getAttribute('href'));
+                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
+            }
+
+            if (counter) {
+                counter.textContent = (index + 1) + ' / ' + links.length;
+            }
+        }
+
+        function openModal(modal, links, startIndex) {
+            if (!modal || !links.length) {
+                return;
+            }
+            modal.__gmLinks = links;
+            modal.__gmIndex = startIndex;
+            renderModal(modal);
+            modal.removeAttribute('hidden');
+            modal.classList.add('is-open');
+            document.documentElement.classList.add('gmLightboxOpen');
+        }
+
+        function stepModal(modal, delta) {
+            if (!modal) {
+                return;
+            }
+            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
+            renderModal(modal);
+        }
+
+        document.addEventListener('click', function (event) {
+            var galleryItem = event.target.closest('a[data-gm-gallery]');
+            if (galleryItem) {
+                var group = galleryItem.getAttribute('data-gm-gallery');
+                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
+                var links = getGalleryLinks(group);
+                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
+                if (modal && links.length) {
+                    event.preventDefault();
+                    openModal(modal, links, startIndex);
+                }
+                return;
+            }
+
+            var closeButton = event.target.closest('.gmLightboxClose');
+            if (closeButton) {
+                closeModal(closeButton.closest('.gmLightbox'));
+                return;
+            }
+
+            var prevButton = event.target.closest('.gmLightboxPrev');
+            if (prevButton) {
+                stepModal(prevButton.closest('.gmLightbox'), -1);
+                return;
+            }
+
+            var nextButton = event.target.closest('.gmLightboxNext');
+            if (nextButton) {
+                stepModal(nextButton.closest('.gmLightbox'), 1);
+                return;
+            }
+
+            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
+            if (openModalElement) {
+                closeModal(openModalElement);
+            }
+        });
+
+        document.addEventListener('keydown', function (event) {
+            var modal = getOpenModal();
+            if (!modal) {
+                return;
+            }
+
+            if (event.key === 'Escape') {
+                closeModal(modal);
+            } else if (event.key === 'ArrowLeft') {
+                stepModal(modal, -1);
+            } else if (event.key === 'ArrowRight') {
+                stepModal(modal, 1);
+            }
+        });
+    })();
+    </script>
+    
+    
+    <div class="gm-description-text">This fixes the typo in the Adrenaline label and modifies the VMTs to restore the alpha channel, making the game finally playable.
+
+Alternate file sources:
+
+Steam Workshop</div>
+    ]]></content:encoded>
+      <pubDate>Sun, 04 Oct 2026 01:29:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>[ Mod ] Krugger 36 LMG (Heckler &amp; Koch MG36) M16A2</title>
+      <link>https://www.gamemaps.com/details/36594</link>
+      <guid>https://www.gamemaps.com/details/36594</guid>
+      <description><![CDATA[
+    
+    <style>
+        .gmLightboxOpen {
+            overflow: hidden;
+        }
+
+        .gm-actions {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin: 0 0 12px 0;
+        }
+
+        .gm-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 38px;
+            padding: 8px 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .gm-btn-article {
+            background: #1d9f61;
+        }
+
+        .gm-btn-steam {
+            background: #1d5fb5;
+        }
+
+        .gm-media-label {
+            margin: 6px 0 8px 0;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: .2px;
+        }
+
+        .cleanSpoilerGallery {
+            margin: 14px 0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header {
+            padding: 11px 14px;
+            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
+            border: 1px solid rgba(255,255,255,.08);
+            border-bottom: 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header span {
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .2px;
+            color: #e8e8e8;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_contents {
+            padding: 12px;
+            background: rgba(255,255,255,.035);
+            border: 1px solid rgba(255,255,255,.08);
+            border-radius: 0 0 10px 10px;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryGrid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: flex-start;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem {
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 8px;
+            background: #111;
+            border: 1px solid rgba(255,255,255,.07);
+            width: 188px;
+            text-decoration: none;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem img {
+            width: 100%;
+            height: 112px;
+            object-fit: cover;
+            display: block;
+            border-radius: 8px;
+            transition: transform .25s ease, filter .25s ease;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
+            transform: scale(1.025);
+            filter: brightness(1.06);
+        }
+
+        .gm-description-text {
+            white-space: pre-wrap;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        .gm-description-text a {
+            color: #1d5fb5;
+            text-decoration: underline;
+        }
+
+        .gm-description-text a.gm-inline-steam {
+            display: inline-block;
+            margin-top: 6px;
+            padding: 3px 8px;
+            border-radius: 6px;
+            border: 1px solid #1d5fb5;
+            text-decoration: none;
+        }
+
+        .gmLightbox {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, .86);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 2147483640;
+            padding: 20px;
+        }
+
+        .gmLightbox.is-open {
+            display: flex;
+        }
+
+        .gmLightboxImage {
+            max-width: min(92vw, 1500px);
+            max-height: 84vh;
+            border-radius: 8px;
+            object-fit: contain;
+            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
+        }
+
+        .gmLightboxBtn {
+            position: fixed;
+            border: 0;
+            background: rgba(22, 22, 22, .75);
+            color: #fff;
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 22px;
+            line-height: 1;
+            padding: 10px 12px;
+        }
+
+        .gmLightboxClose {
+            top: 16px;
+            right: 16px;
+            font-size: 28px;
+            padding: 8px 12px;
+        }
+
+        .gmLightboxPrev {
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxNext {
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxCounter {
+            position: fixed;
+            bottom: 16px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            background: rgba(18, 18, 18, .72);
+            border-radius: 999px;
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        @media (max-width: 640px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: calc(50% - 5px);
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 105px;
+            }
+
+            .gm-btn {
+                width: 100%;
+            }
+
+            .gmLightboxPrev,
+            .gmLightboxNext {
+                font-size: 18px;
+                padding: 8px 10px;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: 100%;
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 150px;
+            }
+        }
+    </style>
+    
+    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36594" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
+    
+    <div class="gm-media-label">Media</div>
+    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
+        <div class="ipsSpoiler_header">
+            <span>Media gallery</span>
+        </div>
+        <div class="ipsSpoiler_contents ipsClearfix">
+            <div class="spoilerGalleryGrid">
+                
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/krugger_36_lmg__heckler___koch_mg36__m16a2_36594_0.jpg?1791017167"
+               data-gm-gallery="gm-gallery-36594"
+               data-gm-index="0"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36594"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/krugger_36_lmg__heckler___koch_mg36__m16a2_36594_0.jpg?1791017167" alt="GameMaps media 1" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/krugger_36_lmg__heckler___koch_mg36__m16a2_36594_1.jpg?1791017167"
+               data-gm-gallery="gm-gallery-36594"
+               data-gm-index="1"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36594"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/krugger_36_lmg__heckler___koch_mg36__m16a2_36594_1.jpg?1791017167" alt="GameMaps media 2" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/krugger_36_lmg__heckler___koch_mg36__m16a2_36594_2.jpg?1791017167"
+               data-gm-gallery="gm-gallery-36594"
+               data-gm-index="2"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36594"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/krugger_36_lmg__heckler___koch_mg36__m16a2_36594_2.jpg?1791017167" alt="GameMaps media 3" loading="lazy">
+            </a>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36594" hidden>
+        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
+        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
+        <img class="gmLightboxImage" src="" alt="">
+        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
+        <div class="gmLightboxCounter">1 / 3</div>
+    </div>
+
+    
+    <script>
+    (function () {
+        if (window.__gmGalleryInitialized) {
+            return;
+        }
+        window.__gmGalleryInitialized = true;
+
+        function getOpenModal() {
+            return document.querySelector('.gmLightbox.is-open');
+        }
+
+        function getGalleryLinks(group) {
+            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
+            return allLinks.filter(function (link) {
+                return link.getAttribute('data-gm-gallery') === group;
+            });
+        }
+
+        function closeModal(modal) {
+            if (!modal) {
+                return;
+            }
+            modal.classList.remove('is-open');
+            modal.setAttribute('hidden', 'hidden');
+            var image = modal.querySelector('.gmLightboxImage');
+            if (image) {
+                image.removeAttribute('src');
+            }
+            document.documentElement.classList.remove('gmLightboxOpen');
+        }
+
+        function renderModal(modal) {
+            var links = modal.__gmLinks || [];
+            if (!links.length) {
+                return;
+            }
+
+            var index = modal.__gmIndex || 0;
+            if (index < 0) {
+                index = links.length - 1;
+            }
+            if (index >= links.length) {
+                index = 0;
+            }
+
+            modal.__gmIndex = index;
+            var activeLink = links[index];
+            var image = modal.querySelector('.gmLightboxImage');
+            var thumb = activeLink.querySelector('img');
+            var counter = modal.querySelector('.gmLightboxCounter');
+
+            if (image) {
+                image.setAttribute('src', activeLink.getAttribute('href'));
+                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
+            }
+
+            if (counter) {
+                counter.textContent = (index + 1) + ' / ' + links.length;
+            }
+        }
+
+        function openModal(modal, links, startIndex) {
+            if (!modal || !links.length) {
+                return;
+            }
+            modal.__gmLinks = links;
+            modal.__gmIndex = startIndex;
+            renderModal(modal);
+            modal.removeAttribute('hidden');
+            modal.classList.add('is-open');
+            document.documentElement.classList.add('gmLightboxOpen');
+        }
+
+        function stepModal(modal, delta) {
+            if (!modal) {
+                return;
+            }
+            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
+            renderModal(modal);
+        }
+
+        document.addEventListener('click', function (event) {
+            var galleryItem = event.target.closest('a[data-gm-gallery]');
+            if (galleryItem) {
+                var group = galleryItem.getAttribute('data-gm-gallery');
+                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
+                var links = getGalleryLinks(group);
+                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
+                if (modal && links.length) {
+                    event.preventDefault();
+                    openModal(modal, links, startIndex);
+                }
+                return;
+            }
+
+            var closeButton = event.target.closest('.gmLightboxClose');
+            if (closeButton) {
+                closeModal(closeButton.closest('.gmLightbox'));
+                return;
+            }
+
+            var prevButton = event.target.closest('.gmLightboxPrev');
+            if (prevButton) {
+                stepModal(prevButton.closest('.gmLightbox'), -1);
+                return;
+            }
+
+            var nextButton = event.target.closest('.gmLightboxNext');
+            if (nextButton) {
+                stepModal(nextButton.closest('.gmLightbox'), 1);
+                return;
+            }
+
+            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
+            if (openModalElement) {
+                closeModal(openModalElement);
+            }
+        });
+
+        document.addEventListener('keydown', function (event) {
+            var modal = getOpenModal();
+            if (!modal) {
+                return;
+            }
+
+            if (event.key === 'Escape') {
+                closeModal(modal);
+            } else if (event.key === 'ArrowLeft') {
+                stepModal(modal, -1);
+            } else if (event.key === 'ArrowRight') {
+                stepModal(modal, 1);
+            }
+        });
+    })();
+    </script>
+    
+    
+    <div class="gm-description-text">REPLACES M16A2 RIFLE
+
+REPLACES M16A2 RIFLE
+REPLACES M16A2 RIFLE</div>
+    ]]></description>
+      <content:encoded><![CDATA[
+    
+    <style>
+        .gmLightboxOpen {
+            overflow: hidden;
+        }
+
+        .gm-actions {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin: 0 0 12px 0;
+        }
+
+        .gm-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 38px;
+            padding: 8px 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .gm-btn-article {
+            background: #1d9f61;
+        }
+
+        .gm-btn-steam {
+            background: #1d5fb5;
+        }
+
+        .gm-media-label {
+            margin: 6px 0 8px 0;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: .2px;
+        }
+
+        .cleanSpoilerGallery {
+            margin: 14px 0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header {
+            padding: 11px 14px;
+            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
+            border: 1px solid rgba(255,255,255,.08);
+            border-bottom: 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header span {
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .2px;
+            color: #e8e8e8;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_contents {
+            padding: 12px;
+            background: rgba(255,255,255,.035);
+            border: 1px solid rgba(255,255,255,.08);
+            border-radius: 0 0 10px 10px;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryGrid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: flex-start;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem {
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 8px;
+            background: #111;
+            border: 1px solid rgba(255,255,255,.07);
+            width: 188px;
+            text-decoration: none;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem img {
+            width: 100%;
+            height: 112px;
+            object-fit: cover;
+            display: block;
+            border-radius: 8px;
+            transition: transform .25s ease, filter .25s ease;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
+            transform: scale(1.025);
+            filter: brightness(1.06);
+        }
+
+        .gm-description-text {
+            white-space: pre-wrap;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        .gm-description-text a {
+            color: #1d5fb5;
+            text-decoration: underline;
+        }
+
+        .gm-description-text a.gm-inline-steam {
+            display: inline-block;
+            margin-top: 6px;
+            padding: 3px 8px;
+            border-radius: 6px;
+            border: 1px solid #1d5fb5;
+            text-decoration: none;
+        }
+
+        .gmLightbox {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, .86);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 2147483640;
+            padding: 20px;
+        }
+
+        .gmLightbox.is-open {
+            display: flex;
+        }
+
+        .gmLightboxImage {
+            max-width: min(92vw, 1500px);
+            max-height: 84vh;
+            border-radius: 8px;
+            object-fit: contain;
+            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
+        }
+
+        .gmLightboxBtn {
+            position: fixed;
+            border: 0;
+            background: rgba(22, 22, 22, .75);
+            color: #fff;
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 22px;
+            line-height: 1;
+            padding: 10px 12px;
+        }
+
+        .gmLightboxClose {
+            top: 16px;
+            right: 16px;
+            font-size: 28px;
+            padding: 8px 12px;
+        }
+
+        .gmLightboxPrev {
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxNext {
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxCounter {
+            position: fixed;
+            bottom: 16px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            background: rgba(18, 18, 18, .72);
+            border-radius: 999px;
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        @media (max-width: 640px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: calc(50% - 5px);
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 105px;
+            }
+
+            .gm-btn {
+                width: 100%;
+            }
+
+            .gmLightboxPrev,
+            .gmLightboxNext {
+                font-size: 18px;
+                padding: 8px 10px;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: 100%;
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 150px;
+            }
+        }
+    </style>
+    
+    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36594" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
+    
+    <div class="gm-media-label">Media</div>
+    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
+        <div class="ipsSpoiler_header">
+            <span>Media gallery</span>
+        </div>
+        <div class="ipsSpoiler_contents ipsClearfix">
+            <div class="spoilerGalleryGrid">
+                
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/krugger_36_lmg__heckler___koch_mg36__m16a2_36594_0.jpg?1791017167"
+               data-gm-gallery="gm-gallery-36594"
+               data-gm-index="0"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36594"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/krugger_36_lmg__heckler___koch_mg36__m16a2_36594_0.jpg?1791017167" alt="GameMaps media 1" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/krugger_36_lmg__heckler___koch_mg36__m16a2_36594_1.jpg?1791017167"
+               data-gm-gallery="gm-gallery-36594"
+               data-gm-index="1"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36594"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/krugger_36_lmg__heckler___koch_mg36__m16a2_36594_1.jpg?1791017167" alt="GameMaps media 2" loading="lazy">
+            </a>
+            
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/krugger_36_lmg__heckler___koch_mg36__m16a2_36594_2.jpg?1791017167"
+               data-gm-gallery="gm-gallery-36594"
+               data-gm-index="2"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36594"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/krugger_36_lmg__heckler___koch_mg36__m16a2_36594_2.jpg?1791017167" alt="GameMaps media 3" loading="lazy">
+            </a>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36594" hidden>
+        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
+        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
+        <img class="gmLightboxImage" src="" alt="">
+        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
+        <div class="gmLightboxCounter">1 / 3</div>
+    </div>
+
+    
+    <script>
+    (function () {
+        if (window.__gmGalleryInitialized) {
+            return;
+        }
+        window.__gmGalleryInitialized = true;
+
+        function getOpenModal() {
+            return document.querySelector('.gmLightbox.is-open');
+        }
+
+        function getGalleryLinks(group) {
+            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
+            return allLinks.filter(function (link) {
+                return link.getAttribute('data-gm-gallery') === group;
+            });
+        }
+
+        function closeModal(modal) {
+            if (!modal) {
+                return;
+            }
+            modal.classList.remove('is-open');
+            modal.setAttribute('hidden', 'hidden');
+            var image = modal.querySelector('.gmLightboxImage');
+            if (image) {
+                image.removeAttribute('src');
+            }
+            document.documentElement.classList.remove('gmLightboxOpen');
+        }
+
+        function renderModal(modal) {
+            var links = modal.__gmLinks || [];
+            if (!links.length) {
+                return;
+            }
+
+            var index = modal.__gmIndex || 0;
+            if (index < 0) {
+                index = links.length - 1;
+            }
+            if (index >= links.length) {
+                index = 0;
+            }
+
+            modal.__gmIndex = index;
+            var activeLink = links[index];
+            var image = modal.querySelector('.gmLightboxImage');
+            var thumb = activeLink.querySelector('img');
+            var counter = modal.querySelector('.gmLightboxCounter');
+
+            if (image) {
+                image.setAttribute('src', activeLink.getAttribute('href'));
+                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
+            }
+
+            if (counter) {
+                counter.textContent = (index + 1) + ' / ' + links.length;
+            }
+        }
+
+        function openModal(modal, links, startIndex) {
+            if (!modal || !links.length) {
+                return;
+            }
+            modal.__gmLinks = links;
+            modal.__gmIndex = startIndex;
+            renderModal(modal);
+            modal.removeAttribute('hidden');
+            modal.classList.add('is-open');
+            document.documentElement.classList.add('gmLightboxOpen');
+        }
+
+        function stepModal(modal, delta) {
+            if (!modal) {
+                return;
+            }
+            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
+            renderModal(modal);
+        }
+
+        document.addEventListener('click', function (event) {
+            var galleryItem = event.target.closest('a[data-gm-gallery]');
+            if (galleryItem) {
+                var group = galleryItem.getAttribute('data-gm-gallery');
+                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
+                var links = getGalleryLinks(group);
+                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
+                if (modal && links.length) {
+                    event.preventDefault();
+                    openModal(modal, links, startIndex);
+                }
+                return;
+            }
+
+            var closeButton = event.target.closest('.gmLightboxClose');
+            if (closeButton) {
+                closeModal(closeButton.closest('.gmLightbox'));
+                return;
+            }
+
+            var prevButton = event.target.closest('.gmLightboxPrev');
+            if (prevButton) {
+                stepModal(prevButton.closest('.gmLightbox'), -1);
+                return;
+            }
+
+            var nextButton = event.target.closest('.gmLightboxNext');
+            if (nextButton) {
+                stepModal(nextButton.closest('.gmLightbox'), 1);
+                return;
+            }
+
+            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
+            if (openModalElement) {
+                closeModal(openModalElement);
+            }
+        });
+
+        document.addEventListener('keydown', function (event) {
+            var modal = getOpenModal();
+            if (!modal) {
+                return;
+            }
+
+            if (event.key === 'Escape') {
+                closeModal(modal);
+            } else if (event.key === 'ArrowLeft') {
+                stepModal(modal, -1);
+            } else if (event.key === 'ArrowRight') {
+                stepModal(modal, 1);
+            }
+        });
+    })();
+    </script>
+    
+    
+    <div class="gm-description-text">REPLACES M16A2 RIFLE
+
+REPLACES M16A2 RIFLE
+REPLACES M16A2 RIFLE</div>
+    ]]></content:encoded>
+      <pubDate>Sat, 03 Oct 2026 08:49:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>[ Mod ] BF6 M417A2 M16A2 RIFLE</title>
+      <link>https://www.gamemaps.com/details/36593</link>
+      <guid>https://www.gamemaps.com/details/36593</guid>
+      <description><![CDATA[
+    
+    <style>
+        .gmLightboxOpen {
+            overflow: hidden;
+        }
+
+        .gm-actions {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin: 0 0 12px 0;
+        }
+
+        .gm-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 38px;
+            padding: 8px 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .gm-btn-article {
+            background: #1d9f61;
+        }
+
+        .gm-btn-steam {
+            background: #1d5fb5;
+        }
+
+        .gm-media-label {
+            margin: 6px 0 8px 0;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: .2px;
+        }
+
+        .cleanSpoilerGallery {
+            margin: 14px 0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header {
+            padding: 11px 14px;
+            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
+            border: 1px solid rgba(255,255,255,.08);
+            border-bottom: 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header span {
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .2px;
+            color: #e8e8e8;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_contents {
+            padding: 12px;
+            background: rgba(255,255,255,.035);
+            border: 1px solid rgba(255,255,255,.08);
+            border-radius: 0 0 10px 10px;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryGrid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: flex-start;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem {
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 8px;
+            background: #111;
+            border: 1px solid rgba(255,255,255,.07);
+            width: 188px;
+            text-decoration: none;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem img {
+            width: 100%;
+            height: 112px;
+            object-fit: cover;
+            display: block;
+            border-radius: 8px;
+            transition: transform .25s ease, filter .25s ease;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
+            transform: scale(1.025);
+            filter: brightness(1.06);
+        }
+
+        .gm-description-text {
+            white-space: pre-wrap;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        .gm-description-text a {
+            color: #1d5fb5;
+            text-decoration: underline;
+        }
+
+        .gm-description-text a.gm-inline-steam {
+            display: inline-block;
+            margin-top: 6px;
+            padding: 3px 8px;
+            border-radius: 6px;
+            border: 1px solid #1d5fb5;
+            text-decoration: none;
+        }
+
+        .gmLightbox {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, .86);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 2147483640;
+            padding: 20px;
+        }
+
+        .gmLightbox.is-open {
+            display: flex;
+        }
+
+        .gmLightboxImage {
+            max-width: min(92vw, 1500px);
+            max-height: 84vh;
+            border-radius: 8px;
+            object-fit: contain;
+            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
+        }
+
+        .gmLightboxBtn {
+            position: fixed;
+            border: 0;
+            background: rgba(22, 22, 22, .75);
+            color: #fff;
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 22px;
+            line-height: 1;
+            padding: 10px 12px;
+        }
+
+        .gmLightboxClose {
+            top: 16px;
+            right: 16px;
+            font-size: 28px;
+            padding: 8px 12px;
+        }
+
+        .gmLightboxPrev {
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxNext {
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxCounter {
+            position: fixed;
+            bottom: 16px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            background: rgba(18, 18, 18, .72);
+            border-radius: 999px;
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        @media (max-width: 640px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: calc(50% - 5px);
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 105px;
+            }
+
+            .gm-btn {
+                width: 100%;
+            }
+
+            .gmLightboxPrev,
+            .gmLightboxNext {
+                font-size: 18px;
+                padding: 8px 10px;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: 100%;
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 150px;
+            }
+        }
+    </style>
+    
+    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36593" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
+    
+    <div class="gm-media-label">Media</div>
+    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
+        <div class="ipsSpoiler_header">
+            <span>Media gallery</span>
+        </div>
+        <div class="ipsSpoiler_contents ipsClearfix">
+            <div class="spoilerGalleryGrid">
+                
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/bf6_m417a2_m16a2_rifle_36593_0.jpg?1791016779"
+               data-gm-gallery="gm-gallery-36593"
+               data-gm-index="0"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36593"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/bf6_m417a2_m16a2_rifle_36593_0.jpg?1791016779" alt="GameMaps media 1" loading="lazy">
+            </a>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36593" hidden>
+        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
+        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
+        <img class="gmLightboxImage" src="" alt="">
+        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
+        <div class="gmLightboxCounter">1 / 1</div>
+    </div>
+
+    
+    <script>
+    (function () {
+        if (window.__gmGalleryInitialized) {
+            return;
+        }
+        window.__gmGalleryInitialized = true;
+
+        function getOpenModal() {
+            return document.querySelector('.gmLightbox.is-open');
+        }
+
+        function getGalleryLinks(group) {
+            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
+            return allLinks.filter(function (link) {
+                return link.getAttribute('data-gm-gallery') === group;
+            });
+        }
+
+        function closeModal(modal) {
+            if (!modal) {
+                return;
+            }
+            modal.classList.remove('is-open');
+            modal.setAttribute('hidden', 'hidden');
+            var image = modal.querySelector('.gmLightboxImage');
+            if (image) {
+                image.removeAttribute('src');
+            }
+            document.documentElement.classList.remove('gmLightboxOpen');
+        }
+
+        function renderModal(modal) {
+            var links = modal.__gmLinks || [];
+            if (!links.length) {
+                return;
+            }
+
+            var index = modal.__gmIndex || 0;
+            if (index < 0) {
+                index = links.length - 1;
+            }
+            if (index >= links.length) {
+                index = 0;
+            }
+
+            modal.__gmIndex = index;
+            var activeLink = links[index];
+            var image = modal.querySelector('.gmLightboxImage');
+            var thumb = activeLink.querySelector('img');
+            var counter = modal.querySelector('.gmLightboxCounter');
+
+            if (image) {
+                image.setAttribute('src', activeLink.getAttribute('href'));
+                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
+            }
+
+            if (counter) {
+                counter.textContent = (index + 1) + ' / ' + links.length;
+            }
+        }
+
+        function openModal(modal, links, startIndex) {
+            if (!modal || !links.length) {
+                return;
+            }
+            modal.__gmLinks = links;
+            modal.__gmIndex = startIndex;
+            renderModal(modal);
+            modal.removeAttribute('hidden');
+            modal.classList.add('is-open');
+            document.documentElement.classList.add('gmLightboxOpen');
+        }
+
+        function stepModal(modal, delta) {
+            if (!modal) {
+                return;
+            }
+            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
+            renderModal(modal);
+        }
+
+        document.addEventListener('click', function (event) {
+            var galleryItem = event.target.closest('a[data-gm-gallery]');
+            if (galleryItem) {
+                var group = galleryItem.getAttribute('data-gm-gallery');
+                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
+                var links = getGalleryLinks(group);
+                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
+                if (modal && links.length) {
+                    event.preventDefault();
+                    openModal(modal, links, startIndex);
+                }
+                return;
+            }
+
+            var closeButton = event.target.closest('.gmLightboxClose');
+            if (closeButton) {
+                closeModal(closeButton.closest('.gmLightbox'));
+                return;
+            }
+
+            var prevButton = event.target.closest('.gmLightboxPrev');
+            if (prevButton) {
+                stepModal(prevButton.closest('.gmLightbox'), -1);
+                return;
+            }
+
+            var nextButton = event.target.closest('.gmLightboxNext');
+            if (nextButton) {
+                stepModal(nextButton.closest('.gmLightbox'), 1);
+                return;
+            }
+
+            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
+            if (openModalElement) {
+                closeModal(openModalElement);
+            }
+        });
+
+        document.addEventListener('keydown', function (event) {
+            var modal = getOpenModal();
+            if (!modal) {
+                return;
+            }
+
+            if (event.key === 'Escape') {
+                closeModal(modal);
+            } else if (event.key === 'ArrowLeft') {
+                stepModal(modal, -1);
+            } else if (event.key === 'ArrowRight') {
+                stepModal(modal, 1);
+            }
+        });
+    })();
+    </script>
+    
+    
+    <div class="gm-description-text">REPLACES M16A2 RIFLE
+
+REPLACES M16A2 RIFLE
+REPLACES M16A2 RIFLE</div>
+    ]]></description>
+      <content:encoded><![CDATA[
+    
+    <style>
+        .gmLightboxOpen {
+            overflow: hidden;
+        }
+
+        .gm-actions {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin: 0 0 12px 0;
+        }
+
+        .gm-btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 38px;
+            padding: 8px 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .gm-btn-article {
+            background: #1d9f61;
+        }
+
+        .gm-btn-steam {
+            background: #1d5fb5;
+        }
+
+        .gm-media-label {
+            margin: 6px 0 8px 0;
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: .2px;
+        }
+
+        .cleanSpoilerGallery {
+            margin: 14px 0;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header {
+            padding: 11px 14px;
+            background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.03));
+            border: 1px solid rgba(255,255,255,.08);
+            border-bottom: 0;
+            border-radius: 10px 10px 0 0;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_header span {
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .2px;
+            color: #e8e8e8;
+        }
+
+        .cleanSpoilerGallery .ipsSpoiler_contents {
+            padding: 12px;
+            background: rgba(255,255,255,.035);
+            border: 1px solid rgba(255,255,255,.08);
+            border-radius: 0 0 10px 10px;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryGrid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: flex-start;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem {
+            display: inline-block;
+            overflow: hidden;
+            border-radius: 8px;
+            background: #111;
+            border: 1px solid rgba(255,255,255,.07);
+            width: 188px;
+            text-decoration: none;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem img {
+            width: 100%;
+            height: 112px;
+            object-fit: cover;
+            display: block;
+            border-radius: 8px;
+            transition: transform .25s ease, filter .25s ease;
+        }
+
+        .cleanSpoilerGallery .spoilerGalleryItem:hover img {
+            transform: scale(1.025);
+            filter: brightness(1.06);
+        }
+
+        .gm-description-text {
+            white-space: pre-wrap;
+            line-height: 1.6;
+            font-size: 15px;
+        }
+
+        .gm-description-text a {
+            color: #1d5fb5;
+            text-decoration: underline;
+        }
+
+        .gm-description-text a.gm-inline-steam {
+            display: inline-block;
+            margin-top: 6px;
+            padding: 3px 8px;
+            border-radius: 6px;
+            border: 1px solid #1d5fb5;
+            text-decoration: none;
+        }
+
+        .gmLightbox {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, .86);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            z-index: 2147483640;
+            padding: 20px;
+        }
+
+        .gmLightbox.is-open {
+            display: flex;
+        }
+
+        .gmLightboxImage {
+            max-width: min(92vw, 1500px);
+            max-height: 84vh;
+            border-radius: 8px;
+            object-fit: contain;
+            box-shadow: 0 12px 36px rgba(0, 0, 0, .5);
+        }
+
+        .gmLightboxBtn {
+            position: fixed;
+            border: 0;
+            background: rgba(22, 22, 22, .75);
+            color: #fff;
+            cursor: pointer;
+            border-radius: 8px;
+            font-size: 22px;
+            line-height: 1;
+            padding: 10px 12px;
+        }
+
+        .gmLightboxClose {
+            top: 16px;
+            right: 16px;
+            font-size: 28px;
+            padding: 8px 12px;
+        }
+
+        .gmLightboxPrev {
+            left: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxNext {
+            right: 16px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .gmLightboxCounter {
+            position: fixed;
+            bottom: 16px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff;
+            background: rgba(18, 18, 18, .72);
+            border-radius: 999px;
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        @media (max-width: 640px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: calc(50% - 5px);
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 105px;
+            }
+
+            .gm-btn {
+                width: 100%;
+            }
+
+            .gmLightboxPrev,
+            .gmLightboxNext {
+                font-size: 18px;
+                padding: 8px 10px;
+            }
+        }
+
+        @media (max-width: 420px) {
+            .cleanSpoilerGallery .spoilerGalleryItem {
+                width: 100%;
+            }
+
+            .cleanSpoilerGallery .spoilerGalleryItem img {
+                height: 150px;
+            }
+        }
+    </style>
+    
+    <div class="gm-actions"><a class="gm-btn gm-btn-article" href="https://www.gamemaps.com/details/36593" target="_blank" rel="nofollow noopener noreferrer">View Article</a></div>
+    
+    <div class="gm-media-label">Media</div>
+    <div class="ipsSpoiler cleanSpoilerGallery" data-ipsspoiler>
+        <div class="ipsSpoiler_header">
+            <span>Media gallery</span>
+        </div>
+        <div class="ipsSpoiler_contents ipsClearfix">
+            <div class="spoilerGalleryGrid">
+                
+            <a class="spoilerGalleryItem"
+               href="https://www.gamemaps.com/img/addons/l4d2/ss/bf6_m417a2_m16a2_rifle_36593_0.jpg?1791016779"
+               data-gm-gallery="gm-gallery-36593"
+               data-gm-index="0"
+               data-ipslightbox
+               data-ipslightbox-group="gm-gallery-36593"
+               target="_blank"
+               rel="noopener noreferrer">
+                <img src="https://www.gamemaps.com/img/addons/l4d2/ss/bf6_m417a2_m16a2_rifle_36593_0.jpg?1791016779" alt="GameMaps media 1" loading="lazy">
+            </a>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="gmLightbox" data-gm-lightbox="gm-gallery-36593" hidden>
+        <button type="button" class="gmLightboxBtn gmLightboxClose" aria-label="Close">&times;</button>
+        <button type="button" class="gmLightboxBtn gmLightboxPrev" aria-label="Previous image">&#10094;</button>
+        <img class="gmLightboxImage" src="" alt="">
+        <button type="button" class="gmLightboxBtn gmLightboxNext" aria-label="Next image">&#10095;</button>
+        <div class="gmLightboxCounter">1 / 1</div>
+    </div>
+
+    
+    <script>
+    (function () {
+        if (window.__gmGalleryInitialized) {
+            return;
+        }
+        window.__gmGalleryInitialized = true;
+
+        function getOpenModal() {
+            return document.querySelector('.gmLightbox.is-open');
+        }
+
+        function getGalleryLinks(group) {
+            var allLinks = Array.prototype.slice.call(document.querySelectorAll('a[data-gm-gallery]'));
+            return allLinks.filter(function (link) {
+                return link.getAttribute('data-gm-gallery') === group;
+            });
+        }
+
+        function closeModal(modal) {
+            if (!modal) {
+                return;
+            }
+            modal.classList.remove('is-open');
+            modal.setAttribute('hidden', 'hidden');
+            var image = modal.querySelector('.gmLightboxImage');
+            if (image) {
+                image.removeAttribute('src');
+            }
+            document.documentElement.classList.remove('gmLightboxOpen');
+        }
+
+        function renderModal(modal) {
+            var links = modal.__gmLinks || [];
+            if (!links.length) {
+                return;
+            }
+
+            var index = modal.__gmIndex || 0;
+            if (index < 0) {
+                index = links.length - 1;
+            }
+            if (index >= links.length) {
+                index = 0;
+            }
+
+            modal.__gmIndex = index;
+            var activeLink = links[index];
+            var image = modal.querySelector('.gmLightboxImage');
+            var thumb = activeLink.querySelector('img');
+            var counter = modal.querySelector('.gmLightboxCounter');
+
+            if (image) {
+                image.setAttribute('src', activeLink.getAttribute('href'));
+                image.setAttribute('alt', thumb ? (thumb.getAttribute('alt') || '') : '');
+            }
+
+            if (counter) {
+                counter.textContent = (index + 1) + ' / ' + links.length;
+            }
+        }
+
+        function openModal(modal, links, startIndex) {
+            if (!modal || !links.length) {
+                return;
+            }
+            modal.__gmLinks = links;
+            modal.__gmIndex = startIndex;
+            renderModal(modal);
+            modal.removeAttribute('hidden');
+            modal.classList.add('is-open');
+            document.documentElement.classList.add('gmLightboxOpen');
+        }
+
+        function stepModal(modal, delta) {
+            if (!modal) {
+                return;
+            }
+            modal.__gmIndex = (modal.__gmIndex || 0) + delta;
+            renderModal(modal);
+        }
+
+        document.addEventListener('click', function (event) {
+            var galleryItem = event.target.closest('a[data-gm-gallery]');
+            if (galleryItem) {
+                var group = galleryItem.getAttribute('data-gm-gallery');
+                var modal = document.querySelector('.gmLightbox[data-gm-lightbox="' + group + '"]');
+                var links = getGalleryLinks(group);
+                var startIndex = parseInt(galleryItem.getAttribute('data-gm-index') || '0', 10);
+                if (modal && links.length) {
+                    event.preventDefault();
+                    openModal(modal, links, startIndex);
+                }
+                return;
+            }
+
+            var closeButton = event.target.closest('.gmLightboxClose');
+            if (closeButton) {
+                closeModal(closeButton.closest('.gmLightbox'));
+                return;
+            }
+
+            var prevButton = event.target.closest('.gmLightboxPrev');
+            if (prevButton) {
+                stepModal(prevButton.closest('.gmLightbox'), -1);
+                return;
+            }
+
+            var nextButton = event.target.closest('.gmLightboxNext');
+            if (nextButton) {
+                stepModal(nextButton.closest('.gmLightbox'), 1);
+                return;
+            }
+
+            var openModalElement = event.target.classList.contains('gmLightbox') ? event.target : null;
+            if (openModalElement) {
+                closeModal(openModalElement);
+            }
+        });
+
+        document.addEventListener('keydown', function (event) {
+            var modal = getOpenModal();
+            if (!modal) {
+                return;
+            }
+
+            if (event.key === 'Escape') {
+                closeModal(modal);
+            } else if (event.key === 'ArrowLeft') {
+                stepModal(modal, -1);
+            } else if (event.key === 'ArrowRight') {
+                stepModal(modal, 1);
+            }
+        });
+    })();
+    </script>
+    
+    
+    <div class="gm-description-text">REPLACES M16A2 RIFLE
+
+REPLACES M16A2 RIFLE
+REPLACES M16A2 RIFLE</div>
+    ]]></content:encoded>
+      <pubDate>Sat, 03 Oct 2026 08:40:50 +0000</pubDate>
     </item>
   </channel>
 </rss>
