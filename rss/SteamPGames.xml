@@ -5,604 +5,7 @@
     <description>RSS feed for Steam Popular New Games.</description>
     <language>en-US</language>
     <generator>Multi-RSS</generator>
-    <lastBuildDate>Fri, 13 Nov 2026 00:20:14 +0000</lastBuildDate>
-    <item>
-      <title>Counter-Strike 2</title>
-      <link>https://store.steampowered.com/app/730/CounterStrike_2/</link>
-      <guid>https://store.steampowered.com/app/730/CounterStrike_2/</guid>
-      <description><![CDATA[<style>
-            .sys_req_container {
-                display: flex;
-                flex-wrap: wrap;
-                margin-bottom: 10px;
-            }
-            .sys_req_left_col, .sys_req_right_col {
-                flex: 1;
-                padding: 10px;
-                box-sizing: border-box;
-            }
-            .sys_req_left_col {
-                border-right: 1px solid #ccc;
-            }
-            .sys_req_right_col {
-                border-left: 1px solid #ccc;
-            }
-            .ipsQuote_citation, .ipsSpoiler_header {
-                display: flex;
-                justify-content: center;
-            }
-            .ipsSpoiler_header [data-action='toggleSpoiler'] {
-                margin-top: 1px;
-            }
-            [dir='ltr'] .ipsQuote, [dir='ltr'] .ipsSpoiler, [dir='ltr'] .ipsStyle_spoiler {
-                border-width: 0 4px 0 4px;
-            }
-            </style>
-    <div class="details_block" id="genresAndManufacturer">
- <b>
-  Title:
- </b>
- Counter-Strike 2
- <br/>
- <b>
-  Genre:
- </b>
- <span data-panel='{"flow-children":"row"}'>
-  <a>
-   Action
-  </a>
-  ,
-  <a>
-   Free To Play
-  </a>
- </span>
- <br/>
- <div class="dev_row">
-  <b>
-   Developer:
-  </b>
-  <a>
-   Valve
-  </a>
- </div>
- <div class="dev_row">
-  <b>
-   Publisher:
-  </b>
-  <a>
-   Valve
-  </a>
- </div>
- <b>
-  Release Date:
- </b>
- Aug 21, 2012
- <br/>
-</div>
-<br/>
-<br/>
-<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/730/" width="850">
-</iframe>
-<br/>
-<br/>
-<div class="game_area_description" id="game_area_description">
- <h2>
-  About This Game
- </h2>
- <p class="bb_paragraph">
-  <span class="bb_img_ctn">
-   <img class="bb_img" height="78" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730/extras/87184cdf8045cdc8b7a83be42802e634.avif" width="1194"/>
-  </span>
- </p>
- <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  For over two decades, Counter Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter Strike 2.
- </p>
- <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  A free upgrade to CS:GO, Counter Strike 2 marks the largest technical leap in Counter Strike’s history. Built on the Source 2 engine, Counter Strike 2 is modernized with realistic physically-based rendering, state of the art networking, and upgraded Community Workshop tools.
- </p>
- <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  In addition to the classic objective-focused gameplay that Counter Strike pioneered in 1999, Counter Strike 2 features:
- </p>
- <p class="bb_paragraph">
- </p>
- <ul class="bb_ul">
-  <li>
-   <p class="bb_paragraph">
-    All-new CS Ratings with the updated Premier mode
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    Global and Regional leaderboards
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    Upgraded and overhauled maps
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    Game-changing dynamic smoke grenades
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    Tick-rate-independent gameplay
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    Redesigned visual effects and audio
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    All items from CS:GO moving forward to CS2
-   </p>
-  </li>
- </ul>
-</div>
-<div class="game_area_description" id="game_area_content_descriptors">
- <h2>
-  Mature Content Description
- </h2>
- <p>
-  The developers describe the content like this:
- </p>
- <p>
-  <i>
-   Includes intense violence and blood.
-  </i>
- </p>
-</div>
-<br/>
-<br/>
-<center>
- <h2>
-  System Requirements
- </h2>
-</center>
-<div class="ipsSpoiler_contents ipsClearfix">
- <div class="ipsSpoiler" data-ipsspoiler="">
-  <div class="ipsSpoiler_contents ipsClearfix">
-   <center>
-    <h3>
-     Windows
-    </h3>
-   </center>
-   <div class="ipsSpoiler_contents ipsClearfix">
-    <div class="ipsSpoiler" data-ipsspoiler="">
-     <div class="ipsSpoiler_contents ipsClearfix">
-      <div class="sys_req_container">
-       <div class="sys_req_full">
-        <ul>
-         <strong>
-          Minimum:
-         </strong>
-         <br/>
-         <ul class="bb_ul">
-          <li>
-           <strong>
-            OS:
-           </strong>
-           Windows® 10
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Processor:
-           </strong>
-           4 hardware CPU threads - Intel® Core™ i5 750 or higher
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Memory:
-           </strong>
-           8 GB RAM
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Graphics:
-           </strong>
-           Video card must be 1 GB or more and should be a DirectX 11-compatible with support for Shader Model 5.0
-           <br/>
-          </li>
-          <li>
-           <strong>
-            DirectX:
-           </strong>
-           Version 11
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Storage:
-           </strong>
-           85 GB available space
-          </li>
-         </ul>
-        </ul>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-   <center>
-    <h3>
-     Linux
-    </h3>
-   </center>
-   <div class="ipsSpoiler_contents ipsClearfix">
-    <div class="ipsSpoiler" data-ipsspoiler="">
-     <div class="ipsSpoiler_contents ipsClearfix">
-      <div class="sys_req_container">
-       <div class="sys_req_full">
-        <ul>
-         <strong>
-          Minimum:
-         </strong>
-         <br/>
-         <ul class="bb_ul">
-          <li>
-           <strong>
-            OS:
-           </strong>
-           Ubuntu 20.04
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Processor:
-           </strong>
-           4 hardware CPU threads - Intel® Core™ i5 750 or higher
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Memory:
-           </strong>
-           8 GB RAM
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Graphics:
-           </strong>
-           AMD GCN+ or NVIDIA Kepler+ with up-to-date Vulkan drivers. Support for VK_EXT_graphics_pipeline_library highly recommended.
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Storage:
-           </strong>
-           85 GB available space
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Sound Card:
-           </strong>
-           Highly recommended
-          </li>
-         </ul>
-        </ul>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<br/>
-<br/>
-<center>]]></description>
-      <content:encoded><![CDATA[<style>
-            .sys_req_container {
-                display: flex;
-                flex-wrap: wrap;
-                margin-bottom: 10px;
-            }
-            .sys_req_left_col, .sys_req_right_col {
-                flex: 1;
-                padding: 10px;
-                box-sizing: border-box;
-            }
-            .sys_req_left_col {
-                border-right: 1px solid #ccc;
-            }
-            .sys_req_right_col {
-                border-left: 1px solid #ccc;
-            }
-            .ipsQuote_citation, .ipsSpoiler_header {
-                display: flex;
-                justify-content: center;
-            }
-            .ipsSpoiler_header [data-action='toggleSpoiler'] {
-                margin-top: 1px;
-            }
-            [dir='ltr'] .ipsQuote, [dir='ltr'] .ipsSpoiler, [dir='ltr'] .ipsStyle_spoiler {
-                border-width: 0 4px 0 4px;
-            }
-            </style>
-    <div class="details_block" id="genresAndManufacturer">
- <b>
-  Title:
- </b>
- Counter-Strike 2
- <br/>
- <b>
-  Genre:
- </b>
- <span data-panel='{"flow-children":"row"}'>
-  <a>
-   Action
-  </a>
-  ,
-  <a>
-   Free To Play
-  </a>
- </span>
- <br/>
- <div class="dev_row">
-  <b>
-   Developer:
-  </b>
-  <a>
-   Valve
-  </a>
- </div>
- <div class="dev_row">
-  <b>
-   Publisher:
-  </b>
-  <a>
-   Valve
-  </a>
- </div>
- <b>
-  Release Date:
- </b>
- Aug 21, 2012
- <br/>
-</div>
-<br/>
-<br/>
-<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/730/" width="850">
-</iframe>
-<br/>
-<br/>
-<div class="game_area_description" id="game_area_description">
- <h2>
-  About This Game
- </h2>
- <p class="bb_paragraph">
-  <span class="bb_img_ctn">
-   <img class="bb_img" height="78" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/730/extras/87184cdf8045cdc8b7a83be42802e634.avif" width="1194"/>
-  </span>
- </p>
- <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  For over two decades, Counter Strike has offered an elite competitive experience, one shaped by millions of players from across the globe. And now the next chapter in the CS story is about to begin. This is Counter Strike 2.
- </p>
- <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  A free upgrade to CS:GO, Counter Strike 2 marks the largest technical leap in Counter Strike’s history. Built on the Source 2 engine, Counter Strike 2 is modernized with realistic physically-based rendering, state of the art networking, and upgraded Community Workshop tools.
- </p>
- <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  In addition to the classic objective-focused gameplay that Counter Strike pioneered in 1999, Counter Strike 2 features:
- </p>
- <p class="bb_paragraph">
- </p>
- <ul class="bb_ul">
-  <li>
-   <p class="bb_paragraph">
-    All-new CS Ratings with the updated Premier mode
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    Global and Regional leaderboards
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    Upgraded and overhauled maps
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    Game-changing dynamic smoke grenades
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    Tick-rate-independent gameplay
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    Redesigned visual effects and audio
-   </p>
-  </li>
-  <li>
-   <p class="bb_paragraph">
-    All items from CS:GO moving forward to CS2
-   </p>
-  </li>
- </ul>
-</div>
-<div class="game_area_description" id="game_area_content_descriptors">
- <h2>
-  Mature Content Description
- </h2>
- <p>
-  The developers describe the content like this:
- </p>
- <p>
-  <i>
-   Includes intense violence and blood.
-  </i>
- </p>
-</div>
-<br/>
-<br/>
-<center>
- <h2>
-  System Requirements
- </h2>
-</center>
-<div class="ipsSpoiler_contents ipsClearfix">
- <div class="ipsSpoiler" data-ipsspoiler="">
-  <div class="ipsSpoiler_contents ipsClearfix">
-   <center>
-    <h3>
-     Windows
-    </h3>
-   </center>
-   <div class="ipsSpoiler_contents ipsClearfix">
-    <div class="ipsSpoiler" data-ipsspoiler="">
-     <div class="ipsSpoiler_contents ipsClearfix">
-      <div class="sys_req_container">
-       <div class="sys_req_full">
-        <ul>
-         <strong>
-          Minimum:
-         </strong>
-         <br/>
-         <ul class="bb_ul">
-          <li>
-           <strong>
-            OS:
-           </strong>
-           Windows® 10
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Processor:
-           </strong>
-           4 hardware CPU threads - Intel® Core™ i5 750 or higher
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Memory:
-           </strong>
-           8 GB RAM
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Graphics:
-           </strong>
-           Video card must be 1 GB or more and should be a DirectX 11-compatible with support for Shader Model 5.0
-           <br/>
-          </li>
-          <li>
-           <strong>
-            DirectX:
-           </strong>
-           Version 11
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Storage:
-           </strong>
-           85 GB available space
-          </li>
-         </ul>
-        </ul>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-   <center>
-    <h3>
-     Linux
-    </h3>
-   </center>
-   <div class="ipsSpoiler_contents ipsClearfix">
-    <div class="ipsSpoiler" data-ipsspoiler="">
-     <div class="ipsSpoiler_contents ipsClearfix">
-      <div class="sys_req_container">
-       <div class="sys_req_full">
-        <ul>
-         <strong>
-          Minimum:
-         </strong>
-         <br/>
-         <ul class="bb_ul">
-          <li>
-           <strong>
-            OS:
-           </strong>
-           Ubuntu 20.04
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Processor:
-           </strong>
-           4 hardware CPU threads - Intel® Core™ i5 750 or higher
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Memory:
-           </strong>
-           8 GB RAM
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Graphics:
-           </strong>
-           AMD GCN+ or NVIDIA Kepler+ with up-to-date Vulkan drivers. Support for VK_EXT_graphics_pipeline_library highly recommended.
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Storage:
-           </strong>
-           85 GB available space
-           <br/>
-          </li>
-          <li>
-           <strong>
-            Sound Card:
-           </strong>
-           Highly recommended
-          </li>
-         </ul>
-        </ul>
-       </div>
-      </div>
-     </div>
-    </div>
-   </div>
-  </div>
- </div>
-</div>
-<br/>
-<br/>
-<center>]]></content:encoded>
-    </item>
+    <lastBuildDate>Sun, 15 Nov 2026 00:21:36 +0000</lastBuildDate>
     <item>
       <title>Call of Duty®: Modern Warfare® 4</title>
       <link>https://store.steampowered.com/app/4435490/Call_of_Duty_Modern_Warfare_4/</link>
@@ -1341,9 +744,9 @@
 <center>]]></content:encoded>
     </item>
     <item>
-      <title>AION 2</title>
-      <link>https://store.steampowered.com/app/3393110/AION_2/</link>
-      <guid>https://store.steampowered.com/app/3393110/AION_2/</guid>
+      <title>Bodycam</title>
+      <link>https://store.steampowered.com/app/2406770/Bodycam/</link>
+      <guid>https://store.steampowered.com/app/2406770/Bodycam/</guid>
       <description><![CDATA[<style>
             .sys_req_container {
                 display: flex;
@@ -1376,7 +779,7 @@
  <b>
   Title:
  </b>
- AION 2
+ Bodycam
  <br/>
  <b>
   Genre:
@@ -1387,7 +790,7 @@
   </a>
   ,
   <a>
-   Adventure
+   Indie
   </a>
   ,
   <a>
@@ -1395,11 +798,15 @@
   </a>
   ,
   <a>
-   RPG
+   Simulation
   </a>
   ,
   <a>
-   Free To Play
+   Strategy
+  </a>
+  ,
+  <a>
+   Early Access
   </a>
  </span>
  <br/>
@@ -1408,7 +815,7 @@
    Developer:
   </b>
   <a>
-   NC
+   Reissad
   </a>
  </div>
  <div class="dev_row">
@@ -1416,7 +823,7 @@
    Publisher:
   </b>
   <a>
-   NC
+   Reissad
   </a>
  </div>
  <div class="dev_row">
@@ -1424,18 +831,23 @@
    Franchise:
   </b>
   <a>
-   AION
+   Bodycam
   </a>
  </div>
  <b>
   Release Date:
  </b>
- Oct 5, 2026
+ Jun 7, 2024
+ <br/>
+ <b>
+  Early Access Release Date:
+ </b>
+ Jun 7, 2024
  <br/>
 </div>
 <br/>
 <br/>
-<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/3393110/" width="850">
+<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/2406770/" width="850">
 </iframe>
 <br/>
 <br/>
@@ -1443,154 +855,452 @@
  <h2>
   About This Game
  </h2>
- <p class="bb_paragraph">
-  <span class="bb_img_ctn">
-   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras_big/957bb1e00bf3d05fcb615809f134a1aa.avif?t=1792771538" height="878" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/957bb1e00bf3d05fcb615809f134a1aa.avif" width="1560"/>
-  </span>
- </p>
- <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
+ <h2 class="bb_tag">
   <strong>
-   AION 2 is now LIVE!
+  </strong>
+  <br/>
+  <strong>
+   SEE COMBAT THROUGH THE LENS
+  </strong>
+ </h2>
+ <p class="bb_paragraph">
+  Bodycam is the first ultra-realistic multiplayer FPS built to recreate the intensity of real combat. Experience tactical firefights through the lens of a body camera, where every angle you hold, every decision you make, and every bullet you fire can decide the outcome. Miss a check, and you pay for it.
+  <strong>
+   No crosshair. No ammo counter. No HUD.
+  </strong>
+  Countless hours were spent studying real footage, optics, camera movement, compression, exposure, sound behavior, and combat situations
+  <strong>
+   to push realism as far as possible.
   </strong>
  </p>
  <p class="bb_paragraph">
-  As a thank you to all Daevas, we are extending all Pre-Registration and Steam Wishlist reward items to every player who creates an account and logs in before maintenance begins on Dec 1, 11:30 PM PT / Dec 2, 8:30 AM CET. Simply log in and your rewards will be delivered to your in-game mail. Remember to claim them before the mail expires on Dec 8, 11:30 PM PT / Dec 9, 8:30 AM CET.
- </p>
- <p class="bb_paragraph">
  </p>
  <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/acc21381e08a7b9341842ec99750409f.poster.avif?t=1792771538" width="1170">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/acc21381e08a7b9341842ec99750409f.webm?t=1792771538" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/acc21381e08a7b9341842ec99750409f.mp4?t=1792771538" type="video/mp4"/>
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/bae5489f6a5e4e8dbc62bbb7172cd434.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/bae5489f6a5e4e8dbc62bbb7172cd434.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/bae5489f6a5e4e8dbc62bbb7172cd434.mp4?t=1794683329" type="video/mp4"/>
    </video>
   </span>
  </p>
  <p class="bb_paragraph">
  </p>
+ <h2 class="bb_tag">
+  <strong>
+  </strong>
+  <br/>
+  <br/>
+  <strong>
+   THE TRUE FIRST-PERSON FEEL
+  </strong>
+ </h2>
  <p class="bb_paragraph">
   <strong>
-   The sky is not the limit. It is the battlefield.
+   Unlike traditional FPS games
+  </strong>
+  , where the camera drives the entire experience and
+  <strong>
+   floating hands are simply attached to your screen
+  </strong>
+  , Bodycam takes a completely different approach.
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
+  Your arms, torso, legs and weapon are
+  <strong>
+   all physically connected.
+  </strong>
+  On top of this, we developed our
+  <strong>
+   True Body
+  </strong>
+  technology, making every movement feel smoother, more instinctive and more natural.
+  <strong>
+   It takes a little time to adapt at first
+  </strong>
+  ,
+  <strong>
+   but once it clicks, your weapon becomes an extension of your body and the line between you and the operator begins to disappear.
   </strong>
  </p>
  <p class="bb_paragraph">
-  Built on Unreal Engine 5 across a world 36 times larger than the original AION, this is the only MMORPG built for aerial combat. Verticality is in the DNA of AION 2, and rewards players who can think, and fight, in 3 dimensions.
  </p>
  <p class="bb_paragraph">
+  Once you've experienced combat this way,
+  <strong>
+   there's no going back.
+  </strong>
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/8e182027f31f9ac3dd98d73ec9bf8dd4.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/8e182027f31f9ac3dd98d73ec9bf8dd4.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/8e182027f31f9ac3dd98d73ec9bf8dd4.mp4?t=1794683329" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
  </p>
  <h2 class="bb_tag">
-  <span class="bb_img_ctn">
-   <img class="bb_img" height="103" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/abd6cf12834cb44ee11891e858143ffd.avif" width="780"/>
-  </span>
+  <strong>
+   WEAPONS THAT FEEL REAL
+  </strong>
  </h2>
  <p class="bb_paragraph">
+  <strong>
+   Every reload is driven by a dynamic animation system
+  </strong>
+  with separate calm and stressed states.
+  <strong>
+   Under pressure, your character can make realistic mistakes
+  </strong>
+  , rush movements and struggle to complete a reload, just like a real person would. Instead of playing the same animation every time, we created dozens of unique reload variations and mistakes, making every reload feel different.
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/fb145482ea01038473b2e3e384c4406c.poster.avif?t=1792771538" width="1170">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/fb145482ea01038473b2e3e384c4406c.webm?t=1792771538" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/fb145482ea01038473b2e3e384c4406c.mp4?t=1792771538" type="video/mp4"/>
+   <video autoplay="" class="bb_img" height="656" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/a0fd904062f7d1748a9cbb60d87bfafa.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/a0fd904062f7d1748a9cbb60d87bfafa.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/a0fd904062f7d1748a9cbb60d87bfafa.mp4?t=1794683329" type="video/mp4"/>
    </video>
   </span>
  </p>
  <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  Every region, every battlefield, every encounter was designed with verticality as its axis. As a Daeva, flight is not a travel mechanic, it is how you fight, how you explore, and how you impose your will on the world. Gain altitude to gain advantage, and experience a scale of aerial combat unlike any other MMORPG.
- </p>
- <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
  </p>
  <h2 class="bb_tag">
-  <span class="bb_img_ctn">
-   <img class="bb_img" height="103" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/da4ce2c604b441091b8caffa29e626cd.avif" width="780"/>
-  </span>
+  <strong>
+   ADVANCED WEAPON CUSTOMIZATION
+  </strong>
  </h2>
  <p class="bb_paragraph">
+  Every operator fights differently.
+  <strong>
+   Your weapon should too.
+  </strong>
+  <br/>
+  Build your firearm from the ground up with hundreds of attachments and
+  <strong>
+   billions of possible combinations
+  </strong>
+  . Whether you prioritize speed, stability, or precision, every attachment changes the way your weapon feels and performs, allowing you to create anything from compact CQB rifles to long-range precision platforms.
+  <strong>
+   You define your weapon.
+  </strong>
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/0f10240b3d6741b24113de2aaf19455e.poster.avif?t=1792771538" width="1170">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/0f10240b3d6741b24113de2aaf19455e.webm?t=1792771538" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/0f10240b3d6741b24113de2aaf19455e.mp4?t=1792771538" type="video/mp4"/>
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/34010516aab013547885db3b00e7a40f.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/34010516aab013547885db3b00e7a40f.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/34010516aab013547885db3b00e7a40f.mp4?t=1794683329" type="video/mp4"/>
    </video>
   </span>
  </p>
  <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  Precision, timing, and positioning shape every battle. Chain skills seamlessly, customize your class to fit your playstyle, and adapt as encounters escalate. Every fight is a decision, not a rotation.
- </p>
- <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
  </p>
  <h2 class="bb_tag">
-  <span class="bb_img_ctn">
-   <img class="bb_img" height="103" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/b1685df031c58f89cb12fd57ec559f84.avif" width="780"/>
-  </span>
+  <strong>
+   MODERN COMBAT TOOLS - FPV DRONE & RC CAR
+  </strong>
  </h2>
  <p class="bb_paragraph">
+  <strong>
+   Modern warfare has been transformed by FPV drones.
+  </strong>
+  Bodycam faithfully recreates
+  <strong>
+   authentic FPV piloting
+  </strong>
+  with realistic flight physics,
+  <strong>
+   Stabilized and Full Manual (Acro) flight modes
+  </strong>
+  , and advanced tuning options including rates, throttle curves, and flight profiles. Deploy FPV drones and reconnaissance RC vehicles to scout enemy positions, gather intelligence, strike targets, and support your squad.
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/05ff38c9eb4b9fca4e1275039049c732.poster.avif?t=1792771538" width="1170">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/05ff38c9eb4b9fca4e1275039049c732.webm?t=1792771538" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/05ff38c9eb4b9fca4e1275039049c732.mp4?t=1792771538" type="video/mp4"/>
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/65666fd08d8fccf08e210d710e79e13d.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/65666fd08d8fccf08e210d710e79e13d.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/65666fd08d8fccf08e210d710e79e13d.mp4?t=1794683329" type="video/mp4"/>
    </video>
   </span>
  </p>
  <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  From solo instances to large-scale raids, AION 2 PvE is built around scale and variety. Over 200 dungeons span multiple formats: solo challenges, 5-player party content, and 10-player group dungeons. Seasonal challenges, competitive rankings, and open-world events keep the excitement high, and the Abyss ensures that PvE and faction war are never far apart.
- </p>
- <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <img class="bb_img" height="103" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/4716c617dbbba56d14c75f08740e5ceb.avif" width="780"/>
-  </span>
- </p>
- <p class="bb_paragraph">
-  <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/2950d6813001bb33367fddb0e6124c3c.poster.avif?t=1792771538" width="1170">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/2950d6813001bb33367fddb0e6124c3c.webm?t=1792771538" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/2950d6813001bb33367fddb0e6124c3c.mp4?t=1792771538" type="video/mp4"/>
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/bbb19ac72655982f86fa2af8ab00f052.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/bbb19ac72655982f86fa2af8ab00f052.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/bbb19ac72655982f86fa2af8ab00f052.mp4?t=1794683329" type="video/mp4"/>
    </video>
   </span>
  </p>
  <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  Bring your vision to life with one of the most advanced character creation systems in an MMORPG. With over 200 customization options and countless outfits, mounts, and wings to collect, your character becomes a true expression of who you are.
- </p>
- <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <img class="bb_img" height="103" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/7f581301fa1af214b4a6c46e254862c5.avif" width="780"/>
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
   </span>
  </p>
+ <h2 class="bb_tag">
+  <strong>
+   PHYSICS-DRIVEN COMBAT
+  </strong>
+ </h2>
+ <p class="bb_paragraph">
+  Powered by advanced procedural physics, Bodycam features a
+  <strong>
+   Ragdoll Stumbling
+  </strong>
+  system that lets operators naturally lose balance, stumble, recover, and react to the environment. Every movement is physically driven, making combat feel more dynamic, grounded, and unpredictable.
+ </p>
+ <p class="bb_paragraph">
+ </p>
  <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/141080b1a0c1fb99b246778bed8ce999.poster.avif?t=1792771538" width="1170">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/141080b1a0c1fb99b246778bed8ce999.webm?t=1792771538" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/141080b1a0c1fb99b246778bed8ce999.mp4?t=1792771538" type="video/mp4"/>
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/89bae5e232dd5540e953dae7396e5c7f.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/89bae5e232dd5540e953dae7396e5c7f.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/89bae5e232dd5540e953dae7396e5c7f.mp4?t=1794683329" type="video/mp4"/>
    </video>
   </span>
  </p>
  <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  <strong>
+   A WORLD WITHOUT MENUS
+  </strong>
+ </h2>
+ <p class="bb_paragraph">
+  <strong>
+   Forget full-screen menus. Your tactical tablet is your command center.
+  </strong>
+  Access your loadouts, gadgets, inventory, settings, and matchmaking instantly while moving through the Bodycam Shooting Range HUB. Customize your weapons, test new builds, practice your shooting, fly FPV drones, or simply spend time with other players, all within a seamless in-game environment.
  </p>
  <p class="bb_paragraph">
-  The Shugo Festival brings a variety of mini-games to Atreia. Protect the Shugos from waves of enemies, race pets against other players, dodge lasers, and more. Earn unique rewards including wings, skins, pets, and décor!
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/939109191ac9bd3658a39d142e57e7f8.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/939109191ac9bd3658a39d142e57e7f8.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/939109191ac9bd3658a39d142e57e7f8.mp4?t=1794683329" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  <strong>
+   BUILT FOR COMPETITION - BRING YOUR WINGMAN
+  </strong>
+ </h2>
+ <p class="bb_paragraph">
+  <strong>
+   Wingman is a tactical 2v2 Search & Destroy mode
+  </strong>
+  where communication, positioning, and precision decide every round. There are no hero abilities, no killstreaks, and no movement exploits. Victory comes from teamwork, map knowledge, and clutch plays alone.
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/201de84c231c76ff383c58de6925e440.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/201de84c231c76ff383c58de6925e440.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/201de84c231c76ff383c58de6925e440.mp4?t=1794683329" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  <strong>
+   FROM TEAMWORK TO TOTAL CHAOS - CASUAL GAMEMODES
+  </strong>
+ </h2>
+ <p class="bb_paragraph">
+  Whether you enjoy
+  <strong>
+   competitive tactical gameplay or fast-paced firefights
+  </strong>
+  , Bodycam offers a variety of experiences. Fight for every round in 2v2
+  <strong>
+   <u>
+    Wingman
+   </u>
+  </strong>
+  and 5v5
+  <strong>
+   <u>
+    Body Bomb
+   </u>
+  </strong>
+  , jump into the chaos of
+  <strong>
+   <u>
+    Team Deathmatch
+   </u>
+  </strong>
+  ,
+  <strong>
+   <u>
+    Deathmatch
+   </u>
+  </strong>
+  ,
+  <strong>
+   <u>
+    Hardpoint
+   </u>
+  </strong>
+  , and
+  <strong>
+   <u>
+    Gun Game
+   </u>
+  </strong>
+  , or survive relentless
+  <strong>
+   <u>
+    zombie
+   </u>
+  </strong>
+  hordes in co-op.
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/81104f748a390ecbf8da1793ef54f750.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/81104f748a390ecbf8da1793ef54f750.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/81104f748a390ecbf8da1793ef54f750.mp4?t=1794683329" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  <strong>
+   SURVIVE ZOMBIES
+  </strong>
+ </h2>
+ <p class="bb_paragraph">
+  Fight against relentless hordes of infected in an immersive,
+  <strong>
+   round-based co-op Zombies
+  </strong>
+  mode across multiple unique maps. Manage your ammunition, explore dangerous environments, unlock new areas, restore power, and survive
+  <strong>
+   increasingly deadly waves as the infection spreads.
+  </strong>
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/a422b20aa0011bd534df37b9f93766f8.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/a422b20aa0011bd534df37b9f93766f8.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/a422b20aa0011bd534df37b9f93766f8.mp4?t=1794683329" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  <strong>
+   GROUNDED PHOTOREALISTIC MAPS
+  </strong>
+ </h2>
+ <p class="bb_paragraph">
+  Fight across highly detailed environments
+  <strong>
+   inspired by or replicated from real-world locations
+  </strong>
+  , from CQB buildings and forests to abandoned hospitals and trench networks.
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/fd707d1e8ea72da3e2ef583aba3cf638.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/fd707d1e8ea72da3e2ef583aba3cf638.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/fd707d1e8ea72da3e2ef583aba3cf638.mp4?t=1794683329" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  <strong>
+   NEXT-GENERATION AUDIO
+  </strong>
+ </h2>
+ <p class="bb_paragraph">
+  An advanced audio system built around realism and immersion. Real-time sound propagation, realistic reverb, occlusion, and spatial audio let you hear the battlefield as it truly unfolds, turning every sound into a tactical advantage.
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/b0c5b0c7dfce170ef4b88de73dd46bd0.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/b0c5b0c7dfce170ef4b88de73dd46bd0.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/b0c5b0c7dfce170ef4b88de73dd46bd0.mp4?t=1794683329" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  <strong>
+   EARLY ACCESS, CONSTANTLY EVOLVING
+  </strong>
+ </h2>
+ <p class="bb_paragraph">
+  Major updates continue to expand Bodycam with new technologies, maps, weapons, systems, and gameplay improvements shaped by community feedback.
  </p>
 </div>
 <div class="game_area_description" id="game_area_content_descriptors">
  <h2>
-  AI Generated Content Disclosure
+  Mature Content Description
  </h2>
  <p>
-  The developers describe how their game uses AI Generated Content like this:
+  The developers describe the content like this:
  </p>
  <p>
   <i>
-   Some in-game assets were created with the assistance of AI tools.
-   <br/>
-   Arcana card designs and some icons use AI-generated assets.
+   Game contains shooting and killing events of other players as it involves gunfights in order to progress in the game.
   </i>
  </p>
 </div>
@@ -1625,14 +1335,14 @@
         <strong>
          OS:
         </strong>
-        Windows 10/11 (64-bit)
+        Windows 10/11
         <br/>
        </li>
        <li>
         <strong>
          Processor:
         </strong>
-        AMD Ryzen™ 5 2600 / Intel® Core™ i5-10500
+        AMD Ryzen 7 3700X, Intel Core i7-9700K
         <br/>
        </li>
        <li>
@@ -1646,14 +1356,7 @@
         <strong>
          Graphics:
         </strong>
-        NVIDIA GTX 1050 Ti (4GB)
-        <br/>
-       </li>
-       <li>
-        <strong>
-         DirectX:
-        </strong>
-        Version 12
+        AMD Radeon RX 5700 (8 GB), NVIDIA GeForce RTX 2070 (8 GB)
         <br/>
        </li>
        <li>
@@ -1667,14 +1370,14 @@
         <strong>
          Storage:
         </strong>
-        100 GB available space
+        50 GB available space
         <br/>
        </li>
        <li>
         <strong>
          Additional Notes:
         </strong>
-        SSD Recommended. When using FHD resolution in-game, set the graphics preset to Very Low to ensure compatibility.
+        SSD Recommended
        </li>
       </ul>
      </ul>
@@ -1694,14 +1397,14 @@
         <strong>
          OS:
         </strong>
-        Windows 10/11 (64-bit)
+        Windows 10/11
         <br/>
        </li>
        <li>
         <strong>
          Processor:
         </strong>
-        AMD Ryzen™ 7 3700X / Intel® Core™ i7-11700
+        AMD Ryzen 7 3800X, Intel Core i7-10700K
         <br/>
        </li>
        <li>
@@ -1715,14 +1418,7 @@
         <strong>
          Graphics:
         </strong>
-        NVIDIA RTX 2070 (8GB)
-        <br/>
-       </li>
-       <li>
-        <strong>
-         DirectX:
-        </strong>
-        Version 12
+        AMD Radeon RX 6600 XT (8 GB), NVIDIA GeForce RTX 3060 (12 GB)
         <br/>
        </li>
        <li>
@@ -1736,14 +1432,14 @@
         <strong>
          Storage:
         </strong>
-        100 GB available space
+        50 GB available space
         <br/>
        </li>
        <li>
         <strong>
          Additional Notes:
         </strong>
-        SSD Recommended. When using FHD resolution in-game, set the graphics preset to Low to ensure compatibility.
+        SSD Recommended
        </li>
       </ul>
      </ul>
@@ -1787,7 +1483,7 @@
  <b>
   Title:
  </b>
- AION 2
+ Bodycam
  <br/>
  <b>
   Genre:
@@ -1798,7 +1494,7 @@
   </a>
   ,
   <a>
-   Adventure
+   Indie
   </a>
   ,
   <a>
@@ -1806,11 +1502,15 @@
   </a>
   ,
   <a>
-   RPG
+   Simulation
   </a>
   ,
   <a>
-   Free To Play
+   Strategy
+  </a>
+  ,
+  <a>
+   Early Access
   </a>
  </span>
  <br/>
@@ -1819,7 +1519,7 @@
    Developer:
   </b>
   <a>
-   NC
+   Reissad
   </a>
  </div>
  <div class="dev_row">
@@ -1827,7 +1527,7 @@
    Publisher:
   </b>
   <a>
-   NC
+   Reissad
   </a>
  </div>
  <div class="dev_row">
@@ -1835,18 +1535,23 @@
    Franchise:
   </b>
   <a>
-   AION
+   Bodycam
   </a>
  </div>
  <b>
   Release Date:
  </b>
- Oct 5, 2026
+ Jun 7, 2024
+ <br/>
+ <b>
+  Early Access Release Date:
+ </b>
+ Jun 7, 2024
  <br/>
 </div>
 <br/>
 <br/>
-<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/3393110/" width="850">
+<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/2406770/" width="850">
 </iframe>
 <br/>
 <br/>
@@ -1854,154 +1559,452 @@
  <h2>
   About This Game
  </h2>
- <p class="bb_paragraph">
-  <span class="bb_img_ctn">
-   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras_big/957bb1e00bf3d05fcb615809f134a1aa.avif?t=1792771538" height="878" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/957bb1e00bf3d05fcb615809f134a1aa.avif" width="1560"/>
-  </span>
- </p>
- <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
+ <h2 class="bb_tag">
   <strong>
-   AION 2 is now LIVE!
+  </strong>
+  <br/>
+  <strong>
+   SEE COMBAT THROUGH THE LENS
+  </strong>
+ </h2>
+ <p class="bb_paragraph">
+  Bodycam is the first ultra-realistic multiplayer FPS built to recreate the intensity of real combat. Experience tactical firefights through the lens of a body camera, where every angle you hold, every decision you make, and every bullet you fire can decide the outcome. Miss a check, and you pay for it.
+  <strong>
+   No crosshair. No ammo counter. No HUD.
+  </strong>
+  Countless hours were spent studying real footage, optics, camera movement, compression, exposure, sound behavior, and combat situations
+  <strong>
+   to push realism as far as possible.
   </strong>
  </p>
  <p class="bb_paragraph">
-  As a thank you to all Daevas, we are extending all Pre-Registration and Steam Wishlist reward items to every player who creates an account and logs in before maintenance begins on Dec 1, 11:30 PM PT / Dec 2, 8:30 AM CET. Simply log in and your rewards will be delivered to your in-game mail. Remember to claim them before the mail expires on Dec 8, 11:30 PM PT / Dec 9, 8:30 AM CET.
- </p>
- <p class="bb_paragraph">
  </p>
  <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/acc21381e08a7b9341842ec99750409f.poster.avif?t=1792771538" width="1170">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/acc21381e08a7b9341842ec99750409f.webm?t=1792771538" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/acc21381e08a7b9341842ec99750409f.mp4?t=1792771538" type="video/mp4"/>
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/bae5489f6a5e4e8dbc62bbb7172cd434.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/bae5489f6a5e4e8dbc62bbb7172cd434.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/bae5489f6a5e4e8dbc62bbb7172cd434.mp4?t=1794683329" type="video/mp4"/>
    </video>
   </span>
  </p>
  <p class="bb_paragraph">
  </p>
+ <h2 class="bb_tag">
+  <strong>
+  </strong>
+  <br/>
+  <br/>
+  <strong>
+   THE TRUE FIRST-PERSON FEEL
+  </strong>
+ </h2>
  <p class="bb_paragraph">
   <strong>
-   The sky is not the limit. It is the battlefield.
+   Unlike traditional FPS games
+  </strong>
+  , where the camera drives the entire experience and
+  <strong>
+   floating hands are simply attached to your screen
+  </strong>
+  , Bodycam takes a completely different approach.
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
+  Your arms, torso, legs and weapon are
+  <strong>
+   all physically connected.
+  </strong>
+  On top of this, we developed our
+  <strong>
+   True Body
+  </strong>
+  technology, making every movement feel smoother, more instinctive and more natural.
+  <strong>
+   It takes a little time to adapt at first
+  </strong>
+  ,
+  <strong>
+   but once it clicks, your weapon becomes an extension of your body and the line between you and the operator begins to disappear.
   </strong>
  </p>
  <p class="bb_paragraph">
-  Built on Unreal Engine 5 across a world 36 times larger than the original AION, this is the only MMORPG built for aerial combat. Verticality is in the DNA of AION 2, and rewards players who can think, and fight, in 3 dimensions.
  </p>
  <p class="bb_paragraph">
+  Once you've experienced combat this way,
+  <strong>
+   there's no going back.
+  </strong>
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/8e182027f31f9ac3dd98d73ec9bf8dd4.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/8e182027f31f9ac3dd98d73ec9bf8dd4.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/8e182027f31f9ac3dd98d73ec9bf8dd4.mp4?t=1794683329" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
  </p>
  <h2 class="bb_tag">
-  <span class="bb_img_ctn">
-   <img class="bb_img" height="103" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/abd6cf12834cb44ee11891e858143ffd.avif" width="780"/>
-  </span>
+  <strong>
+   WEAPONS THAT FEEL REAL
+  </strong>
  </h2>
  <p class="bb_paragraph">
+  <strong>
+   Every reload is driven by a dynamic animation system
+  </strong>
+  with separate calm and stressed states.
+  <strong>
+   Under pressure, your character can make realistic mistakes
+  </strong>
+  , rush movements and struggle to complete a reload, just like a real person would. Instead of playing the same animation every time, we created dozens of unique reload variations and mistakes, making every reload feel different.
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/fb145482ea01038473b2e3e384c4406c.poster.avif?t=1792771538" width="1170">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/fb145482ea01038473b2e3e384c4406c.webm?t=1792771538" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/fb145482ea01038473b2e3e384c4406c.mp4?t=1792771538" type="video/mp4"/>
+   <video autoplay="" class="bb_img" height="656" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/a0fd904062f7d1748a9cbb60d87bfafa.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/a0fd904062f7d1748a9cbb60d87bfafa.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/a0fd904062f7d1748a9cbb60d87bfafa.mp4?t=1794683329" type="video/mp4"/>
    </video>
   </span>
  </p>
  <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  Every region, every battlefield, every encounter was designed with verticality as its axis. As a Daeva, flight is not a travel mechanic, it is how you fight, how you explore, and how you impose your will on the world. Gain altitude to gain advantage, and experience a scale of aerial combat unlike any other MMORPG.
- </p>
- <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
  </p>
  <h2 class="bb_tag">
-  <span class="bb_img_ctn">
-   <img class="bb_img" height="103" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/da4ce2c604b441091b8caffa29e626cd.avif" width="780"/>
-  </span>
+  <strong>
+   ADVANCED WEAPON CUSTOMIZATION
+  </strong>
  </h2>
  <p class="bb_paragraph">
+  Every operator fights differently.
+  <strong>
+   Your weapon should too.
+  </strong>
+  <br/>
+  Build your firearm from the ground up with hundreds of attachments and
+  <strong>
+   billions of possible combinations
+  </strong>
+  . Whether you prioritize speed, stability, or precision, every attachment changes the way your weapon feels and performs, allowing you to create anything from compact CQB rifles to long-range precision platforms.
+  <strong>
+   You define your weapon.
+  </strong>
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/0f10240b3d6741b24113de2aaf19455e.poster.avif?t=1792771538" width="1170">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/0f10240b3d6741b24113de2aaf19455e.webm?t=1792771538" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/0f10240b3d6741b24113de2aaf19455e.mp4?t=1792771538" type="video/mp4"/>
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/34010516aab013547885db3b00e7a40f.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/34010516aab013547885db3b00e7a40f.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/34010516aab013547885db3b00e7a40f.mp4?t=1794683329" type="video/mp4"/>
    </video>
   </span>
  </p>
  <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  Precision, timing, and positioning shape every battle. Chain skills seamlessly, customize your class to fit your playstyle, and adapt as encounters escalate. Every fight is a decision, not a rotation.
- </p>
- <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
  </p>
  <h2 class="bb_tag">
-  <span class="bb_img_ctn">
-   <img class="bb_img" height="103" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/b1685df031c58f89cb12fd57ec559f84.avif" width="780"/>
-  </span>
+  <strong>
+   MODERN COMBAT TOOLS - FPV DRONE & RC CAR
+  </strong>
  </h2>
  <p class="bb_paragraph">
+  <strong>
+   Modern warfare has been transformed by FPV drones.
+  </strong>
+  Bodycam faithfully recreates
+  <strong>
+   authentic FPV piloting
+  </strong>
+  with realistic flight physics,
+  <strong>
+   Stabilized and Full Manual (Acro) flight modes
+  </strong>
+  , and advanced tuning options including rates, throttle curves, and flight profiles. Deploy FPV drones and reconnaissance RC vehicles to scout enemy positions, gather intelligence, strike targets, and support your squad.
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/05ff38c9eb4b9fca4e1275039049c732.poster.avif?t=1792771538" width="1170">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/05ff38c9eb4b9fca4e1275039049c732.webm?t=1792771538" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/05ff38c9eb4b9fca4e1275039049c732.mp4?t=1792771538" type="video/mp4"/>
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/65666fd08d8fccf08e210d710e79e13d.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/65666fd08d8fccf08e210d710e79e13d.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/65666fd08d8fccf08e210d710e79e13d.mp4?t=1794683329" type="video/mp4"/>
    </video>
   </span>
  </p>
  <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  From solo instances to large-scale raids, AION 2 PvE is built around scale and variety. Over 200 dungeons span multiple formats: solo challenges, 5-player party content, and 10-player group dungeons. Seasonal challenges, competitive rankings, and open-world events keep the excitement high, and the Abyss ensures that PvE and faction war are never far apart.
- </p>
- <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <img class="bb_img" height="103" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/4716c617dbbba56d14c75f08740e5ceb.avif" width="780"/>
-  </span>
- </p>
- <p class="bb_paragraph">
-  <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/2950d6813001bb33367fddb0e6124c3c.poster.avif?t=1792771538" width="1170">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/2950d6813001bb33367fddb0e6124c3c.webm?t=1792771538" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/2950d6813001bb33367fddb0e6124c3c.mp4?t=1792771538" type="video/mp4"/>
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/bbb19ac72655982f86fa2af8ab00f052.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/bbb19ac72655982f86fa2af8ab00f052.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/bbb19ac72655982f86fa2af8ab00f052.mp4?t=1794683329" type="video/mp4"/>
    </video>
   </span>
  </p>
  <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
-  Bring your vision to life with one of the most advanced character creation systems in an MMORPG. With over 200 customization options and countless outfits, mounts, and wings to collect, your character becomes a true expression of who you are.
- </p>
- <p class="bb_paragraph">
- </p>
- <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <img class="bb_img" height="103" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/7f581301fa1af214b4a6c46e254862c5.avif" width="780"/>
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
   </span>
  </p>
+ <h2 class="bb_tag">
+  <strong>
+   PHYSICS-DRIVEN COMBAT
+  </strong>
+ </h2>
+ <p class="bb_paragraph">
+  Powered by advanced procedural physics, Bodycam features a
+  <strong>
+   Ragdoll Stumbling
+  </strong>
+  system that lets operators naturally lose balance, stumble, recover, and react to the environment. Every movement is physically driven, making combat feel more dynamic, grounded, and unpredictable.
+ </p>
+ <p class="bb_paragraph">
+ </p>
  <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/141080b1a0c1fb99b246778bed8ce999.poster.avif?t=1792771538" width="1170">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/141080b1a0c1fb99b246778bed8ce999.webm?t=1792771538" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3393110/extras/141080b1a0c1fb99b246778bed8ce999.mp4?t=1792771538" type="video/mp4"/>
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/89bae5e232dd5540e953dae7396e5c7f.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/89bae5e232dd5540e953dae7396e5c7f.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/89bae5e232dd5540e953dae7396e5c7f.mp4?t=1794683329" type="video/mp4"/>
    </video>
   </span>
  </p>
  <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  <strong>
+   A WORLD WITHOUT MENUS
+  </strong>
+ </h2>
+ <p class="bb_paragraph">
+  <strong>
+   Forget full-screen menus. Your tactical tablet is your command center.
+  </strong>
+  Access your loadouts, gadgets, inventory, settings, and matchmaking instantly while moving through the Bodycam Shooting Range HUB. Customize your weapons, test new builds, practice your shooting, fly FPV drones, or simply spend time with other players, all within a seamless in-game environment.
  </p>
  <p class="bb_paragraph">
-  The Shugo Festival brings a variety of mini-games to Atreia. Protect the Shugos from waves of enemies, race pets against other players, dodge lasers, and more. Earn unique rewards including wings, skins, pets, and décor!
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/939109191ac9bd3658a39d142e57e7f8.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/939109191ac9bd3658a39d142e57e7f8.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/939109191ac9bd3658a39d142e57e7f8.mp4?t=1794683329" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  <strong>
+   BUILT FOR COMPETITION - BRING YOUR WINGMAN
+  </strong>
+ </h2>
+ <p class="bb_paragraph">
+  <strong>
+   Wingman is a tactical 2v2 Search & Destroy mode
+  </strong>
+  where communication, positioning, and precision decide every round. There are no hero abilities, no killstreaks, and no movement exploits. Victory comes from teamwork, map knowledge, and clutch plays alone.
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/201de84c231c76ff383c58de6925e440.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/201de84c231c76ff383c58de6925e440.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/201de84c231c76ff383c58de6925e440.mp4?t=1794683329" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  <strong>
+   FROM TEAMWORK TO TOTAL CHAOS - CASUAL GAMEMODES
+  </strong>
+ </h2>
+ <p class="bb_paragraph">
+  Whether you enjoy
+  <strong>
+   competitive tactical gameplay or fast-paced firefights
+  </strong>
+  , Bodycam offers a variety of experiences. Fight for every round in 2v2
+  <strong>
+   <u>
+    Wingman
+   </u>
+  </strong>
+  and 5v5
+  <strong>
+   <u>
+    Body Bomb
+   </u>
+  </strong>
+  , jump into the chaos of
+  <strong>
+   <u>
+    Team Deathmatch
+   </u>
+  </strong>
+  ,
+  <strong>
+   <u>
+    Deathmatch
+   </u>
+  </strong>
+  ,
+  <strong>
+   <u>
+    Hardpoint
+   </u>
+  </strong>
+  , and
+  <strong>
+   <u>
+    Gun Game
+   </u>
+  </strong>
+  , or survive relentless
+  <strong>
+   <u>
+    zombie
+   </u>
+  </strong>
+  hordes in co-op.
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/81104f748a390ecbf8da1793ef54f750.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/81104f748a390ecbf8da1793ef54f750.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/81104f748a390ecbf8da1793ef54f750.mp4?t=1794683329" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  <strong>
+   SURVIVE ZOMBIES
+  </strong>
+ </h2>
+ <p class="bb_paragraph">
+  Fight against relentless hordes of infected in an immersive,
+  <strong>
+   round-based co-op Zombies
+  </strong>
+  mode across multiple unique maps. Manage your ammunition, explore dangerous environments, unlock new areas, restore power, and survive
+  <strong>
+   increasingly deadly waves as the infection spreads.
+  </strong>
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/a422b20aa0011bd534df37b9f93766f8.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/a422b20aa0011bd534df37b9f93766f8.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/a422b20aa0011bd534df37b9f93766f8.mp4?t=1794683329" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  <strong>
+   GROUNDED PHOTOREALISTIC MAPS
+  </strong>
+ </h2>
+ <p class="bb_paragraph">
+  Fight across highly detailed environments
+  <strong>
+   inspired by or replicated from real-world locations
+  </strong>
+  , from CQB buildings and forests to abandoned hospitals and trench networks.
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/fd707d1e8ea72da3e2ef583aba3cf638.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/fd707d1e8ea72da3e2ef583aba3cf638.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/fd707d1e8ea72da3e2ef583aba3cf638.mp4?t=1794683329" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  <strong>
+   NEXT-GENERATION AUDIO
+  </strong>
+ </h2>
+ <p class="bb_paragraph">
+  An advanced audio system built around realism and immersion. Real-time sound propagation, realistic reverb, occlusion, and spatial audio let you hear the battlefield as it truly unfolds, turning every sound into a tactical advantage.
+ </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/b0c5b0c7dfce170ef4b88de73dd46bd0.poster.avif?t=1794683329" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/b0c5b0c7dfce170ef4b88de73dd46bd0.webm?t=1794683329" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/b0c5b0c7dfce170ef4b88de73dd46bd0.mp4?t=1794683329" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras_big/9450fc9bd06e86c01fb6096317a8cdeb.webp?t=1794683329" height="54" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2406770/extras/9450fc9bd06e86c01fb6096317a8cdeb.webp" width="1560"/>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  <strong>
+   EARLY ACCESS, CONSTANTLY EVOLVING
+  </strong>
+ </h2>
+ <p class="bb_paragraph">
+  Major updates continue to expand Bodycam with new technologies, maps, weapons, systems, and gameplay improvements shaped by community feedback.
  </p>
 </div>
 <div class="game_area_description" id="game_area_content_descriptors">
  <h2>
-  AI Generated Content Disclosure
+  Mature Content Description
  </h2>
  <p>
-  The developers describe how their game uses AI Generated Content like this:
+  The developers describe the content like this:
  </p>
  <p>
   <i>
-   Some in-game assets were created with the assistance of AI tools.
-   <br/>
-   Arcana card designs and some icons use AI-generated assets.
+   Game contains shooting and killing events of other players as it involves gunfights in order to progress in the game.
   </i>
  </p>
 </div>
@@ -2036,14 +2039,14 @@
         <strong>
          OS:
         </strong>
-        Windows 10/11 (64-bit)
+        Windows 10/11
         <br/>
        </li>
        <li>
         <strong>
          Processor:
         </strong>
-        AMD Ryzen™ 5 2600 / Intel® Core™ i5-10500
+        AMD Ryzen 7 3700X, Intel Core i7-9700K
         <br/>
        </li>
        <li>
@@ -2057,14 +2060,7 @@
         <strong>
          Graphics:
         </strong>
-        NVIDIA GTX 1050 Ti (4GB)
-        <br/>
-       </li>
-       <li>
-        <strong>
-         DirectX:
-        </strong>
-        Version 12
+        AMD Radeon RX 5700 (8 GB), NVIDIA GeForce RTX 2070 (8 GB)
         <br/>
        </li>
        <li>
@@ -2078,14 +2074,14 @@
         <strong>
          Storage:
         </strong>
-        100 GB available space
+        50 GB available space
         <br/>
        </li>
        <li>
         <strong>
          Additional Notes:
         </strong>
-        SSD Recommended. When using FHD resolution in-game, set the graphics preset to Very Low to ensure compatibility.
+        SSD Recommended
        </li>
       </ul>
      </ul>
@@ -2105,14 +2101,14 @@
         <strong>
          OS:
         </strong>
-        Windows 10/11 (64-bit)
+        Windows 10/11
         <br/>
        </li>
        <li>
         <strong>
          Processor:
         </strong>
-        AMD Ryzen™ 7 3700X / Intel® Core™ i7-11700
+        AMD Ryzen 7 3800X, Intel Core i7-10700K
         <br/>
        </li>
        <li>
@@ -2126,14 +2122,7 @@
         <strong>
          Graphics:
         </strong>
-        NVIDIA RTX 2070 (8GB)
-        <br/>
-       </li>
-       <li>
-        <strong>
-         DirectX:
-        </strong>
-        Version 12
+        AMD Radeon RX 6600 XT (8 GB), NVIDIA GeForce RTX 3060 (12 GB)
         <br/>
        </li>
        <li>
@@ -2147,14 +2136,14 @@
         <strong>
          Storage:
         </strong>
-        100 GB available space
+        50 GB available space
         <br/>
        </li>
        <li>
         <strong>
          Additional Notes:
         </strong>
-        SSD Recommended. When using FHD resolution in-game, set the graphics preset to Low to ensure compatibility.
+        SSD Recommended
        </li>
       </ul>
      </ul>
@@ -2168,9 +2157,9 @@
 <center>]]></content:encoded>
     </item>
     <item>
-      <title>Apex Legends™</title>
-      <link>https://store.steampowered.com/app/1172470/Apex_Legends/</link>
-      <guid>https://store.steampowered.com/app/1172470/Apex_Legends/</guid>
+      <title>Marvel Rivals</title>
+      <link>https://store.steampowered.com/app/2767030/Marvel_Rivals/</link>
+      <guid>https://store.steampowered.com/app/2767030/Marvel_Rivals/</guid>
       <description><![CDATA[<style>
             .sys_req_container {
                 display: flex;
@@ -2203,7 +2192,7 @@
  <b>
   Title:
  </b>
- Apex Legends™
+ Marvel Rivals
  <br/>
  <b>
   Genre:
@@ -2218,6 +2207,26 @@
   </a>
   ,
   <a>
+   Casual
+  </a>
+  ,
+  <a>
+   Massively Multiplayer
+  </a>
+  ,
+  <a>
+   Racing
+  </a>
+  ,
+  <a>
+   RPG
+  </a>
+  ,
+  <a>
+   Strategy
+  </a>
+  ,
+  <a>
    Free To Play
   </a>
  </span>
@@ -2227,7 +2236,7 @@
    Developer:
   </b>
   <a>
-   Respawn
+   NetEase Games
   </a>
  </div>
  <div class="dev_row">
@@ -2235,26 +2244,18 @@
    Publisher:
   </b>
   <a>
-   Electronic Arts
-  </a>
- </div>
- <div class="dev_row">
-  <b>
-   Franchise:
-  </b>
-  <a>
-   Apex Legends
+   NetEase Games
   </a>
  </div>
  <b>
   Release Date:
  </b>
- Nov 4, 2020
+ Dec 5, 2024
  <br/>
 </div>
 <br/>
 <br/>
-<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/1172470/" width="850">
+<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/2767030/" width="850">
 </iframe>
 <br/>
 <br/>
@@ -2262,28 +2263,87 @@
  <h2>
   About This Game
  </h2>
- Conquer with character in Apex Legends, a free-to-play* Hero shooter where legendary characters with powerful abilities team up to battle for fame & fortune on the fringes of the Frontier.
- <br/>
- <br/>
- Master an ever-growing roster of diverse Legends, deep-tactical squad play, and bold, new innovations that go beyond the Battle Royale experience — all within a rugged world where anything goes. Welcome to the next evolution of Hero Shooter.
- <br/>
- <br/>
- <strong>
-  KEY FEATURES
- </strong>
- <br/>
- <span class="bb_img_ctn">
-  <img class="bb_img" height="2884" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172470/extras/d411a4f81aae75f3d639ca2c241b84b9.avif" width="610"/>
- </span>
- <br/>
- <br/>
- This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.
- <br/>
- <br/>
- Note that any unused Apex Coins will expire 180 days after the first date in which they are acquired or purchased. The oldest Apex Coins that are subject to expiration in your balance will always be used first when using them to make in-game purchases.
- <br/>
- <br/>
- Apex Packs purchase is not available in Belgium.
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="160" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/7b14c698e3cae345068fc2496c6ea627.poster.avif?t=1794561883" width="610">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/7b14c698e3cae345068fc2496c6ea627.webm?t=1794561883" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/7b14c698e3cae345068fc2496c6ea627.mp4?t=1794561883" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  Marvel Rivals is a Super Hero Team-Based PVP Shooter! Assemble an all-star Marvel squad, devise countless strategies by combining powers to form unique Team-Up skills and fight in destructible, ever-changing battlefields across the continually evolving Marvel universe!
+ </p>
+ <h2 class="bb_tag">
+  A Deep and Varied Marvel Roster
+ </h2>
+ <p class="bb_paragraph">
+  Choose from a vast array of fan-favorite and cult-classic Marvel Super Heroes and Super Villains from across the Avengers, Guardians of the Galaxy, X-Men, and many more from across the Marvel Multiverse.
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="344" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/1be995dac6209fcc82602a115764654c.poster.avif?t=1794561883" width="614">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/1be995dac6209fcc82602a115764654c.webm?t=1794561883" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/1be995dac6209fcc82602a115764654c.mp4?t=1794561883" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  Fast and Fun 6v6 Action with Ever-Changing Game Dynamics
+ </h2>
+ <p class="bb_paragraph">
+  With intricate environments, fast-paced gameplay, and ever-changing battlefields, there's never a dull moment in Marvel Rivals! Battle as Super Heroes and Super Villains with incredible abilities and combine your powers to bring unexpected fun to the battlefield in a matter of seconds.
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="344" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/8ec4dc05a3bf2df290124c12824b22b7.poster.avif?t=1794561883" width="614">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/8ec4dc05a3bf2df290124c12824b22b7.webm?t=1794561883" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/8ec4dc05a3bf2df290124c12824b22b7.mp4?t=1794561883" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  Dynamic Hero Synergy
+ </h2>
+ <p class="bb_paragraph">
+  Coordinate unique combinations between characters to ignite surprising Team-Up Skills! Unleash the synergy of combined superpowers and invent new tactics that can turn the tide of combat. Ride on Groot's back as Rocket Raccoon to take on your enemies as a dangerous duo, unleash Gamma energy as Hulk to charge Iron Man's armor for massive damage, and so much more!
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="344" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/90fdb5ea1bab4a9c2b96106ff8da1786.poster.avif?t=1794561883" width="614">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/90fdb5ea1bab4a9c2b96106ff8da1786.webm?t=1794561883" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/90fdb5ea1bab4a9c2b96106ff8da1786.mp4?t=1794561883" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  Creative Environment Destruction
+ </h2>
+ <p class="bb_paragraph">
+  Tear your way through iconic Marvel worlds across destructible environments! From Asgard to the Tokyo of 2099, use superpowers to alter these environments, reshape the terrain, and craft a strategic advantage on the battlefield! Take cover to dodge attacks or use makeshift weapons to strike down enemies. Players will find countless ways to utilize the environment to claim victory!
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="344" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/29f2b96912254738fe25502020fa8ef7.poster.avif?t=1794561883" width="614">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/29f2b96912254738fe25502020fa8ef7.webm?t=1794561883" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/29f2b96912254738fe25502020fa8ef7.mp4?t=1794561883" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  Continually Evolving Universe and Robust Post-Launch Updates
+ </h2>
+ <p class="bb_paragraph">
+  The Marvel Multiverse brings infinite possibilities! Each seasonal drop will introduce new Super Heroes to the battlefield along with challenging and diverse maps! Unlock new content to implement across various gameplay strategies while experiencing thrilling action and endless possibilities in these adventurous team battles!
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="344" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/6dd8472b5c36421702cd90af0742a75a.poster.avif?t=1794561883" width="614">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/6dd8472b5c36421702cd90af0742a75a.webm?t=1794561883" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/6dd8472b5c36421702cd90af0742a75a.mp4?t=1794561883" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
 </div>
 Descrierea conținutului pentru adulți indisponibilă.
 <br/>
@@ -2310,35 +2370,31 @@ Descrierea conținutului pentru adulți indisponibilă.
       <br/>
       <ul class="bb_ul">
        <li>
-        Requires a 64-bit processor and operating system
-        <br/>
-       </li>
-       <li>
         <strong>
          OS:
         </strong>
-        64-bit Windows 10
+        Windows 10 64-bit (1909 or newer)
         <br/>
        </li>
        <li>
         <strong>
          Processor:
         </strong>
-        AMD FX 4350 or Equivalent, Intel Core i3 6300 or Equivalent
+        Intel Core i5-6600K or AMD Ryzen 5 1600X
         <br/>
        </li>
        <li>
         <strong>
          Memory:
         </strong>
-        6 GB RAM
+        16 GB RAM
         <br/>
        </li>
        <li>
         <strong>
          Graphics:
         </strong>
-        AMD Radeon™ HD 7790 (2 GB), NVIDIA GeForce® GTX 950
+        NVIDIA GeForce GTX 1060 / AMD RX 580 / Intel Arc A380
         <br/>
        </li>
        <li>
@@ -2359,14 +2415,14 @@ Descrierea conținutului pentru adulți indisponibilă.
         <strong>
          Storage:
         </strong>
-        75 GB available space
+        70 GB available space
         <br/>
        </li>
        <li>
         <strong>
          Additional Notes:
         </strong>
-        ~3.8GB for 1 localized language
+        We recommend you install the game on SSD drive for better experience.
        </li>
       </ul>
      </ul>
@@ -2379,35 +2435,31 @@ Descrierea conținutului pentru adulți indisponibilă.
       <br/>
       <ul class="bb_ul">
        <li>
-        Requires a 64-bit processor and operating system
-        <br/>
-       </li>
-       <li>
         <strong>
          OS:
         </strong>
-        64-bit Windows 10
+        Windows 10 64-bit (1909 or newer)
         <br/>
        </li>
        <li>
         <strong>
          Processor:
         </strong>
-        Ryzen 5 CPU or Equivalent
+        Intel Core i5-10400 or AMD Ryzen 5 5600X
         <br/>
        </li>
        <li>
         <strong>
          Memory:
         </strong>
-        8 GB RAM
+        16 GB RAM
         <br/>
        </li>
        <li>
         <strong>
          Graphics:
         </strong>
-        AMD Radeon™ R9 290, NVIDIA GeForce® GTX 970
+        NVIDIA GeForce RTX 2060 (Super) / AMD RX 5700-XT / Intel Arc A750
         <br/>
        </li>
        <li>
@@ -2428,14 +2480,14 @@ Descrierea conținutului pentru adulți indisponibilă.
         <strong>
          Storage:
         </strong>
-        75 GB available space
+        70 GB available space
         <br/>
        </li>
        <li>
         <strong>
          Additional Notes:
         </strong>
-        ~3.8GB for 1 localized language
+        We recommend you install the game on SSD drive for better experience.
        </li>
       </ul>
      </ul>
@@ -2479,7 +2531,7 @@ Descrierea conținutului pentru adulți indisponibilă.
  <b>
   Title:
  </b>
- Apex Legends™
+ Marvel Rivals
  <br/>
  <b>
   Genre:
@@ -2494,6 +2546,26 @@ Descrierea conținutului pentru adulți indisponibilă.
   </a>
   ,
   <a>
+   Casual
+  </a>
+  ,
+  <a>
+   Massively Multiplayer
+  </a>
+  ,
+  <a>
+   Racing
+  </a>
+  ,
+  <a>
+   RPG
+  </a>
+  ,
+  <a>
+   Strategy
+  </a>
+  ,
+  <a>
    Free To Play
   </a>
  </span>
@@ -2503,7 +2575,7 @@ Descrierea conținutului pentru adulți indisponibilă.
    Developer:
   </b>
   <a>
-   Respawn
+   NetEase Games
   </a>
  </div>
  <div class="dev_row">
@@ -2511,26 +2583,18 @@ Descrierea conținutului pentru adulți indisponibilă.
    Publisher:
   </b>
   <a>
-   Electronic Arts
-  </a>
- </div>
- <div class="dev_row">
-  <b>
-   Franchise:
-  </b>
-  <a>
-   Apex Legends
+   NetEase Games
   </a>
  </div>
  <b>
   Release Date:
  </b>
- Nov 4, 2020
+ Dec 5, 2024
  <br/>
 </div>
 <br/>
 <br/>
-<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/1172470/" width="850">
+<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/2767030/" width="850">
 </iframe>
 <br/>
 <br/>
@@ -2538,28 +2602,87 @@ Descrierea conținutului pentru adulți indisponibilă.
  <h2>
   About This Game
  </h2>
- Conquer with character in Apex Legends, a free-to-play* Hero shooter where legendary characters with powerful abilities team up to battle for fame & fortune on the fringes of the Frontier.
- <br/>
- <br/>
- Master an ever-growing roster of diverse Legends, deep-tactical squad play, and bold, new innovations that go beyond the Battle Royale experience — all within a rugged world where anything goes. Welcome to the next evolution of Hero Shooter.
- <br/>
- <br/>
- <strong>
-  KEY FEATURES
- </strong>
- <br/>
- <span class="bb_img_ctn">
-  <img class="bb_img" height="2884" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172470/extras/d411a4f81aae75f3d639ca2c241b84b9.avif" width="610"/>
- </span>
- <br/>
- <br/>
- This game includes optional in-game purchases of virtual currency that can be used to acquire virtual in-game items, including a random selection of virtual in-game items.
- <br/>
- <br/>
- Note that any unused Apex Coins will expire 180 days after the first date in which they are acquired or purchased. The oldest Apex Coins that are subject to expiration in your balance will always be used first when using them to make in-game purchases.
- <br/>
- <br/>
- Apex Packs purchase is not available in Belgium.
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="160" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/7b14c698e3cae345068fc2496c6ea627.poster.avif?t=1794561883" width="610">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/7b14c698e3cae345068fc2496c6ea627.webm?t=1794561883" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/7b14c698e3cae345068fc2496c6ea627.mp4?t=1794561883" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  Marvel Rivals is a Super Hero Team-Based PVP Shooter! Assemble an all-star Marvel squad, devise countless strategies by combining powers to form unique Team-Up skills and fight in destructible, ever-changing battlefields across the continually evolving Marvel universe!
+ </p>
+ <h2 class="bb_tag">
+  A Deep and Varied Marvel Roster
+ </h2>
+ <p class="bb_paragraph">
+  Choose from a vast array of fan-favorite and cult-classic Marvel Super Heroes and Super Villains from across the Avengers, Guardians of the Galaxy, X-Men, and many more from across the Marvel Multiverse.
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="344" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/1be995dac6209fcc82602a115764654c.poster.avif?t=1794561883" width="614">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/1be995dac6209fcc82602a115764654c.webm?t=1794561883" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/1be995dac6209fcc82602a115764654c.mp4?t=1794561883" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  Fast and Fun 6v6 Action with Ever-Changing Game Dynamics
+ </h2>
+ <p class="bb_paragraph">
+  With intricate environments, fast-paced gameplay, and ever-changing battlefields, there's never a dull moment in Marvel Rivals! Battle as Super Heroes and Super Villains with incredible abilities and combine your powers to bring unexpected fun to the battlefield in a matter of seconds.
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="344" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/8ec4dc05a3bf2df290124c12824b22b7.poster.avif?t=1794561883" width="614">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/8ec4dc05a3bf2df290124c12824b22b7.webm?t=1794561883" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/8ec4dc05a3bf2df290124c12824b22b7.mp4?t=1794561883" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  Dynamic Hero Synergy
+ </h2>
+ <p class="bb_paragraph">
+  Coordinate unique combinations between characters to ignite surprising Team-Up Skills! Unleash the synergy of combined superpowers and invent new tactics that can turn the tide of combat. Ride on Groot's back as Rocket Raccoon to take on your enemies as a dangerous duo, unleash Gamma energy as Hulk to charge Iron Man's armor for massive damage, and so much more!
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="344" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/90fdb5ea1bab4a9c2b96106ff8da1786.poster.avif?t=1794561883" width="614">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/90fdb5ea1bab4a9c2b96106ff8da1786.webm?t=1794561883" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/90fdb5ea1bab4a9c2b96106ff8da1786.mp4?t=1794561883" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  Creative Environment Destruction
+ </h2>
+ <p class="bb_paragraph">
+  Tear your way through iconic Marvel worlds across destructible environments! From Asgard to the Tokyo of 2099, use superpowers to alter these environments, reshape the terrain, and craft a strategic advantage on the battlefield! Take cover to dodge attacks or use makeshift weapons to strike down enemies. Players will find countless ways to utilize the environment to claim victory!
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="344" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/29f2b96912254738fe25502020fa8ef7.poster.avif?t=1794561883" width="614">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/29f2b96912254738fe25502020fa8ef7.webm?t=1794561883" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/29f2b96912254738fe25502020fa8ef7.mp4?t=1794561883" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
+ <h2 class="bb_tag">
+  Continually Evolving Universe and Robust Post-Launch Updates
+ </h2>
+ <p class="bb_paragraph">
+  The Marvel Multiverse brings infinite possibilities! Each seasonal drop will introduce new Super Heroes to the battlefield along with challenging and diverse maps! Unlock new content to implement across various gameplay strategies while experiencing thrilling action and endless possibilities in these adventurous team battles!
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" height="344" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/6dd8472b5c36421702cd90af0742a75a.poster.avif?t=1794561883" width="614">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/6dd8472b5c36421702cd90af0742a75a.webm?t=1794561883" type="video/webm; codecs=vp9"/>
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2767030/extras/6dd8472b5c36421702cd90af0742a75a.mp4?t=1794561883" type="video/mp4"/>
+   </video>
+  </span>
+ </p>
 </div>
 Descrierea conținutului pentru adulți indisponibilă.
 <br/>
@@ -2586,35 +2709,31 @@ Descrierea conținutului pentru adulți indisponibilă.
       <br/>
       <ul class="bb_ul">
        <li>
-        Requires a 64-bit processor and operating system
-        <br/>
-       </li>
-       <li>
         <strong>
          OS:
         </strong>
-        64-bit Windows 10
+        Windows 10 64-bit (1909 or newer)
         <br/>
        </li>
        <li>
         <strong>
          Processor:
         </strong>
-        AMD FX 4350 or Equivalent, Intel Core i3 6300 or Equivalent
+        Intel Core i5-6600K or AMD Ryzen 5 1600X
         <br/>
        </li>
        <li>
         <strong>
          Memory:
         </strong>
-        6 GB RAM
+        16 GB RAM
         <br/>
        </li>
        <li>
         <strong>
          Graphics:
         </strong>
-        AMD Radeon™ HD 7790 (2 GB), NVIDIA GeForce® GTX 950
+        NVIDIA GeForce GTX 1060 / AMD RX 580 / Intel Arc A380
         <br/>
        </li>
        <li>
@@ -2635,14 +2754,14 @@ Descrierea conținutului pentru adulți indisponibilă.
         <strong>
          Storage:
         </strong>
-        75 GB available space
+        70 GB available space
         <br/>
        </li>
        <li>
         <strong>
          Additional Notes:
         </strong>
-        ~3.8GB for 1 localized language
+        We recommend you install the game on SSD drive for better experience.
        </li>
       </ul>
      </ul>
@@ -2655,35 +2774,31 @@ Descrierea conținutului pentru adulți indisponibilă.
       <br/>
       <ul class="bb_ul">
        <li>
-        Requires a 64-bit processor and operating system
-        <br/>
-       </li>
-       <li>
         <strong>
          OS:
         </strong>
-        64-bit Windows 10
+        Windows 10 64-bit (1909 or newer)
         <br/>
        </li>
        <li>
         <strong>
          Processor:
         </strong>
-        Ryzen 5 CPU or Equivalent
+        Intel Core i5-10400 or AMD Ryzen 5 5600X
         <br/>
        </li>
        <li>
         <strong>
          Memory:
         </strong>
-        8 GB RAM
+        16 GB RAM
         <br/>
        </li>
        <li>
         <strong>
          Graphics:
         </strong>
-        AMD Radeon™ R9 290, NVIDIA GeForce® GTX 970
+        NVIDIA GeForce RTX 2060 (Super) / AMD RX 5700-XT / Intel Arc A750
         <br/>
        </li>
        <li>
@@ -2704,14 +2819,14 @@ Descrierea conținutului pentru adulți indisponibilă.
         <strong>
          Storage:
         </strong>
-        75 GB available space
+        70 GB available space
         <br/>
        </li>
        <li>
         <strong>
          Additional Notes:
         </strong>
-        ~3.8GB for 1 localized language
+        We recommend you install the game on SSD drive for better experience.
        </li>
       </ul>
      </ul>
@@ -2725,9 +2840,9 @@ Descrierea conținutului pentru adulți indisponibilă.
 <center>]]></content:encoded>
     </item>
     <item>
-      <title>Wuthering Waves</title>
-      <link>https://store.steampowered.com/app/3513350/Wuthering_Waves/</link>
-      <guid>https://store.steampowered.com/app/3513350/Wuthering_Waves/</guid>
+      <title>Phantom Blade Zero</title>
+      <link>https://store.steampowered.com/app/4115450/Phantom_Blade_Zero/</link>
+      <guid>https://store.steampowered.com/app/4115450/Phantom_Blade_Zero/</guid>
       <description><![CDATA[<style>
             .sys_req_container {
                 display: flex;
@@ -2760,7 +2875,7 @@ Descrierea conținutului pentru adulți indisponibilă.
  <b>
   Title:
  </b>
- Wuthering Waves
+ Phantom Blade Zero
  <br/>
  <b>
   Genre:
@@ -2771,15 +2886,7 @@ Descrierea conținutului pentru adulți indisponibilă.
   </a>
   ,
   <a>
-   Adventure
-  </a>
-  ,
-  <a>
    RPG
-  </a>
-  ,
-  <a>
-   Free To Play
   </a>
  </span>
  <br/>
@@ -2788,7 +2895,7 @@ Descrierea conținutului pentru adulți indisponibilă.
    Developer:
   </b>
   <a>
-   KURO GAMES
+   S-GAME Studio
   </a>
  </div>
  <div class="dev_row">
@@ -2796,18 +2903,18 @@ Descrierea conținutului pentru adulți indisponibilă.
    Publisher:
   </b>
   <a>
-   KURO GAMES
+   S-GAME Publishing
   </a>
  </div>
  <b>
   Release Date:
  </b>
- Apr 28, 2025
+ Oct 28, 2026
  <br/>
 </div>
 <br/>
 <br/>
-<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/3513350/" width="850">
+<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/4115450/" width="850">
 </iframe>
 <br/>
 <br/>
@@ -2816,94 +2923,126 @@ Descrierea conținutului pentru adulți indisponibilă.
   About This Game
  </h2>
  <p class="bb_paragraph">
-  Wuthering Waves is a story-rich open-world action RPG with a high degree of freedom. You wake from your slumber as Rover, joined by a vibrant cast of Resonators on a journey to reclaim your lost memories and change the world.
- </p>
- <p class="bb_paragraph" style="text-align: center">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="360" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/65471f7d3480af0c3c0cb53467c01cae.poster.avif?t=1794439536" width="640">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/65471f7d3480af0c3c0cb53467c01cae.webm?t=1794439536" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/65471f7d3480af0c3c0cb53467c01cae.mp4?t=1794439536" type="video/mp4"/>
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras_big/ed6bfb7501a2eae4d346cd1c2d40040e.webp?t=1793261976" height="120" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/ed6bfb7501a2eae4d346cd1c2d40040e.avif" width="1560"/>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  Framed for murdering his master, Soul suffers a devastating wound to the heart, leaving him just sixty-six days to live. Alone and hunted, he roams the Wulin, determined to unravel a conspiracy that has ensnared the martial world.
+ </p>
+ <p class="bb_paragraph">
+  Through rain and blood, kindness and vengeance, he embarks on a journey where love and hatred intertwine in search of a heart.
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" crossorigin="anonymous" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/11eeb873043452d8f95e5fb0bc10aef4.poster.avif?t=1793261976" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/11eeb873043452d8f95e5fb0bc10aef4.webm?t=1793261976" type="video/webm; codecs=vp9"/>
    </video>
   </span>
  </p>
  <p class="bb_paragraph">
-  Welcome aboard, roving voyager.
  </p>
  <p class="bb_paragraph">
-  Upon the shores lay the silent embers of a world during the Ebb Tide.
  </p>
  <p class="bb_paragraph">
-  Desolated by the Lament, the erstwhile creations and earthly beings are left static.
- </p>
- <p class="bb_paragraph">
-  But they strike back, strong enough to penetrate the silence.
- </p>
- <p class="bb_paragraph">
-  Humanity has risen anew from the ashes of the apocalypse.
- </p>
- <p class="bb_paragraph">
-  And you, Rover, are poised for an adventure of Awakening.
- </p>
- <p class="bb_paragraph">
-  Companions to meet, enemies to conquer, new powers to gain, hidden truths to unveil, and unseen spectacles to behold... A vast world of endless possibilities awaits. The choice rests in your hands. Be the answer, be the leader, and follow the sounds to arrive at a new future.
- </p>
- <p class="bb_paragraph">
-  As Wuthering Waves echo endlessly, mankind set sail on a new journey.
- </p>
- <p class="bb_paragraph">
-  Rise and embark on your odyssey, Rover.
- </p>
- <h2 class="bb_tag">
-  Delve into an expansive world / Desolated by the Lament, civilization is born anew
- </h2>
- <p class="bb_paragraph">
-  Embrace high degrees of freedom in immersive overworld explorations. Free yourself from stamina limits, dash and parkour on walls, take Flight, and ride a high-mobility expedition motorbike to enjoy open-world exploration. As the world of Solaris-3 unfolds, your lost memory begins to see its recovery through this ceaseless quest.
- </p>
- <p class="bb_paragraph" style="text-align: center">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" crossorigin="anonymous" height="360" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/8aebe1467b983399f3e6e339227a62fd.poster.avif?t=1794439536" width="640">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/8aebe1467b983399f3e6e339227a62fd.webm?t=1794439536" type="video/webm; codecs=vp9"/>
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras_big/5ad11bac314430fa82234256e24d3092.webp?t=1793261976" height="120" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/5ad11bac314430fa82234256e24d3092.avif" width="1560"/>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  Explore the mysterious Phantom World, where shifting light and shadow conceal mysteries at every turn.
+ </p>
+ <p class="bb_paragraph">
+  Memory Flowers, the Wulin and the Discordance, Transcension, the Lady of the Veil, Inanis' Dreamscape...
+ </p>
+ <p class="bb_paragraph">
+  Every secret leads to another, and every corner hides a new story.
+ </p>
+ <p class="bb_paragraph">
+  When one path ends, another begins. Hidden passages and intricate mechanisms await those who dare to explore.
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" crossorigin="anonymous" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/fe8f60566e3c41a4bc03aa83f5bdbeff.poster.avif?t=1793261976" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/fe8f60566e3c41a4bc03aa83f5bdbeff.webm?t=1793261976" type="video/webm; codecs=vp9"/>
    </video>
   </span>
  </p>
- <h2 class="bb_tag">
-  Enjoy extreme battle experience / Engage in smooth & fast-paced combat
- </h2>
  <p class="bb_paragraph">
-  Avail against enemy attacks in smooth and fast-paced combat. Apply easy controls of Extreme Evasion, Dodge Counter, Echo Skill, and unique QTE mechanisms that allow the fullest possibility of battle experience.
  </p>
- <p class="bb_paragraph" style="text-align: center">
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="360" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/e38ef5af43d3e4ecead96165913cb065.poster.avif?t=1794439536" width="640">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/e38ef5af43d3e4ecead96165913cb065.webm?t=1794439536" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/e38ef5af43d3e4ecead96165913cb065.mp4?t=1794439536" type="video/mp4"/>
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras_big/1f47cb4923e1bd2aa341d088a309a9e8.webp?t=1793261976" height="120" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/1f47cb4923e1bd2aa341d088a309a9e8.avif" width="1560"/>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  In the Wulin, your weapon is your life.
+ </p>
+ <p class="bb_paragraph">
+  Master over 30 primary weapons and more than 20 unique Phantom Edges, wrested from the hands of fallen foes.
+ </p>
+ <p class="bb_paragraph">
+  Rooted in traditional martial arts, combat flows through seamless combos that are easy to learn yet rewarding to master. Only true masters will uncover the deadly intricacies within every technique.
+ </p>
+ <p class="bb_paragraph">
+  Blades clash in showers of sparks. Dodge, deflect, counter, and strike in one seamless flow, where victory and defeat are decided in an instant.
+ </p>
+ <p class="bb_paragraph">
+  Will the next turn leave the sands stained with blood, or lead you back from the brink of death?
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" crossorigin="anonymous" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/108a5a2bec42eea8085e1a306dae58d5.poster.avif?t=1793261976" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/108a5a2bec42eea8085e1a306dae58d5.webm?t=1793261976" type="video/webm; codecs=vp9"/>
    </video>
   </span>
  </p>
- <h2 class="bb_tag">
-  Immerse in breathtaking storytelling / Witness a delicate fusion of story, sound, and vision
- </h2>
  <p class="bb_paragraph">
-  With cinematic narratives, rich music, and stunning animation, Solaris delivers a high-quality sensory journey that brings every story to life.
  </p>
- <p class="bb_paragraph" style="text-align: center">
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" crossorigin="anonymous" height="360" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/64cf0c73042cdeb4bb3cde7ed16ea8e0.poster.avif?t=1794439536" width="640">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/64cf0c73042cdeb4bb3cde7ed16ea8e0.webm?t=1794439536" type="video/webm; codecs=vp9"/>
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras_big/6286834726c17d549b014c1c9ec40b67.webp?t=1793261976" height="120" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/6286834726c17d549b014c1c9ec40b67.avif" width="1560"/>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  The golden age of wuxia cinema collides with punk fantasy in Phantom Blade Zero.
+ </p>
+ <p class="bb_paragraph">
+  Martial arts, cold steel, mechanical prosthetics, crumbling industrial ruins, traditional Chinese aesthetics, and modern rock music.
+ </p>
+ <p class="bb_paragraph">
+  Together, they create the dark, unmistakable aesthetic of kungfupunk.
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" crossorigin="anonymous" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/ac57a3430847c9024b8e68408cbad0e9.poster.avif?t=1793261976" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/ac57a3430847c9024b8e68408cbad0e9.webm?t=1793261976" type="video/webm; codecs=vp9"/>
    </video>
   </span>
  </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
+ </p>
  <h2 class="bb_tag">
-  Encounter Resonators / Forte awakened, journey alongside your companions
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras_big/e3f636f52e1a83c418d8bd651dcdf795.webp?t=1793261976" height="120" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/e3f636f52e1a83c418d8bd651dcdf795.avif" width="1560"/>
+  </span>
  </h2>
  <p class="bb_paragraph">
-  Compose a harmonious battle concerto with Resonators of different abilities. Their unique Fortes revealing distinctive personalities will be your strong assets for the journey ahead.
+  Powered by Unreal Engine 5 and cutting-edge motion capture technology, renowned martial arts choreographers from the golden age of wuxia cinema collaborated to bring authentic Chinese kungfu to life. Every strike and stance in Phantom Blade Zero is rooted in real martial techniques.
  </p>
- <p class="bb_paragraph" style="text-align: center">
+ <p class="bb_paragraph">
+  Experience the timeless allure of Chinese kungfu through breathtaking cinematic action.
+ </p>
+ <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="360" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/73aa9fdd79086c3d2ce96abf516d025e.poster.avif?t=1794439536" width="640">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/73aa9fdd79086c3d2ce96abf516d025e.webm?t=1794439536" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/73aa9fdd79086c3d2ce96abf516d025e.mp4?t=1794439536" type="video/mp4"/>
+   <video autoplay="" class="bb_img" crossorigin="anonymous" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/ae4458f3bce27d5d76288bb654ced727.poster.avif?t=1793261976" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/ae4458f3bce27d5d76288bb654ced727.webm?t=1793261976" type="video/webm; codecs=vp9"/>
    </video>
   </span>
  </p>
@@ -2940,14 +3079,14 @@ Descrierea conținutului pentru adulți indisponibilă.
         <strong>
          OS:
         </strong>
-        Windows10 64-bit
+        Windows 10/11 (64bit required)
         <br/>
        </li>
        <li>
         <strong>
          Processor:
         </strong>
-        Intel Core i5 (9th Gen) / Ryzen 2700
+        Intel Core i7-8700K / AMD Ryzen 5 3600
         <br/>
        </li>
        <li>
@@ -2961,7 +3100,7 @@ Descrierea conținutului pentru adulți indisponibilă.
         <strong>
          Graphics:
         </strong>
-        NVIDIA GeForce GTX 1060/AMD Radeon RX 570/Intel ARC A380
+        NVIDIA GeForce GTX 1660 6GB / AMD Radeon RX 5500 XT 8GB
         <br/>
        </li>
        <li>
@@ -2973,30 +3112,16 @@ Descrierea conținutului pentru adulți indisponibilă.
        </li>
        <li>
         <strong>
-         Network:
-        </strong>
-        Broadband Internet connection
-        <br/>
-       </li>
-       <li>
-        <strong>
          Storage:
         </strong>
-        150 GB available space
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Sound Card:
-        </strong>
-        Windows Compatible Audio Device
+        145 GB available space
         <br/>
        </li>
        <li>
         <strong>
          Additional Notes:
         </strong>
-        HDD Supported, SSD Recommended.
+        1080p / 30 FPS with upscaling enabled. SSD installation required.
        </li>
       </ul>
      </ul>
@@ -3016,28 +3141,28 @@ Descrierea conținutului pentru adulți indisponibilă.
         <strong>
          OS:
         </strong>
-        Windows10 64-bit
+        Windows 10/11 (64bit required)
         <br/>
        </li>
        <li>
         <strong>
          Processor:
         </strong>
-        Intel Core i7 (9th Gen) / Ryzen 3700
+        Intel Core i5-10600K / AMD Ryzen 5 5600X
         <br/>
        </li>
        <li>
         <strong>
          Memory:
         </strong>
-        32 GB RAM
+        16 GB RAM
         <br/>
        </li>
        <li>
         <strong>
          Graphics:
         </strong>
-        NVIDIA GeForce RTX 2060/AMD Radeon RX 5700XT/intel ARC A750
+        NVIDIA GeForce RTX 3060 Ti 8GB / AMD Radeon RX 6700 XT 12GB
         <br/>
        </li>
        <li>
@@ -3049,30 +3174,16 @@ Descrierea conținutului pentru adulți indisponibilă.
        </li>
        <li>
         <strong>
-         Network:
-        </strong>
-        Broadband Internet connection
-        <br/>
-       </li>
-       <li>
-        <strong>
          Storage:
         </strong>
-        150 GB available space
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Sound Card:
-        </strong>
-        Windows Compatible Audio Device
+        145 GB available space
         <br/>
        </li>
        <li>
         <strong>
          Additional Notes:
         </strong>
-        SSD Required.
+        1440p / 60 FPS with upscaling enabled. SSD installation required.
        </li>
       </ul>
      </ul>
@@ -3116,7 +3227,7 @@ Descrierea conținutului pentru adulți indisponibilă.
  <b>
   Title:
  </b>
- Wuthering Waves
+ Phantom Blade Zero
  <br/>
  <b>
   Genre:
@@ -3127,15 +3238,7 @@ Descrierea conținutului pentru adulți indisponibilă.
   </a>
   ,
   <a>
-   Adventure
-  </a>
-  ,
-  <a>
    RPG
-  </a>
-  ,
-  <a>
-   Free To Play
   </a>
  </span>
  <br/>
@@ -3144,7 +3247,7 @@ Descrierea conținutului pentru adulți indisponibilă.
    Developer:
   </b>
   <a>
-   KURO GAMES
+   S-GAME Studio
   </a>
  </div>
  <div class="dev_row">
@@ -3152,18 +3255,18 @@ Descrierea conținutului pentru adulți indisponibilă.
    Publisher:
   </b>
   <a>
-   KURO GAMES
+   S-GAME Publishing
   </a>
  </div>
  <b>
   Release Date:
  </b>
- Apr 28, 2025
+ Oct 28, 2026
  <br/>
 </div>
 <br/>
 <br/>
-<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/3513350/" width="850">
+<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/4115450/" width="850">
 </iframe>
 <br/>
 <br/>
@@ -3172,94 +3275,126 @@ Descrierea conținutului pentru adulți indisponibilă.
   About This Game
  </h2>
  <p class="bb_paragraph">
-  Wuthering Waves is a story-rich open-world action RPG with a high degree of freedom. You wake from your slumber as Rover, joined by a vibrant cast of Resonators on a journey to reclaim your lost memories and change the world.
- </p>
- <p class="bb_paragraph" style="text-align: center">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="360" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/65471f7d3480af0c3c0cb53467c01cae.poster.avif?t=1794439536" width="640">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/65471f7d3480af0c3c0cb53467c01cae.webm?t=1794439536" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/65471f7d3480af0c3c0cb53467c01cae.mp4?t=1794439536" type="video/mp4"/>
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras_big/ed6bfb7501a2eae4d346cd1c2d40040e.webp?t=1793261976" height="120" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/ed6bfb7501a2eae4d346cd1c2d40040e.avif" width="1560"/>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  Framed for murdering his master, Soul suffers a devastating wound to the heart, leaving him just sixty-six days to live. Alone and hunted, he roams the Wulin, determined to unravel a conspiracy that has ensnared the martial world.
+ </p>
+ <p class="bb_paragraph">
+  Through rain and blood, kindness and vengeance, he embarks on a journey where love and hatred intertwine in search of a heart.
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" crossorigin="anonymous" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/11eeb873043452d8f95e5fb0bc10aef4.poster.avif?t=1793261976" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/11eeb873043452d8f95e5fb0bc10aef4.webm?t=1793261976" type="video/webm; codecs=vp9"/>
    </video>
   </span>
  </p>
  <p class="bb_paragraph">
-  Welcome aboard, roving voyager.
  </p>
  <p class="bb_paragraph">
-  Upon the shores lay the silent embers of a world during the Ebb Tide.
  </p>
  <p class="bb_paragraph">
-  Desolated by the Lament, the erstwhile creations and earthly beings are left static.
- </p>
- <p class="bb_paragraph">
-  But they strike back, strong enough to penetrate the silence.
- </p>
- <p class="bb_paragraph">
-  Humanity has risen anew from the ashes of the apocalypse.
- </p>
- <p class="bb_paragraph">
-  And you, Rover, are poised for an adventure of Awakening.
- </p>
- <p class="bb_paragraph">
-  Companions to meet, enemies to conquer, new powers to gain, hidden truths to unveil, and unseen spectacles to behold... A vast world of endless possibilities awaits. The choice rests in your hands. Be the answer, be the leader, and follow the sounds to arrive at a new future.
- </p>
- <p class="bb_paragraph">
-  As Wuthering Waves echo endlessly, mankind set sail on a new journey.
- </p>
- <p class="bb_paragraph">
-  Rise and embark on your odyssey, Rover.
- </p>
- <h2 class="bb_tag">
-  Delve into an expansive world / Desolated by the Lament, civilization is born anew
- </h2>
- <p class="bb_paragraph">
-  Embrace high degrees of freedom in immersive overworld explorations. Free yourself from stamina limits, dash and parkour on walls, take Flight, and ride a high-mobility expedition motorbike to enjoy open-world exploration. As the world of Solaris-3 unfolds, your lost memory begins to see its recovery through this ceaseless quest.
- </p>
- <p class="bb_paragraph" style="text-align: center">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" crossorigin="anonymous" height="360" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/8aebe1467b983399f3e6e339227a62fd.poster.avif?t=1794439536" width="640">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/8aebe1467b983399f3e6e339227a62fd.webm?t=1794439536" type="video/webm; codecs=vp9"/>
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras_big/5ad11bac314430fa82234256e24d3092.webp?t=1793261976" height="120" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/5ad11bac314430fa82234256e24d3092.avif" width="1560"/>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  Explore the mysterious Phantom World, where shifting light and shadow conceal mysteries at every turn.
+ </p>
+ <p class="bb_paragraph">
+  Memory Flowers, the Wulin and the Discordance, Transcension, the Lady of the Veil, Inanis' Dreamscape...
+ </p>
+ <p class="bb_paragraph">
+  Every secret leads to another, and every corner hides a new story.
+ </p>
+ <p class="bb_paragraph">
+  When one path ends, another begins. Hidden passages and intricate mechanisms await those who dare to explore.
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" crossorigin="anonymous" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/fe8f60566e3c41a4bc03aa83f5bdbeff.poster.avif?t=1793261976" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/fe8f60566e3c41a4bc03aa83f5bdbeff.webm?t=1793261976" type="video/webm; codecs=vp9"/>
    </video>
   </span>
  </p>
- <h2 class="bb_tag">
-  Enjoy extreme battle experience / Engage in smooth & fast-paced combat
- </h2>
  <p class="bb_paragraph">
-  Avail against enemy attacks in smooth and fast-paced combat. Apply easy controls of Extreme Evasion, Dodge Counter, Echo Skill, and unique QTE mechanisms that allow the fullest possibility of battle experience.
  </p>
- <p class="bb_paragraph" style="text-align: center">
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="360" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/e38ef5af43d3e4ecead96165913cb065.poster.avif?t=1794439536" width="640">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/e38ef5af43d3e4ecead96165913cb065.webm?t=1794439536" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/e38ef5af43d3e4ecead96165913cb065.mp4?t=1794439536" type="video/mp4"/>
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras_big/1f47cb4923e1bd2aa341d088a309a9e8.webp?t=1793261976" height="120" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/1f47cb4923e1bd2aa341d088a309a9e8.avif" width="1560"/>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  In the Wulin, your weapon is your life.
+ </p>
+ <p class="bb_paragraph">
+  Master over 30 primary weapons and more than 20 unique Phantom Edges, wrested from the hands of fallen foes.
+ </p>
+ <p class="bb_paragraph">
+  Rooted in traditional martial arts, combat flows through seamless combos that are easy to learn yet rewarding to master. Only true masters will uncover the deadly intricacies within every technique.
+ </p>
+ <p class="bb_paragraph">
+  Blades clash in showers of sparks. Dodge, deflect, counter, and strike in one seamless flow, where victory and defeat are decided in an instant.
+ </p>
+ <p class="bb_paragraph">
+  Will the next turn leave the sands stained with blood, or lead you back from the brink of death?
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" crossorigin="anonymous" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/108a5a2bec42eea8085e1a306dae58d5.poster.avif?t=1793261976" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/108a5a2bec42eea8085e1a306dae58d5.webm?t=1793261976" type="video/webm; codecs=vp9"/>
    </video>
   </span>
  </p>
- <h2 class="bb_tag">
-  Immerse in breathtaking storytelling / Witness a delicate fusion of story, sound, and vision
- </h2>
  <p class="bb_paragraph">
-  With cinematic narratives, rich music, and stunning animation, Solaris delivers a high-quality sensory journey that brings every story to life.
  </p>
- <p class="bb_paragraph" style="text-align: center">
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" crossorigin="anonymous" height="360" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/64cf0c73042cdeb4bb3cde7ed16ea8e0.poster.avif?t=1794439536" width="640">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/64cf0c73042cdeb4bb3cde7ed16ea8e0.webm?t=1794439536" type="video/webm; codecs=vp9"/>
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras_big/6286834726c17d549b014c1c9ec40b67.webp?t=1793261976" height="120" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/6286834726c17d549b014c1c9ec40b67.avif" width="1560"/>
+  </span>
+ </p>
+ <p class="bb_paragraph">
+  The golden age of wuxia cinema collides with punk fantasy in Phantom Blade Zero.
+ </p>
+ <p class="bb_paragraph">
+  Martial arts, cold steel, mechanical prosthetics, crumbling industrial ruins, traditional Chinese aesthetics, and modern rock music.
+ </p>
+ <p class="bb_paragraph">
+  Together, they create the dark, unmistakable aesthetic of kungfupunk.
+ </p>
+ <p class="bb_paragraph">
+  <span class="bb_img_ctn">
+   <video autoplay="" class="bb_img" crossorigin="anonymous" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/ac57a3430847c9024b8e68408cbad0e9.poster.avif?t=1793261976" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/ac57a3430847c9024b8e68408cbad0e9.webm?t=1793261976" type="video/webm; codecs=vp9"/>
    </video>
   </span>
  </p>
+ <p class="bb_paragraph">
+ </p>
+ <p class="bb_paragraph">
+ </p>
  <h2 class="bb_tag">
-  Encounter Resonators / Forte awakened, journey alongside your companions
+  <span class="bb_img_ctn">
+   <img class="bb_img" data-big-src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras_big/e3f636f52e1a83c418d8bd651dcdf795.webp?t=1793261976" height="120" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/e3f636f52e1a83c418d8bd651dcdf795.avif" width="1560"/>
+  </span>
  </h2>
  <p class="bb_paragraph">
-  Compose a harmonious battle concerto with Resonators of different abilities. Their unique Fortes revealing distinctive personalities will be your strong assets for the journey ahead.
+  Powered by Unreal Engine 5 and cutting-edge motion capture technology, renowned martial arts choreographers from the golden age of wuxia cinema collaborated to bring authentic Chinese kungfu to life. Every strike and stance in Phantom Blade Zero is rooted in real martial techniques.
  </p>
- <p class="bb_paragraph" style="text-align: center">
+ <p class="bb_paragraph">
+  Experience the timeless allure of Chinese kungfu through breathtaking cinematic action.
+ </p>
+ <p class="bb_paragraph">
   <span class="bb_img_ctn">
-   <video autoplay="" class="bb_img" height="360" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/73aa9fdd79086c3d2ce96abf516d025e.poster.avif?t=1794439536" width="640">
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/73aa9fdd79086c3d2ce96abf516d025e.webm?t=1794439536" type="video/webm; codecs=vp9"/>
-    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3513350/extras/73aa9fdd79086c3d2ce96abf516d025e.mp4?t=1794439536" type="video/mp4"/>
+   <video autoplay="" class="bb_img" crossorigin="anonymous" height="658" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/ae4458f3bce27d5d76288bb654ced727.poster.avif?t=1793261976" width="1170">
+    <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/extras/ae4458f3bce27d5d76288bb654ced727.webm?t=1793261976" type="video/webm; codecs=vp9"/>
    </video>
   </span>
  </p>
@@ -3296,14 +3431,14 @@ Descrierea conținutului pentru adulți indisponibilă.
         <strong>
          OS:
         </strong>
-        Windows10 64-bit
+        Windows 10/11 (64bit required)
         <br/>
        </li>
        <li>
         <strong>
          Processor:
         </strong>
-        Intel Core i5 (9th Gen) / Ryzen 2700
+        Intel Core i7-8700K / AMD Ryzen 5 3600
         <br/>
        </li>
        <li>
@@ -3317,7 +3452,7 @@ Descrierea conținutului pentru adulți indisponibilă.
         <strong>
          Graphics:
         </strong>
-        NVIDIA GeForce GTX 1060/AMD Radeon RX 570/Intel ARC A380
+        NVIDIA GeForce GTX 1660 6GB / AMD Radeon RX 5500 XT 8GB
         <br/>
        </li>
        <li>
@@ -3329,30 +3464,16 @@ Descrierea conținutului pentru adulți indisponibilă.
        </li>
        <li>
         <strong>
-         Network:
-        </strong>
-        Broadband Internet connection
-        <br/>
-       </li>
-       <li>
-        <strong>
          Storage:
         </strong>
-        150 GB available space
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Sound Card:
-        </strong>
-        Windows Compatible Audio Device
+        145 GB available space
         <br/>
        </li>
        <li>
         <strong>
          Additional Notes:
         </strong>
-        HDD Supported, SSD Recommended.
+        1080p / 30 FPS with upscaling enabled. SSD installation required.
        </li>
       </ul>
      </ul>
@@ -3372,28 +3493,28 @@ Descrierea conținutului pentru adulți indisponibilă.
         <strong>
          OS:
         </strong>
-        Windows10 64-bit
+        Windows 10/11 (64bit required)
         <br/>
        </li>
        <li>
         <strong>
          Processor:
         </strong>
-        Intel Core i7 (9th Gen) / Ryzen 3700
+        Intel Core i5-10600K / AMD Ryzen 5 5600X
         <br/>
        </li>
        <li>
         <strong>
          Memory:
         </strong>
-        32 GB RAM
+        16 GB RAM
         <br/>
        </li>
        <li>
         <strong>
          Graphics:
         </strong>
-        NVIDIA GeForce RTX 2060/AMD Radeon RX 5700XT/intel ARC A750
+        NVIDIA GeForce RTX 3060 Ti 8GB / AMD Radeon RX 6700 XT 12GB
         <br/>
        </li>
        <li>
@@ -3405,33 +3526,534 @@ Descrierea conținutului pentru adulți indisponibilă.
        </li>
        <li>
         <strong>
-         Network:
-        </strong>
-        Broadband Internet connection
-        <br/>
-       </li>
-       <li>
-        <strong>
          Storage:
         </strong>
-        150 GB available space
-        <br/>
-       </li>
-       <li>
-        <strong>
-         Sound Card:
-        </strong>
-        Windows Compatible Audio Device
+        145 GB available space
         <br/>
        </li>
        <li>
         <strong>
          Additional Notes:
         </strong>
-        SSD Required.
+        1440p / 60 FPS with upscaling enabled. SSD installation required.
        </li>
       </ul>
      </ul>
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<br/>
+<br/>
+<center>]]></content:encoded>
+    </item>
+    <item>
+      <title>Warframe</title>
+      <link>https://store.steampowered.com/app/230410/Warframe/</link>
+      <guid>https://store.steampowered.com/app/230410/Warframe/</guid>
+      <description><![CDATA[<style>
+            .sys_req_container {
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 10px;
+            }
+            .sys_req_left_col, .sys_req_right_col {
+                flex: 1;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+            .sys_req_left_col {
+                border-right: 1px solid #ccc;
+            }
+            .sys_req_right_col {
+                border-left: 1px solid #ccc;
+            }
+            .ipsQuote_citation, .ipsSpoiler_header {
+                display: flex;
+                justify-content: center;
+            }
+            .ipsSpoiler_header [data-action='toggleSpoiler'] {
+                margin-top: 1px;
+            }
+            [dir='ltr'] .ipsQuote, [dir='ltr'] .ipsSpoiler, [dir='ltr'] .ipsStyle_spoiler {
+                border-width: 0 4px 0 4px;
+            }
+            </style>
+    <div class="details_block" id="genresAndManufacturer">
+ <b>
+  Title:
+ </b>
+ Warframe
+ <br/>
+ <b>
+  Genre:
+ </b>
+ <span data-panel='{"flow-children":"row"}'>
+  <a>
+   Action
+  </a>
+  ,
+  <a>
+   RPG
+  </a>
+  ,
+  <a>
+   Free To Play
+  </a>
+ </span>
+ <br/>
+ <div class="dev_row">
+  <b>
+   Developer:
+  </b>
+  <a>
+   Digital Extremes
+  </a>
+ </div>
+ <div class="dev_row">
+  <b>
+   Publisher:
+  </b>
+  <a>
+   Digital Extremes
+  </a>
+ </div>
+ <b>
+  Release Date:
+ </b>
+ Mar 25, 2013
+ <br/>
+</div>
+<br/>
+<br/>
+<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/230410/" width="850">
+</iframe>
+<br/>
+<br/>
+<div class="game_area_description" id="game_area_description">
+ <h2>
+  About This Game
+ </h2>
+ Confront warring factions throughout a sprawling interplanetary system as you follow the guidance of the mysterious Lotus and level up your Warframe, build an Arsenal of destructive firepower, and realize your true potential across massive open worlds in this thrilling, genre-defining third-person combat experience.
+ <h2 class="bb_tag">
+  BECOME A POWERFUL WARRIOR
+ </h2>
+ Enter your Warframe: a bio-metal suit of untold power. Unleash its Abilities and wield a vast array of devastating weaponry to effortlessly annihilate hordes of enemies on sight. And when the slaughter is over, you can earn or instantly unlock 60+ different Warframes - each with a unique suite of powers - to re-experience the mayhem any way you want.
+ <br/>
+ <br/>
+ <span class="bb_img_ctn">
+  <video autoplay="" class="bb_img" height="450" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/73ddf2644cb0c87a834f1a9ffbd3b30c.poster.avif?t=1793987416" width="1170">
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/73ddf2644cb0c87a834f1a9ffbd3b30c.webm?t=1793987416" type="video/webm; codecs=vp9"/>
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/73ddf2644cb0c87a834f1a9ffbd3b30c.mp4?t=1793987416" type="video/mp4"/>
+  </video>
+ </span>
+ <h2 class="bb_tag">
+  BATTLE ALONGSIDE FRIENDS
+ </h2>
+ Form a Squad with your friends and earn valuable bonus Rewards when you complete Missions together via highly collaborative, co-op gameplay. Utilize your Warframe’s Abilities to heal allies, redirect enemy fire, and achieve your objectives. Stuck on a particular challenge? In-game matchmaking makes it easy to connect with friendly Tenno whenever you need an extra hand.
+ <br/>
+ <br/>
+ <span class="bb_img_ctn">
+  <video autoplay="" class="bb_img" height="374" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/dd522dddaf414c6cd40c45640c0ffcf2.poster.avif?t=1793987416" width="1170">
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/dd522dddaf414c6cd40c45640c0ffcf2.webm?t=1793987416" type="video/webm; codecs=vp9"/>
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/dd522dddaf414c6cd40c45640c0ffcf2.mp4?t=1793987416" type="video/mp4"/>
+  </video>
+ </span>
+ <h2 class="bb_tag">
+  EXPLORE A MASSIVE SYSTEM
+ </h2>
+ Deftly maneuver through ground-based Missions with your Warframe’s mesmerizing parkour skills, or take to the stars and engage in massive ship-to-ship battles in your very own customizable spacecraft. Lose yourself within mysterious open-world landscapes and discover a system teeming with fascinating lifeforms - both friendly and hostile.
+ <br/>
+ <br/>
+ <span class="bb_img_ctn">
+  <video autoplay="" class="bb_img" height="374" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/a705e3e0794544fb7f024586265a97ac.poster.avif?t=1793987416" width="1170">
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/a705e3e0794544fb7f024586265a97ac.webm?t=1793987416" type="video/webm; codecs=vp9"/>
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/a705e3e0794544fb7f024586265a97ac.mp4?t=1793987416" type="video/mp4"/>
+  </video>
+ </span>
+ <h2 class="bb_tag">
+  DISCOVER AN EPIC STORY
+ </h2>
+ Marvel at the sweeping history of the Origin System as you experience Warframe’s massive cinematic narrative spanning 5 separate expansions and 30+ story-based Quests. Discover the power within and experience your first taste of invincibility with one of three original Warframes before you begin your journey, develop your skills and seek out the truth behind your awakening.
+ <br/>
+ <br/>
+ <span class="bb_img_ctn">
+  <video autoplay="" class="bb_img" height="374" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/ca62bf55651fa6eb44084d41fb99d02d.poster.avif?t=1793987416" width="1170">
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/ca62bf55651fa6eb44084d41fb99d02d.webm?t=1793987416" type="video/webm; codecs=vp9"/>
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/ca62bf55651fa6eb44084d41fb99d02d.mp4?t=1793987416" type="video/mp4"/>
+  </video>
+ </span>
+ <h2 class="bb_tag">
+  MASTER YOUR ARSENAL
+ </h2>
+ Your starter Weapons are just the beginning. Craft hundreds of destructive armaments, plus vehicles, Companions and more. Level them up and experiment until you find the right combination of gear that suits your unique playstyle. Fashion your weaponry for a fearsome look to compliment your custom-designed loadout.
+ <br/>
+ <br/>
+ <span class="bb_img_ctn">
+  <video autoplay="" class="bb_img" height="374" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/561010c8db9c6fe44fa023e43e90afa4.poster.avif?t=1793987416" width="1170">
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/561010c8db9c6fe44fa023e43e90afa4.webm?t=1793987416" type="video/webm; codecs=vp9"/>
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/561010c8db9c6fe44fa023e43e90afa4.mp4?t=1793987416" type="video/mp4"/>
+  </video>
+ </span>
+ <h2 class="bb_tag">
+  CUSTOMIZE ENDLESSLY
+ </h2>
+ Entering the Origin System means joining legions of friendly Tenno, each with their own personalized Warframes, Weapons and gear. With a staggering number of Customization options available to enhance your Loadout, designing the perfect look for your Warframe makes for an endlessly rewarding challenge for you and your Squad.
+ <br/>
+ <br/>
+ <span class="bb_img_ctn">
+  <video autoplay="" class="bb_img" height="450" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/64d4005ce21053eb07a2e85c9fc611a6.poster.avif?t=1793987416" width="1170">
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/64d4005ce21053eb07a2e85c9fc611a6.webm?t=1793987416" type="video/webm; codecs=vp9"/>
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/64d4005ce21053eb07a2e85c9fc611a6.mp4?t=1793987416" type="video/mp4"/>
+  </video>
+ </span>
+</div>
+<div class="game_area_description" id="game_area_content_descriptors">
+ <h2>
+  Mature Content Description
+ </h2>
+ <p>
+  The developers describe the content like this:
+ </p>
+ <p>
+  <i>
+   This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Frequent Violence or Gore, General Mature Content
+  </i>
+ </p>
+</div>
+<br/>
+<br/>
+<center>
+ <h2>
+  System Requirements
+ </h2>
+</center>
+<div class="ipsSpoiler_contents ipsClearfix">
+ <div class="ipsSpoiler" data-ipsspoiler="">
+  <div class="ipsSpoiler_contents ipsClearfix">
+   <center>
+    <h3>
+     Windows
+    </h3>
+   </center>
+   <div class="sys_req_container">
+    <div class="sys_req_full">
+     <ul>
+      <strong>
+       Minimum:
+      </strong>
+      <br/>
+      <ul class="bb_ul">
+       <li>
+        <strong>
+         OS *:
+        </strong>
+        Windows 7 64-Bit (32-bit not supported)
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Processor:
+        </strong>
+        Intel Core i7 860, Intel Core i5 750, or AMD FX-4100 (SSE 4.2 support required)
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Video:
+        </strong>
+        DirectX 11+ capable Graphics Card
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Memory:
+        </strong>
+        4 GB RAM
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Storage:
+        </strong>
+        75 GB available HD space
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Internet:
+        </strong>
+        Broadband Internet Connection Required
+       </li>
+      </ul>
+      <br/>
+      Note: There is no Mac or Linux client currently available.
+      <br/>
+      <br/>
+      DirectX 12 support requires at least Windows 10 20H2 (released in 2020) or Windows 11
+     </ul>
+    </div>
+    <div class="sys_req_note">
+     <strong>
+      *
+     </strong>
+     Starting January 1st, 2024, the Steam Client will only support Windows 10 and later versions.
+    </div>
+   </div>
+  </div>
+ </div>
+</div>
+<br/>
+<br/>
+<center>]]></description>
+      <content:encoded><![CDATA[<style>
+            .sys_req_container {
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 10px;
+            }
+            .sys_req_left_col, .sys_req_right_col {
+                flex: 1;
+                padding: 10px;
+                box-sizing: border-box;
+            }
+            .sys_req_left_col {
+                border-right: 1px solid #ccc;
+            }
+            .sys_req_right_col {
+                border-left: 1px solid #ccc;
+            }
+            .ipsQuote_citation, .ipsSpoiler_header {
+                display: flex;
+                justify-content: center;
+            }
+            .ipsSpoiler_header [data-action='toggleSpoiler'] {
+                margin-top: 1px;
+            }
+            [dir='ltr'] .ipsQuote, [dir='ltr'] .ipsSpoiler, [dir='ltr'] .ipsStyle_spoiler {
+                border-width: 0 4px 0 4px;
+            }
+            </style>
+    <div class="details_block" id="genresAndManufacturer">
+ <b>
+  Title:
+ </b>
+ Warframe
+ <br/>
+ <b>
+  Genre:
+ </b>
+ <span data-panel='{"flow-children":"row"}'>
+  <a>
+   Action
+  </a>
+  ,
+  <a>
+   RPG
+  </a>
+  ,
+  <a>
+   Free To Play
+  </a>
+ </span>
+ <br/>
+ <div class="dev_row">
+  <b>
+   Developer:
+  </b>
+  <a>
+   Digital Extremes
+  </a>
+ </div>
+ <div class="dev_row">
+  <b>
+   Publisher:
+  </b>
+  <a>
+   Digital Extremes
+  </a>
+ </div>
+ <b>
+  Release Date:
+ </b>
+ Mar 25, 2013
+ <br/>
+</div>
+<br/>
+<br/>
+<iframe frameborder="0" height="200" src="https://store.steampowered.com/widget/230410/" width="850">
+</iframe>
+<br/>
+<br/>
+<div class="game_area_description" id="game_area_description">
+ <h2>
+  About This Game
+ </h2>
+ Confront warring factions throughout a sprawling interplanetary system as you follow the guidance of the mysterious Lotus and level up your Warframe, build an Arsenal of destructive firepower, and realize your true potential across massive open worlds in this thrilling, genre-defining third-person combat experience.
+ <h2 class="bb_tag">
+  BECOME A POWERFUL WARRIOR
+ </h2>
+ Enter your Warframe: a bio-metal suit of untold power. Unleash its Abilities and wield a vast array of devastating weaponry to effortlessly annihilate hordes of enemies on sight. And when the slaughter is over, you can earn or instantly unlock 60+ different Warframes - each with a unique suite of powers - to re-experience the mayhem any way you want.
+ <br/>
+ <br/>
+ <span class="bb_img_ctn">
+  <video autoplay="" class="bb_img" height="450" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/73ddf2644cb0c87a834f1a9ffbd3b30c.poster.avif?t=1793987416" width="1170">
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/73ddf2644cb0c87a834f1a9ffbd3b30c.webm?t=1793987416" type="video/webm; codecs=vp9"/>
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/73ddf2644cb0c87a834f1a9ffbd3b30c.mp4?t=1793987416" type="video/mp4"/>
+  </video>
+ </span>
+ <h2 class="bb_tag">
+  BATTLE ALONGSIDE FRIENDS
+ </h2>
+ Form a Squad with your friends and earn valuable bonus Rewards when you complete Missions together via highly collaborative, co-op gameplay. Utilize your Warframe’s Abilities to heal allies, redirect enemy fire, and achieve your objectives. Stuck on a particular challenge? In-game matchmaking makes it easy to connect with friendly Tenno whenever you need an extra hand.
+ <br/>
+ <br/>
+ <span class="bb_img_ctn">
+  <video autoplay="" class="bb_img" height="374" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/dd522dddaf414c6cd40c45640c0ffcf2.poster.avif?t=1793987416" width="1170">
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/dd522dddaf414c6cd40c45640c0ffcf2.webm?t=1793987416" type="video/webm; codecs=vp9"/>
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/dd522dddaf414c6cd40c45640c0ffcf2.mp4?t=1793987416" type="video/mp4"/>
+  </video>
+ </span>
+ <h2 class="bb_tag">
+  EXPLORE A MASSIVE SYSTEM
+ </h2>
+ Deftly maneuver through ground-based Missions with your Warframe’s mesmerizing parkour skills, or take to the stars and engage in massive ship-to-ship battles in your very own customizable spacecraft. Lose yourself within mysterious open-world landscapes and discover a system teeming with fascinating lifeforms - both friendly and hostile.
+ <br/>
+ <br/>
+ <span class="bb_img_ctn">
+  <video autoplay="" class="bb_img" height="374" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/a705e3e0794544fb7f024586265a97ac.poster.avif?t=1793987416" width="1170">
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/a705e3e0794544fb7f024586265a97ac.webm?t=1793987416" type="video/webm; codecs=vp9"/>
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/a705e3e0794544fb7f024586265a97ac.mp4?t=1793987416" type="video/mp4"/>
+  </video>
+ </span>
+ <h2 class="bb_tag">
+  DISCOVER AN EPIC STORY
+ </h2>
+ Marvel at the sweeping history of the Origin System as you experience Warframe’s massive cinematic narrative spanning 5 separate expansions and 30+ story-based Quests. Discover the power within and experience your first taste of invincibility with one of three original Warframes before you begin your journey, develop your skills and seek out the truth behind your awakening.
+ <br/>
+ <br/>
+ <span class="bb_img_ctn">
+  <video autoplay="" class="bb_img" height="374" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/ca62bf55651fa6eb44084d41fb99d02d.poster.avif?t=1793987416" width="1170">
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/ca62bf55651fa6eb44084d41fb99d02d.webm?t=1793987416" type="video/webm; codecs=vp9"/>
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/ca62bf55651fa6eb44084d41fb99d02d.mp4?t=1793987416" type="video/mp4"/>
+  </video>
+ </span>
+ <h2 class="bb_tag">
+  MASTER YOUR ARSENAL
+ </h2>
+ Your starter Weapons are just the beginning. Craft hundreds of destructive armaments, plus vehicles, Companions and more. Level them up and experiment until you find the right combination of gear that suits your unique playstyle. Fashion your weaponry for a fearsome look to compliment your custom-designed loadout.
+ <br/>
+ <br/>
+ <span class="bb_img_ctn">
+  <video autoplay="" class="bb_img" height="374" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/561010c8db9c6fe44fa023e43e90afa4.poster.avif?t=1793987416" width="1170">
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/561010c8db9c6fe44fa023e43e90afa4.webm?t=1793987416" type="video/webm; codecs=vp9"/>
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/561010c8db9c6fe44fa023e43e90afa4.mp4?t=1793987416" type="video/mp4"/>
+  </video>
+ </span>
+ <h2 class="bb_tag">
+  CUSTOMIZE ENDLESSLY
+ </h2>
+ Entering the Origin System means joining legions of friendly Tenno, each with their own personalized Warframes, Weapons and gear. With a staggering number of Customization options available to enhance your Loadout, designing the perfect look for your Warframe makes for an endlessly rewarding challenge for you and your Squad.
+ <br/>
+ <br/>
+ <span class="bb_img_ctn">
+  <video autoplay="" class="bb_img" height="450" loop="" muted="" playsinline="" poster="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/64d4005ce21053eb07a2e85c9fc611a6.poster.avif?t=1793987416" width="1170">
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/64d4005ce21053eb07a2e85c9fc611a6.webm?t=1793987416" type="video/webm; codecs=vp9"/>
+   <source src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/230410/extras/64d4005ce21053eb07a2e85c9fc611a6.mp4?t=1793987416" type="video/mp4"/>
+  </video>
+ </span>
+</div>
+<div class="game_area_description" id="game_area_content_descriptors">
+ <h2>
+  Mature Content Description
+ </h2>
+ <p>
+  The developers describe the content like this:
+ </p>
+ <p>
+  <i>
+   This Game may contain content not appropriate for all ages, or may not be appropriate for viewing at work: Frequent Violence or Gore, General Mature Content
+  </i>
+ </p>
+</div>
+<br/>
+<br/>
+<center>
+ <h2>
+  System Requirements
+ </h2>
+</center>
+<div class="ipsSpoiler_contents ipsClearfix">
+ <div class="ipsSpoiler" data-ipsspoiler="">
+  <div class="ipsSpoiler_contents ipsClearfix">
+   <center>
+    <h3>
+     Windows
+    </h3>
+   </center>
+   <div class="sys_req_container">
+    <div class="sys_req_full">
+     <ul>
+      <strong>
+       Minimum:
+      </strong>
+      <br/>
+      <ul class="bb_ul">
+       <li>
+        <strong>
+         OS *:
+        </strong>
+        Windows 7 64-Bit (32-bit not supported)
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Processor:
+        </strong>
+        Intel Core i7 860, Intel Core i5 750, or AMD FX-4100 (SSE 4.2 support required)
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Video:
+        </strong>
+        DirectX 11+ capable Graphics Card
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Memory:
+        </strong>
+        4 GB RAM
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Storage:
+        </strong>
+        75 GB available HD space
+        <br/>
+       </li>
+       <li>
+        <strong>
+         Internet:
+        </strong>
+        Broadband Internet Connection Required
+       </li>
+      </ul>
+      <br/>
+      Note: There is no Mac or Linux client currently available.
+      <br/>
+      <br/>
+      DirectX 12 support requires at least Windows 10 20H2 (released in 2020) or Windows 11
+     </ul>
+    </div>
+    <div class="sys_req_note">
+     <strong>
+      *
+     </strong>
+     Starting January 1st, 2024, the Steam Client will only support Windows 10 and later versions.
     </div>
    </div>
   </div>
